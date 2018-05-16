@@ -7,6 +7,10 @@
 #curl https://www.cdc.gov/wcms/opendata/data.json --output data/wcms.opendata.data.json
 #curl https://www.healthdata.gov/data.json --output data/hhs.data.json
 
+#HHS escapes all their slashes and this is bad for comparing identifiers since CDC uses URIs with https:// addresses, so I need to replace \/ with /
+#running it through echo -n because sed on OSX is adding a trailing newline
+echo -n `cat data/hhs.data.json | sed "s/\\\//\//g"` > data/hhs.data-clean.json
+
 echo "https://data.cdc.gov/data.json aka \"Main\" has this many datasets"
 jq ".dataset | length" data/cdc.gov.data.json
 jq ".dataset[].title" data/cdc.gov.data.json |wc
