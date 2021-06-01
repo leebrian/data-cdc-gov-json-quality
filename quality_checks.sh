@@ -2,10 +2,8 @@
 #Quality checks to review the data.json file for cdc.gov
 #depends on jq1.5+
 
-#There's one proper file https://data.cdc.gov/data.json, but then there's another file, https://www.cdc.gov/wcms/opendata/data.json that no one knows who makes it, but HHS harvests it anyway
-#curl https://data.cdc.gov/data.json --output data/cdc.gov.data.json
-#curl https://www.cdc.gov/wcms/opendata/data.json --output data/wcms.opendata.data.json
-#curl https://www.healthdata.gov/data.json --output data/hhs.data.json
+#There's one proper file https://data.cdc.gov/data.json, but then there's another file, https://www.cdc.gov/wcms/opendata/data.json that no one knows who makes it, but HHS harvests it anyway, I don't remember why I don't check this in, I think it's because I don't care so much what happens over time to it and it's not really a file I work on.
+curl -Ls https://www.cdc.gov/wcms/opendata/data.json --output data/wcms.opendata.data.json
 
 #HHS escapes all their slashes and this is bad for comparing identifiers since CDC uses URIs with https:// addresses, so I need to replace \/ with /
 #running it through echo -n because sed on OSX is adding a trailing newline
