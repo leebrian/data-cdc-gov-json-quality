@@ -21,7 +21,7 @@ jq ".dataset | length" data/wcms.opendata.data.json
 jq ".dataset[].title" data/wcms.opendata.data.json |wc
 
 echo "https://www.healthdata.gov/data.json aka \"HHS\" has this many datasets from CDC"
-jq ".dataset[] | select((.publisher.name==\"Centers for Disease Control and Prevention\") or (.publisher.name==\"Centers for Disease Control and Prevention, Department of Health &amp; Human Services\")).title" data/hhs.data.json|wc
+jq ".dataset[] | select((.publisher.name==\"Centers for Disease Control and Prevention\") or (.publisher.name==\"Centers for Disease Control and Prevention, Department of Health &amp; Human Services\")).title" data/hhs.gov.data.json|wc
 
 echo -e "\nMain has these unique bureauCodes"
 jq ".dataset[].bureauCode" data/cdc.gov.data.json -c|sort|uniq
