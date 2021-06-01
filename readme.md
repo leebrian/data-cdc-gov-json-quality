@@ -4,6 +4,7 @@ Automated quality checks for the cdc.gov data.json. Personal project, but figure
 To figure out differences in the data catalog over time, I pull down a copy of the hhs and cdc data jsons every once in a while. Storing a prettified version so it's easier to diff. 
 
 #todo - one day add a dependency to use jsondiff to save git space
+#todo -  schedule this in github actions to grab the file once a week or something
 
 This repository was created for use by CDC programs to collaborate on public health surveillance related projects in support of the CDC Surveillance Strategy.  Github is not hosted by the CDC, but is used by CDC and its partners to share information and collaborate on software.
   
