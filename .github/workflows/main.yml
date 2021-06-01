@@ -1,0 +1,33 @@
+# Grab data.json and code.json files and add them to repo
+
+name: CI
+
+# I thnk that means at 5am every sunday morning
+on:
+  schedule:
+    - cron: '0 5 * * 0'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+
+  fetch_data_files:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a set of commands using the runners shell
+      - name: Fetch files, check them...
+        run: |
+          fetch_data_json.sh
+          quality-checks.sh
+
+      - name: Update repo
+        run: |
+          git commit -am "recently fetched data and code json files"
+          git push
