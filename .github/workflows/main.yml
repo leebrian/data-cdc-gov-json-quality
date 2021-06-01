@@ -1,6 +1,6 @@
 # Grab data.json and code.json files and add them to repo
 
-name: CI
+name: fetch_data
 
 # I thnk that means at 5am every sunday morning
 on:
@@ -24,8 +24,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Fetch files, check them...
         run: |
-          fetch_data_json.sh
-          quality-checks.sh
+          ls -alh
+          ./fetch_data_json.sh
+          ./quality-checks.sh
 
       - name: Update repo
         run: |
