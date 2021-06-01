@@ -33,6 +33,6 @@ jobs:
         run: |
           git config user.email "brians_robot@prepend.com"
           git config user.name "brian's robot"
-	  git status
+          git status
           git commit -am "recently fetched data and code json files"
           git push
