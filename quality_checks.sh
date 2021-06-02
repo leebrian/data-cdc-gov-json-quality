@@ -39,8 +39,6 @@ do
     if [ -n "$MATCH" ]
     then
         (( COUNTER_MATCH++ ))
-        #echo "MATCH"
-        #echo $MATCH
     else
         (( COUNTER_NOMATCH++ ))
         echo "NO MATCH"
@@ -53,6 +51,49 @@ echo $COUNTER_MATCH "matches"
 echo $COUNTER_NOMATCH "no matches"
 }
 
+echo -e "\nLoop through all the landingPages in Main them and see if any of them are missing in HHS, printing out landing pages that don't match. This is weird and should be investigated."
+jq ".dataset[].landingPage" data/cdc.gov.data.json -r | { 
+while read -r landingPage
+do
+    
+    #echo $title
+    MATCH=`jq ".dataset[] | select(.landingPage==\"$landingPage\").landingPage" data/hhs.gov.data.json`
+    if [ -n "$MATCH" ]
+    then
+        (( COUNTER_MATCH++ ))
+    else
+        (( COUNTER_NOMATCH++ ))
+        echo "NO MATCH"
+        echo $landingPage
+        echo "Also, here's the identifier, so you can check to see if it's in HHS"
+        jq ".dataset[] | select(.landingPage==\"$landingPage\").identifier" data/cdc.gov.data.json
+    fi
+done
+echo $COUNTER_MATCH "matches"
+echo $COUNTER_NOMATCH "no matches"
+}
+
+echo -e "\nLoop through all the landingPages in HHS where CDC is the publisher see if any of them are missing in Main, printing out landing pages that don't match. This is weird and should be investigated."
+jq ".dataset[] | select((.publisher.name==\"Centers for Disease Control and Prevention\") or (.publisher.name==\"Centers for Disease Control and Prevention, Department of Health &amp; Human Services\")).landingPage" data/hhs.gov.data.json -r | { 
+while read -r landingPage
+do
+    
+    #echo $title
+    MATCH=`jq ".dataset[] | select(.landingPage==\"$landingPage\").landingPage" data/cdc.gov.data.json`
+    if [ -n "$MATCH" ]
+    then
+        (( COUNTER_MATCH++ ))
+    else
+        (( COUNTER_NOMATCH++ ))
+        echo "NO MATCH"
+        echo $landingPage
+        echo "Also, here's the identifier, so you can check to see if it's in HHS"
+        jq ".dataset[] | select(.landingPage==\"$landingPage\").identifier" data/hhs.gov.data.json
+    fi
+done
+echo $COUNTER_MATCH "matches"
+echo $COUNTER_NOMATCH "no matches"
+}
 
 
 #as of 5/6 healthdata.gov shows 506 datasets for CDC, this jsonpath
