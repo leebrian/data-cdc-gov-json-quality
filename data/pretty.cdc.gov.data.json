@@ -782,13 +782,103 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/2m93-xvra",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-06-07",
+            "@type": "dcat:Dataset",
+            "temporal": "1997-1999, 2016-2019",
+            "modified": "2021-06-08",
+            "keyword": [
+                "african americans",
+                "age",
+                "alaskan natives",
+                "allergy",
+                "american natives",
+                "asian continental ancestry group",
+                "asthma",
+                "attention deficit/hyperactivity disorder",
+                "child",
+                "continental population groups",
+                "ear diseases",
+                "ear infection",
+                "emotional or behavioral difficulties",
+                "european continental ancestry group",
+                "food",
+                "health",
+                "health us",
+                "hispanic americans",
+                "hypersensitivity",
+                "insurance",
+                "medicaid",
+                "medically uninsured",
+                "mental health",
+                "oceanic ancestry group",
+                "poverty",
+                "respiratory tract diseases",
+                "sex",
+                "skin"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:healthus@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/2m93-xvra",
+            "description": "Data on health conditions among children under age 18, by selected population characteristics. Please refer to the PDF or Excel version of this table in the HUS 2019 Data Finder (https://www.cdc.gov/nchs/hus/contents2019.htm) for critical information about measures, definitions, and changes over time.\n\nSOURCE: NCHS, National Health Interview Survey, Family Core and Sample Child questionnaires.  For more information on the National Health Interview Survey, see the corresponding Appendix entry at https://www.cdc.gov/nchs/data/hus/hus19-appendix-508.pdf.",
+            "title": "Health conditions among children under age 18, by selected characteristics: United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/2m93-xvra/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/2m93-xvra/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2m93-xvra/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/2m93-xvra/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2m93-xvra/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/2m93-xvra/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2m93-xvra/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Annually",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/2qxe-cmv4",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "hepatitis c",
@@ -1047,7 +1137,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "nedss",
@@ -1835,6 +1925,81 @@
             ],
             "theme": [
                 "Health Consequences and Costs"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/3nzu-udr9",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-06-02",
+            "temporal": "1988-1994, 2015-2019",
+            "@type": "dcat:Dataset",
+            "modified": "2021-06-08",
+            "keyword": [
+                "adult",
+                "african americans",
+                "age",
+                "asian continental ancestry group",
+                "chronic conditions",
+                "continental population groups",
+                "european continental ancestry group",
+                "health risk factors",
+                "health us",
+                "hispanic americans",
+                "obesity",
+                "overweight",
+                "poverty",
+                "sex"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:healthus@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/3nzu-udr9",
+            "description": "Data on normal weight, overweight, and obesity among adults aged 20 and over by selected population characteristics. Please refer to the PDF or Excel version of this table in the HUS 2019 Data Finder (https://www.cdc.gov/nchs/hus/contents2019.htm) for critical information about measures, definitions, and changes over time. \n\nSOURCE: NCHS, National Health and Nutrition Examination Survey. For more information on the National Health and Nutrition Examination Survey, see the corresponding Appendix entry at https://www.cdc.gov/nchs/data/hus/hus19-appendix-508.pdf.",
+            "title": "Normal weight, overweight, and obesity among adults aged 20 and over, by selected characteristics: United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/3nzu-udr9/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/3nzu-udr9/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3nzu-udr9/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/3nzu-udr9/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3nzu-udr9/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/3nzu-udr9/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3nzu-udr9/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Annually",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -3503,7 +3668,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "age",
                 "age group",
@@ -5880,7 +6045,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "cholera",
@@ -6110,7 +6275,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "nedss",
@@ -6822,7 +6987,7 @@
             ],
             "issued": "2021-03-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2021-06-15",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -7610,7 +7775,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -8136,7 +8301,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "nedss",
@@ -9001,7 +9166,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "ehrlichia ewingii infection",
@@ -9461,7 +9626,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-02",
+            "modified": "2021-06-16",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -9722,8 +9887,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-06-12",
-            "modified": "2021-06-12",
+            "temporal": "2020-12-13/2021-06-19",
+            "modified": "2021-06-19",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -10047,6 +10212,86 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/95ax-ymtc",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-06-07",
+            "@type": "dcat:Dataset",
+            "temporal": "1999\u20132019",
+            "modified": "2021-06-16",
+            "keyword": [
+                "african americans",
+                "age",
+                "alaskan natives",
+                "american natives",
+                "analgesics",
+                "asian continental ancestry group",
+                "continental population groups",
+                "death",
+                "drug overdose",
+                "european continental ancestry group",
+                "health us",
+                "heroin",
+                "hispanic americans",
+                "injury",
+                "methadone",
+                "mortality",
+                "opioid",
+                "sex"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:healthus@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/95ax-ymtc",
+            "description": "Data on drug overdose death rates, by drug type and selected population characteristics. Please refer to the PDF or Excel version of this table in the HUS 2019 Data Finder (https://www.cdc.gov/nchs/hus/contents2019.htm) for critical information about measures, definitions, and changes over time. \n\nSOURCE: NCHS, National Vital Statistics System, numerator data from annual public-use Mortality Files; denominator data from U.S. Census Bureau national population estimates; and Murphy SL, Xu JQ, Kochanek KD, Arias E, Tejada-Vera B. Deaths: Final data for 2018. National Vital Statistics Reports; vol 69 no 13. Hyattsville, MD: National Center for Health Statistics.2021. Available from: https://www.cdc.gov/nchs/products/nvsr.htm. For more information on the National Vital Statistics System, see the corresponding Appendix entry at https://www.cdc.gov/nchs/data/hus/hus19-appendix-508.pdf.",
+            "title": "Drug overdose death rates, by drug type, sex, age, race, and Hispanic origin: United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/95ax-ymtc/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/95ax-ymtc/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/95ax-ymtc/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/95ax-ymtc/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/95ax-ymtc/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/95ax-ymtc/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/95ax-ymtc/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Annually",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/97tt-n3j3",
             "bureauCode": [
                 "009:00"
@@ -10119,7 +10364,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "cryptosporidiosis",
@@ -10250,7 +10495,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "animal",
@@ -10316,7 +10561,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "dengue",
@@ -10383,7 +10628,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "age",
                 "age group",
@@ -10527,7 +10772,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "anaplasma phagocytophilum infection",
@@ -10593,7 +10838,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -10742,6 +10987,84 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/9gay-j69q",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-06-02",
+            "@type": "dcat:Dataset",
+            "temporal": "1988-1994, 2015-2019",
+            "modified": "2021-06-08",
+            "keyword": [
+                "adolescent",
+                "adult",
+                "african americans",
+                "age",
+                "asian continental ancestry group",
+                "child",
+                "chronic conditions",
+                "continental population groups",
+                "european continental ancestry group",
+                "health risk factors",
+                "health us",
+                "hispanic americans",
+                "obesity",
+                "overweight",
+                "poverty",
+                "sex"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:healthus@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/9gay-j69q",
+            "description": "Data on obesity among children and adolescents aged 2-19 years by selected population characteristics. Please refer to the PDF or Excel version of this table in the HUS 2019 Data Finder (https://www.cdc.gov/nchs/hus/contents2019.htm) for critical information about measures, definitions, and changes over time. \n\nSOURCE: NCHS, National Health and Nutrition Examination Survey. For more information on the National Health and Nutrition Examination Survey, see the corresponding Appendix entry at https://www.cdc.gov/nchs/data/hus/hus19-appendix-508.pdf.",
+            "title": "Obesity among children and adolescents aged 2\u201319 years, by selected characteristics: United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/9gay-j69q/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9gay-j69q/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9gay-j69q/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/9gay-j69q/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9gay-j69q/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9gay-j69q/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9gay-j69q/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Annually",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/9gny-cbhc",
             "bureauCode": [
                 "009:00"
@@ -10815,7 +11138,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -10942,13 +11265,91 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/9j2v-jamp",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-06-07",
+            "@type": "dcat:Dataset",
+            "temporal": "1950-2019",
+            "modified": "2021-06-08",
+            "keyword": [
+                "african americans",
+                "age",
+                "alaskan natives",
+                "american natives",
+                "asian continental ancestry group",
+                "continental population groups",
+                "death",
+                "deaths",
+                "european continental ancestry group",
+                "health us",
+                "hispanic americans",
+                "injury",
+                "mental health",
+                "mortality",
+                "sex",
+                "suicide"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:healthus@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/9j2v-jamp",
+            "description": "Data on death rates for suicide, by selected population characteristics. Please refer to the PDF or Excel version of this table in the HUS 2019 Data Finder (https://www.cdc.gov/nchs/hus/contents2019.htm) for critical information about measures, definitions, and changes over time. \n\nSOURCE: NCHS, National  Vital Statistics System (NVSS); Grove RD, Hetzel AM. Vital statistics rates in the United States, 1940\u20131960. National Center for Health Statistics. 1968; numerator data from NVSS annual public-use Mortality Files; denominator data from U.S. Census Bureau national population estimates; and Murphy SL, Xu JQ, Kochanek KD, Arias E, Tejada-Vera B. Deaths: Final data for 2018. National Vital Statistics Reports; vol 69 no 13. Hyattsville, MD: National Center for Health Statistics. 2021. Available from: https://www.cdc.gov/nchs/products/nvsr.htm. For more information on the National Vital Statistics System, see the corresponding Appendix entry at https://www.cdc.gov/nchs/data/hus/hus19-appendix-508.pdf.",
+            "title": "Death rates for suicide, by sex, race, Hispanic origin, and age: United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/9j2v-jamp/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9j2v-jamp/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9j2v-jamp/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/9j2v-jamp/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9j2v-jamp/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9j2v-jamp/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9j2v-jamp/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Annually",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/9k8a-cbgx",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "imported",
@@ -11015,7 +11416,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "brucellosis",
@@ -11151,7 +11552,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2021-06-12",
+            "modified": "2021-06-18",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -11545,7 +11946,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "nedss",
@@ -13590,7 +13991,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-17",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -14875,7 +15276,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "hansen's disease",
@@ -15160,7 +15561,7 @@
             ],
             "issued": "2021-04-09",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-17",
+            "modified": "2021-06-17",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -15593,7 +15994,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "nedss",
@@ -16654,7 +17055,7 @@
             ],
             "issued": "2021-05-13",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-17",
+            "modified": "2021-06-17",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -16670,7 +17071,7 @@
                 "name": "HHS/ASPE"
             },
             "identifier": "https://data.cdc.gov/api/views/djj9-kh3p",
-            "description": "Due to the change in the survey instrument regarding intention to vaccinate, our estimates for \u201chesitant or unsure\u201d or \u201chesitant\u201d derived from April 14-26, 2021, are not directly comparable with prior Household Pulse Survey data and should not be used to examine trends in hesitancy.\n\nTo support state and local communication and outreach efforts, ASPE developed state, county, and sub-state level predictions of hesitancy rates(https://aspe.hhs.gov/pdf-report/vaccine-hesitancy) using the most recently available federal survey data.\n\nWe estimate hesitancy rates at the state level using the U.S. Census Bureau\u2019s Household Pulse Survey (HPS)(https://www.census.gov/programs-surveys/household-pulse-survey.html) data and utilize the estimated values to predict hesitancy rates in more granular areas using the Census Bureau\u2019s 2019 American Community Survey (ACS) 1-year Public Use Microdata Sample (PUMS)(https://www.census.gov/programs-surveys/acs/microdata.html). Public Use Microdata Areas (PUMA) level \u2013 PUMAs are geographic areas within each state that contain no fewer than 100,000 people. PUMAs can consist of part of a single densely populated county or can combine parts or all of multiple counties that are less densely populated.\n\nThe HPS is nationally representative and includes information on U.S. residents\u2019 intentions to receive the COVID-19 vaccine when available, as well as other sociodemographic and geographic (state, region and metropolitan statistical areas) information. The ACS is a nationally representative survey, and it provides key sociodemographic and geographic (state, region, PUMAs, county) information. We utilized data for the survey collection period April 14, 2021 \u2013 April 26, 2021, which the HPS refers to as Week 28.\n\n\nCounty and State Hesitancy Data - https://data.cdc.gov/Vaccinations/Vaccine-Hesitancy-for-COVID-19-County-and-local-es/q9mh-h2tw",
+            "description": "Due to the change in the survey instrument regarding intention to vaccinate, our estimates for \u201chesitant or unsure\u201d or \u201chesitant\u201d derived from April 14-26, 2021, are not directly comparable with prior Household Pulse Survey data and should not be used to examine trends in hesitancy.\n\nTo support state and local communication and outreach efforts, ASPE developed state, county, and sub-state level predictions of hesitancy rates(https://aspe.hhs.gov/pdf-report/vaccine-hesitancy) using the most recently available federal survey data.\n\nWe estimate hesitancy rates at the state level using the U.S. Census Bureau\u2019s Household Pulse Survey (HPS)(https://www.census.gov/programs-surveys/household-pulse-survey.html) data and utilize the estimated values to predict hesitancy rates in more granular areas using the Census Bureau\u2019s 2019 American Community Survey (ACS) 1-year Public Use Microdata Sample (PUMS)(https://www.census.gov/programs-surveys/acs/microdata.html). Public Use Microdata Areas (PUMA) level \u2013 PUMAs are geographic areas within each state that contain no fewer than 100,000 people. PUMAs can consist of part of a single densely populated county or can combine parts or all of multiple counties that are less densely populated.\n\nThe HPS is nationally representative and includes information on U.S. residents\u2019 intentions to receive the COVID-19 vaccine when available, as well as other sociodemographic and geographic (state, region and metropolitan statistical areas) information. The ACS is a nationally representative survey, and it provides key sociodemographic and geographic (state, region, PUMAs, county) information. We utilized data for the survey collection period May 26, 2021 \u2013 June 7, 2021, which the HPS refers to as Week 31.\n\n\nCounty and State Hesitancy Data - https://data.cdc.gov/Vaccinations/Vaccine-Hesitancy-for-COVID-19-County-and-local-es/q9mh-h2tw",
             "title": "Vaccine Hesitancy for COVID-19: Public Use Microdata Areas (PUMAs)",
             "programCode": [
                 "009:020"
@@ -16810,6 +17211,87 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/dmzy-x2ad",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-06-07",
+            "@type": "dcat:Dataset",
+            "temporal": "1997-2018",
+            "modified": "2021-06-08",
+            "keyword": [
+                "african americans",
+                "age",
+                "alaskan natives",
+                "american natives",
+                "asian continental ancestry group",
+                "continental population groups",
+                "dental care",
+                "european continental ancestry group",
+                "health insurance",
+                "health us",
+                "hispanic americans",
+                "medicaid",
+                "medically uninsured",
+                "oceanic ancestry group",
+                "poverty",
+                "prescription drugs",
+                "prescriptions",
+                "schools",
+                "sex"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:healthus@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/dmzy-x2ad",
+            "description": "Data on delay or nonreceipt of needed medical care, nonreceipt of needed prescription drugs, or nonreceipt of needed dental care during the past 12 months due to cost by selected population characteristics. Please refer to the PDF or Excel version of this table in the HUS 2019 Data Finder (https://www.cdc.gov/nchs/hus/contents2019.htm) for critical information about measures, definitions, and changes over time. \n\nSOURCE: NCHS, National Health Interview Survey, Family Core, Sample Child, and Sample Adult questionnaires. Data for level of difficulty are from the 2010 Quality of Life, 2011-2017 Functioning and Disability, and 2018 Sample Adult questionnaires. For more information on the National Health Interview Survey, see the corresponding Appendix entry at https://www.cdc.gov/nchs/data/hus/hus19-appendix-508.pdf.",
+            "title": "Delay or nonreceipt of needed medical care, prescription drugs, or dental care during the past 12 months due to cost: United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/dmzy-x2ad/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/dmzy-x2ad/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/dmzy-x2ad/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/dmzy-x2ad/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/dmzy-x2ad/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/dmzy-x2ad/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/dmzy-x2ad/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Annually",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/dnxe-zgxs",
             "bureauCode": [
                 "009:20"
@@ -16898,7 +17380,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "age <5 years serotype b",
@@ -17425,9 +17907,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2019-11-21",
+            "issued": "2021-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-05",
+            "modified": "2021-06-18",
             "references": [
                 "https://www.resdac.org",
                 "https://www.cdc.gov/visionhealth/vehss/data/claims/medicare.html"
@@ -17450,8 +17932,8 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/e28h-tx85",
-            "description": "2014, 2015, 2016, 2017. This dataset is a de-identified summary table of vision and eye health data indicators from Medicare claims, stratified by all available combinations of age group, race/ethnicity, gender, and state. Medicare claims for VEHSS includes beneficiaries who were fully enrolled in Medicare Part B Fee-for-Service (FFS) for the duration of the year. Medicare claims provide a convenience sample that includes approximately 30 million individuals annually, which represents nearly 89% of the US population aged 65 and older and 3.3% of the US population younger than 65, including persons disabled due to blindness. Medicare data for VEHSS include Service Utilization and Medical Diagnoses indicators. Data were suppressed for de-identification to ensure protection of patient privacy. Data will be updated as it becomes available. Detailed information on VEHSS Medicare analyses can be found on the VEHSS Medicare webpage (cdc.gov/visionhealth/vehss/data/claims/medicare.html). Information on available Medicare claims data can be found on the ResDac website (www.resdac.org). The VEHSS Medicare dataset was last updated November 2019.",
-            "title": "Medicare claims \u2013 Vision and Eye Health Surveillance",
+            "description": "2014, 2015, 2016, 2017, 2018. This dataset is a de-identified summary table of vision and eye health data indicators from Medicare claims, stratified by all available combinations of age group, race/ethnicity, gender, and state. Medicare claims for VEHSS includes beneficiaries who were fully enrolled in Medicare Part B Fee-for-Service (FFS) for the duration of the year. Medicare claims provide a convenience sample that includes approximately 30 million individuals annually, which represents nearly 89% of the US population aged 65 and older and 3.3% of the US population younger than 65, including persons disabled due to blindness. Medicare data for VEHSS include Service Utilization and Medical Diagnoses indicators. Data were suppressed for de-identification to ensure protection of patient privacy. Data will be updated as it becomes available. Detailed information on VEHSS Medicare analyses can be found on the VEHSS Medicare webpage (cdc.gov/visionhealth/vehss/data/claims/medicare.html). Information on available Medicare claims data can be found on the ResDac website (www.resdac.org). The VEHSS Medicare dataset was last updated November 2019.",
+            "title": "Medicare Claims \u2013 Vision and Eye Health Surveillance",
             "programCode": [
                 "009:020"
             ],
@@ -18585,7 +19067,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "age <5 years",
@@ -19584,7 +20066,7 @@
             ],
             "issued": "2018-12-11",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-21",
+            "modified": "2021-06-16",
             "references": [
                 "https://chronicdata.cdc.gov/d/sgg4-hiwe"
             ],
@@ -21467,7 +21949,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -21708,7 +22190,7 @@
             ],
             "issued": "2021-05-05",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-02",
+            "modified": "2021-06-16",
             "keyword": [
                 "covid-19",
                 "telemedicine"
@@ -21957,7 +22439,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "all serogroups",
@@ -22556,7 +23038,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -22654,7 +23136,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -22726,7 +23208,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -22792,7 +23274,7 @@
             ],
             "issued": "2018-07-31",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-04",
+            "modified": "2021-06-16",
             "keyword": [
                 "birth",
                 "deaths",
@@ -23188,7 +23670,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -24570,7 +25052,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "nedss",
@@ -25097,7 +25579,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-02",
+            "modified": "2021-06-16",
             "keyword": [
                 "covid-19",
                 "private coverage",
@@ -25265,9 +25747,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-05-20",
+            "issued": "2021-06-17",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-26",
+            "modified": "2021-06-17",
             "keyword": [
                 "age",
                 "age group",
@@ -25297,7 +25779,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/jqg8-ycmh",
-            "description": "Quarterly data on the number of deaths from all causes by state (of occurrence), sex, age group, and race/Hispanic origin group for the United States. Counts of deaths in more recent time periods can be compared with counts from earlier years (2015-2019) to determine if the number is higher than expected.",
+            "description": "Quarterly data on the number of deaths from all causes by state (of occurrence), sex, age group, and race/Hispanic origin group for the United States. Counts of deaths in more recent time periods can be compared with counts from earlier years (2015-2019) to determine if the number is higher than expected. Annual and cumulative counts (from Quarter 2, 2020 through the most recent quarter) are also shown.",
             "title": "AH Quarterly Excess Deaths by State, Sex, Age, and Race",
             "programCode": [
                 "009:020"
@@ -25413,7 +25895,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "meningococcal disease",
@@ -25479,7 +25961,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "anthrax",
@@ -25609,7 +26091,7 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "age",
                 "age group",
@@ -26412,7 +26894,7 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -26583,7 +27065,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "nedss",
@@ -26851,7 +27333,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-17",
             "keyword": [
                 "cares act",
                 "health system",
@@ -27048,8 +27530,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-06-12",
-            "modified": "2021-06-12",
+            "temporal": "2020-12-13/2021-06-19",
+            "modified": "2021-06-19",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -27114,6 +27596,84 @@
             "accrualPeriodicity": "R/P1D",
             "theme": [
                 "Vaccinations"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/km5s-4339",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-06-02",
+            "@type": "dcat:Dataset",
+            "temporal": "1984-2019",
+            "modified": "2021-06-08",
+            "keyword": [
+                "african americans",
+                "age",
+                "alaskan natives",
+                "american natives",
+                "asian continental ancestry group",
+                "continental population groups",
+                "divorce",
+                "european continental ancestry group",
+                "health insurance",
+                "health us",
+                "hispanic americans",
+                "marital status",
+                "medicaid",
+                "oceanic ancestry group",
+                "poverty",
+                "sex"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:healthus@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/km5s-4339",
+            "description": "Data on Medicaid coverage among persons under age 65 by selected population characteristics. Please refer to the PDF or Excel version of this table in the HUS 2019 Data Finder (https://www.cdc.gov/nchs/hus/contents2019.htm) for critical information about measures, definitions, and changes over time. \n\nSOURCE: NCHS, National Health Interview Survey, health insurance supplements (1984, 1989, 1994-1996). Starting with 1997, data are from the family core and the sample adult questionnaires. Data for level of difficulty are from the 2010 Quality of Life, 2011-2017 Functioning and Disability, and 2018 Sample Adult questionnaires. For more information on the National Health Interview Survey, see the corresponding Appendix entry at https://www.cdc.gov/nchs/data/hus/hus19-appendix-508.pdf.",
+            "title": "Medicaid coverage among persons under age 65, by selected characteristics: United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/km5s-4339/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/km5s-4339/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/km5s-4339/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/km5s-4339/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/km5s-4339/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/km5s-4339/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/km5s-4339/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Annually",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -27258,7 +27818,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27453,7 +28013,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "age",
                 "age group",
@@ -28187,7 +28747,7 @@
             ],
             "issued": "2020-11-12",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-03",
+            "modified": "2021-06-16",
             "keyword": [
                 "age",
                 "age group",
@@ -28544,7 +29104,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "nedss",
@@ -29268,7 +29828,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "all ages",
@@ -29395,7 +29955,7 @@
             ],
             "issued": "2020-07-08",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -29808,7 +30368,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -30491,13 +31051,93 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/nfuu-hu6j",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-06-02",
+            "@type": "dcat:Dataset",
+            "temporal": "1983-2019",
+            "modified": "2021-06-08",
+            "keyword": [
+                "african americans",
+                "alaskan natives",
+                "american natives",
+                "asian continental ancestry group",
+                "continental population groups",
+                "death",
+                "european continental ancestry group",
+                "fetal death",
+                "health us",
+                "hispanic americans",
+                "infant",
+                "infant death",
+                "live birth",
+                "mortality",
+                "mothers",
+                "oceanic ancestry group",
+                "pregnancy",
+                "pregnancy complications"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:healthus@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/nfuu-hu6j",
+            "description": "Data on infant, neonatal, postneonatal, fetal, and perinatal mortality rates by selected characteristics of the mother. Please refer to the PDF or Excel version of this table in the HUS 2019 Data Finder (https://www.cdc.gov/nchs/hus/contents2019.htm) for critical information about measures, definitions, and changes over time. \n\nSOURCE: NCHS, National Vital Statistics System, public-use Linked Birth/Infant Death Data Set, public-use Fetal Death File, and public-use Birth File. For more information on the National Vital Statistics System, see the corresponding Appendix entry at https://www.cdc.gov/nchs/data/hus/hus19-appendix-508.pdf.",
+            "title": "Infant, neonatal, postneonatal, fetal, and perinatal mortality rates, by detailed race and Hispanic origin of mother: United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/nfuu-hu6j/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/nfuu-hu6j/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/nfuu-hu6j/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/nfuu-hu6j/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/nfuu-hu6j/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/nfuu-hu6j/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/nfuu-hu6j/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Annually",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/ngaa-n8ir",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "botulism",
@@ -30687,7 +31327,7 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "age",
                 "age group",
@@ -31882,7 +32522,7 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -32229,7 +32869,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "crimean-congo hemorrhagic fever virus",
@@ -32814,7 +33454,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "mumps",
@@ -33014,7 +33654,7 @@
             ],
             "issued": "2021-05-17",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-17",
+            "modified": "2021-06-17",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -33030,7 +33670,7 @@
                 "name": "HHS/ASPE"
             },
             "identifier": "https://data.cdc.gov/api/views/q9mh-h2tw",
-            "description": "Due to the change in the survey instrument regarding intention to vaccinate, our estimates for \u201chesitant or unsure\u201d or \u201chesitant\u201d derived from April 14-26, 2021, are not directly comparable with prior Household Pulse Survey data and should not be used to examine trends in hesitancy.\n\nTo support state and local communication and outreach efforts, ASPE developed state, county, and sub-state level predictions of hesitancy rates (https://aspe.hhs.gov/pdf-report/vaccine-hesitancy) using the most recently available federal survey data.\n\nWe estimate hesitancy rates at the state level using the U.S. Census Bureau\u2019s Household Pulse Survey (HPS) (https://www.census.gov/programs-surveys/household-pulse-survey.html) data and utilize the estimated values to predict hesitancy rates at the Public Use Microdata Areas (PUMA) level using the Census Bureau\u2019s 2019 American Community Survey (ACS) 1-year Public Use Microdata Sample (PUMS)(https://www.census.gov/programs-surveys/acs/microdata.html). To create county-level estimates, we used a PUMA-to-county crosswalk from the Missouri Census Data Center(https://mcdc.missouri.edu/applications/geocorr2014.html). PUMAs spanning multiple counties had their estimates apportioned across those counties based on overall 2010 Census populations.\n\nThe HPS is nationally representative and includes information on U.S. residents\u2019 intentions to receive the COVID-19 vaccine when available, as well as other sociodemographic and geographic (state, region and metropolitan statistical areas) information. The ACS is a nationally representative survey, and it provides key sociodemographic and geographic (state, region, PUMAs, county) information. We utilized data for the survey collection period April 14, 2021 \u2013 April 26, 2021, which the HPS refers to as Week 28.\n\nPUMA COVID-19 Hesitancy Data - https://data.cdc.gov/Vaccinations/Vaccine-Hesitancy-for-COVID-19-Public-Use-Microdat/djj9-kh3p",
+            "description": "Due to the change in the survey instrument regarding intention to vaccinate, our estimates for \u201chesitant or unsure\u201d or \u201chesitant\u201d derived from April 14-26, 2021, are not directly comparable with prior Household Pulse Survey data and should not be used to examine trends in hesitancy.\n\nTo support state and local communication and outreach efforts, ASPE developed state, county, and sub-state level predictions of hesitancy rates (https://aspe.hhs.gov/pdf-report/vaccine-hesitancy) using the most recently available federal survey data.\n\nWe estimate hesitancy rates at the state level using the U.S. Census Bureau\u2019s Household Pulse Survey (HPS) (https://www.census.gov/programs-surveys/household-pulse-survey.html) data and utilize the estimated values to predict hesitancy rates at the Public Use Microdata Areas (PUMA) level using the Census Bureau\u2019s 2019 American Community Survey (ACS) 1-year Public Use Microdata Sample (PUMS)(https://www.census.gov/programs-surveys/acs/microdata.html). To create county-level estimates, we used a PUMA-to-county crosswalk from the Missouri Census Data Center(https://mcdc.missouri.edu/applications/geocorr2014.html). PUMAs spanning multiple counties had their estimates apportioned across those counties based on overall 2010 Census populations.\n\nThe HPS is nationally representative and includes information on U.S. residents\u2019 intentions to receive the COVID-19 vaccine when available, as well as other sociodemographic and geographic (state, region and metropolitan statistical areas) information. The ACS is a nationally representative survey, and it provides key sociodemographic and geographic (state, region, PUMAs, county) information. We utilized data for the survey collection period May 26, 2021 \u2013 June 7, 2021, which the HPS refers to as Week 31..\n\nPUMA COVID-19 Hesitancy Data - https://data.cdc.gov/Vaccinations/Vaccine-Hesitancy-for-COVID-19-Public-Use-Microdat/djj9-kh3p",
             "title": "Vaccine Hesitancy for COVID-19: County and local estimates",
             "programCode": [
                 "009:020"
@@ -33508,13 +34148,80 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/qeru-k2y2",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-03-26",
+            "@type": "dcat:Dataset",
+            "modified": "2021-06-15",
+            "references": [
+                "JAMA-Opthalmology forthcoming",
+                "https://jamanetwork.com/journals/jamaophthalmology"
+            ],
+            "keyword": [
+                "blind",
+                "blindness",
+                "prevalence",
+                "vision",
+                "visual"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "CDC Info",
+                "hasEmail": "mailto:ddtpubsmailbox@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/qeru-k2y2",
+            "description": "2017. This dataset contains estimates of the prevalence of visual acuity loss and visual acuity blindness in the United States in 2017.  These estimates are created using a Bayesian meta-analytic modeling approach that combines information from multiple, disparate data sources to produce comprehensive predictions of prevalence by age, race, sex and geography.  The vision loss prevalence estimates represent best-corrected visual acuity in the better-seeing eye. 'Any vision loss' represents any impairment or blindness of 20/40 or worse; 'US-defined blindness' refers to the subset of vision loss that is 20/200 or worse; 'Visual impairment' refers to the subset with visual acuity of 20/40 to <20/200.  \n\nData sources include the National Health and Nutrition Examination Survey (reference values), the American Community Survey, the National Survey of Childrens Health, and published examination study results from the Baltimore Pediatric Eye Disease Study, the  Chinese American Eye Study, the Eye Diseases Prevalence Research Group, the Los Angeles Latino Eye Study and the Multi-Ethnic Study of Atherosclerosis Cohort.",
+            "title": "VEHSS Prevalence Estimates - Visual Acuity Loss",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/qeru-k2y2/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/qeru-k2y2/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/qeru-k2y2/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/qeru-k2y2/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/qeru-k2y2/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/qeru-k2y2/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/qeru-k2y2/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Vision & Eye Health"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/qfhf-uhaa",
             "bureauCode": [
                 "009:00"
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -34916,7 +35623,7 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-11",
+            "modified": "2021-06-17",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -35120,7 +35827,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "nedss",
@@ -35420,8 +36127,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-06-12",
-            "modified": "2021-06-12",
+            "temporal": "2020-12-13/2021-06-19",
+            "modified": "2021-06-19",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -35892,7 +36599,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-08",
+            "modified": "2021-06-15",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -36140,7 +36847,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "nedss",
@@ -36206,7 +36913,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "nedss",
@@ -36798,7 +37505,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-17",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -37371,7 +38078,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "machupo virus",
@@ -37992,7 +38699,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "acute",
@@ -38204,9 +38911,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2019-11-18",
+            "issued": "2021-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-05",
+            "modified": "2021-06-15",
             "references": [
                 "https://www.census.gov/content/dam/Census/programs-surveys/acs/about/ACS_Information_Guide.pdf",
                 "https://www.cdc.gov/visionhealth/vehss/data/national-surveys/american-community-survey.html"
@@ -38227,7 +38934,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/thir-stei",
-            "description": "2014, 2015, 2016, 2017. This dataset is a de-identified summary table of vision and eye health data indicators from ACS, stratified by all available combinations of age group, race/ethnicity, gender, and state. ACS is an annual nationwide survey conducted by the U.S. Census Bureau that collects information on demographic, social, economic, and housing characteristics of the U.S. population. Approximate sample size is 3 million annually. ACS data for VEHSS includes one question related to Visual Function. Data were suppressed for cell sizes less than 30 persons, or where the relative standard error more than 30% of the mean. Data will be updated as it becomes available. Detailed information on VEHSS ACS analyses can be found on the VEHSS ACS webpage (link). Additional information about ACS can be found on the U.S. Census Bureau website (https://www.census.gov/content/dam/Census/programs-surveys/acs/about/ACS_Information_Guide.pdf). The VEHSS ACS dataset was last updated in June 2018.",
+            "description": "2014, 2015, 2016, 2017, 2018. This dataset is a de-identified summary table of vision and eye health data indicators from ACS, stratified by all available combinations of age group, race/ethnicity, gender, and state. ACS is an annual nationwide survey conducted by the U.S. Census Bureau that collects information on demographic, social, economic, and housing characteristics of the U.S. population. Approximate sample size is 3 million annually. ACS data for VEHSS includes one question related to Visual Function. Data were suppressed for cell sizes less than 30 persons, or where the relative standard error more than 30% of the mean. Data will be updated as it becomes available. Detailed information on VEHSS ACS analyses can be found on the VEHSS ACS webpage (link). Additional information about ACS can be found on the U.S. Census Bureau website (https://www.census.gov/content/dam/Census/programs-surveys/acs/about/ACS_Information_Guide.pdf). The VEHSS ACS dataset was last updated in March 2021.",
             "title": "American Community Survey (ACS) \u2013 Vision and Eye Health Surveillance",
             "programCode": [
                 "009:020"
@@ -38443,7 +39150,7 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "age",
                 "age group",
@@ -39071,7 +39778,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -39730,7 +40437,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -39907,8 +40614,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-06-12",
-            "modified": "2021-06-12",
+            "temporal": "2020-12-13/2021-06-19",
+            "modified": "2021-06-19",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -41374,7 +42081,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -41582,7 +42289,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "age",
                 "age group",
@@ -42209,7 +42916,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -42307,6 +43014,77 @@
             ],
             "theme": [
                 "Health Consequences and Costs"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/w4cs-jspc",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-06-07",
+            "@type": "dcat:Dataset",
+            "temporal": "2005-2006 thru 2017-2018",
+            "modified": "2021-06-08",
+            "keyword": [
+                "accidental falls",
+                "age",
+                "disasters",
+                "emergency service",
+                "health us",
+                "hospital",
+                "hospitals",
+                "sex",
+                "wounds and injuries"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:healthus@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/w4cs-jspc",
+            "description": "Data on initial injury-related visits to hospital emergency departments, by sex, age, and intent and mechanism of injury. Please refer to the PDF or Excel version of this table in the HUS 2019 Data Finder (https://www.cdc.gov/nchs/hus/contents2019.htm) for critical information about measures, definitions, and changes over time. Due to a change in national medical data coding standards in 2015, from the International Classification of Diseases, 9th Revision, Clinical Modification (ICD-9-CM) to the ICD-10-CM, the definition for injuries and injury subcategories changed for the 2017 reporting period and beyond. Results from 2017 and subsequent years should not be compared with previous reporting periods. Any observed changes in trends across this transition period should not be considered. Data for 2016 are not included. Additional information regarding injury definitions and categorization of injuries by mechanism and intent of injury is available at: https://www.cdc.gov/nchs/injury/injury_tools.htm. Note that the data file available here has more recent years of data than what is shown in the PDF or Excel version.\n\nSOURCE: NCHS, National Hospital Ambulatory Medical Care Survey. For more information on the National Hospital Ambulatory Medical Care Survey, see the corresponding Appendix entry at https://www.cdc.gov/nchs/data/hus/hus17_appendix.pdf.",
+            "title": "Initial injury-related visits to hospital emergency departments, by sex, age, and intent and mechanism of injury: United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/w4cs-jspc/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/w4cs-jspc/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/w4cs-jspc/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/w4cs-jspc/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/w4cs-jspc/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/w4cs-jspc/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/w4cs-jspc/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Annually",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -42533,7 +43311,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -43093,7 +43871,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "age<5 years",
@@ -43779,7 +44557,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "2021",
                 "junin virus",
@@ -43906,7 +44684,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-02",
+            "modified": "2021-06-16",
             "keyword": [
                 "covid-19",
                 "delayed care",
@@ -44201,7 +44979,7 @@
             ],
             "issued": "2019-04-17",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-12",
+            "modified": "2021-06-16",
             "keyword": [
                 "cocaine",
                 "deaths",
@@ -44279,7 +45057,7 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -44738,6 +45516,80 @@
             ],
             "theme": [
                 "Motor Vehicle"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/xt86-xqxz",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-06-03",
+            "@type": "dcat:Dataset",
+            "temporal": "2000-2018",
+            "modified": "2021-06-08",
+            "keyword": [
+                "african americans",
+                "age",
+                "continental population groups",
+                "disasters",
+                "emergency service",
+                "european continental ancestry group",
+                "health us",
+                "hospital",
+                "hospitals",
+                "outpatients",
+                "physicians",
+                "physicians' offices",
+                "sex"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:healthus@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/xt86-xqxz",
+            "description": "Data on visits to physician offices, hospital outpatient departments and hospital emergency departments by selected population characteristics. Please refer to the PDF or Excel version of this table in the HUS 2019 Data Finder (https://www.cdc.gov/nchs/hus/contents2019.htm) for critical information about measures, definitions, and changes over time. Note that the data file available here has more recent years of data than what is shown in the PDF or Excel version. Data for 2017 physician office visits are not available.\n\nSOURCE: NCHS, National Ambulatory Medical Care Survey and National Hospital Ambulatory Medical Care Survey. For more information on the National Ambulatory Medical Care Survey and the National Hospital Ambulatory Medical Care Survey, see the corresponding Appendix entries at https://www.cdc.gov/nchs/data/hus/hus17_appendix.pdf.",
+            "title": "Visits to physician offices, hospital outpatient departments, and hospital emergency departments, by age, sex, and race: United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/xt86-xqxz/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/xt86-xqxz/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/xt86-xqxz/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/xt86-xqxz/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/xt86-xqxz/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/xt86-xqxz/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/xt86-xqxz/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -45377,7 +46229,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-09",
+            "modified": "2021-06-16",
             "keyword": [
                 "age",
                 "age group",
@@ -46116,7 +46968,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-02",
+            "modified": "2021-06-16",
             "keyword": [
                 "covid-19",
                 "mental health"
@@ -46178,7 +47030,7 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-17",
             "keyword": [
                 "age",
                 "age group",
