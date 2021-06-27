@@ -872,13 +872,85 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/2na8-fe6s",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-06-15",
+            "@type": "dcat:Dataset",
+            "modified": "2021-06-22",
+            "keyword": [
+                "age",
+                "age group",
+                "cancer",
+                "deaths",
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
+                "provisional",
+                "sex",
+                "united states"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/2na8-fe6s",
+            "description": "Provisional death counts of malignant neoplasms (cancer) by month and year for 2020-2021. Data are based on death certificates for U.S. residents.",
+            "title": "AH Provisional Cancer Death Counts by Month and Year, 2020-2021",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/2na8-fe6s/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/2na8-fe6s/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2na8-fe6s/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/2na8-fe6s/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2na8-fe6s/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/2na8-fe6s/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2na8-fe6s/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Ad hoc",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/2qxe-cmv4",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "hepatitis c",
@@ -1137,7 +1209,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "nedss",
@@ -1324,6 +1396,62 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "bureauCode": [
+                "009:20"
+            ],
+            "landingPage": "https://data.cdc.gov/d/34p9-h4us",
+            "issued": "2021-06-24",
+            "@type": "dcat:Dataset",
+            "modified": "2021-06-24",
+            "keyword": [
+                "haicviz"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "CDC INFO",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/34p9-h4us",
+            "description": "<p>The healthcare-associated infection component of CDC\u2019s <a href=\"https://www.cdc.gov/ncezid/dpei/eip/index.html\" target=\"_blank\">EIP</a> engages a <a href=\"https://www.cdc.gov/ncezid/dpei/eip/eip-sites.html\" target=\"_blank\">network</a> of state health departments and their academic medical center partners to help answer critical questions about emerging HAI threats, advanced infection tracking methods, and antibiotic resistance in the United States. Information gathered through this activity will play a key role in shaping future policies and recommendations targeting HAI prevention. </p>",
+            "title": "HAICViz - Candidemia",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/34p9-h4us/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/34p9-h4us/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/34p9-h4us/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/34p9-h4us/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/34p9-h4us/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/34p9-h4us/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/34p9-h4us/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -3668,7 +3796,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "age",
                 "age group",
@@ -6045,7 +6173,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "cholera",
@@ -6275,7 +6403,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "nedss",
@@ -7775,7 +7903,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -8301,7 +8429,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "nedss",
@@ -9119,6 +9247,66 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/8bda-nhxv",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-06-23",
+            "@type": "dcat:Dataset",
+            "modified": "2021-06-23",
+            "keyword": [
+                "abcs",
+                "bactfacts"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "CDC INFO",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/8bda-nhxv",
+            "description": "<p>ABCs is an ongoing surveillance program that began in 1997. <a href=\"https://www.cdc.gov/abcs/reports-findings/surv-reports.html\">ABCs reports</a> describe the ABCs case definition and the specific methodology used to calculate rates and estimated numbers in the United States for each bacterium by year.  The methods, <a href=\"https://www.cdc.gov/abcs/methodology/surv-pop.html\">surveillance areas</a>,\n                and <a href=\"https://www.cdc.gov/abcs/methodology/surv-pop.html\">laboratory isolate collection areas</a> have changed over time.\n                Additionally, the way missing data are taken into account changed in 2010.  It went from distributing unknown values based on known values of cases by site to use of multiple imputation using a sequential regression imputation method.\n                Given these changes over time, trends should be interpreted with caution.\n            </p>\n\n<ul>\n                    <li>\n                        <a href=\"http://www.cdc.gov/abcs/methodology/index.html\">Methodology</a>\n                        <br>\n                        Find details about surveillance population, case determination, surveillance evaluation, and more.\n                    </li>\n                    <li>\n                        <a href=\"http://www.cdc.gov/abcs/reports-findings/index.html\">Reports and Findings</a>\n                        <br>\n                        Get official interpretations from reports and publications created from ABCs data.\n                    </li>\n                </ul>",
+            "title": "Active Bacterial Core surveillance (ABCs) Neisseria meningitidis",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/8bda-nhxv/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/8bda-nhxv/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/8bda-nhxv/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/8bda-nhxv/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/8bda-nhxv/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/8bda-nhxv/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/8bda-nhxv/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/8bh8-t6b4",
             "bureauCode": [
                 "009:20"
@@ -9166,7 +9354,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "ehrlichia ewingii infection",
@@ -9885,10 +10073,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-05-24",
+            "issued": "2021-06-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-06-19",
-            "modified": "2021-06-19",
+            "temporal": "2020-12-13/2021-06-26",
+            "modified": "2021-06-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -10292,6 +10480,66 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/95m5-agj4",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-06-23",
+            "@type": "dcat:Dataset",
+            "modified": "2021-06-23",
+            "keyword": [
+                "abcs",
+                "bactfacts"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "CDC INFO",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/95m5-agj4",
+            "description": "<p>ABCs is an ongoing surveillance program that began in 1997. <a href=\"https://www.cdc.gov/abcs/reports-findings/surv-reports.html\">ABCs reports</a> describe the ABCs case definition and the specific methodology used to calculate rates and estimated numbers in the United States for each bacterium by year.  The methods, <a href=\"https://www.cdc.gov/abcs/methodology/surv-pop.html\">surveillance areas</a>,\n                and <a href=\"https://www.cdc.gov/abcs/methodology/surv-pop.html\">laboratory isolate collection areas</a> have changed over time.\n                Additionally, the way missing data are taken into account changed in 2010.  It went from distributing unknown values based on known values of cases by site to use of multiple imputation using a sequential regression imputation method.\n                Given these changes over time, trends should be interpreted with caution.\n            </p>\n\n<ul>\n                    <li>\n                        <a href=\"http://www.cdc.gov/abcs/methodology/index.html\">Methodology</a>\n                        <br>\n                        Find details about surveillance population, case determination, surveillance evaluation, and more.\n                    </li>\n                    <li>\n                        <a href=\"http://www.cdc.gov/abcs/reports-findings/index.html\">Reports and Findings</a>\n                        <br>\n                        Get official interpretations from reports and publications created from ABCs data.\n                    </li>\n                </ul>",
+            "title": "Active Bacterial Core surveillance (ABCs) Group B Streptococcus",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/95m5-agj4/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/95m5-agj4/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/95m5-agj4/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/95m5-agj4/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/95m5-agj4/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/95m5-agj4/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/95m5-agj4/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/97tt-n3j3",
             "bureauCode": [
                 "009:00"
@@ -10364,7 +10612,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "cryptosporidiosis",
@@ -10495,7 +10743,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "animal",
@@ -10561,7 +10809,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "dengue",
@@ -10628,7 +10876,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "age",
                 "age group",
@@ -10772,7 +11020,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "anaplasma phagocytophilum infection",
@@ -10838,7 +11086,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -11138,7 +11386,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -11349,7 +11597,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "imported",
@@ -11416,7 +11664,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "brucellosis",
@@ -11552,7 +11800,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2021-06-18",
+            "modified": "2021-06-26",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -11946,7 +12194,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "nedss",
@@ -12002,6 +12250,66 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/9y49-tura",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-06-23",
+            "@type": "dcat:Dataset",
+            "modified": "2021-06-23",
+            "keyword": [
+                "abcs",
+                "bactfacts"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "CDC INFO",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/9y49-tura",
+            "description": "<p>ABCs is an ongoing surveillance program that began in 1997. <a href=\"https://www.cdc.gov/abcs/reports-findings/surv-reports.html\">ABCs reports</a> describe the ABCs case definition and the specific methodology used to calculate rates and estimated numbers in the United States for each bacterium by year.  The methods, <a href=\"https://www.cdc.gov/abcs/methodology/surv-pop.html\">surveillance areas</a>,\n                and <a href=\"https://www.cdc.gov/abcs/methodology/surv-pop.html\">laboratory isolate collection areas</a> have changed over time.\n                Additionally, the way missing data are taken into account changed in 2010.  It went from distributing unknown values based on known values of cases by site to use of multiple imputation using a sequential regression imputation method.\n                Given these changes over time, trends should be interpreted with caution.\n            </p>\n\n<ul>\n                    <li>\n                        <a href=\"http://www.cdc.gov/abcs/methodology/index.html\">Methodology</a>\n                        <br>\n                        Find details about surveillance population, case determination, surveillance evaluation, and more.\n                    </li>\n                    <li>\n                        <a href=\"http://www.cdc.gov/abcs/reports-findings/index.html\">Reports and Findings</a>\n                        <br>\n                        Get official interpretations from reports and publications created from ABCs data.\n                    </li>\n                </ul>",
+            "title": "Active Bacterial Core surveillance (ABCs) Group A Streptococcus",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/9y49-tura/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9y49-tura/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9y49-tura/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/9y49-tura/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9y49-tura/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9y49-tura/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9y49-tura/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Public Health Surveillance"
             ]
         },
         {
@@ -12609,6 +12917,66 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/abgz-qs4g",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-06-24",
+            "@type": "dcat:Dataset",
+            "modified": "2021-06-24",
+            "keyword": [
+                "clostridioides difficile",
+                "haicviz"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "HAIC",
+                "hasEmail": "mailto:erib@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/abgz-qs4g",
+            "description": "<p>The healthcare-associated infection component of CDC\u2019s <a href=\"https://www.cdc.gov/ncezid/dpei/eip/index.html\" target=\"_blank\">EIP</a> engages a <a href=\"https://www.cdc.gov/ncezid/dpei/eip/eip-sites.html\" target=\"_blank\">network</a> of state health departments and their academic medical center partners to help answer critical questions about emerging HAI threats, advanced infection tracking methods, and antibiotic resistance in the United States. Information gathered through this activity will play a key role in shaping future policies and recommendations targeting HAI prevention. </p>",
+            "title": "HAICViz - CDI",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/abgz-qs4g/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/abgz-qs4g/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/abgz-qs4g/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/abgz-qs4g/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/abgz-qs4g/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/abgz-qs4g/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/abgz-qs4g/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Public Health Surveillance"
             ]
         },
         {
@@ -15276,7 +15644,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "hansen's disease",
@@ -15994,7 +16362,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "nedss",
@@ -17380,7 +17748,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "age <5 years serotype b",
@@ -17909,7 +18277,7 @@
             ],
             "issued": "2021-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-18",
+            "modified": "2021-06-23",
             "references": [
                 "https://www.resdac.org",
                 "https://www.cdc.gov/visionhealth/vehss/data/claims/medicare.html"
@@ -19067,7 +19435,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "age <5 years",
@@ -19193,6 +19561,66 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/en3s-hzsr",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-06-23",
+            "@type": "dcat:Dataset",
+            "modified": "2021-06-23",
+            "keyword": [
+                "abcs",
+                "bactfacts"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "CDC INFO",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/en3s-hzsr",
+            "description": "<p>ABCs is an ongoing surveillance program that began in 1997. <a href=\"https://www.cdc.gov/abcs/reports-findings/surv-reports.html\">ABCs reports</a> describe the ABCs case definition and the specific methodology used to calculate rates and estimated numbers in the United States for each bacterium by year.  The methods, <a href=\"https://www.cdc.gov/abcs/methodology/surv-pop.html\">surveillance areas</a>,\n                and <a href=\"https://www.cdc.gov/abcs/methodology/surv-pop.html\">laboratory isolate collection areas</a> have changed over time.\n                Additionally, the way missing data are taken into account changed in 2010.  It went from distributing unknown values based on known values of cases by site to use of multiple imputation using a sequential regression imputation method.\n                Given these changes over time, trends should be interpreted with caution.\n            </p>\n\n<ul>\n                    <li>\n                        <a href=\"http://www.cdc.gov/abcs/methodology/index.html\">Methodology</a>\n                        <br>\n                        Find details about surveillance population, case determination, surveillance evaluation, and more.\n                    </li>\n                    <li>\n                        <a href=\"http://www.cdc.gov/abcs/reports-findings/index.html\">Reports and Findings</a>\n                        <br>\n                        Get official interpretations from reports and publications created from ABCs data.\n                    </li>\n                </ul>",
+            "title": "Active Bacterial Core surveillance (ABCs) Streptococcus pneumoniae",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/en3s-hzsr/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/en3s-hzsr/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/en3s-hzsr/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/en3s-hzsr/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/en3s-hzsr/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/en3s-hzsr/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/en3s-hzsr/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Public Health Surveillance"
             ]
         },
         {
@@ -21949,7 +22377,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -22439,7 +22867,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "all serogroups",
@@ -23038,7 +23466,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -23136,7 +23564,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -23208,7 +23636,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -23670,7 +24098,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -24721,9 +25149,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2020-06-29",
+            "issued": "2021-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-29",
+            "modified": "2021-06-24",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -25052,7 +25480,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "nedss",
@@ -25749,7 +26177,7 @@
             ],
             "issued": "2021-06-17",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-22",
             "keyword": [
                 "age",
                 "age group",
@@ -25895,7 +26323,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "meningococcal disease",
@@ -25961,7 +26389,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "anthrax",
@@ -26091,7 +26519,7 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "age",
                 "age group",
@@ -26894,7 +27322,7 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27065,7 +27493,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "nedss",
@@ -27333,7 +27761,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-23",
             "keyword": [
                 "cares act",
                 "health system",
@@ -27530,8 +27958,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-06-19",
-            "modified": "2021-06-19",
+            "temporal": "2020-12-13/2021-06-26",
+            "modified": "2021-06-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -27818,7 +28246,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -28013,7 +28441,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "age",
                 "age group",
@@ -28929,10 +29357,10 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2021-05-21",
-            "modified": "2021-06-07",
+            "temporal": "2020-01-01/2021-06-04",
+            "modified": "2021-06-22",
             "references": [
-                "https://data.cdc.gov/api/views/mbd7-r32t/files/e403c852-9528-4820-839f-2d1622d04f3f?download=true&filename=utility_summary_ridura.pdf"
+                "https://data.cdc.gov/api/views/mbd7-r32t/files/7a655201-8c35-4d28-9043-572cabef6ace?download=true&filename=utility_summary_ridura.pdf"
             ],
             "keyword": [
                 "cases",
@@ -29104,7 +29532,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "nedss",
@@ -29828,7 +30256,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "all ages",
@@ -29955,7 +30383,7 @@
             ],
             "issued": "2020-07-08",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -30368,7 +30796,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -30811,10 +31239,10 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2021-05-21",
-            "modified": "2021-06-07",
+            "temporal": "2020-01-01/2021-06-04",
+            "modified": "2021-06-22",
             "references": [
-                "https://data.cdc.gov/api/views/n8mc-b4w4/files/a0ea3857-4106-4eff-837a-469612d3a660?download=true&filename=utility_summary_public_geo.pdf"
+                "https://data.cdc.gov/api/views/n8mc-b4w4/files/c00c4974-7792-48a4-8b45-4a95a3d8525c?download=true&filename=utility_summary_public_geo.pdf"
             ],
             "keyword": [
                 "cases",
@@ -31137,7 +31565,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "botulism",
@@ -31327,7 +31755,7 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "age",
                 "age group",
@@ -32522,7 +32950,7 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -32869,7 +33297,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "crimean-congo hemorrhagic fever virus",
@@ -33454,7 +33882,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "mumps",
@@ -34221,7 +34649,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -35623,7 +36051,7 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-25",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -35827,7 +36255,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "nedss",
@@ -36127,8 +36555,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-06-19",
-            "modified": "2021-06-19",
+            "temporal": "2020-12-13/2021-06-26",
+            "modified": "2021-06-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -36339,7 +36767,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-10",
+            "modified": "2021-06-23",
             "keyword": [
                 "cares act",
                 "coronavirus",
@@ -36599,7 +37027,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-15",
+            "modified": "2021-06-22",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -36847,7 +37275,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "nedss",
@@ -36913,7 +37341,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "nedss",
@@ -38078,7 +38506,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "machupo virus",
@@ -38195,6 +38623,69 @@
             ],
             "theme": [
                 "Environmental Health & Toxicology"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/ssz5-s49e",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-06-24",
+            "@type": "dcat:Dataset",
+            "modified": "2021-06-24",
+            "keyword": [
+                "haicviz",
+                "healthcare associated infections",
+                "mrsa",
+                "mssa",
+                "staphylococcus aureus"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "HAIC",
+                "hasEmail": "mailto:erib@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/ssz5-s49e",
+            "description": "<p>The healthcare-associated infection component of CDC\u2019s <a href=\"https://www.cdc.gov/ncezid/dpei/eip/index.html\" target=\"_blank\">EIP</a> engages a <a href=\"https://www.cdc.gov/ncezid/dpei/eip/eip-sites.html\" target=\"_blank\">network</a> of state health departments and their academic medical center partners to help answer critical questions about emerging HAI threats, advanced infection tracking methods, and antibiotic resistance in the United States. Information gathered through this activity will play a key role in shaping future policies and recommendations targeting HAI prevention. Click <a href=\"https://www.cdc.gov/hai/eip/saureus.html\" target=\"_blank\">here</a> to learn more about Invasive Staphylococcus aureus infections</p>\n\n<h3>Interpretation</h3>\n<ul><li>Data presented in HAICViz may differ from other HAIC publications since different datasets or methods may be used.</li><li>Small numbers for some topics or filters may make year to year changes difficult to interpret.</li><li>Since each infection may have unique characteristics, the information available to display differs by individual organism.</li></ul>\n\n<h3>More Details</h3>\n<ul><li><a href=\"https://www.cdc.gov/hai/eip/saureus.html#Methods\" target=\"_blank\">Methodology</a>: Find details about surveillance population, case determination, surveillance evaluation, and more.</li><li>Reports and Findings: Access <a href=\"https://www.cdc.gov/hai/eip/saureus.html#anchor_1611155585754\" target=\"_blank\">reports</a> or lists of <a href=\"https://www.cdc.gov/hai/eip/saureus.html#anchor_1611155777037\" target=\"_blank\">publications</a> using HAIC Invasive Staphylococcus aureus data</li></ul>",
+            "title": "HAICViz - iSA",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/ssz5-s49e/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/ssz5-s49e/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/ssz5-s49e/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/ssz5-s49e/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/ssz5-s49e/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/ssz5-s49e/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/ssz5-s49e/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Case Surveillance"
             ]
         },
         {
@@ -38699,7 +39190,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "acute",
@@ -39150,7 +39641,7 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "age",
                 "age group",
@@ -39778,7 +40269,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -40437,7 +40928,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -40614,8 +41105,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-06-19",
-            "modified": "2021-06-19",
+            "temporal": "2020-12-13/2021-06-26",
+            "modified": "2021-06-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -40846,6 +41337,66 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/uxwq-vny5",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-06-23",
+            "@type": "dcat:Dataset",
+            "modified": "2021-06-23",
+            "keyword": [
+                "abcs",
+                "bactfacts"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "CDC INFO",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/uxwq-vny5",
+            "description": "<p>ABCs is an ongoing surveillance program that began in 1997. <a href=\"https://www.cdc.gov/abcs/reports-findings/surv-reports.html\">ABCs reports</a> describe the ABCs case definition and the specific methodology used to calculate rates and estimated numbers in the United States for each bacterium by year.  The methods, <a href=\"https://www.cdc.gov/abcs/methodology/surv-pop.html\">surveillance areas</a>,\n                and <a href=\"https://www.cdc.gov/abcs/methodology/surv-pop.html\">laboratory isolate collection areas</a> have changed over time.\n                Additionally, the way missing data are taken into account changed in 2010.  It went from distributing unknown values based on known values of cases by site to use of multiple imputation using a sequential regression imputation method.\n                Given these changes over time, trends should be interpreted with caution.\n            </p>\n\n<ul>\n                    <li>\n                        <a href=\"http://www.cdc.gov/abcs/methodology/index.html\">Methodology</a>\n                        <br>\n                        Find details about surveillance population, case determination, surveillance evaluation, and more.\n                    </li>\n                    <li>\n                        <a href=\"http://www.cdc.gov/abcs/reports-findings/index.html\">Reports and Findings</a>\n                        <br>\n                        Get official interpretations from reports and publications created from ABCs data.\n                    </li>\n                </ul>",
+            "title": "Active Bacterial Core surveillance (ABCs) Haemophilus influenzae",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/uxwq-vny5/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/uxwq-vny5/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/uxwq-vny5/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/uxwq-vny5/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/uxwq-vny5/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/uxwq-vny5/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/uxwq-vny5/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Public Health Surveillance"
             ]
         },
         {
@@ -41183,6 +41734,73 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/v4tm-h8pe",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-06-24",
+            "@type": "dcat:Dataset",
+            "modified": "2021-06-25",
+            "keyword": [
+                "antimicrobial resistance",
+                "carbapenem-resistant acinetobacter baumannii",
+                "carbapenem-resistant enterobacterales",
+                "enterobacter spp.",
+                "escherichia coli",
+                "haicviz",
+                "healthcare-associated infection",
+                "klebsiella spp.",
+                "surveillance"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "HAIC",
+                "hasEmail": "mailto:erib@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/v4tm-h8pe",
+            "description": "<p>The healthcare-associated infection component of CDC\u2019s <a href=\"https://www.cdc.gov/ncezid/dpei/eip/index.html\" target=\"_blank\">EIP</a> engages a <a href=\"https://www.cdc.gov/ncezid/dpei/eip/eip-sites.html\" target=\"_blank\">network</a> of state health departments and their academic medical center partners to help answer critical questions about emerging HAI threats, advanced infection tracking methods, and antibiotic resistance in the United States. Information gathered through this activity will play a key role in shaping future policies and recommendations targeting HAI prevention. </p>",
+            "title": "HAICViz - MuGSI",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/v4tm-h8pe/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/v4tm-h8pe/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/v4tm-h8pe/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/v4tm-h8pe/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/v4tm-h8pe/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/v4tm-h8pe/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/v4tm-h8pe/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/v5qq-ktfc",
             "bureauCode": [
                 "009:20"
@@ -41450,10 +42068,10 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2021-05-21",
-            "modified": "2021-06-07",
+            "temporal": "2020-01-01/2021-06-04",
+            "modified": "2021-06-22",
             "references": [
-                "https://data.cdc.gov/api/views/vbim-akqf/files/bf489ec2-a7e9-4fe3-8331-1bbd7bea2dce?download=true&filename=utility_summary_public.pdf"
+                "https://data.cdc.gov/api/views/vbim-akqf/files/08462abb-69ba-4153-a59f-effcd1c87ab2?download=true&filename=utility_summary_public.pdf"
             ],
             "keyword": [
                 "cases",
@@ -42081,7 +42699,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -42289,7 +42907,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "age",
                 "age group",
@@ -42916,7 +43534,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -43311,7 +43929,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -43871,7 +44489,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "age<5 years",
@@ -44557,7 +45175,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "2021",
                 "junin virus",
@@ -45057,7 +45675,7 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -46229,7 +46847,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-06-23",
             "keyword": [
                 "age",
                 "age group",
@@ -47030,7 +47648,7 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-17",
+            "modified": "2021-06-24",
             "keyword": [
                 "age",
                 "age group",
