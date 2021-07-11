@@ -950,7 +950,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "hepatitis c",
@@ -1209,7 +1209,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "nedss",
@@ -3796,7 +3796,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "deaths",
                 "mortality",
@@ -5177,6 +5177,73 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/5jp2-pgaw",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-05-07",
+            "@type": "dcat:Dataset",
+            "modified": "2021-07-10",
+            "references": [
+                "https://data.cdc.gov/api/views/5jp2-pgaw/files/2a8f085d-04ab-4044-8148-3b7df4cb7088?download=true&filename=Outbound%20File%20Specification.pdf"
+            ],
+            "keyword": [
+                "vaccinefinder",
+                "covid-19",
+                "vaccines",
+                "vaccination sites",
+                "vaccination locations",
+                "providers"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "CDC",
+                "hasEmail": "mailto:imtech@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/5jp2-pgaw",
+            "description": "The Vaccines.gov dataset includes provider information for COVID-19 vaccine provider locations in the U.S. Vaccines.gov is powered by VaccineFinder.",
+            "title": "Vaccines.gov: COVID-19 vaccinating provider locations",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/5jp2-pgaw/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/5jp2-pgaw/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/5jp2-pgaw/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/5jp2-pgaw/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/5jp2-pgaw/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/5jp2-pgaw/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/5jp2-pgaw/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Vaccinations"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/5mtz-k78d",
             "bureauCode": [
                 "009:20"
@@ -6173,7 +6240,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "cholera",
@@ -6403,7 +6470,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "nedss",
@@ -7903,7 +7970,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -8429,7 +8496,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "nedss",
@@ -8494,13 +8561,13 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-21",
+            "modified": "2021-07-07",
             "keyword": [
+                "environmental health",
                 "air pollution",
                 "asthma",
-                "environmental health",
-                "particulate matter",
-                "pm2.5"
+                "pm2.5",
+                "particulate matter"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -8626,13 +8693,13 @@
             ],
             "issued": "2020-06-02",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-02",
+            "modified": "2021-07-07",
             "keyword": [
+                "particulate matter",
+                "pm2.5",
                 "air pollution",
                 "asthma",
-                "environmental health",
-                "particulate matter",
-                "pm2.5"
+                "environmental health"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -9022,12 +9089,12 @@
             ],
             "issued": "2020-06-01",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-01",
+            "modified": "2021-07-07",
             "keyword": [
-                "air pollution",
-                "asthma",
+                "ozone",
                 "environmental health",
-                "ozone"
+                "air pollution",
+                "asthma"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -9354,7 +9421,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "ehrlichia ewingii infection",
@@ -10073,10 +10140,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-06-24",
+            "issued": "2021-07-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-03",
-            "modified": "2021-07-03",
+            "temporal": "2020-12-13/2021-07-10",
+            "modified": "2021-07-10",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -10099,7 +10166,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/8xkx-amqh",
-            "description": "Overall US COVID-19 Vaccine administration data at\u00a0county\u00a0level. Data represents all vaccine partners including jurisdictional partner clinics, retail pharmacies, long-term care facilities, dialysis centers, Federal Emergency Management Agency and Health Resources and Services Administration partner sites, and federal entity facilities.\u00a0",
+            "description": "Overall US COVID-19 Vaccine administration and vaccine equity data at county level. Data represents all vaccine partners including jurisdictional partner clinics, retail pharmacies, long-term care facilities, dialysis centers, Federal Emergency Management Agency and Health Resources and Services Administration partner sites, and federal entity facilities.\u00a0",
             "title": "COVID-19 Vaccinations in the United States,County",
             "programCode": [
                 "009:020"
@@ -10612,7 +10679,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "cryptosporidiosis",
@@ -10743,7 +10810,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "animal",
@@ -10809,7 +10876,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "dengue",
@@ -10876,7 +10943,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "age",
                 "sex",
@@ -11020,7 +11087,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "anaplasma phagocytophilum infection",
@@ -11086,7 +11153,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "monthly",
                 "mortality",
@@ -11386,7 +11453,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -11597,7 +11664,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "imported",
@@ -11664,7 +11731,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "brucellosis",
@@ -11800,7 +11867,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2021-07-03",
+            "modified": "2021-07-10",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -12194,7 +12261,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "nedss",
@@ -15644,7 +15711,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "hansen's disease",
@@ -15711,11 +15778,11 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-22",
+            "modified": "2021-07-07",
             "keyword": [
-                "air quality",
-                "asthma",
                 "environmental health",
+                "asthma",
+                "air quality",
                 "ozone"
             ],
             "contactPoint": {
@@ -16362,7 +16429,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "nedss",
@@ -17748,7 +17815,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "age <5 years serotype b",
@@ -19435,7 +19502,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "age <5 years",
@@ -22245,10 +22312,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-07-02",
+            "issued": "2021-07-06",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-02",
-            "modified": "2021-07-02",
+            "temporal": "2020-12-13/2021-07-07",
+            "modified": "2021-07-07",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -22450,7 +22517,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -22940,7 +23007,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "all serogroups",
@@ -23539,7 +23606,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "nchs",
                 "coronavirus",
@@ -23637,19 +23704,19 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
-                "all causes",
-                "coronavirus",
-                "covid-19",
-                "deaths",
-                "mortality",
                 "nchs",
                 "nvss",
+                "mortality",
+                "deaths",
                 "provisional",
                 "united states",
+                "weekly",
                 "urbanicity",
-                "weekly"
+                "covid-19",
+                "all causes",
+                "coronavirus"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -23709,7 +23776,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -24171,7 +24238,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -25553,7 +25620,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "nedss",
@@ -26250,25 +26317,25 @@
             ],
             "issued": "2021-06-17",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-22",
+            "modified": "2021-07-07",
             "keyword": [
-                "age",
-                "age group",
-                "all causes",
-                "coronavirus",
-                "covid-19",
-                "deaths",
                 "excess deaths",
-                "hispanic origin",
-                "mortality",
+                "covid-19",
                 "nchs",
                 "nvss",
                 "provisional",
-                "race",
-                "sex",
-                "state",
+                "mortality",
+                "deaths",
                 "united states",
-                "weekly"
+                "weekly",
+                "age",
+                "age group",
+                "race",
+                "hispanic origin",
+                "sex",
+                "all causes",
+                "coronavirus",
+                "state"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -26396,7 +26463,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "meningococcal disease",
@@ -26462,7 +26529,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "anthrax",
@@ -26592,7 +26659,7 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "death rate",
                 "covid-19",
@@ -27395,7 +27462,7 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "county",
                 "race",
@@ -27566,7 +27633,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "nedss",
@@ -27834,7 +27901,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-09",
             "keyword": [
                 "provider relief fund",
                 "cares act",
@@ -28031,8 +28098,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-03",
-            "modified": "2021-07-03",
+            "temporal": "2020-12-13/2021-07-10",
+            "modified": "2021-07-10",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -28319,7 +28386,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "deaths",
                 "mortality",
@@ -28514,7 +28581,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "nchs",
                 "coronavirus",
@@ -29248,24 +29315,24 @@
             ],
             "issued": "2020-11-12",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-07-07",
             "keyword": [
-                "age",
-                "age group",
-                "all causes",
-                "coronavirus",
-                "covid-19",
-                "deaths",
                 "excess deaths",
-                "hispanic origin",
-                "mortality",
+                "covid-19",
                 "nchs",
                 "nvss",
                 "provisional",
-                "race",
-                "sex",
+                "mortality",
+                "deaths",
                 "united states",
-                "weekly"
+                "weekly",
+                "age",
+                "age group",
+                "race",
+                "hispanic origin",
+                "sex",
+                "all causes",
+                "coronavirus"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -29430,19 +29497,19 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2021-06-04",
-            "modified": "2021-06-22",
+            "temporal": "2020-01-01/2021-06-18",
+            "modified": "2021-07-07",
             "references": [
-                "https://data.cdc.gov/api/views/mbd7-r32t/files/7a655201-8c35-4d28-9043-572cabef6ace?download=true&filename=utility_summary_ridura.pdf"
+                "https://data.cdc.gov/api/views/mbd7-r32t/files/112487f6-ab99-49b0-ae1c-b0d36cbe62d3?download=true&filename=utility_summary_ridura.pdf"
             ],
             "keyword": [
-                "cases",
+                "covid-19",
                 "coronavirus",
+                "cases",
+                "surveillance",
                 "covid",
                 "covid19",
-                "covid-19",
-                "restricted",
-                "surveillance"
+                "restricted"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -29605,7 +29672,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "nedss",
@@ -30329,7 +30396,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "all ages",
@@ -30456,7 +30523,7 @@
             ],
             "issued": "2020-07-08",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "nchs",
                 "nvss",
@@ -30869,7 +30936,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -31312,20 +31379,20 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2021-06-04",
-            "modified": "2021-06-22",
+            "temporal": "2020-01-01/2021-06-18",
+            "modified": "2021-07-07",
             "references": [
-                "https://data.cdc.gov/api/views/n8mc-b4w4/files/c00c4974-7792-48a4-8b45-4a95a3d8525c?download=true&filename=utility_summary_public_geo.pdf"
+                "https://data.cdc.gov/api/views/n8mc-b4w4/files/348378df-72bb-4e6a-b954-91f5f7e381d8?download=true&filename=utility_summary_public_geo.pdf"
             ],
             "keyword": [
-                "cases",
-                "coronavirus",
-                "county",
-                "covid19",
                 "covid-19",
-                "microdata",
+                "covid19",
+                "coronavirus",
+                "cases",
+                "surveillance",
+                "county",
                 "state",
-                "surveillance"
+                "microdata"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31638,7 +31705,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "botulism",
@@ -31828,7 +31895,7 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "mortality",
                 "children",
@@ -31965,7 +32032,7 @@
             ],
             "issued": "2019-04-12",
             "@type": "dcat:Dataset",
-            "modified": "2021-04-14",
+            "modified": "2021-07-08",
             "references": [
                 "https://chronicdata.cdc.gov/d/x7ys-5vpn"
             ],
@@ -33023,7 +33090,7 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "deaths",
                 "race",
@@ -33370,7 +33437,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "crimean-congo hemorrhagic fever virus",
@@ -33955,7 +34022,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "mumps",
@@ -34722,7 +34789,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "nchs",
                 "nvss",
@@ -34986,13 +35053,13 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-01",
+            "modified": "2021-07-07",
             "keyword": [
-                "air pollution",
                 "asthma",
-                "environmental health",
+                "pm2.5",
                 "particulate matter",
-                "pm2.5"
+                "air pollution",
+                "environmental health"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -36124,7 +36191,7 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-02",
+            "modified": "2021-07-09",
             "keyword": [
                 "coronavirus",
                 "state",
@@ -36328,7 +36395,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "nedss",
@@ -36628,8 +36695,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-03",
-            "modified": "2021-07-03",
+            "temporal": "2020-12-13/2021-07-10",
+            "modified": "2021-07-10",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -36840,7 +36907,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-09",
             "keyword": [
                 "provider relief fund",
                 "cares act",
@@ -37100,7 +37167,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-29",
+            "modified": "2021-07-06",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -37228,7 +37295,7 @@
             ],
             "issued": "2018-10-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-01",
+            "modified": "2021-07-07",
             "keyword": [
                 "cdc.gov",
                 "web metrics"
@@ -37348,7 +37415,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "nedss",
@@ -37414,7 +37481,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "nedss",
@@ -38579,7 +38646,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "machupo virus",
@@ -39263,7 +39330,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "acute",
@@ -39714,7 +39781,7 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "covid-19",
                 "race",
@@ -40342,7 +40409,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "nchs",
                 "nvss",
@@ -41001,7 +41068,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "nchs",
                 "coronavirus",
@@ -41077,13 +41144,13 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2020-05-29",
+            "modified": "2021-07-07",
             "keyword": [
-                "air pollution",
-                "asthma",
-                "environmental health",
+                "pm2.5",
                 "particulate matter",
-                "pm2.5"
+                "air pollution",
+                "environmental health",
+                "asthma"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41178,8 +41245,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-03",
-            "modified": "2021-07-03",
+            "temporal": "2020-12-13/2021-07-10",
+            "modified": "2021-07-10",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -41880,13 +41947,13 @@
             ],
             "issued": "2020-05-22",
             "@type": "dcat:Dataset",
-            "modified": "2020-05-22",
+            "modified": "2021-07-07",
             "keyword": [
+                "pm2.5",
                 "air pollution",
                 "asthma",
                 "environmental health",
-                "particulate matter",
-                "pm2.5"
+                "particulate matter"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42007,12 +42074,12 @@
             ],
             "issued": "2020-06-01",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-01",
+            "modified": "2021-07-07",
             "keyword": [
                 "air pollution",
-                "asthma",
                 "environmental health",
-                "ozone"
+                "ozone",
+                "asthma"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42141,18 +42208,18 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2021-06-04",
-            "modified": "2021-06-22",
+            "temporal": "2020-01-01/2021-06-18",
+            "modified": "2021-07-07",
             "references": [
-                "https://data.cdc.gov/api/views/vbim-akqf/files/08462abb-69ba-4153-a59f-effcd1c87ab2?download=true&filename=utility_summary_public.pdf"
+                "https://data.cdc.gov/api/views/vbim-akqf/files/ff208dea-349a-4feb-8c74-fece0738b767?download=true&filename=utility_summary_public.pdf"
             ],
             "keyword": [
+                "covid-19",
                 "cases",
-                "coronavirus",
+                "surveillance",
                 "covid",
                 "covid19",
-                "covid-19",
-                "surveillance"
+                "coronavirus"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42772,7 +42839,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -42980,7 +43047,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "nchs",
                 "coronavirus",
@@ -43607,7 +43674,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -44002,7 +44069,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -44562,7 +44629,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "age<5 years",
@@ -45248,7 +45315,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "2021",
                 "junin virus",
@@ -45748,7 +45815,7 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "nchs",
                 "nvss",
@@ -45822,12 +45889,12 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-01",
+            "modified": "2021-07-07",
             "keyword": [
                 "air pollution",
-                "asthma",
+                "ozone",
                 "environmental health",
-                "ozone"
+                "asthma"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46920,7 +46987,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-07",
             "keyword": [
                 "nchs",
                 "nvss",
@@ -47721,7 +47788,7 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-08",
             "keyword": [
                 "nchs",
                 "nvss",
@@ -47798,21 +47865,21 @@
             ],
             "issued": "2021-04-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2021-07-06",
             "keyword": [
-                "age",
-                "age group",
-                "all causes",
-                "coronavirus",
-                "county",
-                "covid-19",
-                "deaths",
-                "mortality",
-                "nchs",
                 "nvss",
+                "nchs",
                 "provisional",
+                "mortality",
+                "deaths",
                 "quarterly",
-                "united states"
+                "county",
+                "united states",
+                "covid-19",
+                "coronavirus",
+                "all causes",
+                "age group",
+                "age"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
