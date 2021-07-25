@@ -9,4 +9,3 @@ curl -Ls https://www.hhs.gov/code.json > data/hhs.gov.code.json
 python -m json.tool data/hhs.gov.code.json > data/pretty.hhs.gov.code.json
 curl -Ls https://www.cdc.gov/code.json > data/cdc.gov.code.json
 python -m json.tool data/cdc.gov.code.json > data/pretty.cdc.gov.code.json
-

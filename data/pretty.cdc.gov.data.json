@@ -588,7 +588,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -876,19 +876,21 @@
             "bureauCode": [
                 "009:00"
             ],
-            "issued": "2021-06-15",
+            "issued": "2021-07-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-22",
+            "modified": "2021-07-15",
             "keyword": [
                 "age",
                 "age group",
                 "cancer",
                 "deaths",
+                "hispanic origin",
                 "monthly",
                 "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
+                "race",
                 "sex",
                 "united states"
             ],
@@ -902,7 +904,7 @@
                 "name": "data.cdc.gov"
             },
             "identifier": "https://data.cdc.gov/api/views/2na8-fe6s",
-            "description": "Provisional death counts of malignant neoplasms (cancer) by month and year for 2020-2021. Data are based on death certificates for U.S. residents.",
+            "description": "Provisional death counts of malignant neoplasms (cancer) by month and year, and other selected demographics, for 2020-2021. Data are based on death certificates for U.S. residents.",
             "title": "AH Provisional Cancer Death Counts by Month and Year, 2020-2021",
             "programCode": [
                 "009:020"
@@ -950,7 +952,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "hepatitis c",
@@ -1016,7 +1018,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "legislation",
                 "osh",
@@ -1209,7 +1211,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "nedss",
@@ -1275,7 +1277,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "legislation",
                 "osh",
@@ -1676,7 +1678,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2021-07-14",
             "keyword": [
                 "age",
                 "all causes",
@@ -2422,7 +2424,7 @@
             ],
             "issued": "2020-04-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-04-16",
+            "modified": "2021-07-22",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -3796,26 +3798,26 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
-                "deaths",
-                "mortality",
-                "nchs",
-                "covid-19",
-                "coronavirus",
                 "age",
                 "age group",
-                "influenza",
-                "pneumonia",
-                "united states",
-                "state",
-                "puerto rico",
-                "place of death",
                 "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "influenza",
+                "monthly",
+                "mortality",
+                "nchs",
                 "nvss",
+                "place of death",
+                "pneumonia",
                 "provisional",
-                "yearly",
-                "monthly"
+                "puerto rico",
+                "state",
+                "united states",
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -5183,17 +5185,17 @@
             ],
             "issued": "2021-05-07",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-10",
+            "modified": "2021-07-25",
             "references": [
                 "https://data.cdc.gov/api/views/5jp2-pgaw/files/2a8f085d-04ab-4044-8148-3b7df4cb7088?download=true&filename=Outbound%20File%20Specification.pdf"
             ],
             "keyword": [
-                "vaccinefinder",
                 "covid-19",
-                "vaccines",
-                "vaccination sites",
+                "providers",
                 "vaccination locations",
-                "providers"
+                "vaccination sites",
+                "vaccinefinder",
+                "vaccines"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -5609,9 +5611,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2019-06-13",
+            "issued": "2021-07-15",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-29",
+            "modified": "2021-07-15",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -5748,7 +5750,7 @@
             ],
             "issued": "2021-04-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-02",
+            "modified": "2021-07-23",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -5883,7 +5885,7 @@
             ],
             "issued": "2021-02-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "age",
                 "age group",
@@ -6240,7 +6242,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "cholera",
@@ -6470,7 +6472,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "nedss",
@@ -7970,7 +7972,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -8496,7 +8498,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "nedss",
@@ -8563,11 +8565,11 @@
             "@type": "dcat:Dataset",
             "modified": "2021-07-07",
             "keyword": [
-                "environmental health",
                 "air pollution",
                 "asthma",
-                "pm2.5",
-                "particulate matter"
+                "environmental health",
+                "particulate matter",
+                "pm2.5"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -8695,11 +8697,11 @@
             "@type": "dcat:Dataset",
             "modified": "2021-07-07",
             "keyword": [
-                "particulate matter",
-                "pm2.5",
                 "air pollution",
                 "asthma",
-                "environmental health"
+                "environmental health",
+                "particulate matter",
+                "pm2.5"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -8823,7 +8825,7 @@
             ],
             "issued": "2021-02-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-02-22",
+            "modified": "2021-07-23",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -8845,8 +8847,8 @@
                 "name": "Environmental Public Health Tracking"
             },
             "identifier": "https://data.cdc.gov/api/views/7xvh-y5vh",
-            "description": "State and territorial executive orders, administrative orders, resolutions, proclamations, and other official publicly available government communications are collected from government websites and cataloged and coded using Microsoft Excel by one or more coders with one or more additional coders conducting quality assurance.\n\nData were collected to determine when individuals in states and territories were subject to executive orders, administrative orders, resolutions, proclamations, and other official publicly available government communications related to  COVID-19 banning gatherings of various sizes either (1) generally, or specified that the gathering limit applied only when social distancing was not possible, or (2) even if participants practiced social distancing.\n\nThese data are derived from on the publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly ban gatherings found by the CDC, COVID-19 Community Intervention and Critical Populations Task Force, Monitoring and Evaluation Team & CDC, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program from March 11 through December 31, 2020. These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded, as well as official government communications such as announcements that counties have progressed through new phases of reopening pursuant to an executive order, directive, or other executive branch action, and posted to government websites; news media reports on restrictions were excluded. Recommendations and guidance documents not included or adopted by reference in an order are not included in these data. These data do not include mandatory business closures, curfews, or requirements/recommendations for people to stay in their homes. Due to limitations of the National Environmental Public Health Tracking Network Data Explorer, these data do not include tribes or cities, nor was a distinction made between county orders that applied county-wide versus those that were limited to unincorporated areas of the county. Effective and expiration dates were coded using only the date provided; no distinction was made based on the specific time of the day the order became effective or expired. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
-            "title": "U.S. State and Territorial Gathering Bans: March 11-December 31, 2020 by County by Day",
+            "description": "State and territorial executive orders, administrative orders, resolutions, proclamations, and other official publicly available government communications are collected from government websites and cataloged and coded using Microsoft Excel by one or more coders with one or more additional coders conducting quality assurance.\n\nData were collected to determine when individuals in states and territories were subject to executive orders, administrative orders, resolutions, proclamations, and other official publicly available government communications related to  COVID-19 banning gatherings of various sizes either (1) generally, or specified that the gathering limit applied only when social distancing was not possible, or (2) even if participants practiced social distancing.\n\nThese data are derived from on the publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly ban gatherings found by the CDC, COVID-19 Community Intervention and Critical Populations Task Force, Monitoring and Evaluation Team & CDC, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program from March 11, 2020 through May 31, 2021. These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded, as well as official government communications such as announcements that counties have progressed through new phases of reopening pursuant to an executive order, directive, or other executive branch action, and posted to government websites; news media reports on restrictions were excluded. Recommendations and guidance documents not included or adopted by reference in an order are not included in these data. These data do not include mandatory business closures, curfews, or requirements/recommendations for people to stay in their homes. Due to limitations of the National Environmental Public Health Tracking Network Data Explorer, these data do not include tribes or cities, nor was a distinction made between county orders that applied county-wide versus those that were limited to unincorporated areas of the county. Effective and expiration dates were coded using only the date provided; no distinction was made based on the specific time of the day the order became effective or expired. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
+            "title": "U.S. State and Territorial Gathering Bans: March 11, 2020-May 31, 2021 by County by Day",
             "programCode": [
                 "009:020"
             ],
@@ -9091,10 +9093,10 @@
             "@type": "dcat:Dataset",
             "modified": "2021-07-07",
             "keyword": [
-                "ozone",
-                "environmental health",
                 "air pollution",
-                "asthma"
+                "asthma",
+                "environmental health",
+                "ozone"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -9189,7 +9191,7 @@
             ],
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -9421,7 +9423,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "ehrlichia ewingii infection",
@@ -9881,11 +9883,11 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-14",
             "keyword": [
-                "depression",
                 "anxiety",
-                "covid-19"
+                "covid-19",
+                "depression"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -10142,19 +10144,19 @@
             ],
             "issued": "2021-07-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-10",
-            "modified": "2021-07-10",
+            "temporal": "2020-12-13/2021-07-25",
+            "modified": "2021-07-25",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "age"
+                "age",
+                "coronavirus",
+                "covid-19",
+                "immunization",
+                "izdl",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -10336,7 +10338,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "references": [
                 "https://chronicdata.cdc.gov/d/sfei-pddr"
             ],
@@ -10679,7 +10681,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "cryptosporidiosis",
@@ -10810,7 +10812,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "animal",
@@ -10876,7 +10878,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "dengue",
@@ -10943,25 +10945,25 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
                 "age",
-                "sex",
-                "state",
-                "mortality",
+                "age group",
                 "coronavirus",
                 "covid-19",
-                "nchs",
-                "united states",
+                "deaths",
                 "influenza",
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
                 "pneumonia",
                 "provisional",
                 "puerto rico",
-                "monthly",
-                "yearly",
-                "nvss",
-                "age group",
-                "deaths"
+                "sex",
+                "state",
+                "united states",
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -11087,7 +11089,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "anaplasma phagocytophilum infection",
@@ -11153,36 +11155,36 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-22",
             "keyword": [
+                "all causes",
+                "alzheimer disease",
+                "cancer",
+                "causes of death",
+                "cerebrovascular disease",
+                "chronic lower respiratory disease",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "diabetes",
+                "diseases of heart",
+                "drug overdose",
+                "homicide",
+                "influenza",
+                "kidney disease",
                 "monthly",
                 "mortality",
-                "nvss",
-                "deaths",
-                "provisional",
-                "nchs",
-                "united states",
-                "covid-19",
-                "coronavirus",
-                "all causes",
-                "causes of death",
-                "natural cause",
-                "septicemia",
-                "cancer",
-                "diabetes",
-                "alzheimer disease",
-                "influenza",
-                "pneumonia",
-                "chronic lower respiratory disease",
-                "respiratory disease",
-                "kidney disease",
-                "diseases of heart",
-                "cerebrovascular disease",
-                "unintentional injuries",
-                "homicide",
-                "suicide",
                 "motor vehicle accidents",
-                "drug overdose"
+                "natural cause",
+                "nchs",
+                "nvss",
+                "pneumonia",
+                "provisional",
+                "respiratory disease",
+                "septicemia",
+                "suicide",
+                "unintentional injuries",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -11453,7 +11455,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -11664,7 +11666,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "imported",
@@ -11731,7 +11733,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "brucellosis",
@@ -11867,7 +11869,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2021-07-10",
+            "modified": "2021-07-25",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -11933,7 +11935,7 @@
             ],
             "issued": "2020-09-17",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-13",
+            "modified": "2021-07-16",
             "keyword": [
                 "asd",
                 "autism",
@@ -12261,7 +12263,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "nedss",
@@ -14809,7 +14811,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-28",
+            "modified": "2021-07-23",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -15450,7 +15452,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-04-16",
+            "modified": "2021-07-22",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -15711,7 +15713,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "hansen's disease",
@@ -15780,9 +15782,9 @@
             "@type": "dcat:Dataset",
             "modified": "2021-07-07",
             "keyword": [
-                "environmental health",
-                "asthma",
                 "air quality",
+                "asthma",
+                "environmental health",
                 "ozone"
             ],
             "contactPoint": {
@@ -16429,7 +16431,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "nedss",
@@ -16702,8 +16704,8 @@
             ],
             "issued": "2020-10-21",
             "@type": "dcat:Dataset",
-            "temporal": "2020-02-01/2021-04-18",
-            "modified": "2021-05-26",
+            "temporal": "2020-02-01/2021-05-16",
+            "modified": "2021-07-13",
             "keyword": [
                 "coronavirus",
                 "covid",
@@ -17815,7 +17817,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "age <5 years serotype b",
@@ -18907,7 +18909,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "legislation",
                 "licensure",
@@ -19502,7 +19504,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "age <5 years",
@@ -20244,7 +20246,7 @@
             ],
             "issued": "2020-09-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2021-07-22",
             "keyword": [
                 "age",
                 "age group",
@@ -20561,7 +20563,7 @@
             ],
             "issued": "2018-12-11",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-07-13",
             "references": [
                 "https://chronicdata.cdc.gov/d/sgg4-hiwe"
             ],
@@ -21216,9 +21218,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2019-06-13",
+            "issued": "2021-07-15",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-29",
+            "modified": "2021-07-15",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -22312,22 +22314,22 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-07-06",
+            "issued": "2021-07-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-07",
-            "modified": "2021-07-07",
+            "temporal": "2020-12-13/2021-07-20",
+            "modified": "2021-07-20",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
+                "cases",
+                "coronavirus",
+                "covid-19",
+                "immunization",
+                "izdl",
                 "report date",
-                "cases"
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -22517,7 +22519,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -22758,10 +22760,10 @@
             ],
             "issued": "2021-05-05",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-14",
             "keyword": [
-                "telemedicine",
-                "covid-19"
+                "covid-19",
+                "telemedicine"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -23007,7 +23009,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "all serogroups",
@@ -23345,7 +23347,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "legislation",
                 "osh",
@@ -23475,7 +23477,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "legislation",
                 "osh",
@@ -23606,45 +23608,45 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
-                "nchs",
-                "coronavirus",
-                "covid-19",
-                "health conditions",
-                "mortality",
-                "deaths",
-                "age group",
-                "provisional",
-                "nvss",
-                "united states",
-                "puerto rico",
-                "state",
-                "monthly",
-                "yearly",
-                "age",
-                "respiratory disease",
-                "influenza",
-                "pneumonia",
-                "chronic lower respiratory disease",
                 "adult respiratory distress syndrome",
-                "respiratory failure",
-                "respiratory arrest",
-                "circulatory disease",
-                "hypertensive disease",
-                "ischemic heart disease",
+                "age",
+                "age group",
+                "alzheimer disease",
+                "cancer",
                 "cardiac arrest",
                 "cardiac arrhythmia",
-                "heart failure",
                 "cerebrovascular disease",
-                "septicemia",
-                "cancer",
-                "diabetes",
-                "obesity",
-                "alzheimer disease",
+                "chronic lower respiratory disease",
+                "circulatory disease",
+                "coronavirus",
+                "covid-19",
+                "deaths",
                 "dementia",
+                "diabetes",
+                "health conditions",
+                "heart failure",
+                "hypertensive disease",
+                "influenza",
+                "injury",
+                "ischemic heart disease",
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
+                "obesity",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
                 "renal failure",
-                "injury"
+                "respiratory arrest",
+                "respiratory disease",
+                "respiratory failure",
+                "septicemia",
+                "state",
+                "united states",
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -23704,19 +23706,19 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "mortality",
                 "nchs",
                 "nvss",
-                "mortality",
-                "deaths",
                 "provisional",
                 "united states",
-                "weekly",
                 "urbanicity",
-                "covid-19",
-                "all causes",
-                "coronavirus"
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -23776,7 +23778,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -24238,7 +24240,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -24851,7 +24853,7 @@
             ],
             "issued": "2020-10-01",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -25490,7 +25492,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "fire safety",
                 "legislation",
@@ -25555,7 +25557,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -25620,7 +25622,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "nedss",
@@ -26147,12 +26149,12 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-14",
             "keyword": [
-                "uninsured",
-                "public coverage",
+                "covid-19",
                 "private coverage",
-                "covid-19"
+                "public coverage",
+                "uninsured"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -26319,23 +26321,23 @@
             "@type": "dcat:Dataset",
             "modified": "2021-07-07",
             "keyword": [
-                "excess deaths",
+                "age",
+                "age group",
+                "all causes",
+                "coronavirus",
                 "covid-19",
+                "deaths",
+                "excess deaths",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "mortality",
-                "deaths",
-                "united states",
-                "weekly",
-                "age",
-                "age group",
                 "race",
-                "hispanic origin",
                 "sex",
-                "all causes",
-                "coronavirus",
-                "state"
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -26395,7 +26397,7 @@
             ],
             "issued": "2019-06-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-11",
+            "modified": "2021-07-20",
             "keyword": [
                 "causes of death",
                 "deaths",
@@ -26463,7 +26465,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "meningococcal disease",
@@ -26529,7 +26531,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "anthrax",
@@ -26659,22 +26661,22 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
-                "death rate",
-                "covid-19",
-                "coronavirus",
+                "age",
                 "age group",
-                "race",
+                "coronavirus",
+                "covid-19",
+                "death rate",
+                "deaths",
                 "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
-                "deaths",
-                "mortality",
                 "provisional",
-                "age",
-                "united states",
-                "state"
+                "race",
+                "state",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -27462,20 +27464,20 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
-                "county",
-                "race",
-                "coronavirus",
-                "covid-19",
-                "mortality",
-                "united states",
-                "provisional",
-                "nvss",
-                "hispanic origin",
-                "deaths",
                 "all causes",
-                "nchs"
+                "coronavirus",
+                "county",
+                "covid-19",
+                "deaths",
+                "hispanic origin",
+                "mortality",
+                "nchs",
+                "nvss",
+                "provisional",
+                "race",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -27633,7 +27635,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "nedss",
@@ -27901,11 +27903,11 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-09",
+            "modified": "2021-07-15",
             "keyword": [
-                "provider relief fund",
                 "cares act",
-                "health system"
+                "health system",
+                "provider relief fund"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -28098,23 +28100,23 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-10",
-            "modified": "2021-07-10",
+            "temporal": "2020-12-13/2021-07-25",
+            "modified": "2021-07-25",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "demographics",
-                "sex",
                 "age",
+                "coronavirus",
+                "covid-19",
+                "demographics",
+                "ethnicity",
+                "immunization",
+                "izdl",
                 "race",
-                "ethnicity"
+                "sex",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -28386,18 +28388,18 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
-                "deaths",
-                "mortality",
-                "united states",
+                "all causes",
+                "coronavirus",
                 "county",
                 "covid-19",
-                "coronavirus",
+                "deaths",
+                "mortality",
                 "nchs",
-                "all causes",
+                "nvss",
                 "provisional",
-                "nvss"
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -28581,25 +28583,25 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
-                "nchs",
+                "age",
+                "age group",
+                "all causes",
                 "coronavirus",
                 "covid-19",
-                "pneumonia",
-                "influenza",
+                "deaths",
                 "hispanic origin",
+                "influenza",
+                "mortality",
+                "nchs",
+                "nvss",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
                 "race",
                 "state",
-                "age group",
-                "nvss",
-                "united states",
-                "puerto rico",
-                "all causes",
-                "provisional",
-                "mortality",
-                "deaths",
-                "age"
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -28793,7 +28795,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -29051,9 +29053,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2020-06-29",
+            "issued": "2021-07-15",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-29",
+            "modified": "2021-07-15",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -29317,22 +29319,22 @@
             "@type": "dcat:Dataset",
             "modified": "2021-07-07",
             "keyword": [
-                "excess deaths",
+                "age",
+                "age group",
+                "all causes",
+                "coronavirus",
                 "covid-19",
+                "deaths",
+                "excess deaths",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "mortality",
-                "deaths",
-                "united states",
-                "weekly",
-                "age",
-                "age group",
                 "race",
-                "hispanic origin",
                 "sex",
-                "all causes",
-                "coronavirus"
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -29497,19 +29499,19 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2021-06-18",
-            "modified": "2021-07-07",
+            "temporal": "2020-01-01/2021-07-02",
+            "modified": "2021-07-20",
             "references": [
-                "https://data.cdc.gov/api/views/mbd7-r32t/files/112487f6-ab99-49b0-ae1c-b0d36cbe62d3?download=true&filename=utility_summary_ridura.pdf"
+                "https://data.cdc.gov/api/views/mbd7-r32t/files/b23a5f8c-2dbf-4408-9d19-bd91ff434029?download=true&filename=utility_summary_ridura.pdf"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
                 "cases",
-                "surveillance",
+                "coronavirus",
                 "covid",
                 "covid19",
-                "restricted"
+                "covid-19",
+                "restricted",
+                "surveillance"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -29672,7 +29674,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "nedss",
@@ -30396,7 +30398,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "all ages",
@@ -30521,35 +30523,35 @@
             "bureauCode": [
                 "009:00"
             ],
-            "issued": "2020-07-08",
+            "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-23",
             "keyword": [
+                "all causes",
+                "alzheimer disease",
+                "cancer",
+                "causes of death",
+                "cerebrovascular disease",
+                "chronic lower respiratory disease",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "diabetes",
+                "diseases of heart",
+                "influenza",
+                "kidney disease",
+                "mortality",
+                "natural cause",
                 "nchs",
                 "nvss",
-                "mortality",
-                "deaths",
-                "all causes",
-                "covid-19",
-                "coronavirus",
-                "weekly",
-                "united states",
-                "state",
-                "puerto rico",
-                "provisional",
-                "causes of death",
-                "natural cause",
-                "septicemia",
-                "cancer",
-                "diabetes",
-                "alzheimer disease",
-                "influenza",
                 "pneumonia",
-                "chronic lower respiratory disease",
+                "provisional",
+                "puerto rico",
                 "respiratory disease",
-                "kidney disease",
-                "diseases of heart",
-                "cerebrovascular disease"
+                "septicemia",
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30561,7 +30563,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/muzy-jte6",
-            "description": "Provisional counts of deaths by the week the deaths occurred, by state of occurrence, and by select underlying causes of death for 2020-2021.  The dataset also includes weekly provisional counts of death for COVID-19, coded to ICD-10 code U07.1 as an underlying or multiple cause of death.",
+            "description": "Provisional counts of deaths by the week the deaths occurred, by state of occurrence, and by select underlying causes of death for 2020-2021.  The dataset also includes weekly provisional counts of death for COVID-19, coded to ICD-10 code U07.1 as an underlying or multiple cause of death.\n\nNOTE: death counts are presented with a one week lag.",
             "title": "Weekly Provisional Counts of Deaths by State and Select Causes, 2020-2021",
             "programCode": [
                 "009:020"
@@ -30848,7 +30850,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2021-07-22",
             "keyword": [
                 "age",
                 "age group",
@@ -30936,7 +30938,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -31379,20 +31381,20 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2021-06-18",
-            "modified": "2021-07-07",
+            "temporal": "2020-01-01/2021-07-02",
+            "modified": "2021-07-20",
             "references": [
-                "https://data.cdc.gov/api/views/n8mc-b4w4/files/348378df-72bb-4e6a-b954-91f5f7e381d8?download=true&filename=utility_summary_public_geo.pdf"
+                "https://data.cdc.gov/api/views/n8mc-b4w4/files/e87253c3-1363-4cdb-8cc2-ac38508a09bc?download=true&filename=utility_summary_public_geo.pdf"
             ],
             "keyword": [
-                "covid-19",
-                "covid19",
-                "coronavirus",
                 "cases",
-                "surveillance",
+                "coronavirus",
                 "county",
+                "covid19",
+                "covid-19",
+                "microdata",
                 "state",
-                "microdata"
+                "surveillance"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31493,7 +31495,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -31705,7 +31707,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "botulism",
@@ -31895,22 +31897,22 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
-                "mortality",
+                "age",
+                "age group",
                 "children",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "covid-19",
-                "coronavirus",
                 "race",
-                "age group",
                 "sex",
-                "united states",
-                "hispanic origin",
-                "deaths",
-                "age"
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -33025,7 +33027,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -33090,19 +33092,19 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
-                "deaths",
-                "race",
-                "mortality",
-                "united states",
-                "state",
-                "covid-19",
                 "coronavirus",
-                "nchs",
+                "covid-19",
+                "deaths",
                 "hispanic origin",
+                "mortality",
+                "nchs",
+                "nvss",
                 "provisional",
-                "nvss"
+                "race",
+                "state",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -33437,7 +33439,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "crimean-congo hemorrhagic fever virus",
@@ -34022,7 +34024,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "mumps",
@@ -34586,8 +34588,8 @@
             "rights": "See data use agreement for additional information.",
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2013 - 2017",
-            "modified": "2021-05-25",
+            "temporal": "2013/2017",
+            "modified": "2021-07-22",
             "references": [
                 "https://clinicaltrials.gov/ct2/show/NCT01965470?cond=HIV&cntry=BW&draw=2&rank=14"
             ],
@@ -34624,7 +34626,6 @@
                 }
             ],
             "spatial": "Botswana",
-            "accrualPeriodicity": "Final",
             "theme": [
                 "Global Health"
             ],
@@ -34789,22 +34790,22 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "deaths",
-                "mortality",
-                "united states",
-                "state",
                 "puerto rico",
-                "weekly",
                 "race",
-                "hispanic origin",
-                "all causes",
-                "covid-19",
-                "coronavirus"
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -35055,11 +35056,11 @@
             "@type": "dcat:Dataset",
             "modified": "2021-07-07",
             "keyword": [
-                "asthma",
-                "pm2.5",
-                "particulate matter",
                 "air pollution",
-                "environmental health"
+                "asthma",
+                "environmental health",
+                "particulate matter",
+                "pm2.5"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -35574,7 +35575,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-02-10",
+            "modified": "2021-07-23",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -35905,7 +35906,7 @@
             ],
             "issued": "2021-02-11",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "age",
                 "age group",
@@ -36191,24 +36192,24 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-09",
+            "modified": "2021-07-23",
             "keyword": [
+                "all causes",
                 "coronavirus",
+                "covid-19",
+                "deaths",
+                "influenza",
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
                 "state",
                 "united states",
-                "nchs",
-                "covid-19",
-                "mortality",
-                "pneumonia",
-                "influenza",
-                "nvss",
-                "provisional",
                 "weekly",
-                "monthly",
-                "yearly",
-                "all causes",
-                "puerto rico",
-                "deaths"
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -36395,7 +36396,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "nedss",
@@ -36695,19 +36696,19 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-10",
-            "modified": "2021-07-10",
+            "temporal": "2020-12-13/2021-07-25",
+            "modified": "2021-07-25",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "report date"
+                "coronavirus",
+                "covid-19",
+                "immunization",
+                "izdl",
+                "report date",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -36907,14 +36908,14 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-09",
+            "modified": "2021-07-15",
             "keyword": [
-                "provider relief fund",
                 "cares act",
                 "coronavirus",
-                "uninsured",
+                "covid-19",
                 "health system",
-                "covid-19"
+                "provider relief fund",
+                "uninsured"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -37167,7 +37168,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-06",
+            "modified": "2021-07-20",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -37415,7 +37416,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "nedss",
@@ -37481,7 +37482,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "nedss",
@@ -38305,7 +38306,7 @@
             ],
             "issued": "2020-08-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2021-07-22",
             "keyword": [
                 "age",
                 "age group",
@@ -38472,7 +38473,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-08",
+            "modified": "2021-07-15",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -38646,7 +38647,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "machupo virus",
@@ -39330,7 +39331,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "acute",
@@ -39781,24 +39782,24 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
-                "covid-19",
-                "race",
-                "hispanic origin",
                 "age",
+                "age group",
+                "all causes",
+                "coronavirus",
+                "covid-19",
                 "deaths",
+                "hhs region",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "coronavirus",
-                "age group",
-                "weekly",
-                "all causes",
-                "mortality",
-                "united states",
                 "puerto rico",
-                "hhs region"
+                "race",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -39961,11 +39962,11 @@
             "landingPage": "https://data.cdc.gov/d/tt3f-rr33",
             "issued": "2021-06-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-02",
+            "modified": "2021-07-22",
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "Shaho Alaee",
-                "hasEmail": "mailto:qaf6@cdc.gov"
+                "fn": "CDC INFO",
+                "hasEmail": "mailto:ERIC@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -40215,19 +40216,19 @@
             ],
             "issued": "2020-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-02",
+            "modified": "2021-07-23",
             "keyword": [
-                "covid-19",
                 "covid",
+                "covid-19",
                 "executive order",
-                "social distancing",
-                "mitigation",
                 "government order",
-                "proclamation",
                 "legal epidemiology",
-                "public health order",
+                "mask mandates",
                 "masks",
-                "mask mandates"
+                "mitigation",
+                "proclamation",
+                "public health order",
+                "social distancing"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -40409,33 +40410,33 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
-                "nchs",
-                "nvss",
-                "provisional",
-                "mortality",
-                "deaths",
-                "united states",
-                "state",
-                "puerto rico",
-                "weekly",
-                "causes of death",
                 "alzheimer disease",
-                "dementia",
                 "cancer",
+                "causes of death",
                 "cerebrovascular disease",
-                "diabetes",
                 "chronic lower respiratory disease",
-                "influenza",
-                "pneumonia",
-                "respiratory disease",
-                "renal failure",
+                "circulatory disease",
+                "deaths",
+                "dementia",
+                "diabetes",
                 "heart failure",
                 "hypertensive disease",
+                "influenza",
                 "ischemic heart disease",
-                "circulatory disease",
-                "septicemia"
+                "mortality",
+                "nchs",
+                "nvss",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
+                "renal failure",
+                "respiratory disease",
+                "septicemia",
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41068,23 +41069,23 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
-                "nchs",
                 "coronavirus",
                 "covid-19",
-                "state",
-                "united states",
-                "mortality",
-                "monthly",
-                "yearly",
-                "nvss",
-                "place of death",
-                "provisional",
-                "puerto rico",
                 "deaths",
                 "influenza",
-                "pneumonia"
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
+                "place of death",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
+                "state",
+                "united states",
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41146,11 +41147,11 @@
             "@type": "dcat:Dataset",
             "modified": "2021-07-07",
             "keyword": [
-                "pm2.5",
-                "particulate matter",
                 "air pollution",
+                "asthma",
                 "environmental health",
-                "asthma"
+                "particulate matter",
+                "pm2.5"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41245,19 +41246,19 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-10",
-            "modified": "2021-07-10",
+            "temporal": "2020-12-13/2021-07-25",
+            "modified": "2021-07-25",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "age"
+                "age",
+                "coronavirus",
+                "covid-19",
+                "immunization",
+                "izdl",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41811,7 +41812,7 @@
             ],
             "issued": "2020-05-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-04-19",
+            "modified": "2021-07-13",
             "references": [
                 "https://www.cms.gov/files/document/Accelerated-and-Advanced-Payments-Fact-Sheet.pdf"
             ],
@@ -41949,11 +41950,11 @@
             "@type": "dcat:Dataset",
             "modified": "2021-07-07",
             "keyword": [
-                "pm2.5",
                 "air pollution",
                 "asthma",
                 "environmental health",
-                "particulate matter"
+                "particulate matter",
+                "pm2.5"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42077,9 +42078,9 @@
             "modified": "2021-07-07",
             "keyword": [
                 "air pollution",
+                "asthma",
                 "environmental health",
-                "ozone",
-                "asthma"
+                "ozone"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42208,18 +42209,18 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2021-06-18",
-            "modified": "2021-07-07",
+            "temporal": "2020-01-01/2021-07-02",
+            "modified": "2021-07-20",
             "references": [
-                "https://data.cdc.gov/api/views/vbim-akqf/files/ff208dea-349a-4feb-8c74-fece0738b767?download=true&filename=utility_summary_public.pdf"
+                "https://data.cdc.gov/api/views/vbim-akqf/files/2ce2d718-19d1-4506-86a4-d636379cd25d?download=true&filename=utility_summary_public.pdf"
             ],
             "keyword": [
-                "covid-19",
                 "cases",
-                "surveillance",
+                "coronavirus",
                 "covid",
                 "covid19",
-                "coronavirus"
+                "covid-19",
+                "surveillance"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42839,7 +42840,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -43047,21 +43048,21 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
-                "nchs",
+                "age",
+                "age group",
+                "all causes",
                 "coronavirus",
                 "covid-19",
-                "sex",
-                "age group",
-                "united states",
-                "nvss",
-                "mortality",
-                "provisional",
-                "weekly",
-                "all causes",
                 "deaths",
-                "age"
+                "mortality",
+                "nchs",
+                "nvss",
+                "provisional",
+                "sex",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -43674,7 +43675,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -44069,7 +44070,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -44388,7 +44389,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -44629,7 +44630,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "age<5 years",
@@ -45315,7 +45316,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
                 "2021",
                 "junin virus",
@@ -45442,11 +45443,11 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-14",
             "keyword": [
+                "covid-19",
                 "delayed care",
-                "unmet need",
-                "covid-19"
+                "unmet need"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -45737,7 +45738,7 @@
             ],
             "issued": "2019-04-17",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-16",
+            "modified": "2021-07-14",
             "keyword": [
                 "cocaine",
                 "deaths",
@@ -45815,21 +45816,21 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "excess deaths",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "mortality",
-                "deaths",
-                "excess deaths",
-                "united states",
-                "state",
                 "puerto rico",
-                "weekly",
-                "all causes",
-                "covid-19",
-                "coronavirus"
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -45892,9 +45893,9 @@
             "modified": "2021-07-07",
             "keyword": [
                 "air pollution",
-                "ozone",
+                "asthma",
                 "environmental health",
-                "asthma"
+                "ozone"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46156,7 +46157,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -46719,7 +46720,7 @@
             ],
             "issued": "2021-02-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-02-19",
+            "modified": "2021-07-23",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -46742,8 +46743,8 @@
                 "name": "Environmental Public Health Tracking"
             },
             "identifier": "https://data.cdc.gov/api/views/y2iy-8irm",
-            "description": "State and territorial executive orders, administrative orders, resolutions, and proclamations are collected from government websites and cataloged and coded using Microsoft Excel by one coder with one or more additional coders conducting quality assurance.\n\nData were collected to determine when individuals in states and territories were subject to executive orders, administrative orders, resolutions, and proclamations for COVID-19 that require or recommend people stay in their homes. Data consists exclusively of state and territorial orders, many of which apply to specific counties within their respective state or territory; therefore, data is broken down to the county level.\n\nThese data are derived from the publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly require or recommend individuals stay at home found by the CDC, COVID-19 Community Intervention and At-Risk Task Force, Monitoring and Evaluation Team & CDC, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program from March 15 through December 31, 2020. These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded; news media reports on restrictions were excluded. Recommendations not included in an order are not included in these data. These data do not include mandatory business closures, curfews, or limitations on public or private gatherings. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
-            "title": "U.S. State and Territorial Stay-At-Home Orders: March 15 \u2013 December 31 by County by Day",
+            "description": "State and territorial executive orders, administrative orders, resolutions, and proclamations are collected from government websites and cataloged and coded using Microsoft Excel by one coder with one or more additional coders conducting quality assurance.\n\nData were collected to determine when individuals in states and territories were subject to executive orders, administrative orders, resolutions, and proclamations for COVID-19 that require or recommend people stay in their homes. Data consists exclusively of state and territorial orders, many of which apply to specific counties within their respective state or territory; therefore, data is broken down to the county level.\n\nThese data are derived from the publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly require or recommend individuals stay at home found by the CDC, COVID-19 Community Intervention and At-Risk Task Force, Monitoring and Evaluation Team & CDC, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program from March 15, 2020 through May 31, 2021. These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded; news media reports on restrictions were excluded. Recommendations not included in an order are not included in these data. These data do not include mandatory business closures, curfews, or limitations on public or private gatherings. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
+            "title": "U.S. State and Territorial Stay-At-Home Orders: March 15, 2020 \u2013 May 31, 2021 by County by Day",
             "programCode": [
                 "009:020"
             ],
@@ -46987,20 +46988,20 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-07-21",
             "keyword": [
+                "age",
+                "age group",
+                "all causes",
+                "deaths",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "deaths",
-                "mortality",
-                "united states",
-                "state",
                 "puerto rico",
-                "weekly",
-                "age group",
-                "age",
-                "all causes"
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -47516,7 +47517,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-01",
+            "modified": "2021-07-19",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -47726,7 +47727,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-30",
+            "modified": "2021-07-14",
             "keyword": [
                 "covid-19",
                 "mental health"
@@ -47788,24 +47789,24 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-08",
+            "modified": "2021-07-22",
             "keyword": [
+                "age",
+                "age group",
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hhs region",
+                "influenza",
+                "mortality",
                 "nchs",
                 "nvss",
-                "provisional",
-                "mortality",
-                "deaths",
-                "united states",
-                "state",
-                "weekly",
-                "age group",
-                "age",
-                "covid-19",
-                "coronavirus",
                 "pneumonia",
-                "influenza",
-                "all causes",
-                "hhs region"
+                "provisional",
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -47867,19 +47868,19 @@
             "@type": "dcat:Dataset",
             "modified": "2021-07-06",
             "keyword": [
-                "nvss",
-                "nchs",
-                "provisional",
-                "mortality",
-                "deaths",
-                "quarterly",
-                "county",
-                "united states",
-                "covid-19",
-                "coronavirus",
-                "all causes",
+                "age",
                 "age group",
-                "age"
+                "all causes",
+                "coronavirus",
+                "county",
+                "covid-19",
+                "deaths",
+                "mortality",
+                "nchs",
+                "nvss",
+                "provisional",
+                "quarterly",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",

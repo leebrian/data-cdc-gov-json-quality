@@ -25,7 +25,7 @@ jobs:
       - name: Fetch files, check them...
         run: |
           pwd
-          ls -alhR
+          ls -lhR
           ./fetch_data_json.sh
           ./quality_checks.sh
 
