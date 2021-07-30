@@ -952,7 +952,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "hepatitis c",
@@ -1211,7 +1211,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "nedss",
@@ -1408,7 +1408,7 @@
             "landingPage": "https://data.cdc.gov/d/34p9-h4us",
             "issued": "2021-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-24",
+            "modified": "2021-07-28",
             "keyword": [
                 "haicviz"
             ],
@@ -3265,6 +3265,68 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://covid.cdc.gov/covid-data-tracker/#vaccinations-pregnant-women",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-07-28",
+            "@type": "dcat:Dataset",
+            "modified": "2021-07-29",
+            "keyword": [
+                "covid-19 vaccine",
+                "covid tracker",
+                "pregnancy",
+                "vsd"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
+                "hasEmail": "mailto:VaxView@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/4ht3-nbmd",
+            "description": "These weekly COVID-19 vaccination coverage estimates for pregnant persons are from the Vaccine Safety Datalink (VSD), a collaboration between CDC\u2019s Immunization Safety Office and nine integrated health care organizations. COVID-19 vaccination coverage with at least 1 dose among pregnant people during pregnancy was obtained from the Vaccine Safety Datalink*.\nThese data represent trends in vaccination status during pregnancy by week. Percentages displayed in the figure below represent the percent of pregnant people in the Vaccine Safety Datalink* that have been vaccinated with at least one dose of a COVID-19 vaccine during pregnancy.\nThese data represent trends in vaccination status during pregnancy by week. Percentages displayed in the figure below represent the percent of pregnant people in the Vaccine Safety Datalink* that have been vaccinated with at least one dose of a COVID-19 vaccine during pregnancy.",
+            "title": "Percent of Pregnant People aged 18-49 years receiving at least one dose of a COVID-19 vaccine during pregnancy overall, by race/ethnicity, and date reported to CDC \u2014 Vaccine Safety Datalink*, United States December 14, 2020 \u2014 June 26, 2021",
+            "programCode": [
+                "009:026"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/4ht3-nbmd/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/4ht3-nbmd/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4ht3-nbmd/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/4ht3-nbmd/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4ht3-nbmd/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/4ht3-nbmd/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4ht3-nbmd/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Vaccinations"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/4jje-6vv6",
             "bureauCode": [
                 "009:00"
@@ -3798,7 +3860,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "age",
                 "age group",
@@ -5185,7 +5247,7 @@
             ],
             "issued": "2021-05-07",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-25",
+            "modified": "2021-07-30",
             "references": [
                 "https://data.cdc.gov/api/views/5jp2-pgaw/files/2a8f085d-04ab-4044-8148-3b7df4cb7088?download=true&filename=Outbound%20File%20Specification.pdf"
             ],
@@ -6242,7 +6304,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "cholera",
@@ -6472,7 +6534,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "nedss",
@@ -7972,7 +8034,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -8498,7 +8560,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "nedss",
@@ -9322,7 +9384,7 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-23",
+            "modified": "2021-07-28",
             "keyword": [
                 "abcs",
                 "bactfacts"
@@ -9423,7 +9485,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "ehrlichia ewingii infection",
@@ -10144,8 +10206,8 @@
             ],
             "issued": "2021-07-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-25",
-            "modified": "2021-07-25",
+            "temporal": "2020-12-13/2021-07-29",
+            "modified": "2021-07-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -10555,7 +10617,7 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-23",
+            "modified": "2021-07-28",
             "keyword": [
                 "abcs",
                 "bactfacts"
@@ -10681,7 +10743,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "cryptosporidiosis",
@@ -10812,7 +10874,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "animal",
@@ -10878,7 +10940,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "dengue",
@@ -10945,7 +11007,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "age",
                 "age group",
@@ -11089,7 +11151,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "anaplasma phagocytophilum infection",
@@ -11155,7 +11217,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-28",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -11455,7 +11517,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -11666,7 +11728,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "imported",
@@ -11733,7 +11795,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "brucellosis",
@@ -11869,7 +11931,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2021-07-25",
+            "modified": "2021-07-29",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -12263,7 +12325,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "nedss",
@@ -12329,7 +12391,7 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-23",
+            "modified": "2021-07-28",
             "keyword": [
                 "abcs",
                 "bactfacts"
@@ -12996,7 +13058,7 @@
             ],
             "issued": "2021-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-24",
+            "modified": "2021-07-28",
             "keyword": [
                 "clostridioides difficile",
                 "haicviz"
@@ -13251,9 +13313,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-05-12",
+            "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-13",
+            "modified": "2021-07-28",
             "keyword": [
                 "immunization",
                 "pneumococcal",
@@ -13454,6 +13516,67 @@
             "accrualPeriodicity": "Ad hoc",
             "theme": [
                 "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://covid.cdc.gov/covid-data-tracker/#vaccine-confidence",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-07-20",
+            "@type": "dcat:Dataset",
+            "modified": "2021-07-29",
+            "keyword": [
+                "nis-acm",
+                "covid-19 vaccination",
+                "covid tracker"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "James Singleton",
+                "hasEmail": "mailto:VaxView@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/akkj-j5ru",
+            "description": "National Immunization Survey-Adult COVID Module (NIS-ACM): CDC is providing information on COVID-19 vaccine confidence to supplement vaccine administration data. These data represent trends in vaccination status and intent by week for the national-level view, and by month for the jurisdiction-level view.",
+            "title": "National Immunization Survey Adult COVID Module (NIS-ACM): Trends in Vaccination Status and Intent",
+            "programCode": [
+                "009:026"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/akkj-j5ru/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/akkj-j5ru/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/akkj-j5ru/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/akkj-j5ru/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/akkj-j5ru/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/akkj-j5ru/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/akkj-j5ru/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Vaccinations"
             ]
         },
         {
@@ -15713,7 +15836,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "hansen's disease",
@@ -16431,7 +16554,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "nedss",
@@ -17817,7 +17940,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "age <5 years serotype b",
@@ -19101,9 +19224,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-05-13",
+            "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-13",
+            "modified": "2021-07-28",
             "keyword": [
                 "adolescent vaccination",
                 "hepb",
@@ -19504,7 +19627,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "age <5 years",
@@ -19640,7 +19763,7 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-23",
+            "modified": "2021-07-28",
             "keyword": [
                 "abcs",
                 "bactfacts"
@@ -20696,7 +20819,7 @@
             ],
             "issued": "2021-05-13",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-13",
+            "modified": "2021-07-28",
             "keyword": [
                 "child vaccination",
                 "combined 7 series",
@@ -22314,10 +22437,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-07-12",
+            "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-20",
-            "modified": "2021-07-20",
+            "temporal": "2020-12-13/2021-07-29",
+            "modified": "2021-07-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -22519,7 +22642,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -23009,7 +23132,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "all serogroups",
@@ -23608,7 +23731,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -23706,7 +23829,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -23778,7 +23901,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -24240,7 +24363,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -25622,7 +25745,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "nedss",
@@ -25815,6 +25938,67 @@
             "describedBy": "https://chronicdata.cdc.gov/Heart-Disease-Stroke-Prevention/Center-for-Medicare-Medicaid-Services-CMS-Medicare/iw6q-r3ja",
             "theme": [
                 "Heart Disease & Stroke Prevention"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://covid.cdc.gov/covid-data-tracker/#vaccine-confidence",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-07-20",
+            "@type": "dcat:Dataset",
+            "modified": "2021-07-29",
+            "keyword": [
+                "nis-acm",
+                "covid tracker",
+                "covid-19 vaccination"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "James Singleton",
+                "hasEmail": "mailto:VaxView@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/iwxc-qftf",
+            "description": "National Immunization Survey Adult COVID Module (NIS-ACM): CDC is providing information on COVID-19 vaccine confidence to supplement vaccine administration data. These data represent trends in vaccination status and intent by demographics.",
+            "title": "National Immunization Survey Adult COVID Module (NIS-ACM): Vaccination Status and Intent by Demographics",
+            "programCode": [
+                "009:026"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/iwxc-qftf/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/iwxc-qftf/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/iwxc-qftf/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/iwxc-qftf/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/iwxc-qftf/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/iwxc-qftf/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/iwxc-qftf/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Vaccinations"
             ]
         },
         {
@@ -26465,7 +26649,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "meningococcal disease",
@@ -26531,7 +26715,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "anthrax",
@@ -26661,7 +26845,7 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "age",
                 "age group",
@@ -27464,7 +27648,7 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27635,7 +27819,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "nedss",
@@ -27903,7 +28087,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-15",
+            "modified": "2021-07-29",
             "keyword": [
                 "cares act",
                 "health system",
@@ -28100,8 +28284,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-25",
-            "modified": "2021-07-25",
+            "temporal": "2020-12-13/2021-07-29",
+            "modified": "2021-07-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -28388,7 +28572,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -28583,7 +28767,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "age",
                 "age group",
@@ -29674,7 +29858,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "nedss",
@@ -30398,7 +30582,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "all ages",
@@ -30525,7 +30709,7 @@
             ],
             "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-23",
+            "modified": "2021-07-28",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -30938,7 +31122,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -31707,7 +31891,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "botulism",
@@ -31897,7 +32081,7 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "age",
                 "age group",
@@ -33092,7 +33276,7 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -33439,7 +33623,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "crimean-congo hemorrhagic fever virus",
@@ -34024,7 +34208,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "mumps",
@@ -34089,7 +34273,7 @@
             ],
             "issued": "2021-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-17",
+            "modified": "2021-07-29",
             "keyword": [
                 "covid-19",
                 "emergency department",
@@ -34111,7 +34295,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/q3t8-zr7t",
-            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020 NHCS is not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 63 hospitals submitting inpatient and 60 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020\u2013December 29, 2020.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
+            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020 NHCS is not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 37 hospitals submitting inpatient and 37 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020\u2013March 30, 2021.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
             "title": "COVID-19 Hospital Data from the National Hospital Care Survey",
             "programCode": [
                 "009:020"
@@ -34790,7 +34974,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -35770,6 +35954,67 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://covid.cdc.gov/covid-data-tracker/#vaccine-confidence",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-07-20",
+            "@type": "dcat:Dataset",
+            "modified": "2021-07-29",
+            "keyword": [
+                "covid-19 vaccination",
+                "covid tracker",
+                "nis-acm"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "James Singleton",
+                "hasEmail": "mailto:VaxView@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/qz99-wyhv",
+            "description": "National Immunization Survey-Adult COVID Module (NIS-ACM): CDC is providing information on COVID-19 vaccine confidence to supplement vaccine administration data. Trends in behavioral indicators represent the percent of unvaccinated people responding to each of the indicators by intent status and by week for the national-level view, and by month for the jurisdiction-level view.",
+            "title": "National Immunization Survey Adult COVID Module (NIS-ACM): Trends in Behavioral Indicators Among Unvaccinated People",
+            "programCode": [
+                "009:026"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/qz99-wyhv/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/qz99-wyhv/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/qz99-wyhv/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/qz99-wyhv/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/qz99-wyhv/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/qz99-wyhv/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/qz99-wyhv/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Vaccinations"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/r35g-znws",
             "bureauCode": [
                 "009:20"
@@ -36192,7 +36437,7 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-23",
+            "modified": "2021-07-30",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36396,7 +36641,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "nedss",
@@ -36696,8 +36941,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-25",
-            "modified": "2021-07-25",
+            "temporal": "2020-12-13/2021-07-29",
+            "modified": "2021-07-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -36906,9 +37151,9 @@
             "bureauCode": [
                 "009:15"
             ],
-            "issued": "2021-02-26",
+            "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-15",
+            "modified": "2021-07-29",
             "keyword": [
                 "cares act",
                 "coronavirus",
@@ -37168,7 +37413,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-20",
+            "modified": "2021-07-27",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -37416,7 +37661,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "nedss",
@@ -37482,7 +37727,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "nedss",
@@ -38473,7 +38718,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-15",
+            "modified": "2021-07-28",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -38647,7 +38892,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "machupo virus",
@@ -38774,7 +39019,7 @@
             ],
             "issued": "2021-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-24",
+            "modified": "2021-07-28",
             "keyword": [
                 "haicviz",
                 "healthcare associated infections",
@@ -39331,7 +39576,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "acute",
@@ -39782,7 +40027,7 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "age",
                 "age group",
@@ -40410,7 +40655,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -41069,7 +41314,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -41246,8 +41491,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-25",
-            "modified": "2021-07-25",
+            "temporal": "2020-12-13/2021-07-29",
+            "modified": "2021-07-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -41488,7 +41733,7 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-23",
+            "modified": "2021-07-28",
             "keyword": [
                 "abcs",
                 "bactfacts"
@@ -41881,7 +42126,7 @@
             ],
             "issued": "2021-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-25",
+            "modified": "2021-07-28",
             "keyword": [
                 "antimicrobial resistance",
                 "carbapenem-resistant acinetobacter baumannii",
@@ -42577,9 +42822,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-05-13",
+            "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-13",
+            "modified": "2021-07-28",
             "keyword": [
                 "flu vaccination",
                 "immunization",
@@ -42840,7 +43085,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -43048,7 +43293,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "age",
                 "age group",
@@ -43398,7 +43643,7 @@
             ],
             "issued": "2018-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-02",
+            "modified": "2021-07-26",
             "references": [
                 "https://www.cdc.gov/oralhealthdata/"
             ],
@@ -43424,7 +43669,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/vwmz-4ja3",
-            "description": "2011-2020. The ASTDD Synopses of State Oral Health Programs contain information useful in tracking states\u2019 efforts to improve oral health and contributions to progress toward the national targets for Healthy People objectives for oral health. A subset of the information collected from the most recent five years is provided on the Oral Health Data website. For more information, see http://www.cdc.gov/oralhealthdata/overview/synopses/index.html",
+            "description": "2011-2021. The ASTDD Synopses of State Oral Health Programs contain information useful in tracking states\u2019 efforts to improve oral health and contributions to progress toward the national targets for Healthy People objectives for oral health. A subset of the information collected from the most recent five years is provided on the Oral Health Data website. For more information, see http://www.cdc.gov/oralhealthdata/overview/synopses/index.html",
             "title": "ASTDD Synopses of State Oral Health Programs - Selected indicators",
             "programCode": [
                 "009:020"
@@ -43675,7 +43920,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -44070,7 +44315,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -44389,7 +44634,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-07-26",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -44630,7 +44875,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "age<5 years",
@@ -45316,7 +45561,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "2021",
                 "junin virus",
@@ -45816,7 +46061,7 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -46988,7 +47233,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-21",
+            "modified": "2021-07-28",
             "keyword": [
                 "age",
                 "age group",
@@ -47789,7 +48034,7 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-07-29",
             "keyword": [
                 "age",
                 "age group",
