@@ -1678,7 +1678,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-14",
+            "modified": "2021-07-31",
             "keyword": [
                 "age",
                 "all causes",
@@ -5247,7 +5247,7 @@
             ],
             "issued": "2021-05-07",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-30",
+            "modified": "2021-07-31",
             "references": [
                 "https://data.cdc.gov/api/views/5jp2-pgaw/files/2a8f085d-04ab-4044-8148-3b7df4cb7088?download=true&filename=Outbound%20File%20Specification.pdf"
             ],
@@ -10206,8 +10206,8 @@
             ],
             "issued": "2021-07-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-29",
-            "modified": "2021-07-29",
+            "temporal": "2020-12-13/2021-07-31",
+            "modified": "2021-07-31",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -11931,7 +11931,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2021-07-29",
+            "modified": "2021-07-31",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -13528,9 +13528,9 @@
             "@type": "dcat:Dataset",
             "modified": "2021-07-29",
             "keyword": [
-                "nis-acm",
                 "covid-19 vaccination",
-                "covid tracker"
+                "covid tracker",
+                "nis-acm"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -25950,9 +25950,9 @@
             "@type": "dcat:Dataset",
             "modified": "2021-07-29",
             "keyword": [
-                "nis-acm",
+                "covid-19 vaccination",
                 "covid tracker",
-                "covid-19 vaccination"
+                "nis-acm"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -28284,8 +28284,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-29",
-            "modified": "2021-07-29",
+            "temporal": "2020-12-13/2021-07-31",
+            "modified": "2021-07-31",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -36941,8 +36941,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-29",
-            "modified": "2021-07-29",
+            "temporal": "2020-12-13/2021-07-31",
+            "modified": "2021-07-31",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -41491,8 +41491,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-29",
-            "modified": "2021-07-29",
+            "temporal": "2020-12-13/2021-07-31",
+            "modified": "2021-07-31",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
