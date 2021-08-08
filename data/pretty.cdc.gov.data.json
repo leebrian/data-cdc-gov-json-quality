@@ -952,7 +952,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "hepatitis c",
@@ -1211,7 +1211,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "nedss",
@@ -1678,7 +1678,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-31",
+            "modified": "2021-08-04",
             "keyword": [
                 "age",
                 "all causes",
@@ -1703,7 +1703,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/3apk-4u4f",
             "description": "Cumulative deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by sex and age in years, in the United States.",
-            "title": "AH Provisional COVID-19 Death Counts by Age in Years, 2020-2021",
+            "title": "Provisional COVID-19 Death Counts by Age in Years, 2020-2021",
             "programCode": [
                 "009:020"
             ],
@@ -1737,7 +1737,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "NCHS"
             ]
@@ -3271,7 +3271,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "covid-19 vaccine",
                 "covid tracker",
@@ -3289,7 +3289,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/4ht3-nbmd",
             "description": "These weekly COVID-19 vaccination coverage estimates for pregnant persons are from the Vaccine Safety Datalink (VSD), a collaboration between CDC\u2019s Immunization Safety Office and nine integrated health care organizations. COVID-19 vaccination coverage with at least 1 dose among pregnant people during pregnancy was obtained from the Vaccine Safety Datalink*.\nThese data represent trends in vaccination status during pregnancy by week. Percentages displayed in the figure below represent the percent of pregnant people in the Vaccine Safety Datalink* that have been vaccinated with at least one dose of a COVID-19 vaccine during pregnancy.\nThese data represent trends in vaccination status during pregnancy by week. Percentages displayed in the figure below represent the percent of pregnant people in the Vaccine Safety Datalink* that have been vaccinated with at least one dose of a COVID-19 vaccine during pregnancy.",
-            "title": "Percent of Pregnant People aged 18-49 years receiving at least one dose of a COVID-19 vaccine during pregnancy overall, by race/ethnicity, and date reported to CDC \u2014 Vaccine Safety Datalink*, United States December 14, 2020 \u2014 June 26, 2021",
+            "title": "Percent of Pregnant People aged 18-49 years receiving at least one dose of a COVID-19 vaccine during pregnancy overall, by race/ethnicity, and date reported to CDC \u2014 Vaccine Safety Datalink*, United States",
             "programCode": [
                 "009:026"
             ],
@@ -3860,7 +3860,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "age",
                 "age group",
@@ -5247,7 +5247,7 @@
             ],
             "issued": "2021-05-07",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-31",
+            "modified": "2021-08-07",
             "references": [
                 "https://data.cdc.gov/api/views/5jp2-pgaw/files/2a8f085d-04ab-4044-8148-3b7df4cb7088?download=true&filename=Outbound%20File%20Specification.pdf"
             ],
@@ -5945,9 +5945,9 @@
             "bureauCode": [
                 "009:00"
             ],
-            "issued": "2021-02-23",
+            "issued": "2021-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-08-03",
             "keyword": [
                 "age",
                 "age group",
@@ -6304,7 +6304,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "cholera",
@@ -6534,7 +6534,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "nedss",
@@ -8034,7 +8034,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -8560,7 +8560,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "nedss",
@@ -9485,7 +9485,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "ehrlichia ewingii infection",
@@ -10206,8 +10206,8 @@
             ],
             "issued": "2021-07-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-31",
-            "modified": "2021-07-31",
+            "temporal": "2020-12-13/2021-08-07",
+            "modified": "2021-08-07",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -10276,9 +10276,9 @@
             "bureauCode": [
                 "009:00"
             ],
-            "issued": "2020-10-07",
+            "issued": "2021-08-06",
             "@type": "dcat:Dataset",
-            "modified": "2020-11-02",
+            "modified": "2021-08-06",
             "keyword": [
                 "covid-19",
                 "rands"
@@ -10293,8 +10293,8 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/8xy9-ubqz",
-            "description": "The Research and Development Survey (RANDS) is a platform designed for conducting survey question evaluation and statistical research. RANDS is an ongoing series of surveys from probability-sampled commercial survey panels used for methodological research at the National Center for Health Statistics (NCHS). RANDS estimates were generated using an experimental approach that differs from the survey design approaches generally used by NCHS, including possible biases from different response patterns and increased variability from lower sample sizes. Use of the RANDS platform allowed NCHS to produce more timely data than would have been possible using our traditional data collection methods. RANDS is not designed to replace NCHS\u2019 higher quality, core data collections. Below we provide experimental estimates of telemedicine access and use for two rounds of RANDS during COVID-19. Data collection for the first round occurred between June 9, 2020 and July 6, 2020 and data collection for the second round occurred between August 3, 2020 and August 20, 2020. Information needed to interpret these estimates can be found in the Technical Notes.\n\nNCHS included questions about whether providers offered telemedicine (including video and telephone appointments)\u2014both during and before the pandemic\u2014and about the use of telemedicine during the pandemic. As a result of the coronavirus pandemic, many local and state governments discouraged people from leaving their homes for nonessential reasons. Although health care is considered an essential activity, telemedicine offers an opportunity for care without the potential or perceived risks of leaving the home. The National Health Interview Survey (NHIS), conducted by NCHS, added telemedicine questions to its sample adult questionnaire in July 2020. Currently RANDS is the only NCHS source for statistics related to telemedicine availability and use.\n\nThe experimental estimates on this page are derived from RANDS and show the percentage of U.S. adults who have a usual place of care and a provider that offered telemedicine in the past two months, who used telemedicine in the past two months, or who have a usual place of care and a provider that offered telemedicine prior to the coronavirus pandemic.\n\nTechnical Notes: https://www.cdc.gov/nchs/covid19/rands/telemedicine.htm#limitations",
-            "title": "Use of Telemedicine During COVID-19",
+            "description": "The Research and Development Survey (RANDS) is a platform designed for conducting survey question evaluation and statistical research. RANDS is an ongoing series of surveys from probability-sampled commercial survey panels used for methodological research at the National Center for Health Statistics (NCHS). RANDS estimates are generated using an experimental approach that differs from the survey design approaches generally used by NCHS, including possible biases from different response patterns and sampling frames as well as increased variability from lower sample sizes. Use of the RANDS platform allows NCHS to produce more timely data than would be possible using traditional data collection methods. RANDS is not designed to replace NCHS\u2019 higher quality, core data collections. Below are experimental estimates of telemedicine access and use for three rounds of RANDS during COVID-19. Data collection for the three rounds of RANDS during COVID-19 occurred between June 9, 2020 and July 6, 2020, August 3, 2020 and August 20, 2020, and May 17, 2021 and June 30, 2021. Information needed to interpret these estimates can be found in the Technical Notes. RANDS during COVID-19 included questions about whether providers offered telemedicine (including video and telephone appointments) in the last 2 months\u2014both during and before the pandemic\u2014and about the use of telemedicine in the last 2 months during the pandemic. As a result of the coronavirus pandemic, many local and state governments discouraged people from leaving their homes for nonessential reasons. Although health care is considered an essential activity, telemedicine offers an opportunity for care without the potential or perceived risks of leaving the home. The National Health Interview Survey, conducted by NCHS, added telemedicine questions to its sample adult questionnaire in July 2020.  The Household Pulse Survey (https://www.cdc.gov/nchs/covid19/pulse/telemedicine-use.htm), an online survey conducted in response to the COVID-19 pandemic by the Census Bureau in partnership with other federal agencies including NCHS, also reports estimates of telemedicine use during the pandemic (beginning in Phase 3.1, which started on April 14, 2021). The Household Pulse Survey reports telemedicine use in the last 4 weeks among adults and among households with at least one child under age 18 years. The experimental estimates on this page are derived from RANDS during COVID-19 and show the percentage of U.S. adults who have a usual place of care and a provider that offered telemedicine in the past 2 months, who used telemedicine in the past 2 months, or who have a usual place of care and a provider that offered telemedicine prior to the coronavirus pandemic. Technical Notes: https://www.cdc.gov/nchs/covid19/rands/telemedicine.htm#limitations",
+            "title": "Access and Use of Telemedicine During COVID-19",
             "programCode": [
                 "009:020"
             ],
@@ -10743,7 +10743,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "cryptosporidiosis",
@@ -10874,7 +10874,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "animal",
@@ -10940,7 +10940,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "dengue",
@@ -11007,7 +11007,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "age",
                 "age group",
@@ -11151,7 +11151,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "anaplasma phagocytophilum infection",
@@ -11217,7 +11217,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -11517,7 +11517,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -11728,7 +11728,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "imported",
@@ -11795,7 +11795,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "brucellosis",
@@ -11931,7 +11931,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2021-07-31",
+            "modified": "2021-08-07",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -12325,7 +12325,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "nedss",
@@ -13526,7 +13526,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -14739,9 +14739,9 @@
             "bureauCode": [
                 "009:15"
             ],
-            "issued": "2021-02-18",
+            "issued": "2021-08-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-05",
+            "modified": "2021-08-02",
             "keyword": [
                 "cares act",
                 "coronavirus",
@@ -15836,7 +15836,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "hansen's disease",
@@ -16554,7 +16554,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "nedss",
@@ -17940,7 +17940,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "age <5 years serotype b",
@@ -19627,7 +19627,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "age <5 years",
@@ -22439,8 +22439,8 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-29",
-            "modified": "2021-07-29",
+            "temporal": "2020-12-13/2021-08-06",
+            "modified": "2021-08-06",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -22642,7 +22642,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -23132,7 +23132,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "all serogroups",
@@ -23731,7 +23731,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -23829,7 +23829,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -23901,7 +23901,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -24363,7 +24363,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -25342,7 +25342,7 @@
             ],
             "issued": "2021-05-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-11",
+            "modified": "2021-08-02",
             "keyword": [
                 "age",
                 "age group",
@@ -25745,7 +25745,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "nedss",
@@ -25948,7 +25948,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -26503,7 +26503,7 @@
             ],
             "issued": "2021-06-17",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-08-04",
             "keyword": [
                 "age",
                 "age group",
@@ -26649,7 +26649,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "meningococcal disease",
@@ -26715,7 +26715,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "anthrax",
@@ -26845,7 +26845,7 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "age",
                 "age group",
@@ -27648,7 +27648,7 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27819,7 +27819,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "nedss",
@@ -28087,7 +28087,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "cares act",
                 "health system",
@@ -28284,8 +28284,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-31",
-            "modified": "2021-07-31",
+            "temporal": "2020-12-13/2021-08-07",
+            "modified": "2021-08-07",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -28572,7 +28572,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -28767,7 +28767,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "age",
                 "age group",
@@ -29501,7 +29501,7 @@
             ],
             "issued": "2020-11-12",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-08-04",
             "keyword": [
                 "age",
                 "age group",
@@ -29683,10 +29683,10 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2021-07-02",
-            "modified": "2021-07-20",
+            "temporal": "2020-01-01/2021-08-03",
+            "modified": "2021-08-04",
             "references": [
-                "https://data.cdc.gov/api/views/mbd7-r32t/files/b23a5f8c-2dbf-4408-9d19-bd91ff434029?download=true&filename=utility_summary_ridura.pdf"
+                "https://data.cdc.gov/api/views/mbd7-r32t/files/8b9ca4f0-ab9b-4063-b766-963b4dc2b374?download=true&filename=utility_summary_ridura.pdf"
             ],
             "keyword": [
                 "cases",
@@ -29858,7 +29858,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "nedss",
@@ -30582,7 +30582,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "all ages",
@@ -30703,13 +30703,75 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/muep-c3qd",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-07-21",
+            "@type": "dcat:Dataset",
+            "modified": "2021-07-22",
+            "keyword": [
+                "covid-19 vaccination",
+                "covid tracker",
+                "disability",
+                "hps"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
+                "hasEmail": "mailto:VaxView@cdc.gov "
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/muep-c3qd",
+            "description": "Household Pulse Survey (HPS): HPS is a rapid-response survey of adults aged \u226518 years led by the U.S. Census Bureau, in partnership with seven other federal statistical agencies, to measure household experiences during the COVID-19 pandemic. Detailed information on probability sampling using the Census\u2019 Master Address File, questionnaires, response rates, and bias assessment is available on the Census Bureau website (https://www.census.gov/data/experimental-data-products/household-pulse-survey.htmlexternal icon).  \n\nData from adults aged \u226518 years are collected by 20-minute online survey from randomly sampled households stratified by state and the top 15 metropolitan statistical areas (MSAs). Data are weighted to represent total persons age 18 and older living within households and to mitigate possible bias that can result from non-responses and incomplete survey frame. Data from adults aged \u226518 years are collected by 20-minute online survey from randomly sampled households stratified by state and the top 15 metropolitan statistical areas (MSAs). Data collection for Phase 3.1 of the survey, which included questions about disability, began on April 14, 2021 and will continue through at least to the end of October 2021. For more information on this survey, see https://www.census.gov/programs-surveys/household-pulse-survey.html. \n\nData are weighted to represent total persons age 18 and older living within households and to mitigate possible bias that can result from non-responses and incomplete survey frame. Responses in the Household Pulse Survey (https://www.census.gov/programs-surveys/household-pulse-survey.html) are self-reported.\u202fEstimates of vaccination coverage may differ from vaccine administration data reported at\u202fCOVID-19 Vaccinations in the United States (https://covid.cdc.gov/covid-data-tracker/%22 /l %22vaccinations).",
+            "title": "Household Pulse Survey (HPS): COVID-19 Vaccination among People with Disabilities",
+            "programCode": [
+                "009:026"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/muep-c3qd/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/muep-c3qd/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/muep-c3qd/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/muep-c3qd/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/muep-c3qd/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/muep-c3qd/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/muep-c3qd/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Vaccinations"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/muzy-jte6",
             "bureauCode": [
                 "009:00"
             ],
             "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -31122,7 +31184,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -31565,10 +31627,10 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2021-07-02",
-            "modified": "2021-07-20",
+            "temporal": "2020-01-01/2021-08-03",
+            "modified": "2021-08-04",
             "references": [
-                "https://data.cdc.gov/api/views/n8mc-b4w4/files/e87253c3-1363-4cdb-8cc2-ac38508a09bc?download=true&filename=utility_summary_public_geo.pdf"
+                "https://data.cdc.gov/api/views/n8mc-b4w4/files/a429ad7f-5af6-4c84-a6f7-93e160601ed0?download=true&filename=utility_summary_public_geo.pdf"
             ],
             "keyword": [
                 "cases",
@@ -31891,7 +31953,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "botulism",
@@ -32081,7 +32143,7 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "age",
                 "age group",
@@ -33276,7 +33338,7 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -33623,7 +33685,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "crimean-congo hemorrhagic fever virus",
@@ -34208,7 +34270,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "mumps",
@@ -34974,7 +35036,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -35047,9 +35109,9 @@
             "bureauCode": [
                 "009:00"
             ],
-            "issued": "2020-10-07",
+            "issued": "2021-08-06",
             "@type": "dcat:Dataset",
-            "modified": "2020-11-02",
+            "modified": "2021-08-06",
             "keyword": [
                 "covid-19",
                 "rands"
@@ -35064,7 +35126,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/qgkx-mswu",
-            "description": "The Research and Development Survey (RANDS) is a platform designed for conducting survey question evaluation and statistical research. RANDS is an ongoing series of surveys from probability-sampled commercial survey panels used for methodological research at the National Center for Health Statistics (NCHS). RANDS estimates were generated using an experimental approach that differs from the survey design approaches generally used by NCHS, including possible biases from different response patterns and increased variability from lower sample sizes. Use of the RANDS platform allowed NCHS to produce more timely data than would have been possible using our traditional data collection methods. RANDS is not designed to replace NCHS\u2019 higher quality, core data collections. Below we provide experimental estimates of loss of work due to illness with coronavirus for two rounds of RANDS during COVID-19. Data collection for the first round occurred between June 9, 2020 and July 6, 2020 and data collection for the second round occurred between August 3, 2020 and August 20, 2020. Information needed to interpret these estimates can be found in the Technical Notes.\n\nNCHS included a question about the inability to work due to being sick or having a family member sick with COVID-19. The National Health Interview Survey (NHIS), conducted by NCHS, is the source for high-quality data to monitor work-loss days and work limitations in the United States. For example, in 2018, 42.7% of adults missed at least one day of work in the previous year due to illness or injury and 9.3% of adults were limited in their ability to work or unable to work due to physical, mental, or emotional problems.\n\nThe experimental estimates on this page are derived from RANDS and show the percentage of U.S. adults who did not work for pay at a job or business, at any point, in the previous week because either they or someone in their family was sick with COVID-19.\n\nTechnical Notes: https://www.cdc.gov/nchs/covid19/rands/work.htm#limitations",
+            "description": "The Research and Development Survey (RANDS) is a platform designed for conducting survey question evaluation and statistical research. RANDS is an ongoing series of surveys from probability-sampled commercial survey panels used for methodological research at the National Center for Health Statistics (NCHS). RANDS estimates are generated using an experimental approach that differs from the survey design approaches generally used by NCHS, including possible biases from different response patterns and sampling frames as well as increased variability from lower sample sizes. Use of the RANDS platform allows NCHS to produce more timely data than would be possible using traditional data collection methods. RANDS is not designed to replace NCHS\u2019 higher quality, core data collections. Below are experimental estimates of loss of work due to illness with coronavirus for three rounds of RANDS during COVID-19. Data collection for the three rounds of RANDS during COVID-19 occurred between June 9, 2020 and July 6, 2020, August 3, 2020 and August 20, 2020, and May 17, 2021 and June 30, 2021. Information needed to interpret these estimates can be found in the Technical Notes. RANDS during COVID-19 included a question about the inability to work due to being sick or having a family member sick with COVID-19. The National Health Interview Survey, conducted by NCHS, is the source for high-quality data to monitor work-loss days and work limitations in the United States. For example, in 2018, 42.7% of adults aged 18 and over missed at least 1 day of work in the previous year due to illness or injury and 9.3% of adults aged 18 to 69 were limited in their ability to work or unable to work due to physical, mental, or emotional problems. The experimental estimates on this page are derived from RANDS during COVID-19 and show the percentage of U.S. adults who did not work for pay at a job or business, at any point, in the previous week because either they or someone in their family was sick with COVID-19. Technical Notes: https://www.cdc.gov/nchs/covid19/rands/work.htm#limitations",
             "title": "Loss of Work Due to Illness from COVID-19",
             "programCode": [
                 "009:020"
@@ -35960,7 +36022,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -36149,9 +36211,9 @@
             "bureauCode": [
                 "009:00"
             ],
-            "issued": "2021-02-11",
+            "issued": "2021-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-08-03",
             "keyword": [
                 "age",
                 "age group",
@@ -36437,7 +36499,7 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-30",
+            "modified": "2021-08-06",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36641,7 +36703,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "nedss",
@@ -36941,8 +37003,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-31",
-            "modified": "2021-07-31",
+            "temporal": "2020-12-13/2021-08-07",
+            "modified": "2021-08-07",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -36965,8 +37027,8 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/rh2h-3yt2",
-            "description": "Overall\u00a0Trends in Number of COVID-19 Vaccinations in the US at\u00a0national\u00a0level. Data represents all vaccine partners including jurisdictional partner clinics, retail pharmacies, long-term care facilities, dialysis centers, Federal Emergency Management Agency and Health Resources and Services Administration partner sites, and federal entity facilities.\u00a0",
-            "title": "COVID-19 Vaccination Trends in the United States,National",
+            "description": "Overall\u00a0Trends in Number of COVID-19 Vaccinations in the US at\u00a0national\u00a0and jurisdictional levels. Data represents all vaccine partners including jurisdictional partner clinics, retail pharmacies, long-term care facilities, dialysis centers, Federal Emergency Management Agency and Health Resources and Services Administration partner sites, and federal entity facilities.\u00a0",
+            "title": "COVID-19 Vaccination Trends in the United States,National and Jurisdictional",
             "programCode": [
                 "009:020"
             ],
@@ -37153,7 +37215,7 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "cares act",
                 "coronavirus",
@@ -37280,7 +37342,7 @@
             ],
             "issued": "2018-10-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-03-11",
+            "modified": "2021-08-06",
             "references": [
                 "https://chronicdata.cdc.gov/d/vtwh-8kxg"
             ],
@@ -37413,7 +37475,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-27",
+            "modified": "2021-08-03",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -37541,7 +37603,7 @@
             ],
             "issued": "2018-10-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-07",
+            "modified": "2021-08-02",
             "keyword": [
                 "cdc.gov",
                 "web metrics"
@@ -37661,7 +37723,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "nedss",
@@ -37727,7 +37789,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "nedss",
@@ -38718,7 +38780,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-06",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -38892,7 +38954,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "machupo virus",
@@ -39576,7 +39638,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "acute",
@@ -39728,9 +39790,9 @@
             "bureauCode": [
                 "009:00"
             ],
-            "issued": "2020-10-07",
+            "issued": "2021-08-06",
             "@type": "dcat:Dataset",
-            "modified": "2020-11-02",
+            "modified": "2021-08-06",
             "keyword": [
                 "covid-19",
                 "rands"
@@ -39745,7 +39807,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/th9n-ghnr",
-            "description": "The Research and Development Survey (RANDS) is a platform designed for conducting survey question evaluation and statistical research. RANDS is an ongoing series of surveys from probability-sampled commercial survey panels used for methodological research at the National Center for Health Statistics (NCHS). RANDS estimates were generated using an experimental approach that differs from the survey design approaches generally used by NCHS, including possible biases from different response patterns and increased variability from lower sample sizes. Use of the RANDS platform allowed NCHS to produce more timely data than would have been possible using our traditional data collection methods. RANDS is not designed to replace NCHS\u2019 higher quality, core data collections. Below we provide experimental estimates of reduced access to healthcare for two rounds of RANDS during COVID-19. Data collection for the first round occurred between June 9, 2020 and July 6, 2020 and data collection for the second round occurred between August 3, 2020 and August 20, 2020. Information needed to interpret these estimates can be found in the Technical Notes.\n\nNCHS included questions about unmet care during the coronavirus pandemic. Unmet needs for health care are often the result of cost-related barriers. The National Health Interview Survey (NHIS), conducted by NCHS, is the source for high-quality data to monitor cost-related health care access problems in the United States. For example, in 2018, 7.3% of persons of all ages reported delaying medical care due to cost and 4.8% reported needing medical care but not getting it due to cost in the past year. However, cost is not the only reason someone might delay or not receive needed medical care. As a result of the coronavirus pandemic, people also may not get needed medical care due to cancelled appointments, cutbacks in transportation options, fear of going to the emergency room, or an altruistic desire to not be a burden on the health care system, among other reasons.\n\nThe experimental estimates on this page are derived from RANDS and show the percentage of U.S. adults who were unable to receive medical care (including urgent care, surgery, screening tests, ongoing treatment, regular checkups, prescriptions, dental care, vision care and hearing care) in the last two months.\n\nTechnical Notes: https://www.cdc.gov/nchs/covid19/rands/reduced-access-to-care.htm#limitations",
+            "description": "The Research and Development Survey (RANDS) is a platform designed for conducting survey question evaluation and statistical research. RANDS is an ongoing series of surveys from probability-sampled commercial survey panels used for methodological research at the National Center for Health Statistics (NCHS). RANDS estimates are generated using an experimental approach that differs from the survey design approaches generally used by NCHS, including possible biases from different response patterns and sampling frames as well as increased variability from lower sample sizes. Use of the RANDS platform allows NCHS to produce more timely data than would be possible using traditional data collection methods. RANDS is not designed to replace NCHS\u2019 higher quality, core data collections. Below are experimental estimates of reduced access to healthcare for three rounds of RANDS during COVID-19. Data collection for the three rounds of RANDS during COVID-19 occurred between June 9, 2020 and July 6, 2020, August 3, 2020 and August 20, 2020, and May 17, 2021 and June 30, 2021. Information needed to interpret these estimates can be found in the Technical Notes. RANDS during COVID-19 included questions about unmet care in the last 2 months during the coronavirus pandemic. Unmet needs for health care are often the result of cost-related barriers. The National Health Interview Survey, conducted by NCHS, is the source for high-quality data to monitor cost-related health care access problems in the United States. For example, in 2018, 7.3% of persons of all ages reported delaying medical care due to cost and 4.8% reported needing medical care but not getting it due to cost in the past year. However, cost is not the only reason someone might delay or not receive needed medical care. As a result of the coronavirus pandemic, people also may not get needed medical care due to cancelled appointments, cutbacks in transportation options, fear of going to the emergency room, or an altruistic desire to not be a burden on the health care system, among other reasons. The Household Pulse Survey (https://www.cdc.gov/nchs/covid19/pulse/reduced-access-to-care.htm), an online survey conducted in response to the COVID-19 pandemic by the Census Bureau in partnership with other federal agencies including NCHS, also reports estimates of reduced access to care during the pandemic (beginning in Phase 1, which started on April 23, 2020). The Household Pulse Survey reports the percentage of adults who delayed medical care in the last 4 weeks or who needed medical care at any time in the last 4 weeks for something other than coronavirus but did not get it because of the pandemic. The experimental estimates on this page are derived from RANDS during COVID-19 and show the percentage of U.S. adults who were unable to receive medical care (including urgent care, surgery, screening tests, ongoing treatment, regular checkups, prescriptions, dental care, vision care, and hearing care) in the last 2 months. Technical Notes: https://www.cdc.gov/nchs/covid19/rands/reduced-access-to-care.htm#limitations",
             "title": "Reduced Access to Care During COVID-19",
             "programCode": [
                 "009:020"
@@ -40027,7 +40089,7 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "age",
                 "age group",
@@ -40655,7 +40717,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -41314,7 +41376,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -41491,8 +41553,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-07-31",
-            "modified": "2021-07-31",
+            "temporal": "2020-12-13/2021-08-07",
+            "modified": "2021-08-07",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -42454,10 +42516,10 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2021-07-02",
-            "modified": "2021-07-20",
+            "temporal": "2020-01-01/2021-08-03",
+            "modified": "2021-08-04",
             "references": [
-                "https://data.cdc.gov/api/views/vbim-akqf/files/2ce2d718-19d1-4506-86a4-d636379cd25d?download=true&filename=utility_summary_public.pdf"
+                "https://data.cdc.gov/api/views/vbim-akqf/files/8b7ba8bc-9d73-478d-8829-7c5891d34d3a?download=true&filename=utility_summary_public.pdf"
             ],
             "keyword": [
                 "cases",
@@ -43085,7 +43147,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -43293,7 +43355,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "age",
                 "age group",
@@ -43920,7 +43982,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -44315,7 +44377,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -44875,7 +44937,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "age<5 years",
@@ -45561,7 +45623,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "2021",
                 "junin virus",
@@ -46061,7 +46123,7 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47233,7 +47295,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-08-04",
             "keyword": [
                 "age",
                 "age group",
@@ -48034,7 +48096,7 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-29",
+            "modified": "2021-08-05",
             "keyword": [
                 "age",
                 "age group",
