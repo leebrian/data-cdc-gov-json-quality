@@ -588,7 +588,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -952,7 +952,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "hepatitis c",
@@ -1018,7 +1018,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "keyword": [
                 "legislation",
                 "osh",
@@ -1211,7 +1211,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "nedss",
@@ -1277,7 +1277,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "keyword": [
                 "legislation",
                 "osh",
@@ -1678,7 +1678,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "age",
                 "all causes",
@@ -2014,6 +2014,70 @@
             "describedBy": "https://chronicdata.cdc.gov/Maternal-Child-Health/CDC-PRAMStat-Data-for-2000/3hwj-hqmh",
             "theme": [
                 "Maternal & Child Health"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/3j26-kg6d",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-07-12",
+            "temporal": "2020-2021",
+            "@type": "dcat:Dataset",
+            "modified": "2021-08-03",
+            "keyword": [
+                "adult day services centers",
+                "covid-19",
+                "long-term care",
+                "residential care communities"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/3j26-kg6d",
+            "description": "The NCHS National Post-acute and Long-term Care Study (NPALS) collects data on long-term care every two years for all 50 states and the District of Columbia to monitor the diverse post-acute and long-term care fields. The 2020 survey provided an opportunity to collect COVID-19-related data for residential care communities and adult day services centers, important long-term care settings. These data are not available from other data systems. These data are related to experiences of COVID-19 from January 2020 through March 2021, including the number of COVID-19 cases, hospitalizations, and deaths among users and staff, practices taken to reduce COVID-19 exposure and transmission, and personal protective equipment (PPE) shortages.",
+            "title": "Long-term Care and COVID-19",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/3j26-kg6d/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/3j26-kg6d/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3j26-kg6d/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/3j26-kg6d/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3j26-kg6d/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/3j26-kg6d/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3j26-kg6d/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -3271,7 +3335,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-11",
             "keyword": [
                 "covid-19 vaccine",
                 "covid tracker",
@@ -3860,7 +3924,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "age",
                 "age group",
@@ -5247,7 +5311,7 @@
             ],
             "issued": "2021-05-07",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-07",
+            "modified": "2021-08-14",
             "references": [
                 "https://data.cdc.gov/api/views/5jp2-pgaw/files/2a8f085d-04ab-4044-8148-3b7df4cb7088?download=true&filename=Outbound%20File%20Specification.pdf"
             ],
@@ -6304,7 +6368,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "cholera",
@@ -6534,7 +6598,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "nedss",
@@ -8034,7 +8098,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -8560,7 +8624,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "nedss",
@@ -9253,7 +9317,7 @@
             ],
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -9485,7 +9549,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "ehrlichia ewingii infection",
@@ -9945,7 +10009,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-14",
+            "modified": "2021-08-11",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -10206,8 +10270,8 @@
             ],
             "issued": "2021-07-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-07",
-            "modified": "2021-08-07",
+            "temporal": "2020-12-13/2021-08-14",
+            "modified": "2021-08-14",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -10400,7 +10464,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "references": [
                 "https://chronicdata.cdc.gov/d/sfei-pddr"
             ],
@@ -10743,7 +10807,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "cryptosporidiosis",
@@ -10874,7 +10938,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "animal",
@@ -10940,7 +11004,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "dengue",
@@ -11007,7 +11071,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "age",
                 "age group",
@@ -11151,7 +11215,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "anaplasma phagocytophilum infection",
@@ -11217,7 +11281,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -11517,7 +11581,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -11728,7 +11792,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "imported",
@@ -11795,7 +11859,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "brucellosis",
@@ -11860,9 +11924,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-02-19",
+            "issued": "2021-08-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-02-19",
+            "modified": "2021-08-11",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -11885,8 +11949,8 @@
                 "name": "Environmental Public Health Tracking"
             },
             "identifier": "https://data.cdc.gov/api/views/9kjw-3miq",
-            "description": "State and territorial executive orders, administrative orders, resolutions, and proclamations are collected from government websites and cataloged and coded using Microsoft Excel by one coder with one or more additional coders conducting quality assurance.\n\nData were collected to determine when bars in states and territories were subject to closing and reopening requirements through executive orders, administrative orders, resolutions, and proclamations for COVID-19. Data can be used to determine when bars in states and territories were subject to closing and reopening requirements through executive orders, administrative orders, resolutions, and proclamations for COVID-19. Data consists exclusively of state and territorial orders, many of which apply to specific counties within their respective state or territory; therefore, data is broken down to the county level.\n\nThese data are derived from publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly close or reopen bars found by the CDC, COVID-19 Community Intervention & Critical Populations Task Force, Monitoring & Evaluation Team, Mitigation Policy Analysis Unit, and the CDC, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program from March 11 through December 31, 2020.  These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded; news media reports on restrictions were excluded. Recommendations not included in an order are not included in these data. Effective and expiration dates were coded using only the date provided; no distinction was made based on the specific time of the day the order became effective or expired. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
-            "title": "U.S. State and Territorial Orders Closing and Reopening Bars Issued from March 11, 2020 through December 31, 2020 by County by Day",
+            "description": "State and territorial executive orders, administrative orders, resolutions, and proclamations are collected from government websites and cataloged and coded using Microsoft Excel by one coder with one or more additional coders conducting quality assurance.\n\nData were collected to determine when bars in states and territories were subject to closing and reopening requirements through executive orders, administrative orders, resolutions, and proclamations for COVID-19. Data can be used to determine when bars in states and territories were subject to closing and reopening requirements through executive orders, administrative orders, resolutions, and proclamations for COVID-19. Data consists exclusively of state and territorial orders, many of which apply to specific counties within their respective state or territory; therefore, data is broken down to the county level.\n\nThese data are derived from publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly close or reopen bars found by the CDC, COVID-19 Community Intervention & Critical Populations Task Force, Monitoring & Evaluation Team, Mitigation Policy Analysis Unit, and the CDC, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program from March 11, 2020 through May 31, 2021.  These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded; news media reports on restrictions were excluded. Recommendations not included in an order are not included in these data. Effective and expiration dates were coded using only the date provided; no distinction was made based on the specific time of the day the order became effective or expired. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
+            "title": "U.S. State and Territorial Orders Closing and Reopening Bars Issued from March 11, 2020 through May 31, 2021 by County by Day",
             "programCode": [
                 "009:020"
             ],
@@ -11931,7 +11995,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2021-08-07",
+            "modified": "2021-08-14",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -12325,7 +12389,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "nedss",
@@ -13526,7 +13590,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-09",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -15836,7 +15900,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "hansen's disease",
@@ -16554,7 +16618,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "nedss",
@@ -17940,7 +18004,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "age <5 years serotype b",
@@ -18065,6 +18129,77 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/dtm2-meqi",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2021-08-10",
+            "@type": "dcat:Dataset",
+            "modified": "2021-08-10",
+            "keyword": [
+                "all causes",
+                "deaths",
+                "drug overdose",
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
+                "provisional",
+                "united states",
+                "urbanicity"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/dtm2-meqi",
+            "description": "National provisional drug overdose deaths by month and 2013 NCHS Urban\u2013Rural Classification Scheme for Counties. Drug overdose deaths are identified using underlying cause-of-death codes from the Tenth Revision of ICD (ICD\u201310): X40\u2013X44 (unintentional), X60\u2013X64 (suicide), X85 (homicide), and Y10\u2013Y14 (undetermined). Deaths are based on the county of residence in the United States. Death counts provided are for \u201c12-month ending periods,\u201d defined as the number of deaths occurring in the 12-month period ending in the month indicated. Estimates for 2020 are based on provisional data. Estimates for 2018 and 2019 are based on final data.\n\nFor more information on NCHS urban-rural classification, see: https://www.cdc.gov/nchs/data/series/sr_02/sr02_166.pdf",
+            "title": "Provisional Drug Overdose Deaths by Urban/Rural Classification Scheme for 12 month-ending December 2018-December 2020",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/dtm2-meqi/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/dtm2-meqi/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/dtm2-meqi/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/dtm2-meqi/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/dtm2-meqi/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/dtm2-meqi/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/dtm2-meqi/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Ad hoc",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -19032,7 +19167,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "keyword": [
                 "legislation",
                 "licensure",
@@ -19627,7 +19762,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "age <5 years",
@@ -22439,8 +22574,8 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-06",
-            "modified": "2021-08-06",
+            "temporal": "2020-12-13/2021-08-13",
+            "modified": "2021-08-13",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -22642,7 +22777,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -22883,7 +23018,7 @@
             ],
             "issued": "2021-05-05",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-14",
+            "modified": "2021-08-11",
             "keyword": [
                 "covid-19",
                 "telemedicine"
@@ -23132,7 +23267,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "all serogroups",
@@ -23470,7 +23605,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "keyword": [
                 "legislation",
                 "osh",
@@ -23600,7 +23735,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "keyword": [
                 "legislation",
                 "osh",
@@ -23731,7 +23866,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -23829,7 +23964,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -23901,7 +24036,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -24363,7 +24498,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -24976,7 +25111,7 @@
             ],
             "issued": "2020-10-01",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -25615,7 +25750,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "keyword": [
                 "fire safety",
                 "legislation",
@@ -25680,7 +25815,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -25745,7 +25880,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "nedss",
@@ -25948,7 +26083,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-09",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -26333,7 +26468,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-14",
+            "modified": "2021-08-11",
             "keyword": [
                 "covid-19",
                 "private coverage",
@@ -26649,7 +26784,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "meningococcal disease",
@@ -26715,7 +26850,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "anthrax",
@@ -26845,7 +26980,7 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "age",
                 "age group",
@@ -27648,7 +27783,7 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27819,7 +27954,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "nedss",
@@ -28087,7 +28222,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-13",
             "keyword": [
                 "cares act",
                 "health system",
@@ -28284,8 +28419,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-07",
-            "modified": "2021-08-07",
+            "temporal": "2020-12-13/2021-08-14",
+            "modified": "2021-08-14",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -28572,7 +28707,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -28767,7 +28902,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "age",
                 "age group",
@@ -28979,7 +29114,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -29858,7 +29993,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "nedss",
@@ -30582,7 +30717,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "all ages",
@@ -30709,7 +30844,7 @@
             ],
             "issued": "2021-07-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-08-12",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -30771,7 +30906,7 @@
             ],
             "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -31184,7 +31319,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -31741,7 +31876,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -31953,7 +32088,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "botulism",
@@ -32143,7 +32278,7 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "age",
                 "age group",
@@ -33273,7 +33408,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -33338,7 +33473,7 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -33685,7 +33820,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "crimean-congo hemorrhagic fever virus",
@@ -34270,7 +34405,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "mumps",
@@ -35036,7 +35171,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36022,7 +36157,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-09",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -36499,7 +36634,7 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-06",
+            "modified": "2021-08-13",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36703,7 +36838,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "nedss",
@@ -37003,8 +37138,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-07",
-            "modified": "2021-08-07",
+            "temporal": "2020-12-13/2021-08-14",
+            "modified": "2021-08-14",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -37215,7 +37350,7 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-13",
             "keyword": [
                 "cares act",
                 "coronavirus",
@@ -37475,7 +37610,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-03",
+            "modified": "2021-08-10",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -37723,7 +37858,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "nedss",
@@ -37789,7 +37924,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "nedss",
@@ -38954,7 +39089,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "machupo virus",
@@ -39638,7 +39773,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "acute",
@@ -40089,7 +40224,7 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "age",
                 "age group",
@@ -40269,7 +40404,7 @@
             "landingPage": "https://data.cdc.gov/d/tt3f-rr33",
             "issued": "2021-06-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2021-08-10",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "CDC INFO",
@@ -40717,7 +40852,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -41376,7 +41511,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -41553,8 +41688,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-07",
-            "modified": "2021-08-07",
+            "temporal": "2020-12-13/2021-08-14",
+            "modified": "2021-08-14",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -42119,7 +42254,7 @@
             ],
             "issued": "2020-05-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-13",
+            "modified": "2021-08-10",
             "references": [
                 "https://www.cms.gov/files/document/Accelerated-and-Advanced-Payments-Fact-Sheet.pdf"
             ],
@@ -43147,7 +43282,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -43355,7 +43490,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "age",
                 "age group",
@@ -43982,7 +44117,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -44377,7 +44512,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -44696,7 +44831,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-26",
+            "modified": "2021-08-10",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -44937,7 +45072,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "age<5 years",
@@ -45623,7 +45758,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "2021",
                 "junin virus",
@@ -46045,7 +46180,7 @@
             ],
             "issued": "2019-04-17",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-14",
+            "modified": "2021-08-11",
             "keyword": [
                 "cocaine",
                 "deaths",
@@ -46123,7 +46258,7 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -46464,7 +46599,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -47295,7 +47430,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-04",
+            "modified": "2021-08-11",
             "keyword": [
                 "age",
                 "age group",
@@ -47824,7 +47959,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-19",
+            "modified": "2021-08-10",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -48034,7 +48169,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-14",
+            "modified": "2021-08-11",
             "keyword": [
                 "covid-19",
                 "mental health"
@@ -48096,7 +48231,7 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-05",
+            "modified": "2021-08-12",
             "keyword": [
                 "age",
                 "age group",
