@@ -952,7 +952,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "hepatitis c",
@@ -1211,7 +1211,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "nedss",
@@ -1678,7 +1678,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "age",
                 "all causes",
@@ -3335,7 +3335,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "covid-19 vaccine",
                 "covid tracker",
@@ -3924,7 +3924,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "age",
                 "age group",
@@ -5311,7 +5311,7 @@
             ],
             "issued": "2021-05-07",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-14",
+            "modified": "2021-08-21",
             "references": [
                 "https://data.cdc.gov/api/views/5jp2-pgaw/files/2a8f085d-04ab-4044-8148-3b7df4cb7088?download=true&filename=Outbound%20File%20Specification.pdf"
             ],
@@ -5876,7 +5876,7 @@
             ],
             "issued": "2021-04-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-23",
+            "modified": "2021-08-19",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -5899,8 +5899,8 @@
                 "name": "Environmental Public Health Tracking"
             },
             "identifier": "https://data.cdc.gov/api/views/62d6-pm5i",
-            "description": "State and territorial executive orders, administrative orders, resolutions, and proclamations are collected from government websites and cataloged and coded using Microsoft Excel by one coder with one or more additional coders conducting quality assurance.\n\nData were collected to determine when members of the public in states and territories were subject to state and territorial executive orders, administrative orders, resolutions, and proclamations for COVID-19 that require them to wear masks in public. \u201cMembers of the public\u201d are defined as individuals operating in a personal capacity. \u201cIn public\u201d is defined to mean either (1) anywhere outside the home or (2) both in retail businesses and in restaurants/food establishments. Data consists exclusively of state and territorial orders, many of which apply to specific counties within their respective state or territory; therefore, data is broken down to the county level. \n\nThese data are derived from publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly require individuals to wear masks in public found by the CDC, COVID-19 Community Intervention & Critical Populations Task Force, Monitoring & Evaluation Team, Mitigation Policy Analysis Unit, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program, and Max Gakh, Assistant Professor, School of Public Health, University of Nevada, Las Vegas from April 10 through April 28, 2021.  These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded; news media reports on restrictions were excluded. Recommendations not included in an order are not included in these data. Effective and expiration dates were coded using only the dates provided; no distinction was made based on the specific time of the day the order became effective or expired. These data do not include data on counties that have opted out of their state mask mandate pursuant to state law. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
-            "title": "U.S. State and Territorial Public Mask Mandates From April 10, 2020 through April 28, 2021 by County by Day",
+            "description": "State and territorial executive orders, administrative orders, resolutions, and proclamations are collected from government websites and cataloged and coded using Microsoft Excel by one coder with one or more additional coders conducting quality assurance.\n\nData were collected to determine when members of the public in states and territories were subject to state and territorial executive orders, administrative orders, resolutions, and proclamations for COVID-19 that require them to wear masks in public. \u201cMembers of the public\u201d are defined as individuals operating in a personal capacity. \u201cIn public\u201d is defined to mean either (1) anywhere outside the home or (2) both in retail businesses and in restaurants/food establishments. Data consists exclusively of state and territorial orders, many of which apply to specific counties within their respective state or territory; therefore, data is broken down to the county level. \n\nThese data are derived from publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly require individuals to wear masks in public found by the CDC, COVID-19 Community Intervention & Critical Populations Task Force, Monitoring & Evaluation Team, Mitigation Policy Analysis Unit, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program, and Max Gakh, Assistant Professor, School of Public Health, University of Nevada, Las Vegas from April 10, 2020 through July 20, 2021.  These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded; news media reports on restrictions were excluded. Recommendations not included in an order are not included in these data. Effective and expiration dates were coded using only the dates provided; no distinction was made based on the specific time of the day the order became effective or expired. These data do not include data on counties that have opted out of their state mask mandate pursuant to state law. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
+            "title": "U.S. State and Territorial Public Mask Mandates From April 10, 2020 through July 20, 2021 by County by Day",
             "programCode": [
                 "009:020"
             ],
@@ -6169,7 +6169,7 @@
             ],
             "issued": "2021-01-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-02-16",
+            "modified": "2021-08-17",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -6368,7 +6368,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "cholera",
@@ -6598,7 +6598,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "nedss",
@@ -8098,7 +8098,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -8624,7 +8624,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "nedss",
@@ -8951,7 +8951,7 @@
             ],
             "issued": "2021-02-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-23",
+            "modified": "2021-08-18",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -9549,7 +9549,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "ehrlichia ewingii infection",
@@ -10270,8 +10270,8 @@
             ],
             "issued": "2021-07-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-14",
-            "modified": "2021-08-14",
+            "temporal": "2020-12-13/2021-08-21",
+            "modified": "2021-08-21",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -10807,7 +10807,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "cryptosporidiosis",
@@ -10938,7 +10938,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "animal",
@@ -11004,7 +11004,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "dengue",
@@ -11071,7 +11071,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "age",
                 "age group",
@@ -11215,7 +11215,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "anaplasma phagocytophilum infection",
@@ -11281,7 +11281,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -11581,7 +11581,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -11792,7 +11792,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "imported",
@@ -11859,7 +11859,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "brucellosis",
@@ -11926,7 +11926,7 @@
             ],
             "issued": "2021-08-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -11995,7 +11995,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2021-08-14",
+            "modified": "2021-08-21",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -12389,7 +12389,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "nedss",
@@ -13590,7 +13590,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-09",
+            "modified": "2021-08-19",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -14122,7 +14122,7 @@
             ],
             "issued": "2021-02-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-02-19",
+            "modified": "2021-08-18",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -14145,8 +14145,8 @@
                 "name": "Environmental Public Health Tracking"
             },
             "identifier": "https://data.cdc.gov/api/views/azmd-939x",
-            "description": "State and territorial executive orders, administrative orders, resolutions, and proclamations are collected from government websites and cataloged and coded using Microsoft Excel by one coder with one or more additional coders conducting quality assurance.\n\nData were collected to determine when restaurants in states and territories were subject to closing and reopening requirements through executive orders, administrative orders, resolutions, and proclamations for COVID-19. Data can be used to determine when restaurants in states and territories were subject to closing and reopening requirements through executive orders, administrative orders, resolutions, and proclamations for COVID-19. Data consists exclusively of state and territorial orders, many of which apply to specific counties within their respective state or territory; therefore, data is broken down to the county level.\n\nThese data are derived from publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly close or reopen restaurants found by the CDC, COVID-19 Community Intervention & Critical Populations Task Force, Monitoring & Evaluation Team, Mitigation Policy Analysis Unit, and the CDC, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program from March 11 through December 31, 2020.  These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded; news media reports on restrictions were excluded. Recommendations not included in an order are not included in these data. Effective and expiration dates were coded using only the date provided; no distinction was made based on the specific time of the day the order became effective or expired. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
-            "title": "U.S. State and Territorial Orders Closing and Reopening Restaurants Issued from March 11, 2020 through December 31, 2020 by County by Day",
+            "description": "State and territorial executive orders, administrative orders, resolutions, and proclamations are collected from government websites and cataloged and coded using Microsoft Excel by one coder with one or more additional coders conducting quality assurance.\n\nData were collected to determine when restaurants in states and territories were subject to closing and reopening requirements through executive orders, administrative orders, resolutions, and proclamations for COVID-19. Data can be used to determine when restaurants in states and territories were subject to closing and reopening requirements through executive orders, administrative orders, resolutions, and proclamations for COVID-19. Data consists exclusively of state and territorial orders, many of which apply to specific counties within their respective state or territory; therefore, data is broken down to the county level.\n\nThese data are derived from publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly close or reopen restaurants found by the CDC, COVID-19 Community Intervention & Critical Populations Task Force, Monitoring & Evaluation Team, Mitigation Policy Analysis Unit, and the CDC, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program from March 11, 2020 through May 31, 2021.  These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded; news media reports on restrictions were excluded. Recommendations not included in an order are not included in these data. Effective and expiration dates were coded using only the date provided; no distinction was made based on the specific time of the day the order became effective or expired. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
+            "title": "U.S. State and Territorial Orders Closing and Reopening Restaurants Issued from March 11, 2020 through May 31, 2021 by County by Day",
             "programCode": [
                 "009:020"
             ],
@@ -14998,7 +14998,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-23",
+            "modified": "2021-08-20",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -15900,7 +15900,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "hansen's disease",
@@ -16618,7 +16618,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "nedss",
@@ -16891,8 +16891,8 @@
             ],
             "issued": "2020-10-21",
             "@type": "dcat:Dataset",
-            "temporal": "2020-02-01/2021-05-16",
-            "modified": "2021-07-13",
+            "temporal": "2020-02-01/2021-06-13",
+            "modified": "2021-08-19",
             "keyword": [
                 "coronavirus",
                 "covid",
@@ -18004,7 +18004,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "age <5 years serotype b",
@@ -19762,7 +19762,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "age <5 years",
@@ -20081,7 +20081,7 @@
             ],
             "issued": "2021-01-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-02-16",
+            "modified": "2021-08-17",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -22574,8 +22574,8 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-13",
-            "modified": "2021-08-13",
+            "temporal": "2020-12-13/2021-08-19",
+            "modified": "2021-08-19",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -22777,7 +22777,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -23267,7 +23267,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "all serogroups",
@@ -23866,7 +23866,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -23964,7 +23964,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -24036,7 +24036,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -24498,7 +24498,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -25880,7 +25880,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "nedss",
@@ -26083,7 +26083,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-09",
+            "modified": "2021-08-19",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -26784,7 +26784,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "meningococcal disease",
@@ -26850,7 +26850,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "anthrax",
@@ -26980,7 +26980,7 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "age",
                 "age group",
@@ -27783,7 +27783,7 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27954,7 +27954,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "nedss",
@@ -28222,7 +28222,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-13",
+            "modified": "2021-08-19",
             "keyword": [
                 "cares act",
                 "health system",
@@ -28419,8 +28419,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-14",
-            "modified": "2021-08-14",
+            "temporal": "2020-12-13/2021-08-21",
+            "modified": "2021-08-21",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -28707,7 +28707,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -28902,7 +28902,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "age",
                 "age group",
@@ -29993,7 +29993,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "nedss",
@@ -30717,7 +30717,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "all ages",
@@ -30906,7 +30906,7 @@
             ],
             "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -31319,7 +31319,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -32088,7 +32088,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "botulism",
@@ -32278,7 +32278,7 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "age",
                 "age group",
@@ -33473,7 +33473,7 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -33820,7 +33820,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "crimean-congo hemorrhagic fever virus",
@@ -34405,7 +34405,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "mumps",
@@ -35171,7 +35171,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36157,7 +36157,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-09",
+            "modified": "2021-08-19",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -36634,7 +36634,7 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-13",
+            "modified": "2021-08-20",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36838,7 +36838,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "nedss",
@@ -37138,8 +37138,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-14",
-            "modified": "2021-08-14",
+            "temporal": "2020-12-13/2021-08-21",
+            "modified": "2021-08-21",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -37350,7 +37350,7 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-13",
+            "modified": "2021-08-19",
             "keyword": [
                 "cares act",
                 "coronavirus",
@@ -37610,7 +37610,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-10",
+            "modified": "2021-08-17",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -37858,7 +37858,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "nedss",
@@ -37924,7 +37924,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "nedss",
@@ -38915,7 +38915,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-06",
+            "modified": "2021-08-18",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -39089,7 +39089,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "machupo virus",
@@ -39627,7 +39627,7 @@
             ],
             "issued": "2021-01-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-02-16",
+            "modified": "2021-08-17",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -39773,7 +39773,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "acute",
@@ -40054,7 +40054,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-02-16",
+            "modified": "2021-08-17",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -40224,7 +40224,7 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "age",
                 "age group",
@@ -40658,7 +40658,7 @@
             ],
             "issued": "2020-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-23",
+            "modified": "2021-08-17",
             "keyword": [
                 "covid",
                 "covid-19",
@@ -40682,8 +40682,8 @@
                 "name": "Environmental Public Health Tracking"
             },
             "identifier": "https://data.cdc.gov/api/views/tzyy-aayg",
-            "description": "State and territorial executive orders, administrative orders, resolutions, and proclamations are collected from government websites and cataloged and coded using Microsoft Excel by one coder with one or more additional coders conducting quality assurance.\n\nData were collected to determine when members of the public in states and territories were subject to state and territorial executive orders, administrative orders, resolutions, and proclamations for COVID-19 that require them to wear masks in public. \u201cMembers of the public\u201d are defined as individuals operating in a personal capacity. \u201cIn public\u201d is defined to mean either (1) anywhere outside the home or (2) both in retail businesses and in restaurants/food establishments. Data consists exclusively of state and territorial orders.\n\nThese data are derived from publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly require individuals to wear masks in public found by the CDC, COVID-19 Community Intervention & Critical Populations Task Force, Monitoring & Evaluation Team, Mitigation Policy Analysis Unit, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program, and Max Gakh, Assistant Professor, School of Public Health, University of Nevada, Las Vegas from April 8, 2020 through  April 22, 2021. These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded; news media reports on restrictions were excluded. Recommendations not included in an order are not included in these data. Effective and expiration dates were coded using only the dates provided; no distinction was made based on the specific time of the day the order became effective or expired. These data do not include data on counties that have opted out of their state mask mandate pursuant to state law. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
-            "title": "U.S. State and Territorial Public Mask Mandates From April 8, 2020 through April 28, 2021 by State by Day",
+            "description": "State and territorial executive orders, administrative orders, resolutions, and proclamations are collected from government websites and cataloged and coded using Microsoft Excel by one coder with one or more additional coders conducting quality assurance.\n\nData were collected to determine when members of the public in states and territories were subject to state and territorial executive orders, administrative orders, resolutions, and proclamations for COVID-19 that require them to wear masks in public. \u201cMembers of the public\u201d are defined as individuals operating in a personal capacity. \u201cIn public\u201d is defined to mean either (1) anywhere outside the home or (2) both in retail businesses and in restaurants/food establishments. Data consists exclusively of state and territorial orders.\n\nThese data are derived from publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly require individuals to wear masks in public found by the CDC, COVID-19 Community Intervention & Critical Populations Task Force, Monitoring & Evaluation Team, Mitigation Policy Analysis Unit, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program, and Max Gakh, Assistant Professor, School of Public Health, University of Nevada, Las Vegas from April 8, 2020 through  July 20, 2021. These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded; news media reports on restrictions were excluded. Recommendations not included in an order are not included in these data. Effective and expiration dates were coded using only the dates provided; no distinction was made based on the specific time of the day the order became effective or expired. These data do not include data on counties that have opted out of their state mask mandate pursuant to state law. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
+            "title": "U.S. State and Territorial Public Mask Mandates From April 8, 2020 through July 20, 2021 by State by Day",
             "programCode": [
                 "009:020"
             ],
@@ -40852,7 +40852,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -41511,7 +41511,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -41688,8 +41688,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-14",
-            "modified": "2021-08-14",
+            "temporal": "2020-12-13/2021-08-21",
+            "modified": "2021-08-21",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -43282,7 +43282,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -43490,7 +43490,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "age",
                 "age group",
@@ -43564,7 +43564,7 @@
             ],
             "issued": "2021-01-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-02-16",
+            "modified": "2021-08-17",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -44117,7 +44117,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -44512,7 +44512,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -45072,7 +45072,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "age<5 years",
@@ -45266,7 +45266,7 @@
             ],
             "issued": "2018-07-31",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2021-08-16",
             "references": [
                 "https://chronicdata.cdc.gov/d/5amh-5sx3"
             ],
@@ -45314,7 +45314,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/wsas-xwh5",
-            "description": "2011-2018. Centers for Disease Control and Prevention (CDC). State Tobacco Activities Tracking and Evaluation (STATE) System. BRFSS Survey Data. The BRFSS is a continuous, state-based surveillance system that collects information about modifiable risk factors for chronic diseases and other leading causes of death. The data for the STATE System were extracted from the annual BRFSS surveys from participating states. Tobacco topics included are cigarette and e-cigarette use prevalence by demographics, cigarette and e-cigarette use frequency, and quit attempts. NOTE: these data are not to be compared with BRFSS data collected 2010 and prior, as the methodologies were changed. Please refer to the FAQs / Methodology sections for more details.",
+            "description": "2011-2019. Centers for Disease Control and Prevention (CDC). State Tobacco Activities Tracking and Evaluation (STATE) System. BRFSS Survey Data. The BRFSS is a continuous, state-based surveillance system that collects information about modifiable risk factors for chronic diseases and other leading causes of death. The data for the STATE System were extracted from the annual BRFSS surveys from participating states. Tobacco topics included are cigarette and e-cigarette use prevalence by demographics, cigarette and e-cigarette use frequency, and quit attempts. NOTE: these data are not to be compared with BRFSS data collected 2010 and prior, as the methodologies were changed. Please refer to the FAQs / Methodology sections for more details.",
             "title": "Behavioral Risk Factor Data: Tobacco Use (2011 to present)",
             "programCode": [
                 "009:020"
@@ -45758,7 +45758,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "2021",
                 "junin virus",
@@ -46258,7 +46258,7 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47160,9 +47160,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-02-19",
+            "issued": "2021-08-18",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-23",
+            "modified": "2021-08-18",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -47430,7 +47430,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-11",
+            "modified": "2021-08-18",
             "keyword": [
                 "age",
                 "age group",
@@ -48231,7 +48231,7 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-12",
+            "modified": "2021-08-19",
             "keyword": [
                 "age",
                 "age group",
