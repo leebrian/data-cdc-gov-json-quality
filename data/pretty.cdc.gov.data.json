@@ -952,7 +952,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "hepatitis c",
@@ -1211,7 +1211,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "nedss",
@@ -1402,13 +1402,13 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/34p9-h4us",
             "bureauCode": [
                 "009:20"
             ],
-            "landingPage": "https://data.cdc.gov/d/34p9-h4us",
             "issued": "2021-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-09-01",
             "keyword": [
                 "haicviz"
             ],
@@ -1454,6 +1454,9 @@
                     "describedByType": "application/xml",
                     "@type": "dcat:Distribution"
                 }
+            ],
+            "theme": [
+                "Public Health Surveillance"
             ]
         },
         {
@@ -1678,7 +1681,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "age",
                 "all causes",
@@ -3262,7 +3265,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "covid-19 vaccine",
                 "covid tracker",
@@ -3851,7 +3854,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "age",
                 "age group",
@@ -6295,7 +6298,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "cholera",
@@ -6525,7 +6528,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "nedss",
@@ -7686,7 +7689,7 @@
             ],
             "issued": "2018-07-31",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-05",
+            "modified": "2021-09-01",
             "keyword": [
                 "birth rate",
                 "cesarean delivery",
@@ -8025,7 +8028,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -8551,7 +8554,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "nedss",
@@ -9476,7 +9479,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "ehrlichia ewingii infection",
@@ -10197,8 +10200,8 @@
             ],
             "issued": "2021-07-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-28",
-            "modified": "2021-08-28",
+            "temporal": "2020-12-13/2021-09-04",
+            "modified": "2021-09-04",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -10734,7 +10737,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "cryptosporidiosis",
@@ -10865,7 +10868,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "animal",
@@ -10931,7 +10934,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "dengue",
@@ -10998,7 +11001,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "age",
                 "age group",
@@ -11142,7 +11145,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "anaplasma phagocytophilum infection",
@@ -11208,7 +11211,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -11508,7 +11511,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -11719,7 +11722,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "imported",
@@ -11786,7 +11789,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "brucellosis",
@@ -11922,7 +11925,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2021-08-28",
+            "modified": "2021-09-04",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -12316,7 +12319,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "nedss",
@@ -13517,7 +13520,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-23",
+            "modified": "2021-09-01",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -15827,7 +15830,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "hansen's disease",
@@ -16545,7 +16548,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "nedss",
@@ -17863,7 +17866,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "age <5 years serotype b",
@@ -19149,7 +19152,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-09-02",
             "keyword": [
                 "adolescent vaccination",
                 "hepb",
@@ -19550,7 +19553,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "age <5 years",
@@ -22362,8 +22365,8 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-27",
-            "modified": "2021-08-27",
+            "temporal": "2020-12-13/2021-09-02",
+            "modified": "2021-09-02",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -22565,7 +22568,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -23055,7 +23058,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "all serogroups",
@@ -23654,7 +23657,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -23752,7 +23755,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -23824,7 +23827,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -24286,7 +24289,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -25668,7 +25671,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "nedss",
@@ -25871,7 +25874,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-23",
+            "modified": "2021-09-01",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -26572,7 +26575,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "meningococcal disease",
@@ -26638,7 +26641,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "anthrax",
@@ -26768,7 +26771,7 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "age",
                 "age group",
@@ -27571,7 +27574,7 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27742,7 +27745,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "nedss",
@@ -28207,8 +28210,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-28",
-            "modified": "2021-08-28",
+            "temporal": "2020-12-13/2021-09-04",
+            "modified": "2021-09-04",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -28495,7 +28498,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -28690,7 +28693,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "age",
                 "age group",
@@ -29781,7 +29784,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "nedss",
@@ -30505,7 +30508,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "all ages",
@@ -30630,9 +30633,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-07-21",
+            "issued": "2021-09-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-03",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -30649,7 +30652,7 @@
                 "name": "data.cdc.gov"
             },
             "identifier": "https://data.cdc.gov/api/views/muep-c3qd",
-            "description": "Household Pulse Survey (HPS): HPS is a rapid-response survey of adults aged \u226518 years led by the U.S. Census Bureau, in partnership with seven other federal statistical agencies, to measure household experiences during the COVID-19 pandemic. Detailed information on probability sampling using the Census\u2019 Master Address File, questionnaires, response rates, and bias assessment is available on the Census Bureau website (https://www.census.gov/data/experimental-data-products/household-pulse-survey.htmlexternal icon).  \n\nData from adults aged \u226518 years are collected by 20-minute online survey from randomly sampled households stratified by state and the top 15 metropolitan statistical areas (MSAs). Data are weighted to represent total persons age 18 and older living within households and to mitigate possible bias that can result from non-responses and incomplete survey frame. Data from adults aged \u226518 years are collected by 20-minute online survey from randomly sampled households stratified by state and the top 15 metropolitan statistical areas (MSAs). Data collection for Phase 3.1 of the survey, which included questions about disability, began on April 14, 2021 and will continue through at least to the end of October 2021. For more information on this survey, see https://www.census.gov/programs-surveys/household-pulse-survey.html. \n\nData are weighted to represent total persons age 18 and older living within households and to mitigate possible bias that can result from non-responses and incomplete survey frame. Responses in the Household Pulse Survey (https://www.census.gov/programs-surveys/household-pulse-survey.html) are self-reported.\u202fEstimates of vaccination coverage may differ from vaccine administration data reported at\u202fCOVID-19 Vaccinations in the United States (https://covid.cdc.gov/covid-data-tracker/%22 /l %22vaccinations).",
+            "description": "Household Pulse Survey (HPS): HPS is a rapid-response survey of adults aged \u226518 years led by the U.S. Census Bureau, in partnership with seven other federal statistical agencies, to measure household experiences during the COVID-19 pandemic. Detailed information on probability sampling using the Census\u2019 Master Address File, questionnaires, response rates, and bias assessment is available on the Census Bureau website (https://www.census.gov/data/experimental-data-products/household-pulse-survey.htmlexternal icon).\n\nData from adults aged \u226518 years are collected by 20-minute online survey from randomly sampled households stratified by state and the top 15 metropolitan statistical areas (MSAs). Data are weighted to represent total persons age 18 and older living within households and to mitigate possible bias that can result from non-responses and incomplete survey frame. Data from adults aged \u226518 years are collected by 20-minute online survey from randomly sampled households stratified by state and the top 15 metropolitan statistical areas (MSAs). Data collection for Phase 3.1 of the survey, which included questions about disability, began on April 14, 2021 and will continue through at least to the end of October 2021. For more information on this survey, see https://www.census.gov/programs-surveys/household-pulse-survey.html.\n\nData are weighted to represent total persons age 18 and older living within households and to mitigate possible bias that can result from non-responses and incomplete survey frame. Responses in the Household Pulse Survey (https://www.census.gov/programs-surveys/household-pulse-survey.html) are self-reported.\u202fEstimates of vaccination coverage may differ from vaccine administration data reported at\u202fCOVID-19 Vaccinations in the United States (https://covid.cdc.gov/covid-data-tracker/%22 /l %22vaccinations).",
             "title": "Household Pulse Survey (HPS): COVID-19 Vaccination among People with Disabilities",
             "programCode": [
                 "009:026"
@@ -30694,7 +30697,7 @@
             ],
             "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -31107,7 +31110,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -31876,7 +31879,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "botulism",
@@ -32066,7 +32069,7 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "age",
                 "age group",
@@ -33261,7 +33264,7 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -33608,7 +33611,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "crimean-congo hemorrhagic fever virus",
@@ -34193,7 +34196,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "mumps",
@@ -35038,7 +35041,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36024,7 +36027,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-23",
+            "modified": "2021-09-01",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -36501,7 +36504,7 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-27",
+            "modified": "2021-09-03",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36705,7 +36708,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "nedss",
@@ -37005,8 +37008,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-28",
-            "modified": "2021-08-28",
+            "temporal": "2020-12-13/2021-09-04",
+            "modified": "2021-09-04",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -37477,7 +37480,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-24",
+            "modified": "2021-08-31",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -37605,7 +37608,7 @@
             ],
             "issued": "2018-10-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-02",
+            "modified": "2021-09-01",
             "keyword": [
                 "cdc.gov",
                 "web metrics"
@@ -37725,7 +37728,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "nedss",
@@ -37791,7 +37794,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "nedss",
@@ -38782,7 +38785,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-03",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -38956,7 +38959,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "machupo virus",
@@ -39083,7 +39086,7 @@
             ],
             "issued": "2021-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-09-01",
             "keyword": [
                 "haicviz",
                 "healthcare associated infections",
@@ -39135,7 +39138,7 @@
                 }
             ],
             "theme": [
-                "Case Surveillance"
+                "Public Health Surveillance"
             ]
         },
         {
@@ -39640,7 +39643,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "acute",
@@ -40091,7 +40094,7 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "age",
                 "age group",
@@ -40271,7 +40274,7 @@
             "landingPage": "https://data.cdc.gov/d/tt3f-rr33",
             "issued": "2021-06-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-10",
+            "modified": "2021-09-03",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "CDC INFO",
@@ -40719,7 +40722,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -41378,7 +41381,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -41555,8 +41558,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-08-28",
-            "modified": "2021-08-28",
+            "temporal": "2020-12-13/2021-09-04",
+            "modified": "2021-09-04",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -41917,9 +41920,9 @@
             "bureauCode": [
                 "009:00"
             ],
-            "issued": "2021-02-27",
+            "issued": "2021-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-13",
+            "modified": "2021-09-02",
             "keyword": [
                 "deaths",
                 "drug overdose",
@@ -41945,7 +41948,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/v2g4-wqg2",
-            "description": "This dataset provides model-based provisional estimates of the weekly numbers of drug overdose, suicide, and transportation-related deaths using \u201cnowcasting\u201d methods to account for the normal lag between the occurrence and reporting of these deaths. These early model-based provisional estimates were generated using a multi-stage hierarchical Bayesian modeling process to generate smoothed estimates of the weekly numbers of death, accounting for reporting lags. These estimates are based on several assumptions about how the reporting lags have changed in recent months across different jurisdictions, and the resulting estimates differ from other sources of provisional mortality data.  For now, these estimates should be considered highly uncertain until further evaluations can be done to determine the validity of these assumptions about timeliness. The true patterns in reporting lags will not be known until data are finalized, typically 11\u201312 months after the end of the calendar year. Importantly, these estimates are not a replacement for monthly provisional drug overdose death counts, or quarterly provisional mortality estimates. For more detail about the nowcasting methods and models, see:\n\nRossen LM, Hedegaard H, Warner M, Ahmad FB, Sutton PD. Early provisional estimates of drug overdose, suicide, and transportation-related deaths: Nowcasting methods to account for reporting lags. Vital Statistics Rapid Release; no 11. Hyattsville, MD: National Center for Health Statistics. February 2021. DOI: https://doi.org/10.15620/ cdc:101132",
+            "description": "This dataset provides model-based provisional estimates of the weekly numbers of drug overdose, suicide, and transportation-related deaths using \u201cnowcasting\u201d methods to account for the normal lag between the occurrence and reporting of these deaths. Estimates less than 10 are suppressed. These early model-based provisional estimates were generated using a multi-stage hierarchical Bayesian modeling process to generate smoothed estimates of the weekly numbers of death, accounting for reporting lags. These estimates are based on several assumptions about how the reporting lags have changed in recent months across different jurisdictions, and the resulting estimates differ from other sources of provisional mortality data.  For now, these estimates should be considered highly uncertain until further evaluations can be done to determine the validity of these assumptions about timeliness. The true patterns in reporting lags will not be known until data are finalized, typically 11\u201312 months after the end of the calendar year. Importantly, these estimates are not a replacement for monthly provisional drug overdose death counts, or quarterly provisional mortality estimates. For more detail about the nowcasting methods and models, see:\n\nRossen LM, Hedegaard H, Warner M, Ahmad FB, Sutton PD. Early provisional estimates of drug overdose, suicide, and transportation-related deaths: Nowcasting methods to account for reporting lags. Vital Statistics Rapid Release; no 11. Hyattsville, MD: National Center for Health Statistics. February 2021. DOI: https://doi.org/10.15620/ cdc:101132",
             "title": "Early Model-based Provisional Estimates of Drug Overdose, Suicide, and Transportation-related Deaths",
             "programCode": [
                 "009:020"
@@ -43149,7 +43152,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -43357,7 +43360,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "age",
                 "age group",
@@ -43984,7 +43987,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -44379,7 +44382,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -44939,7 +44942,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "age<5 years",
@@ -45625,7 +45628,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "2021",
                 "junin virus",
@@ -46125,7 +46128,7 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47297,7 +47300,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2021-09-01",
             "keyword": [
                 "age",
                 "age group",
@@ -48026,7 +48029,7 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "modified": "2021-09-02",
             "keyword": [
                 "age",
                 "age group",
