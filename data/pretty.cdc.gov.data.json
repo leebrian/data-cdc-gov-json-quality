@@ -952,7 +952,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "hepatitis c",
@@ -1211,7 +1211,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "nedss",
@@ -1681,7 +1681,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "age",
                 "all causes",
@@ -2270,7 +2270,7 @@
             "issued": "2021-10-19",
             "temporal": "April 4, 2020-September 4, 2021",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-19",
+            "modified": "2021-10-29",
             "keyword": [
                 "covid-19",
                 "covid-19 breakthrough",
@@ -2288,7 +2288,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3rge-nu2a",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status. \nhttps://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nCOVID-19 case and death incidence rates per 100,000 population\nCase data reported from 16 US jurisdictions \nDeath data reported from 15 US jurisdictions\nApril 4, 2020-September 4, 2021",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status. \nhttps://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nCOVID-19 case and death incidence rates per 100,000 population\nCase data reported from 16 US jurisdictions \nDeath data reported from 15 US jurisdictions\nApril 4, 2021-September 4, 2021",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status",
             "programCode": [
                 "009:038"
@@ -3396,7 +3396,7 @@
             ],
             "issued": "2021-09-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-28",
             "keyword": [
                 "covid-19 vaccine",
                 "covid tracker",
@@ -3985,7 +3985,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "age",
                 "age group",
@@ -5372,7 +5372,7 @@
             ],
             "issued": "2021-09-08",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-23",
+            "modified": "2021-10-30",
             "references": [
                 "https://data.cdc.gov/api/views/5jp2-pgaw/files/7ad96c95-0255-4c36-8a3f-f805746a5203?download=true&filename=Outbound_File_Specification.pdf"
             ],
@@ -6429,7 +6429,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "cholera",
@@ -6659,7 +6659,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "nedss",
@@ -8235,7 +8235,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -8761,7 +8761,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "nedss",
@@ -9277,6 +9277,76 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/8396-v7yb",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-09-21",
+            "@type": "dcat:Dataset",
+            "modified": "2021-10-31",
+            "references": [
+                "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
+            ],
+            "keyword": [
+                "case",
+                "community transmission",
+                "coronavirus",
+                "county",
+                "covid-19",
+                "laboratory"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Surveillance Review and Response Group",
+                "hasEmail": "mailto:eocevent394@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/8396-v7yb",
+            "description": "This public use dataset has 7 data elements reflecting community transmission levels for all available counties. This dataset contains reported daily transmission level at the county level and contains the same values used to display transmission maps on the  <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view\">COVID Data Tracker</a>. Each day, the dataset is appended to contain the most recent day's data. Transmission level is set to low, moderate, substantial, or high using the calculation rules below.\n\nCurrently, CDC provides the public with two versions of COVID-19 county-level community transmission level data: this dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/United-States-COVID-19-County-Level-of-Community-T/8396-v7yb\">Originally Posted dataset</a>), updated daily with the most recent day\u2019s data, and an historical dataset with the county-level transmission data from January 1, 2021 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/United-States-COVID-19-County-Level-of-Community-T/nra9-vzzn\">Historical Changes dataset</a>).\n\n<b>Methods for calculating county level of community transmission indicator</b>\nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metrics, CDC classifies transmission values as low, moderate, substantial, or high (below and <a href=\"https://www.cdc.gov/mmwr/volumes/70/wr/mm7030e2.htm?s_cid=mm7030e2_w#T1_down\">here</a>). If the values for each of these two metrics differ (e.g., one indicates moderate and the other low), then the higher of the two should be used for decision-making.\n\n<b>CDC core metrics of and thresholds for community transmission levels of SARS-CoV-2</b>\n\n<b>Total New Case Rate Metric</b>: \"New cases per 100,000 persons in the past 7 days\" is calculated by adding the number of new cases in the county (or other administrative level) in the last 7 days divided by the population in the county (or other administrative level) and multiplying by 100,000. \"New cases per 100,000 persons in the past 7 days\" is considered to have a transmission level of Low (0-9.99); Moderate (10.00-49.99); Substantial (50.00-99.99); and High (greater than or equal to 100.00).\n\n<b>Test Percent Positivity Metric</b>: \"Percentage of positive NAAT in the past 7 days\" is calculated by dividing the number of positive tests in the county (or other administrative level) during the last 7 days by the total number of tests conducted over the last 7 days. \"Percentage of positive NAAT in the past 7 days\" is considered to have a transmission level of Low (less than 5.00); Moderate (5.00-7.99); Substantial (8.00-9.99); and High (greater than or equal to 10.00).\n\nIf the two metrics suggest different transmission levels, the higher level is selected. \n\nTransmission categories include: \n\nLow Transmission Threshold: Counties with fewer than 10 total cases per 100,000 population in the past 7 days, and a NAAT percent test positivity in the past 7 days below 5%; \n\nModerate Transmission Threshold: Counties with 10-49 total cases per 100,000 population in the past 7 days or a NAAT test percent positivity in the past 7 days of 5.0-7.99%; \n\nSubstantial Transmission Threshold: Counties with 50-99 total cases per 100,000 population in the past 7 days or a NAAT test percent positivity in the past 7 days of 8.0-9.99%; \n\nHigh Transmission Threshold: Counties with 100 or more total cases per 100,000 population in the past 7 days or a NAAT test percent positivity in the past 7 days of 10.0% or greater.\n\nBlank : total new cases in the past 7 days are not reported (county data known to be unavailable) and the percentage of positive NAATs tests during the past 7 days (blank) are not reported.\n\n<b>Data Suppression</b>\nTo prevent the release of data tha",
+            "title": "United States COVID-19 County Level of Community Transmission as Originally Posted",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/8396-v7yb/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/8396-v7yb/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/8396-v7yb/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/8396-v7yb/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/8396-v7yb/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/8396-v7yb/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/8396-v7yb/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1D",
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/flu/fluvaxview/dashboard/vaccination-dashboard.html",
             "bureauCode": [
                 "009:20"
@@ -9686,7 +9756,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "ehrlichia ewingii infection",
@@ -10407,8 +10477,8 @@
             ],
             "issued": "2021-09-23",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-10-23",
-            "modified": "2021-10-23",
+            "temporal": "2020-12-13/2021-10-30",
+            "modified": "2021-10-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -10944,7 +11014,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "cryptosporidiosis",
@@ -11075,7 +11145,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "animal",
@@ -11141,7 +11211,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "dengue",
@@ -11208,7 +11278,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "age",
                 "age group",
@@ -11352,7 +11422,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "anaplasma phagocytophilum infection",
@@ -11418,7 +11488,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -11718,7 +11788,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -11929,7 +11999,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "imported",
@@ -11996,7 +12066,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "brucellosis",
@@ -12132,7 +12202,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2021-10-23",
+            "modified": "2021-10-30",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -12526,7 +12596,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "nedss",
@@ -13727,7 +13797,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-14",
+            "modified": "2021-10-29",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -15135,7 +15205,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-08",
+            "modified": "2021-10-29",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -16037,7 +16107,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "hansen's disease",
@@ -16755,7 +16825,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "nedss",
@@ -18145,7 +18215,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "age <5 years serotype b",
@@ -19904,7 +19974,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "age <5 years",
@@ -21620,7 +21690,7 @@
             "landingPage": "https://data.cdc.gov/d/fwff-rpze",
             "issued": "2021-10-13",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-15",
+            "modified": "2021-10-29",
             "keyword": [
                 "covid-19",
                 "covid-19 breakthrough",
@@ -21638,7 +21708,7 @@
                 "name": "eocevent531@cdc.gov"
             },
             "identifier": "https://data.cdc.gov/api/views/fwff-rpze",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status. \nhttps://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nCOVID-19 case and death incidence rates per 100,000 population\nCase data reported from 16 US jurisdictions \nDeath data reported from 15 US jurisdictions\nApril 4, 2020-September 4, 2021",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status. \nhttps://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nCOVID-19 case and death incidence rates per 100,000 population\nCase data reported from 16 US jurisdictions \nDeath data reported from 15 US jurisdictions\nApril 4, 2021 - September 4, 2021",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status",
             "programCode": [
                 "009:038"
@@ -22827,8 +22897,8 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-10-16",
-            "modified": "2021-10-16",
+            "temporal": "2020-12-13/2021-10-28",
+            "modified": "2021-10-28",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -23030,7 +23100,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -23520,7 +23590,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "all serogroups",
@@ -24119,7 +24189,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -24217,7 +24287,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -24289,7 +24359,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -24751,7 +24821,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -26133,7 +26203,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "nedss",
@@ -26336,7 +26406,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-29",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -27037,7 +27107,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "meningococcal disease",
@@ -27103,7 +27173,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "anthrax",
@@ -27233,7 +27303,7 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "age",
                 "age group",
@@ -28036,7 +28106,7 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -28207,7 +28277,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "nedss",
@@ -28475,7 +28545,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "cares act",
                 "health system",
@@ -28666,14 +28736,77 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/kk8c-wtm4",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-10-19",
+            "@type": "dcat:Dataset",
+            "temporal": "2020",
+            "modified": "2021-10-19",
+            "keyword": [
+                "covid-19",
+                "physicians"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/kk8c-wtm4",
+            "description": "The National Ambulatory Medical Care Survey (NAMCS), conducted by the National Center for Health Statistics (NCHS), collects data on visits to physician offices to describe patterns of ambulatory care delivery in the United States. As part of NAMCS, the Physician Induction Interview collects information about practice characteristics at physician offices. Partway through the 2020 NAMCS, NCHS added questions to the Physician Induction Interview to assess physician experiences related to COVID-19 in office-based settings.\n\nThe data include nationally representative estimates of experiences related to COVID-19 among office-based physicians in the United States, including: shortages of personal protective equipment (PPE) in the past 3 months; the ability to test for COVID-19 in the past 3 months; providers testing positive for COVID-19 in the past 3 months; turning away COVID-19 patients in the past 3 months; and telemedicine or telehealth technology use before and after March 2020.  Estimates were derived from interviews with physicians in periods 3 and 4 of 2020 NAMCS, which occurred between December 15, 2020 and May 5, 2021.  The data are considered preliminary, and the results may change with the final data release.",
+            "title": "Physician Experiences Related to COVID-19 from the National Ambulatory Medical Care Survey",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/kk8c-wtm4/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/kk8c-wtm4/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/kk8c-wtm4/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/kk8c-wtm4/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/kk8c-wtm4/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/kk8c-wtm4/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/kk8c-wtm4/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/km4m-vcsb",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-10-23",
-            "modified": "2021-10-23",
+            "temporal": "2020-12-13/2021-10-30",
+            "modified": "2021-10-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -28960,7 +29093,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -29155,7 +29288,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "age",
                 "age group",
@@ -30071,7 +30204,7 @@
             ],
             "issued": "2021-10-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-27",
             "keyword": [
                 "age",
                 "age group",
@@ -30318,7 +30451,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "nedss",
@@ -31042,7 +31175,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "all ages",
@@ -31169,8 +31302,8 @@
             ],
             "issued": "2021-10-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-07-01/2021-05-14",
-            "modified": "2021-10-13",
+            "temporal": "2020-07-01/2021-08-11",
+            "modified": "2021-10-29",
             "keyword": [
                 "coronavirus",
                 "covid",
@@ -31302,7 +31435,7 @@
             ],
             "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -31715,7 +31848,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -32484,7 +32617,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "botulism",
@@ -32674,7 +32807,7 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "age",
                 "age group",
@@ -32739,6 +32872,76 @@
             "accrualPeriodicity": "Weekly",
             "theme": [
                 "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/nra9-vzzn",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-08-17",
+            "@type": "dcat:Dataset",
+            "modified": "2021-10-30",
+            "references": [
+                "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
+            ],
+            "keyword": [
+                "cases",
+                "community transmission",
+                "coronavirus",
+                "county",
+                "covid-19",
+                "laboratory"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Surveillance Review and Response Group",
+                "hasEmail": "mailto:eocevent394@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/nra9-vzzn",
+            "description": "This public use dataset has 7 data elements reflecting historical data for community transmission levels for all available counties. This dataset contains historical data for the county level of community transmission and includes updated data submitted by states and jurisdictions.  Each day, the dataset is appended to contain the most recent day's data. This dataset includes data from January 1, 2021.  Transmission level is set to low, moderate, substantial, or high using the calculation rules below.\n\nCurrently, CDC provides the public with two versions of COVID-19 county-level community transmission level data: this dataset with the levels for each county from January 1, 2021 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/United-States-COVID-19-County-Level-of-Community-T/nra9-vzzn\">Historical Changes dataset</a>) and a dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/United-States-COVID-19-County-Level-of-Community-T/8396-v7yb\">Originally Posted dataset</a>), updated daily with the most recent day\u2019s data.\n\n<b>Methods for calculating county level of community transmission indicator</b>\nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metrics, CDC classifies transmission values as low, moderate, substantial, or high (below and <a href=\"https://www.cdc.gov/mmwr/volumes/70/wr/mm7030e2.htm?s_cid=mm7030e2_w#T1_down\">here</a>). If the values for each of these two metrics differ (e.g., one indicates moderate and the other low), then the higher of the two should be used for decision-making. \n\n<b>CDC core metrics of and thresholds for community transmission levels of SARS-CoV-2</b>\n\n<b>Total New Case Rate Metric</b>: \"New cases per 100,000 persons in the past 7 days\" is calculated by adding the number of new cases in the county (or other administrative level) in the last 7 days divided by the population in the county (or other administrative level) and multiplying by 100,000. \"New cases per 100,000 persons in the past 7 days\" is considered to have transmission level of Low (0-9.99); Moderate (10.00-49.99); Substantial (50.00-99.99); and High (greater than or equal to 100.00).\n\n<b>Test Percent Positivity Metric</b>: \"Percentage of positive NAAT in the past 7 days\" is calculated by dividing the number of positive tests in the county (or other administrative level) during the last 7 days by the total number of tests resulted over the last 7 days. \"Percentage of positive NAAT in the past 7 days\" is considered to have transmission level of Low (less than 5.00); Moderate (5.00-7.99); Substantial (8.00-9.99); and High (greater than or equal to 10.00).\n\nIf the two metrics suggest different transmission levels, the higher level is selected. If one metric is missing, the other metric is used for the indicator.  \n\nTransmission categories include: \n\nLow Transmission Threshold: Counties with fewer than 10 total cases per 100,000 population in the past 7 days, and a NAAT percent test positivity in the past 7 days below 5%; \n\nModerate Transmission Threshold: Counties with 10-49 total cases per 100,000 population in the past 7 days or a NAAT test percent positivity in the past 7 days of 5.0-7.99%; \n\nSubstantial Transmission Threshold: Counties with 50-99 total cases per 100,000 population in the past 7 days or a NAAT test percent positivity in the past 7 days of 8.0-9.99%; \n\nHigh Transmission Threshold: Counties with 100 or more total cases per 100,000 population in the past 7 days or a NAAT test percent positivity in the past 7 days of 10.0% or greater.\n\nBlank : total new cases in the past 7 days are not reported (county data known to be unavailable) and the percentage of positive NAATs tests during the past 7 days (blank) are not reported.\n\n<b>Data Suppression</b>\nTo",
+            "title": "United States COVID-19 County Level of Community Transmission Historical Changes",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/nra9-vzzn/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/nra9-vzzn/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/nra9-vzzn/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/nra9-vzzn/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/nra9-vzzn/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/nra9-vzzn/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/nra9-vzzn/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1D",
+            "theme": [
+                "Public Health Surveillance"
             ]
         },
         {
@@ -33796,7 +33999,7 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -34143,7 +34346,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "crimean-congo hemorrhagic fever virus",
@@ -34728,7 +34931,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "mumps",
@@ -35573,7 +35776,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36559,7 +36762,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-14",
+            "modified": "2021-10-29",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -37036,7 +37239,7 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-22",
+            "modified": "2021-10-29",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -37240,7 +37443,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "nedss",
@@ -37540,8 +37743,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-10-23",
-            "modified": "2021-10-23",
+            "temporal": "2020-12-13/2021-10-30",
+            "modified": "2021-10-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -37752,7 +37955,7 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "cares act",
                 "coronavirus",
@@ -38012,7 +38215,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-19",
+            "modified": "2021-10-26",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -38260,7 +38463,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "nedss",
@@ -38326,7 +38529,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "nedss",
@@ -39317,7 +39520,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "age",
                 "age group",
@@ -39566,7 +39769,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "machupo virus",
@@ -40250,7 +40453,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "acute",
@@ -40701,7 +40904,7 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "age",
                 "age group",
@@ -41376,7 +41579,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -41997,7 +42200,7 @@
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-14",
+            "modified": "2021-10-27",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -42101,7 +42304,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -42278,8 +42481,8 @@
             ],
             "issued": "2021-10-08",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-10-23",
-            "modified": "2021-10-23",
+            "temporal": "2020-12-13/2021-10-30",
+            "modified": "2021-10-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -43925,7 +44128,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -44133,7 +44336,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "age",
                 "age group",
@@ -44760,7 +44963,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -45155,7 +45358,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -45715,7 +45918,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "age<5 years",
@@ -45851,8 +46054,8 @@
             ],
             "issued": "2021-10-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-07-01/2021-05-14",
-            "modified": "2021-10-13",
+            "temporal": "2020-07-01/2021-08-11",
+            "modified": "2021-10-29",
             "keyword": [
                 "coronavirus",
                 "covid",
@@ -46519,7 +46722,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "2021",
                 "junin virus",
@@ -46935,6 +47138,73 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/xgy8-wnft",
+            "bureauCode": [
+                "009:15"
+            ],
+            "issued": "2021-10-28",
+            "@type": "dcat:Dataset",
+            "temporal": "Weekly",
+            "modified": "2021-10-28",
+            "keyword": [
+                "and economic security act",
+                "coronavirus aid",
+                "coronavirus preparedness and response supplemental appropriations act",
+                "covid-19",
+                "paycheck protection program and health care enhancement act",
+                "relief"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "HRSA Chief Data Officer",
+                "hasEmail": "mailto:PRFdata@hrsa.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "HRSA"
+            },
+            "identifier": "https://data.cdc.gov/api/views/xgy8-wnft",
+            "description": "The COVID-19 Coverage Assistance Fund provides reimbursements on a rolling basis directly to eligible health care entities for costs associated with administering COVID-19 vaccines to underinsured individuals, who are defined for this purpose as having a health plan that either does not include COVID-19 vaccine administration as a covered benefit or covers COVID-19 vaccine administration but with cost-sharing.\n\nThe program funding information is as follows: The Coronavirus Aid, Relief, and Economic Security (CARES) Act (P.L. 116-136), appropriated $100 billion to reimburse eligible health care providers for health care related expenses or lost revenues that are attributable to coronavirus. The Paycheck Protection Program and Health Care Enhancement Act or PPPHCEA (P.L. 116-139) appropriated an additional $75 billion for relief funds, and the Coronavirus Response and Relief Supplemental Appropriations (CRRSA) Act appropriated an additional $3 billion.  HRSA established the Provider Relief Fund (PRF) to administer payments to eligible providers. A portion of the PRF funds are being used to provide reimbursement to providers for administering Food and Drug Administration (FDA) authorized COVID-19 vaccines under an Emergency Use Authorization (EUA) or FDA-licensed COVID-19 vaccines under a Biologics License Application (BLA) to underinsured individuals. To learn more about the program, visit: https://www.hrsa.gov/covid19-coverage-assistance\n\nThis dataset represents the list of health care entities who have agreed to the Terms and Conditions and received claims reimbursement for costs associated with administering COVID-19 vaccines to underinsured individuals.\n\nFor Provider Relief Fund Data - https://data.cdc.gov/Administrative/HHS-Provider-Relief-Fund/kh8y-3es6",
+            "title": "COVID-19 Coverage Assistance Fund: Claims Reimbursement to Health Care Providers and Facilities for Services to the Underinsured",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/xgy8-wnft/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/xgy8-wnft/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/xgy8-wnft/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/xgy8-wnft/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/xgy8-wnft/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/xgy8-wnft/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/xgy8-wnft/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "Global Health"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/xkb8-kh2a",
             "bureauCode": [
                 "009:00"
@@ -47019,7 +47289,7 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -48267,7 +48537,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-10-27",
             "keyword": [
                 "age",
                 "age group",
@@ -48996,7 +49266,7 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-21",
+            "modified": "2021-10-28",
             "keyword": [
                 "age",
                 "age group",
