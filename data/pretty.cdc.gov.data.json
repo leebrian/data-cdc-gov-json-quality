@@ -952,7 +952,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "hepatitis c",
@@ -1211,7 +1211,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "nedss",
@@ -1681,7 +1681,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "all causes",
@@ -2270,7 +2270,7 @@
             "issued": "2021-10-19",
             "temporal": "April 4, 2020-September 4, 2021",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-12",
             "keyword": [
                 "covid-19",
                 "covid-19 breakthrough",
@@ -2288,7 +2288,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3rge-nu2a",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status. \nhttps://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\n\nCOVID-19 case and death incidence rates per 100,000 population\nCase data reported from 16 US jurisdictions \nDeath data reported from 15 US jurisdictions\nApril 4, 2021-September 4, 2021\n\n\nDataset and data visualization details:\n\nVaccination status: A fully vaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources.\n\nParticipating jurisdictions: Currently, these 16 health departments who regularly link their case surveillance to immunization information system data and represent 30% of the total U.S. population are included in these incidence rate estimates: Alabama, Arizona, Arkansas, Colorado, Florida, Georgia, Idaho, Louisiana, Massachusetts, Michigan, Nebraska, New Mexico, New York City (New York), Seattle/King County (Washington), Utah and Wisconsin; 15 jurisdictions also report deaths among vaccinated and unvaccinated people. This list will be updated as more jurisdictions participate. \n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination status were calculated as the number of cases or deaths divided by the number of people either fully vaccinated (cumulative) or unvaccinated (obtained by subtracting the cumulative number of fully vaccinated and current number of partially vaccinated people from the 2019 U.S. intercensal population estimates) and multiplied by 100,000. Overall incidence rates were age-standardized using the 2000 U.S. Census standard population. Rates are not adjusted for time since vaccination, underlying conditions, or other demographic factors besides age. All rates are plotted by positive specimen collection date to reflect when incident infections occurred.\n\nIncidence rate ratios (IRRs): IRRs for the past one month were calculated by dividing the average weekly incidence rates among unvaccinated people by that among fully vaccinated people. IRRs are not calculated when the fully vaccinated rate is zero.\n\nRelevant Publications\n1.\tScobie HM, Johnson AG, Suthar AB, et al. Monitoring Incidence of COVID-19 Cases, Hospitalizations, and Deaths, by Vaccination Status \u2014 13 U.S. Jurisdictions, April 4\u2013July 17, 2021. MMWR Morb Mortal Wkly Rep. ePub: 10 September 2021. DOI: http://dx.doi.org/10.15585/mmwr.mm7037e1\n2.\tHavers FP, Pham H, Taylor CA, et al. COVID-19\u2013associated hospitalizations among vaccinated and unvaccinated adults \u226518 years\u2014COVID-NET, 13 states, January 1\u2013July 24, 2021. medRxiv [Preprint posted online August 29, 2021]. https://www.medrxiv.org/content/10.1101/2021.08.27.21262356v1\n3.\tGriffin JB, Haddix M, Danza P, et al. SARS-CoV-2 infections and hospitalizations among persons aged \u226516 years, by vaccination status\u2014Los Angeles County, California, May 1\u2013July 25, 2021. MMWR Morb Mortal Wkly Rep 2021;70:1170\u20136. https://doi.org/10.15585/mmwr.mm7034e5\n4.\tRosenberg ES, Holtgrave DR, Dorabawila V, et al. New COVID-19 Cases and Hospitalizations Among Adults, by Vaccination Status \u2014 New York, May 3\u2013July 25, 2021. MMWR Morb Mortal Wkly Rep 2021;70:1150-1155. DOI: http://dx.doi.org/10.15585/mmwr.mm7034e1",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status. \nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\nVaccination status: A fully vaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources.\n\nParticipating jurisdictions: Currently, these 16 health departments who regularly link their case surveillance to immunization information system data and represent 30% of the total U.S. population are included in these incidence rate estimates: Alabama, Arizona, Arkansas, Colorado, Florida, Georgia, Idaho, Louisiana, Massachusetts, Michigan, Nebraska, New Mexico, New York City (New York), Seattle/King County (Washington), Utah and Wisconsin; 15 jurisdictions also report deaths among vaccinated and unvaccinated people. This list will be updated as more jurisdictions participate. \n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination status were calculated as the number of cases or deaths divided by the number of people either fully vaccinated (cumulative) or unvaccinated (obtained by subtracting the cumulative number of fully vaccinated and current number of partially vaccinated people from the 2019 U.S. intercensal population estimates) and multiplied by 100,000. Overall incidence rates were age-standardized using the 2000 U.S. Census standard population. Rates are not adjusted for time since vaccination, underlying conditions, or other demographic factors besides age. All rates are plotted by positive specimen collection date to reflect when incident infections occurred.\n\nIncidence rate ratios (IRRs): IRRs for the past one month were calculated by dividing the average weekly incidence rates among unvaccinated people by that among fully vaccinated people. IRRs are not calculated when the fully vaccinated rate is zero.\n\nRelevant Publications\n1.\tScobie HM, Johnson AG, Suthar AB, et al. Monitoring Incidence of COVID-19 Cases, Hospitalizations, and Deaths, by Vaccination Status \u2014 13 U.S. Jurisdictions, April 4\u2013July 17, 2021. MMWR Morb Mortal Wkly Rep. ePub: 10 September 2021. DOI: http://dx.doi.org/10.15585/mmwr.mm7037e1\n2.\tHavers FP, Pham H, Taylor CA, et al. COVID-19\u2013associated hospitalizations among vaccinated and unvaccinated adults \u226518 years\u2014COVID-NET, 13 states, January 1\u2013July 24, 2021. medRxiv [Preprint posted online August 29, 2021]. https://www.medrxiv.org/content/10.1101/2021.08.27.21262356v1\n3.\tGriffin JB, Haddix M, Danza P, et al. SARS-CoV-2 infections and hospitalizations among persons aged \u226516 years, by vaccination status\u2014Los Angeles County, California, May 1\u2013July 25, 2021. MMWR Morb Mortal Wkly Rep 2021;70:1170\u20136. https://doi.org/10.15585/mmwr.mm7034e5\n4.\tRosenberg ES, Holtgrave DR, Dorabawila V, et al. New COVID-19 Cases and Hospitalizations Among Adults, by Vaccination Status \u2014 New York, May 3\u2013July 25, 2021. MMWR Morb Mortal Wkly Rep 2021;70:1150-1155. DOI: http://dx.doi.org/10.15585/mmwr.mm7034e1",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status",
             "programCode": [
                 "009:038"
@@ -3396,7 +3396,7 @@
             ],
             "issued": "2021-09-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "covid-19 vaccine",
                 "covid tracker",
@@ -3985,7 +3985,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
@@ -5372,7 +5372,7 @@
             ],
             "issued": "2021-09-08",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-06",
+            "modified": "2021-11-13",
             "references": [
                 "https://data.cdc.gov/api/views/5jp2-pgaw/files/7ad96c95-0255-4c36-8a3f-f805746a5203?download=true&filename=Outbound_File_Specification.pdf"
             ],
@@ -6429,7 +6429,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "cholera",
@@ -6659,7 +6659,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "nedss",
@@ -8235,7 +8235,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -8761,7 +8761,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "nedss",
@@ -9283,7 +9283,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-07",
+            "modified": "2021-11-14",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -9756,7 +9756,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "ehrlichia ewingii infection",
@@ -10412,7 +10412,7 @@
             ],
             "issued": "2021-05-13",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-13",
+            "modified": "2021-11-08",
             "keyword": [
                 "immunization",
                 "influenza",
@@ -10477,8 +10477,8 @@
             ],
             "issued": "2021-09-23",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-11-06",
-            "modified": "2021-11-06",
+            "temporal": "2020-12-13/2021-11-13",
+            "modified": "2021-11-13",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -11014,7 +11014,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "cryptosporidiosis",
@@ -11145,7 +11145,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "animal",
@@ -11211,7 +11211,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "dengue",
@@ -11278,7 +11278,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
@@ -11422,7 +11422,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "anaplasma phagocytophilum infection",
@@ -11488,7 +11488,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -11788,7 +11788,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -11999,7 +11999,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "imported",
@@ -12066,7 +12066,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "brucellosis",
@@ -12202,7 +12202,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2021-11-06",
+            "modified": "2021-11-13",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -12596,7 +12596,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "nedss",
@@ -13586,7 +13586,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2021-11-08",
             "keyword": [
                 "immunization",
                 "pneumococcal",
@@ -13797,7 +13797,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-05",
+            "modified": "2021-11-09",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -15702,6 +15702,72 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/bugr-bbfr",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-10-27",
+            "@type": "dcat:Dataset",
+            "modified": "2021-11-13",
+            "keyword": [
+                "flu",
+                "flu shot",
+                "flu vaccination",
+                "providers",
+                "vaccination locations",
+                "vaccination sites",
+                "vaccinefinder",
+                "vaccines"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "CDC",
+                "hasEmail": "mailto:imtech@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/bugr-bbfr",
+            "description": "The Vaccines.gov dataset includes provider information for flu vaccine provider locations in the U.S. Vaccines.gov is powered by VaccineFinder.",
+            "title": "Vaccines.gov: Flu vaccinating provider locations",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/bugr-bbfr/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/bugr-bbfr/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/bugr-bbfr/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/bugr-bbfr/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/bugr-bbfr/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/bugr-bbfr/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/bugr-bbfr/columns.svc",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Flu Vaccinations"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/bve7-bjy2",
             "bureauCode": [
                 "009:00"
@@ -16107,7 +16173,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "hansen's disease",
@@ -16825,7 +16891,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "nedss",
@@ -18215,7 +18281,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "age <5 years serotype b",
@@ -19974,7 +20040,7 @@
             ],
             "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "age <5 years",
@@ -23100,7 +23166,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -23590,7 +23656,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "all serogroups",
@@ -24189,7 +24255,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -24287,7 +24353,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -24359,7 +24425,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -24821,7 +24887,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -26203,7 +26269,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "nedss",
@@ -26406,7 +26472,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-05",
+            "modified": "2021-11-09",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -26961,7 +27027,7 @@
             ],
             "issued": "2021-06-17",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
@@ -27107,7 +27173,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "meningococcal disease",
@@ -27173,7 +27239,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "anthrax",
@@ -27303,7 +27369,7 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
@@ -28106,7 +28172,7 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -28277,7 +28343,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "nedss",
@@ -28545,7 +28611,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-05",
+            "modified": "2021-11-11",
             "keyword": [
                 "cares act",
                 "health system",
@@ -28805,8 +28871,8 @@
             ],
             "issued": "2021-05-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-11-06",
-            "modified": "2021-11-06",
+            "temporal": "2020-12-13/2021-11-13",
+            "modified": "2021-11-13",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -29093,7 +29159,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -29288,7 +29354,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
@@ -30022,7 +30088,7 @@
             ],
             "issued": "2020-11-12",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-20",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
@@ -30204,7 +30270,7 @@
             ],
             "issued": "2021-10-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
@@ -30451,7 +30517,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "nedss",
@@ -31175,7 +31241,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "all ages",
@@ -31435,7 +31501,7 @@
             ],
             "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -31848,7 +31914,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -32617,7 +32683,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "botulism",
@@ -32807,7 +32873,7 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
@@ -32882,7 +32948,7 @@
             ],
             "issued": "2021-08-17",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-07",
+            "modified": "2021-11-14",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -33999,7 +34065,7 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -34346,7 +34412,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "crimean-congo hemorrhagic fever virus",
@@ -34931,7 +34997,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "mumps",
@@ -35776,7 +35842,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36762,7 +36828,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-05",
+            "modified": "2021-11-09",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -37239,7 +37305,7 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-05",
+            "modified": "2021-11-12",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -37443,7 +37509,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "nedss",
@@ -37743,8 +37809,8 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-11-06",
-            "modified": "2021-11-06",
+            "temporal": "2020-12-13/2021-11-13",
+            "modified": "2021-11-13",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -37955,7 +38021,7 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-05",
+            "modified": "2021-11-11",
             "keyword": [
                 "cares act",
                 "coronavirus",
@@ -38215,7 +38281,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-02",
+            "modified": "2021-11-09",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -38463,7 +38529,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "nedss",
@@ -38529,7 +38595,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "nedss",
@@ -39520,7 +39586,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
@@ -39769,7 +39835,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "machupo virus",
@@ -40453,7 +40519,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "acute",
@@ -40904,7 +40970,7 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
@@ -41579,7 +41645,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -42200,7 +42266,7 @@
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-05",
+            "modified": "2021-11-09",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -42304,7 +42370,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -42481,8 +42547,8 @@
             ],
             "issued": "2021-10-08",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-11-06",
-            "modified": "2021-11-06",
+            "temporal": "2020-12-13/2021-11-13",
+            "modified": "2021-11-13",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -43047,7 +43113,7 @@
             ],
             "issued": "2020-05-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-13",
+            "modified": "2021-11-09",
             "references": [
                 "https://www.cms.gov/files/document/Accelerated-and-Advanced-Payments-Fact-Sheet.pdf"
             ],
@@ -43183,7 +43249,7 @@
             ],
             "issued": "2020-11-10",
             "@type": "dcat:Dataset",
-            "modified": "2020-11-24",
+            "modified": "2021-11-10",
             "keyword": [
                 "adults",
                 "children",
@@ -43217,7 +43283,7 @@
             "distribution": [
                 {
                     "mediaType": "text/html",
-                    "downloadURL": "https://www.cdc.gov/nchs/hus/contents2018.htm",
+                    "downloadURL": "https://www.cdc.gov/nchs/hus/contents2019.htm",
                     "description": "The Data Finder gives you Health, United States trend tables and figures on a subject and/or population subgroup of interest. ",
                     "@type": "dcat:Distribution",
                     "title": "Data Finder"
@@ -44128,7 +44194,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "confirmed",
@@ -44336,7 +44402,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
@@ -44963,7 +45029,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "arboviral diseases",
@@ -45358,7 +45424,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -45918,7 +45984,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "age<5 years",
@@ -46722,7 +46788,7 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-11",
             "keyword": [
                 "2021",
                 "junin virus",
@@ -47145,7 +47211,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2021-11-05",
+            "modified": "2021-11-11",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -47289,7 +47355,7 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -48537,7 +48603,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-03",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
@@ -49266,7 +49332,7 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-04",
+            "modified": "2021-11-10",
             "keyword": [
                 "age",
                 "age group",
