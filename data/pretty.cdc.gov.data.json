@@ -676,6 +676,53 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/2a47-59fz",
+            "issued": "2022-01-27",
+            "@type": "dcat:Dataset",
+            "modified": "2022-01-27",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/2a47-59fz",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/2a47-59fz/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/2a47-59fz/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2a47-59fz/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/2a47-59fz/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2a47-59fz/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/2a47-59fz/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2a47-59fz/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/2dwv-vfam",
             "bureauCode": [
                 "009:20"
@@ -744,22 +791,28 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/2ew6-ywp6",
+            "bureauCode": [
+                "009:20"
+            ],
+            "landingPage": "https://www.cdc.gov/healthywater/surveillance/wastewater-surveillance/wastewater-surveillance.html",
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-12",
+            "modified": "2022-01-30",
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "Zach Marsh",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
+                "fn": "National Wastewater Surveillance System",
+                "hasEmail": "mailto:nwss@cdc.gov"
             },
-            "identifier": "https://data.cdc.gov/api/views/2ew6-ywp6",
             "publisher": {
                 "@type": "org:Organization",
                 "name": "data.cdc.gov"
             },
+            "identifier": "https://data.cdc.gov/api/views/2ew6-ywp6",
             "description": "",
             "title": "NWSS Public SARS-CoV-2 Wastewater Data",
+            "programCode": [
+                "009:028"
+            ],
             "distribution": [
                 {
                     "@type": "dcat:Distribution",
@@ -787,6 +840,10 @@
                     "describedByType": "application/xml",
                     "@type": "dcat:Distribution"
                 }
+            ],
+            "accrualPeriodicity": "Daily",
+            "language": [
+                "English"
             ]
         },
         {
@@ -1894,19 +1951,19 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "age",
-                "all causes",
                 "coronavirus",
-                "covid-19",
                 "deaths",
                 "mortality",
+                "covid-19",
                 "nchs",
                 "nvss",
                 "provisional",
+                "united states",
+                "age",
                 "sex",
-                "united states"
+                "all causes"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -2415,7 +2472,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "nedss",
@@ -2817,7 +2874,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "arboviral diseases",
@@ -4512,26 +4569,26 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "age",
-                "age group",
-                "all causes",
-                "coronavirus",
-                "covid-19",
                 "deaths",
-                "influenza",
-                "monthly",
                 "mortality",
                 "nchs",
-                "nvss",
-                "place of death",
+                "covid-19",
+                "coronavirus",
+                "age",
+                "age group",
+                "influenza",
                 "pneumonia",
-                "provisional",
-                "puerto rico",
-                "state",
                 "united states",
-                "yearly"
+                "state",
+                "puerto rico",
+                "place of death",
+                "all causes",
+                "nvss",
+                "provisional",
+                "yearly",
+                "monthly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -5899,7 +5956,7 @@
             ],
             "issued": "2021-09-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-22",
+            "modified": "2022-01-29",
             "references": [
                 "https://data.cdc.gov/api/views/5jp2-pgaw/files/7ad96c95-0255-4c36-8a3f-f805746a5203?download=true&filename=Outbound_File_Specification.pdf"
             ],
@@ -6398,17 +6455,17 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
+                "nndss",
+                "wonder",
+                "nedss",
+                "netss",
                 "anthrax",
                 "arboviral diseases",
                 "chikungunya virus disease",
-                "eastern equine encephalitis virus disease",
-                "nedss",
-                "netss",
-                "nndss",
-                "wonder"
+                "eastern equine encephalitis virus disease"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -7966,7 +8023,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "animal",
@@ -8276,6 +8333,53 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/6yc4-dwxq",
+            "issued": "2022-01-27",
+            "@type": "dcat:Dataset",
+            "modified": "2022-01-27",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/6yc4-dwxq",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/6yc4-dwxq/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/6yc4-dwxq/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/6yc4-dwxq/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/6yc4-dwxq/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/6yc4-dwxq/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/6yc4-dwxq/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/6yc4-dwxq/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/6yz5-ufy2",
             "bureauCode": [
                 "009:00"
@@ -8418,7 +8522,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "nedss",
@@ -10009,7 +10113,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "nedss",
@@ -10074,7 +10178,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-23",
+            "modified": "2022-01-30",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -11390,21 +11494,21 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-01-18",
+            "issued": "2022-01-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-01-22",
-            "modified": "2022-01-22",
+            "temporal": "2020-12-13/2022-01-29",
+            "modified": "2022-01-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "administration",
-                "age",
-                "coronavirus",
                 "covid-19",
-                "immunization",
+                "coronavirus",
                 "izdl",
-                "vaccination"
+                "immunization",
+                "administration",
+                "vaccination",
+                "age"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -11863,7 +11967,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "age <5 years serotype b",
@@ -12261,25 +12365,25 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
                 "age",
-                "age group",
+                "sex",
+                "state",
+                "mortality",
                 "coronavirus",
                 "covid-19",
-                "deaths",
-                "influenza",
-                "monthly",
-                "mortality",
                 "nchs",
-                "nvss",
+                "united states",
+                "influenza",
                 "pneumonia",
                 "provisional",
                 "puerto rico",
-                "sex",
-                "state",
-                "united states",
-                "yearly"
+                "monthly",
+                "yearly",
+                "nvss",
+                "age group",
+                "deaths"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -12329,6 +12433,53 @@
             "accrualPeriodicity": "Weekly",
             "theme": [
                 "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/9cni-hcv4",
+            "issued": "2022-01-27",
+            "@type": "dcat:Dataset",
+            "modified": "2022-01-27",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/9cni-hcv4",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/9cni-hcv4/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9cni-hcv4/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9cni-hcv4/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/9cni-hcv4/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9cni-hcv4/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9cni-hcv4/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9cni-hcv4/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -12471,36 +12622,36 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "all causes",
-                "alzheimer disease",
-                "cancer",
-                "causes of death",
-                "cerebrovascular disease",
-                "chronic lower respiratory disease",
-                "coronavirus",
-                "covid-19",
-                "deaths",
-                "diabetes",
-                "diseases of heart",
-                "drug overdose",
-                "homicide",
-                "influenza",
-                "kidney disease",
                 "monthly",
                 "mortality",
-                "motor vehicle accidents",
-                "natural cause",
-                "nchs",
                 "nvss",
-                "pneumonia",
+                "deaths",
                 "provisional",
-                "respiratory disease",
+                "nchs",
+                "united states",
+                "covid-19",
+                "coronavirus",
+                "all causes",
+                "causes of death",
+                "natural cause",
                 "septicemia",
-                "suicide",
+                "cancer",
+                "diabetes",
+                "alzheimer disease",
+                "influenza",
+                "pneumonia",
+                "chronic lower respiratory disease",
+                "respiratory disease",
+                "kidney disease",
+                "diseases of heart",
+                "cerebrovascular disease",
                 "unintentional injuries",
-                "united states"
+                "homicide",
+                "suicide",
+                "motor vehicle accidents",
+                "drug overdose"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -12771,19 +12922,19 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "all causes",
-                "coronavirus",
-                "covid-19",
-                "deaths",
-                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "social vulnerability index",
+                "deaths",
+                "mortality",
                 "united states",
-                "weekly"
+                "weekly",
+                "covid-19",
+                "coronavirus",
+                "all causes",
+                "social vulnerability index"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -13178,6 +13329,53 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/9kkz-pdww",
+            "issued": "2022-01-27",
+            "@type": "dcat:Dataset",
+            "modified": "2022-01-27",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/9kkz-pdww",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/9kkz-pdww/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9kkz-pdww/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9kkz-pdww/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/9kkz-pdww/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9kkz-pdww/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9kkz-pdww/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9kkz-pdww/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/9mfq-cb36",
             "bureauCode": [
                 "009:20"
@@ -13185,7 +13383,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-01-22",
+            "modified": "2022-01-29",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -14780,7 +14978,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-20",
+            "modified": "2022-01-27",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -15050,7 +15248,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "confirmed",
@@ -15872,7 +16070,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "botulism",
@@ -16320,6 +16518,53 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/bi4f-2zxp",
+            "issued": "2022-01-27",
+            "@type": "dcat:Dataset",
+            "modified": "2022-01-27",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/bi4f-2zxp",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/bi4f-2zxp/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/bi4f-2zxp/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/bi4f-2zxp/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/bi4f-2zxp/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/bi4f-2zxp/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/bi4f-2zxp/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/bi4f-2zxp/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -16896,7 +17141,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-22",
+            "modified": "2022-01-29",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -17029,7 +17274,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "chapare virus",
@@ -17337,7 +17582,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "guanarito virus",
@@ -17404,7 +17649,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "lujo virus",
@@ -18803,7 +19048,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "cryptosporidiosis",
@@ -19619,7 +19864,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "nedss",
@@ -22430,7 +22675,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -23195,7 +23440,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "confirmed",
@@ -23881,7 +24126,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "cholera",
@@ -23946,7 +24191,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "confirmed",
@@ -24426,7 +24671,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "age <5 years",
@@ -25102,7 +25347,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-01-21",
+            "modified": "2022-01-25",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -25304,7 +25549,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -26459,45 +26704,45 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "adult respiratory distress syndrome",
-                "age",
-                "age group",
-                "alzheimer disease",
-                "cancer",
-                "cardiac arrest",
-                "cardiac arrhythmia",
-                "cerebrovascular disease",
-                "chronic lower respiratory disease",
-                "circulatory disease",
+                "nchs",
                 "coronavirus",
                 "covid-19",
-                "deaths",
-                "dementia",
-                "diabetes",
                 "health conditions",
-                "heart failure",
-                "hypertensive disease",
-                "influenza",
-                "injury",
-                "ischemic heart disease",
-                "monthly",
                 "mortality",
-                "nchs",
-                "nvss",
-                "obesity",
-                "pneumonia",
+                "deaths",
+                "age group",
                 "provisional",
-                "puerto rico",
-                "renal failure",
-                "respiratory arrest",
-                "respiratory disease",
-                "respiratory failure",
-                "septicemia",
-                "state",
+                "nvss",
                 "united states",
-                "yearly"
+                "puerto rico",
+                "state",
+                "monthly",
+                "yearly",
+                "age",
+                "respiratory disease",
+                "influenza",
+                "pneumonia",
+                "chronic lower respiratory disease",
+                "adult respiratory distress syndrome",
+                "respiratory failure",
+                "respiratory arrest",
+                "circulatory disease",
+                "hypertensive disease",
+                "ischemic heart disease",
+                "cardiac arrest",
+                "cardiac arrhythmia",
+                "heart failure",
+                "cerebrovascular disease",
+                "septicemia",
+                "cancer",
+                "diabetes",
+                "obesity",
+                "alzheimer disease",
+                "dementia",
+                "renal failure",
+                "injury"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -26557,19 +26802,19 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "all causes",
-                "coronavirus",
-                "covid-19",
-                "deaths",
-                "mortality",
                 "nchs",
                 "nvss",
+                "mortality",
+                "deaths",
                 "provisional",
                 "united states",
+                "weekly",
                 "urbanicity",
-                "weekly"
+                "covid-19",
+                "all causes",
+                "coronavirus"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -27157,7 +27402,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "nedss",
@@ -28814,7 +29059,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-20",
+            "modified": "2022-01-27",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -28865,6 +29110,53 @@
             ],
             "theme": [
                 "Vaccinations"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/ixw2-rj5h",
+            "issued": "2022-01-27",
+            "@type": "dcat:Dataset",
+            "modified": "2022-01-27",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/ixw2-rj5h",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/ixw2-rj5h/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/ixw2-rj5h/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/ixw2-rj5h/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/ixw2-rj5h/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/ixw2-rj5h/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/ixw2-rj5h/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/ixw2-rj5h/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -29363,6 +29655,82 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/jk8p-fqhn",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-01-25",
+            "@type": "dcat:Dataset",
+            "temporal": "2020-12-13/2022-01-29",
+            "modified": "2022-01-29",
+            "references": [
+                "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
+            ],
+            "keyword": [
+                "covid-19",
+                "coronavirus",
+                "izdl",
+                "immunization",
+                "administration",
+                "vaccination",
+                "demographics",
+                "sex",
+                "age",
+                "race",
+                "ethnicity"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCIRD",
+                "hasEmail": "mailto:iisinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/jk8p-fqhn",
+            "description": "<p style=\"margin:0in;vertical-align:baseline;\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>This site provides historical data related to COVID-19 booster dose eligibility presented on two CDC COVID Data Tracker sites:&nbsp;</span><a href=\"https://covid.cdc.gov/covid-data-tracker/#vaccinations\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Vaccinations in the US</span></a><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>&nbsp;and&nbsp;</span><a href=\"https://covid.cdc.gov/covid-data-tracker/#vaccination-equity\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Vaccination Equity</span></a><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>.&nbsp;</span><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>&nbsp;</span><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Data are updated weekly on Wednesdays.</span></p><p style=\"margin:0in;vertical-align:baseline;\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Some COVID-19 vaccine recipients are&nbsp;</span><a href=\"https://www.cdc.gov/coronavirus/2019-ncov/vaccines/booster-shot.html\" target=\"_blank\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>eligible to receive booster doses</span></a><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>,&nbsp;</span><span style=\"font-size:11px;\">&nbsp;</span><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>and criteria for booster eligibility may change over time. Data and footnotes will be updated to align with the current recommendations.&nbsp;</span><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>&nbsp;</span></p><p style=\"margin:0in;vertical-align:baseline;\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>CDC counts people as having &ldquo;received a booster dose&rdquo; if they are fully vaccinated and received another dose of any COVID-19 vaccine on or after August 13, 2021. This does not distinguish whether the recipient is&nbsp;</span><a href=\"https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations/immuno.html\" target=\"_blank\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>immunocompromised and received an additional dose</span></a></p><p style=\"margin:0in;vertical-align:baseline;\"><strong><em><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Data Limitations:</span></em></strong><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>&nbsp;</span></p><ul style=\"list-style-type: undefined;margin-left:0in;\"><li><span style='font-family:\"Calibri\",sans-serif;color:black;font-size:11.0pt;color:black;'>The booster eligibility metric excludes fully vaccinated recipients who have an &ldquo;Other&rdquo; primary series vaccine type.\u202f</span><span style='font-family:\"Calibri\",sans-serif;font-size:11.0pt;color:black;'>&nbsp;</span></li><li><span style='font-family:\"Calibri\",sans-serif;color:black;font-size:11.0pt;color:black;'>Booster eligibility counts and percentages exclude vaccine administrations reported by Texas as the primary series cannot be linked to booster dose in the aggregate data submitted by Texas.</span><span style='font-family:\"Calibri\",sans-serif;font-size:11.0pt;color:black;'>&nbsp;</span></li></ul><p style=\"margin:0in;vertical-align:baseline;\"><strong><em><span style='font-size:15px;font-family:\"Calibri\",sans-serif;'>Footnotes:</span></em></strong></p><p style=\"margin:0in;vertical-align:baseline;\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;'>CDC counts people as being &ldquo;</span><a href=\"https://www.cdc.gov/coronavirus/2019-ncov/vaccines/booster-shot.html\" target=\"_blank\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:windowtext;'>eligible to get a booster dose</span></a>",
+            "title": "COVID-19 Booster Dose Eligibility in the United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/jk8p-fqhn/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/jk8p-fqhn/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/jk8p-fqhn/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/jk8p-fqhn/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/jk8p-fqhn/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/jk8p-fqhn/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/jk8p-fqhn/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1D",
+            "theme": [
+                "Vaccinations"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/jkmz-c8jz",
             "bureauCode": [
                 "009:20"
@@ -29643,17 +30011,17 @@
             ],
             "issued": "2021-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-12",
+            "modified": "2022-01-28",
             "keyword": [
                 "2021",
+                "nndss",
+                "wonder",
+                "nedss",
+                "netss",
                 "anthrax",
                 "arboviral diseases",
                 "chikungunya virus disease",
-                "eastern equine encephalitis virus disease",
-                "nedss",
-                "netss",
-                "nndss",
-                "wonder"
+                "eastern equine encephalitis virus disease"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -29773,22 +30141,22 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "age",
-                "age group",
-                "coronavirus",
-                "covid-19",
                 "death rate",
-                "deaths",
+                "covid-19",
+                "coronavirus",
+                "age group",
+                "race",
                 "hispanic origin",
-                "mortality",
                 "nchs",
                 "nvss",
+                "deaths",
+                "mortality",
                 "provisional",
-                "race",
-                "state",
-                "united states"
+                "age",
+                "united states",
+                "state"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30576,20 +30944,20 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "all causes",
-                "coronavirus",
                 "county",
-                "covid-19",
-                "deaths",
-                "hispanic origin",
-                "mortality",
-                "nchs",
-                "nvss",
-                "provisional",
                 "race",
-                "united states"
+                "coronavirus",
+                "covid-19",
+                "mortality",
+                "united states",
+                "provisional",
+                "nvss",
+                "hispanic origin",
+                "deaths",
+                "all causes",
+                "nchs"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31017,11 +31385,11 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-21",
+            "modified": "2022-01-28",
             "keyword": [
+                "provider relief fund",
                 "cares act",
-                "health system",
-                "provider relief fund"
+                "health system"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31277,7 +31645,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "acute",
@@ -31344,23 +31712,23 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-01-22",
-            "modified": "2022-01-22",
+            "temporal": "2020-12-13/2022-01-29",
+            "modified": "2022-01-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "administration",
-                "age",
-                "coronavirus",
                 "covid-19",
-                "demographics",
-                "ethnicity",
-                "immunization",
+                "coronavirus",
                 "izdl",
-                "race",
+                "immunization",
+                "administration",
+                "vaccination",
+                "demographics",
                 "sex",
-                "vaccination"
+                "age",
+                "race",
+                "ethnicity"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31632,18 +32000,18 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "all causes",
-                "coronavirus",
-                "county",
-                "covid-19",
                 "deaths",
                 "mortality",
+                "united states",
+                "county",
+                "covid-19",
+                "coronavirus",
                 "nchs",
-                "nvss",
+                "all causes",
                 "provisional",
-                "united states"
+                "nvss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31703,7 +32071,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "imported",
@@ -31894,25 +32262,25 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "age",
-                "age group",
-                "all causes",
+                "nchs",
                 "coronavirus",
                 "covid-19",
-                "deaths",
-                "hispanic origin",
-                "influenza",
-                "mortality",
-                "nchs",
-                "nvss",
                 "pneumonia",
-                "provisional",
-                "puerto rico",
+                "influenza",
+                "hispanic origin",
                 "race",
                 "state",
-                "united states"
+                "age group",
+                "nvss",
+                "united states",
+                "puerto rico",
+                "all causes",
+                "provisional",
+                "mortality",
+                "deaths",
+                "age"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -32022,6 +32390,53 @@
             ],
             "theme": [
                 "Motor Vehicle"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/ksme-hmi7",
+            "issued": "2022-01-27",
+            "@type": "dcat:Dataset",
+            "modified": "2022-01-27",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/ksme-hmi7",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/ksme-hmi7/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/ksme-hmi7/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/ksme-hmi7/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/ksme-hmi7/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/ksme-hmi7/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/ksme-hmi7/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/ksme-hmi7/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -32256,7 +32671,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "mumps",
@@ -33807,7 +34222,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "age<5 years",
@@ -34129,13 +34544,13 @@
             ],
             "issued": "2021-10-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-07-01/2021-10-19",
-            "modified": "2022-01-03",
+            "temporal": "2020-07-01/2021-11-17",
+            "modified": "2022-01-26",
             "keyword": [
-                "coronavirus",
                 "covid",
-                "covid19",
                 "covid-19",
+                "covid19",
+                "coronavirus",
                 "laboratory",
                 "prevalence",
                 "sars-cov",
@@ -34262,33 +34677,33 @@
             ],
             "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "all causes",
-                "alzheimer disease",
-                "cancer",
-                "causes of death",
-                "cerebrovascular disease",
-                "chronic lower respiratory disease",
-                "coronavirus",
-                "covid-19",
-                "deaths",
-                "diabetes",
-                "diseases of heart",
-                "influenza",
-                "kidney disease",
-                "mortality",
-                "natural cause",
                 "nchs",
                 "nvss",
-                "pneumonia",
-                "provisional",
-                "puerto rico",
-                "respiratory disease",
-                "septicemia",
-                "state",
+                "mortality",
+                "deaths",
+                "all causes",
+                "covid-19",
+                "coronavirus",
+                "weekly",
                 "united states",
-                "weekly"
+                "state",
+                "puerto rico",
+                "provisional",
+                "causes of death",
+                "natural cause",
+                "septicemia",
+                "cancer",
+                "diabetes",
+                "alzheimer disease",
+                "influenza",
+                "pneumonia",
+                "chronic lower respiratory disease",
+                "respiratory disease",
+                "kidney disease",
+                "diseases of heart",
+                "cerebrovascular disease"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -34808,7 +35223,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "brucellosis",
@@ -35771,17 +36186,17 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
-                "dengue",
-                "dengue-like illness",
-                "dengue virus infections",
+                "nndss",
+                "wonder",
                 "nedss",
                 "netss",
-                "nndss",
-                "severe dengue",
-                "wonder"
+                "dengue virus infections",
+                "dengue",
+                "dengue-like illness",
+                "severe dengue"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -35838,22 +36253,22 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "age",
-                "age group",
-                "children",
-                "coronavirus",
-                "covid-19",
-                "deaths",
-                "hispanic origin",
                 "mortality",
+                "children",
                 "nchs",
                 "nvss",
                 "provisional",
+                "covid-19",
+                "coronavirus",
                 "race",
+                "age group",
                 "sex",
-                "united states"
+                "united states",
+                "hispanic origin",
+                "deaths",
+                "age"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -35913,17 +36328,17 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-23",
+            "modified": "2022-01-30",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
             "keyword": [
-                "cases",
-                "community transmission",
-                "coronavirus",
-                "county",
                 "covid-19",
-                "laboratory"
+                "coronavirus",
+                "laboratory",
+                "cases",
+                "county",
+                "community transmission"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -37030,19 +37445,19 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "coronavirus",
-                "covid-19",
                 "deaths",
-                "hispanic origin",
-                "mortality",
-                "nchs",
-                "nvss",
-                "provisional",
                 "race",
+                "mortality",
+                "united states",
                 "state",
-                "united states"
+                "covid-19",
+                "coronavirus",
+                "nchs",
+                "hispanic origin",
+                "provisional",
+                "nvss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -37434,6 +37849,53 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/prw2-h4g7",
+            "issued": "2022-01-27",
+            "@type": "dcat:Dataset",
+            "modified": "2022-01-27",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/prw2-h4g7",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/prw2-h4g7/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/prw2-h4g7/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/prw2-h4g7/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/prw2-h4g7/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/prw2-h4g7/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/prw2-h4g7/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/prw2-h4g7/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -38241,7 +38703,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "arboviral diseases",
@@ -38944,22 +39406,22 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "all causes",
-                "coronavirus",
-                "covid-19",
-                "deaths",
-                "hispanic origin",
-                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "puerto rico",
-                "race",
-                "state",
+                "deaths",
+                "mortality",
                 "united states",
-                "weekly"
+                "state",
+                "puerto rico",
+                "weekly",
+                "race",
+                "hispanic origin",
+                "all causes",
+                "covid-19",
+                "coronavirus"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -39932,7 +40394,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-20",
+            "modified": "2022-01-27",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -40409,24 +40871,24 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-21",
+            "modified": "2022-01-28",
             "keyword": [
-                "all causes",
                 "coronavirus",
-                "covid-19",
-                "deaths",
-                "influenza",
-                "monthly",
-                "mortality",
-                "nchs",
-                "nvss",
-                "pneumonia",
-                "provisional",
-                "puerto rico",
                 "state",
                 "united states",
+                "nchs",
+                "covid-19",
+                "mortality",
+                "pneumonia",
+                "influenza",
+                "nvss",
+                "provisional",
                 "weekly",
-                "yearly"
+                "monthly",
+                "yearly",
+                "all causes",
+                "puerto rico",
+                "deaths"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -40678,7 +41140,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "nedss",
@@ -40979,19 +41441,19 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-01-22",
-            "modified": "2022-01-22",
+            "temporal": "2020-12-13/2022-01-29",
+            "modified": "2022-01-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "administration",
-                "coronavirus",
                 "covid-19",
-                "immunization",
+                "coronavirus",
                 "izdl",
-                "report date",
-                "vaccination"
+                "immunization",
+                "administration",
+                "vaccination",
+                "report date"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41191,14 +41653,14 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-21",
+            "modified": "2022-01-28",
             "keyword": [
+                "provider relief fund",
                 "cares act",
                 "coronavirus",
-                "covid-19",
+                "uninsured",
                 "health system",
-                "provider relief fund",
-                "uninsured"
+                "covid-19"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41318,7 +41780,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "hepatitis c",
@@ -41517,7 +41979,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-18",
+            "modified": "2022-01-25",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -42020,6 +42482,53 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/rxtc-sdvk",
+            "issued": "2022-01-27",
+            "@type": "dcat:Dataset",
+            "modified": "2022-01-27",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/rxtc-sdvk",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/rxtc-sdvk/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/rxtc-sdvk/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/rxtc-sdvk/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/rxtc-sdvk/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/rxtc-sdvk/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/rxtc-sdvk/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/rxtc-sdvk/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -42822,22 +43331,22 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "age",
-                "age group",
-                "all causes",
-                "coronavirus",
-                "covid-19",
-                "deaths",
-                "hispanic origin",
-                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "race",
+                "mortality",
+                "deaths",
                 "united states",
-                "weekly"
+                "weekly",
+                "age",
+                "age group",
+                "race",
+                "hispanic origin",
+                "coronavirus",
+                "covid-19",
+                "all causes"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42897,7 +43406,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "anaplasma phagocytophilum infection",
@@ -43977,7 +44486,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "hansen's disease",
@@ -44044,7 +44553,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "nedss",
@@ -44406,24 +44915,24 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "age",
-                "age group",
-                "all causes",
-                "coronavirus",
                 "covid-19",
-                "deaths",
-                "hhs region",
+                "race",
                 "hispanic origin",
-                "mortality",
+                "age",
+                "deaths",
                 "nchs",
                 "nvss",
                 "provisional",
-                "puerto rico",
-                "race",
+                "coronavirus",
+                "age group",
+                "weekly",
+                "all causes",
+                "mortality",
                 "united states",
-                "weekly"
+                "puerto rico",
+                "hhs region"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -44970,7 +45479,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "nedss",
@@ -45162,33 +45671,33 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "alzheimer disease",
-                "cancer",
-                "causes of death",
-                "cerebrovascular disease",
-                "chronic lower respiratory disease",
-                "circulatory disease",
-                "deaths",
-                "dementia",
-                "diabetes",
-                "heart failure",
-                "hypertensive disease",
-                "influenza",
-                "ischemic heart disease",
-                "mortality",
                 "nchs",
                 "nvss",
-                "pneumonia",
                 "provisional",
-                "puerto rico",
-                "renal failure",
-                "respiratory disease",
-                "septicemia",
-                "state",
+                "mortality",
+                "deaths",
                 "united states",
-                "weekly"
+                "state",
+                "puerto rico",
+                "weekly",
+                "causes of death",
+                "alzheimer disease",
+                "dementia",
+                "cancer",
+                "cerebrovascular disease",
+                "diabetes",
+                "chronic lower respiratory disease",
+                "influenza",
+                "pneumonia",
+                "respiratory disease",
+                "renal failure",
+                "heart failure",
+                "hypertensive disease",
+                "ischemic heart disease",
+                "circulatory disease",
+                "septicemia"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -45830,7 +46339,7 @@
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-20",
+            "modified": "2022-01-26",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -45890,6 +46399,53 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/uer9-4v79",
+            "issued": "2022-01-27",
+            "@type": "dcat:Dataset",
+            "modified": "2022-01-27",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/uer9-4v79",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/uer9-4v79/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/uer9-4v79/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/uer9-4v79/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/uer9-4v79/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/uer9-4v79/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/uer9-4v79/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/uer9-4v79/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/uey9-5sp9",
             "bureauCode": [
                 "009:20"
@@ -45934,23 +46490,23 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
+                "nchs",
                 "coronavirus",
                 "covid-19",
-                "deaths",
-                "influenza",
-                "monthly",
-                "mortality",
-                "nchs",
-                "nvss",
-                "place of death",
-                "pneumonia",
-                "provisional",
-                "puerto rico",
                 "state",
                 "united states",
-                "yearly"
+                "mortality",
+                "monthly",
+                "yearly",
+                "nvss",
+                "place of death",
+                "provisional",
+                "puerto rico",
+                "deaths",
+                "influenza",
+                "pneumonia"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46111,19 +46667,19 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-01-22",
-            "modified": "2022-01-22",
+            "temporal": "2020-12-13/2022-01-29",
+            "modified": "2022-01-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "administration",
-                "age",
-                "coronavirus",
                 "covid-19",
-                "immunization",
+                "coronavirus",
                 "izdl",
-                "vaccination"
+                "immunization",
+                "administration",
+                "vaccination",
+                "age"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46183,7 +46739,7 @@
             ],
             "issued": "2021-11-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-20",
+            "modified": "2022-01-27",
             "keyword": [
                 "covid-19",
                 "covid-19 vaccination",
@@ -46419,7 +46975,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "nedss",
@@ -47831,7 +48387,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "all serogroups",
@@ -48084,17 +48640,17 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
+                "nndss",
+                "wonder",
+                "nedss",
+                "netss",
                 "arboviral diseases",
                 "jamestown canyon virus disease",
                 "la crosse virus disease",
-                "nedss",
-                "netss",
-                "nndss",
-                "powassan virus disease",
-                "wonder"
+                "powassan virus disease"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -48233,21 +48789,21 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "age",
-                "age group",
-                "all causes",
+                "nchs",
                 "coronavirus",
                 "covid-19",
-                "deaths",
-                "mortality",
-                "nchs",
-                "nvss",
-                "provisional",
                 "sex",
+                "age group",
                 "united states",
-                "weekly"
+                "nvss",
+                "mortality",
+                "provisional",
+                "weekly",
+                "all causes",
+                "deaths",
+                "age"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -48428,16 +48984,16 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
+                "nndss",
+                "wonder",
                 "nedss",
                 "netss",
-                "nndss",
-                "nonparalytic",
                 "poliovirus infection",
-                "psittacosis",
-                "wonder"
+                "nonparalytic",
+                "psittacosis"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -49319,9 +49875,9 @@
                 "009:20"
             ],
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
-            "issued": "2022-01-21",
+            "issued": "2022-01-26",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-21",
+            "modified": "2022-01-26",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -50136,13 +50692,13 @@
             ],
             "issued": "2021-10-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-07-01/2021-10-19",
-            "modified": "2022-01-03",
+            "temporal": "2020-07-01/2021-11-17",
+            "modified": "2022-01-26",
             "keyword": [
-                "coronavirus",
                 "covid",
-                "covid19",
                 "covid-19",
+                "covid19",
+                "coronavirus",
                 "laboratory",
                 "prevalence",
                 "sars-cov",
@@ -50326,7 +50882,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "meningococcal disease",
@@ -50551,7 +51107,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "ehrlichia ewingii infection",
@@ -50674,6 +51230,53 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/x2ir-25sx",
+            "issued": "2022-01-27",
+            "@type": "dcat:Dataset",
+            "modified": "2022-01-27",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/x2ir-25sx",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/x2ir-25sx/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/x2ir-25sx/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/x2ir-25sx/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/x2ir-25sx/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/x2ir-25sx/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/x2ir-25sx/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/x2ir-25sx/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -51374,14 +51977,14 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-01-21",
+            "modified": "2022-01-28",
             "keyword": [
-                "and economic security act",
-                "coronavirus aid",
-                "coronavirus preparedness and response supplemental appropriations act",
                 "covid-19",
-                "paycheck protection program and health care enhancement act",
-                "relief"
+                "coronavirus preparedness and response supplemental appropriations act",
+                "coronavirus aid",
+                "relief",
+                "and economic security act",
+                "paycheck protection program and health care enhancement act"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -51518,21 +52121,21 @@
             ],
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "all causes",
-                "coronavirus",
-                "covid-19",
-                "deaths",
-                "excess deaths",
-                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "puerto rico",
-                "state",
+                "mortality",
+                "deaths",
+                "excess deaths",
                 "united states",
-                "weekly"
+                "state",
+                "puerto rico",
+                "weekly",
+                "all causes",
+                "covid-19",
+                "coronavirus"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -51859,7 +52462,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "nedss",
@@ -52259,7 +52862,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-28",
             "keyword": [
                 "2022",
                 "all ages",
@@ -52898,20 +53501,20 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-01-26",
             "keyword": [
-                "age",
-                "age group",
-                "all causes",
-                "deaths",
-                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "puerto rico",
-                "state",
+                "deaths",
+                "mortality",
                 "united states",
-                "weekly"
+                "state",
+                "puerto rico",
+                "weekly",
+                "age group",
+                "age",
+                "all causes"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -53629,24 +54232,24 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-20",
+            "modified": "2022-01-27",
             "keyword": [
-                "age",
-                "age group",
-                "all causes",
-                "coronavirus",
-                "covid-19",
-                "deaths",
-                "hhs region",
-                "influenza",
-                "mortality",
                 "nchs",
                 "nvss",
-                "pneumonia",
                 "provisional",
-                "state",
+                "mortality",
+                "deaths",
                 "united states",
-                "weekly"
+                "state",
+                "weekly",
+                "age group",
+                "age",
+                "covid-19",
+                "coronavirus",
+                "pneumonia",
+                "influenza",
+                "all causes",
+                "hhs region"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
