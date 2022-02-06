@@ -73,53 +73,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/23mr-bmqw",
-            "issued": "2022-01-12",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-12",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "qih1@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/23mr-bmqw",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "test push",
-            "title": "NWSS",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/23mr-bmqw/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/23mr-bmqw/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/23mr-bmqw/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/23mr-bmqw/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/23mr-bmqw/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/23mr-bmqw/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/23mr-bmqw/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/247v-f7n9",
             "bureauCode": [
                 "009:00"
@@ -183,6 +136,66 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/25m4-6qqq",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2022-02-01",
+            "@type": "dcat:Dataset",
+            "modified": "2022-02-01",
+            "keyword": [
+                "nhis",
+                "summary health statistics"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:niw2@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/25m4-6qqq",
+            "description": "Interactive Summary Health Statistics for Adults \u2014 2019-2020 provide annual estimates of selected health topics for adults aged 18 years and over based on final data from the National Health Interview Survey.",
+            "title": "NHIS Adult Summary Health Statistics",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/25m4-6qqq/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/25m4-6qqq/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/25m4-6qqq/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/25m4-6qqq/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/25m4-6qqq/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/25m4-6qqq/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/25m4-6qqq/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -791,13 +804,18 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/healthywater/surveillance/wastewater-surveillance/wastewater-surveillance.html",
             "bureauCode": [
                 "009:20"
             ],
-            "landingPage": "https://www.cdc.gov/healthywater/surveillance/wastewater-surveillance/wastewater-surveillance.html",
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-30",
+            "modified": "2022-02-06",
+            "keyword": [
+                "covid19",
+                "sars-cov-2",
+                "wastewater"
+            ],
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Wastewater Surveillance System",
@@ -842,6 +860,9 @@
                 }
             ],
             "accrualPeriodicity": "Daily",
+            "theme": [
+                "Public Health Surveillance"
+            ],
             "language": [
                 "English"
             ]
@@ -1951,19 +1972,19 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
+                "age",
+                "all causes",
                 "coronavirus",
+                "covid-19",
                 "deaths",
                 "mortality",
-                "covid-19",
                 "nchs",
                 "nvss",
                 "provisional",
-                "united states",
-                "age",
                 "sex",
-                "all causes"
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -1976,7 +1997,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/3apk-4u4f",
             "description": "Cumulative deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by sex and age in years, in the United States.",
-            "title": "Provisional COVID-19 Death Counts by Age in Years, 2020-2021",
+            "title": "Provisional COVID-19 Death Counts by Age in Years, 2020-2022",
             "programCode": [
                 "009:020"
             ],
@@ -2472,7 +2493,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "nedss",
@@ -2678,7 +2699,7 @@
             "issued": "2022-01-21",
             "temporal": "April 4, 2021-December 25, 2021",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-21",
+            "modified": "2022-02-01",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Vaccine Breakthrough Unit, Surveillance and Analytics Team",
@@ -2689,7 +2710,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3rge-nu2a",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\nThese data were posted on January 21, 2022 and reflect cases among persons with a positive specimen collection date through December 25, 2021 and deaths among persons with a positive specimen collection date through December 4, 2021. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A fully vaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a  respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis. \n\nAdditional or booster dose: A fully vaccinated person with an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. Data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above).  \n\n* Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group. \n\nParticipating jurisdictions: Currently, these 28 health departments who regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (New York), North Carolina, Rhode Island, Seattle King County (Washington), Tennessee, Texas, Utah, and Wisconsin; 26 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 69% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases and deaths including people who received additional or booster doses were reported from 25 jurisdictions. This list will be updated as more jurisdictions participate.\n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination status were calculated as the number of cases or deaths divided by the number of people either fully vaccinated (cumulative) or unvaccinated (obtained by subtracting the cumulative number of fully vaccinated and current estimates of partially vaccinated people from the 2019 U.S. intercensal population estimates) and multiplied by 100,000. Overall incidence rates were age-standardized using the 2000 U.S. Census standard population. All rates are plotted by posit",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\nFootnotes\n\n\n\nThese data were posted on January 21, 2022 and reflect cases among persons with a positive specimen collection date through December 25, 2021 and deaths among persons with a positive specimen collection date through December 4, 2021. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A fully vaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a  respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis. \n\nAdditional or booster dose: A fully vaccinated person with an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. Data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). \n\n* Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group. Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type.\n\nParticipating jurisdictions: Currently, these 28 health departments who regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (New York), North Carolina, Rhode Island, Seattle King County (Washington), Tennessee, Texas, Utah, and Wisconsin; 26 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 69% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases and deaths including people who received additional or booster doses were reported from 25 jurisdictions. This list will be updated as more jurisdictions participate.\n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination status were calculated as the number of cases or deaths divided by the number of people either fully vaccinated (cumulative) or unvaccinated (obtained by subtracting the cumulative number of fully vaccinated and current estimates of partially vaccinated people from the 20",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status",
             "programCode": [
                 "009:038"
@@ -2874,7 +2895,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "arboviral diseases",
@@ -3434,7 +3455,7 @@
             ],
             "issued": "2021-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-06",
+            "modified": "2022-02-02",
             "keyword": [
                 "age",
                 "age group",
@@ -3927,53 +3948,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/4h2w-uues",
-            "issued": "2022-01-12",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-12",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "qih1@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/4h2w-uues",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "test push",
-            "title": "NWSS",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/4h2w-uues/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/4h2w-uues/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/4h2w-uues/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/4h2w-uues/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/4h2w-uues/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/4h2w-uues/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/4h2w-uues/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://covid.cdc.gov/covid-data-tracker/#vaccinations-pregnant-women",
             "bureauCode": [
                 "009:20"
@@ -4380,6 +4354,53 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/4rma-k8rw",
+            "issued": "2022-01-31",
+            "@type": "dcat:Dataset",
+            "modified": "2022-01-31",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/4rma-k8rw",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/4rma-k8rw/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/4rma-k8rw/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4rma-k8rw/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/4rma-k8rw/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4rma-k8rw/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/4rma-k8rw/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4rma-k8rw/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/4t6w-ibvk",
             "bureauCode": [
                 "009:00"
@@ -4569,26 +4590,26 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
-                "deaths",
-                "mortality",
-                "nchs",
-                "covid-19",
-                "coronavirus",
                 "age",
                 "age group",
-                "influenza",
-                "pneumonia",
-                "united states",
-                "state",
-                "puerto rico",
-                "place of death",
                 "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "influenza",
+                "monthly",
+                "mortality",
+                "nchs",
                 "nvss",
+                "place of death",
+                "pneumonia",
                 "provisional",
-                "yearly",
-                "monthly"
+                "puerto rico",
+                "state",
+                "united states",
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -5956,7 +5977,7 @@
             ],
             "issued": "2021-09-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-29",
+            "modified": "2022-02-05",
             "references": [
                 "https://data.cdc.gov/api/views/5jp2-pgaw/files/7ad96c95-0255-4c36-8a3f-f805746a5203?download=true&filename=Outbound_File_Specification.pdf"
             ],
@@ -6455,17 +6476,17 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
-                "nndss",
-                "wonder",
-                "nedss",
-                "netss",
                 "anthrax",
                 "arboviral diseases",
                 "chikungunya virus disease",
-                "eastern equine encephalitis virus disease"
+                "eastern equine encephalitis virus disease",
+                "nedss",
+                "netss",
+                "nndss",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -8023,7 +8044,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "animal",
@@ -8522,7 +8543,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "nedss",
@@ -10113,7 +10134,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "nedss",
@@ -10178,7 +10199,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-30",
+            "modified": "2022-02-06",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -11496,19 +11517,19 @@
             ],
             "issued": "2022-01-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-01-29",
-            "modified": "2022-01-29",
+            "temporal": "2020-12-13/2022-02-05",
+            "modified": "2022-02-05",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "age"
+                "age",
+                "coronavirus",
+                "covid-19",
+                "immunization",
+                "izdl",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -11967,7 +11988,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "age <5 years serotype b",
@@ -12365,25 +12386,25 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
                 "age",
-                "sex",
-                "state",
-                "mortality",
+                "age group",
                 "coronavirus",
                 "covid-19",
-                "nchs",
-                "united states",
+                "deaths",
                 "influenza",
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
                 "pneumonia",
                 "provisional",
                 "puerto rico",
-                "monthly",
-                "yearly",
-                "nvss",
-                "age group",
-                "deaths"
+                "sex",
+                "state",
+                "united states",
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -12622,36 +12643,36 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
+                "all causes",
+                "alzheimer disease",
+                "cancer",
+                "causes of death",
+                "cerebrovascular disease",
+                "chronic lower respiratory disease",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "diabetes",
+                "diseases of heart",
+                "drug overdose",
+                "homicide",
+                "influenza",
+                "kidney disease",
                 "monthly",
                 "mortality",
-                "nvss",
-                "deaths",
-                "provisional",
-                "nchs",
-                "united states",
-                "covid-19",
-                "coronavirus",
-                "all causes",
-                "causes of death",
-                "natural cause",
-                "septicemia",
-                "cancer",
-                "diabetes",
-                "alzheimer disease",
-                "influenza",
-                "pneumonia",
-                "chronic lower respiratory disease",
-                "respiratory disease",
-                "kidney disease",
-                "diseases of heart",
-                "cerebrovascular disease",
-                "unintentional injuries",
-                "homicide",
-                "suicide",
                 "motor vehicle accidents",
-                "drug overdose"
+                "natural cause",
+                "nchs",
+                "nvss",
+                "pneumonia",
+                "provisional",
+                "respiratory disease",
+                "septicemia",
+                "suicide",
+                "unintentional injuries",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -12663,8 +12684,8 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/9dzk-mvmi",
-            "description": "Provisional counts of deaths by the month the death occurred and by select causes of death for 2020-2021.",
-            "title": "Monthly Provisional Counts of Deaths by Select Causes, 2020-2021",
+            "description": "Provisional counts of deaths by the month the death occurred and by select causes of death for 2020-2022.",
+            "title": "Monthly Provisional Counts of Deaths by Select Causes, 2020-2022",
             "programCode": [
                 "009:020"
             ],
@@ -12922,19 +12943,19 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "deaths",
-                "mortality",
+                "social vulnerability index",
                 "united states",
-                "weekly",
-                "covid-19",
-                "coronavirus",
-                "all causes",
-                "social vulnerability index"
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -13383,7 +13404,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-01-29",
+            "modified": "2022-02-05",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -14243,7 +14264,7 @@
             ],
             "issued": "2021-04-05",
             "@type": "dcat:Dataset",
-            "modified": "2021-04-07",
+            "modified": "2022-02-03",
             "keyword": [
                 "deaths",
                 "life expectancy",
@@ -14978,7 +14999,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
+            "modified": "2022-02-02",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -15248,7 +15269,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "confirmed",
@@ -16070,7 +16091,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "botulism",
@@ -17141,7 +17162,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-29",
+            "modified": "2022-02-05",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -17274,7 +17295,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "chapare virus",
@@ -17582,7 +17603,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "guanarito virus",
@@ -17649,7 +17670,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "lujo virus",
@@ -18847,8 +18868,8 @@
             ],
             "issued": "2020-10-21",
             "@type": "dcat:Dataset",
-            "temporal": "2020-02-01/2021-11-28",
-            "modified": "2022-01-14",
+            "temporal": "2020-02-01/2021-12-26",
+            "modified": "2022-02-04",
             "keyword": [
                 "coronavirus",
                 "covid",
@@ -19048,7 +19069,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "cryptosporidiosis",
@@ -19248,7 +19269,7 @@
             "issued": "2022-01-21",
             "temporal": "September 19, 2021-December 25, 2021",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-21",
+            "modified": "2022-02-02",
             "keyword": [
                 "covid-19",
                 "covid-19 booster doses",
@@ -19267,7 +19288,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/d6p8-wqjm",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\n\nThese data were posted on January 21, 2022 and reflect cases among persons with a positive specimen collection date through December 25, 2021 and deaths among persons with a positive specimen collection date through December 4, 2021. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A fully vaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a  respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis. \n\nAdditional or booster dose: A fully vaccinated person with an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. Data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above).  \n\n* Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group. \n\nParticipating jurisdictions: Currently, these 28 health departments who regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (New York), North Carolina, Rhode Island, Seattle King County (Washington), Tennessee, Texas, Utah, and Wisconsin; 26 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 69% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases and deaths including people who received additional or booster doses were reported from 25 jurisdictions. This list will be updated as more jurisdictions participate.\n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination status were calculated as the number of cases or deaths divided by the number of people either fully vaccinated (cumulative) or unvaccinated (obtained by subtracting the cumulative number of fully vaccinated and current estimates of partially vaccinated people from the 2019 U.S. intercensal population estimates) and multiplied by 100,000. Overall incidence rates were age-standardized using the 2000 U.S. Census standard population. All rates are plotted by posi",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\nFootnotes\n\n\n\nThese data were posted on January 21, 2022 and reflect cases among persons with a positive specimen collection date through December 25, 2021 and deaths among persons with a positive specimen collection date through December 4, 2021. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A fully vaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a  respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis. \n\nAdditional or booster dose: A fully vaccinated person with an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. Data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). \n\n* Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group. Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type.\n\nParticipating jurisdictions: Currently, these 28 health departments who regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (New York), North Carolina, Rhode Island, Seattle King County (Washington), Tennessee, Texas, Utah, and Wisconsin; 26 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 69% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases and deaths including people who received additional or booster doses were reported from 25 jurisdictions. This list will be updated as more jurisdictions participate.\n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination status were calculated as the number of cases or deaths divided by the number of people either fully vaccinated (cumulative) or unvaccinated (obtained by subtracting the cumulative number of fully vaccinated and current estimates of partially vaccinated people from the 20",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status and Booster Dose",
             "programCode": [
                 "009:038"
@@ -19864,7 +19885,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "nedss",
@@ -22675,7 +22696,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "hemolytic uremic syndrome post-diarrheal",
@@ -23440,7 +23461,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "confirmed",
@@ -24126,7 +24147,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "cholera",
@@ -24191,7 +24212,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "confirmed",
@@ -24671,7 +24692,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "age <5 years",
@@ -25347,7 +25368,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-01-25",
+            "modified": "2022-02-05",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -25549,7 +25570,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
@@ -26704,45 +26725,45 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-03",
             "keyword": [
-                "nchs",
-                "coronavirus",
-                "covid-19",
-                "health conditions",
-                "mortality",
-                "deaths",
-                "age group",
-                "provisional",
-                "nvss",
-                "united states",
-                "puerto rico",
-                "state",
-                "monthly",
-                "yearly",
-                "age",
-                "respiratory disease",
-                "influenza",
-                "pneumonia",
-                "chronic lower respiratory disease",
                 "adult respiratory distress syndrome",
-                "respiratory failure",
-                "respiratory arrest",
-                "circulatory disease",
-                "hypertensive disease",
-                "ischemic heart disease",
+                "age",
+                "age group",
+                "alzheimer disease",
+                "cancer",
                 "cardiac arrest",
                 "cardiac arrhythmia",
-                "heart failure",
                 "cerebrovascular disease",
-                "septicemia",
-                "cancer",
-                "diabetes",
-                "obesity",
-                "alzheimer disease",
+                "chronic lower respiratory disease",
+                "circulatory disease",
+                "coronavirus",
+                "covid-19",
+                "deaths",
                 "dementia",
+                "diabetes",
+                "health conditions",
+                "heart failure",
+                "hypertensive disease",
+                "influenza",
+                "injury",
+                "ischemic heart disease",
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
+                "obesity",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
                 "renal failure",
-                "injury"
+                "respiratory arrest",
+                "respiratory disease",
+                "respiratory failure",
+                "septicemia",
+                "state",
+                "united states",
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -26754,8 +26775,8 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/hk9y-quqm",
-            "description": "This dataset shows health conditions and contributing causes mentioned in conjunction with deaths involving coronavirus disease 2019 (COVID-19) by age group and jurisdiction of occurrence.\n\n2020-2021 data are provisional.",
-            "title": "Conditions Contributing to COVID-19 Deaths, by State and Age, Provisional 2020-2021",
+            "description": "This dataset shows health conditions and contributing causes mentioned in conjunction with deaths involving coronavirus disease 2019 (COVID-19) by age group and jurisdiction of occurrence.\n\n2020-2022 data are provisional.",
+            "title": "Conditions Contributing to COVID-19 Deaths, by State and Age, Provisional 2020-2022",
             "programCode": [
                 "009:020"
             ],
@@ -26802,19 +26823,19 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "mortality",
                 "nchs",
                 "nvss",
-                "mortality",
-                "deaths",
                 "provisional",
                 "united states",
-                "weekly",
                 "urbanicity",
-                "covid-19",
-                "all causes",
-                "coronavirus"
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -26940,7 +26961,7 @@
             ],
             "issued": "2018-07-31",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-06",
+            "modified": "2022-02-02",
             "keyword": [
                 "birth",
                 "deaths",
@@ -27402,7 +27423,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "nedss",
@@ -29059,7 +29080,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
+            "modified": "2022-02-02",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -29659,25 +29680,25 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-01-25",
+            "issued": "2022-02-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-01-29",
-            "modified": "2022-01-29",
+            "temporal": "2020-12-13/2022-02-05",
+            "modified": "2022-02-05",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "demographics",
-                "sex",
                 "age",
+                "coronavirus",
+                "covid-19",
+                "demographics",
+                "ethnicity",
+                "immunization",
+                "izdl",
                 "race",
-                "ethnicity"
+                "sex",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -29877,7 +29898,7 @@
             ],
             "issued": "2019-06-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-14",
+            "modified": "2022-02-03",
             "keyword": [
                 "causes of death",
                 "deaths",
@@ -30014,14 +30035,14 @@
             "modified": "2022-01-28",
             "keyword": [
                 "2021",
-                "nndss",
-                "wonder",
-                "nedss",
-                "netss",
                 "anthrax",
                 "arboviral diseases",
                 "chikungunya virus disease",
-                "eastern equine encephalitis virus disease"
+                "eastern equine encephalitis virus disease",
+                "nedss",
+                "netss",
+                "nndss",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30141,22 +30162,22 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
-                "death rate",
-                "covid-19",
-                "coronavirus",
+                "age",
                 "age group",
-                "race",
+                "coronavirus",
+                "covid-19",
+                "death rate",
+                "deaths",
                 "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
-                "deaths",
-                "mortality",
                 "provisional",
-                "age",
-                "united states",
-                "state"
+                "race",
+                "state",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30487,6 +30508,53 @@
             ],
             "theme": [
                 "500 Cities & Places"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/k35a-yz3f",
+            "issued": "2022-02-01",
+            "@type": "dcat:Dataset",
+            "modified": "2022-02-01",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "QIJ0@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/k35a-yz3f",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "revision test",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/k35a-yz3f/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/k35a-yz3f/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/k35a-yz3f/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/k35a-yz3f/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/k35a-yz3f/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/k35a-yz3f/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/k35a-yz3f/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -30944,20 +31012,20 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
-                "county",
-                "race",
-                "coronavirus",
-                "covid-19",
-                "mortality",
-                "united states",
-                "provisional",
-                "nvss",
-                "hispanic origin",
-                "deaths",
                 "all causes",
-                "nchs"
+                "coronavirus",
+                "county",
+                "covid-19",
+                "deaths",
+                "hispanic origin",
+                "mortality",
+                "nchs",
+                "nvss",
+                "provisional",
+                "race",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31385,11 +31453,11 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-03",
             "keyword": [
-                "provider relief fund",
                 "cares act",
-                "health system"
+                "health system",
+                "provider relief fund"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31645,7 +31713,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "acute",
@@ -31712,23 +31780,23 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-01-29",
-            "modified": "2022-01-29",
+            "temporal": "2020-12-13/2022-02-05",
+            "modified": "2022-02-05",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "demographics",
-                "sex",
                 "age",
+                "coronavirus",
+                "covid-19",
+                "demographics",
+                "ethnicity",
+                "immunization",
+                "izdl",
                 "race",
-                "ethnicity"
+                "sex",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -32000,18 +32068,18 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
-                "deaths",
-                "mortality",
-                "united states",
+                "all causes",
+                "coronavirus",
                 "county",
                 "covid-19",
-                "coronavirus",
+                "deaths",
+                "mortality",
                 "nchs",
-                "all causes",
+                "nvss",
                 "provisional",
-                "nvss"
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -32071,7 +32139,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "imported",
@@ -32262,25 +32330,25 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
-                "nchs",
+                "age",
+                "age group",
+                "all causes",
                 "coronavirus",
                 "covid-19",
-                "pneumonia",
-                "influenza",
+                "deaths",
                 "hispanic origin",
+                "influenza",
+                "mortality",
+                "nchs",
+                "nvss",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
                 "race",
                 "state",
-                "age group",
-                "nvss",
-                "united states",
-                "puerto rico",
-                "all causes",
-                "provisional",
-                "mortality",
-                "deaths",
-                "age"
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -32671,7 +32739,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "mumps",
@@ -33381,8 +33449,8 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-01-10",
-            "modified": "2022-01-18",
+            "temporal": "2020-01-01/2022-01-24",
+            "modified": "2022-02-01",
             "references": [
                 "https://data.cdc.gov/api/views/mbd7-r32t/files/5fd549e7-ed0c-4ab1-98f4-3bf512d6c5b1?download=true&filename=utility_summary_ridura.pdf"
             ],
@@ -34222,7 +34290,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "age<5 years",
@@ -34547,10 +34615,10 @@
             "temporal": "2020-07-01/2021-11-17",
             "modified": "2022-01-26",
             "keyword": [
-                "covid",
-                "covid-19",
-                "covid19",
                 "coronavirus",
+                "covid",
+                "covid19",
+                "covid-19",
                 "laboratory",
                 "prevalence",
                 "sars-cov",
@@ -34677,33 +34745,33 @@
             ],
             "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
+                "all causes",
+                "alzheimer disease",
+                "cancer",
+                "causes of death",
+                "cerebrovascular disease",
+                "chronic lower respiratory disease",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "diabetes",
+                "diseases of heart",
+                "influenza",
+                "kidney disease",
+                "mortality",
+                "natural cause",
                 "nchs",
                 "nvss",
-                "mortality",
-                "deaths",
-                "all causes",
-                "covid-19",
-                "coronavirus",
-                "weekly",
-                "united states",
-                "state",
-                "puerto rico",
-                "provisional",
-                "causes of death",
-                "natural cause",
-                "septicemia",
-                "cancer",
-                "diabetes",
-                "alzheimer disease",
-                "influenza",
                 "pneumonia",
-                "chronic lower respiratory disease",
+                "provisional",
+                "puerto rico",
                 "respiratory disease",
-                "kidney disease",
-                "diseases of heart",
-                "cerebrovascular disease"
+                "septicemia",
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -34715,8 +34783,8 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/muzy-jte6",
-            "description": "Provisional counts of deaths by the week the deaths occurred, by state of occurrence, and by select underlying causes of death for 2020-2021.  The dataset also includes weekly provisional counts of death for COVID-19, coded to ICD-10 code U07.1 as an underlying or multiple cause of death.\n\nNOTE: death counts are presented with a one week lag.",
-            "title": "Weekly Provisional Counts of Deaths by State and Select Causes, 2020-2021",
+            "description": "Provisional counts of deaths by the week the deaths occurred, by state of occurrence, and by select underlying causes of death for 2020-2022.  The dataset also includes weekly provisional counts of death for COVID-19, coded to ICD-10 code U07.1 as an underlying or multiple cause of death.\n\nNOTE: death counts are presented with a one week lag.",
+            "title": "Weekly Provisional Counts of Deaths by State and Select Causes, 2020-2022",
             "programCode": [
                 "009:020"
             ],
@@ -35223,7 +35291,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "brucellosis",
@@ -35600,8 +35668,8 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-01-10",
-            "modified": "2022-01-18",
+            "temporal": "2020-01-01/2022-01-24",
+            "modified": "2022-02-01",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/utility_summary_public_geo.pdf"
             ],
@@ -36186,17 +36254,17 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
-                "nndss",
-                "wonder",
-                "nedss",
-                "netss",
-                "dengue virus infections",
                 "dengue",
                 "dengue-like illness",
-                "severe dengue"
+                "dengue virus infections",
+                "nedss",
+                "netss",
+                "nndss",
+                "severe dengue",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -36253,22 +36321,22 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
-                "mortality",
+                "age",
+                "age group",
                 "children",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "covid-19",
-                "coronavirus",
                 "race",
-                "age group",
                 "sex",
-                "united states",
-                "hispanic origin",
-                "deaths",
-                "age"
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -36328,17 +36396,17 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-30",
+            "modified": "2022-02-06",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "laboratory",
                 "cases",
+                "community transmission",
+                "coronavirus",
                 "county",
-                "community transmission"
+                "covid-19",
+                "laboratory"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -37445,19 +37513,19 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
-                "deaths",
-                "race",
-                "mortality",
-                "united states",
-                "state",
-                "covid-19",
                 "coronavirus",
-                "nchs",
+                "covid-19",
+                "deaths",
                 "hispanic origin",
+                "mortality",
+                "nchs",
+                "nvss",
                 "provisional",
-                "nvss"
+                "race",
+                "state",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -38703,7 +38771,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "arboviral diseases",
@@ -39406,22 +39474,22 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "deaths",
-                "mortality",
-                "united states",
-                "state",
                 "puerto rico",
-                "weekly",
                 "race",
-                "hispanic origin",
-                "all causes",
-                "covid-19",
-                "coronavirus"
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -40394,7 +40462,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
+            "modified": "2022-02-02",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -40871,24 +40939,24 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
+                "all causes",
                 "coronavirus",
+                "covid-19",
+                "deaths",
+                "influenza",
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
                 "state",
                 "united states",
-                "nchs",
-                "covid-19",
-                "mortality",
-                "pneumonia",
-                "influenza",
-                "nvss",
-                "provisional",
                 "weekly",
-                "monthly",
-                "yearly",
-                "all causes",
-                "puerto rico",
-                "deaths"
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41140,7 +41208,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "nedss",
@@ -41441,19 +41509,19 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-01-29",
-            "modified": "2022-01-29",
+            "temporal": "2020-12-13/2022-02-05",
+            "modified": "2022-02-05",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "report date"
+                "coronavirus",
+                "covid-19",
+                "immunization",
+                "izdl",
+                "report date",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41653,14 +41721,14 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
-                "provider relief fund",
                 "cares act",
                 "coronavirus",
-                "uninsured",
+                "covid-19",
                 "health system",
-                "covid-19"
+                "provider relief fund",
+                "uninsured"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41780,7 +41848,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "hepatitis c",
@@ -41979,7 +42047,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-25",
+            "modified": "2022-02-01",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -42107,7 +42175,7 @@
             ],
             "issued": "2018-10-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-07",
+            "modified": "2022-02-01",
             "keyword": [
                 "cdc.gov",
                 "web metrics"
@@ -43331,22 +43399,22 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
+                "age",
+                "age group",
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "mortality",
-                "deaths",
-                "united states",
-                "weekly",
-                "age",
-                "age group",
                 "race",
-                "hispanic origin",
-                "coronavirus",
-                "covid-19",
-                "all causes"
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -43359,7 +43427,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/siwp-yg6m",
             "description": "Provisional deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by MMWR week, race and Hispanic origin, and age group. Deaths occurred in the United States.\n\nAge groups: 0-4, 5-11, 12-17, 18-29, 30-39, 40-49, 50-64, 65-74, and 75+ years",
-            "title": "AH Provisional COVID-19 Death Counts by Week, Race, and Age, United States 2020-2021",
+            "title": "AH Provisional COVID-19 Death Counts by Week, Race, and Age, United States 2020-2022",
             "programCode": [
                 "009:020"
             ],
@@ -43406,7 +43474,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "anaplasma phagocytophilum infection",
@@ -43472,7 +43540,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-12",
+            "modified": "2022-02-01",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -44486,7 +44554,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "hansen's disease",
@@ -44553,7 +44621,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "nedss",
@@ -44915,24 +44983,24 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
-                "covid-19",
-                "race",
-                "hispanic origin",
                 "age",
+                "age group",
+                "all causes",
+                "coronavirus",
+                "covid-19",
                 "deaths",
+                "hhs region",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "coronavirus",
-                "age group",
-                "weekly",
-                "all causes",
-                "mortality",
-                "united states",
                 "puerto rico",
-                "hhs region"
+                "race",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -45156,7 +45224,7 @@
             "landingPage": "https://data.cdc.gov/d/tt3f-rr33",
             "issued": "2021-06-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-12-21",
+            "modified": "2022-02-01",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "CDC INFO",
@@ -45479,7 +45547,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "nedss",
@@ -45671,33 +45739,33 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
-                "nchs",
-                "nvss",
-                "provisional",
-                "mortality",
-                "deaths",
-                "united states",
-                "state",
-                "puerto rico",
-                "weekly",
-                "causes of death",
                 "alzheimer disease",
-                "dementia",
                 "cancer",
+                "causes of death",
                 "cerebrovascular disease",
-                "diabetes",
                 "chronic lower respiratory disease",
-                "influenza",
-                "pneumonia",
-                "respiratory disease",
-                "renal failure",
+                "circulatory disease",
+                "deaths",
+                "dementia",
+                "diabetes",
                 "heart failure",
                 "hypertensive disease",
+                "influenza",
                 "ischemic heart disease",
-                "circulatory disease",
-                "septicemia"
+                "mortality",
+                "nchs",
+                "nvss",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
+                "renal failure",
+                "respiratory disease",
+                "septicemia",
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46286,60 +46354,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ub55-w5cr",
-            "issued": "2022-01-12",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-12",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "qih1@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/ub55-w5cr",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "test push",
-            "title": "NWSS",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/ub55-w5cr/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/ub55-w5cr/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/ub55-w5cr/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/ub55-w5cr/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/ub55-w5cr/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/ub55-w5cr/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/ub55-w5cr/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/udsf-9v7b",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -46490,23 +46511,23 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
-                "nchs",
                 "coronavirus",
                 "covid-19",
-                "state",
-                "united states",
-                "mortality",
-                "monthly",
-                "yearly",
-                "nvss",
-                "place of death",
-                "provisional",
-                "puerto rico",
                 "deaths",
                 "influenza",
-                "pneumonia"
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
+                "place of death",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
+                "state",
+                "united states",
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46665,21 +46686,21 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-01-12",
+            "issued": "2022-02-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-01-29",
-            "modified": "2022-01-29",
+            "temporal": "2020-12-13/2022-02-05",
+            "modified": "2022-02-05",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "age"
+                "age",
+                "coronavirus",
+                "covid-19",
+                "immunization",
+                "izdl",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46975,7 +46996,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "nedss",
@@ -47162,7 +47183,7 @@
             ],
             "issued": "2021-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-09-02",
+            "modified": "2022-02-04",
             "keyword": [
                 "deaths",
                 "drug overdose",
@@ -47814,8 +47835,8 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-01-10",
-            "modified": "2022-01-18",
+            "temporal": "2020-01-01/2022-01-24",
+            "modified": "2022-02-02",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/utility_summary_public.pdf"
             ],
@@ -48387,7 +48408,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "all serogroups",
@@ -48640,17 +48661,17 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
-                "nndss",
-                "wonder",
-                "nedss",
-                "netss",
                 "arboviral diseases",
                 "jamestown canyon virus disease",
                 "la crosse virus disease",
-                "powassan virus disease"
+                "nedss",
+                "netss",
+                "nndss",
+                "powassan virus disease",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -48789,21 +48810,21 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
-                "nchs",
+                "age",
+                "age group",
+                "all causes",
                 "coronavirus",
                 "covid-19",
-                "sex",
-                "age group",
-                "united states",
-                "nvss",
-                "mortality",
-                "provisional",
-                "weekly",
-                "all causes",
                 "deaths",
-                "age"
+                "mortality",
+                "nchs",
+                "nvss",
+                "provisional",
+                "sex",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -48984,16 +49005,16 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
-                "nndss",
-                "wonder",
                 "nedss",
                 "netss",
-                "poliovirus infection",
+                "nndss",
                 "nonparalytic",
-                "psittacosis"
+                "poliovirus infection",
+                "psittacosis",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -49875,9 +49896,9 @@
                 "009:20"
             ],
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
-            "issued": "2022-01-26",
+            "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-01",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -50695,10 +50716,10 @@
             "temporal": "2020-07-01/2021-11-17",
             "modified": "2022-01-26",
             "keyword": [
-                "covid",
-                "covid-19",
-                "covid19",
                 "coronavirus",
+                "covid",
+                "covid19",
+                "covid-19",
                 "laboratory",
                 "prevalence",
                 "sars-cov",
@@ -50882,7 +50903,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "meningococcal disease",
@@ -51036,6 +51057,66 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/wxz7-ekz9",
+            "bureauCode": [
+                "009:00"
+            ],
+            "issued": "2022-02-01",
+            "@type": "dcat:Dataset",
+            "modified": "2022-02-01",
+            "keyword": [
+                "nhis",
+                "summary health statistics"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:niw2@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/wxz7-ekz9",
+            "description": "Interactive Summary Health Statistics for Children \u2014 2019-2020 provide annual estimates of selected health topics for children under age 18 years based on final data from the National Health Interview Survey.",
+            "title": "NHIS Child Summary Health Statistics",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/wxz7-ekz9/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/wxz7-ekz9/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/wxz7-ekz9/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/wxz7-ekz9/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/wxz7-ekz9/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/wxz7-ekz9/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/wxz7-ekz9/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/wycc-ffia",
             "bureauCode": [
                 "009:00"
@@ -51107,7 +51188,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "ehrlichia ewingii infection",
@@ -51977,14 +52058,14 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-01-28",
+            "modified": "2022-02-03",
             "keyword": [
-                "covid-19",
-                "coronavirus preparedness and response supplemental appropriations act",
-                "coronavirus aid",
-                "relief",
                 "and economic security act",
-                "paycheck protection program and health care enhancement act"
+                "coronavirus aid",
+                "coronavirus preparedness and response supplemental appropriations act",
+                "covid-19",
+                "paycheck protection program and health care enhancement act",
+                "relief"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -52121,21 +52202,21 @@
             ],
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "excess deaths",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "mortality",
-                "deaths",
-                "excess deaths",
-                "united states",
-                "state",
                 "puerto rico",
-                "weekly",
-                "all causes",
-                "covid-19",
-                "coronavirus"
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -52462,7 +52543,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "nedss",
@@ -52862,7 +52943,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-28",
+            "modified": "2022-02-04",
             "keyword": [
                 "2022",
                 "all ages",
@@ -53501,20 +53582,20 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "modified": "2022-02-02",
             "keyword": [
+                "age",
+                "age group",
+                "all causes",
+                "deaths",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "deaths",
-                "mortality",
-                "united states",
-                "state",
                 "puerto rico",
-                "weekly",
-                "age group",
-                "age",
-                "all causes"
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -54232,24 +54313,24 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
+            "modified": "2022-02-03",
             "keyword": [
+                "age",
+                "age group",
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hhs region",
+                "influenza",
+                "mortality",
                 "nchs",
                 "nvss",
-                "provisional",
-                "mortality",
-                "deaths",
-                "united states",
-                "state",
-                "weekly",
-                "age group",
-                "age",
-                "covid-19",
-                "coronavirus",
                 "pneumonia",
-                "influenza",
-                "all causes",
-                "hhs region"
+                "provisional",
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
