@@ -763,7 +763,7 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-20",
+            "modified": "2022-02-27",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1925,7 +1925,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "age",
                 "all causes",
@@ -2376,7 +2376,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-21",
+            "modified": "2022-02-24",
             "keyword": [
                 "adults",
                 "coverage",
@@ -4543,7 +4543,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "age",
                 "age group",
@@ -5928,12 +5928,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-09-08",
+            "issued": "2022-02-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-10",
-            "references": [
-                "https://data.cdc.gov/api/views/5jp2-pgaw/files/7ad96c95-0255-4c36-8a3f-f805746a5203?download=true&filename=Outbound_File_Specification.pdf"
-            ],
+            "modified": "2022-02-26",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7543,7 +7540,7 @@
             "issued": "2021-11-16",
             "@type": "dcat:Dataset",
             "temporal": "2021-2022",
-            "modified": "2022-01-21",
+            "modified": "2022-02-24",
             "keyword": [
                 "adults",
                 "age",
@@ -7997,7 +7994,7 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-11",
+            "modified": "2022-02-22",
             "keyword": [
                 "2022",
                 "animal",
@@ -8839,12 +8836,12 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-19",
             "keyword": [
-                "heart disease",
-                "cardiovascular disease",
                 "cardiovascular",
+                "cardiovascular disease",
                 "counties",
                 "county",
                 "heart",
+                "heart disease",
                 "stroke"
             ],
             "contactPoint": {
@@ -10217,7 +10214,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-20",
+            "modified": "2022-02-27",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -10287,7 +10284,7 @@
             ],
             "issued": "2021-11-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-11",
+            "modified": "2022-02-24",
             "references": [
                 "IQVIA Pharmacy and Physician Medical Office Claims"
             ],
@@ -11150,7 +11147,7 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-21",
+            "modified": "2022-02-24",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "NCIRD",
@@ -11535,8 +11532,8 @@
             ],
             "issued": "2022-02-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-02-19",
-            "modified": "2022-02-19",
+            "temporal": "2020-12-13/2022-02-26",
+            "modified": "2022-02-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -12404,7 +12401,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "age",
                 "age group",
@@ -12661,7 +12658,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -12961,7 +12958,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -13422,7 +13419,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-02-19",
+            "modified": "2022-02-26",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -13747,7 +13744,7 @@
             ],
             "issued": "2021-03-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-11",
+            "modified": "2022-02-24",
             "references": [
                 "Vaccine Safety Datalink"
             ],
@@ -15017,7 +15014,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-22",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -16672,12 +16669,12 @@
         {
             "accessLevel": "public",
             "bureauCode": [
-                "CDC"
+                "009:20"
             ],
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-12-09",
+            "modified": "2022-02-22",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -16691,7 +16688,7 @@
             "description": "CDC Science Clips is an online bibliographic digest featuring scientific articles and publications that are shared with the public health community each week, to enhance awareness of emerging scientific knowledge.",
             "title": "Science Clips",
             "programCode": [
-                "LSSB"
+                "009:038"
             ],
             "distribution": [
                 {
@@ -17180,7 +17177,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-19",
+            "modified": "2022-02-26",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -22595,7 +22592,7 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-11",
+            "modified": "2022-02-24",
             "references": [
                 "NIS-Flu"
             ],
@@ -24107,7 +24104,7 @@
             ],
             "issued": "2020-12-09",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-21",
+            "modified": "2022-02-24",
             "references": [
                 "Vaccine Safety Datalink"
             ],
@@ -24655,7 +24652,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-11",
+            "modified": "2022-02-24",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -25399,7 +25396,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-02-17",
+            "modified": "2022-02-25",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -26756,7 +26753,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -26854,7 +26851,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -29111,7 +29108,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-22",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -29713,8 +29710,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-02-19",
-            "modified": "2022-02-19",
+            "temporal": "2020-12-13/2022-02-26",
+            "modified": "2022-02-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -29851,7 +29848,7 @@
             ],
             "issued": "2021-06-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-09",
+            "modified": "2022-02-23",
             "keyword": [
                 "age",
                 "age group",
@@ -30193,7 +30190,7 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "age",
                 "age group",
@@ -30907,7 +30904,7 @@
             ],
             "issued": "2021-10-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-11",
+            "modified": "2022-02-24",
             "references": [
                 "CDC"
             ],
@@ -31043,7 +31040,7 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31484,7 +31481,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-25",
             "keyword": [
                 "cares act",
                 "health system",
@@ -31811,8 +31808,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-02-19",
-            "modified": "2022-02-19",
+            "temporal": "2020-12-13/2022-02-26",
+            "modified": "2022-02-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -31965,7 +31962,7 @@
             ],
             "issued": "2021-01-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-11",
+            "modified": "2022-02-24",
             "references": [
                 "IPSOS Knowledge Panel Omnibus and NORC AmeriSpeak Omnibus Surveys"
             ],
@@ -32099,7 +32096,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32361,7 +32358,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "age",
                 "age group",
@@ -33226,7 +33223,7 @@
             ],
             "issued": "2020-11-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-09",
+            "modified": "2022-02-23",
             "keyword": [
                 "age",
                 "age group",
@@ -33480,8 +33477,8 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-01-24",
-            "modified": "2022-02-09",
+            "temporal": "2020-01-01/2022-02-18",
+            "modified": "2022-02-24",
             "references": [
                 "https://data.cdc.gov/api/views/mbd7-r32t/files/5fd549e7-ed0c-4ab1-98f4-3bf512d6c5b1?download=true&filename=utility_summary_ridura.pdf"
             ],
@@ -34776,7 +34773,7 @@
             ],
             "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -35699,8 +35696,8 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-01-24",
-            "modified": "2022-02-09",
+            "temporal": "2020-01-01/2022-02-18",
+            "modified": "2022-02-23",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/utility_summary_public_geo.pdf"
             ],
@@ -36421,7 +36418,7 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "age",
                 "age group",
@@ -36496,7 +36493,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-20",
+            "modified": "2022-02-27",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -37613,7 +37610,7 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -39574,7 +39571,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -40562,7 +40559,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-22",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -41039,7 +41036,7 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-18",
+            "modified": "2022-02-25",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -41609,8 +41606,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-02-19",
-            "modified": "2022-02-19",
+            "temporal": "2020-12-13/2022-02-26",
+            "modified": "2022-02-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -41821,7 +41818,7 @@
             ],
             "issued": "2021-07-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-04",
+            "modified": "2022-02-22",
             "keyword": [
                 "cares act",
                 "coronavirus",
@@ -42147,7 +42144,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-15",
+            "modified": "2022-02-22",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -43499,7 +43496,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "age",
                 "age group",
@@ -45083,7 +45080,7 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "age",
                 "age group",
@@ -45839,7 +45836,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -46524,7 +46521,7 @@
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-22",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -46675,7 +46672,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -46852,8 +46849,8 @@
             ],
             "issued": "2022-02-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-02-19",
-            "modified": "2022-02-19",
+            "temporal": "2020-12-13/2022-02-26",
+            "modified": "2022-02-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -47999,8 +47996,8 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-01-24",
-            "modified": "2022-02-09",
+            "temporal": "2020-01-01/2022-02-18",
+            "modified": "2022-02-23",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/utility_summary_public.pdf"
             ],
@@ -48974,7 +48971,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "age",
                 "age group",
@@ -51860,6 +51857,67 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/x9gk-5huc",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-01-18",
+            "@type": "dcat:Dataset",
+            "modified": "2022-02-24",
+            "keyword": [
+                "2022",
+                "nndss",
+                "wonder"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "CDC INFO",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/x9gk-5huc",
+            "description": "NNDSS - In this Table, provisional cases* of notifiable diseases are displayed for United States, U.S. territories, and Non-U.S. residents.\n\n\nNotes:\n\n\u2022 These are weekly cases of selected infectious national notifiable diseases, from the National Notifiable Diseases Surveillance System (NNDSS). NNDSS data reported by the 50 states, New York City, the District of Columbia, and the U.S. territories are collated and published weekly as numbered tables available at https://www.cdc.gov/nndss/data-statistics/index.html. Cases reported by state health departments to CDC for weekly publication are subject to ongoing revision of information and delayed reporting. Therefore, numbers listed in later weeks may reflect changes made to these counts as additional information becomes available. Case counts in the tables are presented as published each week. See also Guide to Interpreting Provisional and Finalized NNDSS Data.\n\n\u2022 Notices, errata, and other notes are available in the Notice To Data Users page.\n\n\u2022 The list of national notifiable infectious diseases and conditions and their national surveillance case definitions are available at https://ndc.services.cdc.gov/. This list incorporates the Council of State and Territorial Epidemiologists (CSTE) position statements approved by CSTE for national surveillance.\n\nFootnotes:\n\n*Case counts for reporting years 2021 and 2022 are provisional and subject to change. Cases are assigned to the reporting jurisdiction submitting the case to NNDSS, if the case's country of usual residence is the U.S., a U.S. territory, unknown, or null (i.e. country not reported); otherwise, the case is assigned to the 'Non-U.S. Residents' category. Country of usual residence is currently not reported by all jurisdictions or for all conditions. For further information on interpretation of these data, see https://www.cdc.gov/nndss/docs/Readers-Guide-WONDER-Tables-20210421-508.pdf.\n\u2020Previous 52 week maximum and cumulative YTD are determined from periods of time when the condition was reportable in the jurisdiction (i.e., may be less than 52 weeks of data or incomplete YTD data).\n\u2022 Please refer to the CDC WONDER publication for weekly updates to the footnote for influenza-associated pediatric mortality.\nU: Unavailable \u2014 The reporting jurisdiction was unable to send the data to CDC or CDC was unable to process the data.\n-: No reported cases \u2014 The reporting jurisdiction did not submit any cases to CDC.\nN: Not reportable \u2014 The disease or condition was not reportable by law, statute, or regulation in the reporting jurisdiction.\nNN: Not nationally notifiable \u2014 This condition was not designated as being nationally notifiable.\nNP: Nationally notifiable but not published.\nNC: Not calculated \u2014 There is insufficient data available to support the calculation of this statistic.\nCum: Cumulative year-to-date counts.\nMax: Maximum \u2014 Maximum case count during the previous 52 weeks.",
+            "title": "NNDSS Weekly Data",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/x9gk-5huc/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/x9gk-5huc/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/x9gk-5huc/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/x9gk-5huc/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/x9gk-5huc/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/x9gk-5huc/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/x9gk-5huc/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/x9gq-59r3",
             "bureauCode": [
                 "009:00"
@@ -52222,7 +52280,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-02-16",
+            "modified": "2022-02-25",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -52366,7 +52424,7 @@
             ],
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -53746,7 +53804,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-02-23",
             "keyword": [
                 "age",
                 "age group",
@@ -54477,7 +54535,7 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-17",
+            "modified": "2022-02-24",
             "keyword": [
                 "age",
                 "age group",
