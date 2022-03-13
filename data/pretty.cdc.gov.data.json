@@ -142,11 +142,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/25m4-6qqq",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-01",
+            "modified": "2022-03-11",
             "keyword": [
                 "nhis",
                 "summary health statistics"
@@ -262,11 +262,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/28df-2bwy",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2020-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2020-12-31",
+            "modified": "2022-03-11",
             "keyword": [
                 "high cholesterol",
                 "hypertension",
@@ -695,7 +695,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-15",
+            "modified": "2022-03-11",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -763,7 +763,7 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-06",
+            "modified": "2022-03-13",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -956,12 +956,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/2m93-xvra",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-06-07",
             "@type": "dcat:Dataset",
             "temporal": "1997-1999, 2016-2019",
-            "modified": "2021-10-20",
+            "modified": "2022-03-11",
             "keyword": [
                 "african americans",
                 "age",
@@ -1925,7 +1925,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "age",
                 "all causes",
@@ -2124,7 +2124,7 @@
             ],
             "issued": "2020-01-27",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "county teen birth trends",
                 "county trends on teen births",
@@ -2267,12 +2267,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/3j26-kg6d",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-07-12",
             "temporal": "2020-2021",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-03",
+            "modified": "2022-03-11",
             "keyword": [
                 "adult day services centers",
                 "covid-19",
@@ -2508,14 +2508,82 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/3nnm-4jni",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-03-07",
+            "@type": "dcat:Dataset",
+            "temporal": "2022/2022",
+            "modified": "2022-03-11",
+            "keyword": [
+                "cases",
+                "community levels",
+                "coronavirus",
+                "county",
+                "covid-19",
+                "hospital"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Surveillance Review and Response Group",
+                "hasEmail": "mailto:eocevent394@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
+            "description": "This public use dataset has 11 data elements reflecting COVID-19 community  levels for all available counties. This dataset contains the same values used to display information available at https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels-county-map.html.  \n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium , or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals. See https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html for more information. \n\nVisit CDC\u2019s COVID Data Tracker County View* to learn more about the individual metrics used for CDC\u2019s COVID-19 community level in your county. Please note that county-level data are not available for territories. Go to https://covid.cdc.gov/covid-data-tracker/#county-view.\n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. *COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.",
+            "title": "United States COVID-19 Community Levels by County as Originally Posted",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/3nnm-4jni/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/3nnm-4jni/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3nnm-4jni/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/3nnm-4jni/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3nnm-4jni/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/3nnm-4jni/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3nnm-4jni/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1W",
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/3nzu-udr9",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-06-02",
+            "issued": "2022-03-11",
             "temporal": "1988-1994, 2015-2019",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-08",
+            "modified": "2022-03-11",
             "keyword": [
                 "adult",
                 "african americans",
@@ -2583,14 +2651,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/3q3z-9ucr",
+            "landingPage": "https://www.cdc.gov/nchs/healthy_people/hp2020/population-groups.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-09-14",
             "@type": "dcat:Dataset",
-            "temporal": "2002-2018",
-            "modified": "2021-09-14",
+            "temporal": "2002-01-01/2018-12-31",
+            "modified": "2022-03-10",
             "keyword": [
                 "healthy people 2020"
             ],
@@ -4543,7 +4611,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "age",
                 "age group",
@@ -5731,7 +5799,7 @@
             ],
             "issued": "2019-06-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-03-22",
+            "modified": "2022-03-11",
             "keyword": [
                 "birth",
                 "census tract",
@@ -5930,7 +5998,7 @@
             ],
             "issued": "2022-02-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-05",
+            "modified": "2022-03-12",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7869,7 +7937,7 @@
             ],
             "issued": "2017-08-23",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "birth rates",
                 "ethnicity",
@@ -9563,7 +9631,7 @@
             ],
             "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "hispanic origin",
                 "live birth rate",
@@ -10214,7 +10282,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-06",
+            "modified": "2022-03-13",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -10455,7 +10523,7 @@
             ],
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-15",
+            "modified": "2022-03-11",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -10520,7 +10588,7 @@
             ],
             "issued": "2020-01-27",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "birth rates",
                 "births",
@@ -11205,11 +11273,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/8pt5-q6wp",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-03-11",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -11532,8 +11600,8 @@
             ],
             "issued": "2022-02-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-03-05",
-            "modified": "2022-03-05",
+            "temporal": "2020-12-13/2022-03-12",
+            "modified": "2022-03-12",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -11600,11 +11668,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/8xy9-ubqz",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-08-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-06",
+            "modified": "2022-03-11",
             "keyword": [
                 "covid-19",
                 "rands"
@@ -11652,6 +11720,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -11726,7 +11795,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-15",
+            "modified": "2022-03-11",
             "references": [
                 "https://chronicdata.cdc.gov/d/sfei-pddr"
             ],
@@ -12401,7 +12470,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "age",
                 "age group",
@@ -12658,7 +12727,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -12809,12 +12878,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/9gay-j69q",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-06-02",
             "@type": "dcat:Dataset",
             "temporal": "1988-1994, 2015-2019",
-            "modified": "2021-06-08",
+            "modified": "2022-03-11",
             "keyword": [
                 "adolescent",
                 "adult",
@@ -12958,7 +13027,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -13419,7 +13488,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-03-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -15014,7 +15083,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-28",
+            "modified": "2022-03-07",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17177,7 +17246,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-05",
+            "modified": "2022-03-12",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -19915,12 +19984,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/dmzy-x2ad",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-06-07",
             "@type": "dcat:Dataset",
             "temporal": "1997-2018",
-            "modified": "2021-06-08",
+            "modified": "2022-03-11",
             "keyword": [
                 "african americans",
                 "age",
@@ -20893,7 +20962,7 @@
             ],
             "issued": "2020-01-27",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "birth rate",
                 "fertility rate",
@@ -21015,7 +21084,7 @@
             ],
             "issued": "2020-01-27",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "age",
                 "birth rate",
@@ -22880,7 +22949,8 @@
             ],
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-26",
+            "temporal": "2010-01-01/2018-12-31",
+            "modified": "2022-03-10",
             "keyword": [
                 "healthy people 2020"
             ],
@@ -22927,6 +22997,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
@@ -23169,6 +23240,68 @@
             ],
             "theme": [
                 "Environmental Health & Toxicology"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/healthy_people/hp2020/health-disparities.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-03-09",
+            "temporal": "1997-01-01/2018-12-31",
+            "@type": "dcat:Dataset",
+            "modified": "2022-03-10",
+            "keyword": [
+                "health disparities",
+                "healthy people 2020"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/fdpm-fddm",
+            "description": "The Overview of Health Disparities analysis is a component of the Healthy People 2020 (HP2020) Final Review. The analysis included 611 objectives in HP2020. This file contains summary level information used for the evaluation of changes in disparities during HP2020, including calculations for the disparities measures and the disparities change categories for all objectives and population characteristics in the analysis. See <a href=\"https://www.cdc.gov/nchs/healthy_people/hp2020/health-disparities-technical-notes.htm\">Technical Notes for the Healthy People 2020 Overview of Health Disparities</a> for additional information and criteria for objectives, data years, and population characteristics included in the analysis and statistical formulas and definitions for the disparities measures. \n\nData for additional years during the HP2020 tracking period that are not included in the Overview of Health Disparities are available on the <aHP2020 website</a>. \n\nNote that \u201crate\u201d as used may refer to a statistical rate expressed per unit population or a proportion, depending on how the HP2020 objective was defined.",
+            "title": "Healthy People 2020 Overview of Health Disparities",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/fdpm-fddm/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/fdpm-fddm/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/fdpm-fddm/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/fdpm-fddm/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/fdpm-fddm/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/fdpm-fddm/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/fdpm-fddm/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -24789,7 +24922,7 @@
             ],
             "issued": "2017-08-23",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "births",
                 "nchs",
@@ -25396,7 +25529,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-03-04",
+            "modified": "2022-03-11",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -25901,11 +26034,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/h7xa-837u",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-05-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-19",
+            "modified": "2022-03-11",
             "keyword": [
                 "covid-19",
                 "telemedicine"
@@ -26297,7 +26430,7 @@
             ],
             "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "hispanic women",
                 "nchs",
@@ -26492,7 +26625,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-15",
+            "modified": "2022-03-11",
             "keyword": [
                 "legislation",
                 "osh",
@@ -26753,7 +26886,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -26851,7 +26984,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27517,7 +27650,7 @@
             ],
             "issued": "2017-08-23",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "age",
                 "births",
@@ -28066,7 +28199,7 @@
             ],
             "issued": "2020-10-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-15",
+            "modified": "2022-03-11",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -28713,7 +28846,7 @@
             ],
             "issued": "2020-01-27",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "births",
                 "maternal age",
@@ -29108,7 +29241,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-28",
+            "modified": "2022-03-07",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -29536,11 +29669,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/jb9g-gnvr",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-03-11",
             "keyword": [
                 "covid-19",
                 "private coverage",
@@ -29590,6 +29723,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "accrualPeriodicity": "Bi-weekly",
             "theme": [
                 "NCHS"
@@ -29663,6 +29797,68 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/healthy_people/hp2020/health-disparities.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-03-09",
+            "temporal": "1997-01-01/2018-12-31",
+            "@type": "dcat:Dataset",
+            "modified": "2022-03-10",
+            "keyword": [
+                "health disparities",
+                "healthy people 2020"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/jfbs-8cpp",
+            "description": "The Overview of Health Disparities analysis is a component of the Healthy People 2020 (HP2020) Final Review. The analysis included 611 objectives in HP2020. See Technical Notes for the Healthy People 2020 Overview of Health Disparities (https://www.cdc.gov/nchs/healthy_people/hp2020/health-disparities.htm) for additional information and criteria for objectives, data years, and population characteristics included in the analysis and statistical formulas and definitions for the disparities measures. \n\nThis file contains estimates and standard errors for the baseline and final years for individual population groups used in the Overview of Health Disparities analysis. The number and definitions of population groups varied across the HP2020 objectives and data sources used. These population groups are shown in the disparities file as originally reported by the data source, rather than the harmonized categories that were used for the HP2020 Progress by Population Group analysis (https://www.cdc.gov/nchs/healthy_people/hp2020/population-groups.htm). Additionally, for any given objective, the baseline and final years used for the disparities analysis do not necessarily correspond to the baseline and final years used to evaluate progress toward target attainment in the HP2020 Final Review Progress Table (https://www.cdc.gov/nchs/healthy_people/hp2020/progress-tables.htm) and Progress by Population Group analysis (https://www.cdc.gov/nchs/healthy_people/hp2020/population-groups.htm). These distinctions should be considered when merging the downloadable Progress Table or Progress by Population Group data files with the Overview of Health Disparities data files, or when integrative analyses that incorporate both disparities and progress data are conducted.  \n    \nData for additional years during the HP2020 tracking period that are not included in the Overview of Health Disparities are available on the HP2020 website (https://www.healthypeople.gov/2020/).",
+            "title": "Population Group Estimates used in the Healthy People 2020 Overview of Health Disparities",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/jfbs-8cpp/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/jfbs-8cpp/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/jfbs-8cpp/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/jfbs-8cpp/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/jfbs-8cpp/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/jfbs-8cpp/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/jfbs-8cpp/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/jhny-pyfw",
             "bureauCode": [
                 "009:20"
@@ -29710,8 +29906,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-03-05",
-            "modified": "2022-03-05",
+            "temporal": "2020-12-13/2022-03-12",
+            "modified": "2022-03-12",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -30127,7 +30323,7 @@
             ],
             "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "age group",
                 "birth rates",
@@ -30190,7 +30386,7 @@
             ],
             "issued": "2020-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "age",
                 "age group",
@@ -31040,7 +31236,7 @@
             ],
             "issued": "2020-11-04",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31481,7 +31677,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-03",
+            "modified": "2022-03-11",
             "keyword": [
                 "cares act",
                 "health system",
@@ -31679,7 +31875,7 @@
             "issued": "2021-10-19",
             "@type": "dcat:Dataset",
             "temporal": "2020",
-            "modified": "2021-10-19",
+            "modified": "2022-03-11",
             "keyword": [
                 "covid-19",
                 "physicians"
@@ -31808,8 +32004,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-03-05",
-            "modified": "2022-03-05",
+            "temporal": "2020-12-13/2022-03-12",
+            "modified": "2022-03-12",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -31880,12 +32076,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/km5s-4339",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-06-02",
             "@type": "dcat:Dataset",
             "temporal": "1984-2019",
-            "modified": "2021-06-08",
+            "modified": "2022-03-11",
             "keyword": [
                 "african americans",
                 "age",
@@ -32096,7 +32292,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32358,7 +32554,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "age",
                 "age group",
@@ -34773,7 +34969,7 @@
             ],
             "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -36418,7 +36614,7 @@
             ],
             "issued": "2020-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "age",
                 "age group",
@@ -36493,7 +36689,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-04",
+            "modified": "2022-03-13",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -37610,7 +37806,7 @@
             ],
             "issued": "2021-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -38654,7 +38850,7 @@
             ],
             "issued": "2021-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-12",
+            "modified": "2022-03-11",
             "keyword": [
                 "covid-19",
                 "emergency department",
@@ -39571,7 +39767,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -39642,11 +39838,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/qgkx-mswu",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-08-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-06",
+            "modified": "2022-03-11",
             "keyword": [
                 "covid-19",
                 "rands"
@@ -39694,6 +39890,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -40559,7 +40756,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-28",
+            "modified": "2022-03-07",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -41036,7 +41233,7 @@
             ],
             "issued": "2021-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-04",
+            "modified": "2022-03-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -41544,7 +41741,7 @@
             ],
             "issued": "2017-08-15",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "birth rate",
                 "nchs",
@@ -41606,8 +41803,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-03-05",
-            "modified": "2022-03-05",
+            "temporal": "2020-12-13/2022-03-12",
+            "modified": "2022-03-12",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -42144,7 +42341,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-01",
+            "modified": "2022-03-08",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -42704,7 +42901,7 @@
             ],
             "issued": "2020-01-27",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "birth",
                 "birth rate",
@@ -43496,7 +43693,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "age",
                 "age group",
@@ -44779,11 +44976,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/th9n-ghnr",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-08-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-06",
+            "modified": "2022-03-11",
             "keyword": [
                 "covid-19",
                 "rands"
@@ -44831,6 +45028,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -45080,7 +45278,7 @@
             ],
             "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "age",
                 "age group",
@@ -45217,11 +45415,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/trpk-sp8z",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-11-18",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-18",
+            "modified": "2022-03-11",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -45836,7 +46034,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -46521,7 +46719,7 @@
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-28",
+            "modified": "2022-03-07",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -46672,7 +46870,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -46849,8 +47047,8 @@
             ],
             "issued": "2022-02-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-03-05",
-            "modified": "2022-03-05",
+            "temporal": "2020-12-13/2022-03-12",
+            "modified": "2022-03-12",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -47546,7 +47744,7 @@
             ],
             "issued": "2020-05-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-08",
+            "modified": "2022-03-10",
             "references": [
                 "https://www.cms.gov/files/document/Accelerated-and-Advanced-Payments-Fact-Sheet.pdf"
             ],
@@ -47678,11 +47876,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/v5gm-kvkn",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2020-11-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-10",
+            "modified": "2022-03-11",
             "keyword": [
                 "adults",
                 "children",
@@ -48368,7 +48566,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-03",
+            "modified": "2022-03-11",
             "keyword": [
                 "flu vaccination",
                 "immunization",
@@ -48380,7 +48578,7 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "Carla Black",
+                "fn": "NCIRD ISD Assessment Branch",
                 "hasEmail": "mailto:VaxView@cdc.gov"
             },
             "publisher": {
@@ -48971,7 +49169,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "age",
                 "age group",
@@ -49768,12 +49966,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/w4cs-jspc",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-12-20",
             "@type": "dcat:Dataset",
             "temporal": "2005-2006 thru 2017-2018",
-            "modified": "2021-12-20",
+            "modified": "2022-03-11",
             "keyword": [
                 "accidental falls",
                 "age",
@@ -50059,7 +50257,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-03",
+            "modified": "2022-03-11",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -50999,11 +51197,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/wpti-gvdi",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-08-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-18",
+            "modified": "2022-03-11",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -51052,6 +51250,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -51220,11 +51419,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/wxz7-ekz9",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-01",
+            "modified": "2022-03-11",
             "keyword": [
                 "nhis",
                 "summary health statistics"
@@ -51272,6 +51471,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -51587,13 +51787,17 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/x749-vh2i",
+            "landingPage": "https://www.cdc.gov/nchs/healthy_people/hp2020/progress-tables.htm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-03-12",
+            "issued": "2022-01-22",
+            "temporal": "1988-01-01/2019-12-31",
             "@type": "dcat:Dataset",
-            "modified": "2021-03-24",
+            "modified": "2022-03-10",
+            "keyword": [
+                "healthy people 2020"
+            ],
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
@@ -51863,7 +52067,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-24",
+            "modified": "2022-03-10",
             "keyword": [
                 "2022",
                 "nndss",
@@ -51980,11 +52184,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/xb3p-q62w",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-14",
+            "modified": "2022-03-11",
             "keyword": [
                 "covid-19",
                 "delayed care",
@@ -52033,6 +52237,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "accrualPeriodicity": "Bi-weekly",
             "theme": [
                 "NCHS"
@@ -52280,7 +52485,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-03-03",
+            "modified": "2022-03-11",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -52424,7 +52629,7 @@
             ],
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -52830,7 +53035,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-07",
+            "modified": "2022-03-11",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -52954,12 +53159,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/xt86-xqxz",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-06-03",
             "@type": "dcat:Dataset",
             "temporal": "2000-2018",
-            "modified": "2021-06-08",
+            "modified": "2022-03-11",
             "keyword": [
                 "african americans",
                 "age",
@@ -53472,7 +53677,7 @@
             ],
             "issued": "2018-07-09",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "nchs",
                 "state teen birth trends",
@@ -53804,7 +54009,7 @@
             ],
             "issued": "2020-05-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2022-03-09",
             "keyword": [
                 "age",
                 "age group",
@@ -54469,11 +54674,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/yni7-er2q",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-03-11",
             "keyword": [
                 "covid-19",
                 "mental health"
@@ -54535,7 +54740,7 @@
             ],
             "issued": "2021-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-03",
+            "modified": "2022-03-10",
             "keyword": [
                 "age",
                 "age group",
@@ -54753,7 +54958,7 @@
             ],
             "issued": "2020-01-27",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-11",
             "keyword": [
                 "age of mother",
                 "birth rates",
