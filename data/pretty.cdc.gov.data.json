@@ -144,9 +144,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-02-01",
+            "issued": "2021-11-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-03-24",
             "keyword": [
                 "nhis",
                 "summary health statistics"
@@ -158,7 +158,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/25m4-6qqq",
             "description": "Interactive Summary Health Statistics for Adults \u2014 2019-2020 provide annual estimates of selected health topics for adults aged 18 years and over based on final data from the National Health Interview Survey.",
@@ -194,6 +194,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -266,7 +267,7 @@
             ],
             "issued": "2020-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-03-24",
             "keyword": [
                 "high cholesterol",
                 "hypertension",
@@ -763,7 +764,7 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-20",
+            "modified": "2022-03-27",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1046,11 +1047,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/2na8-fe6s",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-07-15",
+            "issued": "2021-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-23",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -1073,7 +1074,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/2na8-fe6s",
             "description": "Provisional death counts of malignant neoplasms (cancer) by month and year, and other selected demographics, for 2020-2021. Data are based on death certificates for U.S. residents.",
@@ -1109,9 +1110,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -1921,11 +1921,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/3apk-4u4f",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-02-03",
+            "issued": "2020-08-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "temporal": "2020-2022",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "all causes",
@@ -1985,7 +1986,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -2121,11 +2122,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/3h58-x6cd",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-01-27",
+            "issued": "2018-02-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-03-25",
             "keyword": [
                 "county teen birth trends",
                 "county trends on teen births",
@@ -2177,6 +2178,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
@@ -2516,7 +2518,7 @@
             "issued": "2022-03-18",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-03-18",
+            "modified": "2022-03-25",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2659,7 +2661,7 @@
             "issued": "2021-09-14",
             "@type": "dcat:Dataset",
             "temporal": "2002-01-01/2018-12-31",
-            "modified": "2022-03-10",
+            "modified": "2022-03-23",
             "keyword": [
                 "healthy people 2020"
             ],
@@ -2706,10 +2708,14 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
+            "spatial": "US",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -2721,7 +2727,7 @@
             "issued": "2022-01-21",
             "temporal": "April 4, 2021-February 19, 2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-17",
+            "modified": "2022-03-22",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Vaccine Breakthrough Unit, Surveillance and Analytics Team",
@@ -2838,11 +2844,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/3sh4-uqpm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2020-09-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -2902,9 +2908,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -2979,11 +2984,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/3ts8-hsrw",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -3044,9 +3049,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -3055,11 +3059,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/3yf8-kanr",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-04-28",
+            "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "temporal": "2014 - 2019",
+            "modified": "2022-03-25",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -3127,7 +3132,9 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -3136,11 +3143,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/44rk-q6r2",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2019-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2020-09-08",
+            "modified": "2022-03-25",
             "keyword": [
                 "deaths",
                 "drug poisoning",
@@ -3193,6 +3200,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
@@ -3473,11 +3481,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/489q-934x",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-01-14",
+            "issued": "2016-08-04",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-02",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -3563,7 +3571,8 @@
                 }
             ],
             "spatial": "United States",
-            "accrualPeriodicity": "Quarterly",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P3M",
             "theme": [
                 "NCHS"
             ]
@@ -4531,11 +4540,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/4ueh-89p9",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-12-03",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -4599,7 +4608,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -4610,9 +4619,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-02-24",
+            "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -4640,7 +4649,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/4va6-ph5s",
             "description": "Deaths involving coronavirus disease 2019 (COVID-19) and pneumonia reported to NCHS by jurisdiction of occurrence, place of death, and age group.",
@@ -4678,7 +4687,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -5796,11 +5805,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/5h56-n989",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2019-06-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "2010 - 2015",
+            "modified": "2022-03-25",
             "keyword": [
                 "birth",
                 "census tract",
@@ -5854,7 +5864,9 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -5999,7 +6011,7 @@
             ],
             "issued": "2022-02-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-19",
+            "modified": "2022-03-26",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -6759,11 +6771,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/65mz-jvh5",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-08-03",
+            "issued": "2020-09-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-13",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -6839,7 +6851,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -7699,11 +7711,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/6rkc-nb2q",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2017-08-30",
+            "issued": "2015-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2020-09-08",
+            "temporal": "1900 - 2018",
+            "modified": "2022-03-24",
             "keyword": [
                 "age-adjusted death rate",
                 "cause of death",
@@ -7753,6 +7766,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
@@ -7932,13 +7946,19 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/6tkz-y37d",
+            "landingPage": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm, https://www.cdc.gov/nchs/nvss/births.htm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2017-08-23",
+            "rights": "public",
+            "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "1970-2019",
+            "modified": "2022-03-23",
+            "references": [
+                "https://www.cdc.gov/nchs/data/databriefs/db162.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_01.pdf"
+            ],
             "keyword": [
                 "birth rates",
                 "ethnicity",
@@ -7951,15 +7971,16 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "hasEmail": "mailto:births@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/6tkz-y37d",
-            "description": "This dataset includes birth rates for unmarried women by age group, race, and Hispanic origin in the United States since 1970. \r\n\r\nMethods for collecting information on marital status changed over the reporting period and have been documented in:\r\n\r\n\u2022 Ventura SJ, Bachrach CA. Nonmarital childbearing in the United States, 1940\u201399. National vital statistics reports; vol 48 no 16. Hyattsville, Maryland: National Center for Health Statistics. 2000. Available from: http://www.cdc.gov/nchs/data/nvsr/nvsr48/nvs48_16.pdf.\r\n\u2022 National Center for Health Statistics. User guide to the 2013 natality public use file. Hyattsville, Maryland: National Center for Health Statistics. 2014. Available from: http://www.cdc.gov/nchs/data_access/VitalStatsOnline.htm.\r\n\r\nNational data on births by Hispanics origin exclude data for Louisiana, New Hampshire, and Oklahoma in 1989; for New Hampshire and Oklahoma in 1990; for New Hampshire in 1991 and 1992. Information on reporting Hispanic origin is detailed in the Technical Appendix for the 1999 public-use natality data file (see (ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/DVS/natality/Nat1999doc.pdf.)\r\n\r\nAll birth data by race before 1980 are based on race of the child. Starting in 1980, birth data by race are based on race of the mother.\r\n\r\nSOURCES\r\n\r\nCDC/NCHS, National Vital Statistics System, birth data (see http://www.cdc.gov/nchs/births.htm); public-use data files (see http://www.cdc.gov/nchs/data_access/Vitalstatsonline.htm); and CDC WONDER (see http://wonder.cdc.gov/).\r\n\r\nREFERENCES\r\n\r\n1. Curtin SC, Ventura SJ, Martinez GM. Recent declines in nonmarital childbearing in the United States. NCHS data brief, no 162. Hyattsville, MD: National Center for Health Statistics. 2014. Available from: http://www.cdc.gov/nchs/data/databriefs/db162.pdf.\r\n\r\n2. Martin JA, Hamilton BE, Osterman MJK, et al. Births: Final data for 2015. National vital statistics reports; vol 66 no 1. Hyattsville, MD: National Center for Health Statistics. 2017. Available from: https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_01.pdf.",
+            "description": "This dataset includes birth rates for unmarried women by age group, race, and Hispanic origin in the United States since 1970. \n\nMethods for collecting information on marital status changed over the reporting period and have been documented in:\n\n\u2022 Ventura SJ, Bachrach CA. Nonmarital childbearing in the United States, 1940\u201399. National vital statistics reports; vol 48 no 16. Hyattsville, Maryland: National Center for Health Statistics. 2000. Available from: http://www.cdc.gov/nchs/data/nvsr/nvsr48/nvs48_16.pdf.\n\u2022 National Center for Health Statistics. User guide to the 2013 natality public use file. Hyattsville, Maryland: National Center for Health Statistics. 2014. Available from: http://www.cdc.gov/nchs/data_access/VitalStatsOnline.htm.\n\nNational data on births by Hispanics origin exclude data for Louisiana, New Hampshire, and Oklahoma in 1989; for New Hampshire and Oklahoma in 1990; for New Hampshire in 1991 and 1992. Information on reporting Hispanic origin is detailed in the Technical Appendix for the 1999 public-use natality data file (see (ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/DVS/natality/Nat1999doc.pdf.)\n\nAll birth data by race before 1980 are based on race of the child. Starting in 1980, birth data by race are based on race of the mother.",
             "title": "NCHS - Birth Rates for Unmarried Women by Age, Race, and Hispanic Origin: United States",
+            "isPartOf": "NCHS - Birth Rates for Unmarried Women by Age, Race, and Hispanic Origin: United States",
             "programCode": [
                 "009:020"
             ],
@@ -7991,8 +8012,15 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
@@ -8200,11 +8228,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/6vqh-esgs",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-03-10",
+            "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-15",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -8261,9 +8289,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -8690,11 +8717,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/75vb-d79q",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-03-12",
+            "issued": "2021-05-12",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-03",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -8751,9 +8778,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -8762,11 +8788,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/76vv-a7x8",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2022-02-09",
+            "issued": "2016-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-09",
+            "modified": "2022-03-25",
             "keyword": [
                 "birth rate",
                 "cesarean delivery",
@@ -8819,6 +8845,9 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P3M",
             "theme": [
                 "NCHS"
             ]
@@ -8827,11 +8856,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/7873-6w4v",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-03-09",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -8888,9 +8917,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -9628,11 +9656,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/7pcd-2tnr",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "1990 - 2010",
+            "modified": "2022-03-25",
             "keyword": [
                 "hispanic origin",
                 "live birth rate",
@@ -9684,6 +9713,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -10283,7 +10314,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-20",
+            "modified": "2022-03-27",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -10583,13 +10614,23 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/89yk-m38d",
+            "landingPage": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm, https://www.cdc.gov/nchs/nvss/births.htm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-01-27",
+            "rights": "public",
+            "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "1960-2019",
+            "modified": "2022-03-25",
+            "references": [
+                "https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf",
+                "https://www.cdc.gov/nchs/data/misc/usvss.pdf",
+                "https://www.cdc.gov/nchs/data/vsus/nat67_1.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_01.pdf",
+                "https://www.cdc.gov/nvsr/nvsr67/nvsr67_01.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_13.pdf"
+            ],
             "keyword": [
                 "birth rates",
                 "births",
@@ -10603,7 +10644,7 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "hasEmail": "mailto:births@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -10612,6 +10653,7 @@
             "identifier": "https://data.cdc.gov/api/views/89yk-m38d",
             "description": "This dataset includes live births, birth rates, and fertility rates by race of mother in the United States since 1960. \n\nData availability varies by race and ethnicity groups. All birth data by race before 1980 are based on race of the child. Since 1980, birth data by race are based on race of the mother. For race, data are available for Black and White births since 1960, and for American Indians/Alaska Native and Asian/Pacific Islander births since 1980. Data on Hispanic origin are available since 1989. Teen birth rates for specific racial and ethnic categories are also available since 1989. From 2003 through 2015, the birth data by race were based on the \u201cbridged\u201d race categories (5). Starting in 2016, the race categories for reporting birth data changed; the new race and Hispanic origin categories are: Non-Hispanic, Single Race White; Non-Hispanic, Single Race Black; Non-Hispanic, Single Race American Indian/Alaska Native; Non-Hispanic, Single Race Asian; and, Non-Hispanic, Single Race Native Hawaiian/Pacific Islander (5,6). Birth data by the prior, \u201cbridged\u201d race (and Hispanic origin) categories are included through 2018 for comparison.\n\nSOURCES\n\nNCHS, National Vital Statistics System, birth data (see https://www.cdc.gov/nchs/births.htm); public-use data files (see https://www.cdc.gov/nchs/data_access/VitalStatsOnline.htm); and CDC WONDER (see http://wonder.cdc.gov/).\n\nREFERENCES\n\n1. National Office of Vital Statistics. Vital Statistics of the United States, 1950, Volume I. 1954. Available from: https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf.\n\n2. Hetzel AM. U.S. vital statistics system: major activities and developments, 1950-95. National Center for Health Statistics. 1997. Available from: https://www.cdc.gov/nchs/data/misc/usvss.pdf.\n\n3. National Center for Health Statistics. Vital Statistics of the United States, 1967, Volume I\u2013Natality. 1969. Available from: https://www.cdc.gov/nchs/data/vsus/nat67_1.pdf.\n\n4. Martin JA, Hamilton BE, Osterman MJK, et al. Births: Final data for 2015. National vital statistics reports; vol 66 no 1. Hyattsville, MD: National Center for Health Statistics. 2017. Available from: https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_01.pdf.\n\n5. Martin JA, Hamilton BE, Osterman MJK, Driscoll AK, Drake P. Births: Final data for 2016. National Vital Statistics Reports; vol 67 no 1. Hyattsville, MD: National Center for Health Statistics. 2018. Available from: https://www.cdc.gov/nvsr/nvsr67/nvsr67_01.pdf.\n\n6. Martin JA, Hamilton BE, Osterman MJK, Driscoll AK, Births: Final data for 2018. National vital statistics reports; vol 68 no 13. Hyattsville, MD: National Center for Health Statistics. 2019. Available from: https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_13.pdf.",
             "title": "NCHS - Natality Measures for Females by Race and Hispanic Origin: United States",
+            "isPartOf": "NCHS - Natality Measures for Females by Race and Hispanic Origin: United States",
             "programCode": [
                 "009:020"
             ],
@@ -10643,8 +10685,15 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
@@ -11272,13 +11321,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/8pt5-q6wp",
+            "landingPage": "https://www.cdc.gov/nchs/covid19/pulse/mental-health.htm",
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-02-10",
+            "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "2020-04-23/2022-03-14",
+            "modified": "2022-03-23",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -11327,9 +11377,14 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "accrualPeriodicity": "Bi-weekly",
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P2W",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -11601,8 +11656,8 @@
             ],
             "issued": "2022-02-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-03-19",
-            "modified": "2022-03-19",
+            "temporal": "2020-12-13/2022-03-26",
+            "modified": "2022-03-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -11929,12 +11984,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/95ax-ymtc",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-06-07",
             "@type": "dcat:Dataset",
-            "temporal": "1999\u20132019",
-            "modified": "2021-06-16",
+            "temporal": "1999-2019",
+            "modified": "2022-03-24",
             "keyword": [
                 "african americans",
                 "age",
@@ -12000,7 +12055,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Annually",
+            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
             ]
@@ -12467,11 +12522,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/9bhg-hcku",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-02-24",
+            "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -12536,7 +12591,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -12724,11 +12779,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/9dzk-mvmi",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -12802,9 +12857,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
             "theme": [
                 "NCHS"
             ]
@@ -13024,11 +13077,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/9hdi-ekmb",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-25",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -13049,7 +13102,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/9hdi-ekmb",
             "description": "Deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by week and county Social Vulnerability Index (SVI) in the United States. SVI scores are from CDC/ASTDR's Geospatial Research, Analysis & Service Program. These scores range from 0 to 1, and categorized as low (0-0.333), moderate (0.334-0.666) or high (0.667-1).\n\nMore information on SVI can be found here: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html",
@@ -13085,9 +13138,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -13157,12 +13209,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/9j2v-jamp",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-06-07",
+            "issued": "2021-05-14",
             "@type": "dcat:Dataset",
-            "temporal": "1950-2019",
-            "modified": "2021-06-08",
+            "temporal": "1950 - 2019",
+            "modified": "2022-03-24",
             "keyword": [
                 "african americans",
                 "age",
@@ -13226,7 +13278,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Annually",
+            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
             ]
@@ -13489,7 +13541,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-03-19",
+            "modified": "2022-03-26",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -14141,11 +14193,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/9z9x-g48e",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-05-24",
+            "issued": "2021-05-21",
             "@type": "dcat:Dataset",
-            "modified": "2021-09-30",
+            "modified": "2022-03-25",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -14168,7 +14220,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/9z9x-g48e",
             "description": "Deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by week, sex, and race and Hispanic origin. Deaths occurred in the United States.",
@@ -14206,7 +14258,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -14345,11 +14397,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/a5a8-jsrq",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-04-05",
+            "temporal": "2018",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-03",
+            "modified": "2022-03-24",
             "keyword": [
                 "deaths",
                 "life expectancy",
@@ -14362,7 +14415,7 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "NCHS",
+                "fn": "National Center for Health Statistics",
                 "hasEmail": "mailto:cdcinfo@cdc.gov"
             },
             "publisher": {
@@ -14404,6 +14457,7 @@
                 }
             ],
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -15003,11 +15057,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/aie4-agrk",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2020-09-11",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -15071,7 +15125,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -15084,7 +15138,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-19",
+            "modified": "2022-03-25",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -16677,11 +16731,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/bi63-dtpu",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2017-08-23",
+            "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-24",
             "keyword": [
                 "leading causes of death",
                 "mortality",
@@ -16732,6 +16786,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -16744,7 +16799,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-14",
+            "modified": "2022-03-23",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -17247,7 +17302,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-19",
+            "modified": "2022-03-26",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -17514,11 +17569,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/bxq8-mugm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -17590,6 +17645,7 @@
                 }
             ],
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1M",
             "theme": [
                 "NCHS"
             ]
@@ -17837,11 +17893,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/chcz-j2du",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-03-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "temporal": "2015-2020",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -17900,7 +17957,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -19304,10 +19361,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-01-21",
+            "issued": "2022-03-22",
             "temporal": "September 19, 2021-February 19, 2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-17",
+            "modified": "2022-03-22",
             "keyword": [
                 "covid-19",
                 "covid-19 booster doses",
@@ -19521,11 +19578,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/ddsk-zebd",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2016-06-22",
+            "issued": "2015-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "temporal": "1915-2013",
+            "modified": "2022-03-25",
             "keyword": [
                 "infant mortality rates",
                 "nchs",
@@ -19575,6 +19633,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -20066,11 +20126,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/dnhi-s2bf",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-10-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-06",
+            "modified": "2022-03-25",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -20091,7 +20151,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/dnhi-s2bf",
             "description": "Provisional counts of deaths involving coronavirus disease 2019 (COVID-19) by quarter and county of residence, in the United States, 2020-2021.",
@@ -20127,9 +20187,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -20355,11 +20414,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/dtm2-meqi",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-08-10",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-10",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "deaths",
@@ -20415,9 +20474,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
             "theme": [
                 "NCHS"
             ]
@@ -20957,13 +21014,23 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/e6fc-ccez",
+            "landingPage": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm, https://www.cdc.gov/nchs/nvss/births.htm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-01-27",
+            "rights": "public",
+            "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "1909-2019",
+            "modified": "2022-03-24",
+            "references": [
+                "https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf",
+                "https://www.cdc.gov/nchs/data/misc/usvss.pdf",
+                "https://www.cdc.gov/nchs/data/vsus/nat67_1.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_01.pdf",
+                "https://www.cdc.gov/nvsr/nvsr67/nvsr67_01.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_13.pdf"
+            ],
             "keyword": [
                 "birth rate",
                 "fertility rate",
@@ -20973,15 +21040,16 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "hasEmail": "mailto:births@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/e6fc-ccez",
-            "description": "This dataset includes crude birth rates and general fertility rates in the United States since 1909. \n\nThe number of states in the reporting area differ historically. In 1915 (when the birth registration area was established), 10 states and the District of Columbia reported births; by 1933, 48 states and the District of Columbia were reporting births, with the last two states, Alaska and Hawaii, added to the registration area in 1959 and 1960, when these regions gained statehood. Reporting area information is detailed in references 1 and 2 below. Trend lines for 1909\u20131958 are based on live births adjusted for under-registration; beginning with 1959, trend lines are based on registered live births.\n\nSOURCES\n\nNCHS, National Vital Statistics System, birth data (see https://www.cdc.gov/nchs/births.htm); public-use data files (see https://www.cdc.gov/nchs/data_access/VitalStatsOnline.htm); and CDC WONDER (see http://wonder.cdc.gov/).\n\nREFERENCES\n\n1. National Office of Vital Statistics. Vital Statistics of the United States, 1950, Volume I. 1954. Available from: https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf.\n\n2. Hetzel AM. U.S. vital statistics system: major activities and developments, 1950-95. National Center for Health Statistics. 1997. Available from: https://www.cdc.gov/nchs/data/misc/usvss.pdf.\n\n3. National Center for Health Statistics. Vital Statistics of the United States, 1967, Volume I\u2013Natality. 1969. Available from: https://www.cdc.gov/nchs/data/vsus/nat67_1.pdf.\n\n4. Martin JA, Hamilton BE, Osterman MJK, et al. Births: Final data for 2015. National vital statistics reports; vol 66 no 1. Hyattsville, MD: National Center for Health Statistics. 2017. Available from: https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_01.pdf.\n\n5. Martin JA, Hamilton BE, Osterman MJK, Driscoll AK, Drake P. Births: Final data for 2016. National Vital Statistics Reports; vol 67 no 1. Hyattsville, MD: National Center for Health Statistics. 2018. Available from: https://www.cdc.gov/nvsr/nvsr67/nvsr67_01.pdf.\n\n6. Martin JA, Hamilton BE, Osterman MJK, Driscoll AK, Births: Final data for 2018. National vital statistics reports; vol 68 no 13. Hyattsville, MD: National Center for Health Statistics. 2019. Available from: https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_13.pdf.",
+            "description": "This dataset includes crude birth rates and general fertility rates in the United States since 1909. \n\nThe number of states in the reporting area differ historically. In 1915 (when the birth registration area was established), 10 states and the District of Columbia reported births; by 1933, 48 states and the District of Columbia were reporting births, with the last two states, Alaska and Hawaii, added to the registration area in 1959 and 1960, when these regions gained statehood. Reporting area information is detailed in references 1 and 2 below. Trend lines for 1909\u20131958 are based on live births adjusted for under-registration; beginning with 1959, trend lines are based on registered live births.",
             "title": "NCHS - Births and General Fertility Rates: United States",
+            "isPartOf": "NCHS - Births and General Fertility Rates: United States",
             "programCode": [
                 "009:020"
             ],
@@ -21013,8 +21081,15 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
@@ -21081,11 +21156,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/e8kx-wbww",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-01-27",
+            "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "birth rate",
@@ -21138,6 +21213,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -22307,11 +22384,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/epev-k6ss",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2016-06-22",
+            "issued": "2015-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "temporal": "1915-2013",
+            "modified": "2022-03-25",
             "keyword": [
                 "infant",
                 "mortality",
@@ -22362,6 +22440,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -22859,11 +22939,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/ezfr-g6hf",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2020-09-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -22937,7 +23017,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -22951,7 +23031,7 @@
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
             "temporal": "2010-01-01/2018-12-31",
-            "modified": "2022-03-10",
+            "modified": "2022-03-23",
             "keyword": [
                 "healthy people 2020"
             ],
@@ -22998,10 +23078,14 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
+            "spatial": "US",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -23250,9 +23334,9 @@
                 "009:20"
             ],
             "issued": "2022-03-09",
-            "temporal": "1997-01-01/2018-12-31",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-10",
+            "temporal": "1997-01-01/2018-12-31",
+            "modified": "2022-03-23",
             "keyword": [
                 "health disparities",
                 "healthy people 2020"
@@ -23300,9 +23384,14 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "US",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -24628,7 +24717,7 @@
             ],
             "issued": "2021-02-25",
             "@type": "dcat:Dataset",
-            "modified": "2021-02-25",
+            "modified": "2022-03-24",
             "references": [
                 "https://www.cdc.gov/mmwr/pdf/rr/rr6401.pdf"
             ],
@@ -24706,11 +24795,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/g4z9-a9d3",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-07-24",
+            "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -24773,7 +24862,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -24917,13 +25006,21 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/g6qk-ngsf",
+            "landingPage": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm, https://www.cdc.gov/nchs/nvss/births.htm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2017-08-23",
+            "rights": "public",
+            "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "1940-2019",
+            "modified": "2022-03-26",
+            "references": [
+                "http://www.cdc.gov/nchs/data/databriefs/db162.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_01.pdf",
+                "http://www.cdc.gov/nchs/data/nvsr/nvsr48/nvs48_16.pdf",
+                "http://www.cdc.gov/nchs/data_access/VitalStatsOnline.htm"
+            ],
             "keyword": [
                 "births",
                 "nchs",
@@ -24933,15 +25030,16 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "hasEmail": "mailto:births@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/g6qk-ngsf",
-            "description": "This dataset includes number of births to unmarried women by age group in the United States since 1940. \r\n\r\nMethods for collecting information on marital status changed over the reporting period and have been documented in:\r\n\r\n\u2022 Ventura SJ, Bachrach CA. Nonmarital childbearing in the United States, 1940\u201399. National vital statistics reports; vol 48 no 16. Hyattsville, Maryland: National Center for Health Statistics. 2000. Available from: http://www.cdc.gov/nchs/data/nvsr/nvsr48/nvs48_16.pdf.\r\n\u2022 National Center for Health Statistics. User guide to the 2013 natality public use file. Hyattsville, Maryland: National Center for Health Statistics. 2014. Available from: http://www.cdc.gov/nchs/data_access/VitalStatsOnline.htm.\r\n\r\nSOURCES\r\n\r\nCDC/NCHS, National Vital Statistics System, birth data (see http://www.cdc.gov/nchs/births.htm); public-use data files (see http://www.cdc.gov/nchs/data_access/Vitalstatsonline.htm); and CDC WONDER (see http://wonder.cdc.gov/).\r\n\r\nREFERENCES\r\n\r\n1. Curtin SC, Ventura SJ, Martinez GM. Recent declines in nonmarital childbearing in the United States. NCHS data brief, no 162. Hyattsville, MD: National Center for Health Statistics. 2014. Available from: http://www.cdc.gov/nchs/data/databriefs/db162.pdf.\r\n\r\n2. Martin JA, Hamilton BE, Osterman MJK, et al. Births: Final data for 2015. National vital statistics reports; vol 66 no 1. Hyattsville, MD: National Center for Health Statistics. 2017. Available from: https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_01.pdf.",
+            "description": "This dataset includes number of births to unmarried women by age group in the United States since 1940. \n\nMethods for collecting information on marital status changed over the reporting period and have been documented in:\n\n\u2022 Ventura SJ, Bachrach CA. Nonmarital childbearing in the United States, 1940\u201399. National vital statistics reports; vol 48 no 16. Hyattsville, Maryland: National Center for Health Statistics. 2000. Available from: http://www.cdc.gov/nchs/data/nvsr/nvsr48/nvs48_16.pdf.\n\u2022 National Center for Health Statistics. User guide to the 2013 natality public use file. Hyattsville, Maryland: National Center for Health Statistics. 2014. Available from: http://www.cdc.gov/nchs/data_access/VitalStatsOnline.htm.",
             "title": "NCHS - Births to Unmarried Women by Age Group: United States",
+            "isPartOf": "NCHS - Births to Unmarried Women by Age Group: United States",
             "programCode": [
                 "009:020"
             ],
@@ -24973,19 +25071,26 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/g7hk-rc8d",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-06-08",
+            "issued": "2020-10-02",
             "@type": "dcat:Dataset",
-            "modified": "2021-06-08",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -25043,9 +25148,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -25111,13 +25215,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://www.cdc.gov/nchs/nvss/vsrr/provisional-drug-overdose.htm",
+            "landingPage": "https://data.cdc.gov/d/gb4e-yj24",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-10-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "county",
                 "deaths",
@@ -25138,7 +25242,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/gb4e-yj24",
             "description": "This data visualization presents county-level provisional counts for drug overdose deaths based on a current flow of mortality data in the National Vital Statistics System. County-level provisional counts include deaths occurring within the 50 states and the District of Columbia, as of the date specified and may not include all deaths that occurred during a given time period. Provisional counts are often incomplete and causes of death may be pending investigation resulting in an underestimate relative to final counts (see Technical Notes).\n\nThe provisional data presented on the dashboard below include reported 12 month-ending provisional counts of death due to drug overdose by the decedent\u2019s county of residence and the month in which death occurred.\n\nPercentages of deaths with a cause of death pending further investigation and a note on historical completeness (e.g. if the percent completeness was under 90% after 6 months) are included to aid in interpretation of provisional data as these measures are related to the accuracy of provisional counts (see Technical Notes). Counts between 1-9 are suppressed in accordance with NCHS confidentiality standards. Provisional data presented on this page will be updated on a quarterly basis as additional records are received.\n\nTechnical Notes\n\nNature and Sources of Data\n\nProvisional drug overdose death counts are based on death records received and processed by the National Center for Health Statistics (NCHS) as of a specified cutoff date. The cutoff date is generally the first Sunday of each month. National provisional estimates include deaths occurring within the 50 states and the District of Columbia. NCHS receives the death records from the state vital registration offices through the Vital Statistics Cooperative Program (VSCP).\n\nThe timeliness of provisional mortality surveillance data in the National Vital Statistics System (NVSS) database varies by cause of death and jurisdiction in which the death occurred. The lag time (i.e., the time between when the death occurred and when the data are available for analysis) is longer for drug overdose deaths compared with other causes of death due to the time often needed to investigate these deaths (1). Thus, provisional estimates of drug overdose deaths are reported 6 months after the date of death.\n\nProvisional death counts presented in this data visualization are for \u201c12 month-ending periods,\u201d defined as the number of deaths occurring in the 12 month period ending in the month indicated. For example, the 12 month-ending period in June 2020 would include deaths occurring from July 1, 2019 through June 30, 2020. The 12 month-ending period counts include all seasons of the year and are insensitive to reporting variations by seasonality. These provisional counts of drug overdose deaths and related data quality metrics are provided for public health surveillance and monitoring of emerging trends. Provisional drug overdose death data are often incomplete, and the degree of completeness varies by jurisdiction and 12 month-ending period. Consequently, the numbers of drug overdose deaths are underestimated based on provisional data relative to final data and are subject to random variation.\n\nCause of Death Classification and Definition of Drug Deaths\n\nMortality statistics are compiled in accordance with the World Health Organizations (WHO) regulations specifying that WHO member nations classify and code causes of death with the current revision of the International Statistical Classification of Diseases and Related Health Problems (ICD). ICD provides the basic guidance used in virtually all countries to code and classify causes of death. It provides not only disease, injury, and poisoning categories but also the rules used to select the single underlying cause of death for tabulation from the several diagnoses that may be reported on a single death certificate, as well as definitions, tabulation lists, the format of the death certificate, and regul",
@@ -25174,9 +25278,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Quarterly",
             "theme": [
                 "NCHS"
             ]
@@ -25530,7 +25632,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-03-16",
+            "modified": "2022-03-25",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -26033,13 +26135,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/h7xa-837u",
+            "landingPage": "https://www.cdc.gov/nchs/covid19/pulse/telemedicine-use.htm",
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-05-05",
+            "issued": "2021-04-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-18",
+            "temporal": "2021-04-14/2022-03-14",
+            "modified": "2022-03-23",
             "keyword": [
                 "covid-19",
                 "telemedicine"
@@ -26087,9 +26190,14 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "US",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P2W",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -26351,12 +26459,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/hc4f-j6nb",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2020-04-23",
             "@type": "dcat:Dataset",
             "temporal": "2019/2020",
-            "modified": "2021-05-03",
+            "modified": "2022-03-23",
             "keyword": [
                 "age",
                 "age group",
@@ -26427,11 +26535,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/hdy7-e2a3",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "1990 - 2010",
+            "modified": "2022-03-25",
             "keyword": [
                 "hispanic women",
                 "nchs",
@@ -26481,6 +26590,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -26883,11 +26994,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/hk9y-quqm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -26970,9 +27081,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -26981,11 +27091,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/hkhc-f7hg",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-25",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27044,7 +27154,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -27119,11 +27229,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/hmz2-vwda",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2018-07-31",
+            "issued": "2017-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-02",
+            "modified": "2022-03-24",
             "keyword": [
                 "birth",
                 "deaths",
@@ -27180,6 +27290,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P3M",
             "theme": [
                 "NCHS"
             ]
@@ -27647,11 +27759,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/hzd8-r9mj",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2017-08-23",
+            "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "births",
@@ -27702,6 +27814,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -28084,11 +28198,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/i6ej-9eac",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-02-02",
+            "issued": "2021-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -28146,9 +28260,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -28632,11 +28745,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/ikd3-vynf",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-05-19",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-02",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -28695,9 +28808,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -28843,11 +28955,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/isx2-c2ii",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-01-27",
+            "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-03-25",
             "keyword": [
                 "births",
                 "maternal age",
@@ -28897,6 +29009,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -29242,7 +29355,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-19",
+            "modified": "2022-03-25",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -29668,13 +29781,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/jb9g-gnvr",
+            "landingPage": "https://www.cdc.gov/nchs/covid19/pulse/health-insurance-coverage.htm",
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-02-10",
+            "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "2020-04-23/2022-03-14",
+            "modified": "2022-03-23",
             "keyword": [
                 "covid-19",
                 "private coverage",
@@ -29724,10 +29838,14 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Bi-weekly",
+            "accrualPeriodicity": "R/P2W",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -29803,9 +29921,9 @@
                 "009:20"
             ],
             "issued": "2022-03-09",
-            "temporal": "1997-01-01/2018-12-31",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-18",
+            "temporal": "1997-01-01/2018-12-31",
+            "modified": "2022-03-23",
             "keyword": [
                 "health disparities",
                 "healthy people 2020"
@@ -29853,9 +29971,14 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "US",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -29907,8 +30030,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-03-19",
-            "modified": "2022-03-19",
+            "temporal": "2020-12-13/2022-03-26",
+            "modified": "2022-03-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -30043,9 +30166,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-06-17",
+            "issued": "2021-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-23",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -30108,9 +30231,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -30119,11 +30241,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/jqwm-z2g9",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2019-06-26",
+            "issued": "2016-11-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-03",
+            "modified": "2022-03-25",
             "keyword": [
                 "causes of death",
                 "deaths",
@@ -30179,6 +30301,9 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P3M",
             "theme": [
                 "NCHS"
             ]
@@ -30320,11 +30445,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/jvf6-ix4w",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2015-12-02",
+            "temporal": "1980 - 2013",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-03-25",
             "keyword": [
                 "age group",
                 "birth rates",
@@ -30375,6 +30501,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -30383,11 +30510,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/jwta-jxbg",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-07-28",
+            "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -30447,9 +30574,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -30458,11 +30584,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/jx6g-fdh6",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2017-08-25",
+            "issued": "2016-01-07",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-25",
             "keyword": [
                 "deaths",
                 "drug poisoning",
@@ -30515,6 +30641,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -30959,6 +31087,83 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/k5dc-apj8",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-03-23",
+            "@type": "dcat:Dataset",
+            "modified": "2022-03-24",
+            "keyword": [
+                "age",
+                "age group",
+                "all causes",
+                "children",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hhs region",
+                "hispanic origin",
+                "mortality",
+                "nchs",
+                "nvss",
+                "provisional",
+                "puerto rico",
+                "race",
+                "united states",
+                "weekly"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/k5dc-apj8",
+            "description": "Deaths from all causes and deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by time-period, HHS region, race and Hispanic origin, and age group.",
+            "title": "AH Provisional COVID-19 Deaths by HHS Region, Race, and Age, 2015 to date",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/k5dc-apj8/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/k5dc-apj8/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/k5dc-apj8/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/k5dc-apj8/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/k5dc-apj8/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/k5dc-apj8/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/k5dc-apj8/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/k62p-6esq",
             "bureauCode": [
                 "009:20"
@@ -31233,11 +31438,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/k8wy-p9cg",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-11-04",
+            "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31297,7 +31502,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -31678,7 +31883,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-17",
+            "modified": "2022-03-24",
             "keyword": [
                 "cares act",
                 "health system",
@@ -32005,8 +32210,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-03-19",
-            "modified": "2022-03-19",
+            "temporal": "2020-12-13/2022-03-26",
+            "modified": "2022-03-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -32289,11 +32494,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/kn79-hsxy",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-02-24",
+            "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32351,7 +32556,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -32551,11 +32756,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/ks3g-spdg",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-09-30",
+            "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -32620,7 +32825,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -33416,11 +33621,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/m74n-4hbs",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2020-11-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-23",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -33484,7 +33689,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -33598,11 +33803,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/mawz-airi",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-10-06",
             "@type": "dcat:Dataset",
-            "modified": "2021-11-10",
+            "temporal": "2020 - 2021",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -33623,7 +33829,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/mawz-airi",
             "description": "Provisional deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by age group among United States residents, from MMWR Week 40 2020 through MMWR Week 39 2021.\n\nAge groups: 0-4, 5-11, 12-15, 16-17, 18-24, 25-39, 40-49, 50-64, 65-74, and 75+ years",
@@ -33661,7 +33867,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -33780,13 +33986,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/mc4y-cbbv",
+            "landingPage": "https://www.cdc.gov/nchs/data-visualization/mortality-trends/index.htm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2017-08-30",
+            "issued": "2015-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2020-09-08",
+            "temporal": "1950-01-01/2000-12-31",
+            "modified": "2022-03-23",
             "keyword": [
                 "cause of death",
                 "mortality",
@@ -33836,9 +34043,14 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "US",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -34439,11 +34651,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/mqmc-4b9n",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-05-24",
+            "issued": "2021-05-12",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-25",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -34500,9 +34712,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -34908,7 +35119,7 @@
             ],
             "issued": "2021-09-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-18",
+            "modified": "2022-03-24",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -34966,11 +35177,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/muzy-jte6",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -35043,7 +35254,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -35291,11 +35502,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/mwk9-wnfr",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2020-07-22",
+            "temporal": "1/1/2020 - 7/28/2020",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -35368,9 +35580,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -36003,11 +36214,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/ncvk-7amm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2022-02-03",
+            "temporal": "2019",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-03",
+            "modified": "2022-03-24",
             "keyword": [
                 "deaths",
                 "life expectancy",
@@ -36020,7 +36232,7 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "NCHS",
+                "fn": "National Center for Health Statistics",
                 "hasEmail": "mailto:cdcinfo@cdc.gov"
             },
             "publisher": {
@@ -36061,9 +36273,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -36274,12 +36485,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/nfuu-hu6j",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-06-02",
+            "issued": "2021-05-14",
             "@type": "dcat:Dataset",
-            "temporal": "1983-2019",
-            "modified": "2022-01-21",
+            "modified": "2022-03-24",
             "keyword": [
                 "african americans",
                 "alaskan natives",
@@ -36343,9 +36553,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Annually",
             "theme": [
                 "NCHS"
             ]
@@ -36611,11 +36819,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/nr4s-juj3",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-09-22",
+            "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -36677,7 +36885,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -36690,7 +36898,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-20",
+            "modified": "2022-03-27",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -36756,11 +36964,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/nt65-c7a7",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2018-06-15",
+            "issued": "2016-10-20",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-25",
             "keyword": [
                 "injury",
                 "mortality",
@@ -36810,6 +37018,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -37098,11 +37308,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/p56q-jrxg",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2018-01-22",
+            "issued": "2017-12-06",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-26",
             "keyword": [
                 "county",
                 "deaths",
@@ -37154,6 +37364,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
@@ -37451,11 +37662,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/pbkm-d27e",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2017-04-11",
+            "issued": "2016-01-07",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-26",
             "keyword": [
                 "county",
                 "deaths",
@@ -37507,6 +37718,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -37803,11 +38016,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/pj7m-y5uh",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-04-21",
+            "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-25",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -37866,7 +38079,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -38845,13 +39058,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/q3t8-zr7t",
+            "landingPage": "https://www.cdc.gov/nchs/covid19/nhcs.htm",
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-04-20",
+            "issued": "2020-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "2020-03-18/2021-11-30",
+            "modified": "2022-03-22",
             "keyword": [
                 "covid-19",
                 "emergency department",
@@ -38873,7 +39087,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/q3t8-zr7t",
-            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020 and 2021 NHCS are not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 41 hospitals submitting inpatient and 42 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020\u2013September 28, 2021.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
+            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020 and 2021 NHCS are not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 40 hospitals submitting inpatient and 40 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020-November 30, 2021.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
             "title": "COVID-19 Hospital Data from the National Hospital Care Survey",
             "programCode": [
                 "009:020"
@@ -38906,9 +39120,14 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P2M",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -38980,13 +39199,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm",
+            "landingPage": "https://data.cdc.gov/d/q85u-gmyc",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-08-26",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-26",
+            "temporal": "2020 -2021",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -39050,9 +39270,9 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States, Puerto Rico",
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -39615,11 +39835,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/qdcb-uzft",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2020-10-21",
+            "temporal": "2020",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -39686,9 +39907,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -39764,11 +39984,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/qfhf-uhaa",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -39830,7 +40050,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -40757,7 +40977,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-19",
+            "modified": "2022-03-25",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -40944,11 +41164,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/r5pw-bk5t",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-08-03",
+            "issued": "2021-02-11",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-03",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -41023,7 +41243,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -41230,11 +41450,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/r8kw-7aab",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-01-19",
+            "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-18",
+            "modified": "2022-03-25",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -41298,7 +41518,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Daily (Monday-Friday)",
+            "accrualPeriodicity": "R/P1D",
             "theme": [
                 "NCHS"
             ]
@@ -41736,31 +41956,36 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/rg8a-czmp",
+            "landingPage": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm, https://www.cdc.gov/nchs/nvss/births.htm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2017-08-15",
+            "rights": "public",
+            "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "1960-2015",
+            "modified": "2022-03-23",
             "keyword": [
                 "birth rate",
                 "nchs",
+                "teen births",
                 "united states",
+                "u.s. teen birth rate",
                 "women"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "hasEmail": "mailto:births@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/rg8a-czmp",
-            "description": "https://www.cdc.gov/nchs/data-visualization/natality-trends/index.htm",
+            "description": "This dataset assembles all final birth data for females aged 15\u201319, 15\u201317, and 18\u201319 for the United States.",
             "title": "NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2015",
+            "isPartOf": "NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2015",
             "programCode": [
                 "009:020"
             ],
@@ -41792,8 +42017,15 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
@@ -41804,8 +42036,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-03-19",
-            "modified": "2022-03-19",
+            "temporal": "2020-12-13/2022-03-26",
+            "modified": "2022-03-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -42342,7 +42574,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-15",
+            "modified": "2022-03-22",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -42400,11 +42632,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/rpvx-m2md",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2019-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-16",
+            "modified": "2022-03-26",
             "keyword": [
                 "deaths",
                 "drug poisoning",
@@ -42457,6 +42689,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
@@ -42896,13 +43129,20 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/s54h-bixi",
+            "landingPage": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm, https://www.cdc.gov/nchs/nvss/births.htm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-01-27",
+            "rights": "public",
+            "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "1989-2019",
+            "modified": "2022-03-24",
+            "references": [
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_01.pdf",
+                "https://www.cdc.gov/nvsr/nvsr67/nvsr67_01.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_13.pdf"
+            ],
             "keyword": [
                 "birth",
                 "birth rate",
@@ -42915,15 +43155,16 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "hasEmail": "mailto:births@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/s54h-bixi",
-            "description": "This dataset includes live births, birth rates, and fertility rates by Hispanic origin of mother in the United States since 1989. \n\nNational data on births by Hispanic origin exclude data for Louisiana, New Hampshire, and Oklahoma in 1989; New Hampshire and Oklahoma in 1990; and New Hampshire in 1991 and 1992. Birth and fertility rates for the Central and South American population includes other and unknown Hispanic. Information on reporting Hispanic origin is detailed in the Technical Appendix for the 1999 public-use natality data file (see ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/DVS/natality/Nat1999doc.pdf).\n\nSOURCES\n\nNCHS, National Vital Statistics System, birth data (see https://www.cdc.gov/nchs/births.htm); public-use data files (see https://www.cdc.gov/nchs/data_access/VitalStatsOnline.htm); and CDC WONDER (see http://wonder.cdc.gov/).\n\nREFERENCES\n\n1. National Office of Vital Statistics. Vital Statistics of the United States, 1950, Volume I. 1954. Available from: https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf.\n\n2. Hetzel AM. U.S. vital statistics system: major activities and developments, 1950-95. National Center for Health Statistics. 1997. Available from: https://www.cdc.gov/nchs/data/misc/usvss.pdf.\n\n3. National Center for Health Statistics. Vital Statistics of the United States, 1967, Volume I\u2013Natality. 1969. Available from: https://www.cdc.gov/nchs/data/vsus/nat67_1.pdf.\n\n4. Martin JA, Hamilton BE, Osterman MJK, et al. Births: Final data for 2015. National vital statistics reports; vol 66 no 1. Hyattsville, MD: National Center for Health Statistics. 2017. Available from: https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_01.pdf.\n\n5. Martin JA, Hamilton BE, Osterman MJK, Driscoll AK, Drake P. Births: Final data for 2016. National Vital Statistics Reports; vol 67 no 1. Hyattsville, MD: National Center for Health Statistics. 2018. Available from: https://www.cdc.gov/nvsr/nvsr67/nvsr67_01.pdf.\n\n6. Martin JA, Hamilton BE, Osterman MJK, Driscoll AK, Births: Final data for 2018. National vital statistics reports; vol 68 no 13. Hyattsville, MD: National Center for Health Statistics. 2019. Available from: https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_13.pdf.",
+            "description": "This dataset includes live births, birth rates, and fertility rates by Hispanic origin of mother in the United States since 1989. \n\nNational data on births by Hispanic origin exclude data for Louisiana, New Hampshire, and Oklahoma in 1989; New Hampshire and Oklahoma in 1990; and New Hampshire in 1991 and 1992. Birth and fertility rates for the Central and South American population includes other and unknown Hispanic. Information on reporting Hispanic origin is detailed in the Technical Appendix for the 1999 public-use natality data file (see ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/DVS/natality/Nat1999doc.pdf).",
             "title": "NCHS - Natality Measures for Females by Hispanic Origin Subgroup: United States",
+            "isPartOf": "NCHS - Natality Measures for Females by Hispanic Origin Subgroup: United States",
             "programCode": [
                 "009:020"
             ],
@@ -42955,8 +43196,15 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
@@ -43216,11 +43464,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/s9qn-46pq",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-02-01",
+            "temporal": "3/1/2020 - 07/31/2020",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -43280,9 +43529,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -43523,11 +43771,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/sf7h-sajc",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2020-08-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-22",
+            "temporal": "1/1/2020 - 7/4/2020",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -43603,7 +43852,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -43690,11 +43939,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/siwp-yg6m",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -43755,9 +44004,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -44759,11 +45007,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/tdmv-axfy",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-04-15",
+            "issued": "2021-04-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -44837,7 +45085,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -45276,11 +45524,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/tpcp-uiv5",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-04-14",
+            "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -45343,9 +45591,9 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States, Puerto Rico",
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -45420,9 +45668,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-11-18",
+            "issued": "2021-07-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-03-24",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -45435,7 +45683,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/trpk-sp8z",
             "description": "Interactive Biannual Early Release Estimates provide health statistics based on data from the 2019-2020 National Health Interview Survey (NHIS) for selected health topics for adults aged 18 years and over. All estimates are unadjusted percentages based on preliminary data files and are released prior to final data editing and final weighting to provide access to the most recent information from the NHIS. Estimates can be grouped by demographic characteristics (such as age, race and Hispanic origin, or sex). Estimates based on 2019-2020 NHIS quarterly data are available in Interactive Quarterly Early Release Estimates. Estimates based on the 1997\u20132018 NHIS can be found in Previous Early Release Reports on Key Health Indicators.",
@@ -45471,6 +45719,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -46033,11 +46282,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/u6jv-9ijr",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-05-29",
+            "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -46110,7 +46359,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -46722,7 +46971,7 @@
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-19",
+            "modified": "2022-03-25",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -46869,11 +47118,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/uggs-hy5q",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-02-24",
+            "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -46936,7 +47185,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -47050,8 +47299,8 @@
             ],
             "issued": "2022-02-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-03-19",
-            "modified": "2022-03-19",
+            "temporal": "2020-12-13/2022-03-26",
+            "modified": "2022-03-26",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -47541,11 +47790,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/v2g4-wqg2",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-09-02",
+            "issued": "2021-02-26",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-04",
+            "modified": "2022-03-24",
             "keyword": [
                 "deaths",
                 "drug overdose",
@@ -47604,9 +47853,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
             "theme": [
                 "NCHS"
             ]
@@ -47995,11 +48242,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/v6ab-adf5",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2017-08-30",
+            "issued": "2015-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2020-09-08",
+            "modified": "2022-03-26",
             "keyword": [
                 "children",
                 "death rates",
@@ -48050,6 +48297,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
@@ -48266,11 +48514,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/vc9m-u7tv",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2018-03-07",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-26",
             "keyword": [
                 "injury",
                 "mortality",
@@ -48320,6 +48568,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
@@ -48392,11 +48641,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/vdpk-qzpr",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2017-08-15",
+            "issued": "2017-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-25",
             "keyword": [
                 "cancer",
                 "chronic lower respiratory disease",
@@ -48447,6 +48696,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -49168,11 +49418,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/vsak-wrfu",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -49233,7 +49483,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -50040,11 +50290,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/w4jm-mysj",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-09-28",
+            "issued": "2020-09-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -50108,7 +50358,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -50184,11 +50434,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/w56u-89fn",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-03-25",
+            "temporal": "2018-2020",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -50245,9 +50496,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -50260,7 +50510,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-17",
+            "modified": "2022-03-23",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -50506,11 +50756,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/w9j2-ggv5",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2017-08-30",
+            "issued": "2015-07-09",
             "@type": "dcat:Dataset",
-            "modified": "2020-09-08",
+            "modified": "2022-03-26",
             "keyword": [
                 "death rates",
                 "life expectancy",
@@ -50561,6 +50811,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
             ]
@@ -51202,9 +51454,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-08-16",
+            "issued": "2021-06-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-03-24",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -51217,7 +51469,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/wpti-gvdi",
             "description": "Interactive Quarterly Early Release Estimates provide health statistics based on data from the 2019-2020 National Health Interview Survey (NHIS) for selected health topics for adults aged 18 years and over. All estimates are unadjusted percentages based on preliminary data files and are released prior to final data editing and final weighting to provide access to the most recent information from the NHIS. Estimates presented here are based on quarterly data. Estimates based on half-year data, with groupings by demographic characteristics, are available in the Interactive Biannual Early Release Estimates. Estimates based on the 1997\u20132018 NHIS can be found in Previous Early Release Reports on Key Health Indicators.",
@@ -51424,9 +51676,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-02-01",
+            "issued": "2021-11-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-03-24",
             "keyword": [
                 "nhis",
                 "summary health statistics"
@@ -51438,7 +51690,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/wxz7-ekz9",
             "description": "Interactive Summary Health Statistics for Children \u2014 2019-2020 provide annual estimates of selected health topics for children under age 18 years based on final data from the National Health Interview Survey.",
@@ -51795,9 +52047,9 @@
                 "009:20"
             ],
             "issued": "2022-01-22",
-            "temporal": "1988-01-01/2019-12-31",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-10",
+            "temporal": "1988-01-01/2019-12-31",
+            "modified": "2022-03-23",
             "keyword": [
                 "healthy people 2020"
             ],
@@ -51844,9 +52096,14 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "US",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -52070,7 +52327,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-10",
+            "modified": "2022-03-24",
             "keyword": [
                 "2022",
                 "nndss",
@@ -52185,13 +52442,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/xb3p-q62w",
+            "landingPage": "https://www.cdc.gov/nchs/covid19/pulse/reduced-access-to-care.htm",
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-02-10",
+            "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "2020-04-23/2021-07-05",
+            "modified": "2022-03-23",
             "keyword": [
                 "covid-19",
                 "delayed care",
@@ -52240,10 +52498,14 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Bi-weekly",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -52310,11 +52572,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/xbxb-epbu",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2018-06-04",
+            "issued": "2017-12-06",
             "@type": "dcat:Dataset",
-            "modified": "2020-06-05",
+            "modified": "2022-03-26",
             "keyword": [
                 "deaths",
                 "drug poisoning",
@@ -52367,6 +52629,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
@@ -52488,7 +52751,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-03-17",
+            "modified": "2022-03-24",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -52550,11 +52813,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/xkb8-kh2a",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2019-04-17",
+            "issued": "2018-03-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-25",
             "keyword": [
                 "cocaine",
                 "deaths",
@@ -52619,7 +52882,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Monthly",
+            "accrualPeriodicity": "R/P1M",
             "theme": [
                 "NCHS"
             ]
@@ -52628,11 +52891,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/xkkf-xrst",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -52691,9 +52954,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -52764,11 +53026,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/xmrr-rw5u",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-04-28",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-24",
+            "temporal": "1/1/2020 - 12/31/2020",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -52829,7 +53092,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -53516,13 +53779,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm",
+            "landingPage": "https://data.cdc.gov/d/xy7w-35q7",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-09-15",
+            "temporal": "2015 - 2021",
             "@type": "dcat:Dataset",
-            "modified": "2021-09-15",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -53583,9 +53847,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -53674,13 +53937,28 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/y268-sna3",
+            "landingPage": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm, https://www.cdc.gov/nchs/nvss/births.htm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2018-07-09",
+            "rights": "public",
+            "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "1990-2019",
+            "modified": "2022-03-23",
+            "references": [
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr51/nvsr51_12.pdf",
+                "ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/NVSR/62_09/",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr63/nvsr63_04.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr62/nvsr62_09.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_01.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr64/nvsr64_12.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_01.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr67/nvsr67_01.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr67/nvsr67_08-508.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_13-508.pdf",
+                "https://www.cdc.gov/nchs/data/nvsr/nvsr70/nvsr70-02-508.pdf"
+            ],
             "keyword": [
                 "nchs",
                 "state teen birth trends",
@@ -53692,7 +53970,7 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "hasEmail": "mailto:births@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -53701,6 +53979,7 @@
             "identifier": "https://data.cdc.gov/api/views/y268-sna3",
             "description": "This dataset assembles all final birth data for females aged 15\u201319, 15\u201317, and 18\u201319 for the United States and each of the 50 states.\r\n\r\nData are based on 100% of birth certificates filed in all 50 states. All the teen birth rates in this dashboard reflect the latest revisions to Census populations (i.e., the intercensal populations) and thus provide a consistent series of accurate rates for the past 25 years. The denominators of the teen birth rates for 1991\u20131999 have been revised to incorporate the results of the 2000 Census. The denominators of the teen birth rates for 2001\u20132009 have revised to incorporate the results of the 2010 Census.",
             "title": "NCHS - U.S. and State Trends on Teen Births",
+            "isPartOf": "Teen births by state 1990 through most current data",
             "programCode": [
                 "009:020"
             ],
@@ -53732,8 +54011,15 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
@@ -54008,11 +54294,11 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/y5bj-9g5w",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-05-29",
+            "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-16",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -54072,7 +54358,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -54675,13 +54961,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/yni7-er2q",
+            "landingPage": "https://www.cdc.gov/nchs/covid19/pulse/mental-health-care.htm",
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-02-10",
+            "issued": "2020-09-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "2020-08-19/2022-03-14",
+            "modified": "2022-03-23",
             "keyword": [
                 "covid-19",
                 "mental health"
@@ -54729,21 +55016,25 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Bi-weekly",
+            "accrualPeriodicity": "R/P2W",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/ynw2-4viq",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2021-04-29",
+            "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-17",
+            "modified": "2022-03-25",
             "keyword": [
                 "age",
                 "age group",
@@ -54807,7 +55098,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -54816,11 +55107,12 @@
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/ypxr-mz8e",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
             "issued": "2021-04-28",
+            "temporal": "2020",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-06",
+            "modified": "2022-03-24",
             "keyword": [
                 "age",
                 "age group",
@@ -54879,9 +55171,8 @@
                     "@type": "dcat:Distribution"
                 }
             ],
-            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Ad hoc",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -54955,13 +55246,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/yt7u-eiyg",
+            "landingPage": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm, https://www.cdc.gov/nchs/nvss/births.htm",
             "bureauCode": [
-                "009:00"
+                "009:20"
             ],
-            "issued": "2020-01-27",
+            "issued": "2015-12-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "temporal": "1940-2019",
+            "modified": "2022-03-23",
             "keyword": [
                 "age of mother",
                 "birth rates",
@@ -54971,15 +55263,16 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "hasEmail": "mailto:births@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/yt7u-eiyg",
-            "description": "This dataset includes birth rates for females by age group in the United States since 1940.\n\nThe number of states in the reporting area differ historically. In 1915 (when the birth registration area was established), 10 states and the District of Columbia reported births; by 1933, 48 states and the District of Columbia were reporting births, with the last two states, Alaska and Hawaii, added to the registration area in 1959 and 1960, when these regions gained statehood. Reporting area information is detailed in references 1 and 2 below. Trend lines for 1909\u20131958 are based on live births adjusted for under-registration; beginning with 1959, trend lines are based on registered live births.\n\nSOURCES\n\nNCHS, National Vital Statistics System, birth data (see https://www.cdc.gov/nchs/births.htm); public-use data files (see https://www.cdc.gov/nchs/data_access/VitalStatsOnline.htm); and CDC WONDER (see http://wonder.cdc.gov/).\n\nREFERENCES\n\n1. National Office of Vital Statistics. Vital Statistics of the United States, 1950, Volume I. 1954. Available from: https://www.cdc.gov/nchs/data/vsus/vsus_1950_1.pdf.\n\n2. Hetzel AM. U.S. vital statistics system: major activities and developments, 1950-95. National Center for Health Statistics. 1997. Available from: https://www.cdc.gov/nchs/data/misc/usvss.pdf.\n\n3. National Center for Health Statistics. Vital Statistics of the United States, 1967, Volume I\u2013Natality. 1969. Available from: https://www.cdc.gov/nchs/data/vsus/nat67_1.pdf.\n\n4. Martin JA, Hamilton BE, Osterman MJK, et al. Births: Final data for 2015. National vital statistics reports; vol 66 no 1. Hyattsville, MD: National Center for Health Statistics. 2017. Available from: https://www.cdc.gov/nchs/data/nvsr/nvsr66/nvsr66_01.pdf.\n\n5. Martin JA, Hamilton BE, Osterman MJK, Driscoll AK, Drake P. Births: Final data for 2016. National Vital Statistics Reports; vol 67 no 1. Hyattsville, MD: National Center for Health Statistics. 2018. Available from: https://www.cdc.gov/nvsr/nvsr67/nvsr67_01.pdf.\n\n6. Martin JA, Hamilton BE, Osterman MJK, Driscoll AK, Births: Final data for 2018. National vital statistics reports; vol 68 no 13. Hyattsville, MD: National Center for Health Statistics. 2019. Available from: https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_13.pdf.",
+            "description": "This dataset includes birth rates for females by age group in the United States since 1940.\n\nThe number of states in the reporting area differ historically. In 1915 (when the birth registration area was established), 10 states and the District of Columbia reported births; by 1933, 48 states and the District of Columbia were reporting births, with the last two states, Alaska and Hawaii, added to the registration area in 1959 and 1960, when these regions gained statehood. Reporting area information is detailed in references 1 and 2 below. Trend lines for 1909\u20131958 are based on live births adjusted for under-registration; beginning with 1959, trend lines are based on registered live births.",
             "title": "NCHS - Birth Rates for Females by Age Group: United States",
+            "isPartOf": "NCHS - Birth Rates for Females by Age Group: United States",
             "programCode": [
                 "009:020"
             ],
@@ -55011,8 +55304,15 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
