@@ -140,13 +140,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/25m4-6qqq",
+            "landingPage": "https://www.cdc.gov/nchs/nhis/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-07",
             "keyword": [
                 "nhis",
                 "summary health statistics"
@@ -154,7 +154,7 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:niw2@cdc.gov"
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -696,7 +696,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-04-04",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -762,9 +762,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-01-12",
+            "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-03",
+            "modified": "2022-04-10",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -955,14 +955,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/2m93-xvra",
+            "landingPage": "https://www.cdc.gov/nchs/hus",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-06-07",
             "@type": "dcat:Dataset",
             "temporal": "1997/2019",
-            "modified": "2022-03-31",
+            "modified": "2022-04-07",
             "keyword": [
                 "african americans",
                 "age",
@@ -1190,7 +1190,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-07",
+            "modified": "2022-04-04",
             "keyword": [
                 "legislation",
                 "osh",
@@ -1521,7 +1521,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-07",
+            "modified": "2022-04-04",
             "keyword": [
                 "legislation",
                 "osh",
@@ -1926,7 +1926,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "age",
                 "all causes",
@@ -2128,7 +2128,7 @@
             "issued": "2018-02-07",
             "@type": "dcat:Dataset",
             "temporal": "2003/2018",
-            "modified": "2022-03-29",
+            "modified": "2022-04-08",
             "references": [
                 "http://www.cdc.gov/nchs/nvss/dvs_data_release.htm",
                 "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
@@ -2284,14 +2284,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/3j26-kg6d",
+            "landingPage": "https://www.cdc.gov/nchs/covid19/npals.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-07-12",
-            "temporal": "2020-01-01/2021-12-31",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-28",
+            "temporal": "2020-01-01/2021-12-31",
+            "modified": "2022-04-04",
             "keyword": [
                 "adult day services centers",
                 "covid-19",
@@ -2341,9 +2341,14 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "US",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -2590,7 +2595,7 @@
             "issued": "2022-04-01",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-04-01",
+            "modified": "2022-04-08",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2610,7 +2615,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "This public use dataset has 11 data elements reflecting United States COVID-19 community  levels for all available counties. This dataset contains the same values used to display information available on the COVID Data Tracker at:   https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\nThe data are updated weekly.  \nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals. \nSee https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html for more information. \n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/2022, thus the values were previously missing for records released the week prior.",
+            "description": "This public use dataset has 11 data elements reflecting United States COVID-19 community  levels for all available counties. This dataset contains the same values used to display information available on the COVID Data Tracker at:   https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\nThe data are updated weekly.  \nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals. \nSee https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html for more information. \n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/2022, thus the values were previously missing for records released the week prior.\n\n<b>April 7, 2022:</b> Updates made to data released on 3/24/2022 for Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands to correct a data mapping error.",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -2652,14 +2657,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/3nzu-udr9",
+            "landingPage": "https://www.cdc.gov/nchs/hus",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-03-11",
             "temporal": "1988/2019",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-31",
+            "modified": "2022-04-07",
             "keyword": [
                 "adult",
                 "african americans",
@@ -2799,7 +2804,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-31",
+            "modified": "2022-04-04",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -3290,7 +3295,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-31",
+            "modified": "2022-04-04",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -4835,7 +4840,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "age",
                 "age group",
@@ -6225,7 +6230,7 @@
             ],
             "issued": "2022-02-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-02",
+            "modified": "2022-04-09",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -6989,7 +6994,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-04",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -10604,7 +10609,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-03",
+            "modified": "2022-04-10",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -10845,7 +10850,7 @@
             ],
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-04-08",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -10993,15 +10998,15 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-12-08",
+            "modified": "2022-04-06",
             "keyword": [
                 "abcs",
                 "bactfacts"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "Active Bacterial Core Surveillance",
+                "hasEmail": "mailto:abcs@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -11945,8 +11950,8 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-02",
-            "modified": "2022-04-02",
+            "temporal": "2020-12-13/2022-04-09",
+            "modified": "2022-04-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -12018,7 +12023,7 @@
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
             "temporal": "2020-06-09/2021-06-30",
-            "modified": "2022-04-01",
+            "modified": "2022-04-07",
             "keyword": [
                 "covid-19",
                 "rands"
@@ -12146,7 +12151,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-04-08",
             "references": [
                 "https://chronicdata.cdc.gov/d/sfei-pddr"
             ],
@@ -12277,14 +12282,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/95ax-ymtc",
+            "landingPage": "https://www.cdc.gov/nchs/hus",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-06-07",
             "@type": "dcat:Dataset",
             "temporal": "1999/2019",
-            "modified": "2022-03-30",
+            "modified": "2022-04-08",
             "keyword": [
                 "african americans",
                 "age",
@@ -12363,7 +12368,7 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-12-08",
+            "modified": "2022-04-06",
             "keyword": [
                 "abcs",
                 "bactfacts"
@@ -12821,7 +12826,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "age",
                 "age group",
@@ -13079,7 +13084,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-06",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -13226,14 +13231,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/9gay-j69q",
+            "landingPage": "https://www.cdc.gov/nchs/hus",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-06-02",
             "@type": "dcat:Dataset",
             "temporal": "1988/2019",
-            "modified": "2022-03-31",
+            "modified": "2022-04-07",
             "keyword": [
                 "adolescent",
                 "adult",
@@ -13377,7 +13382,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -13504,14 +13509,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/9j2v-jamp",
+            "landingPage": "https://www.cdc.gov/nchs/hus",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-05-14",
             "@type": "dcat:Dataset",
             "temporal": "1950/2019",
-            "modified": "2022-03-30",
+            "modified": "2022-04-07",
             "keyword": [
                 "african americans",
                 "age",
@@ -13838,7 +13843,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-04-02",
+            "modified": "2022-04-09",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -13904,7 +13909,7 @@
             ],
             "issued": "2020-09-17",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-16",
+            "modified": "2022-04-06",
             "keyword": [
                 "asd",
                 "autism",
@@ -14298,15 +14303,15 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-12-08",
+            "modified": "2022-04-06",
             "keyword": [
                 "abcs",
                 "bactfacts"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "Active Bacterial Core surveillance",
+                "hasEmail": "mailto:abcs@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -15436,7 +15441,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-25",
+            "modified": "2022-04-08",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17099,7 +17104,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-23",
+            "modified": "2022-04-05",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -17602,7 +17607,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-02",
+            "modified": "2022-04-09",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -17874,7 +17879,7 @@
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
             "temporal": "2014/2019",
-            "modified": "2022-04-01",
+            "modified": "2022-04-04",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -20401,14 +20406,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/dmzy-x2ad",
+            "landingPage": "https://www.cdc.gov/nchs/hus",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-06-07",
             "@type": "dcat:Dataset",
             "temporal": "1997-01-01/2018-12-31",
-            "modified": "2022-03-30",
+            "modified": "2022-04-07",
             "keyword": [
                 "african americans",
                 "age",
@@ -21837,7 +21842,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-07",
+            "modified": "2022-04-04",
             "keyword": [
                 "legislation",
                 "licensure",
@@ -22640,15 +22645,15 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-12-08",
+            "modified": "2022-04-06",
             "keyword": [
                 "abcs",
                 "bactfacts"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "Active Bacterial Core surveillance",
+                "hasEmail": "mailto:abcs@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -25310,6 +25315,69 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/g653-rqe2",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-04-08",
+            "@type": "dcat:Dataset",
+            "modified": "2022-04-10",
+            "keyword": [
+                "wastewater"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Wastewater Surveillance System",
+                "hasEmail": "mailto:nwss@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/g653-rqe2",
+            "description": "This dataset provides a complete time history of SARS-CoV-2 concentrations in wastewater for each sampling location. All dates - even when no wastewater sample was collected at a given sampling location - are provided for each sampling location since wastewater sampling started at that location.",
+            "title": "NWSS Public SARS-CoV-2 Concentration in Wastewater Data",
+            "programCode": [
+                "009:028"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/g653-rqe2/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/g653-rqe2/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/g653-rqe2/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/g653-rqe2/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/g653-rqe2/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/g653-rqe2/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/g653-rqe2/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "accrualPeriodicity": "Daily",
+            "theme": [
+                "Public Health Surveillance"
+            ],
+            "language": [
+                "English"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/g6fu-zp23",
             "bureauCode": [
                 "009:20"
@@ -25838,7 +25906,7 @@
             ],
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-08",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -26005,7 +26073,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-03-30",
+            "modified": "2022-04-06",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -27117,7 +27185,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-04-08",
             "keyword": [
                 "legislation",
                 "osh",
@@ -27247,7 +27315,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-07",
+            "modified": "2022-04-08",
             "keyword": [
                 "legislation",
                 "osh",
@@ -27379,7 +27447,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -27477,7 +27545,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27605,6 +27673,74 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/hm3s-vk7u",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-12-10",
+            "@type": "dcat:Dataset",
+            "modified": "2022-04-04",
+            "keyword": [
+                "covid-19",
+                "executive order",
+                "government order",
+                "legal epidemiology",
+                "mitigation",
+                "proclamation",
+                "public health order",
+                "shelter-in-place",
+                "social distancing",
+                "stay-at-home"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "T.J. Pierce",
+                "hasEmail": "mailto:pwc2@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Environmental Public Health Tracking"
+            },
+            "identifier": "https://data.cdc.gov/api/views/hm3s-vk7u",
+            "description": "State and territorial executive orders, administrative orders, resolutions, and proclamations are collected from government websites and cataloged and coded using Microsoft Excel by one coder with one or more additional coders conducting quality assurance.\n\nData were collected to determine when individuals in states and territories were subject to executive orders, administrative orders, resolutions, and proclamations for COVID-19 that require or recommend people stay in their homes. Data consists exclusively of state and territorial orders, many of which apply to specific counties within their respective state or territory; therefore, data is broken down to the county level.\n\nThese data are derived from the publicly available state and territorial executive orders, administrative orders, resolutions, and proclamations (\u201corders\u201d) for COVID-19 that expressly require or recommend individuals stay at home found by the CDC, COVID-19 Community Intervention and At-Risk Task Force, Monitoring and Evaluation Team & CDC, Center for State, Tribal, Local, and Territorial Support, Public Health Law Program from March 15, 2020 through May 31, 2021. These data will be updated as new orders are collected. Any orders not available through publicly accessible websites are not included in these data. Only official copies of the documents or, where official copies were unavailable, official press releases from government websites describing requirements were coded; news media reports on restrictions were excluded. Recommendations not included in an order are not included in these data. These data do not include mandatory business closures, curfews, or limitations on public or private gatherings. These data do not necessarily represent an official position of the Centers for Disease Control and Prevention.",
+            "title": "U.S. State and Territorial Stay-At-Home Orders: March 15, 2020 \u2013 May 31, 2021 by County by Day",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/hm3s-vk7u/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/hm3s-vk7u/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hm3s-vk7u/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/hm3s-vk7u/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hm3s-vk7u/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/hm3s-vk7u/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hm3s-vk7u/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Policy Surveillance"
             ]
         },
         {
@@ -28708,7 +28844,7 @@
             ],
             "issued": "2020-10-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-04-08",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -29434,7 +29570,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-07",
+            "modified": "2022-04-08",
             "keyword": [
                 "fire safety",
                 "legislation",
@@ -29499,7 +29635,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-07",
+            "modified": "2022-04-04",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -29767,7 +29903,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-25",
+            "modified": "2022-04-08",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -30442,8 +30578,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-02",
-            "modified": "2022-04-02",
+            "temporal": "2020-12-13/2022-04-09",
+            "modified": "2022-04-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -30933,7 +31069,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "age",
                 "age group",
@@ -31867,7 +32003,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32308,7 +32444,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-31",
+            "modified": "2022-04-07",
             "keyword": [
                 "cares act",
                 "health system",
@@ -32506,7 +32642,7 @@
             "issued": "2021-10-18",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-15/2021-05-05",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "covid-19",
                 "physicians"
@@ -32639,8 +32775,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-02",
-            "modified": "2022-04-02",
+            "temporal": "2020-12-13/2022-04-09",
+            "modified": "2022-04-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -32709,14 +32845,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/km5s-4339",
+            "landingPage": "https://www.cdc.gov/nchs/hus",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-06-02",
             "@type": "dcat:Dataset",
             "temporal": "1984-01-01/2019-12-31",
-            "modified": "2022-03-30",
+            "modified": "2022-04-07",
             "keyword": [
                 "african americans",
                 "age",
@@ -32927,7 +33063,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32998,7 +33134,7 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-04",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -33257,7 +33393,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "age",
                 "age group",
@@ -33591,7 +33727,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-15",
+            "modified": "2022-04-08",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -34433,10 +34569,10 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-02-28",
-            "modified": "2022-03-04",
+            "temporal": "2020-01-01/2022-04-04",
+            "modified": "2022-04-08",
             "references": [
-                "https://data.cdc.gov/api/views/mbd7-r32t/files/5fd549e7-ed0c-4ab1-98f4-3bf512d6c5b1?download=true&filename=utility_summary_ridura.pdf"
+                "https://data.cdc.gov/api/views/mbd7-r32t/files/4e7ee941-4e38-4570-bda7-8aa8536c14e7?download=true&filename=utility_summary_ridura.pdf"
             ],
             "keyword": [
                 "cases",
@@ -34457,7 +34593,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/mbd7-r32t",
-            "description": "<b>Beginning March 1, 2022, the \"COVID-19 Case Surveillance Restricted Access Detailed Data\" will be updated on a monthly basis.</b>\n\nThis case surveillance publicly available dataset has 32 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors. This dataset requires a registration process and a data use agreement.\n<br>\n<h4><b>CDC has three COVID-19 case surveillance datasets:</b></h4>\n\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">COVID-19 Case Surveillance Public Use Data with Geography</a>: Public use, patient-level dataset with clinical data (including symptoms), demographics, and county and state of residence. (19 data elements) <br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">COVID-19 Case Surveillance Public Use Data</a>: Public use, patient-level dataset with clinical and symptom data and demographics, with no geographic data. (12 data elements)<br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">COVID-19 Case Surveillance Restricted Access Data</a>: Restricted access, patient-level dataset with clinical (including symptoms), demographics, and county and state of residence. Access requires a registration process and a data use agreement. (32 data elements)<br>\n\n<b>Requesting Access to the COVID-19 Case Surveillance Restricted Access Detailed Data</b>\n\nPlease review the following documents to determine your interest in accessing the COVID-19 Case Surveillance Restricted Access Detailed Data file:\n\n1) <a href=\"https://data.cdc.gov/api/views/mbd7-r32t/files/7459a687-9fc8-4580-b812-745c0dff1ced?download=true&filename=summary_guidance_and_limitations_information_and_restricted_access_data_use_agreement_information.pdf\">CDC COVID-19 Case Surveillance Restricted Access Detailed Data: Summary, Guidance, Limitations Information, and Restricted Access Data Use Agreement Information</a>\n\n2) <a href=\"https://data.cdc.gov/api/views/mbd7-r32t/files/2a0d9470-3137-4ce6-8614-f4cead25ecf5?download=true&filename=data_dictionary_covid_cases_restricted_detailed.xlsx\">Data Dictionary for the COVID-19 Case Surveillance Restricted Access Detailed Data</a>\n\nThe next step is to complete the Registration Information and Data Use Restrictions Agreement (<a href=\"https://app.smartsheetgov.com/b/form/20e9cf9b42d04a92a67585043cf34fbe\">RIDURA</a>). Once complete, CDC will review your agreement. After access is granted, Ask SRRG (<a href=\"mailto:eocevent394@cdc.gov\">eocevent394@cdc.gov</a>) will email you information about how to access the data through GitHub. If you have questions about obtaining access, email <a href=\"mailto:eocevent394@cdc.gov\">eocevent394@cdc.gov</a>. \n\n\n<h4><b>Overview</b></h4>\n\nThe COVID-19 case surveillance database includes patient-level data reported by U.S. states and autonomous reporting entities, including New York City, the District of Columbia, as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://wwwn.cdc.gov/nndss/conditions/\"> Nationally Notifiable Condition List </a> and classified as \u201cimmediately notifiable, urgent (within 24 hours)\u201d by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (Interim-20-ID-01). CSTE updated the position statement on August 5, 2020, to clarify the interpretation of antigen detection tests and serologic test results within the case classification. The statement also recommended that all states and territories enact laws to make COVID-19 reportable in their jurisdiction, and that jurisdictions conducting surveillance should submit case notifications to CDC. \n\nCOVID-19 case surveillance data are collected by jurisdictions and a",
+            "description": "<b>April 7, 2022:</b> An adjustment was made to CDC\u2019s cleaning algorithm for COVID-19 line level case notification data.  An assumption in CDC's algorithm led to misclassifying deaths that were not COVID-19 related. The algorithm has since been revised, and this dataset update reflects corrected individual level information about death status for all cases collected to date. \n\nThis case surveillance publicly available dataset has 32 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors. This dataset requires a registration process and a data use agreement.\n<br>\n<h4><b>CDC has three COVID-19 case surveillance datasets:</b></h4>\n\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">COVID-19 Case Surveillance Public Use Data with Geography</a>: Public use, patient-level dataset with clinical data (including symptoms), demographics, and county and state of residence. (19 data elements) <br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">COVID-19 Case Surveillance Public Use Data</a>: Public use, patient-level dataset with clinical and symptom data and demographics, with no geographic data. (12 data elements)<br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">COVID-19 Case Surveillance Restricted Access Data</a>: Restricted access, patient-level dataset with clinical (including symptoms), demographics, and county and state of residence. Access requires a registration process and a data use agreement. (32 data elements)<br>\n\n<b>Requesting Access to the COVID-19 Case Surveillance Restricted Access Detailed Data</b>\n\nPlease review the following documents to determine your interest in accessing the COVID-19 Case Surveillance Restricted Access Detailed Data file:\n\n1) <a href=\"https://data.cdc.gov/api/views/mbd7-r32t/files/7459a687-9fc8-4580-b812-745c0dff1ced?download=true&filename=summary_guidance_and_limitations_information_and_restricted_access_data_use_agreement_information.pdf\">CDC COVID-19 Case Surveillance Restricted Access Detailed Data: Summary, Guidance, Limitations Information, and Restricted Access Data Use Agreement Information</a>\n\n2) <a href=\"https://data.cdc.gov/api/views/mbd7-r32t/files/2a0d9470-3137-4ce6-8614-f4cead25ecf5?download=true&filename=data_dictionary_covid_cases_restricted_detailed.xlsx\">Data Dictionary for the COVID-19 Case Surveillance Restricted Access Detailed Data</a>\n\nThe next step is to complete the Registration Information and Data Use Restrictions Agreement (<a href=\"https://app.smartsheetgov.com/b/form/20e9cf9b42d04a92a67585043cf34fbe\">RIDURA</a>). Once complete, CDC will review your agreement. After access is granted, Ask SRRG (<a href=\"mailto:eocevent394@cdc.gov\">eocevent394@cdc.gov</a>) will email you information about how to access the data through GitHub. If you have questions about obtaining access, email <a href=\"mailto:eocevent394@cdc.gov\">eocevent394@cdc.gov</a>. \n\n\n<h4><b>Overview</b></h4>\n\nThe COVID-19 case surveillance database includes patient-level data reported by U.S. states and autonomous reporting entities, including New York City, the District of Columbia, as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://wwwn.cdc.gov/nndss/conditions/\"> Nationally Notifiable Condition List </a> and classified as \u201cimmediately notifiable, urgent (within 24 hours)\u201d by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (Interim-20-ID-01). CSTE updated the position statement on August 5, 2020, to clarify the interpretation of antigen detection tests and serologic test results within the case classification. The statement also recommended that a",
             "title": "COVID-19 Case Surveillance Restricted Access Detailed Data",
             "describedByType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             "programCode": [
@@ -35733,10 +35869,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-07-23",
+            "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -36659,8 +36795,8 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-02-28",
-            "modified": "2022-03-04",
+            "temporal": "2020-01-01/2022-04-04",
+            "modified": "2022-04-08",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/utility_summary_public_geo.pdf"
             ],
@@ -36684,7 +36820,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/n8mc-b4w4",
-            "description": "<b>Beginning March 1, 2022, the \"COVID-19 Case Surveillance Public Use Data with Geography\" will be updated on a monthly basis.</b>\n\nThis case surveillance public use dataset has 19 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors.\n\nCurrently, CDC provides the public with three versions of COVID-19 case surveillance line-listed data: this <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">19 data element dataset with geography</a>, a <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">12 data element public use dataset</a>, and a <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">32 data element restricted access dataset</a>.\n\nThe following apply to the public use datasets and the restricted access dataset:\n- Data elements can be found on the COVID-19 case report form located at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf\">www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf</a>.\n- Data are considered provisional by CDC and are subject to change until the data are reconciled and verified with the state and territorial data providers.\n- Some data are suppressed to protect individual privacy.\n- Datasets will include all cases with the earliest date available in each record (date received by CDC or date related to illness/specimen collection) at least 14 days prior to the creation of the previously updated datasets. This 14-day lag allows case reporting to be stabilized and ensure that time-dependent outcome data are accurately captured.\n- Datasets are updated monthly.\n- Datasets are created using CDC\u2019s <a href=\"https://www.cdc.gov/maso/policy/policy385.pdf\">Policy on Public Health Research and Nonresearch Data Management and Access</a> and include protections designed to protect individual privacy.\n- For more information about data collection and reporting, please see <a href=\"https://wwwn.cdc.gov/nndss/data-collection.html\">wwwn.cdc.gov/nndss/data-collection.html</a>.\n- For more information about the COVID-19 case surveillance data, please see <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\">www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html</a>.\n\n<b>Overview</b>\n\nThe COVID-19 case surveillance database includes patient-level data reported by U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://wwwn.cdc.gov/nndss/conditions/\">Nationally Notifiable Condition List</a> and classified as \"immediately notifiable, urgent (within 24 hours)\" by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (<a href=\"https://www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-01_COVID-19_NO.pdf\">Interim-20-ID-01</a>). CSTE updated the position statement on August 5, 2020 to clarify the interpretation of antigen detection tests and serologic test results within the case classification (<a href=\"https://www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-02_COVID-19.pdf\">Interim-20-ID-02</a>). The statement also recommended that all states and territories enact laws to make COVID-19 reportable in their jurisdiction, and that jurisdictions conducting surveillance should submit case notifications to CDC. COVID-19 case surveillance data collected by jurisdictions are shared voluntarily with CDC.\nFor more information, visit: <a href=\"https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/08/05/\">wwwn.cdc.gov/nndss/conditions/coronavirus-disease-201",
+            "description": "<b>April 7, 2022:</b> An adjustment was made to CDC\u2019s cleaning algorithm for COVID-19 line level case notification data.  An assumption in CDC's algorithm led to misclassifying deaths that were not COVID-19 related. The algorithm has since been revised, and this dataset update reflects corrected individual level information about death status for all cases collected to date.\n\nThis case surveillance public use dataset has 19 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors.\n\nCurrently, CDC provides the public with three versions of COVID-19 case surveillance line-listed data: this <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">19 data element dataset with geography</a>, a <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">12 data element public use dataset</a>, and a <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">32 data element restricted access dataset</a>.\n\nThe following apply to the public use datasets and the restricted access dataset:\n- Data elements can be found on the COVID-19 case report form located at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf\">www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf</a>.\n- Data are considered provisional by CDC and are subject to change until the data are reconciled and verified with the state and territorial data providers.\n- Some data are suppressed to protect individual privacy.\n- Datasets will include all cases with the earliest date available in each record (date received by CDC or date related to illness/specimen collection) at least 14 days prior to the creation of the previously updated datasets. This 14-day lag allows case reporting to be stabilized and ensure that time-dependent outcome data are accurately captured.\n- Datasets are updated monthly.\n- Datasets are created using CDC\u2019s <a href=\"https://www.cdc.gov/maso/policy/policy385.pdf\">Policy on Public Health Research and Nonresearch Data Management and Access</a> and include protections designed to protect individual privacy.\n- For more information about data collection and reporting, please see <a href=\"https://wwwn.cdc.gov/nndss/data-collection.html\">wwwn.cdc.gov/nndss/data-collection.html</a>.\n- For more information about the COVID-19 case surveillance data, please see <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\">www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html</a>.\n\n<b>Overview</b>\n\nThe COVID-19 case surveillance database includes patient-level data reported by U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://wwwn.cdc.gov/nndss/conditions/\">Nationally Notifiable Condition List</a> and classified as \"immediately notifiable, urgent (within 24 hours)\" by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (<a href=\"https://www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-01_COVID-19_NO.pdf\">Interim-20-ID-01</a>). CSTE updated the position statement on August 5, 2020 to clarify the interpretation of antigen detection tests and serologic test results within the case classification (<a href=\"https://www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-02_COVID-19.pdf\">Interim-20-ID-02</a>). The statement also recommended that all states and territories enact laws to make COVID-19 reportable in their jurisdiction, and that jurisdictions conducting surveillance should submit case notifications to CDC. COVID-19 case surveillance data collec",
             "title": "COVID-19 Case Surveillance Public Use Data with Geography",
             "describedByType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             "programCode": [
@@ -36913,7 +37049,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-07",
+            "modified": "2022-04-04",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -37039,13 +37175,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/nfuu-hu6j",
+            "landingPage": "https://www.cdc.gov/nchs/hus",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-05-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-07",
             "keyword": [
                 "african americans",
                 "alaskan natives",
@@ -37435,7 +37571,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "age",
                 "age group",
@@ -37510,7 +37646,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-03",
+            "modified": "2022-04-10",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -38567,7 +38703,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-07",
+            "modified": "2022-04-08",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -38632,7 +38768,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -40600,7 +40736,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -40676,7 +40812,7 @@
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
             "temporal": "2020-06-09/2021-06-30",
-            "modified": "2022-04-01",
+            "modified": "2022-04-07",
             "keyword": [
                 "covid-19",
                 "rands"
@@ -41595,7 +41731,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-25",
+            "modified": "2022-04-08",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -42125,7 +42261,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-08",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -42704,10 +42840,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-01-12",
+            "issued": "2022-04-05",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-02",
-            "modified": "2022-04-02",
+            "temporal": "2020-12-13/2022-04-09",
+            "modified": "2022-04-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -43244,7 +43380,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-29",
+            "modified": "2022-04-05",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -44612,7 +44748,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-06",
             "keyword": [
                 "age",
                 "age group",
@@ -44753,7 +44889,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-03",
+            "modified": "2022-04-06",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -45900,7 +46036,7 @@
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
             "temporal": "2020-06-09/2021-06-30",
-            "modified": "2022-04-01",
+            "modified": "2022-04-07",
             "keyword": [
                 "covid-19",
                 "rands"
@@ -46203,7 +46339,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "age",
                 "age group",
@@ -46339,13 +46475,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/trpk-sp8z",
+            "landingPage": "https://wwwn.cdc.gov/NHISDataQueryTool/ER_Biannual/index_biannual.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-07-07",
+            "temporal": "2019/2021",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-08",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -46354,14 +46491,14 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:niw2@cdc.gov"
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/trpk-sp8z",
-            "description": "Interactive Biannual Early Release Estimates provide health statistics based on data from the 2019-2020 National Health Interview Survey (NHIS) for selected health topics for adults aged 18 years and over. All estimates are unadjusted percentages based on preliminary data files and are released prior to final data editing and final weighting to provide access to the most recent information from the NHIS. Estimates can be grouped by demographic characteristics (such as age, race and Hispanic origin, or sex). Estimates based on 2019-2020 NHIS quarterly data are available in Interactive Quarterly Early Release Estimates. Estimates based on the 1997\u20132018 NHIS can be found in Previous Early Release Reports on Key Health Indicators.",
+            "description": "Interactive Biannual Early Release Estimates provide health statistics based on data from the 2019-2021 National Health Interview Survey (NHIS) for selected health topics for adults aged 18 years and over. All estimates are unadjusted percentages based on preliminary data files and are released prior to final data editing and final weighting to provide access to the most recent information from the NHIS. Estimates can be grouped by demographic characteristics (such as age, race and Hispanic origin, or sex). Estimates based on 2019-2020 NHIS quarterly data are available in Interactive Quarterly Early Release Estimates. Estimates based on the 1997\u20132018 NHIS can be found in Previous Early Release Reports on Key Health Indicators.",
             "title": "NHIS Interactive Biannual Early Release Estimates",
             "programCode": [
                 "009:020"
@@ -46395,6 +46532,7 @@
                 }
             ],
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P6M",
             "theme": [
                 "NCHS"
             ]
@@ -46961,7 +47099,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -47646,7 +47784,7 @@
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-08",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -47797,7 +47935,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -47974,8 +48112,8 @@
             ],
             "issued": "2022-02-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-02",
-            "modified": "2022-04-02",
+            "temporal": "2020-12-13/2022-04-09",
+            "modified": "2022-04-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -48046,7 +48184,7 @@
             ],
             "issued": "2021-11-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-08",
             "keyword": [
                 "covid-19",
                 "covid-19 vaccination",
@@ -48347,15 +48485,15 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-12-08",
+            "modified": "2022-04-06",
             "keyword": [
                 "abcs",
                 "bactfacts"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "Active Bacterial Core surveillance",
+                "hasEmail": "mailto:abcs@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -48669,7 +48807,7 @@
             ],
             "issued": "2020-05-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-10",
+            "modified": "2022-04-07",
             "references": [
                 "https://www.cms.gov/files/document/Accelerated-and-Advanced-Payments-Fact-Sheet.pdf"
             ],
@@ -48799,13 +48937,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/v5gm-kvkn",
+            "landingPage": "https://www.cdc.gov/nchs/hus/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2020-11-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-04-05",
             "keyword": [
                 "adults",
                 "children",
@@ -48845,9 +48983,14 @@
                     "title": "Data Finder"
                 }
             ],
+            "spatial": "US",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -49122,8 +49265,8 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-02-28",
-            "modified": "2022-03-04",
+            "temporal": "2020-01-01/2022-04-04",
+            "modified": "2022-04-08",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/utility_summary_public.pdf"
             ],
@@ -49145,7 +49288,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/vbim-akqf",
-            "description": "<b>Beginning March 1, 2022, the \"COVID-19 Case Surveillance Public Use Data\" will be updated on a monthly basis.</b>\n\nThis case surveillance public use dataset has 12 elements for all COVID-19 cases shared with CDC and includes demographics, any exposure history, disease severity indicators and outcomes, presence of any underlying medical conditions and risk behaviors, and no geographic data.\n<br>\n<h4><b>CDC has three COVID-19 case surveillance datasets:</b></h4>\n\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">COVID-19 Case Surveillance Public Use Data with Geography</a>: Public use, patient-level dataset with clinical data (including symptoms), demographics, and county and state of residence. (19 data elements) <br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">COVID-19 Case Surveillance Public Use Data</a>: Public use, patient-level dataset with clinical and symptom data and demographics, with no geographic data. (12 data elements)<br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">COVID-19 Case Surveillance Restricted Access Detailed Data</a>: Restricted access, patient-level dataset with clinical and symptom data, demographics, and state and county of residence. Access requires a registration process and a data use agreement. (32 data elements)\n\nThe following apply to all three datasets:\n\n- Data elements can be found on the COVID-19 case report form located at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf\">www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf</a>.<br>\n- Data are considered provisional by CDC and are subject to change until the data are reconciled and verified with the state and territorial data providers.\n- Some data cells are suppressed to protect individual privacy.<br>\n- The datasets will include all cases with the earliest date available in each record (date received by CDC or date related to illness/specimen collection) at least 14 days prior to the creation of the previously updated datasets. This 14-day lag allows case reporting to be stabilized and ensures that time-dependent outcome data are accurately captured.<br>\n- Datasets are updated monthly. <br>\n- Datasets are created using CDC\u2019s operational Policy on Public Health Research and Nonresearch Data Management and Access and include protections designed to protect individual privacy.<br>\n- For more information about data collection and reporting, please see <a href=\"https://wwwn.cdc.gov/nndss/data-collection.html\"> https://wwwn.cdc.gov/nndss/data-collection.html</a><br>\n- For more information about the COVID-19 case surveillance data, please see <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\"> https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html</a><br>\n\n<h4><b>Overview</b></h4>\n\nThe COVID-19 case surveillance database includes individual-level data reported to U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://wwwn.cdc.gov/nndss/conditions/\"> Nationally Notifiable Condition List </a> and classified as \u201cimmediately notifiable, urgent (within 24 hours)\u201d by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (Interim-20-ID-01). CSTE updated the position statement on August 5, 2020 to clarify the interpretation of antigen detection tests and serologic test results within the case classification. The statement also recommended that all states and territories enact laws to make COVID-19 reportable in their jurisdiction, and that jurisdictions conducting surveillance should submit case notifications to CDC. COVID-19 case surveillance data are collected by jurisdictions and reported volun",
+            "description": "<b>April 7, 2022:</b> An adjustment was made to CDC\u2019s cleaning algorithm for COVID-19 line level case notification data.  An assumption in CDC's algorithm led to misclassifying deaths that were not COVID-19 related. The algorithm has since been revised, and this dataset update reflects corrected individual level information about death status for all cases collected to date.\n\nThis case surveillance public use dataset has 12 elements for all COVID-19 cases shared with CDC and includes demographics, any exposure history, disease severity indicators and outcomes, presence of any underlying medical conditions and risk behaviors, and no geographic data.\n<br>\n<h4><b>CDC has three COVID-19 case surveillance datasets:</b></h4>\n\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">COVID-19 Case Surveillance Public Use Data with Geography</a>: Public use, patient-level dataset with clinical data (including symptoms), demographics, and county and state of residence. (19 data elements) <br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">COVID-19 Case Surveillance Public Use Data</a>: Public use, patient-level dataset with clinical and symptom data and demographics, with no geographic data. (12 data elements)<br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">COVID-19 Case Surveillance Restricted Access Detailed Data</a>: Restricted access, patient-level dataset with clinical and symptom data, demographics, and state and county of residence. Access requires a registration process and a data use agreement. (32 data elements)\n\nThe following apply to all three datasets:\n\n- Data elements can be found on the COVID-19 case report form located at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf\">www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf</a>.<br>\n- Data are considered provisional by CDC and are subject to change until the data are reconciled and verified with the state and territorial data providers.\n- Some data cells are suppressed to protect individual privacy.<br>\n- The datasets will include all cases with the earliest date available in each record (date received by CDC or date related to illness/specimen collection) at least 14 days prior to the creation of the previously updated datasets. This 14-day lag allows case reporting to be stabilized and ensures that time-dependent outcome data are accurately captured.<br>\n- Datasets are updated monthly. <br>\n- Datasets are created using CDC\u2019s operational Policy on Public Health Research and Nonresearch Data Management and Access and include protections designed to protect individual privacy.<br>\n- For more information about data collection and reporting, please see <a href=\"https://wwwn.cdc.gov/nndss/data-collection.html\"> https://wwwn.cdc.gov/nndss/data-collection.html</a><br>\n- For more information about the COVID-19 case surveillance data, please see <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\"> https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html</a><br>\n\n<h4><b>Overview</b></h4>\n\nThe COVID-19 case surveillance database includes individual-level data reported to U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://wwwn.cdc.gov/nndss/conditions/\"> Nationally Notifiable Condition List </a> and classified as \u201cimmediately notifiable, urgent (within 24 hours)\u201d by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (Interim-20-ID-01). CSTE updated the position statement on August 5, 2020 to clarify the interpretation of antigen detection tests and serologic test results within the case classification. The statement also recommended th",
             "title": "COVID-19 Case Surveillance Public Use Data",
             "describedByType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             "programCode": [
@@ -49182,7 +49325,7 @@
             "spatial": "US",
             "describedBy": "https://data.cdc.gov/api/views/vbim-akqf/files/0eb0e326-d1bd-42a3-a748-acc6d6663326?download=true&filename=data_dictionary_covid_cases_public.xlsx",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Once a mon",
+            "accrualPeriodicity": "Monthly",
             "theme": [
                 "Case Surveillance"
             ]
@@ -50100,7 +50243,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "age",
                 "age group",
@@ -50895,14 +51038,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/w4cs-jspc",
+            "landingPage": "https://www.cdc.gov/nchs/hus",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-12-20",
             "@type": "dcat:Dataset",
             "temporal": "2005/2018",
-            "modified": "2022-03-31",
+            "modified": "2022-04-07",
             "keyword": [
                 "accidental falls",
                 "age",
@@ -51188,7 +51331,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -51200,7 +51343,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/w6be-99qd",
             "description": "These weekly COVID-19 vaccination coverage estimates for pregnant persons are from the Vaccine Safety Datalink (VSD), a collaboration between CDC\u2019s Immunization Safety Office and nine integrated health care organizations. COVID-19 vaccination coverage with at least 1 dose among pregnant people during pregnancy was obtained from the Vaccine Safety Datalink*.\nDATA NOTE: Draft data related to booster doses that are still under review were inadvertently made available on this page and in the dataset between 12:22 PM, 2/28/2022 to 4:30 PM, 3/1/2022. If you downloaded these data, please note that the data may be inaccurate. We expect to release booster doses data on Thursday, March 10, 2022.",
-            "title": "Weekly Data: Percent of Pregnant People aged 18-49 years receiving at least one dose of a COVID-19 vaccine during pregnancy overall, by race/ethnicity, and date reported to CDC \u2014 Vaccine Safety Datalink*, United States",
+            "title": "Weekly Data: COVID-19 vaccination among pregnant people aged 18-49 years before and during pregnancy overall, by race/ethnicity, and week ending date - Vaccine Safety Datalink,* United States",
             "programCode": [
                 "009:026"
             ],
@@ -51567,7 +51710,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-07",
+            "modified": "2022-04-04",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -52130,13 +52273,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/wpti-gvdi",
+            "landingPage": "https://wwwn.cdc.gov/NHISDataQueryTool/ER_Quarterly/index_quarterly.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-06-03",
+            "temporal": "2019/2021",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-08",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -52145,14 +52289,14 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:niw2@cdc.gov"
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/wpti-gvdi",
-            "description": "Interactive Quarterly Early Release Estimates provide health statistics based on data from the 2019-2020 National Health Interview Survey (NHIS) for selected health topics for adults aged 18 years and over. All estimates are unadjusted percentages based on preliminary data files and are released prior to final data editing and final weighting to provide access to the most recent information from the NHIS. Estimates presented here are based on quarterly data. Estimates based on half-year data, with groupings by demographic characteristics, are available in the Interactive Biannual Early Release Estimates. Estimates based on the 1997\u20132018 NHIS can be found in Previous Early Release Reports on Key Health Indicators.",
+            "description": "Interactive Quarterly Early Release Estimates provide health statistics based on data from the 2019-2021 National Health Interview Survey (NHIS) for selected health topics for adults aged 18 years and over. All estimates are unadjusted percentages based on preliminary data files and are released prior to final data editing and final weighting to provide access to the most recent information from the NHIS. Estimates presented here are based on quarterly data. Estimates based on half-year data, with groupings by demographic characteristics, are available in the Interactive Biannual Early Release Estimates. Estimates based on the 1997\u20132018 NHIS can be found in Previous Early Release Reports on Key Health Indicators.",
             "title": "NHIS Interactive Quarterly Early Release Estimates",
             "programCode": [
                 "009:020"
@@ -52186,6 +52330,7 @@
                 }
             ],
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P3M",
             "theme": [
                 "NCHS"
             ]
@@ -52352,13 +52497,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/wxz7-ekz9",
+            "landingPage": "https://www.cdc.gov/nchs/nhis/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-11-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-05",
             "keyword": [
                 "nhis",
                 "summary health statistics"
@@ -52366,7 +52511,7 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:niw2@cdc.gov"
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -53007,7 +53152,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-07",
             "keyword": [
                 "2022",
                 "nndss",
@@ -53431,7 +53576,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-03-31",
+            "modified": "2022-04-07",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -53575,7 +53720,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -53982,7 +54127,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-04-08",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -54104,14 +54249,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/xt86-xqxz",
+            "landingPage": "https://www.cdc.gov/nchs/hus",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-06-03",
             "@type": "dcat:Dataset",
             "temporal": "2000/2018",
-            "modified": "2022-03-30",
+            "modified": "2022-04-07",
             "keyword": [
                 "african americans",
                 "age",
@@ -54978,7 +55123,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-06",
             "keyword": [
                 "age",
                 "age group",
@@ -55507,7 +55652,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-07",
+            "modified": "2022-04-04",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
