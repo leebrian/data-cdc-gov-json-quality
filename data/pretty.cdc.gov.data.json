@@ -764,7 +764,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-10",
+            "modified": "2022-04-17",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1926,7 +1926,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "age",
                 "all causes",
@@ -2400,7 +2400,7 @@
             "landingPage": "https://data.cdc.gov/d/3m2r-fh4s",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-15",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -2595,7 +2595,7 @@
             "issued": "2022-04-01",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-04-08",
+            "modified": "2022-04-14",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2804,7 +2804,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-04",
+            "modified": "2022-04-16",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -2870,9 +2870,9 @@
                 "009:20"
             ],
             "issued": "2022-01-21",
-            "temporal": "April 4, 2021-February 19, 2022",
+            "temporal": "April 4, 2021-March19, 2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-22",
+            "modified": "2022-04-15",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Vaccine Breakthrough Unit, Surveillance and Analytics Team",
@@ -2883,7 +2883,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3rge-nu2a",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\nThese data were posted on March 17, 2022, and reflect cases among persons with a positive specimen collection date through February 19, 2022, and deaths among persons with a positive specimen collection date through January 29, 2022. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A person vaccinated with a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nAdditional or booster dose: A person vaccinated with a primary series and an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. For people ages 18 years and older, data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. For people ages 12-17 years, data are graphed starting the week of December 26, 2021, 2 weeks after the first recommendation for a booster dose for adolescents ages 16-17 years. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type. \n** Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis.\n\nParticipating jurisdictions: Currently, these 29 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Mexico, New York, New York City (New York), North Carolina, Philadelphia (Pennsylvania), Rhode Island, Seattle King County (Washington), Tennessee, Texas, Utah, West Virginia, and Wisconsin; 27 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 67% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases and deaths including people who received additional or booster doses were reported from 26 jurisdictions. This list will be updated as more jurisdictions participate. \n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccinati",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\nThese data were posted on April 15, 2022, and reflect cases among persons with a positive specimen collection date through March 19, 2022, and deaths among persons with a positive specimen collection date through February 26, 2022. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A person vaccinated with a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nAdditional or booster dose: A person vaccinated with a primary series and an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. For people ages 18 years and older, data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. For people ages 12-17 years, data are graphed starting the week of December 26, 2021, 2 weeks after the first recommendation for a booster dose for adolescents ages 16-17 years. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type. \n** Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis.\n\nParticipating jurisdictions: Currently, these 27 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Arizona, Arkansas, California, Colorado, Connecticut, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Mexico, New York, New York City (New York), North Carolina, Philadelphia (Pennsylvania), Rhode Island, Seattle King County (Washington), Tennessee, Texas, Utah, West Virginia, and Wisconsin; 25 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 66% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases and deaths including people who received additional or booster doses were reported from 24 jurisdictions; 23 jurisdictions also reported data on deaths among people who received additional or booster doses. This list will be updated as more jurisdictions participate. \n\nIncide",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status",
             "programCode": [
                 "009:038"
@@ -3295,7 +3295,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-04",
+            "modified": "2022-04-16",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -3704,7 +3704,7 @@
             ],
             "issued": "2016-08-04",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-12",
             "keyword": [
                 "age",
                 "age group",
@@ -4840,7 +4840,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "age",
                 "age group",
@@ -6230,7 +6230,7 @@
             ],
             "issued": "2022-02-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-09",
+            "modified": "2022-04-11",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -6994,7 +6994,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-04",
+            "modified": "2022-04-16",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -10609,7 +10609,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-10",
+            "modified": "2022-04-17",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -11950,8 +11950,8 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-09",
-            "modified": "2022-04-09",
+            "temporal": "2020-12-13/2022-04-16",
+            "modified": "2022-04-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -12368,15 +12368,15 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-11",
             "keyword": [
                 "abcs",
                 "bactfacts"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "Active Bacterial Core surveillance",
+                "hasEmail": "mailto:abcs@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -12826,7 +12826,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "age",
                 "age group",
@@ -13084,7 +13084,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -13382,7 +13382,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -13843,7 +13843,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-04-09",
+            "modified": "2022-04-16",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -15441,7 +15441,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-08",
+            "modified": "2022-04-14",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17104,7 +17104,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-05",
+            "modified": "2022-04-13",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -17607,7 +17607,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-09",
+            "modified": "2022-04-16",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -18071,7 +18071,7 @@
             "landingPage": "https://data.cdc.gov/d/c8as-e7h6",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-15",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -19725,9 +19725,9 @@
                 "009:20"
             ],
             "issued": "2022-03-22",
-            "temporal": "September 19, 2021-February 19, 2022",
+            "temporal": "September 19, 2021-March 19, 2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-22",
+            "modified": "2022-04-15",
             "keyword": [
                 "covid-19",
                 "covid-19 booster doses",
@@ -19746,7 +19746,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/d6p8-wqjm",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\nThese data were posted on March 17, 2022, and reflect cases among persons with a positive specimen collection date through February 19, 2022, and deaths among persons with a positive specimen collection date through January 29, 2022. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A person vaccinated with a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nAdditional or booster dose: A person vaccinated with a primary series and an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. For people ages 18 years and older, data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. For people ages 12-17 years, data are graphed starting the week of December 26, 2021, 2 weeks after the first recommendation for a booster dose for adolescents ages 16-17 years. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type.\n** Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis.\n\nParticipating jurisdictions: Currently, these 29 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Mexico, New York, New York City (New York), North Carolina, Philadelphia (Pennsylvania), Rhode Island, Seattle King County (Washington), Tennessee, Texas, Utah, West Virginia, and Wisconsin; 27 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 67% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases and deaths including people who received additional or booster doses were reported from 26 jurisdictions. This list will be updated as more jurisdictions participate.\n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\nThese data were posted on April 15, 2022, and reflect cases among persons with a positive specimen collection date through March 19, 2022, and deaths among persons with a positive specimen collection date through February 26, 2022. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A person vaccinated with a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nAdditional or booster dose: A person vaccinated with a primary series and an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. For people ages 18 years and older, data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. For people ages 12-17 years, data are graphed starting the week of December 26, 2021, 2 weeks after the first recommendation for a booster dose for adolescents ages 16-17 years. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type. \n** Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis.\n\nParticipating jurisdictions: Currently, these 27 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Arizona, Arkansas, California, Colorado, Connecticut, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Mexico, New York, New York City (New York), North Carolina, Philadelphia (Pennsylvania), Rhode Island, Seattle King County (Washington), Tennessee, Texas, Utah, West Virginia, and Wisconsin; 25 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 66% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases and deaths including people who received additional or booster doses were reported from 24 jurisdictions; 23 jurisdictions also reported data on deaths among people who received additional or booster doses. This list will be updated as more jurisdictions participate. \n\nIncide",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status and Booster Dose",
             "programCode": [
                 "009:038"
@@ -25321,7 +25321,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-10",
+            "modified": "2022-04-17",
             "keyword": [
                 "wastewater"
             ],
@@ -25661,7 +25661,7 @@
             ],
             "issued": "2021-10-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-14",
             "keyword": [
                 "county",
                 "deaths",
@@ -26073,7 +26073,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-04-06",
+            "modified": "2022-04-15",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -27447,7 +27447,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -27545,7 +27545,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27683,7 +27683,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-04",
+            "modified": "2022-04-16",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -27751,7 +27751,7 @@
             ],
             "issued": "2017-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-12",
             "keyword": [
                 "birth",
                 "deaths",
@@ -29903,7 +29903,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-08",
+            "modified": "2022-04-14",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -30578,8 +30578,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-09",
-            "modified": "2022-04-09",
+            "temporal": "2020-12-13/2022-04-16",
+            "modified": "2022-04-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -30716,7 +30716,7 @@
             ],
             "issued": "2021-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-13",
             "keyword": [
                 "age",
                 "age group",
@@ -31069,7 +31069,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "age",
                 "age group",
@@ -32003,7 +32003,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32444,7 +32444,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-07",
+            "modified": "2022-04-14",
             "keyword": [
                 "cares act",
                 "health system",
@@ -32775,8 +32775,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-09",
-            "modified": "2022-04-09",
+            "temporal": "2020-12-13/2022-04-16",
+            "modified": "2022-04-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -33063,7 +33063,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -33134,7 +33134,7 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-04",
+            "modified": "2022-04-16",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -33393,7 +33393,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "age",
                 "age group",
@@ -33671,7 +33671,7 @@
             "landingPage": "https://data.cdc.gov/d/kw6u-z8u2",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-15",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -34314,7 +34314,7 @@
             ],
             "issued": "2020-11-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-13",
             "keyword": [
                 "age",
                 "age group",
@@ -35872,7 +35872,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -37386,7 +37386,7 @@
             "landingPage": "https://data.cdc.gov/d/nmdn-2xuz",
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-30",
+            "modified": "2022-04-15",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -37571,7 +37571,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "age",
                 "age group",
@@ -37646,7 +37646,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-10",
+            "modified": "2022-04-17",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -37780,7 +37780,7 @@
             ],
             "issued": "2019-04-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-12",
+            "modified": "2022-04-13",
             "references": [
                 "https://chronicdata.cdc.gov/d/x7ys-5vpn"
             ],
@@ -37802,7 +37802,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/ntaa-dtex",
-            "description": "2008-2021. American Lung Association. Cessation Coverage.  Medicaid data compiled by the Centers for Disease Control and Prevention\u2019s Office on Smoking and Health were obtained from the State Tobacco Cessation Coverage Database, developed and administered by the American Lung Association.  Data from 2008-2012 are reported on an annual basis; beginning in 2013 data are reported on a quarterly basis.  Data include state-level information on Medicaid coverage of approved medications by the Food and Drug Administration (FDA) for tobacco cessation treatment; types of counseling recommended by the Public Health Service (PHS) and barriers to accessing cessation treatment. Note: Section 2502 of the Patient Protection and Affordable Care Act requires all state Medicaid programs to cover all FDA-approved tobacco cessation medications as of January 1, 2014. However, states are currently in the process of modifying their coverage to come into compliance with this requirement. Data in the STATE System on Medicaid coverage of tobacco cessation medications reflect evidence of coverage that is found in documentable sources, and may not yet reflect medications covered under this requirement.",
+            "description": "2008-2022. American Lung Association. Cessation Coverage.  Medicaid data compiled by the Centers for Disease Control and Prevention\u2019s Office on Smoking and Health were obtained from the State Tobacco Cessation Coverage Database, developed and administered by the American Lung Association.  Data from 2008-2012 are reported on an annual basis; beginning in 2013 data are reported on a quarterly basis.  Data include state-level information on Medicaid coverage of approved medications by the Food and Drug Administration (FDA) for tobacco cessation treatment; types of counseling recommended by the Public Health Service (PHS) and barriers to accessing cessation treatment. Note: Section 2502 of the Patient Protection and Affordable Care Act requires all state Medicaid programs to cover all FDA-approved tobacco cessation medications as of January 1, 2014. However, states are currently in the process of modifying their coverage to come into compliance with this requirement. Data in the STATE System on Medicaid coverage of tobacco cessation medications reflect evidence of coverage that is found in documentable sources, and may not yet reflect medications covered under this requirement.",
             "title": "Medicaid Coverage Of Cessation Treatments And Barriers To Treatments",
             "programCode": [
                 "009:020"
@@ -38768,7 +38768,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -40736,7 +40736,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -41731,7 +41731,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-08",
+            "modified": "2022-04-14",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -42261,7 +42261,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-08",
+            "modified": "2022-04-15",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -42842,8 +42842,8 @@
             ],
             "issued": "2022-04-05",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-09",
-            "modified": "2022-04-09",
+            "temporal": "2020-12-13/2022-04-16",
+            "modified": "2022-04-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -43380,7 +43380,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-05",
+            "modified": "2022-04-12",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -44748,7 +44748,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "age",
                 "age group",
@@ -46339,7 +46339,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "age",
                 "age group",
@@ -47099,7 +47099,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -47784,7 +47784,7 @@
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-08",
+            "modified": "2022-04-14",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -47935,7 +47935,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -48112,8 +48112,8 @@
             ],
             "issued": "2022-02-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-09",
-            "modified": "2022-04-09",
+            "temporal": "2020-12-13/2022-04-16",
+            "modified": "2022-04-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -50243,7 +50243,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "age",
                 "age group",
@@ -51331,7 +51331,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -53152,7 +53152,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-07",
+            "modified": "2022-04-14",
             "keyword": [
                 "2022",
                 "nndss",
@@ -53576,7 +53576,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-04-07",
+            "modified": "2022-04-14",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -53642,7 +53642,7 @@
             ],
             "issued": "2018-03-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-13",
             "keyword": [
                 "cocaine",
                 "deaths",
@@ -53720,7 +53720,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -55123,7 +55123,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-13",
             "keyword": [
                 "age",
                 "age group",
@@ -55859,7 +55859,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-14",
             "keyword": [
                 "age",
                 "age group",
