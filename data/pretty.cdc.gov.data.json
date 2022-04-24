@@ -764,7 +764,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-17",
+            "modified": "2022-04-24",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1926,7 +1926,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "age",
                 "all causes",
@@ -2400,7 +2400,7 @@
             "landingPage": "https://data.cdc.gov/d/3m2r-fh4s",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-15",
+            "modified": "2022-04-23",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -2456,7 +2456,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-22",
             "keyword": [
                 "adults",
                 "coverage",
@@ -2595,7 +2595,7 @@
             "issued": "2022-04-01",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-04-14",
+            "modified": "2022-04-22",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2804,7 +2804,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-16",
+            "modified": "2022-04-24",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -3295,7 +3295,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-16",
+            "modified": "2022-04-24",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -4204,7 +4204,7 @@
             ],
             "issued": "2021-11-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-01-20",
+            "modified": "2022-04-22",
             "keyword": [
                 "covid-19 vaccine",
                 "covid tracker",
@@ -4221,8 +4221,8 @@
                 "name": "data.cdc.gov"
             },
             "identifier": "https://data.cdc.gov/api/views/4ht3-nbmd",
-            "description": "These weekly COVID-19 vaccination coverage estimates for pregnant persons are from the Vaccine Safety Datalink (VSD), a collaboration between CDC\u2019s Immunization Safety Office and nine integrated health care organizations. COVID-19 vaccination coverage with at least 1 dose among pregnant people during pregnancy was obtained from the Vaccine Safety Datalink*. \nThese data represent trends in vaccination status during pregnancy by week. Percentages displayed in the figure below represent the percent of pregnant people in the Vaccine Safety Datalink* that have been vaccinated with at least one dose of a COVID-19 vaccine during pregnancy.\nOn December 15, 2021, an error was identified where pregnant people who had received an additional or booster dose of a COVID-19 vaccine were not included in the coverage estimates. After correcting the error, coverage estimates for the week of December 11, 2021, increased overall and by race/ethnicity. The persons that were inadvertently excluded have been counted in the December 11, 2021, estimates. Prior weeks\u2019 estimates have not been updated.",
-            "title": "Cumulative Data: Percent of Pregnant People aged 18-49 years receiving at least one dose of a COVID-19 vaccine during pregnancy overall, by race/ethnicity, and date reported to CDC \u2014 Vaccine Safety Datalink*, United States",
+            "description": "These archived cumulative COVID-19 vaccination coverage estimates are for persons who were pregnant anytime from December 20, 2020, to January 20, 2022, and received at least 1 dose of COVID-19 vaccine during pregnancy based on data from the Vaccine Safety Datalink*. As of January 20, 2022, after moving to reporting weekly estimates, the figures on https://covid.cdc.gov/covid-data-tracker/#vaccinations-pregnant-women no longer present cumulative estimates, and these   archived data are no longer updated.\n\nFor these cumulative data, on December 15, 2021, an error was identified where pregnant people who had received an additional or booster dose of a COVID-19 vaccine were not included in the coverage estimates. After correcting the error, coverage estimates for the week of December 11, 2021, increased overall and by race/ethnicity. The persons that were inadvertently excluded have been counted in the December 11, 2021, estimates. Prior weeks\u2019 estimates have not been updated.",
+            "title": "Archived Cumulative Data: Percent of pregnant people aged 18-49 years receiving at least one dose of a COVID-19 vaccine during pregnancy overall, by race/ethnicity, and date reported to CDC-Vaccine Safety Datalink*, United States | December 20, 2020 \u2013 Jan",
             "programCode": [
                 "009:026"
             ],
@@ -4840,7 +4840,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "age",
                 "age group",
@@ -6224,13 +6224,78 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/5iuf-feyd",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-04-21",
+            "@type": "dcat:Dataset",
+            "temporal": "August 1, 2011 to June 30, 2019",
+            "modified": "2022-04-21",
+            "keyword": [
+                "community mitigation",
+                "emergency preparedness",
+                "pandemic preparedness",
+                "school closure"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Nicole Zviedrite",
+                "hasEmail": "mailto:nzviedrite@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/5iuf-feyd",
+            "description": "Prolonged unplanned public K-12 school district and individual school closures in the United States from August 1, 2011 \u2013 June 30, 2019. Prolonged unplanned school closure is defined as a school closure lasting \u22655 school days, excluding any scheduled days off.",
+            "title": "Prolonged Unplanned School Closures: USA, 2011-2019",
+            "programCode": [
+                "009:028"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/5iuf-feyd/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/5iuf-feyd/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/5iuf-feyd/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/5iuf-feyd/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/5iuf-feyd/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/5iuf-feyd/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/5iuf-feyd/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States, 50 States and D.C.",
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/5jp2-pgaw",
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-02-23",
+            "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-11",
+            "modified": "2022-04-23",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -6994,7 +7059,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-16",
+            "modified": "2022-04-24",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -7908,7 +7973,7 @@
             "issued": "2021-11-16",
             "@type": "dcat:Dataset",
             "temporal": "2021-2022",
-            "modified": "2022-04-01",
+            "modified": "2022-04-21",
             "keyword": [
                 "adults",
                 "age",
@@ -7932,8 +7997,8 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/6p3a-6xr9",
-            "description": "Cumulative Influenza Vaccination Coverage and Intent for Vaccination Among Adults 18 Years and Older by Age, Race/Ethnicity, and COVID-19 Vaccination and Intent, United States.  \n\nData sources:  IPSOS Knowledge Panel and NORC AmeriSpeak Omnibus Surveys.\n\nIPSOS Knowledge Panel  is an online panel survey of adults recruited using address-based sampling methodology and representative of the adult U.S. population.\n\nNORC AmeriSpeak is an online survey of adult members of the NORC AmeriSpeak Panel, which is representative of the entire U.S. population. The AmeriSpeak panel uses area probability sampling and includes additional coverage of hard-to-survey population segments such as rural and low-income households that are underrepresented in surveys relying on address-based sampling.\n\nMore information on these surveys can be found here:\n\nIPSOS: https://www.ipsos.com/sites/default/files/ipsosknowledgepanelmethodology.pdf\n\nAmeriSpeak: https://amerispeak.norc.org/about-amerispeak/Pages/Overview.aspx",
-            "title": "Cumulative Influenza Vaccination Coverage and Intent for Vaccination Among Adults 18 Years and Older by Age, Race/Ethnicity, and COVID-19 Vaccination and Intent, United States",
+            "description": "These archived cumulative COVID-19 vaccination coverage estimates are for persons who were pregnant anytime from December 20, 2020, to January 20, 2022, and received at least 1 dose of COVID-19 vaccine during pregnancy based on data from the Vaccine Safety Datalink*. As of January 20, 2022, after moving to reporting weekly estimates, the figures on https://covid.cdc.gov/covid-data-tracker/#vaccinations-pregnant-women no longer present cumulative estimates, and these   archived data are no longer updated.\n\n\nFor these cumulative data, on December 15, 2021, an error was identified where pregnant people who had received an additional or booster dose of a COVID-19 vaccine were not included in the coverage estimates. After correcting the error, coverage estimates for the week of December 11, 2021, increased overall and by race/ethnicity. The persons that were inadvertently excluded have been counted in the December 11, 2021, estimates. Prior weeks\u2019 estimates have not been updated.",
+            "title": "Archived Cumulative Data: Percent of pregnant people aged 18-49 years receiving at least one dose of a COVID-19 vaccine during pregnancy overall, by race/ethnicity, and date reported to CDC-Vaccine Safety Datalink*, United States | December 20, 2020 \u2013 Jan",
             "programCode": [
                 "009:026"
             ],
@@ -10609,7 +10674,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-17",
+            "modified": "2022-04-24",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -10679,7 +10744,7 @@
             ],
             "issued": "2021-11-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-22",
             "references": [
                 "IQVIA Pharmacy and Physician Medical Office Claims"
             ],
@@ -11559,7 +11624,7 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-22",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "NCIRD",
@@ -11622,7 +11687,7 @@
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-04-23/2022-03-14",
-            "modified": "2022-04-01",
+            "modified": "2022-04-20",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -11950,8 +12015,8 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-16",
-            "modified": "2022-04-16",
+            "temporal": "2020-12-13/2022-04-23",
+            "modified": "2022-04-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -12826,7 +12891,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "age",
                 "age group",
@@ -13084,7 +13149,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -13382,7 +13447,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -13843,7 +13908,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-04-16",
+            "modified": "2022-04-23",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -15441,7 +15506,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-14",
+            "modified": "2022-04-22",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17104,7 +17169,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-22",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -17607,7 +17672,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-16",
+            "modified": "2022-04-24",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -18071,7 +18136,7 @@
             "landingPage": "https://data.cdc.gov/d/c8as-e7h6",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-15",
+            "modified": "2022-04-23",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -21171,6 +21236,69 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/dxic-z9nz",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-03-10",
+            "@type": "dcat:Dataset",
+            "modified": "2022-03-10",
+            "keyword": [
+                "aad",
+                "aaf",
+                "alcohol",
+                "alcohol-related disease impact",
+                "ypll"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "CDC Info",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC Info"
+            },
+            "identifier": "https://data.cdc.gov/api/views/dxic-z9nz",
+            "description": "ARDI is an online application that provides national and state estimates of alcohol-related health impacts, including deaths and years of potential life lost (YPLL). These estimates are calculated for 58 acute and chronic causes using alcohol-attributable fractions, and are reported by age and sex for 2015-2019. This dataset provides estimates of the proportion of deaths from various causes that are attributable to alcohol.",
+            "title": "Alcohol-Related Disease Impact (ARDI) Application - Alcohol-Attributable Fractions",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/dxic-z9nz/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/dxic-z9nz/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/dxic-z9nz/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/dxic-z9nz/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/dxic-z9nz/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/dxic-z9nz/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/dxic-z9nz/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Alcohol-Related Disease Impact"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/dxpw-cm5u",
             "bureauCode": [
                 "009:20"
@@ -23119,7 +23247,7 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-22",
             "references": [
                 "NIS-Flu"
             ],
@@ -23713,7 +23841,7 @@
             "issued": "2022-03-09",
             "@type": "dcat:Dataset",
             "temporal": "1997-01-01/2018-12-31",
-            "modified": "2022-04-01",
+            "modified": "2022-04-20",
             "keyword": [
                 "health disparities",
                 "healthy people 2020"
@@ -23728,7 +23856,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/fdpm-fddm",
-            "description": "The Overview of Health Disparities analysis is a component of the Healthy People 2020 (HP2020) Final Review. The analysis included 611 objectives in HP2020. This file contains summary level information used for the evaluation of changes in disparities during HP2020, including calculations for the disparities measures and the disparities change categories for all objectives and population characteristics in the analysis. See <a href=\"https://www.cdc.gov/nchs/healthy_people/hp2020/health-disparities-technical-notes.htm\">Technical Notes for the Healthy People 2020 Overview of Health Disparities</a> for additional information and criteria for objectives, data years, and population characteristics included in the analysis and statistical formulas and definitions for the disparities measures. \n\nData for additional years during the HP2020 tracking period that are not included in the Overview of Health Disparities are available on the <aHP2020 website</a>. \n\nNote that \u201crate\u201d as used may refer to a statistical rate expressed per unit population or a proportion, depending on how the HP2020 objective was defined.",
+            "description": "The Overview of Health Disparities analysis is a component of the Healthy People 2020 (HP2020) Final Review. The analysis included 611 objectives in HP2020. This file contains summary level information used for the evaluation of changes in disparities during HP2020, including calculations for the disparities measures and the disparities change categories for all objectives and population characteristics in the analysis. See Technical Notes for the Healthy People 2020 Overview of Health Disparities (https://www.cdc.gov/nchs/healthy_people/hp2020/health-disparities-technical-notes.htm) for additional information and criteria for objectives, data years, and population characteristics included in the analysis and statistical formulas and definitions for the disparities measures. \n\nData for additional years during the HP2020 tracking period that are not included in the Overview of Health Disparities are available on the HP2020 website (https://www.healthypeople.gov/2020/). \n\nNote that \u201crate\u201d as used may refer to a statistical rate expressed per unit population or a proportion, depending on how the HP2020 objective was defined.",
             "title": "Healthy People 2020 Overview of Health Disparities",
             "programCode": [
                 "009:020"
@@ -24704,7 +24832,7 @@
             ],
             "issued": "2020-12-09",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-22",
             "references": [
                 "Vaccine Safety Datalink"
             ],
@@ -25253,7 +25381,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-22",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -25321,7 +25449,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-17",
+            "modified": "2022-04-24",
             "keyword": [
                 "wastewater"
             ],
@@ -26073,7 +26201,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-04-15",
+            "modified": "2022-04-22",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -26583,7 +26711,7 @@
             "issued": "2021-04-27",
             "@type": "dcat:Dataset",
             "temporal": "2021-04-14/2022-03-14",
-            "modified": "2022-04-01",
+            "modified": "2022-04-20",
             "keyword": [
                 "covid-19",
                 "telemedicine"
@@ -27447,7 +27575,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -27545,7 +27673,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27683,7 +27811,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-16",
+            "modified": "2022-04-24",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -29903,7 +30031,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-14",
+            "modified": "2022-04-22",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -30061,6 +30189,69 @@
             ],
             "theme": [
                 "Motor Vehicle"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/iz9a-43bv",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-02-28",
+            "@type": "dcat:Dataset",
+            "modified": "2022-03-10",
+            "keyword": [
+                "aad",
+                "aaf",
+                "alcohol",
+                "alcohol-related disease impact",
+                "ypll"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "CDC Info",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/iz9a-43bv",
+            "description": "ARDI is an online application that provides national and state estimates of alcohol-related health impacts, including deaths and years of potential life lost (YPLL). These estimates are calculated for 58 acute and chronic causes using alcohol-attributable fractions, and are reported by age and sex for 2015-2019. This estimates the total number of deaths attributable to alcohol.",
+            "title": "Alcohol-Related Disease Impact (ARDI) Application - Alcohol-Attributable Deaths",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/iz9a-43bv/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/iz9a-43bv/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/iz9a-43bv/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/iz9a-43bv/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/iz9a-43bv/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/iz9a-43bv/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/iz9a-43bv/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Alcohol-Related Disease Impact"
             ]
         },
         {
@@ -30336,7 +30527,7 @@
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-04-23/2022-03-14",
-            "modified": "2022-04-01",
+            "modified": "2022-04-20",
             "keyword": [
                 "covid-19",
                 "private coverage",
@@ -30578,8 +30769,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-16",
-            "modified": "2022-04-16",
+            "temporal": "2020-12-13/2022-04-23",
+            "modified": "2022-04-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -30644,6 +30835,70 @@
             "accrualPeriodicity": "R/P1D",
             "theme": [
                 "Vaccinations"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/jkcv-z5vp",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-02-28",
+            "@type": "dcat:Dataset",
+            "modified": "2022-03-13",
+            "keyword": [
+                "aad",
+                "aaf",
+                "alcohol",
+                "alcohol-related disease impact",
+                "ypll"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "cdcinfo@cdc.gov",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/jkcv-z5vp",
+            "description": "ARDI is an online application that provides national and state estimates of alcohol-related health impacts, including deaths and years of potential life lost (YPLL). These estimates are calculated for 58 acute and chronic causes using alcohol-attributable fractions, and are reported by age and sex for 2015-2019. This dataset provides estimates of the proportion of deaths from various causes that are attributable to alcohol.",
+            "title": "Alcohol-Related Disease Impact (ARDI) Application - Years of Potential Life Lost",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/jkcv-z5vp/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/jkcv-z5vp/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/jkcv-z5vp/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/jkcv-z5vp/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/jkcv-z5vp/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/jkcv-z5vp/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/jkcv-z5vp/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "http://opendatacommons.org/licenses/odbl/1.0/",
+            "theme": [
+                "Alcohol-Related Disease Impact"
             ]
         },
         {
@@ -31069,7 +31324,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "age",
                 "age group",
@@ -31867,7 +32122,7 @@
             ],
             "issued": "2021-10-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-04-22",
             "references": [
                 "CDC"
             ],
@@ -32003,7 +32258,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32444,7 +32699,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-14",
+            "modified": "2022-04-21",
             "keyword": [
                 "cares act",
                 "health system",
@@ -32775,8 +33030,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-16",
-            "modified": "2022-04-16",
+            "temporal": "2020-12-13/2022-04-23",
+            "modified": "2022-04-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -33063,7 +33318,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -33134,7 +33389,7 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-16",
+            "modified": "2022-04-24",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -33393,7 +33648,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "age",
                 "age group",
@@ -33671,7 +33926,7 @@
             "landingPage": "https://data.cdc.gov/d/kw6u-z8u2",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-15",
+            "modified": "2022-04-23",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -35809,7 +36064,7 @@
             ],
             "issued": "2021-09-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-24",
+            "modified": "2022-04-22",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -35872,7 +36127,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -37386,7 +37641,7 @@
             "landingPage": "https://data.cdc.gov/d/nmdn-2xuz",
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-15",
+            "modified": "2022-04-23",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -37571,7 +37826,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "age",
                 "age group",
@@ -37646,7 +37901,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-17",
+            "modified": "2022-04-24",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -38768,7 +39023,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -40736,7 +40991,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -41731,7 +41986,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-14",
+            "modified": "2022-04-22",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -42261,7 +42516,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-15",
+            "modified": "2022-04-22",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -42842,8 +43097,8 @@
             ],
             "issued": "2022-04-05",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-16",
-            "modified": "2022-04-16",
+            "temporal": "2020-12-13/2022-04-23",
+            "modified": "2022-04-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -43380,7 +43635,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-12",
+            "modified": "2022-04-19",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -44748,7 +45003,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "age",
                 "age group",
@@ -46339,7 +46594,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "age",
                 "age group",
@@ -47099,7 +47354,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -47784,7 +48039,7 @@
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-14",
+            "modified": "2022-04-22",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -47935,7 +48190,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -48112,8 +48367,8 @@
             ],
             "issued": "2022-02-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-16",
-            "modified": "2022-04-16",
+            "temporal": "2020-12-13/2022-04-23",
+            "modified": "2022-04-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -50243,7 +50498,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "age",
                 "age group",
@@ -51331,7 +51586,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-22",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -51342,7 +51597,7 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/w6be-99qd",
-            "description": "These weekly COVID-19 vaccination coverage estimates for pregnant persons are from the Vaccine Safety Datalink (VSD), a collaboration between CDC\u2019s Immunization Safety Office and nine integrated health care organizations. COVID-19 vaccination coverage with at least 1 dose among pregnant people during pregnancy was obtained from the Vaccine Safety Datalink*.\nDATA NOTE: Draft data related to booster doses that are still under review were inadvertently made available on this page and in the dataset between 12:22 PM, 2/28/2022 to 4:30 PM, 3/1/2022. If you downloaded these data, please note that the data may be inaccurate. We expect to release booster doses data on Thursday, March 10, 2022.",
+            "description": "These weekly COVID-19 vaccination coverage estimates are for pregnant persons who are fully vaccinated before and during pregnancy based on data  from the Vaccine Safety Datalink*.\n\n\nDATA NOTE: Draft data related to booster doses that are still under review were inadvertently made available on this page and in the dataset between 12:22 PM, 2/28/2022 to 4:30 PM, 3/1/2022. If you downloaded these data, please note that the data may be inaccurate. Booster dose data are expected to be released on Thursday, April 28, 2022.",
             "title": "Weekly Data: COVID-19 vaccination among pregnant people aged 18-49 years before and during pregnancy overall, by race/ethnicity, and week ending date - Vaccine Safety Datalink,* United States",
             "programCode": [
                 "009:026"
@@ -53152,7 +53407,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-14",
+            "modified": "2022-04-21",
             "keyword": [
                 "2022",
                 "nndss",
@@ -53576,7 +53831,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-04-14",
+            "modified": "2022-04-21",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -53720,7 +53975,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -55123,7 +55378,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-04-20",
             "keyword": [
                 "age",
                 "age group",
@@ -55793,7 +56048,7 @@
             "issued": "2020-09-23",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-19/2022-03-14",
-            "modified": "2022-04-01",
+            "modified": "2022-04-20",
             "keyword": [
                 "covid-19",
                 "mental health"
@@ -55859,7 +56114,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-14",
+            "modified": "2022-04-21",
             "keyword": [
                 "age",
                 "age group",
