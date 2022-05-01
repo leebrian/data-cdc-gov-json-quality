@@ -764,7 +764,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-24",
+            "modified": "2022-05-01",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -962,7 +962,7 @@
             "issued": "2021-06-07",
             "@type": "dcat:Dataset",
             "temporal": "1997/2019",
-            "modified": "2022-04-07",
+            "modified": "2022-04-27",
             "keyword": [
                 "african americans",
                 "age",
@@ -1926,7 +1926,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "age",
                 "all causes",
@@ -2400,7 +2400,7 @@
             "landingPage": "https://data.cdc.gov/d/3m2r-fh4s",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-23",
+            "modified": "2022-04-30",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -2595,7 +2595,7 @@
             "issued": "2022-04-01",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-04-22",
+            "modified": "2022-04-28",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2661,10 +2661,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-03-11",
+            "issued": "2022-04-28",
             "temporal": "1988/2019",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-07",
+            "modified": "2022-04-28",
             "keyword": [
                 "adult",
                 "african americans",
@@ -2804,7 +2804,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-24",
+            "modified": "2022-04-30",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -3295,7 +3295,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-24",
+            "modified": "2022-04-30",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -4840,7 +4840,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "age",
                 "age group",
@@ -6295,7 +6295,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-23",
+            "modified": "2022-04-30",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7059,7 +7059,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-24",
+            "modified": "2022-04-30",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -8647,45 +8647,6 @@
             "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/6wg8-s245",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-12-15",
-            "@type": "dcat:Dataset",
-            "modified": "2021-10-19",
-            "keyword": [
-                "cigarette excise tax",
-                "slides"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/6wg8-s245",
-            "description": "Download the current cigarette excise tax rates on packs of cigarettes slides. These slides are available in PowerPoint format.",
-            "title": "Excise Tax Rates On Packs Of Cigarettes PowerPoint Slides",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/6wg8-s245/application/vnd.openxmlformats-officedocument.presentationml.presentation",
-                    "mediaType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
-                }
-            ],
-            "theme": [
-                "Legislation"
             ]
         },
         {
@@ -10674,7 +10635,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-24",
+            "modified": "2022-05-01",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -12015,8 +11976,8 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-23",
-            "modified": "2022-04-23",
+            "temporal": "2020-12-13/2022-04-30",
+            "modified": "2022-04-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -12351,10 +12312,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-06-07",
+            "issued": "2022-04-28",
             "@type": "dcat:Dataset",
             "temporal": "1999/2019",
-            "modified": "2022-04-08",
+            "modified": "2022-04-28",
             "keyword": [
                 "african americans",
                 "age",
@@ -12891,7 +12852,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "age",
                 "age group",
@@ -13149,7 +13110,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -13300,10 +13261,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-06-02",
+            "issued": "2022-04-28",
             "@type": "dcat:Dataset",
             "temporal": "1988/2019",
-            "modified": "2022-04-07",
+            "modified": "2022-04-28",
             "keyword": [
                 "adolescent",
                 "adult",
@@ -13447,7 +13408,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -13581,7 +13542,7 @@
             "issued": "2021-05-14",
             "@type": "dcat:Dataset",
             "temporal": "1950/2019",
-            "modified": "2022-04-07",
+            "modified": "2022-04-27",
             "keyword": [
                 "african americans",
                 "age",
@@ -13908,7 +13869,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-04-23",
+            "modified": "2022-04-30",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -13926,7 +13887,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/9mfq-cb36",
-            "description": "CDC reports aggregate counts of COVID-19 cases and death numbers daily online. Data on the COVID-19 website and CDC\u2019s COVID Data Tracker are based on these most recent numbers reported by states, territories, and other jurisdictions. This data set of \u201cUnited States COVID-19 Cases and Deaths by State over Time\u201d combines this information. However, data are dependent on jurisdictions\u2019 timely and accurate reporting. \n\nSeparately, CDC also regularly reports provisional death certificate data from the National Vital Statistics System (NVSS) on data.cdc.gov. Details are described on the <a href=\"https://www.cdc.gov/nchs/nvss/covid-19.htm\">NCHS website</a>. Reporting the number of deaths by using death certificates ultimately provides more complete information but is a longer process; therefore, these numbers will be less than the death counts on the COVID-19 website.\n\n<b>Accuracy of Data</b><br/>\nCDC tracks COVID-19 illnesses, hospitalizations, and deaths to track trends, detect outbreaks, and monitor whether public health measures are working. However, counting exact numbers of COVID-19 cases is not possible. COVID-19 can cause mild illness, symptoms might not appear immediately, there are delays in reporting and testing, not everyone who is infected gets tested or seeks medical care, and there are differences in how completely states and territories report their cases.\n\nCOVID-19 is one of about <a href=\"https://wwwn.cdc.gov/nndss/\">120 diseases or conditions</a> health departments voluntarily report to CDC. State, local, and territorial public health departments verify and report cases to CDC. When there are differences between numbers of cases reported by CDC versus by health departments, data reported by health departments should be considered the most up to date. Health departments may update case data over time when they receive more complete and accurate information. The number of new cases reported each day fluctuates. There is generally less reporting on the weekends and holidays.\n\nCDC reports death data on three other sections of the website: <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html\">U.S. Cases</a> & Deaths, <a href=\"https://www.cdc.gov/covid-data-tracker/index.html\">COVID Data Tracker</a>, and <a href=\"https://www.cdc.gov/nchs/nvss/covid-19.htm\">NCHS Provisional Death Counts</a>. The U.S. Cases and Deaths webpages and COVID Data Tracker get their information from the same source (total case counts); however, NCHS Death Counts are based on death certificates that use information reported by physicians, medical examiners, or coroners in the cause-of-death section of each certificate. Data from each of these pages are considered provisional (not complete and pending verification) and are therefore subject to change. Counts from previous weeks are continually revised as more records are received and processed. Because not all jurisdictions report counts daily, counts may increase at different intervals.\n\n<b>Confirmed & Probable Counts</b><br/>\nAs of April 14, 2020, CDC case counts and death counts include both confirmed and probable cases and deaths. This change was made to reflect an <a href=\"https://cdn.ymaws.com/www.cste.org/resource/resmgr/2020ps/Interim-20-ID-01_COVID-19.pdf\">interim COVID-19 position statement</a> issued by the Council for State and Territorial Epidemiologists on April 5, 2020. The position statement included a case definition and made COVID-19 a nationally notifiable disease. Nationally notifiable disease cases are voluntarily reported to CDC by jurisdictions. Confirmed and probable case definition criteria are described here:\n<a href=\"https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/\">https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/</a>. Not all jurisdictions report probable cases and deaths to CDC. When not available to CDC, it is noted as N/A. Please note that jurisdiction",
+            "description": "CDC reports aggregate counts of COVID-19 cases and death numbers daily online. Data on the COVID-19 website and CDC\u2019s COVID Data Tracker are based on these most recent numbers reported by states, territories, and other jurisdictions. This data set of \u201cUnited States COVID-19 Cases and Deaths by State over Time\u201d combines this information. However, data are dependent on jurisdictions\u2019 timely and accurate reporting. \n\nSeparately, CDC also regularly reports provisional death certificate data from the National Vital Statistics System (NVSS) on data.cdc.gov. Details are described on the <a href=\"https://www.cdc.gov/nchs/nvss/covid-19.htm\">NCHS website</a>. Reporting the number of deaths by using death certificates ultimately provides more complete information but is a longer process; therefore, these numbers will be less than the death counts on the COVID-19 website.\n\n<b>Accuracy of Data</b><br/>\nCDC tracks COVID-19 illnesses, hospitalizations, and deaths to track trends, detect outbreaks, and monitor whether public health measures are working. However, counting exact numbers of COVID-19 cases is not possible. COVID-19 can cause mild illness, symptoms might not appear immediately, there are delays in reporting and testing, not everyone who is infected gets tested or seeks medical care, and there are differences in how completely states and territories report their cases.\n\nCOVID-19 is one of about <a href=\"https://wwwn.cdc.gov/nndss/\">120 diseases or conditions</a> health departments voluntarily report to CDC. State, local, and territorial public health departments verify and report cases to CDC. When there are differences between numbers of cases reported by CDC versus by health departments, data reported by health departments should be considered the most up to date. Health departments may update case data over time when they receive more complete and accurate information. The number of new cases reported each day fluctuates. There is generally less reporting on the weekends and holidays.\n\nCDC reports death data on three other sections of the website: <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html\">U.S. Cases</a> & Deaths, <a href=\"https://www.cdc.gov/covid-data-tracker/index.html\">COVID Data Tracker</a>, and <a href=\"https://www.cdc.gov/nchs/nvss/covid-19.htm\">NCHS Provisional Death Counts</a>. The U.S. Cases and Deaths webpages and COVID Data Tracker get their information from the same source (total case counts); however, NCHS Death Counts are based on death certificates that use information reported by physicians, medical examiners, or coroners in the cause-of-death section of each certificate. Data from each of these pages are considered provisional (not complete and pending verification) and are therefore subject to change. Counts from previous weeks are continually revised as more records are received and processed. Because not all jurisdictions report counts daily, counts may increase at different intervals.\n\n<b>Confirmed & Probable Counts</b><br/>\nAs of April 14, 2020, CDC case counts and death counts include both confirmed and probable cases and deaths. This change was made to reflect an <a href=\"https://cdn.ymaws.com/www.cste.org/resource/resmgr/2020ps/Interim-20-ID-01_COVID-19.pdf\">interim COVID-19 position statement</a> issued by the Council for State and Territorial Epidemiologists on April 5, 2020. The position statement included a case definition and made COVID-19 a nationally notifiable disease. Nationally notifiable disease cases are voluntarily reported to CDC by jurisdictions. Confirmed and probable case definition criteria are described here:\n<a href=\"https://ndc.services.cdc.gov/case-definitions/coronavirus-disease-2019-2021/\">https://ndc.services.cdc.gov/case-definitions/coronavirus-disease-2019-2021/</a>. Not all jurisdictions report probable cases and deaths to CDC. When not available to CDC, it is noted as N/A. Please note that jurisdictions may reclassify probable cases at",
             "title": "United States COVID-19 Cases and Deaths by State over Time",
             "programCode": [
                 "009:020"
@@ -17169,7 +17130,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "modified": "2022-04-29",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -17672,7 +17633,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-24",
+            "modified": "2022-05-01",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -18136,7 +18097,7 @@
             "landingPage": "https://data.cdc.gov/d/c8as-e7h6",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-23",
+            "modified": "2022-04-30",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -19391,8 +19352,8 @@
             ],
             "issued": "2020-10-21",
             "@type": "dcat:Dataset",
-            "temporal": "2020-02-01/2021-01-29",
-            "modified": "2022-02-28",
+            "temporal": "2020-02-01/2022-02-26",
+            "modified": "2022-04-26",
             "keyword": [
                 "coronavirus",
                 "covid",
@@ -20475,10 +20436,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-06-07",
+            "issued": "2022-04-28",
             "@type": "dcat:Dataset",
             "temporal": "1997-01-01/2018-12-31",
-            "modified": "2022-04-07",
+            "modified": "2022-04-28",
             "keyword": [
                 "african americans",
                 "age",
@@ -21242,7 +21203,7 @@
             ],
             "issued": "2022-03-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-10",
+            "modified": "2022-04-28",
             "keyword": [
                 "aad",
                 "aaf",
@@ -25449,7 +25410,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-24",
+            "modified": "2022-05-01",
             "keyword": [
                 "wastewater"
             ],
@@ -26201,7 +26162,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-04-22",
+            "modified": "2022-04-28",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -27575,7 +27536,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -27673,7 +27634,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27811,7 +27772,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-24",
+            "modified": "2022-04-30",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -30199,7 +30160,7 @@
             ],
             "issued": "2022-02-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-10",
+            "modified": "2022-04-28",
             "keyword": [
                 "aad",
                 "aaf",
@@ -30769,8 +30730,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-23",
-            "modified": "2022-04-23",
+            "temporal": "2020-12-13/2022-04-30",
+            "modified": "2022-04-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -30845,7 +30806,7 @@
             ],
             "issued": "2022-02-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-13",
+            "modified": "2022-04-28",
             "keyword": [
                 "aad",
                 "aaf",
@@ -31324,7 +31285,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "age",
                 "age group",
@@ -32258,7 +32219,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32699,7 +32660,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-21",
+            "modified": "2022-04-28",
             "keyword": [
                 "cares act",
                 "health system",
@@ -33030,8 +32991,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-23",
-            "modified": "2022-04-23",
+            "temporal": "2020-12-13/2022-04-30",
+            "modified": "2022-04-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -33104,10 +33065,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-06-02",
+            "issued": "2022-04-28",
             "@type": "dcat:Dataset",
             "temporal": "1984-01-01/2019-12-31",
-            "modified": "2022-04-07",
+            "modified": "2022-04-28",
             "keyword": [
                 "african americans",
                 "age",
@@ -33318,7 +33279,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -33389,7 +33350,7 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-24",
+            "modified": "2022-04-30",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -33648,7 +33609,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "age",
                 "age group",
@@ -33926,7 +33887,7 @@
             "landingPage": "https://data.cdc.gov/d/kw6u-z8u2",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-23",
+            "modified": "2022-04-30",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -34636,45 +34597,6 @@
             "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/m7tn-mxcc",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-12-15",
-            "@type": "dcat:Dataset",
-            "modified": "2021-10-19",
-            "keyword": [
-                "comprehensive smokefree indoor air",
-                "slides"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/m7tn-mxcc",
-            "description": "Download the comprehensive smokefree indoor air slides. These slides are available in PowerPoint format.",
-            "title": "Comprehensive Smokefree Indoor Air PowerPoint Slides",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/m7tn-mxcc/application/vnd.openxmlformats-officedocument.presentationml.presentation",
-                    "mediaType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
-                }
-            ],
-            "theme": [
-                "Legislation"
             ]
         },
         {
@@ -36127,7 +36049,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -37436,7 +37358,7 @@
             ],
             "issued": "2021-05-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-07",
+            "modified": "2022-04-27",
             "keyword": [
                 "african americans",
                 "alaskan natives",
@@ -37641,7 +37563,7 @@
             "landingPage": "https://data.cdc.gov/d/nmdn-2xuz",
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-23",
+            "modified": "2022-04-30",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -37826,7 +37748,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "age",
                 "age group",
@@ -37901,7 +37823,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-24",
+            "modified": "2022-05-01",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -39023,7 +38945,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -40991,7 +40913,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -42516,7 +42438,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "modified": "2022-04-29",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -43097,8 +43019,8 @@
             ],
             "issued": "2022-04-05",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-23",
-            "modified": "2022-04-23",
+            "temporal": "2020-12-13/2022-04-30",
+            "modified": "2022-04-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -43635,7 +43557,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-19",
+            "modified": "2022-04-26",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -45003,7 +44925,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "age",
                 "age group",
@@ -45144,7 +45066,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-06",
+            "modified": "2022-04-29",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -46594,7 +46516,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "age",
                 "age group",
@@ -46737,7 +46659,7 @@
             "issued": "2021-07-07",
             "temporal": "2019/2021",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-08",
+            "modified": "2022-04-25",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -47354,7 +47276,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -48190,7 +48112,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -48367,8 +48289,8 @@
             ],
             "issued": "2022-02-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-23",
-            "modified": "2022-04-23",
+            "temporal": "2020-12-13/2022-04-30",
+            "modified": "2022-04-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -50498,7 +50420,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "age",
                 "age group",
@@ -51297,10 +51219,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-12-20",
+            "issued": "2022-04-28",
             "@type": "dcat:Dataset",
             "temporal": "2005/2018",
-            "modified": "2022-04-07",
+            "modified": "2022-04-28",
             "keyword": [
                 "accidental falls",
                 "age",
@@ -51586,7 +51508,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "modified": "2022-04-27",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -51597,8 +51519,8 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/w6be-99qd",
-            "description": "These weekly COVID-19 vaccination coverage estimates are for pregnant persons who are fully vaccinated before and during pregnancy based on data  from the Vaccine Safety Datalink*.\n\n\nDATA NOTE: Draft data related to booster doses that are still under review were inadvertently made available on this page and in the dataset between 12:22 PM, 2/28/2022 to 4:30 PM, 3/1/2022. If you downloaded these data, please note that the data may be inaccurate. Booster dose data are expected to be released on Thursday, April 28, 2022.",
-            "title": "Weekly Data: COVID-19 vaccination among pregnant people aged 18-49 years before and during pregnancy overall, by race/ethnicity, and week ending date - Vaccine Safety Datalink,* United States",
+            "description": "These weekly COVID-19 vaccination coverage estimates are for pregnant persons who are fully vaccinated before and during pregnancy based on data  from the Vaccine Safety Datalink*.\n\nDATA NOTE: Draft data related to booster doses that are still under review were inadvertently made available on this page and in the dataset between 12:22 PM, 2/28/2022 to 4:30 PM, 3/1/2022. If you downloaded these data, please note that the data may be inaccurate.",
+            "title": "Weekly Data: COVID-19 vaccination among pregnant people ages 18-49 years before and during pregnancy overall, by race/ethnicity, and week ending date - Vaccine Safety Datalink,* United States",
             "programCode": [
                 "009:026"
             ],
@@ -52535,7 +52457,7 @@
             "issued": "2021-06-03",
             "temporal": "2019/2021",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-08",
+            "modified": "2022-04-25",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -53407,7 +53329,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-21",
+            "modified": "2022-04-29",
             "keyword": [
                 "2022",
                 "nndss",
@@ -53831,7 +53753,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-04-21",
+            "modified": "2022-04-28",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -53975,7 +53897,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -54511,7 +54433,7 @@
             "issued": "2021-06-03",
             "@type": "dcat:Dataset",
             "temporal": "2000/2018",
-            "modified": "2022-04-07",
+            "modified": "2022-04-27",
             "keyword": [
                 "african americans",
                 "age",
@@ -55378,7 +55300,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-20",
+            "modified": "2022-04-27",
             "keyword": [
                 "age",
                 "age group",
@@ -56114,7 +56036,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-21",
+            "modified": "2022-04-28",
             "keyword": [
                 "age",
                 "age group",
