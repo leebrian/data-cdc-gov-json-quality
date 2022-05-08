@@ -764,7 +764,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-01",
+            "modified": "2022-05-08",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1926,7 +1926,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "age",
                 "all causes",
@@ -2400,7 +2400,7 @@
             "landingPage": "https://data.cdc.gov/d/3m2r-fh4s",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-30",
+            "modified": "2022-05-07",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -2595,7 +2595,7 @@
             "issued": "2022-04-01",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-04-28",
+            "modified": "2022-05-05",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2739,7 +2739,7 @@
             "issued": "2021-09-14",
             "@type": "dcat:Dataset",
             "temporal": "2002-01-01/2018-12-31",
-            "modified": "2022-04-01",
+            "modified": "2022-05-04",
             "keyword": [
                 "healthy people 2020"
             ],
@@ -2804,17 +2804,17 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-30",
+            "modified": "2022-05-08",
             "keyword": [
                 "covid-19",
-                "executive order",
-                "gathering bans",
-                "government order",
-                "legal epidemiology",
                 "mitigation",
+                "gathering bans",
+                "social distancing",
+                "executive order",
                 "proclamation",
-                "public health order",
-                "social distancing"
+                "legal epidemiology",
+                "government order",
+                "public health order"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -3295,7 +3295,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-30",
+            "modified": "2022-05-08",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -4840,7 +4840,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "age",
                 "age group",
@@ -6295,7 +6295,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-30",
+            "modified": "2022-05-07",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7059,18 +7059,18 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-30",
+            "modified": "2022-05-08",
             "keyword": [
-                "business closure",
-                "business reopening",
                 "covid-19",
+                "social distancing",
                 "executive order",
-                "government order",
-                "legal epidemiology",
-                "mitigation",
                 "proclamation",
+                "legal epidemiology",
+                "government order",
                 "public health order",
-                "social distancing"
+                "mitigation",
+                "business closure",
+                "business reopening"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -8647,6 +8647,45 @@
             "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/6wg8-s245",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2015-12-15",
+            "@type": "dcat:Dataset",
+            "modified": "2021-10-19",
+            "keyword": [
+                "cigarette excise tax",
+                "slides"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "OSHData Support",
+                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/6wg8-s245",
+            "description": "Download the current cigarette excise tax rates on packs of cigarettes slides. These slides are available in PowerPoint format.",
+            "title": "Excise Tax Rates On Packs Of Cigarettes PowerPoint Slides",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/download/6wg8-s245/application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                }
+            ],
+            "theme": [
+                "Legislation"
             ]
         },
         {
@@ -10635,7 +10674,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-01",
+            "modified": "2022-05-08",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -10832,51 +10871,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/873a-if74",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2017-04-27",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "fact sheet"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/873a-if74",
-            "description": "Explore state laws on the minimum legal purchase age of tobacco products.\r\n\r\nFor accessibility issues contact OSHData@cdc.gov.",
-            "title": "STATE System Tobacco 21 Fact Sheet",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/873a-if74/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Legislation"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/88eg-qzed",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-08",
+            "modified": "2022-05-04",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -11976,8 +11977,8 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-30",
-            "modified": "2022-04-30",
+            "temporal": "2020-12-13/2022-05-07",
+            "modified": "2022-05-07",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -12852,7 +12853,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "age",
                 "age group",
@@ -13110,7 +13111,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -13408,7 +13409,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -13869,7 +13870,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-04-30",
+            "modified": "2022-05-07",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -15467,7 +15468,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "modified": "2022-05-02",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -16322,45 +16323,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/b3ya-8vn4",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-02-02",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "healthy people 2020",
-                "infographic"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/b3ya-8vn4",
-            "description": "Explore the Healthy People 2020 Tobacco Use Infographic which shows the target goals of the Tobacco Use Leading Health Indicators (LHIs).",
-            "title": "Healthy People 2020 Tobacco Use Infographic",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/b3ya-8vn4/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Healthy People 2020"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/b4av-siev",
             "bureauCode": [
                 "009:00"
@@ -17130,7 +17092,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-29",
+            "modified": "2022-05-06",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -17633,7 +17595,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-01",
+            "modified": "2022-05-08",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -17985,45 +17947,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/bye3-z9cz",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-02-02",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "fact sheet",
-                "healthy people 2020"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/bye3-z9cz",
-            "description": "Explore the Healthy People 2020 Tobacco Use Fact Sheet which provides an introduction to the Tobacco Use topic area in a colorful, 2-page brochure.",
-            "title": "Healthy People 2020 Tobacco Use Fact Sheet",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/bye3-z9cz/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Healthy People 2020"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/bytj-42x7",
             "bureauCode": [
                 "009:20"
@@ -18097,7 +18020,7 @@
             "landingPage": "https://data.cdc.gov/d/c8as-e7h6",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-30",
+            "modified": "2022-05-07",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -20094,44 +20017,6 @@
             "describedBy": "https://chronicdata.cdc.gov/d/de4p-4g3k",
             "theme": [
                 "Vision & Eye Health"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/dh22-5kgj",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-01-20",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "fact sheet"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/dh22-5kgj",
-            "description": "Explore state smokefree vehicle laws.\r\n\r\nFor accessibility issues contact OSHData@cdc.gov.",
-            "title": "STATE System Vehicles Fact Sheet",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/dh22-5kgj/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Legislation"
             ]
         },
         {
@@ -25410,7 +25295,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-01",
+            "modified": "2022-05-08",
             "keyword": [
                 "wastewater"
             ],
@@ -26117,44 +26002,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/gxi9-gfcw",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-01-20",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "fact sheet"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/gxi9-gfcw",
-            "description": "Explore state tax stamp laws.\r\n\r\nFor accessibility issues contact OSHData@cdc.gov.",
-            "title": "STATE System Tax Stamp Fact Sheet",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/gxi9-gfcw/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Legislation"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/gxj9-t96f",
             "bureauCode": [
                 "009:20"
@@ -26162,7 +26009,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-04-28",
+            "modified": "2022-05-06",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -27536,7 +27383,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -27634,7 +27481,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27772,7 +27619,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-30",
+            "modified": "2022-05-08",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -28933,7 +28780,7 @@
             ],
             "issued": "2020-10-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-08",
+            "modified": "2022-05-04",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -29295,7 +29142,7 @@
             ],
             "issued": "2021-05-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-11",
+            "modified": "2022-05-03",
             "keyword": [
                 "any exemption",
                 "dt",
@@ -29992,7 +29839,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "modified": "2022-05-02",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -30730,8 +30577,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-30",
-            "modified": "2022-04-30",
+            "temporal": "2020-12-13/2022-05-07",
+            "modified": "2022-05-07",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -30932,7 +30779,7 @@
             ],
             "issued": "2021-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-05-04",
             "keyword": [
                 "age",
                 "age group",
@@ -31285,7 +31132,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "age",
                 "age group",
@@ -31430,7 +31277,7 @@
             ],
             "issued": "2019-05-13",
             "@type": "dcat:Dataset",
-            "modified": "2020-11-17",
+            "modified": "2022-05-04",
             "references": [
                 "https://www.cdc.gov/oralhealthdata/"
             ],
@@ -31460,7 +31307,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/jz6n-v26y",
-            "description": "2012-2018 (even years). Data from BRFSS for indicators of adult oral health for even years from 2012 through 2018. National estimates are represented by the median prevalence among 50 states and the District of Columbia data. Estimates are prepared from the BRFSS public use data sets. Estimates in this file are not age adjusted, and may differ slightly from estimates available from the BRFSS web site or Chronic Disease Indicators due to small differences in definition, age adjustment or rounding.  For more information, see: http://www.cdc.gov/oralhealthdata/overview/Adult_Indicators.html",
+            "description": "2012-2020 (even years). Data from BRFSS for indicators of adult oral health for even years from 2012 through 2020. National estimates are represented by the median prevalence among 50 states and the District of Columbia data. Estimates are prepared from the BRFSS public use data sets. Estimates in this file are not age adjusted, and may differ slightly from estimates available from the BRFSS web site or Chronic Disease Indicators due to small differences in definition, age adjustment or rounding.  For more information, see: http://www.cdc.gov/oralhealthdata/overview/Adult_Indicators.html",
             "title": "NOHSS Adult Indicators",
             "programCode": [
                 "009:020"
@@ -32219,7 +32066,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32342,44 +32189,6 @@
             ],
             "theme": [
                 "Motor Vehicle"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/kcq2-zgn5",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-01-20",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "fact sheet"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/kcq2-zgn5",
-            "description": "Explore state multi unit housing smokefree indoor air laws.\r\n\r\nFor accessibility issues contact OSHData@cdc.gov.",
-            "title": "STATE System Multi-unit Housing Fact Sheet",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/kcq2-zgn5/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Legislation"
             ]
         },
         {
@@ -32660,7 +32469,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-28",
+            "modified": "2022-05-05",
             "keyword": [
                 "cares act",
                 "health system",
@@ -32991,8 +32800,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-30",
-            "modified": "2022-04-30",
+            "temporal": "2020-12-13/2022-05-07",
+            "modified": "2022-05-07",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -33279,7 +33088,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -33350,7 +33159,7 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-30",
+            "modified": "2022-05-08",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -33609,7 +33418,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "age",
                 "age group",
@@ -33887,7 +33696,7 @@
             "landingPage": "https://data.cdc.gov/d/kw6u-z8u2",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-30",
+            "modified": "2022-05-07",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -34530,7 +34339,7 @@
             ],
             "issued": "2020-11-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-05-04",
             "keyword": [
                 "age",
                 "age group",
@@ -34597,6 +34406,45 @@
             "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/m7tn-mxcc",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2015-12-15",
+            "@type": "dcat:Dataset",
+            "modified": "2021-10-19",
+            "keyword": [
+                "comprehensive smokefree indoor air",
+                "slides"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "OSHData Support",
+                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/m7tn-mxcc",
+            "description": "Download the comprehensive smokefree indoor air slides. These slides are available in PowerPoint format.",
+            "title": "Comprehensive Smokefree Indoor Air PowerPoint Slides",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/download/m7tn-mxcc/application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                    "mediaType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+                }
+            ],
+            "theme": [
+                "Legislation"
             ]
         },
         {
@@ -34746,10 +34594,10 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-04-04",
-            "modified": "2022-04-08",
+            "temporal": "2020-01-01/2022-05-02",
+            "modified": "2022-05-05",
             "references": [
-                "https://data.cdc.gov/api/views/mbd7-r32t/files/4e7ee941-4e38-4570-bda7-8aa8536c14e7?download=true&filename=utility_summary_ridura.pdf"
+                "https://data.cdc.gov/api/views/mbd7-r32t/files/7d1f92f0-c41d-4f38-bb92-092279bfe39c?download=true&filename=ridura%2032%20utility%20summary.pdf"
             ],
             "keyword": [
                 "cases",
@@ -34770,7 +34618,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/mbd7-r32t",
-            "description": "<b>April 7, 2022:</b> An adjustment was made to CDC\u2019s cleaning algorithm for COVID-19 line level case notification data.  An assumption in CDC's algorithm led to misclassifying deaths that were not COVID-19 related. The algorithm has since been revised, and this dataset update reflects corrected individual level information about death status for all cases collected to date. \n\nThis case surveillance publicly available dataset has 32 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors. This dataset requires a registration process and a data use agreement.\n<br>\n<h4><b>CDC has three COVID-19 case surveillance datasets:</b></h4>\n\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">COVID-19 Case Surveillance Public Use Data with Geography</a>: Public use, patient-level dataset with clinical data (including symptoms), demographics, and county and state of residence. (19 data elements) <br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">COVID-19 Case Surveillance Public Use Data</a>: Public use, patient-level dataset with clinical and symptom data and demographics, with no geographic data. (12 data elements)<br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">COVID-19 Case Surveillance Restricted Access Data</a>: Restricted access, patient-level dataset with clinical (including symptoms), demographics, and county and state of residence. Access requires a registration process and a data use agreement. (32 data elements)<br>\n\n<b>Requesting Access to the COVID-19 Case Surveillance Restricted Access Detailed Data</b>\n\nPlease review the following documents to determine your interest in accessing the COVID-19 Case Surveillance Restricted Access Detailed Data file:\n\n1) <a href=\"https://data.cdc.gov/api/views/mbd7-r32t/files/7459a687-9fc8-4580-b812-745c0dff1ced?download=true&filename=summary_guidance_and_limitations_information_and_restricted_access_data_use_agreement_information.pdf\">CDC COVID-19 Case Surveillance Restricted Access Detailed Data: Summary, Guidance, Limitations Information, and Restricted Access Data Use Agreement Information</a>\n\n2) <a href=\"https://data.cdc.gov/api/views/mbd7-r32t/files/2a0d9470-3137-4ce6-8614-f4cead25ecf5?download=true&filename=data_dictionary_covid_cases_restricted_detailed.xlsx\">Data Dictionary for the COVID-19 Case Surveillance Restricted Access Detailed Data</a>\n\nThe next step is to complete the Registration Information and Data Use Restrictions Agreement (<a href=\"https://app.smartsheetgov.com/b/form/20e9cf9b42d04a92a67585043cf34fbe\">RIDURA</a>). Once complete, CDC will review your agreement. After access is granted, Ask SRRG (<a href=\"mailto:eocevent394@cdc.gov\">eocevent394@cdc.gov</a>) will email you information about how to access the data through GitHub. If you have questions about obtaining access, email <a href=\"mailto:eocevent394@cdc.gov\">eocevent394@cdc.gov</a>. \n\n\n<h4><b>Overview</b></h4>\n\nThe COVID-19 case surveillance database includes patient-level data reported by U.S. states and autonomous reporting entities, including New York City, the District of Columbia, as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://wwwn.cdc.gov/nndss/conditions/\"> Nationally Notifiable Condition List </a> and classified as \u201cimmediately notifiable, urgent (within 24 hours)\u201d by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (Interim-20-ID-01). CSTE updated the position statement on August 5, 2020, to clarify the interpretation of antigen detection tests and serologic test results within the case classification. The statement also recommended that a",
+            "description": "This case surveillance publicly available dataset has 32 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors. This dataset requires a registration process and a data use agreement.\n<br>\n<h4><b>CDC has three COVID-19 case surveillance datasets:</b></h4>\n\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">COVID-19 Case Surveillance Public Use Data with Geography</a>: Public use, patient-level dataset with clinical data (including symptoms), demographics, and county and state of residence. (19 data elements) <br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">COVID-19 Case Surveillance Public Use Data</a>: Public use, patient-level dataset with clinical and symptom data and demographics, with no geographic data. (12 data elements)<br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">COVID-19 Case Surveillance Restricted Access Data</a>: Restricted access, patient-level dataset with clinical (including symptoms), demographics, and county and state of residence. Access requires a registration process and a data use agreement. (32 data elements)<br>\n\n<b>Requesting Access to the COVID-19 Case Surveillance Restricted Access Detailed Data</b>\n\nPlease review the following documents to determine your interest in accessing the COVID-19 Case Surveillance Restricted Access Detailed Data file:\n\n1) <a href=\"https://data.cdc.gov/api/views/mbd7-r32t/files/7459a687-9fc8-4580-b812-745c0dff1ced?download=true&filename=summary_guidance_and_limitations_information_and_restricted_access_data_use_agreement_information.pdf\">CDC COVID-19 Case Surveillance Restricted Access Detailed Data: Summary, Guidance, Limitations Information, and Restricted Access Data Use Agreement Information</a>\n\n2) <a href=\"https://data.cdc.gov/api/views/mbd7-r32t/files/2a0d9470-3137-4ce6-8614-f4cead25ecf5?download=true&filename=data_dictionary_covid_cases_restricted_detailed.xlsx\">Data Dictionary for the COVID-19 Case Surveillance Restricted Access Detailed Data</a>\n\nThe next step is to complete the Registration Information and Data Use Restrictions Agreement (<a href=\"https://app.smartsheetgov.com/b/form/20e9cf9b42d04a92a67585043cf34fbe\">RIDURA</a>). Once complete, CDC will review your agreement. After access is granted, Ask SRRG (<a href=\"mailto:eocevent394@cdc.gov\">eocevent394@cdc.gov</a>) will email you information about how to access the data through GitHub. If you have questions about obtaining access, email <a href=\"mailto:eocevent394@cdc.gov\">eocevent394@cdc.gov</a>. \n\n\n<h4><b>Overview</b></h4>\n\nThe COVID-19 case surveillance database includes patient-level data reported by U.S. states and autonomous reporting entities, including New York City, the District of Columbia, as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://wwwn.cdc.gov/nndss/conditions/\"> Nationally Notifiable Condition List </a> and classified as \u201cimmediately notifiable, urgent (within 24 hours)\u201d by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (Interim-20-ID-01). CSTE updated the position statement on August 5, 2020, to clarify the interpretation of antigen detection tests and serologic test results within the case classification. The statement also recommended that all states and territories enact laws to make COVID-19 reportable in their jurisdiction, and that jurisdictions conducting surveillance should submit case notifications to CDC. \n\nCOVID-19 case surveillance data are collected by jurisdictions and are shared voluntarily with CDC. For more information, visit: <a href=\"https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-c",
             "title": "COVID-19 Case Surveillance Restricted Access Detailed Data",
             "describedByType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             "programCode": [
@@ -35986,7 +35834,7 @@
             ],
             "issued": "2021-09-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "modified": "2022-05-04",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -36003,7 +35851,7 @@
                 "name": "data.cdc.gov"
             },
             "identifier": "https://data.cdc.gov/api/views/muep-c3qd",
-            "description": "Household Pulse Survey (HPS): HPS is a rapid-response survey of adults aged \u226518 years led by the U.S. Census Bureau, in partnership with seven other federal statistical agencies, to measure household experiences during the COVID-19 pandemic. Detailed information on probability sampling using the Census\u2019 Master Address File, questionnaires, response rates, and bias assessment is available on the Census Bureau website (https://www.census.gov/data/experimental-data-products/household-pulse-survey.htmlexternal icon).\n\nData from adults aged \u226518 years are collected by 20-minute online survey from randomly sampled households stratified by state and the top 15 metropolitan statistical areas (MSAs). Data are weighted to represent total persons age 18 and older living within households and to mitigate possible bias that can result from non-responses and incomplete survey frame. Data from adults aged \u226518 years are collected by 20-minute online survey from randomly sampled households stratified by state and the top 15 metropolitan statistical areas (MSAs). Data collection for Phase 3.1 of the survey, which included questions about disability, began on April 14, 2021 and will continue through at least to the end of October 2021. For more information on this survey, see https://www.census.gov/programs-surveys/household-pulse-survey.html.\n\nData are weighted to represent total persons age 18 and older living within households and to mitigate possible bias that can result from non-responses and incomplete survey frame. Responses in the Household Pulse Survey (https://www.census.gov/programs-surveys/household-pulse-survey.html) are self-reported.\u202fEstimates of vaccination coverage may differ from vaccine administration data reported at\u202fCOVID-19 Vaccinations in the United States (https://covid.cdc.gov/covid-data-tracker/%22 /l %22vaccinations).",
+            "description": "Household Pulse Survey (HPS): HPS is a rapid-response survey of adults ages \u226518 years led by the U.S. Census Bureau, in partnership with seven other federal statistical agencies, to measure household experiences during the COVID-19 pandemic. Detailed information on probability sampling using the Census\u2019 Master Address File, questionnaires, response rates, and bias assessment is available on the Census Bureau website (https://www.census.gov/data/experimental-data-products/household-pulse-survey.html).\n\nData from adults ages \u226518 years are collected by 20-minute online survey from randomly sampled households stratified by state and the top 15 metropolitan statistical areas (MSAs). Data are weighted to represent total persons age 18 and older living within households and to mitigate possible bias that can result from non-responses and incomplete survey frame. Data from adults aged \u226518 years are collected by 20-minute online survey from randomly sampled households stratified by state and the top 15 metropolitan statistical areas (MSAs). For more information on this survey, see https://www.census.gov/programs-surveys/household-pulse-survey.html.\n\nData are weighted to represent total persons age 18 and older living within households and to mitigate possible bias that can result from non-responses and incomplete survey frame. Responses in the Household Pulse Survey (https://www.census.gov/programs-surveys/household-pulse-survey.html) are self-reported.\u202fEstimates of vaccination coverage may differ from vaccine administration data reported at\u202fCOVID-19 Vaccinations in the United States (https://covid.cdc.gov/covid-data-tracker/#vaccinations).",
             "title": "Household Pulse Survey (HPS): COVID-19 Vaccination among People with Disabilities",
             "programCode": [
                 "009:026"
@@ -36049,7 +35897,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -36972,10 +36820,10 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-04-04",
-            "modified": "2022-04-08",
+            "temporal": "2020-01-01/2022-05-02",
+            "modified": "2022-05-05",
             "references": [
-                "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/utility_summary_public_geo.pdf"
+                "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2019%20utility%20summary.pdf"
             ],
             "keyword": [
                 "cases",
@@ -36997,7 +36845,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/n8mc-b4w4",
-            "description": "<b>April 7, 2022:</b> An adjustment was made to CDC\u2019s cleaning algorithm for COVID-19 line level case notification data.  An assumption in CDC's algorithm led to misclassifying deaths that were not COVID-19 related. The algorithm has since been revised, and this dataset update reflects corrected individual level information about death status for all cases collected to date.\n\nThis case surveillance public use dataset has 19 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors.\n\nCurrently, CDC provides the public with three versions of COVID-19 case surveillance line-listed data: this <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">19 data element dataset with geography</a>, a <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">12 data element public use dataset</a>, and a <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">32 data element restricted access dataset</a>.\n\nThe following apply to the public use datasets and the restricted access dataset:\n- Data elements can be found on the COVID-19 case report form located at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf\">www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf</a>.\n- Data are considered provisional by CDC and are subject to change until the data are reconciled and verified with the state and territorial data providers.\n- Some data are suppressed to protect individual privacy.\n- Datasets will include all cases with the earliest date available in each record (date received by CDC or date related to illness/specimen collection) at least 14 days prior to the creation of the previously updated datasets. This 14-day lag allows case reporting to be stabilized and ensure that time-dependent outcome data are accurately captured.\n- Datasets are updated monthly.\n- Datasets are created using CDC\u2019s <a href=\"https://www.cdc.gov/maso/policy/policy385.pdf\">Policy on Public Health Research and Nonresearch Data Management and Access</a> and include protections designed to protect individual privacy.\n- For more information about data collection and reporting, please see <a href=\"https://wwwn.cdc.gov/nndss/data-collection.html\">wwwn.cdc.gov/nndss/data-collection.html</a>.\n- For more information about the COVID-19 case surveillance data, please see <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\">www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html</a>.\n\n<b>Overview</b>\n\nThe COVID-19 case surveillance database includes patient-level data reported by U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://wwwn.cdc.gov/nndss/conditions/\">Nationally Notifiable Condition List</a> and classified as \"immediately notifiable, urgent (within 24 hours)\" by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (<a href=\"https://www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-01_COVID-19_NO.pdf\">Interim-20-ID-01</a>). CSTE updated the position statement on August 5, 2020 to clarify the interpretation of antigen detection tests and serologic test results within the case classification (<a href=\"https://www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-02_COVID-19.pdf\">Interim-20-ID-02</a>). The statement also recommended that all states and territories enact laws to make COVID-19 reportable in their jurisdiction, and that jurisdictions conducting surveillance should submit case notifications to CDC. COVID-19 case surveillance data collec",
+            "description": "This case surveillance public use dataset has 19 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors.\n\nCurrently, CDC provides the public with three versions of COVID-19 case surveillance line-listed data: this <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">19 data element dataset with geography</a>, a <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">12 data element public use dataset</a>, and a <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">32 data element restricted access dataset</a>.\n\nThe following apply to the public use datasets and the restricted access dataset:\n- Data elements can be found on the COVID-19 case report form located at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf\">www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf</a>.\n- Data are considered provisional by CDC and are subject to change until the data are reconciled and verified with the state and territorial data providers.\n- Some data are suppressed to protect individual privacy.\n- Datasets will include all cases with the earliest date available in each record (date received by CDC or date related to illness/specimen collection) at least 14 days prior to the creation of the previously updated datasets. This 14-day lag allows case reporting to be stabilized and ensure that time-dependent outcome data are accurately captured.\n- Datasets are updated monthly.\n- Datasets are created using CDC\u2019s <a href=\"https://www.cdc.gov/maso/policy/policy385.pdf\">Policy on Public Health Research and Nonresearch Data Management and Access</a> and include protections designed to protect individual privacy.\n- For more information about data collection and reporting, please see <a href=\"https://wwwn.cdc.gov/nndss/data-collection.html\">wwwn.cdc.gov/nndss/data-collection.html</a>.\n- For more information about the COVID-19 case surveillance data, please see <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\">www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html</a>.\n\n<b>Overview</b>\n\nThe COVID-19 case surveillance database includes patient-level data reported by U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://wwwn.cdc.gov/nndss/conditions/\">Nationally Notifiable Condition List</a> and classified as \"immediately notifiable, urgent (within 24 hours)\" by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (<a href=\"https://www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-01_COVID-19_NO.pdf\">Interim-20-ID-01</a>). CSTE updated the position statement on August 5, 2020 to clarify the interpretation of antigen detection tests and serologic test results within the case classification (<a href=\"https://www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-02_COVID-19.pdf\">Interim-20-ID-02</a>). The statement also recommended that all states and territories enact laws to make COVID-19 reportable in their jurisdiction, and that jurisdictions conducting surveillance should submit case notifications to CDC. COVID-19 case surveillance data collected by jurisdictions are shared voluntarily with CDC.\nFor more information, visit: <a href=\"https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/08/05/\">wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/08/05/</a>.\n\n<b>COVID-19 Case Reports</b>\n\nCOVID-19 case reports are routinely submitted to CDC by pu",
             "title": "COVID-19 Case Surveillance Public Use Data with Geography",
             "describedByType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             "programCode": [
@@ -37563,7 +37411,7 @@
             "landingPage": "https://data.cdc.gov/d/nmdn-2xuz",
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-30",
+            "modified": "2022-05-07",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -37748,7 +37596,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "age",
                 "age group",
@@ -37823,7 +37671,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-01",
+            "modified": "2022-05-08",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -38084,48 +37932,6 @@
             "describedBy": "https://chronicdata.cdc.gov/Heart-Disease-Stroke-Prevention/Healthcare-Cost-and-Utilization-Project-HCUP-Natio/ntny-77fx",
             "theme": [
                 "Heart Disease & Stroke Prevention"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/nwhw-m4ki",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2016-01-20",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "e-cigarette",
-                "electronic nicotine delivery systems",
-                "ends",
-                "fact sheet",
-                "infographic"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/nwhw-m4ki",
-            "description": "Explore the Electronic Nicotine Delivery Systems Key Facts Infographic which outlines key facts related to electronic nicotine delivery systems (ENDS), including e-cigarettes.",
-            "title": "Electronic Nicotine Delivery Systems Key Facts Infographic",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/nwhw-m4ki/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Policy"
             ]
         },
         {
@@ -38945,7 +38751,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -39990,7 +39796,7 @@
             "issued": "2020-12-15",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-18/2021-11-30",
-            "modified": "2022-04-01",
+            "modified": "2022-05-06",
             "keyword": [
                 "covid-19",
                 "emergency department",
@@ -40012,7 +39818,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/q3t8-zr7t",
-            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020 and 2021 NHCS are not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 40 hospitals submitting inpatient and 40 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020-November 30, 2021.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
+            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020 and 2021 NHCS are not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 45 hospitals submitting inpatient and 44 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020-December 28, 2021.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
             "title": "COVID-19 Hospital Data from the National Hospital Care Survey",
             "programCode": [
                 "009:020"
@@ -40913,7 +40719,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -41446,45 +41252,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/qte6-7jwd",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-10-28",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "e-cigarette",
-                "fact sheet"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/qte6-7jwd",
-            "description": "Explore state e-cigarette laws.\r\n\r\nFor accessibility issues contact OSHData@cdc.gov.",
-            "title": "STATE System E-Cigarette Fact Sheet",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/qte6-7jwd/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Legislation"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/qvvb-s7gu",
             "bureauCode": [
                 "009:00"
@@ -41908,7 +41675,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "modified": "2022-05-02",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -42438,7 +42205,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-29",
+            "modified": "2022-05-06",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -42833,44 +42600,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/rg2e-yapb",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-01-20",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "fact sheet"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/rg2e-yapb",
-            "description": "Explore state smokefree gaming laws.\r\n\r\nFor accessibility issues contact OSHData@cdc.gov.",
-            "title": "STATE System Gaming Facilities Fact Sheet",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/rg2e-yapb/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Legislation"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/rg4j-6mcc",
             "bureauCode": [
                 "009:00"
@@ -43019,8 +42748,8 @@
             ],
             "issued": "2022-04-05",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-30",
-            "modified": "2022-04-30",
+            "temporal": "2020-12-13/2022-05-07",
+            "modified": "2022-05-07",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -43557,7 +43286,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-26",
+            "modified": "2022-05-03",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -44925,7 +44654,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "age",
                 "age group",
@@ -46516,7 +46245,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "age",
                 "age group",
@@ -46712,45 +46441,6 @@
             "accrualPeriodicity": "R/P6M",
             "theme": [
                 "NCHS"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/tsmn-nssw",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-01-20",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "fact sheet",
-                "tax"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/tsmn-nssw",
-            "description": "Explore state excise taxes on combustible and non-combustible tobacco products.\r\n\r\nFor accessibility issues contact OSHData@cdc.gov.",
-            "title": "STATE System Excise Tax Fact Sheet",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/tsmn-nssw/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Legislation"
             ]
         },
         {
@@ -47276,7 +46966,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -47961,7 +47651,7 @@
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "modified": "2022-05-02",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -48068,51 +47758,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/uey9-5sp9",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2018-04-19",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "fact sheet"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/uey9-5sp9",
-            "description": "Explore state tobacco licensure laws.\r\n\r\nFor accessibility issues contact OSHData@cdc.gov.",
-            "title": "STATE System Licensure Fact Sheet",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/uey9-5sp9/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Legislation"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -48245,52 +47897,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ukav-hn33",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-01-20",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "fact sheet"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/ukav-hn33",
-            "description": "Explore state Medicaid coverage of tobacco cessation treatments.\n\nFor accessibility issues contact nccdoshinquiries@cdc.gov.",
-            "title": "STATE System Medicaid Coverage of Tobacco Cessation Treatments Fact Sheet",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/ukav-hn33/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Cessation Coverage "
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/unsk-b7fc",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-02-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-04-30",
-            "modified": "2022-04-30",
+            "temporal": "2020-12-13/2022-05-07",
+            "modified": "2022-05-07",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -48483,44 +48097,6 @@
             ],
             "theme": [
                 "NNDSS"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/uu8y-j6ga",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-01-20",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "fact sheet"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/uu8y-j6ga",
-            "description": "Explore state laws and case law on preemption.\r\n\r\nFor accessibility issues contact OSHData@cdc.gov.",
-            "title": "STATE System Preemption Fact Sheet",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/uu8y-j6ga/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Legislation"
             ]
         },
         {
@@ -49442,10 +49018,10 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-04-04",
-            "modified": "2022-04-08",
+            "temporal": "2020-01-01/2022-05-02",
+            "modified": "2022-05-05",
             "references": [
-                "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/utility_summary_public.pdf"
+                "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2012%20utility%20summary.pdf"
             ],
             "keyword": [
                 "cases",
@@ -49465,7 +49041,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/vbim-akqf",
-            "description": "<b>April 7, 2022:</b> An adjustment was made to CDC\u2019s cleaning algorithm for COVID-19 line level case notification data.  An assumption in CDC's algorithm led to misclassifying deaths that were not COVID-19 related. The algorithm has since been revised, and this dataset update reflects corrected individual level information about death status for all cases collected to date.\n\nThis case surveillance public use dataset has 12 elements for all COVID-19 cases shared with CDC and includes demographics, any exposure history, disease severity indicators and outcomes, presence of any underlying medical conditions and risk behaviors, and no geographic data.\n<br>\n<h4><b>CDC has three COVID-19 case surveillance datasets:</b></h4>\n\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">COVID-19 Case Surveillance Public Use Data with Geography</a>: Public use, patient-level dataset with clinical data (including symptoms), demographics, and county and state of residence. (19 data elements) <br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">COVID-19 Case Surveillance Public Use Data</a>: Public use, patient-level dataset with clinical and symptom data and demographics, with no geographic data. (12 data elements)<br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">COVID-19 Case Surveillance Restricted Access Detailed Data</a>: Restricted access, patient-level dataset with clinical and symptom data, demographics, and state and county of residence. Access requires a registration process and a data use agreement. (32 data elements)\n\nThe following apply to all three datasets:\n\n- Data elements can be found on the COVID-19 case report form located at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf\">www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf</a>.<br>\n- Data are considered provisional by CDC and are subject to change until the data are reconciled and verified with the state and territorial data providers.\n- Some data cells are suppressed to protect individual privacy.<br>\n- The datasets will include all cases with the earliest date available in each record (date received by CDC or date related to illness/specimen collection) at least 14 days prior to the creation of the previously updated datasets. This 14-day lag allows case reporting to be stabilized and ensures that time-dependent outcome data are accurately captured.<br>\n- Datasets are updated monthly. <br>\n- Datasets are created using CDC\u2019s operational Policy on Public Health Research and Nonresearch Data Management and Access and include protections designed to protect individual privacy.<br>\n- For more information about data collection and reporting, please see <a href=\"https://wwwn.cdc.gov/nndss/data-collection.html\"> https://wwwn.cdc.gov/nndss/data-collection.html</a><br>\n- For more information about the COVID-19 case surveillance data, please see <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\"> https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html</a><br>\n\n<h4><b>Overview</b></h4>\n\nThe COVID-19 case surveillance database includes individual-level data reported to U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://wwwn.cdc.gov/nndss/conditions/\"> Nationally Notifiable Condition List </a> and classified as \u201cimmediately notifiable, urgent (within 24 hours)\u201d by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (Interim-20-ID-01). CSTE updated the position statement on August 5, 2020 to clarify the interpretation of antigen detection tests and serologic test results within the case classification. The statement also recommended th",
+            "description": "This case surveillance public use dataset has 12 elements for all COVID-19 cases shared with CDC and includes demographics, any exposure history, disease severity indicators and outcomes, presence of any underlying medical conditions and risk behaviors, and no geographic data.\n<br>\n<h4><b>CDC has three COVID-19 case surveillance datasets:</b></h4>\n\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">COVID-19 Case Surveillance Public Use Data with Geography</a>: Public use, patient-level dataset with clinical data (including symptoms), demographics, and county and state of residence. (19 data elements) <br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">COVID-19 Case Surveillance Public Use Data</a>: Public use, patient-level dataset with clinical and symptom data and demographics, with no geographic data. (12 data elements)<br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">COVID-19 Case Surveillance Restricted Access Detailed Data</a>: Restricted access, patient-level dataset with clinical and symptom data, demographics, and state and county of residence. Access requires a registration process and a data use agreement. (32 data elements)\n\nThe following apply to all three datasets:\n\n- Data elements can be found on the COVID-19 case report form located at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf\">www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf</a>.<br>\n- Data are considered provisional by CDC and are subject to change until the data are reconciled and verified with the state and territorial data providers.\n- Some data cells are suppressed to protect individual privacy.<br>\n- The datasets will include all cases with the earliest date available in each record (date received by CDC or date related to illness/specimen collection) at least 14 days prior to the creation of the previously updated datasets. This 14-day lag allows case reporting to be stabilized and ensures that time-dependent outcome data are accurately captured.<br>\n- Datasets are updated monthly. <br>\n- Datasets are created using CDC\u2019s operational Policy on Public Health Research and Nonresearch Data Management and Access and include protections designed to protect individual privacy.<br>\n- For more information about data collection and reporting, please see <a href=\"https://wwwn.cdc.gov/nndss/data-collection.html\"> https://wwwn.cdc.gov/nndss/data-collection.html</a><br>\n- For more information about the COVID-19 case surveillance data, please see <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\"> https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html</a><br>\n\n<h4><b>Overview</b></h4>\n\nThe COVID-19 case surveillance database includes individual-level data reported to U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://wwwn.cdc.gov/nndss/conditions/\"> Nationally Notifiable Condition List </a> and classified as \u201cimmediately notifiable, urgent (within 24 hours)\u201d by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (Interim-20-ID-01). CSTE updated the position statement on August 5, 2020 to clarify the interpretation of antigen detection tests and serologic test results within the case classification. The statement also recommended that all states and territories enact laws to make COVID-19 reportable in their jurisdiction, and that jurisdictions conducting surveillance should submit case notifications to CDC. COVID-19 case surveillance data are collected by jurisdictions and reported voluntarily to CDC. \n<br>\nFor more information: \n<a href=\"https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-co",
             "title": "COVID-19 Case Surveillance Public Use Data",
             "describedByType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             "programCode": [
@@ -49769,44 +49345,6 @@
             ],
             "theme": [
                 "500 Cities & Places"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/vgq2-kkcg",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2015-01-20",
-            "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
-            "keyword": [
-                "fact sheet"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "OSHData Support",
-                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/vgq2-kkcg",
-            "description": "Explore state smokefree indoor air laws.\n\nPersons with disabilities experiencing problems accessing the fact sheet files should contact OSHData@cdc.gov, or call 1-800-CDC-INFO (1-800-232-4636",
-            "title": "STATE System Smokefree Indoor Air Fact Sheet",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/download/vgq2-kkcg/application/pdf",
-                    "mediaType": "application/pdf"
-                }
-            ],
-            "theme": [
-                "Legislation"
             ]
         },
         {
@@ -50420,7 +49958,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "age",
                 "age group",
@@ -51508,7 +51046,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-06",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -53329,7 +52867,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-29",
+            "modified": "2022-05-05",
             "keyword": [
                 "2022",
                 "nndss",
@@ -53753,7 +53291,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-04-28",
+            "modified": "2022-05-05",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -53897,7 +53435,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -54304,7 +53842,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-08",
+            "modified": "2022-05-04",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -55300,7 +54838,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-27",
+            "modified": "2022-05-04",
             "keyword": [
                 "age",
                 "age group",
@@ -56036,7 +55574,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-28",
+            "modified": "2022-05-05",
             "keyword": [
                 "age",
                 "age group",
