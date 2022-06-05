@@ -765,7 +765,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-29",
+            "modified": "2022-06-05",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1927,7 +1927,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "age",
                 "all causes",
@@ -2401,7 +2401,7 @@
             "landingPage": "https://data.cdc.gov/d/3m2r-fh4s",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-27",
+            "modified": "2022-06-03",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -2596,7 +2596,7 @@
             "issued": "2022-04-01",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-05-26",
+            "modified": "2022-06-03",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2616,7 +2616,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "<b>Note:</b> \n\n<b>May 26, 2022:</b> COVID-19 Community Level (CCL) data released for McCracken County, KY for the week of May 5, 2022 have been updated to correct a data processing error. McCracken County, KY should have appeared in the low community level category during the week of May 5, 2022. This correction is reflected in this update.\n\n<b>Note:</b> \n\n<b>May 26, 2022:</b> COVID-19 Community Level (CCL) data released for several Florida counties for the week of May 19th, 2022, have been corrected for a data processing error. Of note, Broward, Miami-Dade, Palm Beach Counties should have appeared in the high CCL category, and Osceola County should have appeared in the medium CCL category. These corrections are reflected in this update. \n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community  levels for all available counties. This dataset contains the same values used to display information available on the COVID Data Tracker at:   https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\nThe data are updated weekly.  \nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals. \nSee https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html for more information. \n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this c",
+            "description": "<b>Note:</b> \n\n<b>June 2, 2022:</b> COVID-19 Community Level (CCL) data released for Tolland County, CT for the week of May 26, 2022 have been updated to correct a data processing error. Tolland County, CT should have appeared in the medium community level category during the week of May 26, 2022. This correction is reflected in this update.\n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community  levels for all available counties. This dataset contains the same values used to display information available on the COVID Data Tracker at:   https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\nThe data are updated weekly.  \nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals. \nSee https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html for more information. \n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/2022, thus the values were previously missing for records released the week",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -2805,7 +2805,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-20",
+            "modified": "2022-06-04",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -3296,7 +3296,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-28",
+            "modified": "2022-06-04",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -4841,7 +4841,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "age",
                 "age group",
@@ -6231,8 +6231,8 @@
             ],
             "issued": "2022-05-16",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-05-27",
-            "modified": "2022-05-27",
+            "temporal": "2020-12-13/2022-06-05",
+            "modified": "2022-06-05",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -6372,7 +6372,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-26",
+            "modified": "2022-06-04",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7136,7 +7136,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-26",
+            "modified": "2022-06-04",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -10164,7 +10164,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-29",
+            "modified": "2022-06-05",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -10815,7 +10815,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-29",
+            "modified": "2022-06-05",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -12118,8 +12118,8 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-05-27",
-            "modified": "2022-05-27",
+            "temporal": "2020-12-13/2022-06-05",
+            "modified": "2022-06-05",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -12994,7 +12994,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "age",
                 "age group",
@@ -13252,7 +13252,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -13550,7 +13550,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -14011,7 +14011,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-05-28",
+            "modified": "2022-06-04",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -15609,7 +15609,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-24",
+            "modified": "2022-06-02",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17233,7 +17233,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-05-31",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -17736,7 +17736,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-27",
+            "modified": "2022-06-05",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -18161,7 +18161,7 @@
             "landingPage": "https://data.cdc.gov/d/c8as-e7h6",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-27",
+            "modified": "2022-06-03",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -25436,7 +25436,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-29",
+            "modified": "2022-06-05",
             "keyword": [
                 "wastewater"
             ],
@@ -26150,7 +26150,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-05-19",
+            "modified": "2022-06-02",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -27524,7 +27524,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -27622,7 +27622,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -27760,7 +27760,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-18",
+            "modified": "2022-06-04",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -29980,7 +29980,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-24",
+            "modified": "2022-06-02",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -30718,23 +30718,23 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-05-27",
-            "modified": "2022-05-27",
+            "temporal": "2020-12-13/2022-06-05",
+            "modified": "2022-06-05",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "administration",
-                "age",
-                "coronavirus",
                 "covid-19",
-                "demographics",
-                "ethnicity",
-                "immunization",
+                "coronavirus",
                 "izdl",
-                "race",
+                "immunization",
+                "administration",
+                "vaccination",
+                "demographics",
                 "sex",
-                "vaccination"
+                "age",
+                "race",
+                "ethnicity"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30998,7 +30998,7 @@
             ],
             "issued": "2016-11-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-05-31",
             "keyword": [
                 "causes of death",
                 "deaths",
@@ -31135,7 +31135,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-24",
+            "modified": "2022-05-31",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -31340,7 +31340,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "age",
                 "age group",
@@ -32336,7 +32336,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -33070,8 +33070,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-05-27",
-            "modified": "2022-05-27",
+            "temporal": "2020-12-13/2022-06-05",
+            "modified": "2022-06-05",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -33351,6 +33351,59 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/nvss/deaths.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-05-31",
+            "@type": "dcat:Dataset",
+            "temporal": "1950-2020",
+            "modified": "2022-05-31",
+            "references": [
+                "https://www.cdc.gov/nchs/nvss/deaths.htm"
+            ],
+            "keyword": [
+                "deaths",
+                "injury",
+                "mortality",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/kn6j-fsdu",
+            "description": "Data are based on information from all death certificates filed in the 50 states and the District of Columbia and processed by the National Center for Health Statistics (NCHS). Restricted data available through the Research Data Center include geographical indicators, exact date of birth and death of decedent, among others.",
+            "title": "Restricted mortality data from the National Vital Statistics System",
+            "isPartOf": "https://www.cdc.gov/nchs/nvss/deaths.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "mediaType": "text/html",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "description": "Data are based on information from all death certificates filed in the 50 states and the District of Columbia and processed by the National Center for Health Statistics (NCHS). Restricted data available through the Research Data Center include geographical indicators, exact date of birth and death of decedent, among others.",
+                    "@type": "dcat:Distribution",
+                    "title": "Restricted mortality data from the National Vital Statistics System"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "All death certificate records issued by each state and independent jurisdiction each year",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1Y",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm",
             "bureauCode": [
@@ -33358,7 +33411,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -33429,7 +33482,7 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-28",
+            "modified": "2022-06-04",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -33688,7 +33741,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "age",
                 "age group",
@@ -33966,7 +34019,7 @@
             "landingPage": "https://data.cdc.gov/d/kw6u-z8u2",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-27",
+            "modified": "2022-06-03",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -36167,7 +36220,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -37681,7 +37734,7 @@
             "landingPage": "https://data.cdc.gov/d/nmdn-2xuz",
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-27",
+            "modified": "2022-06-03",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -37866,7 +37919,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "age",
                 "age group",
@@ -37941,7 +37994,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-29",
+            "modified": "2022-06-05",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -38843,47 +38896,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/phjv-pp5v",
-            "bureauCode": [
-                "009:00"
-            ],
-            "issued": "2015-03-27",
-            "@type": "dcat:Dataset",
-            "modified": "2017-11-06",
-            "keyword": [
-                "cdc",
-                "centers for disease control and prevention"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "PSchleiff",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/phjv-pp5v",
-            "description": "A surveillance system that provides morbidity, mortality, and workplace exposure data on work-related respiratory diseases by geographic region, industry and occupation, and demographic groups.",
-            "title": "Work-Related Lung Disease Surveillance System (eWoRLD)",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "mediaType": "application/html",
-                    "downloadURL": "http://wwwn.cdc.gov/eworld/",
-                    "description": "Morbidity and mortality on work-related respiratory diseases and related workplace exposure datasets available for tables, charts and figures.",
-                    "@type": "dcat:Distribution",
-                    "title": "Work-Related Lung Disease Surveillance System (eWoRLD)"
-                }
-            ],
-            "theme": [
-                "Health Statistics"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/phwv-i65c",
             "bureauCode": [
                 "009:00"
@@ -39021,7 +39033,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -39859,6 +39871,59 @@
             "accrualPeriodicity": "n/a",
             "theme": [
                 "Global Health"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/rdc/index.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-05-31",
+            "@type": "dcat:Dataset",
+            "temporal": "2010-2017",
+            "modified": "2022-05-31",
+            "references": [
+                "https://www.cdc.gov/rdc/b1datatype/dt1229.html"
+            ],
+            "keyword": [
+                "deaths",
+                "drug overdose",
+                "drug poisoning",
+                "injury",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Arialdi Minino Domenech",
+                "hasEmail": "mailto:aminino@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/px5t-5gtx",
+            "description": "The Drug-Involved Mortality (DIM) data are an enhancement to the National Vital Statistics System, Mortality data providing information on substances, as well as prescription (using generic names only \u2013 no trademarks) and illicit drugs mentioned on death certificates of residents of the United States and the District of Columbia. Data files were created by examining the literal text of three fields on the death certificate:  Part I-Cause of Death, Part II \u2013Significant Conditions Contributing to Death and Box 43, a verbatim description of how the injury occurred. The DIM data system does not support individual examination of \u201cliteral text\u201d and the actual variables showing free-form text are not included in these files.",
+            "title": "Drug-Involved Mortality (DIM) data available through the Research Data Center (RDC)",
+            "isPartOf": "https://www.cdc.gov/nchs/nvss/deaths.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "mediaType": "text/html",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "description": "The Drug-Involved Mortality (DIM) data are an enhancement to the National Vital Statistics System, Mortality data providing information on substances, as well as prescription (using generic names only \u2013 no trademarks) and illicit drugs mentioned on death certificates of residents of the United States and the District of Columbia. Data files were created by examining the literal text of three fields on the death certificate:  Part I-Cause of Death, Part II \u2013Significant Conditions Contributing to Death and Box 43, a verbatim description of how the injury occurred. The DIM data system does not support individual examination of \u201cliteral text\u201d and the actual variables showing free-form text are not included in these files.",
+                    "@type": "dcat:Distribution",
+                    "title": "Drug-Involved Mortality (DIM) data available through the Research Data Center (RDC)"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "Information derived from the textual entries in key data fields from death certificates issued by jurisdictions in the U.S.",
+            "accrualPeriodicity": "R/P1Y",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -40989,7 +41054,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-01",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -41945,7 +42010,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-24",
+            "modified": "2022-06-02",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -42475,7 +42540,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-27",
+            "modified": "2022-06-03",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -43016,10 +43081,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-04-05",
+            "issued": "2022-06-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-05-27",
-            "modified": "2022-05-27",
+            "temporal": "2020-12-13/2022-06-05",
+            "modified": "2022-06-05",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -43556,7 +43621,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-24",
+            "modified": "2022-05-31",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -44924,7 +44989,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "age",
                 "age group",
@@ -45065,7 +45130,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-29",
+            "modified": "2022-06-03",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -46278,7 +46343,7 @@
             ],
             "issued": "2021-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-12-13",
+            "modified": "2022-06-03",
             "references": [
                 "https://www.census.gov/content/dam/Census/programs-surveys/acs/about/ACS_Information_Guide.pdf",
                 "https://www.cdc.gov/visionhealth/vehss/data/national-surveys/american-community-survey.html"
@@ -46299,7 +46364,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/thir-stei",
-            "description": "2014, 2015, 2016, 2017, 2018. This dataset is a de-identified summary table of vision and eye health data indicators from ACS, stratified by all available combinations of age group, race/ethnicity, gender, and state. ACS is an annual nationwide survey conducted by the U.S. Census Bureau that collects information on demographic, social, economic, and housing characteristics of the U.S. population. Approximate sample size is 3 million annually. ACS data for VEHSS includes one question related to Visual Function. Data were suppressed for cell sizes less than 30 persons, or where the relative standard error more than 30% of the mean. Data will be updated as it becomes available. Detailed information on VEHSS ACS analyses can be found on the VEHSS ACS webpage (link). Additional information about ACS can be found on the U.S. Census Bureau website (https://www.census.gov/content/dam/Census/programs-surveys/acs/about/ACS_Information_Guide.pdf). The VEHSS ACS dataset was last updated in March 2021.",
+            "description": "2014, 2015, 2016, 2017, 2018, 2019. This dataset is a de-identified summary table of vision and eye health data indicators from ACS, stratified by all available combinations of age group, race/ethnicity, gender, and state. ACS is an annual nationwide survey conducted by the U.S. Census Bureau that collects information on demographic, social, economic, and housing characteristics of the U.S. population. Approximate sample size is 3 million annually. ACS data for VEHSS includes one question related to Visual Function. Data were suppressed for cell sizes less than 30 persons, or where the relative standard error more than 30% of the mean. Data will be updated as it becomes available. Detailed information on VEHSS ACS analyses can be found on the VEHSS ACS webpage (link). Additional information about ACS can be found on the U.S. Census Bureau website (https://www.census.gov/content/dam/Census/programs-surveys/acs/about/ACS_Information_Guide.pdf). The VEHSS ACS dataset was last updated in March 2021.",
             "title": "American Community Survey (ACS) \u2013 Vision and Eye Health Surveillance",
             "programCode": [
                 "009:020"
@@ -46515,7 +46580,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "age",
                 "age group",
@@ -47236,7 +47301,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-01",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -47921,7 +47986,7 @@
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-24",
+            "modified": "2022-06-02",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -48034,7 +48099,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -48171,10 +48236,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-05-18",
+            "issued": "2022-06-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-05-27",
-            "modified": "2022-05-27",
+            "temporal": "2020-12-13/2022-06-05",
+            "modified": "2022-06-05",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -50228,7 +50293,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-02",
             "keyword": [
                 "age",
                 "age group",
@@ -51316,7 +51381,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-18",
+            "modified": "2022-06-03",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -53138,7 +53203,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-26",
+            "modified": "2022-06-02",
             "keyword": [
                 "2022",
                 "nndss",
@@ -53706,7 +53771,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-01",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -55109,7 +55174,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-25",
+            "modified": "2022-06-01",
             "keyword": [
                 "age",
                 "age group",
@@ -55845,7 +55910,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-26",
+            "modified": "2022-06-02",
             "keyword": [
                 "age",
                 "age group",
