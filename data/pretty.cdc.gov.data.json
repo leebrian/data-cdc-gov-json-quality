@@ -765,7 +765,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-12",
+            "modified": "2022-06-19",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -820,6 +820,88 @@
             ],
             "language": [
                 "English"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/hus",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-05-03",
+            "@type": "dcat:Dataset",
+            "temporal": "1984/2017",
+            "modified": "2022-06-15",
+            "keyword": [
+                "adults",
+                "american indian or alaska native",
+                "asian",
+                "asian or pacific islander",
+                "black or african american",
+                "children and adolescents",
+                "female",
+                "functional limitation status",
+                "health insurance",
+                "health insurance status",
+                "hispanic or latino",
+                "male",
+                "marital status",
+                "medicaid",
+                "metropolitan and nonmetropolitan",
+                "multiple race",
+                "native hawaiian or other pacific islander",
+                "poverty status",
+                "region",
+                "white"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:healthus@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/2g8y-scu5",
+            "description": "Data on Medicaid coverage among persons under age 65 by selected characteristics, including age, sex, geographic region, poverty level, race, Hispanic origin, marital status, and functional limitation. Data are from Health, United States (https://www.cdc.gov/nchs/hus). \n\nSOURCE: CDC/NCHS, National Health Interview Survey.",
+            "title": "DQS Medicaid coverage among persons under age 65, by selected characteristics: United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/2g8y-scu5/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/2g8y-scu5/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2g8y-scu5/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/2g8y-scu5/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2g8y-scu5/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/2g8y-scu5/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2g8y-scu5/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Annual (R/P1Y)",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -2129,7 +2211,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2019/2020",
-            "modified": "2022-06-08",
+            "modified": "2022-06-16",
             "references": [
                 "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
             ],
@@ -2138,6 +2220,7 @@
                 "health statistics",
                 "nchs",
                 "nhis",
+                "research-data-center",
                 "summary health statistics"
             ],
             "contactPoint": {
@@ -2158,7 +2241,7 @@
             "distribution": [
                 {
                     "mediaType": "text/html",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.html",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
                     "description": "The NHIS questionnaire contains annual core and rotating core content. The annual core questions focus on demographic characteristics, health insurance, chronic conditions, health care access and use, health-related behaviors, and functioning and disability. The rotating core consists of questions that will be included in the interview periodically and include expanded content on mental health, service utilization, preventive services, health-related behaviors, injuries, and chronic pain. The periodicity of questions in the rotating core varies by question and may be every-other year, once-every-three years, or two-out-of-three years. The sample adult dataset contains data from the randomly sampled child.",
                     "@type": "dcat:Distribution",
                     "title": "Restricted Use NHIS Sample Child Interview"
@@ -2452,7 +2535,7 @@
             "landingPage": "https://data.cdc.gov/d/3m2r-fh4s",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-11",
+            "modified": "2022-06-17",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -2647,7 +2730,7 @@
             "issued": "2022-04-01",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-06-09",
+            "modified": "2022-06-16",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2667,7 +2750,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "<b>Note:</b> \n\n<b>June 9, 2022:</b> COVID-19 Community Level (CCL) data released for Tolland County, CT for the week of May 26, 2022 have been updated to correct a misspelling. The medium community level category for Tolland County, CT on the week of May 26, 2022 was misspelled as \u201cmeduim\u201d in the data set. This correction is reflected in this update.\n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community  levels for all available counties. This dataset contains the same values used to display information available on the COVID Data Tracker at:   https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\nThe data are updated weekly.  \nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals. \nSee https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html for more information. \n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/2022, thus the values were previously missing for records released",
+            "description": "This public use dataset has 11 data elements reflecting United States COVID-19 community  levels for all available counties. This dataset contains the same values used to display information available on the COVID Data Tracker at:   https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\nThe data are updated weekly.  \nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals. \nSee https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html for more information. \n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/2022, thus the values were previously missing for records released the week prior.\n\n<b>April 7, 2022:</b> Updates made to data released on 3/24/2022 for Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands to correct a data mapping error.\n\n<b>May 26, 2022:</b> COVID-19 Community Level (CCL) data released for McCracken County, KY for the week of May 5, 2022 have been updated to correct",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -2922,9 +3005,9 @@
                 "009:20"
             ],
             "issued": "2022-01-21",
-            "temporal": "April 4, 2021-April 23, 2022",
+            "temporal": "April 4, 2021-May 21, 2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-20",
+            "modified": "2022-06-17",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Vaccine Breakthrough Unit, Surveillance and Analytics Team",
@@ -2935,7 +3018,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3rge-nu2a",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\nThese data were posted on May 20, 2022, and reflect cases among persons with a positive specimen collection date through April 23, 2022, and deaths among persons with a positive specimen collection date through April 2, 2022. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A person vaccinated with a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nAdditional or booster dose: A person vaccinated with a primary series and an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. For people ages 18 years and older, data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. For people ages 12-17 years, data are graphed starting the week of December 26, 2021, 2 weeks after the first recommendation for a booster dose for adolescents ages 16-17 years. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type.\n\n** Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis.\n\nParticipating jurisdictions: Currently, these 31 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (New York), North Carolina, Philadelphia (Pennsylvania), Rhode Island, Seattle King County (Washington), South Dakota, Tennessee, Texas, Utah, West Virginia and Wisconsin; 30 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 70% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases among people who received additional or booster doses were reported from 29 jurisdictions; 28 jurisdictions also reported data on deaths among people who received additional or booster doses. This list will be updated as more",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\nThese data were posted on June 17, 2022, and reflect cases among persons with a positive specimen collection date through May 21, 2022, and deaths among persons with a positive specimen collection date through April 30, 2022. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A person vaccinated with a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a  respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nAdditional or booster dose: A person vaccinated with a primary series and an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. For people ages 18 years and older, data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. For people ages 12-17 years, data are graphed starting the week of December 26, 2021, 2 weeks after the first recommendation for a booster dose for adolescents ages 16-17 years. For people ages 50 years and older, data on second booster\n\ndoses are graphed starting the week including March 29, 2022, when the recommendation was made for second boosters. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type. \n\n** Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group. \n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis. \n\nParticipating jurisdictions: Currently, these 31 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (New York), North Carolina, Philadelphia (Pennsylvania), Rhode Island, Seattle King County (Washington), South Dakota, Tennessee, Texas, Utah, West Virginia and Wisconsin; 30 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 70% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases among people who received additional or booste",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status",
             "programCode": [
                 "009:038"
@@ -3347,7 +3430,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-12",
+            "modified": "2022-06-18",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -3680,48 +3763,6 @@
             ],
             "theme": [
                 "Traumatic Brain Injury "
-            ]
-        },
-        {
-            "accessLevel": "restricted public",
-            "landingPage": "https://data.cdc.gov/d/46vm-wvei",
-            "bureauCode": [
-                "009:20"
-            ],
-            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-            "issued": "2022-06-08",
-            "temporal": "2016",
-            "@type": "dcat:Dataset",
-            "modified": "2022-06-08",
-            "keyword": [
-                "research-data-center"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "National Center for Health Statistics"
-            },
-            "identifier": "https://data.cdc.gov/api/views/46vm-wvei",
-            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional \nsurveys from probability-sampled commercial survey panels which began in 2015. \nRANDS 2 was administered by Gallup using the Gallup Panel in the spring of 2016 \nand contains existing questions from the National Health Interview Survey (NHIS) \nas well as embedded probe questions for cognitive evaluations.",
-            "title": "gallup_2_rdc.sas7bdat",
-            "describedByType": "application/pdf",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "mediaType": "text/html"
-                }
-            ],
-            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS2_technical_documentation.pdf",
-            "theme": [
-                "NCHS"
             ]
         },
         {
@@ -4350,48 +4391,6 @@
             ],
             "theme": [
                 "Vaccinations"
-            ]
-        },
-        {
-            "accessLevel": "restricted public",
-            "landingPage": "https://data.cdc.gov/d/4igx-ssvh",
-            "bureauCode": [
-                "009:20"
-            ],
-            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-            "issued": "2022-06-08",
-            "temporal": "2015",
-            "@type": "dcat:Dataset",
-            "modified": "2022-06-08",
-            "keyword": [
-                "research-data-center"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "National Center for Health Statistics"
-            },
-            "identifier": "https://data.cdc.gov/api/views/4igx-ssvh",
-            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional \nsurveys from probability-sampled commercial survey panels which began in 2015. \nRANDS 1 was administered by Gallup using the Gallup Panel in the fall of 2015 \nand contains existing questions from the National Health Interview Survey (NHIS).",
-            "title": "gallup_1_rdc.sas7bdat",
-            "describedByType": "application/pdf",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "mediaType": "text/html"
-                }
-            ],
-            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS1_technical_documentation.pdf",
-            "theme": [
-                "NCHS"
             ]
         },
         {
@@ -5665,6 +5664,54 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://data.cdc.gov/d/53mp-bpbv",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-15",
+            "@type": "dcat:Dataset",
+            "temporal": "2019",
+            "modified": "2022-06-15",
+            "keyword": [
+                "chronic conditions",
+                "disability",
+                "e-cigarette use",
+                "opioid use",
+                "physical activity",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/53mp-bpbv",
+            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional \nsurveys from probability-sampled commercial survey panels which began in 2015. \nRANDS 3 was administered by the National Opinion Research Center (NORC) using the \nAmerispeak Panel in the spring of 2019 and contains existing questions from \nthe National Health Interview Survey (NHIS) as well as embedded probe questions \nand split-panel experiments for cognitive evaluations.",
+            "title": "Research and Development Survey (RANDS) 3 microdata (norc_3_rdc.sas7bdat). Includes all items released in the public-use file, along with additional geographic and demographic data.",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS3_technical_documentation.pdf",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/56mi-d4wu",
             "bureauCode": [
@@ -6366,8 +6413,8 @@
             ],
             "issued": "2022-05-16",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-06-11",
-            "modified": "2022-06-11",
+            "temporal": "2020-12-13/2022-06-16",
+            "modified": "2022-06-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -6507,7 +6554,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-11",
+            "modified": "2022-06-18",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7271,18 +7318,18 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-12",
+            "modified": "2022-06-18",
             "keyword": [
-                "covid-19",
-                "social distancing",
-                "executive order",
-                "proclamation",
-                "legal epidemiology",
-                "government order",
-                "public health order",
-                "mitigation",
                 "business closure",
-                "business reopening"
+                "business reopening",
+                "covid-19",
+                "executive order",
+                "government order",
+                "legal epidemiology",
+                "mitigation",
+                "proclamation",
+                "public health order",
+                "social distancing"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -7636,12 +7683,18 @@
             ],
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-06-08",
-            "temporal": "2021",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-08",
+            "temporal": "2021",
+            "modified": "2022-06-15",
             "keyword": [
+                "anxiety",
                 "covid-19",
-                "research-data-center"
+                "depression",
+                "life satisfaction",
+                "missed healthcare",
+                "research-data-center",
+                "telemedicine",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -7654,7 +7707,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/66km-38zv",
             "description": "The Research and Development Survey (RANDS) is a series of cross-sectional surveys from probability-sampled commercial survey panels. As part of a special iteration of RANDS that focuses on COVID-19, RANDS during COVID-19 Round 3 is the third round of a three-round survey. The sampled participants of RANDS during COVID-19 Round 3 were recruited using NORC at the University of Chicago (NORC)\u2019s AmeriSpeak Panel, and the survey was administered by NORC from May 17, 2021 to June 30, 2021. RANDS during COVID-19 Round 3 has a known survey sampling design and can be used to produce nationally and sub-nationally representative estimates.",
-            "title": "covid_3_rdc.sas7bdat",
+            "title": "Research and Development Survey (RANDS) during COVID-19 Round 3 microdata (covid_3_rdc.sas7bdat). Includes all items released in the public-use file, along with additional geographic and demographic data.",
             "describedByType": "application/pdf",
             "programCode": [
                 "009:020"
@@ -7666,6 +7719,7 @@
                     "mediaType": "text/html"
                 }
             ],
+            "spatial": "50 states and District of Columbia",
             "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS_COVID_3_technical_documentation.pdf",
             "theme": [
                 "NCHS"
@@ -10342,7 +10396,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-12",
+            "modified": "2022-06-19",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -10993,7 +11047,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-12",
+            "modified": "2022-06-19",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -12346,8 +12400,8 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-06-11",
-            "modified": "2022-06-11",
+            "temporal": "2020-12-13/2022-06-16",
+            "modified": "2022-06-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -14239,7 +14293,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-06-11",
+            "modified": "2022-06-18",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -14815,49 +14869,6 @@
             ],
             "theme": [
                 "NNDSS"
-            ]
-        },
-        {
-            "accessLevel": "restricted public",
-            "landingPage": "https://data.cdc.gov/d/9yf7-2q4g",
-            "bureauCode": [
-                "009:20"
-            ],
-            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-            "issued": "2022-06-08",
-            "temporal": "2020",
-            "@type": "dcat:Dataset",
-            "modified": "2022-06-08",
-            "keyword": [
-                "covid-19",
-                "research-data-center"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "National Center for Health Statistics"
-            },
-            "identifier": "https://data.cdc.gov/api/views/9yf7-2q4g",
-            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional surveys from probability-sampled commercial survey panels. As part of a special iteration of RANDS that focuses on COVID-19, RANDS during COVID-19 Round 1 is the first round of a three-round survey. The probability sample of RANDS during COVID-19 Round 1 was recruited using NORC at the University of Chicago (NORC)'s AmeriSpeak Panel, and the survey was administered by NORC from June 9, 2020 to July 6, 2020. The RANDS during COVID-19 Round 1 Probability Sample has a known survey sampling design and can be used to produce nationally and sub-nationally representative estimates.",
-            "title": "covid_1_rdc.sas7bdat",
-            "describedByType": "application/pdf",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "mediaType": "text/html"
-                }
-            ],
-            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS_COVID_1_technical_documentation.pdf",
-            "theme": [
-                "NCHS"
             ]
         },
         {
@@ -15669,7 +15680,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-11",
+            "modified": "2022-06-15",
             "keyword": [
                 "immunization",
                 "pneumococcal",
@@ -17504,7 +17515,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-09",
+            "modified": "2022-06-15",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -17559,7 +17570,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2019/2020",
-            "modified": "2022-06-08",
+            "modified": "2022-06-16",
             "references": [
                 "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
             ],
@@ -17568,6 +17579,7 @@
                 "income statistics",
                 "nchs",
                 "nhis",
+                "research-data-center",
                 "summary health statistics"
             ],
             "contactPoint": {
@@ -17588,7 +17600,7 @@
             "distribution": [
                 {
                     "mediaType": "text/html",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.html",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
                     "description": "The National Health Interview Survey (NHIS) is a multi-purpose health survey and is the principal source of information on the health of the civilian, noninstitutionalized household population of the United States (National Center for Health Statistics). The NHIS provides a rich source of data for studying relationships between income and health and for monitoring the health and health care for persons at different income levels. There is particular interest in the health of vulnerable populations such as those with low income, as well as their access to and use of health care services. However, the nonresponse rates are high for income variables. Multiple imputation methods were used to address high item nonresponse rates to impute the total household income where the entire imputation process was repeated independently 10 times. This dataset represents the income data responses of the randomly sampled adult.",
                     "@type": "dcat:Distribution",
                     "title": "Restricted Use NHIS Sample Adult Imputed Income"
@@ -18058,7 +18070,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-12",
+            "modified": "2022-06-19",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -18483,7 +18495,7 @@
             "landingPage": "https://data.cdc.gov/d/c8as-e7h6",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-11",
+            "modified": "2022-06-17",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -19020,6 +19032,55 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://data.cdc.gov/d/cjr4-kj3n",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-15",
+            "@type": "dcat:Dataset",
+            "temporal": "2020",
+            "modified": "2022-06-15",
+            "keyword": [
+                "activities of daily living",
+                "anxiety",
+                "cognitive impairment",
+                "depression",
+                "disability",
+                "opioid use",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/cjr4-kj3n",
+            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional surveys using probability-sampled commercial survey panels. The fourth round of RANDS (RANDS 4) was administered by NORC at the University of Chicago using the AmeriSpeak Panel from July 17, 2020 to August 24, 2020. RANDS 4 contained the embedded probe questions and experiments as in previous rounds of RANDS, but had an emphasis on disability and the use of opioid pain relievers. RANDS 4 has a known survey sampling design and can be used to produce nationally and sub-nationally representative estimates.",
+            "title": "Research and Development Survey (RANDS) 4 microdata (norc_4_rdc.sas7bdat). Includes all items released in the public-use file, along with additional geographic and demographic data.",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS4_technical_documentation.pdf",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -20137,9 +20198,9 @@
                 "009:20"
             ],
             "issued": "2022-03-22",
-            "temporal": "September 19, 2021-April 23, 2022",
+            "temporal": "September 19, 2021-May 21, 2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-20",
+            "modified": "2022-06-17",
             "keyword": [
                 "covid-19",
                 "covid-19 booster doses",
@@ -20158,7 +20219,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/d6p8-wqjm",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\nThese data were posted on May 20, 2022, and reflect cases among persons with a positive specimen collection date through April 23, 2022, and deaths among persons with a positive specimen collection date through April 2, 2022. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A person vaccinated with a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nAdditional or booster dose: A person vaccinated with a primary series and an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. For people ages 18 years and older, data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. For people ages 12-17 years, data are graphed starting the week of December 26, 2021, 2 weeks after the first recommendation for a booster dose for adolescents ages 16-17 years. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type.\n\n** Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis.\n\nParticipating jurisdictions: Currently, these 31 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (New York), North Carolina, Philadelphia (Pennsylvania), Rhode Island, Seattle King County (Washington), South Dakota, Tennessee, Texas, Utah, West Virginia and Wisconsin; 30 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 70% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases among people who received additional or booster doses were reported from 29 jurisdictions; 28 jurisdictions also reported data on deaths among people who received additional or booster doses. This list will be updated as more",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\nThese data were posted on June 17, 2022, and reflect cases among persons with a positive specimen collection date through May 21, 2022, and deaths among persons with a positive specimen collection date through April 30, 2022. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A person vaccinated with a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a  respiratory specimen and has not been verified to have received COVID-19 vaccine.  Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nAdditional or booster dose: A person vaccinated with a primary series and an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. For people ages 18 years and older, data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. For people ages 12-17 years, data are graphed starting the week of December 26, 2021, 2 weeks after the first recommendation for a booster dose for adolescents ages 16-17 years. For people ages 50 years and older, data on second booster\n\ndoses are graphed starting the week including March 29, 2022, when the recommendation was made for second boosters. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type. \n\n** Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group. \n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis. \n\nParticipating jurisdictions: Currently, these 31 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (New York), North Carolina, Philadelphia (Pennsylvania), Rhode Island, Seattle King County (Washington), South Dakota, Tennessee, Texas, Utah, West Virginia and Wisconsin; 30 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 70% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases among people who received additional or booster",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status and Booster Dose",
             "programCode": [
                 "009:038"
@@ -25758,7 +25819,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-12",
+            "modified": "2022-06-19",
             "keyword": [
                 "wastewater"
             ],
@@ -25957,6 +26018,54 @@
             ],
             "language": [
                 "English"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://data.cdc.gov/d/g76d-z8vy",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-15",
+            "@type": "dcat:Dataset",
+            "temporal": "2020",
+            "modified": "2022-06-15",
+            "keyword": [
+                "anxiety",
+                "covid-19",
+                "depression",
+                "missed healthcare",
+                "research-data-center",
+                "telemedicine"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/g76d-z8vy",
+            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional surveys from probability-sampled commercial survey panels. As part of a special iteration of RANDS that focuses on COVID-19, RANDS during COVID-19 Round 2 is the second round of a three-round survey. The probability sample of RANDS during COVID-19 Round 2 was recruited using NORC at the University of Chicago (NORC)'s AmeriSpeak Panel, and the survey was administered by NORC from August 3, 2020 to August 20, 2020.  The RANDS during COVID-19 Round 2 Probability Sample has a known survey sampling design and can be used to produce nationally and sub-nationally representative estimates",
+            "title": "Research and Development Survey (RANDS) during COVID-19 Round 2 microdata (covid_2_rdc.sas7bdat). Includes all items released in the public-use file, along with additional geographic and demographic data.",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS_COVID_2_technical_documentation.pdf",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -26270,6 +26379,55 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://data.cdc.gov/d/gn5f-ec35",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-15",
+            "@type": "dcat:Dataset",
+            "temporal": "2015",
+            "modified": "2022-06-15",
+            "keyword": [
+                "chronic conditions",
+                "food security",
+                "health behaviors",
+                "health insurance",
+                "o\tanxiety",
+                "physical activity",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/gn5f-ec35",
+            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional \nsurveys from probability-sampled commercial survey panels which began in 2015. \nRANDS 1 was administered by Gallup using the Gallup Panel in the fall of 2015 \nand contains existing questions from the National Health Interview Survey (NHIS).",
+            "title": "Research and Development Survey (RANDS) 1 microdata (gallup_1_rdc.sas7bdat). Includes all items released in the public-use file, along with additional geographic and demographic data.",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS1_technical_documentation.pdf",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/gp24-kfxi",
             "bureauCode": [
@@ -26343,7 +26501,7 @@
             ],
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-17",
+            "modified": "2022-06-15",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -26472,7 +26630,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-06-09",
+            "modified": "2022-06-14",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -28082,7 +28240,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-10",
+            "modified": "2022-06-16",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -31040,8 +31198,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-06-11",
-            "modified": "2022-06-11",
+            "temporal": "2020-12-13/2022-06-16",
+            "modified": "2022-06-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -31068,7 +31226,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/jk8p-fqhn",
-            "description": "<p style=\"margin:0in;vertical-align:baseline;\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>This site provides historical data related to COVID-19 booster dose eligibility presented on two CDC COVID Data Tracker sites:&nbsp;</span><a href=\"https://covid.cdc.gov/covid-data-tracker/#vaccinations\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Vaccinations in the US</span></a><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>&nbsp;and&nbsp;</span><a href=\"https://covid.cdc.gov/covid-data-tracker/#vaccination-equity\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Vaccination Equity</span></a><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>.&nbsp;</span><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>&nbsp;</span><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Data are updated weekly on Wednesdays.</span></p><p style=\"margin:0in;vertical-align:baseline;\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Some COVID-19 vaccine recipients are&nbsp;</span><a href=\"https://www.cdc.gov/coronavirus/2019-ncov/vaccines/booster-shot.html\" target=\"_blank\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>eligible to receive booster doses</span></a><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>,&nbsp;</span><span style=\"font-size:11px;\">&nbsp;</span><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>and criteria for booster eligibility may change over time. Data and footnotes will be updated to align with the current recommendations.&nbsp;</span><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>&nbsp;</span></p><p style=\"margin:0in;vertical-align:baseline;\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>CDC counts people as having &ldquo;received a booster dose&rdquo; if they are fully vaccinated and received another dose of any COVID-19 vaccine on or after August 13, 2021. This does not distinguish whether the recipient is&nbsp;</span><a href=\"https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations/immuno.html\" target=\"_blank\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>immunocompromised and received an additional dose</span></a></p><p style=\"margin:0in;vertical-align:baseline;\"><strong><em><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Data Limitations:</span></em></strong><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>&nbsp;</span></p><ul style=\"list-style-type: undefined;margin-left:0in;\"><li><span style='font-family:\"Calibri\",sans-serif;color:black;font-size:11.0pt;color:black;'>The booster eligibility metric excludes fully vaccinated recipients who have an &ldquo;Other&rdquo; primary series vaccine type.\u202f</span><span style='font-family:\"Calibri\",sans-serif;font-size:11.0pt;color:black;'>&nbsp;</span></li><li><span style='font-family:\"Calibri\",sans-serif;color:black;font-size:11.0pt;color:black;'>Booster eligibility counts and percentages exclude vaccine administrations reported by Texas as the primary series cannot be linked to booster dose in the aggregate data submitted by Texas.</span><span style='font-family:\"Calibri\",sans-serif;font-size:11.0pt;color:black;'>&nbsp;</span></li></ul><p style=\"margin:0in;vertical-align:baseline;\"><strong><em><span style='font-size:15px;font-family:\"Calibri\",sans-serif;'>Footnotes:</span></em></strong></p><p style=\"margin:0in;vertical-align:baseline;\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;'>CDC counts people as being &ldquo;</span><a href=\"https://www.cdc.gov/coronavirus/2019-ncov/vaccines/booster-shot.html\" target=\"_blank\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:windowtext;'>eligible to get a booster dose</span></a>",
+            "description": "<p style=\"margin:0in;vertical-align:baseline;\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>This site provides historical data related to COVID-19 booster dose eligibility presented on two CDC COVID Data Tracker sites:&nbsp;</span><a href=\"https://covid.cdc.gov/covid-data-tracker/#vaccinations\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Vaccinations in the US</span></a><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>&nbsp;and&nbsp;</span><a href=\"https://covid.cdc.gov/covid-data-tracker/#vaccination-equity\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Vaccination Equity</span></a><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>.&nbsp;</span><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>&nbsp;</span><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Data are updated weekly on Thursdays.</span></p><p style=\"margin:0in;vertical-align:baseline;\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Some COVID-19 vaccine recipients are&nbsp;</span><a href=\"https://www.cdc.gov/coronavirus/2019-ncov/vaccines/booster-shot.html\" target=\"_blank\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>eligible to receive booster doses</span></a><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>,&nbsp;</span><span style=\"font-size:11px;\">&nbsp;</span><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>and criteria for booster eligibility may change over time. Data and footnotes will be updated to align with the current recommendations.&nbsp;</span><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>&nbsp;</span></p><p style=\"margin:0in;vertical-align:baseline;\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>CDC counts people as having &ldquo;received a booster dose&rdquo; if they are fully vaccinated and received another dose of any COVID-19 vaccine on or after August 13, 2021. This does not distinguish whether the recipient is&nbsp;</span><a href=\"https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations/immuno.html\" target=\"_blank\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>immunocompromised and received an additional dose</span></a></p><p style=\"margin:0in;vertical-align:baseline;\"><strong><em><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>Data Limitations:</span></em></strong><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:black;'>&nbsp;</span></p><ul style=\"list-style-type: undefined;margin-left:0in;\"><li><span style='font-family:\"Calibri\",sans-serif;color:black;font-size:11.0pt;color:black;'>The booster eligibility metric excludes fully vaccinated recipients who have an &ldquo;Other&rdquo; primary series vaccine type.\u202f</span><span style='font-family:\"Calibri\",sans-serif;font-size:11.0pt;color:black;'>&nbsp;</span></li><li><span style='font-family:\"Calibri\",sans-serif;color:black;font-size:11.0pt;color:black;'>Booster eligibility counts and percentages exclude vaccine administrations reported by Texas as the primary series cannot be linked to booster dose in the aggregate data submitted by Texas.</span><span style='font-family:\"Calibri\",sans-serif;font-size:11.0pt;color:black;'>&nbsp;</span></li></ul><p style=\"margin:0in;vertical-align:baseline;\"><strong><em><span style='font-size:15px;font-family:\"Calibri\",sans-serif;'>Footnotes:</span></em></strong></p><p style=\"margin:0in;vertical-align:baseline;\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;'>CDC counts people as being &ldquo;</span><a href=\"https://www.cdc.gov/coronavirus/2019-ncov/vaccines/booster-shot.html\" target=\"_blank\"><span style='font-size:15px;font-family:\"Calibri\",sans-serif;color:windowtext;'>eligible to get a booster dose</span></a><",
             "title": "COVID-19 Booster Dose Eligibility in the United States",
             "programCode": [
                 "009:020"
@@ -31232,6 +31390,53 @@
             "license": "https://www.usa.gov/government-works",
             "theme": [
                 "Policy Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/esrd-restricted.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-16",
+            "@type": "dcat:Dataset",
+            "temporal": "Through 2018",
+            "modified": "2022-06-16",
+            "references": [
+                "https://www.cdc.gov/nchs/data/datalinkage/Variable-List.pdf"
+            ],
+            "keyword": [
+                "linked usrds esrd files",
+                "nchs surveys",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS Data Linkage Program",
+                "hasEmail": "mailto:DataLinkage@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/jmgj-74h4",
+            "description": "NCHS has linked data from various surveys with End Stage Renal Disease (ESRD) data obtained from the United States Renal Data System (USRDS). Linkage of the data from NCHS survey participants with the USRDS ESRD data provides the opportunity to study changes in health status and health care utilization among patients diagnosed with ESRD.",
+            "title": "NCHS Survey Data Linked to United States Renal Data System (USRDS) End-Stage Renal Disease Files",
+            "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "United States",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -31457,7 +31662,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-07",
+            "modified": "2022-06-14",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -32070,14 +32275,14 @@
             ],
             "issued": "2022-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-26",
+            "modified": "2022-06-15",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "NCIRD DVD",
-                "hasEmail": "mailto:@cdc.gov"
+                "fn": "Michael Whitaker, NCIRD DVD",
+                "hasEmail": "mailto:pgn6@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -33061,7 +33266,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-09",
+            "modified": "2022-06-16",
             "keyword": [
                 "cares act",
                 "health system",
@@ -33392,8 +33597,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-06-11",
-            "modified": "2022-06-11",
+            "temporal": "2020-12-13/2022-06-16",
+            "modified": "2022-06-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -33804,18 +34009,18 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-12",
+            "modified": "2022-06-18",
             "keyword": [
-                "covid-19",
-                "social distancing",
-                "executive order",
-                "proclamation",
-                "legal epidemiology",
-                "government order",
-                "public health order",
-                "mitigation",
                 "business closure",
-                "business reopening"
+                "business reopening",
+                "covid-19",
+                "executive order",
+                "government order",
+                "legal epidemiology",
+                "mitigation",
+                "proclamation",
+                "public health order",
+                "social distancing"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -34341,7 +34546,7 @@
             "landingPage": "https://data.cdc.gov/d/kw6u-z8u2",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-11",
+            "modified": "2022-06-17",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -35168,7 +35373,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "Through December 31, 2019",
-            "modified": "2022-06-08",
+            "modified": "2022-06-16",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/LMF2019-DataDictionary-MortVars.pdf"
             ],
@@ -35751,6 +35956,53 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/medicare-restricted.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-16",
+            "@type": "dcat:Dataset",
+            "temporal": "2014-2018",
+            "modified": "2022-06-16",
+            "references": [
+                "https://www.cdc.gov/nchs/data-linkage/cms/nchs-cms_medicare14_18_linked_data-list_of_variables.pdf"
+            ],
+            "keyword": [
+                "linked medicare files",
+                "nchs surveys",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS Data Linkage Program",
+                "hasEmail": "mailto:DataLinkage@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/mjpe-bnz8",
+            "description": "NCHS has linked data from various surveys with Medicare program enrollment and health care utilization and expenditure data from the Centers for Medicare & Medicaid Services (CMS). Linkage of the NCHS survey participants with the CMS Medicare data provides the opportunity to study changes in health status, health care utilization and costs, and prescription drug use among Medicare enrollees. Medicare is the federal health insurance program for people who are 65 or older, certain younger people with disabilities, and people with End-Stage Renal Disease.",
+            "title": "NCHS Survey Data Linked to Centers for Medicare & Medicaid Services (CMS) Medicare Data Files",
+            "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "United States",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -37063,6 +37315,53 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/nhis/index.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-16",
+            "@type": "dcat:Dataset",
+            "temporal": "2019/2020",
+            "modified": "2022-06-16",
+            "keyword": [
+                "dhis",
+                "health statistics",
+                "nchs",
+                "nhis",
+                "paradata",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:\tcdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/mz9z-ba2a",
+            "description": "The NHIS Paradata File contains paradata, which are data about the NHIS interview process collected as part of the NHIS interview. The Paradata File is on a case (household) level, where one record represents one case. The Paradata File is intended as both a stand-alone data file and one whose fully complete and sufficiently \ncomplete cases can be linked with the NHIS regular public use health data file.",
+            "title": "Restricted Use NHIS Paradata file",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "US states and the District of Columbia",
+            "accrualPeriodicity": "R/P1Y",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/n24i-76tn",
             "bureauCode": [
@@ -37619,6 +37918,55 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/npals/index.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm.",
+            "issued": "2022-06-16",
+            "@type": "dcat:Dataset",
+            "temporal": "2020-01-01/2021-07-21",
+            "modified": "2022-06-16",
+            "keyword": [
+                "covid-19",
+                "long-term care",
+                "research-data-center",
+                "residential care communities"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/nbs2-kemu",
+            "description": "The National Post-acute and Long-term Care Study (NPALS) is a biennial study of major post-acute and long-term care providers and their services users. Seven provider settings are included. NPALS collects survey data on the residential care community and adult day services sectors, and uses administrative data (available from CMS) for home health, nursing home, hospice, inpatient rehabilitation, and long-term care hospital sectors.\nThe goals of the study are to: estimate the supply of paid, regulated post-acute and long-term care services providers; estimate key policy-relevant characteristics and practices of these providers; estimate the number of post-acute and long-term care services users; estimate key policy-relevant characteristics of these users; produce national and state estimates where feasible; compare across provider sectors; and monitor trends over time.",
+            "title": "National Post-acute and Long-term Care Study: Residential Care Community Restricted Dataset",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html",
+                    "title": "National Post-acute and Long-term Care Study: Residential Care Community Restricted Dataset"
+                }
+            ],
+            "spatial": "United States",
+            "accrualPeriodicity": "Irregular",
+            "theme": [
+                "NCHS"
+            ],
+            "language": [
+                "en-US"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/data-visualization/state-life-expectancy/index_2019.htm",
             "bureauCode": [
@@ -38103,7 +38451,7 @@
             "landingPage": "https://data.cdc.gov/d/nmdn-2xuz",
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-11",
+            "modified": "2022-06-17",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -38363,7 +38711,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-12",
+            "modified": "2022-06-15",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -38624,49 +38972,6 @@
             "describedBy": "https://chronicdata.cdc.gov/Heart-Disease-Stroke-Prevention/Healthcare-Cost-and-Utilization-Project-HCUP-Natio/ntny-77fx",
             "theme": [
                 "Heart Disease & Stroke Prevention"
-            ]
-        },
-        {
-            "accessLevel": "restricted public",
-            "landingPage": "https://data.cdc.gov/d/nv6x-v7xz",
-            "bureauCode": [
-                "009:20"
-            ],
-            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-            "issued": "2022-06-08",
-            "temporal": "2020",
-            "@type": "dcat:Dataset",
-            "modified": "2022-06-08",
-            "keyword": [
-                "covid-19",
-                "research-data-center"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "National Center for Health Statistics"
-            },
-            "identifier": "https://data.cdc.gov/api/views/nv6x-v7xz",
-            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional surveys from probability-sampled commercial survey panels. As part of a special iteration of RANDS that focuses on COVID-19, RANDS during COVID-19 Round 1 is the first round of a three-round survey. In addition to the probability sample in RANDS during COVID-19 Round 1, the questionnaire was administered to the Dynata non-probability online opt-in sample by NORC at the University of Chicago (NORC) from June 9, 2020 to June 30, 2020. The RANDS during COVID-19 Round 1 Non-Probability Sample does not have a known survey sampling design and cannot be used to produce nationally or sub-nationally representative estimates.",
-            "title": "covid_1_rdc_np.sas7bdat",
-            "describedByType": "application/pdf",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "mediaType": "text/html"
-                }
-            ],
-            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS_COVID_1_np_technical_documentation.pdf",
-            "theme": [
-                "NCHS"
             ]
         },
         {
@@ -40673,6 +40978,54 @@
             "describedBy": "https://chronicdata.cdc.gov/Youth-Risk-Behaviors/DASH-Youth-Risk-Behavior-Surveillance-System-YRBSS/q6p7-56au",
             "theme": [
                 "Youth Risk Behaviors"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://data.cdc.gov/d/q78n-cpzf",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-15",
+            "@type": "dcat:Dataset",
+            "temporal": "2020",
+            "modified": "2022-06-15",
+            "keyword": [
+                "anxiety",
+                "covid-19",
+                "depression",
+                "missed healthcare",
+                "research-data-center",
+                "telemedicine"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/q78n-cpzf",
+            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional surveys from probability-sampled commercial survey panels. As part of a special iteration of RANDS that focuses on COVID-19, RANDS during COVID-19 Round 1 is the first round of a three-round survey. The probability sample of RANDS during COVID-19 Round 1 was recruited using NORC at the University of Chicago (NORC)'s AmeriSpeak Panel, and the survey was administered by NORC from June 9, 2020 to July 6, 2020. The RANDS during COVID-19 Round 1 Probability Sample has a known survey sampling design and can be used to produce nationally and sub-nationally representative estimates.",
+            "title": "Research and Development Survey (RANDS) during COVID-19 Round 1 microdata (covid_1_rdc.sas7bdat). Includes all items released in the public-use file, along with additional geographic and demographic data.",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS_COVID_1_technical_documentation.pdf",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -43280,6 +43633,55 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://data.cdc.gov/d/rch2-p4nb",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-15",
+            "@type": "dcat:Dataset",
+            "temporal": "2016",
+            "modified": "2022-06-15",
+            "keyword": [
+                "anxiety",
+                "chronic conditions",
+                "food security",
+                "health behaviors",
+                "health insurance",
+                "physical activity",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/rch2-p4nb",
+            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional \nsurveys from probability-sampled commercial survey panels which began in 2015. \nRANDS 2 was administered by Gallup using the Gallup Panel in the spring of 2016 \nand contains existing questions from the National Health Interview Survey (NHIS) \nas well as embedded probe questions for cognitive evaluations.",
+            "title": "Research and Development Survey (RANDS) 2 microdata (gallup_2_rdc.sas7bdat). Includes all items released in the public-use file, along with additional geographic and demographic data.",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS2_technical_documentation.pdf",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/rezz-ypcg",
             "bureauCode": [
@@ -43495,8 +43897,8 @@
             ],
             "issued": "2022-06-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-06-11",
-            "modified": "2022-06-11",
+            "temporal": "2020-12-13/2022-06-16",
+            "modified": "2022-06-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -43569,10 +43971,14 @@
             "issued": "2022-06-08",
             "temporal": "2020",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-08",
+            "modified": "2022-06-15",
             "keyword": [
+                "anxiety",
                 "covid-19",
-                "research-data-center"
+                "depression",
+                "missed healthcare",
+                "research-data-center",
+                "telemedicine"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -43585,7 +43991,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/ri74-jp8e",
             "description": "The Research and Development Survey (RANDS) is a series of cross-sectional surveys from probability-sampled commercial survey panels. As part of a special iteration of RANDS that focuses on COVID-19, RANDS during COVID-19 Round 2 is the second round of a three-round survey. In addition to the probability sample of RANDS during COVID-19 Round 2, the questionnaire was administered to the Dynata non-probability online opt-in sample by NORC at the University of Chicago (NORC) from August 3, 2020 to August 20, 2020.  The RANDS during COVID-19 Round 2 Non-Probability Sample does not have a known survey sampling design and cannot be used to produce nationally or sub-nationally representative estimates.",
-            "title": "covid_2_rdc_np.sas7bdat",
+            "title": "Research and Development Survey (RANDS) during COVID-19 Round 2 non-probability microdata (covid_2_rdc_np.sas7bdat). Includes all items released in the public-use file, along with additional geographic and demographic data.",
             "describedByType": "application/pdf",
             "programCode": [
                 "009:020"
@@ -44076,7 +44482,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-07",
+            "modified": "2022-06-14",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -45640,15 +46046,19 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2019/2020",
-            "modified": "2022-06-08",
+            "modified": "2022-06-16",
             "references": [
                 "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
             ],
             "keyword": [
                 "dhis",
                 "health statistics",
+                "imputation",
+                "income",
                 "income statistics",
-                "mchs",
+                "nchs",
+                "nchs surveys",
+                "research-data-center",
                 "summary health statistics"
             ],
             "contactPoint": {
@@ -45669,7 +46079,7 @@
             "distribution": [
                 {
                     "mediaType": "text/html",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.html",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
                     "description": "The National Health Interview Survey (NHIS) is a multi-purpose health survey and is the principal source of information on the health of the civilian, noninstitutionalized household population of the United States (National Center for Health Statistics). The NHIS provides a rich source of data for studying relationships between income and health and for monitoring the health and health care for persons at different income levels. There is particular interest in the health of vulnerable populations such as those with low income, as well as their access to and use of health care services. However, the nonresponse rates are high for income variables. Multiple imputation methods were used to address high item nonresponse rates to impute the total household income where the entire imputation process was repeated independently 10 times. This dataset represents the income data responses of the randomly sampled child.",
                     "@type": "dcat:Distribution",
                     "title": "Restricted Use NHIS Sample Child Imputed Income"
@@ -45990,6 +46400,54 @@
             ],
             "theme": [
                 "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/medicaid-restricted.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-16",
+            "@type": "dcat:Dataset",
+            "temporal": "1999-2014",
+            "modified": "2022-06-16",
+            "references": [
+                "https://www.cdc.gov/nchs/data/datalinkage/nchs-cms-medicaid-linked-data-list-of-variables.pdf"
+            ],
+            "keyword": [
+                "linked medicaid files",
+                "max",
+                "nchs surveys",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS Data Linkage Program",
+                "hasEmail": "mailto:DataLinkage@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/sv3x-rgz2",
+            "description": "NCHS has linked various surveys with Medicaid enrollment and claims records collected from the Centers for Medicare & Medicaid Services (CMS). Linkage of the NCHS survey participants with the CMS Medicaid data provides the opportunity to study changes in health status, health care utilization and expenditures in low income families with children and the elderly U.S. populations.",
+            "title": "NCHS Survey Data Linked to Centers for Medicare & Medicaid Services (CMS) Medicaid Enrollment and Claims Files",
+            "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "United States",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -46839,48 +47297,6 @@
             ],
             "language": [
                 "en-US"
-            ]
-        },
-        {
-            "accessLevel": "restricted public",
-            "landingPage": "https://data.cdc.gov/d/thim-52ph",
-            "bureauCode": [
-                "009:20"
-            ],
-            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-            "issued": "2022-06-08",
-            "temporal": "2020",
-            "@type": "dcat:Dataset",
-            "modified": "2022-06-08",
-            "keyword": [
-                "research-data-center"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "National Center for Health Statistics"
-            },
-            "identifier": "https://data.cdc.gov/api/views/thim-52ph",
-            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional surveys using probability-sampled commercial survey panels. The fourth round of RANDS (RANDS 4) was administered by NORC at the University of Chicago using the AmeriSpeak Panel from July 17, 2020 to August 24, 2020. RANDS 4 contained the embedded probe questions and experiments as in previous rounds of RANDS, but had an emphasis on disability and the use of opioid pain relievers. RANDS 4 has a known survey sampling design and can be used to produce nationally and sub-nationally representative estimates.",
-            "title": "norc_4_rdc.sas7bdat",
-            "describedByType": "application/pdf",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "mediaType": "text/html"
-                }
-            ],
-            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS4_technical_documentation.pdf",
-            "theme": [
-                "NCHS"
             ]
         },
         {
@@ -48340,6 +48756,25 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/u99h-6e3k",
+            "issued": "2022-06-15",
+            "@type": "dcat:Dataset",
+            "modified": "2022-06-15",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCIRD",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/u99h-6e3k",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "Beginning the week of June 13, 2022, instead of daily, jurisdictions and other partners will report vaccine administration and delivery data to CDC weekly on Wednesdays by 4 AM ET. As a result, instead of daily, this site will be refreshed weekly on Thursday by 8:00 PM ET.",
+            "title": "Vaccination Data Update"
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/ua33-yiiu",
             "bureauCode": [
                 "009:20"
@@ -48780,14 +49215,83 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/ukww-au2k",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-06-17",
+            "temporal": "March 27, 2022 - May 21, 2022",
+            "@type": "dcat:Dataset",
+            "modified": "2022-06-17",
+            "keyword": [
+                "covid-19 booster doses",
+                "covid-19 breakthrough",
+                "covid-19 cases",
+                "covid-19 deaths",
+                "covid-19 vaccination"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Vaccine Breakthrough Unit, Surveillance and Analytics Team",
+                "hasEmail": "mailto:eocevent531@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/ukww-au2k",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\nThese data were posted on June 17, 2022, and reflect cases among persons with a positive specimen collection date through May 21, 2022, and deaths among persons with a positive specimen collection date through April 30, 2022. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A person vaccinated with a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\n\nAdditional or booster dose: A person vaccinated with a primary series and an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. For people ages 18 years and older, data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. For people ages 12-17 years, data are graphed starting the week of December 26, 2021, 2 weeks after the first recommendation for a booster dose for adolescents ages 16-17 years. For people ages 50 years and older, data on second booster doses are graphed starting the week including March 29, 2022, when the recommendation was made for second boosters. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type. \n** Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group.\n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis.\n\nParticipating jurisdictions: Currently, these 31 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (New York), North Carolina, Philadelphia (Pennsylvania), Rhode Island, Seattle King County (Washington), South Dakota, Tennessee, Texas, Utah, West Virginia, and Wisconsin; 30 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 70% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases among people who received additional or booster dos",
+            "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status and Second Booster Dose",
+            "programCode": [
+                "009:038"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/ukww-au2k/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/ukww-au2k/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/ukww-au2k/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/ukww-au2k/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/ukww-au2k/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/ukww-au2k/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/ukww-au2k/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "Select US Jurisdictions",
+            "accrualPeriodicity": "Monthly",
+            "theme": [
+                "Public Health Surveillance"
+            ],
+            "language": [
+                "English"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/unsk-b7fc",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-06-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-06-11",
-            "modified": "2022-06-11",
+            "temporal": "2020-12-13/2022-06-16",
+            "modified": "2022-06-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -48856,9 +49360,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-11-29",
+            "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-17",
+            "modified": "2022-06-16",
             "keyword": [
                 "covid-19",
                 "covid-19 vaccination",
@@ -49443,7 +49947,7 @@
             ],
             "issued": "2020-05-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-16",
+            "modified": "2022-06-13",
             "references": [
                 "https://www.cms.gov/files/document/Accelerated-and-Advanced-Payments-Fact-Sheet.pdf"
             ],
@@ -50238,7 +50742,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-11",
+            "modified": "2022-06-15",
             "keyword": [
                 "flu vaccination",
                 "immunization",
@@ -51392,6 +51896,53 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://data.cdc.gov/d/vxpx-d2pt",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-15",
+            "temporal": "2020",
+            "@type": "dcat:Dataset",
+            "modified": "2022-06-15",
+            "keyword": [
+                "anxiety",
+                "covid-19",
+                "depression",
+                "missed healthcare",
+                "research-data-center",
+                "telemedicine"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/vxpx-d2pt",
+            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional surveys from probability-sampled commercial survey panels. As part of a special iteration of RANDS that focuses on COVID-19, RANDS during COVID-19 Round 1 is the first round of a three-round survey. In addition to the probability sample in RANDS during COVID-19 Round 1, the questionnaire was administered to the Dynata non-probability online opt-in sample by NORC at the University of Chicago (NORC) from June 9, 2020 to June 30, 2020. The RANDS during COVID-19 Round 1 Non-Probability Sample does not have a known survey sampling design and cannot be used to produce nationally or sub-nationally representative estimates.",
+            "title": "Research and Development Survey (RANDS) during COVID-19 Round 1 non-probability microdata (covid_1_rdc_np.sas7bdat). Includes all items released in the public-use file, along with additional geographic and demographic data.",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS_COVID_1_np_technical_documentation.pdf",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/vxsn-2csw",
             "bureauCode": [
@@ -51929,7 +52480,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-03",
+            "modified": "2022-06-15",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -52821,7 +53372,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2019/2020",
-            "modified": "2022-06-08",
+            "modified": "2022-06-16",
             "references": [
                 "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
             ],
@@ -52830,6 +53381,7 @@
                 "health statistics",
                 "nchs",
                 "nhis",
+                "research-data-center",
                 "summary health statistics"
             ],
             "contactPoint": {
@@ -52850,7 +53402,7 @@
             "distribution": [
                 {
                     "mediaType": "text/html",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.html",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
                     "description": "The NHIS questionnaire contains annual core and rotating core content. The annual core questions focus on demographic characteristics, health insurance, chronic conditions, health care access and use, health-related behaviors, and functioning and disability. The rotating core consists of questions that will be included in the interview periodically and include expanded content on mental health, service utilization, preventive services, health-related behaviors, injuries, and chronic pain. The periodicity of questions in the rotating core varies by question and may be every-other year, once-every-three years, or two-out-of-three years. The sample adult dataset contains data from the randomly sampled adult.",
                     "@type": "dcat:Distribution",
                     "title": "Restricted Use NHIS Sample Adult Interview"
@@ -53802,7 +54354,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-09",
+            "modified": "2022-06-16",
             "keyword": [
                 "2022",
                 "nndss",
@@ -54111,6 +54663,53 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/hud-restricted.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-16",
+            "@type": "dcat:Dataset",
+            "temporal": "Through 2019",
+            "modified": "2022-06-16",
+            "references": [
+                "https://www.cdc.gov/nchs/data/datalinkage/weight-file.pdf"
+            ],
+            "keyword": [
+                "linked hud files",
+                "nchs surveys",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS Data Linkage Program",
+                "hasEmail": "mailto:DataLinkage@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/xcz7-jei9",
+            "description": "NCHS has linked 1999-2018 National Health Interview Survey (NHIS) and 1999-2018 National Health and Nutrition Examination Survey (NHANES) to administrative data through 2019 for the Department of Housing and Urban Development\u2019s (HUD) largest housing assistance programs: the Housing Choice Voucher program, public housing, and privately owned, subsidized multifamily housing. Linkage of NCHS survey participants with HUD administrative records provides the opportunity to examine relationships between housing and health.",
+            "title": "NCHS Survey Data Linked to the Department of Housing and Urban Development (HUD) Housing Assistance Program Files",
+            "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "United States",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/xdg2-nh8n",
             "bureauCode": [
@@ -54226,7 +54825,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-06-09",
+            "modified": "2022-06-16",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -54292,7 +54891,7 @@
             ],
             "issued": "2018-03-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-11",
+            "modified": "2022-06-15",
             "keyword": [
                 "cocaine",
                 "deaths",
@@ -54641,17 +55240,19 @@
         },
         {
             "accessLevel": "restricted public",
-            "landingPage": "https://data.cdc.gov/d/xr7s-bq6e",
+            "landingPage": "https://www.cdc.gov/nchs/npals/index.htm",
             "bureauCode": [
                 "009:20"
             ],
-            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-            "issued": "2022-06-08",
-            "temporal": "2020",
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-08",
+            "temporal": "2020-01-01/2021-07-21",
+            "modified": "2022-06-16",
             "keyword": [
+                "adult day services centers",
                 "covid-19",
+                "long-term care",
                 "research-data-center"
             ],
             "contactPoint": {
@@ -54663,10 +55264,9 @@
                 "@type": "org:Organization",
                 "name": "National Center for Health Statistics"
             },
-            "identifier": "https://data.cdc.gov/api/views/xr7s-bq6e",
-            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional surveys from probability-sampled commercial survey panels. As part of a special iteration of RANDS that focuses on COVID-19, RANDS during COVID-19 Round 2 is the second round of a three-round survey. The probability sample of RANDS during COVID-19 Round 2 was recruited using NORC at the University of Chicago (NORC)'s AmeriSpeak Panel, and the survey was administered by NORC from August 3, 2020 to August 20, 2020.  The RANDS during COVID-19 Round 2 Probability Sample has a known survey sampling design and can be used to produce nationally and sub-nationally representative estimates.",
-            "title": "covid_2_rdc.sas7bdat",
-            "describedByType": "application/pdf",
+            "identifier": "https://data.cdc.gov/api/views/xqjn-3jef",
+            "description": "The National Post-acute and Long-term Care Study (NPALS) is a biennial study of major post-acute and long-term care providers and their services users. Seven provider settings are in included. NPALS collects survey data on the residential care community and adult day services sectors, and uses administrative data (available from CMS) for home health, nursing home, hospice, inpatient rehabilitation, and long-term care hospital sectors.\nThe goals of the study are to: estimate the supply of paid, regulated post-acute and long-term care services providers; estimate key policy-relevant characteristics and practices of these providers; estimate the number of post-acute and long-term care services users; estimate key policy-relevant characteristics of these users; produce national and state estimates where feasible; compare across provider sectors; and monitor trends over time.",
+            "title": "National Post-acute and Long-term Care Study: Adult Day Service Provider Restricted Dataset",
             "programCode": [
                 "009:020"
             ],
@@ -54674,12 +55274,17 @@
                 {
                     "@type": "dcat:Distribution",
                     "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "mediaType": "text/html"
+                    "mediaType": "text/html",
+                    "title": "National Post-acute and Long-term Care Study: Adult Day Service Provider Restricted Dataset"
                 }
             ],
-            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS_COVID_2_technical_documentation.pdf",
+            "spatial": "United States",
+            "accrualPeriodicity": "Irregular",
             "theme": [
                 "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -55606,48 +56211,6 @@
             ],
             "theme": [
                 "Policy Surveillance"
-            ]
-        },
-        {
-            "accessLevel": "restricted public",
-            "landingPage": "https://data.cdc.gov/d/y3ef-7ivu",
-            "bureauCode": [
-                "009:20"
-            ],
-            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-            "issued": "2022-06-08",
-            "temporal": "2019",
-            "@type": "dcat:Dataset",
-            "modified": "2022-06-08",
-            "keyword": [
-                "research-data-center"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "National Center for Health Statistics"
-            },
-            "identifier": "https://data.cdc.gov/api/views/y3ef-7ivu",
-            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional \nsurveys from probability-sampled commercial survey panels which began in 2015. \nRANDS 3 was administered by the National Opinion Research Center (NORC) using the \nAmerispeak Panel in the spring of 2019 and contains existing questions from \nthe National Health Interview Survey (NHIS) as well as embedded probe questions \nand split-panel experiments for cognitive evaluations.",
-            "title": "norc_3_rdc.sas7bdat",
-            "describedByType": "application/pdf",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "mediaType": "text/html"
-                }
-            ],
-            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS3_technical_documentation.pdf",
-            "theme": [
-                "NCHS"
             ]
         },
         {
@@ -56672,7 +57235,7 @@
             "issued": "2021-04-28",
             "temporal": "2020-01-01/2020-12-31",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2022-06-17",
             "keyword": [
                 "age",
                 "age group",
