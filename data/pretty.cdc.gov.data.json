@@ -765,7 +765,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-19",
+            "modified": "2022-06-26",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2211,7 +2211,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2019/2020",
-            "modified": "2022-06-16",
+            "modified": "2022-06-21",
             "references": [
                 "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
             ],
@@ -2248,6 +2248,7 @@
                 }
             ],
             "spatial": "US states and the District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/nhis/index.htm",
             "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
@@ -2730,7 +2731,7 @@
             "issued": "2022-04-01",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-06-16",
+            "modified": "2022-06-23",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2939,7 +2940,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-10",
+            "modified": "2022-06-24",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -3007,7 +3008,7 @@
             "issued": "2022-01-21",
             "temporal": "April 4, 2021-May 21, 2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-17",
+            "modified": "2022-06-24",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Vaccine Breakthrough Unit, Surveillance and Analytics Team",
@@ -3430,7 +3431,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-18",
+            "modified": "2022-06-26",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -3488,6 +3489,55 @@
             ],
             "theme": [
                 "Policy Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/CMS-Medicare-Restricted.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-23",
+            "@type": "dcat:Dataset",
+            "temporal": "2014-2017",
+            "modified": "2022-06-23",
+            "references": [
+                "https://www.cdc.gov/nchs/data-linkage/cms/nchs-cms_medicare14_18_linked_data-list_of_variables.pdf"
+            ],
+            "keyword": [
+                "linked medicare data",
+                "nhcs",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS Data Linkage Program",
+                "hasEmail": "mailto:DataLinkage@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/42pu-ymxu",
+            "description": "Through its data linkage program, NCHS has been able to expand the analytic utility of the data collected from the\u00a0National Hospital Care Survey (NHCS)\u00a0by augmenting it with administrative data from the Centers for Medicare & Medicaid Services\u2019 (CMS) Medicare program. Linkage of NHCS data with the CMS Medicare Data provides the opportunity to conduct a vast array of studies on health care utilization and expenditures among the elderly U.S. population and persons receiving Medicare disability benefits.",
+            "title": "National Hospital Care Survey (NHCS) linked to Centers for Medicare & Medicaid (CMS) Medicare Data",
+            "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "Match status can be found in the match rate table (see Table 1 on page 12) here: https://www.cdc.gov/nchs/data/datalinkage/2016-nhcs-cms-linkage-methodology.pdf",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -6413,8 +6463,8 @@
             ],
             "issued": "2022-05-16",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-06-16",
-            "modified": "2022-06-16",
+            "temporal": "2020-12-13/2022-06-23",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -6554,7 +6604,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-18",
+            "modified": "2022-06-25",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7318,7 +7368,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-18",
+            "modified": "2022-06-26",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -10396,7 +10446,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-19",
+            "modified": "2022-06-26",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -11047,7 +11097,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-19",
+            "modified": "2022-06-26",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -12071,8 +12121,8 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "temporal": "2020-08-19/2022-05-09",
-            "modified": "2022-05-18",
+            "temporal": "2020-08-19/2022-06-13",
+            "modified": "2022-06-22",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -12400,8 +12450,8 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-06-16",
-            "modified": "2022-06-16",
+            "temporal": "2020-12-13/2022-06-23",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -14293,7 +14343,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-06-18",
+            "modified": "2022-06-25",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -15891,7 +15941,7 @@
             ],
             "issued": "2021-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-06",
+            "modified": "2022-06-22",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17570,7 +17620,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2019/2020",
-            "modified": "2022-06-16",
+            "modified": "2022-06-21",
             "references": [
                 "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
             ],
@@ -17607,6 +17657,7 @@
                 }
             ],
             "spatial": "US states and the District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/nhis/index.htm",
             "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
@@ -18070,7 +18121,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-19",
+            "modified": "2022-06-26",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -20200,7 +20251,7 @@
             "issued": "2022-03-22",
             "temporal": "September 19, 2021-May 21, 2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-17",
+            "modified": "2022-06-24",
             "keyword": [
                 "covid-19",
                 "covid-19 booster doses",
@@ -25819,7 +25870,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-19",
+            "modified": "2022-06-26",
             "keyword": [
                 "wastewater"
             ],
@@ -26499,9 +26550,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-11-17",
+            "issued": "2022-06-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-15",
+            "modified": "2022-06-21",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -26552,6 +26603,73 @@
             ],
             "theme": [
                 "Vaccinations"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/covid19/pulse/long-covid.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-06-22",
+            "@type": "dcat:Dataset",
+            "temporal": "2022-06-01/2022-06-13",
+            "modified": "2022-06-22",
+            "keyword": [
+                "covid-19",
+                "post-covid"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/gsea-w83j",
+            "description": "As part of an ongoing partnership with the Census Bureau, the National Center for Health Statistics (NCHS) recently added questions to assess the prevalence of post-COVID-19 conditions (long COVID), on the experimental Household Pulse Survey. This 20-minute online survey was designed to complement the ability of the federal statistical system to rapidly respond and provide relevant information about the impact of the coronavirus pandemic in the U.S. Data collection began on April 23, 2020. Beginning in Phase 3.5 (on June 1, 2022), NCHS included questions about the presence of symptoms of COVID that lasted three months or longer. Phase 3.5 will continue with a two-weeks on, two-weeks off collection and dissemination approach. \n\nEstimates on this page are derived from the Household Pulse Survey and show the percentage of adults aged 18 and over who a) as a proportion of the U.S. population, the percentage of adults who EVER experienced post-COVID conditions (long COVID). These adults had COVID and had some symptoms that lasted three months or longer; b) as a proportion of adults who said they ever had COVID, the percentage who EVER experienced post-COVID conditions; c) as a proportion of the U.S. population, the percentage of adults who are CURRENTLY experiencing post-COVID conditions. These adults had COVID, had long-term symptoms, and are still experiencing symptoms; d) as a proportion of adults who said they ever had COVID, the percentage who are CURRENTLY experiencing post-COVID conditions; and e) as a proportion of the U.S. population, the percentage of adults who said they ever had COVID.",
+            "title": "Post-COVID Conditions",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/gsea-w83j/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/gsea-w83j/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/gsea-w83j/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/gsea-w83j/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/gsea-w83j/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/gsea-w83j/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/gsea-w83j/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "U.S.",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
+            "theme": [
+                "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -26630,7 +26748,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-06-14",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -27139,8 +27257,8 @@
             ],
             "issued": "2021-04-27",
             "@type": "dcat:Dataset",
-            "temporal": "2020-08-19/2022-05-09",
-            "modified": "2022-05-18",
+            "temporal": "2020-08-19/2022-06-13",
+            "modified": "2022-06-22",
             "keyword": [
                 "covid-19",
                 "telemedicine"
@@ -28240,7 +28358,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-16",
+            "modified": "2022-06-24",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -30458,9 +30576,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-11-05",
+            "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-06",
+            "modified": "2022-06-22",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -30955,8 +31073,8 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "temporal": "2020-08-19/2022-05-09",
-            "modified": "2022-05-18",
+            "temporal": "2020-08-19/2022-06-13",
+            "modified": "2022-06-22",
             "keyword": [
                 "covid-19",
                 "private coverage",
@@ -31198,8 +31316,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-06-16",
-            "modified": "2022-06-16",
+            "temporal": "2020-12-13/2022-06-23",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -31402,7 +31520,7 @@
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
             "temporal": "Through 2018",
-            "modified": "2022-06-16",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/Variable-List.pdf"
             ],
@@ -31424,6 +31542,7 @@
             "description": "NCHS has linked data from various surveys with End Stage Renal Disease (ESRD) data obtained from the United States Renal Data System (USRDS). Linkage of the data from NCHS survey participants with the USRDS ESRD data provides the opportunity to study changes in health status and health care utilization among patients diagnosed with ESRD.",
             "title": "NCHS Survey Data Linked to United States Renal Data System (USRDS) End-Stage Renal Disease Files",
             "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
             "programCode": [
                 "009:020"
             ],
@@ -31435,6 +31554,7 @@
                 }
             ],
             "spatial": "United States",
+            "describedBy": "Match status can be found in the match rate tables here: https://www.cdc.gov/nchs/data/datalinkage/MatchRate-Tables.pdf",
             "theme": [
                 "NCHS"
             ]
@@ -31662,7 +31782,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-14",
+            "modified": "2022-06-21",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -32275,7 +32395,7 @@
             ],
             "issued": "2022-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-15",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html"
             ],
@@ -33266,7 +33386,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-16",
+            "modified": "2022-06-23",
             "keyword": [
                 "cares act",
                 "health system",
@@ -33597,8 +33717,8 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-06-16",
-            "modified": "2022-06-16",
+            "temporal": "2020-12-13/2022-06-23",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -34009,18 +34129,18 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-18",
+            "modified": "2022-06-26",
             "keyword": [
-                "business closure",
-                "business reopening",
                 "covid-19",
+                "social distancing",
                 "executive order",
-                "government order",
-                "legal epidemiology",
-                "mitigation",
                 "proclamation",
+                "legal epidemiology",
+                "government order",
                 "public health order",
-                "social distancing"
+                "mitigation",
+                "business closure",
+                "business reopening"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -35373,7 +35493,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "Through December 31, 2019",
-            "modified": "2022-06-16",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/LMF2019-DataDictionary-MortVars.pdf"
             ],
@@ -35395,6 +35515,7 @@
             "description": "NCHS has linked data from various surveys with death certificate records from the National Death Index (NDI). Linkage of the NCHS survey participant data with the NDI mortality data provides the opportunity to conduct a vast array of outcome studies designed to investigate the association of a wide variety of health factors with mortality. The Linked Mortality Files (LMF) have been updated with mortality follow-up data through December 31, 2019.",
             "title": "NCHS Survey Data Linked to National Death Index (NDI) Mortality Files",
             "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
             "programCode": [
                 "009:020"
             ],
@@ -35406,6 +35527,7 @@
                 }
             ],
             "spatial": "United States",
+            "describedBy": "Match status can be found in the match rate tables (see Tables 1 and 2 on page 10) here: https://www.cdc.gov/nchs/data/datalinkage/2019NDI-Linkage-Methods-and-Analytic-Considerations-508.pdf",
             "theme": [
                 "NCHS"
             ]
@@ -35968,7 +36090,7 @@
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
             "temporal": "2014-2018",
-            "modified": "2022-06-16",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/nchs/data-linkage/cms/nchs-cms_medicare14_18_linked_data-list_of_variables.pdf"
             ],
@@ -35990,6 +36112,7 @@
             "description": "NCHS has linked data from various surveys with Medicare program enrollment and health care utilization and expenditure data from the Centers for Medicare & Medicaid Services (CMS). Linkage of the NCHS survey participants with the CMS Medicare data provides the opportunity to study changes in health status, health care utilization and costs, and prescription drug use among Medicare enrollees. Medicare is the federal health insurance program for people who are 65 or older, certain younger people with disabilities, and people with End-Stage Renal Disease.",
             "title": "NCHS Survey Data Linked to Centers for Medicare & Medicaid Services (CMS) Medicare Data Files",
             "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
             "programCode": [
                 "009:020"
             ],
@@ -36001,6 +36124,7 @@
                 }
             ],
             "spatial": "United States",
+            "describedBy": "Match status can be found in the match rate tables here: https://www.cdc.gov/nchs/data/datalinkage/cms_medicare_linked_data_match_rate_tables_1.pdf",
             "theme": [
                 "NCHS"
             ]
@@ -37324,7 +37448,7 @@
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
             "temporal": "2019/2020",
-            "modified": "2022-06-16",
+            "modified": "2022-06-21",
             "keyword": [
                 "dhis",
                 "health statistics",
@@ -37356,6 +37480,7 @@
                 }
             ],
             "spatial": "US states and the District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/nhis/index.htm",
             "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
@@ -37927,7 +38052,7 @@
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2021-07-21",
-            "modified": "2022-06-16",
+            "modified": "2022-06-21",
             "keyword": [
                 "covid-19",
                 "long-term care",
@@ -37946,6 +38071,7 @@
             "identifier": "https://data.cdc.gov/api/views/nbs2-kemu",
             "description": "The National Post-acute and Long-term Care Study (NPALS) is a biennial study of major post-acute and long-term care providers and their services users. Seven provider settings are included. NPALS collects survey data on the residential care community and adult day services sectors, and uses administrative data (available from CMS) for home health, nursing home, hospice, inpatient rehabilitation, and long-term care hospital sectors.\nThe goals of the study are to: estimate the supply of paid, regulated post-acute and long-term care services providers; estimate key policy-relevant characteristics and practices of these providers; estimate the number of post-acute and long-term care services users; estimate key policy-relevant characteristics of these users; produce national and state estimates where feasible; compare across provider sectors; and monitor trends over time.",
             "title": "National Post-acute and Long-term Care Study: Residential Care Community Restricted Dataset",
+            "describedByType": "application/pdf",
             "programCode": [
                 "009:020"
             ],
@@ -37958,6 +38084,7 @@
                 }
             ],
             "spatial": "United States",
+            "describedBy": "https://www.cdc.gov/nchs/npals/2020-NPALS-RCC-Questionnaire-Community.pdf",
             "accrualPeriodicity": "Irregular",
             "theme": [
                 "NCHS"
@@ -40600,7 +40727,7 @@
             "issued": "2022-05-31",
             "@type": "dcat:Dataset",
             "temporal": "2010-2017",
-            "modified": "2022-05-31",
+            "modified": "2022-06-21",
             "references": [
                 "https://www.cdc.gov/rdc/b1datatype/dt1229.html"
             ],
@@ -41887,6 +42014,55 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/nhcs-hud.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-23",
+            "@type": "dcat:Dataset",
+            "temporal": "2013-2017",
+            "modified": "2022-06-23",
+            "references": [
+                "https://www.cdc.gov/nchs/data/datalinkage/NHCS-Linked-HUD-Program-Participation-Any.pdf"
+            ],
+            "keyword": [
+                "linked hud data",
+                "nhcs",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS Data Linkage Program",
+                "hasEmail": "mailto:DataLinkage@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/qfu5-aeqe",
+            "description": "Through its data linkage program, NCHS has been able to expand the analytic utility of the data collected from the 2014 and 2016\u00a0National Hospital Care Surveys (NHCS)\u00a0by linking patient records with up to three years of administrative housing data from the U.S. Department of Housing and Urban Development\u2019s (HUD) largest housing assistance programs: the Housing Choice Voucher (HCV) program, Public Housing (PH) , and privately owned, subsidized Multifamily housing (MF). These innovative linked data will support a wide array of patient outcomes studies, including the opportunity to study complex relationships between housing and health.",
+            "title": "National Hospital Care Survey (NHCS) linked to Department of Housing and Urban Development (HUD) Administrative Housing Data",
+            "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "Match status can be found in the match rate table (see Table 1 on page 11) here: https://www.cdc.gov/nchs/data/datalinkage/NHCS-HUD-Linkage-Methods-and-Analytic-Considerations.pdf",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/covid19/rands/work.htm",
             "bureauCode": [
@@ -42775,7 +42951,7 @@
             ],
             "issued": "2021-11-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-06",
+            "modified": "2022-06-22",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -43897,8 +44073,8 @@
             ],
             "issued": "2022-06-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-06-16",
-            "modified": "2022-06-16",
+            "temporal": "2020-12-13/2022-06-23",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -43969,9 +44145,9 @@
             ],
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-06-08",
-            "temporal": "2020",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-15",
+            "temporal": "2020",
+            "modified": "2022-06-21",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -44003,6 +44179,7 @@
                     "mediaType": "text/html"
                 }
             ],
+            "spatial": "50 states and District of Columbia",
             "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS_COVID_2_np_technical_documentation.pdf",
             "theme": [
                 "NCHS"
@@ -44482,7 +44659,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-14",
+            "modified": "2022-06-21",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -45991,7 +46168,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-10",
+            "modified": "2022-06-22",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -46046,7 +46223,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2019/2020",
-            "modified": "2022-06-16",
+            "modified": "2022-06-21",
             "references": [
                 "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
             ],
@@ -46086,6 +46263,7 @@
                 }
             ],
             "spatial": "US states and the District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/nhis/index.htm",
             "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
@@ -46412,7 +46590,7 @@
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
             "temporal": "1999-2014",
-            "modified": "2022-06-16",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/nchs-cms-medicaid-linked-data-list-of-variables.pdf"
             ],
@@ -46435,6 +46613,7 @@
             "description": "NCHS has linked various surveys with Medicaid enrollment and claims records collected from the Centers for Medicare & Medicaid Services (CMS). Linkage of the NCHS survey participants with the CMS Medicaid data provides the opportunity to study changes in health status, health care utilization and expenditures in low income families with children and the elderly U.S. populations.",
             "title": "NCHS Survey Data Linked to Centers for Medicare & Medicaid Services (CMS) Medicaid Enrollment and Claims Files",
             "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
             "programCode": [
                 "009:020"
             ],
@@ -46446,6 +46625,7 @@
                 }
             ],
             "spatial": "United States",
+            "describedBy": "Match status can be found in the match rate tables here: https://www.cdc.gov/nchs/data/datalinkage/nchs-cms-medicaid-linked-data-match-rate-tables-508.pdf",
             "theme": [
                 "NCHS"
             ]
@@ -47931,6 +48111,55 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/nhcs-ndi.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-06-23",
+            "@type": "dcat:Dataset",
+            "temporal": "2014-2017",
+            "modified": "2022-06-23",
+            "references": [
+                "https://www.cdc.gov/nchs/data/datalinkage/NHCS-Codebook-Mortality-Variables.pdf"
+            ],
+            "keyword": [
+                "linked ndi data",
+                "nhcs",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS Data Linkage Program",
+                "hasEmail": "mailto:DataLinkage@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/tuza-3b7w",
+            "description": "Through its data linkage program, NCHS has been able to expand the analytic utility of the data collected from National Hospital Care Survey (NHCS) by augmenting it with mortality data from the National Death Index (NDI). Linkage of NHCS data with the NDI mortality data provides the opportunity to conduct a vast array of outcome studies designed to investigate the association of a wide variety of health factors with mortality.",
+            "title": "National Hospital Care Survey (NHCS) Linked to National Death Index (NDI) Data",
+            "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "Match status can be found in the match rate table (see Table 1 on page 6) here: https://www.cdc.gov/nchs/data/datalinkage/NHCS16-NDI16-17-Methodology-Analytic-Consider.pdf",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/tv5g-74as",
             "bureauCode": [
@@ -48969,7 +49198,7 @@
             ],
             "issued": "2021-09-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-06",
+            "modified": "2022-06-22",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -49222,7 +49451,7 @@
             "issued": "2022-06-17",
             "temporal": "March 27, 2022 - May 21, 2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-17",
+            "modified": "2022-06-24",
             "keyword": [
                 "covid-19 booster doses",
                 "covid-19 breakthrough",
@@ -49290,8 +49519,8 @@
             ],
             "issued": "2022-06-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-06-16",
-            "modified": "2022-06-16",
+            "temporal": "2020-12-13/2022-06-23",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -49362,7 +49591,7 @@
             ],
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-16",
+            "modified": "2022-06-21",
             "keyword": [
                 "covid-19",
                 "covid-19 vaccination",
@@ -51903,9 +52132,9 @@
             ],
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-06-15",
-            "temporal": "2020",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-15",
+            "temporal": "2020",
+            "modified": "2022-06-21",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -51937,6 +52166,7 @@
                     "mediaType": "text/html"
                 }
             ],
+            "spatial": "50 states and District of Columbia",
             "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS_COVID_1_np_technical_documentation.pdf",
             "theme": [
                 "NCHS"
@@ -52480,7 +52710,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-15",
+            "modified": "2022-06-23",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -53372,7 +53602,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2019/2020",
-            "modified": "2022-06-16",
+            "modified": "2022-06-21",
             "references": [
                 "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
             ],
@@ -53409,6 +53639,7 @@
                 }
             ],
             "spatial": "US states and the District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/nhis/index.htm",
             "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
@@ -54354,7 +54585,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-16",
+            "modified": "2022-06-23",
             "keyword": [
                 "2022",
                 "nndss",
@@ -54672,7 +54903,7 @@
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
             "temporal": "Through 2019",
-            "modified": "2022-06-16",
+            "modified": "2022-06-23",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/weight-file.pdf"
             ],
@@ -54694,6 +54925,7 @@
             "description": "NCHS has linked 1999-2018 National Health Interview Survey (NHIS) and 1999-2018 National Health and Nutrition Examination Survey (NHANES) to administrative data through 2019 for the Department of Housing and Urban Development\u2019s (HUD) largest housing assistance programs: the Housing Choice Voucher program, public housing, and privately owned, subsidized multifamily housing. Linkage of NCHS survey participants with HUD administrative records provides the opportunity to examine relationships between housing and health.",
             "title": "NCHS Survey Data Linked to the Department of Housing and Urban Development (HUD) Housing Assistance Program Files",
             "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
             "programCode": [
                 "009:020"
             ],
@@ -54705,6 +54937,7 @@
                 }
             ],
             "spatial": "United States",
+            "describedBy": "Match status can be found in the match rate tables here: https://www.cdc.gov/nchs/data/datalinkage/NCHS-HUD-Match-Rate-Tables-final.pdf",
             "theme": [
                 "NCHS"
             ]
@@ -54825,7 +55058,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-06-16",
+            "modified": "2022-06-23",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -55248,7 +55481,7 @@
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2021-07-21",
-            "modified": "2022-06-16",
+            "modified": "2022-06-21",
             "keyword": [
                 "adult day services centers",
                 "covid-19",
@@ -55267,6 +55500,7 @@
             "identifier": "https://data.cdc.gov/api/views/xqjn-3jef",
             "description": "The National Post-acute and Long-term Care Study (NPALS) is a biennial study of major post-acute and long-term care providers and their services users. Seven provider settings are in included. NPALS collects survey data on the residential care community and adult day services sectors, and uses administrative data (available from CMS) for home health, nursing home, hospice, inpatient rehabilitation, and long-term care hospital sectors.\nThe goals of the study are to: estimate the supply of paid, regulated post-acute and long-term care services providers; estimate key policy-relevant characteristics and practices of these providers; estimate the number of post-acute and long-term care services users; estimate key policy-relevant characteristics of these users; produce national and state estimates where feasible; compare across provider sectors; and monitor trends over time.",
             "title": "National Post-acute and Long-term Care Study: Adult Day Service Provider Restricted Dataset",
+            "describedByType": "application/pdf",
             "programCode": [
                 "009:020"
             ],
@@ -55279,6 +55513,7 @@
                 }
             ],
             "spatial": "United States",
+            "describedBy": "https://www.cdc.gov/nchs/npals/2020-NPALS-ADSC-Questionnaire-Center.pdf",
             "accrualPeriodicity": "Irregular",
             "theme": [
                 "NCHS"
