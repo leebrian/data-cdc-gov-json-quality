@@ -765,11 +765,11 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-24",
+            "modified": "2022-07-31",
             "keyword": [
-                "covid19",
+                "wastewater",
                 "sars-cov-2",
-                "wastewater"
+                "covid19"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -2009,7 +2009,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "age",
                 "all causes",
@@ -2536,7 +2536,7 @@
             "landingPage": "https://data.cdc.gov/d/3m2r-fh4s",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-23",
+            "modified": "2022-07-29",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -2731,7 +2731,7 @@
             "issued": "2022-04-01",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-07-21",
+            "modified": "2022-07-28",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2751,7 +2751,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "This public use dataset has 11 data elements reflecting United States COVID-19 community  levels for all available counties. This dataset contains the same values used to display information available on the COVID Data Tracker at:   https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\nThe data are updated weekly.  \nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals. \nSee https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html for more information. \n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/2022, thus the values were previously missing for records released the week prior.\n\n<b>April 7, 2022:</b> Updates made to data released on 3/24/2022 for Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands to correct a data mapping error.\n\n<b>April 21, 2022:</b> COVID-19 Community Level (CCL) data released for counties in Nebraska for the week of April 21, 2022 have 3 counties identifi",
+            "description": "<b>July 28, 2022:</b> COVID-19 Community Level (CCL) data released for all Montana counties for the week of July 21, 2022 had case rates of 0 due to a reporting issue. The case rates have been corrected in this update.\n\n<b>July 28, 2022:</b> COVID-19 Community Level (CCL) data released for Alaska for all weeks prior to July 21, 2022 included non-resident cases. The case rates for the time series have been corrected in this update.\n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community  levels for all available counties. This dataset contains the same values used to display information available on the COVID Data Tracker at:   https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\nThe data are updated weekly.  \nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals. \nSee https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html for more information. \n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -2868,6 +2868,82 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/3pbe-qh9z",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-07-25",
+            "@type": "dcat:Dataset",
+            "temporal": "2020-12-13/2022-07-28",
+            "modified": "2022-07-29",
+            "references": [
+                "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
+            ],
+            "keyword": [
+                "covid-19",
+                "coronavirus",
+                "izdl",
+                "immunization",
+                "administration",
+                "vaccination",
+                "demographics",
+                "sex",
+                "age",
+                "race",
+                "ethnicity"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCIRD",
+                "hasEmail": "mailto:iisinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/3pbe-qh9z",
+            "description": "This site provides historical data beginning June 22, 2022, for the visualization presented on <a href=\"https://covid.cdc.gov/covid-data-tracker/#vaccinations\" target=\"_blank\">COVID-19 Data Tracker\u2019s \u201cVaccinations in the United States\u201d</a> site titled \u201cPrimary Series Completion, Booster Dose Eligibility, and Booster Dose Receipt by Age, United States\u201d.\n\n<b >Fully Vaccinated / Completed Primary Series:</b> <ul><li> For surveillance purposes, COVID Data Tracker counts people as being \"fully vaccinated\" or as having \"completed a primary series\" if they received two doses on different days (regardless of time interval) of the two-dose mRNA series or received one dose of a single-dose vaccine. When the vaccine manufacturer is not reported, the recipient is considered fully vaccinated with two doses.</li></ul><b>First Booster Dose:\u202f </b><ul><li>For surveillance purposes, the count and percentage of people who received a first booster dose includes anyone who is fully vaccinated and has received another dose of COVID-19 vaccine since August 13, 2021. This includes people who received a first booster dose and people who received an additional primary series dose as this metric does not distinguish if the recipient is <b><a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations/immuno.html' target=\"_blank\">\u202fimmunocompromised and received an additional dose</a></b>.</li><li><b>   First booster dose eligibility: </b><ul><li>CDC counts people as being <b>\"\u202f<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/vaccines/booster-shot.html\" target=\"_blank\">eligible for a first booster dose</a>\"</b> if it has been at least 5 months since completion of a Pfizer-BioNTech or Moderna primary series or at least 2 months since receipt of a Janssen (Johnson & Johnson) singe-dose vaccine. </li></ul></li></ul>\n<b>Second Booster Dose:</b><ul><li>For surveillance purposes, the count and percentage of people who received a second booster dose includes anyone who is fully vaccinated and has received two subsequent doses of COVID-19 vaccine since August 13, 2021. This includes people who received two booster doses and people who received one additional dose and one booster dose.\u202f </li><li>The count of people who received a second booster dose and the percentage of people with a first booster who received a second booster dose does not account for whether a person is <b><a href='https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations/immuno.html'  target=\"_blank\">immunocompromised or time interval since first booster dose</a></b>. </li><li><b>Second booster dose eligibility: </b><ul><li>CDC counts people as being\u202f <b>\"<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/vaccines/booster-shot.html\" target=\"_blank\"><b>eligible for a second booster dose</b></a>\"\u202f</b> if it has been at least 4 months since receiving a first booster dose. </ul></li></li><li><b>Limitations to counting people with a second booster dose: </b>\n<ul><li>Due to the aggregate vaccination record reporting method used by Idaho for its residents under the age of 18 years and by Texas for all its residents, CDC counts all 4th doses received by these populations as a second booster dose. This includes immunocompromised individuals who received a three-dose primary series and only one booster dose. This limitation may lead to an undercount of people who received the single-dose J&J/Janssen vaccine as their primary series and two booster doses.</li></ul>\n</li></ul>Data represents all vaccine partners including jurisdictional partner clinics, retail pharmacies, long-term care facilities, dialysis centers, Federal Emergency Management Agency and Health Resources and Services Administration partner sites, and federal entity facilities.",
+            "title": "COVID-19 Primary Series Completion, Booster Dose Eligibility, and Booster Dose Receipt by Age, United States\u00a0",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/3pbe-qh9z/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/3pbe-qh9z/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3pbe-qh9z/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/3pbe-qh9z/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3pbe-qh9z/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/3pbe-qh9z/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3pbe-qh9z/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
+            "theme": [
+                "Vaccinations"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/healthy_people/hp2020/population-groups.htm",
             "bureauCode": [
                 "009:20"
@@ -2940,17 +3016,17 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-24",
+            "modified": "2022-07-30",
             "keyword": [
                 "covid-19",
-                "executive order",
-                "gathering bans",
-                "government order",
-                "legal epidemiology",
                 "mitigation",
+                "gathering bans",
+                "social distancing",
+                "executive order",
                 "proclamation",
-                "public health order",
-                "social distancing"
+                "legal epidemiology",
+                "government order",
+                "public health order"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -3431,18 +3507,18 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-24",
+            "modified": "2022-07-30",
             "keyword": [
                 "covid-19",
+                "social distancing",
                 "executive order",
                 "government order",
-                "legal epidemiology",
-                "mask mandates",
-                "masks",
-                "mitigation",
                 "proclamation",
+                "legal epidemiology",
                 "public health order",
-                "social distancing"
+                "mitigation",
+                "masks",
+                "mask mandates"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -5025,7 +5101,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "age",
                 "age group",
@@ -6463,23 +6539,23 @@
             ],
             "issued": "2022-05-16",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-07-21",
-            "modified": "2022-07-21",
+            "temporal": "2020-12-13/2022-07-28",
+            "modified": "2022-07-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "administration",
-                "age",
-                "coronavirus",
                 "covid-19",
-                "demographics",
-                "ethnicity",
-                "immunization",
+                "coronavirus",
                 "izdl",
-                "race",
+                "immunization",
+                "administration",
+                "vaccination",
+                "demographics",
                 "sex",
-                "vaccination"
+                "age",
+                "race",
+                "ethnicity"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -6526,7 +6602,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1D",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Vaccinations"
             ]
@@ -6604,7 +6680,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-23",
+            "modified": "2022-07-30",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7368,18 +7444,18 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-24",
+            "modified": "2022-07-30",
             "keyword": [
-                "business closure",
-                "business reopening",
                 "covid-19",
+                "social distancing",
                 "executive order",
-                "government order",
-                "legal epidemiology",
-                "mitigation",
                 "proclamation",
+                "legal epidemiology",
+                "government order",
                 "public health order",
-                "social distancing"
+                "mitigation",
+                "business closure",
+                "business reopening"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -9232,7 +9308,7 @@
             ],
             "issued": "2018-02-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-29",
+            "modified": "2022-07-28",
             "references": [
                 "https://www.cdc.gov/nccdphp/dnpao/index.html"
             ],
@@ -10446,12 +10522,12 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-24",
+            "modified": "2022-07-31",
             "keyword": [
-                "aggregate county data",
-                "cases",
+                "covid-19",
                 "coronavirus",
-                "covid-19"
+                "aggregate county data",
+                "cases"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -11097,7 +11173,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-24",
+            "modified": "2022-07-31",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -12450,19 +12526,19 @@
             ],
             "issued": "2022-07-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-07-21",
-            "modified": "2022-07-21",
+            "temporal": "2020-12-13/2022-07-28",
+            "modified": "2022-07-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "administration",
-                "age",
-                "coronavirus",
                 "covid-19",
-                "immunization",
+                "coronavirus",
                 "izdl",
-                "vaccination"
+                "immunization",
+                "administration",
+                "vaccination",
+                "age"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -12509,7 +12585,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1D",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Vaccinations"
             ]
@@ -13326,7 +13402,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "age",
                 "age group",
@@ -13584,7 +13660,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -13882,7 +13958,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -14343,7 +14419,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-07-23",
+            "modified": "2022-07-30",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -15941,7 +16017,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-19",
+            "modified": "2022-07-25",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -18121,7 +18197,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-24",
+            "modified": "2022-07-31",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -18546,7 +18622,7 @@
             "landingPage": "https://data.cdc.gov/d/c8as-e7h6",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-23",
+            "modified": "2022-07-29",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -25870,7 +25946,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-24",
+            "modified": "2022-07-31",
             "keyword": [
                 "wastewater"
             ],
@@ -26748,19 +26824,19 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-01-21",
-            "modified": "2022-07-21",
+            "modified": "2022-07-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "administration",
-                "cases",
-                "coronavirus",
                 "covid-19",
-                "immunization",
+                "coronavirus",
                 "izdl",
+                "immunization",
+                "administration",
+                "vaccination",
                 "report date",
-                "vaccination"
+                "cases"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -26807,7 +26883,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1D",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Vaccinations"
             ]
@@ -28122,7 +28198,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-07-08",
+            "modified": "2022-07-27",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -28220,7 +28296,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -28358,18 +28434,18 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-30",
             "keyword": [
                 "covid-19",
-                "executive order",
-                "government order",
-                "legal epidemiology",
-                "mitigation",
-                "proclamation",
-                "public health order",
+                "stay-at-home",
                 "shelter-in-place",
                 "social distancing",
-                "stay-at-home"
+                "executive order",
+                "proclamation",
+                "legal epidemiology",
+                "government order",
+                "public health order",
+                "mitigation"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30578,7 +30654,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-19",
+            "modified": "2022-07-25",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -31316,23 +31392,23 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-07-21",
-            "modified": "2022-07-21",
+            "temporal": "2020-12-13/2022-07-28",
+            "modified": "2022-07-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "administration",
-                "age",
-                "coronavirus",
                 "covid-19",
-                "demographics",
-                "ethnicity",
-                "immunization",
+                "coronavirus",
                 "izdl",
-                "race",
+                "immunization",
+                "administration",
+                "vaccination",
+                "demographics",
                 "sex",
-                "vaccination"
+                "age",
+                "race",
+                "ethnicity"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31379,7 +31455,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1D",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Vaccinations"
             ]
@@ -31782,7 +31858,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-19",
+            "modified": "2022-07-26",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -31987,7 +32063,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "age",
                 "age group",
@@ -32915,7 +32991,7 @@
             ],
             "issued": "2018-11-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-12-07",
+            "modified": "2022-07-28",
             "references": [
                 "https://www.cdc.gov/nccdphp/dnpao/index.html"
             ],
@@ -32983,7 +33059,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -33386,7 +33462,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-14",
+            "modified": "2022-07-28",
             "keyword": [
                 "cares act",
                 "health system",
@@ -33717,23 +33793,23 @@
             ],
             "issued": "2022-01-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-07-21",
-            "modified": "2022-07-21",
+            "temporal": "2020-12-13/2022-07-28",
+            "modified": "2022-07-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "administration",
-                "age",
-                "coronavirus",
                 "covid-19",
-                "demographics",
-                "ethnicity",
-                "immunization",
+                "coronavirus",
                 "izdl",
-                "race",
+                "immunization",
+                "administration",
+                "vaccination",
+                "demographics",
                 "sex",
-                "vaccination"
+                "age",
+                "race",
+                "ethnicity"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -33780,7 +33856,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1D",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Vaccinations"
             ]
@@ -34058,7 +34134,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -34129,18 +34205,18 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-24",
+            "modified": "2022-07-30",
             "keyword": [
-                "business closure",
-                "business reopening",
                 "covid-19",
+                "social distancing",
                 "executive order",
-                "government order",
-                "legal epidemiology",
-                "mitigation",
                 "proclamation",
+                "legal epidemiology",
+                "government order",
                 "public health order",
-                "social distancing"
+                "mitigation",
+                "business closure",
+                "business reopening"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -34388,7 +34464,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "age",
                 "age group",
@@ -34666,7 +34742,7 @@
             "landingPage": "https://data.cdc.gov/d/kw6u-z8u2",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-23",
+            "modified": "2022-07-29",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -36965,7 +37041,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -38578,7 +38654,7 @@
             "landingPage": "https://data.cdc.gov/d/nmdn-2xuz",
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-23",
+            "modified": "2022-07-29",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -38763,7 +38839,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "age",
                 "age group",
@@ -38838,17 +38914,17 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-24",
+            "modified": "2022-07-31",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
             "keyword": [
-                "cases",
-                "community transmission",
-                "coronavirus",
-                "county",
                 "covid-19",
-                "laboratory"
+                "coronavirus",
+                "laboratory",
+                "cases",
+                "county",
+                "community transmission"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -38972,7 +39048,7 @@
             ],
             "issued": "2019-04-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-13",
+            "modified": "2022-07-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/x7ys-5vpn"
             ],
@@ -39877,7 +39953,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -41946,7 +42022,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -42951,7 +43027,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-21",
+            "modified": "2022-07-25",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -43481,7 +43557,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-22",
+            "modified": "2022-07-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -44073,19 +44149,19 @@
             ],
             "issued": "2022-06-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-07-21",
-            "modified": "2022-07-21",
+            "temporal": "2020-12-13/2022-07-28",
+            "modified": "2022-07-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "administration",
-                "coronavirus",
                 "covid-19",
-                "immunization",
+                "coronavirus",
                 "izdl",
-                "report date",
-                "vaccination"
+                "immunization",
+                "administration",
+                "vaccination",
+                "report date"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -44132,7 +44208,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1D",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Vaccinations"
             ]
@@ -44659,7 +44735,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-19",
+            "modified": "2022-07-26",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -46027,7 +46103,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "age",
                 "age group",
@@ -47724,7 +47800,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "age",
                 "age group",
@@ -48494,7 +48570,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -49198,7 +49274,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-21",
+            "modified": "2022-07-26",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -49311,7 +49387,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -49519,19 +49595,19 @@
             ],
             "issued": "2022-07-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-07-21",
-            "modified": "2022-07-21",
+            "temporal": "2020-12-13/2022-07-28",
+            "modified": "2022-07-29",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "administration",
-                "age",
-                "coronavirus",
                 "covid-19",
-                "immunization",
+                "coronavirus",
                 "izdl",
-                "vaccination"
+                "immunization",
+                "administration",
+                "vaccination",
+                "age"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -49578,7 +49654,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1D",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Vaccinations"
             ]
@@ -51574,7 +51650,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "age",
                 "age group",
@@ -52710,7 +52786,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-22",
+            "modified": "2022-07-29",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -53712,7 +53788,7 @@
             "issued": "2021-06-03",
             "temporal": "2019/2021",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-25",
+            "modified": "2022-07-28",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -54585,7 +54661,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-21",
+            "modified": "2022-07-28",
             "keyword": [
                 "2022",
                 "nndss",
@@ -55058,7 +55134,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-07-14",
+            "modified": "2022-07-28",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -55202,7 +55278,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -56656,7 +56732,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-07-27",
             "keyword": [
                 "age",
                 "age group",
@@ -57392,7 +57468,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-21",
+            "modified": "2022-07-28",
             "keyword": [
                 "age",
                 "age group",
