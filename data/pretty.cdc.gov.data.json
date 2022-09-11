@@ -767,7 +767,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-04",
+            "modified": "2022-09-11",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2011,7 +2011,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "age",
                 "all causes",
@@ -2538,7 +2538,7 @@
             "landingPage": "https://data.cdc.gov/d/3m2r-fh4s",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-27",
+            "modified": "2022-09-09",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -2733,7 +2733,7 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-09-01",
+            "modified": "2022-09-08",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2876,8 +2876,8 @@
             ],
             "issued": "2022-07-25",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-02",
-            "modified": "2022-09-02",
+            "temporal": "2020-12-13/2022-09-09",
+            "modified": "2022-09-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -3018,7 +3018,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-04",
+            "modified": "2022-09-10",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -3509,7 +3509,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-04",
+            "modified": "2022-09-10",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -5103,7 +5103,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "age",
                 "age group",
@@ -6541,8 +6541,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-02",
-            "modified": "2022-09-02",
+            "temporal": "2020-12-13/2022-09-09",
+            "modified": "2022-09-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -6682,7 +6682,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-03",
+            "modified": "2022-09-10",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -6694,7 +6694,7 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "CDC",
-                "hasEmail": "mailto:imtech@cdc.gov"
+                "hasEmail": "mailto:vaccinefinder@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -7446,7 +7446,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-01",
+            "modified": "2022-09-09",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -10595,7 +10595,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-04",
+            "modified": "2022-09-11",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -11246,7 +11246,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-04",
+            "modified": "2022-09-11",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -12599,8 +12599,8 @@
             ],
             "issued": "2022-09-02",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-02",
-            "modified": "2022-09-02",
+            "temporal": "2020-12-13/2022-09-09",
+            "modified": "2022-09-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -13475,7 +13475,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "age",
                 "age group",
@@ -13733,7 +13733,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14031,7 +14031,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -14492,7 +14492,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-09-03",
+            "modified": "2022-09-10",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -14942,6 +14942,85 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-09-09",
+            "@type": "dcat:Dataset",
+            "temporal": "2020-01-01/2022-09-03",
+            "modified": "2022-09-09",
+            "keyword": [
+                "age",
+                "age group",
+                "all causes",
+                "children",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hhs region",
+                "hispanic origin",
+                "mortality",
+                "nchs",
+                "nvss",
+                "provisional",
+                "puerto rico",
+                "race",
+                "united states",
+                "weekly"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/9xc7-3a4q",
+            "description": "Deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by time-period, HHS region, race and Hispanic origin, and age groups (<65, 65-74. 75-84, 85+).",
+            "title": "AH Provisional COVID-19 Deaths by HHS Region, Race, Age 65plus",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/9xc7-3a4q/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9xc7-3a4q/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9xc7-3a4q/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/9xc7-3a4q/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9xc7-3a4q/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9xc7-3a4q/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9xc7-3a4q/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -17714,7 +17793,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-30",
+            "modified": "2022-09-06",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -18271,7 +18350,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-04",
+            "modified": "2022-09-11",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -18285,7 +18364,7 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "CDC",
-                "hasEmail": "mailto:imtech@cdc.gov"
+                "hasEmail": "mailto:vaccinefinder@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -18696,7 +18775,7 @@
             "landingPage": "https://data.cdc.gov/d/c8as-e7h6",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-27",
+            "modified": "2022-09-09",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -26020,7 +26099,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-04",
+            "modified": "2022-09-11",
             "keyword": [
                 "wastewater"
             ],
@@ -26898,7 +26977,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-08-10",
-            "modified": "2022-09-02",
+            "modified": "2022-09-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -28272,7 +28351,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -28370,7 +28449,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -28508,7 +28587,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-10",
+            "modified": "2022-09-09",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -31466,8 +31545,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-02",
-            "modified": "2022-09-02",
+            "temporal": "2020-12-13/2022-09-09",
+            "modified": "2022-09-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -31932,7 +32011,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-02",
+            "modified": "2022-09-09",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -32137,7 +32216,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "age",
                 "age group",
@@ -33133,7 +33212,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -33536,7 +33615,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-01",
+            "modified": "2022-09-08",
             "keyword": [
                 "cares act",
                 "health system",
@@ -33867,8 +33946,8 @@
             ],
             "issued": "2022-08-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-02",
-            "modified": "2022-09-02",
+            "temporal": "2020-12-13/2022-09-09",
+            "modified": "2022-09-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -34208,7 +34287,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -34279,7 +34358,7 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-04",
+            "modified": "2022-09-10",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -34538,7 +34617,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "age",
                 "age group",
@@ -34816,7 +34895,7 @@
             "landingPage": "https://data.cdc.gov/d/kw6u-z8u2",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-27",
+            "modified": "2022-09-09",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -35763,10 +35842,10 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-08-01",
-            "modified": "2022-08-04",
+            "temporal": "2020-01-01/2022-9-06",
+            "modified": "2022-09-09",
             "references": [
-                "https://data.cdc.gov/api/views/mbd7-r32t/files/fa8716eb-7ed6-4b97-8d9c-8b585923ddf6?download=true&filename=Public%2033%20Utility%20Summary.pdf"
+                "https://data.cdc.gov/api/views/mbd7-r32t/files/73968625-1f9f-452a-817e-6b883b64578c?download=true&filename=public%2033%20utility%20summary%2020220906.pdf"
             ],
             "keyword": [
                 "cases",
@@ -37115,7 +37194,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -38086,10 +38165,10 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-08-01",
-            "modified": "2022-08-04",
+            "temporal": "2020-01-01/2022-09-06",
+            "modified": "2022-09-09",
             "references": [
-                "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2019%20utility%20summary.pdf"
+                "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2019%20utility%20summary%2020220906.pdf"
             ],
             "keyword": [
                 "cases",
@@ -38728,7 +38807,7 @@
             "landingPage": "https://data.cdc.gov/d/nmdn-2xuz",
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-27",
+            "modified": "2022-09-09",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -38913,7 +38992,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "age",
                 "age group",
@@ -38988,7 +39067,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-04",
+            "modified": "2022-09-11",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -40027,7 +40106,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -42096,7 +42175,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -43631,7 +43710,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-02",
+            "modified": "2022-09-09",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -44223,8 +44302,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-02",
-            "modified": "2022-09-02",
+            "temporal": "2020-12-13/2022-09-09",
+            "modified": "2022-09-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -44809,7 +44888,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-30",
+            "modified": "2022-09-06",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -46318,7 +46397,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-18",
+            "modified": "2022-09-09",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -47944,7 +48023,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "age",
                 "age group",
@@ -48150,7 +48229,7 @@
             "landingPage": "https://data.cdc.gov/d/tt3f-rr33",
             "issued": "2021-06-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-09",
+            "modified": "2022-09-08",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "CDC INFO",
@@ -48714,7 +48793,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -49531,7 +49610,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -49739,8 +49818,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-02",
-            "modified": "2022-09-02",
+            "temporal": "2020-12-13/2022-09-09",
+            "modified": "2022-09-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -50459,6 +50538,63 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/v4sm-v4vm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-09-02",
+            "@type": "dcat:Dataset",
+            "modified": "2022-09-09",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/v4sm-v4vm",
+            "description": "This is a practice dataset to work on some Socrata programmatic updating skills",
+            "title": "Practice Dataset_Column Metadata Updates",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/v4sm-v4vm/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/v4sm-v4vm/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/v4sm-v4vm/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/v4sm-v4vm/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/v4sm-v4vm/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/v4sm-v4vm/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/v4sm-v4vm/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/v4tm-h8pe",
             "bureauCode": [
                 "009:20"
@@ -50854,10 +50990,10 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-08-01",
-            "modified": "2022-08-03",
+            "temporal": "2020-01-01/2022-09-06",
+            "modified": "2022-09-09",
             "references": [
-                "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2012%20utility%20summary.pdf"
+                "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2012%20utility%20summary%2020220906.pdf"
             ],
             "keyword": [
                 "cases",
@@ -51794,7 +51930,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "age",
                 "age group",
@@ -52210,7 +52346,7 @@
             ],
             "issued": "2018-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-26",
+            "modified": "2022-09-09",
             "references": [
                 "https://www.cdc.gov/oralhealthdata/"
             ],
@@ -52236,7 +52372,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/vwmz-4ja3",
-            "description": "2011-2021. The ASTDD Synopses of State Oral Health Programs contain information useful in tracking states\u2019 efforts to improve oral health and contributions to progress toward the national targets for Healthy People objectives for oral health. A subset of the information collected from the most recent five years is provided on the Oral Health Data website. For more information, see http://www.cdc.gov/oralhealthdata/overview/synopses/index.html",
+            "description": "2011-2022. The ASTDD Synopses of State Oral Health Programs contain information useful in tracking states\u2019 efforts to improve oral health and contributions to progress toward the national targets for Healthy People objectives for oral health. A subset of the information collected from the most recent five years is provided on the Oral Health Data website. For more information, see http://www.cdc.gov/oralhealthdata/overview/synopses/index.html",
             "title": "ASTDD Synopses of State Oral Health Programs - Selected indicators",
             "programCode": [
                 "009:020"
@@ -52930,7 +53066,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -54805,7 +54941,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-01",
+            "modified": "2022-09-08",
             "keyword": [
                 "2022",
                 "nndss",
@@ -55278,7 +55414,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-09-01",
+            "modified": "2022-09-08",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -55422,7 +55558,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -56876,7 +57012,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-31",
+            "modified": "2022-09-07",
             "keyword": [
                 "age",
                 "age group",
@@ -57680,7 +57816,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-01",
+            "modified": "2022-09-08",
             "keyword": [
                 "age",
                 "age group",
