@@ -693,6 +693,80 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/flu/fluvaxview/dashboard/vaccination-dashboard.html",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-09-30",
+            "@type": "dcat:Dataset",
+            "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
+            "modified": "2022-09-30",
+            "references": [
+                "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
+            ],
+            "keyword": [
+                "children",
+                "flu",
+                "flu shot",
+                "influenza",
+                "nis",
+                "vaccine coverage"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Vax Views",
+                "hasEmail": "mailto:VaxView@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
+            },
+            "identifier": "https://data.cdc.gov/api/views/2den-c3u2",
+            "description": "Cumulative Influenza Vaccination Coverage Differences by Race/Ethnicity, Children 6 months through 17 years, United States Vaccinations \n\n\u2022 Influenza vaccination coverage among children is assessed through the National Immunization Survey-Flu (NIS-Flu) annually, providing weekly influenza vaccination coverage estimates for children 6 months\u201317 years based upon parental report. (https://www.cdc.gov/vaccines/imz-managers/nis/about.html)  \n\no NIS-Flu is a national random-digit-dialed cellular telephone survey of households conducted during the flu season (October-June).  \n\n\u2022 Final estimates for prior seasons and other flu vaccination data are available at CDC\u2019s FluVaxView:  https://www.cdc.gov/flu/fluvaxview/index.htm.",
+            "title": "Cumulative Influenza Vaccination Coverage Differences by Race/Ethnicity, Children 6 months through 17 years, United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/2den-c3u2/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/2den-c3u2/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2den-c3u2/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/2den-c3u2/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2den-c3u2/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/2den-c3u2/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/2den-c3u2/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
+            "theme": [
+                "Vaccinations"
+            ],
+            "language": [
+                "English"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/2dwv-vfam",
             "bureauCode": [
                 "009:20"
@@ -767,7 +841,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-25",
+            "modified": "2022-10-02",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1468,8 +1542,8 @@
             ],
             "issued": "2021-11-16",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2021-11-17",
-            "modified": "2021-11-17",
+            "temporal": "2020-12-13 to 2021-11-17",
+            "modified": "2022-09-28",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -1527,7 +1601,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1D",
+            "accrualPeriodicity": "Archived",
             "theme": [
                 "Vaccinations"
             ]
@@ -2011,7 +2085,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "age",
                 "all causes",
@@ -2538,7 +2612,7 @@
             "landingPage": "https://data.cdc.gov/d/3m2r-fh4s",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-11",
+            "modified": "2022-09-25",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -2594,7 +2668,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "modified": "2022-09-30",
             "keyword": [
                 "adults",
                 "coverage",
@@ -2613,7 +2687,7 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/3myw-4j4q",
-            "description": "Cumulative Influenza Coverage Age Group, Race/Ethnicity, and Jurisdiction, Adults 18 Years and Older, United States, National Immunization Survey Adult COVID Module.",
+            "description": "Cumulative Influenza Coverage Age Group, Race/Ethnicity, and Jurisdiction, Adults 18 Years and Older, United States, National Immunization Survey Adult COVID Module.\n\nArchived data are available including for Figures 4B and 4C:  https://data.cdc.gov/resource/8dyx-9z99 \n\n\u2022  The National Immunization Survey-Adult COVID Module (NIS-ACM) was launched in April 2021 among adults 18 years and older. The survey was used to monitor COVID-19 vaccination uptake and confidence in vaccination among adults and included questions about influenza vaccination.",
             "title": "Cumulative Influenza Coverage by Race/Ethnicity and Age Group, NIS-ACM",
             "programCode": [
                 "009:026"
@@ -2648,7 +2722,7 @@
             ],
             "spatial": "United States, District of Columbia, US Virgin Islands, and Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Approximately Weekly",
+            "accrualPeriodicity": "Approximately Monthly",
             "theme": [
                 "Vaccinations"
             ],
@@ -2733,7 +2807,7 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-09-23",
+            "modified": "2022-09-29",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2753,7 +2827,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "<b>Note:</b>\n\n<b>September 23, 2022:</b> The county_fips and date_updated fields in COVID-19 Community Level (CCL) data released for California counties for the week of September 15, 2022 have been updated to correct a data processing error.\n\n<b>September 22, 2022:</b> The COVID-19 Community Level data released on September 15, 2022 for California counties were updated to correct case data underestimates due to a reporting change.\n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community  levels for all available counties. This dataset contains the same values used to display information available on the COVID Data Tracker at:   https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\nThe data are updated weekly.  \nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals. \nSee https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html for more information. \n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since",
+            "description": "<b>Note:</b>\n\n<b>September 29, 2022:</b> Due to impacts caused by Hurricanes Ian and Fiona, hospital data reporting may be delayed or incomplete in certain Health Service Areas. Hospital metrics for the COVID-19 Community Levels released on September 29, 2022, may be under-estimated and should be interpreted with caution.\n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community  levels for all available counties. This dataset contains the same values used to display information available on the COVID Data Tracker at:   https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\nThe data are updated weekly.  \nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals. \nSee https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html for more information. \n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/2022, thus the values were previously missing for records released the week prior.\n\n<b>April 7,",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -2876,8 +2950,8 @@
             ],
             "issued": "2022-07-25",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-22",
-            "modified": "2022-09-22",
+            "temporal": "2020-12-13/2022-09-30",
+            "modified": "2022-09-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -3018,7 +3092,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-24",
+            "modified": "2022-09-30",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -3509,7 +3583,7 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-24",
+            "modified": "2022-09-30",
             "keyword": [
                 "covid-19",
                 "executive order",
@@ -5103,7 +5177,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "age",
                 "age group",
@@ -6541,8 +6615,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-22",
-            "modified": "2022-09-22",
+            "temporal": "2020-12-13/2022-09-30",
+            "modified": "2022-09-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -6682,7 +6756,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-24",
+            "modified": "2022-10-01",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -10595,7 +10669,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-25",
+            "modified": "2022-10-02",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -11246,7 +11320,7 @@
             ],
             "issued": "2021-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-25",
+            "modified": "2022-10-02",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/nra9-vzzn"
             ],
@@ -11316,7 +11390,8 @@
             ],
             "issued": "2021-11-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
+            "modified": "2022-09-30",
             "references": [
                 "IQVIA Pharmacy and Physician Medical Office Claims"
             ],
@@ -11338,7 +11413,7 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/83ng-twza",
-            "description": "Weekly Cumulative Estimated Number of Influenza Vaccinations Administered in Pharmacies and Physician Medical Offices, Adults 18 years and older, United States\n\n- Since 2019, CDC has been exploring use of data obtained from (https://www.iqvia.com/) as a source of information on vaccinations administered in retail pharmacies (include chain, mass merchandise, food stores, and independent pharmacies) and physician medical offices. These data are being presented publicly for the first time this season; further evaluations of these data are underway.\n\n- The pharmacy data include flu vaccinations that were billed for (i.e. claims) or paid by cash. Medical office data are claims based.\n\n- The sampled pharmacies and physician medical offices and the captured volume of transactions represent approximately 92% and 82% of influenza vaccines administered nationally, respectively.\n\n- Vaccinations administered in other settings such as workplaces and community settings are not included in these data.\n\n- Weekly Number of Influenza Vaccinations Administered, in Pharmacies and Physician Medical Offices, Adults 18 years and older, United States, Data Source(s): IQVIA Pharmacy and Physician Medical Office Claims.",
+            "description": "Weekly Cumulative Estimated Number of Influenza Vaccinations Administered in Pharmacies and Physician Medical Offices, Adults 18 years and older, United States\n\n- Archived data are here:  https://data.cdc.gov/resource/uxgd-cqqc\n\n- CDC is exploring use of data obtained from IQVIA\u00a7 (https://www.iqvia.com/) as a source of information on vaccinations administered in retail pharmacies (include chain, mass merchandise, food stores, and independent pharmacies) and physician medical offices.  \n \n- These projected pharmacy estimates include flu vaccinations that were billed for (i.e. claims) or paid by cash. Medical office projected estimates are claims-based only. \n \n- The sampled pharmacies and physician medical offices and the captured volume of transactions represent approximately 92% and 82% of influenza vaccines administered nationally, respectively. \n \n- Vaccinations administered in other settings such as workplaces and community settings are not included in these data. \n \n\n*National estimates for pharmacies and medical offices include vaccinations administered in 50 states and DC. National estimates for medical office vaccinations do not include doses where geographic information (i.e. which state the dose was administered in) was missing. Pharmacy data are through Friday of each week and medical office data are through Saturday of each week. Week ending dates for prior seasons are aligned with the current season\u2019s week ending dates. \n\n\u00a7 1) King, L. M., Bartoces, M., Fleming-Dutra, K. E., et. al, L. A. (2020). Changes in US outpatient antibiotic prescriptions from 2011\u20132016external icon. Clinical Infectious Diseases, 70(3), 370-377. 2) McLaughlin, J. M., Swerdlow, D. L., Khan, F., et. Al (2019). Disparities in uptake of 13-valent pneumococcal conjugate vaccine among older adults in the United Statesexternal icon. Human vaccines & immunotherapeutics, 15(4), 841-849.",
             "title": "Weekly Cumulative Estimated Number of Influenza Vaccinations Administered in Pharmacies and Physician Medical Offices, Adults 18 years and older, United States",
             "programCode": [
                 "009:020"
@@ -11371,7 +11446,9 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Vaccinations"
             ],
@@ -11755,6 +11832,75 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/vaccines/imz-managers/nis/",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-09-28",
+            "@type": "dcat:Dataset",
+            "modified": "2022-09-28",
+            "keyword": [
+                "adults",
+                "coverage",
+                "flu vaccination",
+                "influenza",
+                "vaccination",
+                "vaccine coverage"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCIRD",
+                "hasEmail": "mailto:VaxView@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
+            },
+            "identifier": "https://data.cdc.gov/api/views/8dyx-9z99",
+            "description": "Cumulative Influenza Coverage Age Group, Race/Ethnicity, and Jurisdiction, Adults 18 Years and Older, United States, National Immunization Survey Adult COVID Module.\n\nThe National Immunization Survey-Adult COVID Module (NIS-ACM) was launched in April 2021 among adults 18 years and older. The survey was used to monitor COVID-19 vaccination uptake and confidence in vaccination among adults and included questions about influenza vaccination.",
+            "title": "Cumulative Influenza Coverage by Race/Ethnicity and Age Group, NIS-ACM (Archived)",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/8dyx-9z99/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/8dyx-9z99/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/8dyx-9z99/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/8dyx-9z99/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/8dyx-9z99/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/8dyx-9z99/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/8dyx-9z99/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States, District of Columbia, US Virgin Islands, and Puerto Rico",
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "Vaccinations"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
@@ -12208,7 +12354,7 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "modified": "2022-09-30",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "NCIRD",
@@ -12219,8 +12365,8 @@
                 "name": "NCIRD"
             },
             "identifier": "https://data.cdc.gov/api/views/8nyy-xsq7",
-            "description": "Weekly Cumulative Influenza Vaccination Coverage Comparison between Current and Previous Season, Children 6 Months - 17 Years, United States",
-            "title": "Weekly Cumulative Influenza Vaccination Coverage Comparison between Current and Previous Season, Children 6 Months - 17 Years, United States",
+            "description": "Weekly Cumulative Influenza Vaccination Coverage Comparison between Current and Previous Season, Children 6 Months through 17 Years, United States \n\n\u2022 Influenza vaccination coverage among children is assessed through the National Immunization Survey-Flu (NIS-Flu) annually, providing weekly influenza vaccination coverage estimates for children 6 months\u201317 years based upon parental report. (https://www.cdc.gov/vaccines/imz-managers/nis/about.html) \n\no NIS-Flu is a national random-digit-dialed cellular telephone survey of households conducted during the flu season (October-June). \n\n\u2022 Additional information about NIS-Flu methods and estimates from the 2019-2020 season are available at: https://www.cdc.gov/flu/fluvaxview/coverage-1920estimates.htm. Final estimates for prior seasons and other flu vaccination data are available at CDC\u2019s FluVaxView.:  https://www.cdc.gov/flu/fluvaxview/index.htm.",
+            "title": "Weekly Cumulative Influenza Vaccination Coverage Comparison between Current and Previous Season, Children 6 Months through 17 Years, United States",
             "programCode": [
                 "009:026"
             ],
@@ -12599,8 +12745,8 @@
             ],
             "issued": "2022-09-02",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-22",
-            "modified": "2022-09-22",
+            "temporal": "2020-12-13/2022-09-30",
+            "modified": "2022-09-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -13475,7 +13621,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "age",
                 "age group",
@@ -13733,7 +13879,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14031,7 +14177,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -14492,7 +14638,7 @@
             "issued": "2020-06-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-21/..",
-            "modified": "2022-09-24",
+            "modified": "2022-10-01",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -16169,7 +16315,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-12",
+            "modified": "2022-09-30",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17793,7 +17939,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -18350,7 +18496,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-24",
+            "modified": "2022-09-28",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -18775,7 +18921,7 @@
             "landingPage": "https://data.cdc.gov/d/c8as-e7h6",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-11",
+            "modified": "2022-09-25",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -20010,7 +20156,7 @@
             ],
             "issued": "2018-11-27",
             "@type": "dcat:Dataset",
-            "modified": "2021-09-14",
+            "modified": "2022-09-27",
             "references": [
                 "http://www.cdc.gov/BRFSS/"
             ],
@@ -20080,7 +20226,7 @@
             "issued": "2020-10-21",
             "@type": "dcat:Dataset",
             "temporal": "2020-02-01/2022-02-26",
-            "modified": "2022-09-15",
+            "modified": "2022-09-30",
             "keyword": [
                 "coronavirus",
                 "covid",
@@ -21568,7 +21714,7 @@
             ],
             "issued": "2018-11-27",
             "@type": "dcat:Dataset",
-            "modified": "2021-09-14",
+            "modified": "2022-09-27",
             "references": [
                 "http://www.cdc.gov/brfss"
             ],
@@ -22154,6 +22300,74 @@
             "describedBy": "https://chronicdata.cdc.gov/d/e28h-tx85",
             "theme": [
                 "Vision & Eye Health"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/flu/fluvaxview/dashboard/vaccination-dashboard.html",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-09-28",
+            "@type": "dcat:Dataset",
+            "modified": "2022-09-28",
+            "references": [
+                "CDC"
+            ],
+            "keyword": [
+                "flu",
+                "flu vaccination",
+                "influenza"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Vax Views",
+                "hasEmail": "mailto:VaxView@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
+            },
+            "identifier": "https://data.cdc.gov/api/views/e5zk-7tx5",
+            "description": "Weekly Cumulative Influenza Vaccine Doses Distributed in the United States, 2016-2021\n\n\u2022 Flu vaccine is produced by private manufacturers. For the 2020-2021 season, manufacturers have projected they will provide as many as 194 to 198 million doses of influenza vaccine for the U.S. market.\n\u2022 Additional information is available: https://www.cdc.gov/flu/prevent/vaccine-supply-distribution.htm.",
+            "title": "Weekly Cumulative Influenza Vaccine Doses Distributed in the United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/e5zk-7tx5/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/e5zk-7tx5/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/e5zk-7tx5/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/e5zk-7tx5/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/e5zk-7tx5/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/e5zk-7tx5/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/e5zk-7tx5/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "Vaccinations"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
@@ -23083,8 +23297,8 @@
             ],
             "issued": "2021-10-06",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/Present",
-            "modified": "2021-10-06",
+            "temporal": "2020-12-13 to 2021-09-30",
+            "modified": "2022-09-28",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -23142,7 +23356,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1D",
+            "accrualPeriodicity": "Archived",
             "theme": [
                 "Vaccinations"
             ]
@@ -23897,7 +24111,8 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
+            "modified": "2022-09-30",
             "references": [
                 "NIS-Flu"
             ],
@@ -23920,7 +24135,7 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/eudc-n39h",
-            "description": "Weekly Cumulative Influenza Vaccination Coverage, Children 6 months through 17 years, United States\n\u2022 Influenza vaccination coverage among children is assessed through the National Immunization Survey-Flu (NIS-Flu) annually, providing weekly influenza vaccination coverage estimates for children 6 months\u201317 years based upon parental report. (https://www.cdc.gov/vaccines/imz-managers/nis/about.html)\no NIS-Flu is a national random-digit-dialed cellular telephone survey of households conducted during the flu season (October-June).\n\u2022 Additional information about NIS-Flu methods and estimates from the 2019-2020 season are available at: https://www.cdc.gov/flu/fluvaxview/coverage-1920estimates.htm.",
+            "description": "Weekly Cumulative Influenza Vaccination Coverage, Children 6 months through 17 years, United States\n\n\u2022 Archived data are available here:  https://data.cdc.gov/resource/vfj2-bfuw \n\u2022 Influenza vaccination coverage among children is assessed through the National Immunization Survey-Flu (NIS-Flu) annually, providing weekly influenza vaccination coverage estimates for children 6 months\u201317 years based upon parental report. (https://www.cdc.gov/vaccines/imz-managers/nis/about.html)\no NIS-Flu is a national random-digit-dialed cellular telephone survey of households conducted during the flu season (October-June).\n\u2022 Final estimates for prior seasons and other flu vaccination data are available at CDC\u2019s FluVaxView:  https://www.cdc.gov/flu/fluvaxview/index.htm.",
             "title": "Weekly Cumulative Influenza Vaccination Coverage, Children 6 months through 17 years, United States",
             "programCode": [
                 "009:020"
@@ -23953,7 +24168,9 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Vaccinations"
             ],
@@ -25480,9 +25697,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2020-12-09",
+            "issued": "2022-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
+            "modified": "2022-09-30",
             "references": [
                 "Vaccine Safety Datalink"
             ],
@@ -25504,8 +25722,8 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/fz77-au2z",
-            "description": "Monthly Cumulative Influenza Vaccination Coverage Among Pregnant Persons, United States, 2019-2020 Compared with 2020-2021.\n\n\u2022\tThese monthly flu vaccination coverage estimates for pregnant persons are based on electronic health record (EHR) data from the Vaccine Safety Datalink (VSD), a collaboration between CDC\u2019s Immunization Safety Office and nine integrated health care organizations. This system has been used annually to estimate vaccination coverage among pregnant persons.",
-            "title": "Monthly Cumulative Influenza Vaccination Coverage Among Pregnant Persons, United States, 2019-2020 Compared with 2020-2021",
+            "description": "Cumulative Influenza Vaccination Coverage, by Flu Season and Race/Ethnicity, Pregnant Persons 18-49 years\n\t\n\u2022  These monthly flu vaccination coverage estimates for pregnant persons are based on electronic health record (EHR) data from the Vaccine Safety Datalink (VSD), a collaboration between CDC\u2019s Immunization Safety Office and nine integrated health care organizations.\u00a7 This system has been used annually to estimate vaccination coverage among pregnant persons. COVID-19 vaccination coverage for pregnant persons is available here. \n\n\u2022\tFigure 3A. Monthly Cumulative Influenza Vaccination Coverage*, by Flu Season and Race/Ethnicity, Pregnant Persons 18-49 years, United States, Data Source: Vaccine Safety Datalink \n\n\u2022\tFigure 3B. Cumulative Influenza Vaccination Coverage*, by Month, Flu Season, and Race/Ethnicity, Pregnant Persons 18-49 years, United States, Data Source: Vaccine Safety Datalink \n\n\u2022\tFor any month\u2019s coverage estimate, the denominator is the number of persons with a pregnancy during the current flu season (defined as August through March) beginning before or during the specified month. The numerator is the subset of the denominator who have received flu vaccination prior to, during, or after pregnancy. The denominator increases as more persons are identified as pregnant or having been pregnant during the flu season. Cumulative vaccination coverage for one month may be lower than cumulative coverage for a previous month due to addition to the denominator of persons who are less likely to have received vaccination.",
+            "title": "Cumulative Influenza Vaccination Coverage, by Flu Season and Race/Ethnicity, Pregnant Persons 18-49 years",
             "programCode": [
                 "009:020"
             ],
@@ -25537,7 +25755,9 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Vaccinations"
             ],
@@ -26031,7 +26251,8 @@
             ],
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
+            "modified": "2022-09-30",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -26050,8 +26271,8 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/g57i-yx3r",
-            "description": "-Weekly Cumulative Influenza Vaccination Coverage, Medicare Fee-For-Service Beneficiaries aged \u226565 years, United States*, Data Source: Centers for Medicare & Medicaid Services Chronic Conditions Warehouse\n-Influenza vaccination coverage among Medicare fee-for-service beneficiaries aged \u226565 years is assessed using data files from the Medicare Fee-For-Service (FFS) administrative claims data managed by the Centers for Medicare & Medicaid Services (CMS).\n-Overall includes persons categorized as \u2018Unknown\u2019 for race/ethnicity category. Percent vaccinated estimates are expected to increase as more claims are processed.",
-            "title": "Weekly Cumulative Influenza Vaccination Coverage, Medicare Fee-For-Service Beneficiaries aged \u226565 years, United States",
+            "description": "Weekly Cumulative Influenza Vaccination Coverage, by Flu Season and Race/Ethnicity, Medicare Fee-For-Service Beneficiaries aged \u226565 years, United States \n\n\u2022\tInfluenza vaccination coverage among Medicare fee-for-service beneficiaries aged \u226565 years is assessed using data files from the Medicare Fee-For-Service (FFS) administrative claims data managed by the Centers for Medicare & Medicaid Services (CMS). \n\n\u2022\tWeekly influenza vaccination coverage estimates were calculated using Kaplan-Meier survival analysis, based on beneficiaries enrolled as of August 1, 2019 and followed through May 31, 2020 for 2019-20 flu season; and enrolled as of August 1, 2020 and followed through May 31, 2021 for 2020-21 flu season; and enrolled as of Aug 1, 2021 and followed through May 28, 2022 for the 2021-22 flu season. \n\n\u2022\tAdditional information about data source is available https://www2.ccwdata.org/web/guest/home/.",
+            "title": "Weekly Cumulative Influenza Vaccination Coverage, by Flu Season and Race/Ethnicity, Medicare Fee-For-Service Beneficiaries aged \u226565 years, United States",
             "programCode": [
                 "009:020"
             ],
@@ -26083,7 +26304,9 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Vaccinations"
             ],
@@ -26099,7 +26322,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-25",
+            "modified": "2022-10-02",
             "keyword": [
                 "wastewater"
             ],
@@ -26781,7 +27004,7 @@
             ],
             "issued": "2022-06-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-12",
+            "modified": "2022-09-28",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -26977,7 +27200,7 @@
             "issued": "2021-11-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-12-13/2022-08-10",
-            "modified": "2022-09-23",
+            "modified": "2022-09-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -28444,7 +28667,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -28542,7 +28765,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -30900,7 +31123,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-12",
+            "modified": "2022-09-30",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -31638,8 +31861,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-22",
-            "modified": "2022-09-22",
+            "temporal": "2020-12-13/2022-09-30",
+            "modified": "2022-09-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -32104,7 +32327,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-23",
+            "modified": "2022-09-30",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -32309,7 +32532,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "age",
                 "age group",
@@ -33167,9 +33390,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-10-22",
+            "issued": "2022-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-22",
+            "temporal": "2018-2023",
+            "modified": "2022-09-30",
             "references": [
                 "CDC"
             ],
@@ -33188,8 +33412,8 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/k87d-gv3u",
-            "description": "Weekly Cumulative Influenza Vaccine Doses Distributed in the United States\n\n\u2022 Additional information is available: https://www.cdc.gov/flu/prevent/vaccine-supply-distribution.htm.",
-            "title": "Weekly Cumulative Influenza Vaccine Doses Distributed in the United States",
+            "description": "Weekly Cumulative Doses (in Millions) of Influenza Vaccine Distributed by Flu Season in the United States\n\n\u2022  Archived data are available here:  https://data.cdc.gov/resource/e5zk-7tx5 \n\u2022  Flu vaccine is produced by private manufacturers, so supply depends on manufacturers. Vaccine manufacturers have projected that they will supply the United States with as many as 173.5 million to 183.5 million doses of influenza vaccines for the 2022-2023 season. \n\u2022  Additional information is available:\u202fhttps://www.cdc.gov/flu/prevent/vaccine-supply-distribution.htm.",
+            "title": "Weekly Cumulative Doses (in Millions) of Influenza Vaccine Distributed by Flu Season in the United States",
             "programCode": [
                 "009:020"
             ],
@@ -33221,7 +33445,9 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Vaccinations"
             ],
@@ -33305,7 +33531,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -33708,7 +33934,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-22",
+            "modified": "2022-09-29",
             "keyword": [
                 "cares act",
                 "health system",
@@ -34039,8 +34265,8 @@
             ],
             "issued": "2022-08-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-22",
-            "modified": "2022-09-22",
+            "temporal": "2020-12-13/2022-09-30",
+            "modified": "2022-09-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -34380,7 +34606,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -34451,7 +34677,7 @@
             ],
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-24",
+            "modified": "2022-09-30",
             "keyword": [
                 "business closure",
                 "business reopening",
@@ -34710,7 +34936,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "age",
                 "age group",
@@ -34988,7 +35214,7 @@
             "landingPage": "https://data.cdc.gov/d/kw6u-z8u2",
             "issued": "2022-03-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-11",
+            "modified": "2022-09-25",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -37287,7 +37513,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -38900,7 +39126,7 @@
             "landingPage": "https://data.cdc.gov/d/nmdn-2xuz",
             "issued": "2022-03-30",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-11",
+            "modified": "2022-09-25",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Mara Howard-Williams",
@@ -39085,7 +39311,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "age",
                 "age group",
@@ -39160,7 +39386,7 @@
             ],
             "issued": "2022-01-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-25",
+            "modified": "2022-10-02",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/United-States-County-Level-of-Community-Transmissi/8396-v7yb"
             ],
@@ -40199,7 +40425,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -42268,7 +42494,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -43273,7 +43499,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-12",
+            "modified": "2022-09-30",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -43803,7 +44029,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-23",
+            "modified": "2022-09-30",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -44395,8 +44621,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-22",
-            "modified": "2022-09-22",
+            "temporal": "2020-12-13/2022-09-30",
+            "modified": "2022-09-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -44981,7 +45207,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-20",
+            "modified": "2022-09-27",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -46349,7 +46575,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "age",
                 "age group",
@@ -46490,7 +46716,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-09",
+            "modified": "2022-09-30",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -48116,7 +48342,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "age",
                 "age group",
@@ -48886,7 +49112,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -49590,7 +49816,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-13",
+            "modified": "2022-09-30",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -49703,7 +49929,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -49909,10 +50135,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-08-11",
+            "issued": "2022-09-30",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-09-22",
-            "modified": "2022-09-22",
+            "temporal": "2020-12-13/2022-09-30",
+            "modified": "2022-09-30",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -49983,7 +50209,7 @@
             ],
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-12",
+            "modified": "2022-09-28",
             "keyword": [
                 "covid-19",
                 "covid-19 vaccination",
@@ -50236,6 +50462,74 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/flu/fluvaxview/dashboard/vaccination-dashboard.html",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-09-28",
+            "@type": "dcat:Dataset",
+            "modified": "2022-09-28",
+            "references": [
+                "IQVIA Pharmacy and Physician Medical Office Claims"
+            ],
+            "keyword": [
+                "flu",
+                "influenza",
+                "iqvia",
+                "pharmacy vaccinations",
+                "physician medical office vaccinations",
+                "vaccine coverage"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Vax View",
+                "hasEmail": "mailto:VaxView@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
+            },
+            "identifier": "https://data.cdc.gov/api/views/uxgd-cqqc",
+            "description": "Weekly Cumulative Estimated Number of Influenza Vaccinations Administered in Pharmacies and Physician Medical Offices, Adults 18 years and older, United States\n\n- Since 2019, CDC has been exploring use of data obtained from (https://www.iqvia.com/) as a source of information on vaccinations administered in retail pharmacies (include chain, mass merchandise, food stores, and independent pharmacies) and physician medical offices. These data are being presented publicly for the first time this season; further evaluations of these data are underway.\n\n- The pharmacy data include flu vaccinations that were billed for (i.e. claims) or paid by cash. Medical office data are claims based.\n\n- The sampled pharmacies and physician medical offices and the captured volume of transactions represent approximately 92% and 82% of influenza vaccines administered nationally, respectively.\n\n- Vaccinations administered in other settings such as workplaces and community settings are not included in these data.\n\n- Weekly Number of Influenza Vaccinations Administered, in Pharmacies and Physician Medical Offices, Adults 18 years and older, United States, Data Source(s): IQVIA Pharmacy and Physician Medical Office Claims.",
+            "title": "Weekly Cumulative Estimated Number of Influenza Vaccinations Administered in Pharmacies and Physician Medical Offices, Adults 18 years and older, United States (ARCHIVED)",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/uxgd-cqqc/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/uxgd-cqqc/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/uxgd-cqqc/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/uxgd-cqqc/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/uxgd-cqqc/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/uxgd-cqqc/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/uxgd-cqqc/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "Vaccinations"
             ]
         },
         {
@@ -51285,6 +51579,78 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/flu/fluvaxview/dashboard/vaccination-dashboard.html",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-09-28",
+            "@type": "dcat:Dataset",
+            "modified": "2022-09-28",
+            "references": [
+                "NIS-Flu"
+            ],
+            "keyword": [
+                "chlidren",
+                "flu",
+                "flu shot",
+                "influenza",
+                "nis",
+                "nis-flu",
+                "vaccine coverage"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Vax Views",
+                "hasEmail": "mailto:VaxView@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
+            },
+            "identifier": "https://data.cdc.gov/api/views/vfj2-bfuw",
+            "description": "Weekly Cumulative Influenza Vaccination Coverage, Children 6 months through 17 years, United States\n\u2022 Influenza vaccination coverage among children is assessed through the National Immunization Survey-Flu (NIS-Flu) annually, providing weekly influenza vaccination coverage estimates for children 6 months\u201317 years based upon parental report. (https://www.cdc.gov/vaccines/imz-managers/nis/about.html)\no NIS-Flu is a national random-digit-dialed cellular telephone survey of households conducted during the flu season (October-June).\n\u2022 Additional information about NIS-Flu methods and estimates from the 2019-2020 season are available at: https://www.cdc.gov/flu/fluvaxview/coverage-1920estimates.htm.",
+            "title": "Weekly Cumulative Influenza Vaccination Coverage, Children 6 months through 17 years, United States",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/vfj2-bfuw/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/vfj2-bfuw/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/vfj2-bfuw/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/vfj2-bfuw/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/vfj2-bfuw/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/vfj2-bfuw/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/vfj2-bfuw/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "Vaccinations"
+            ],
+            "language": [
+                "English"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/vgc8-iyc4",
             "bureauCode": [
                 "009:20"
@@ -51966,7 +52332,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "age",
                 "age group",
@@ -53102,7 +53468,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -55450,7 +55816,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-09-22",
+            "modified": "2022-09-29",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -55594,7 +55960,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -57048,7 +57414,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-21",
+            "modified": "2022-09-28",
             "keyword": [
                 "age",
                 "age group",
@@ -57852,7 +58218,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-22",
+            "modified": "2022-09-29",
             "keyword": [
                 "age",
                 "age group",
