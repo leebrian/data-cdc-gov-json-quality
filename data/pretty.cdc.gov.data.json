@@ -513,6 +513,70 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/29hc-w46k",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-10-24",
+            "@type": "dcat:Dataset",
+            "modified": "2022-10-27",
+            "references": [
+                "https://www.cdc.gov/rsv/research/rsv-net.html"
+            ],
+            "keyword": [
+                "rsv",
+                "surveillance"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCIRD DVD",
+                "hasEmail": "mailto:@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/29hc-w46k",
+            "description": "The Respiratory Syncytial Virus Hospitalization Surveillance Network (RSV-NET) is a network that conducts active, population-based surveillance for laboratory-confirmed RSV-associated hospitalizations in children younger than 18 years of age and adults. The network currently includes 58 counties in 12 states, and data are collected and reported during the October 1-April 30 season each year.  In some years, additional months of data are collected.  In adults, RSV hospitalization tracking began in the 2016\u20132017 season. In children less than 18 years of age, surveillance began in the 2018\u201319 season. Because the surveillance areas and age groups included in surveillance have changed over time, trends should be interpreted with caution. Hospitalization data are preliminary and subject to change as more data become available.  In particular, case counts and rates for recent hospitalizations are subject to lag.  Lag for RSV-NET case identification and reporting might increase around holidays or during periods of increased hospitalization utilization.  As data are received each week, prior case counts and rates are updated accordingly.\nFor more information about RSV-NET, please see https://www.cdc.gov/rsv/research/rsv-net.html.",
+            "title": "Weekly Rates of Laboratory-Confirmed RSV Hospitalizations from the RSV-NET Surveillance System",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/29hc-w46k/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/29hc-w46k/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/29hc-w46k/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/29hc-w46k/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/29hc-w46k/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/29hc-w46k/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/29hc-w46k/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "Case Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/29js-qshz",
             "bureauCode": [
                 "009:00"
@@ -700,7 +764,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-09-30",
+            "modified": "2022-10-28",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -841,7 +905,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-23",
+            "modified": "2022-10-30",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2085,7 +2149,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "age",
                 "all causes",
@@ -2807,7 +2871,7 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-10-21",
+            "modified": "2022-10-27",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2827,7 +2891,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "<b>Note:</b>\n\n<b>October 20, 2022:</b>\u202fDue to the Mississippi case data dashboard not being updated this week, case rates for all Mississippi counties are reported as 0 in the COVID-19 Community Level data released on October 20, 2022. This could lead to the COVID-19 Community Levels for Mississippi counties being underestimated; therefore, they should be interpreted with caution. \n\n<b>October 20, 2022:</b>\u202fDue to a data reporting error, the\u202fcase rate for Philadelphia County, Pennsylvania is lower than expected in the COVID-19 Community Level data released on October 20, 2022. This could lead to the\u202fCOVID-19 Community Level for Philadelphia County being underestimated; therefore, it should be interpreted with caution. \n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community  levels for all available counties. This dataset contains the same values used to display information available on the COVID Data Tracker at:   https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\nThe data are updated weekly.  \nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals. \nSee https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html for more information. \n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the",
+            "description": "This public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals.\n\nSee <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html\">COVID-19 by County</a> for more information.\n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/2022, thus the values were previously missing for records released the week prior.\n\n<b>April 7, 2022:</b> Updates made to data released on 3/24/2022 for Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands to correct a data mapping error.\n\n<b>April 21, 2022:</b> COVID-19 Community Level (CCL) data released for counties in Nebraska for the week of April",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -2950,8 +3014,8 @@
             ],
             "issued": "2022-07-25",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-10-21",
-            "modified": "2022-10-21",
+            "temporal": "2020-12-13/2022-10-28",
+            "modified": "2022-10-28",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -4041,7 +4105,7 @@
             ],
             "issued": "2016-08-04",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-10-26",
             "keyword": [
                 "age",
                 "age group",
@@ -5177,7 +5241,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "age",
                 "age group",
@@ -5808,7 +5872,7 @@
             "issued": "2022-10-21",
             "@type": "dcat:Dataset",
             "temporal": "July 2010 - June 2020",
-            "modified": "2022-10-21",
+            "modified": "2022-10-25",
             "references": [
                 "https://www.cdc.gov/surveillance/nrevss/rsv/reports.html"
             ],
@@ -6689,8 +6753,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-10-21",
-            "modified": "2022-10-21",
+            "temporal": "2020-12-13/2022-10-28",
+            "modified": "2022-10-28",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -6830,7 +6894,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-22",
+            "modified": "2022-10-29",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7584,53 +7648,6 @@
             ],
             "theme": [
                 "NNDSS"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/63ss-i9ak",
-            "issued": "2022-10-21",
-            "@type": "dcat:Dataset",
-            "modified": "2022-10-21",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Ryan Davis",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/63ss-i9ak",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "See complete documentation here: http://gis.cdc.gov/grasp/svi/SVI2016Documentation.pdf. For additional questions, contact the SVI Lead at SVI_Coordinator@cdc.gov.",
-            "title": "SVI2016_US",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/63ss-i9ak/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/63ss-i9ak/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/63ss-i9ak/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/63ss-i9ak/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/63ss-i9ak/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/63ss-i9ak/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/63ss-i9ak/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
             ]
         },
         {
@@ -9576,7 +9593,7 @@
             ],
             "issued": "2022-10-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-18",
+            "modified": "2022-10-27",
             "keyword": [
                 "food safety",
                 "restaurant grading"
@@ -10855,7 +10872,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-21",
+            "modified": "2022-10-30",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -11578,7 +11595,7 @@
             "issued": "2021-11-03",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-10-21",
+            "modified": "2022-10-28",
             "references": [
                 "IQVIA Pharmacy and Physician Medical Office Claims"
             ],
@@ -12541,7 +12558,7 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-30",
+            "modified": "2022-10-28",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "NCIRD",
@@ -12603,8 +12620,8 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "temporal": "2020-08-19/2022-09-26",
-            "modified": "2022-10-05",
+            "temporal": "2020-08-19/2022-10-17",
+            "modified": "2022-10-26",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -12932,8 +12949,8 @@
             ],
             "issued": "2022-09-02",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-10-21",
-            "modified": "2022-10-21",
+            "temporal": "2020-12-13/2022-10-28",
+            "modified": "2022-10-28",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -13808,7 +13825,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "age",
                 "age group",
@@ -14066,7 +14083,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14364,7 +14381,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -15286,7 +15303,7 @@
             "issued": "2022-09-09",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-09-03",
-            "modified": "2022-09-09",
+            "modified": "2022-10-28",
             "keyword": [
                 "age",
                 "age group",
@@ -15316,7 +15333,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/9xc7-3a4q",
-            "description": "Deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by time-period, HHS region, race and Hispanic origin, and age groups (<65, 65-74. 75-84, 85+).",
+            "description": "Deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by time-period, HHS region, race and Hispanic origin, and age groups (<65, 65-74. 75-84, 85+, and 65+).",
             "title": "AH Provisional COVID-19 Deaths by HHS Region, Race, Age 65plus",
             "programCode": [
                 "009:020"
@@ -16502,7 +16519,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-21",
+            "modified": "2022-10-28",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -18126,7 +18143,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-12",
+            "modified": "2022-10-26",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -18683,7 +18700,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-23",
+            "modified": "2022-10-30",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -21827,10 +21844,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-10-07",
+            "issued": "2022-10-27",
             "@type": "dcat:Dataset",
             "temporal": "2022-10-20/-",
-            "modified": "2022-10-21",
+            "modified": "2022-10-28",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn"
             ],
@@ -24370,7 +24387,7 @@
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-09-30",
+            "modified": "2022-10-28",
             "references": [
                 "NIS-Flu"
             ],
@@ -26580,7 +26597,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-23",
+            "modified": "2022-10-30",
             "keyword": [
                 "wastewater"
             ],
@@ -26968,7 +26985,7 @@
             ],
             "issued": "2021-10-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-10-26",
             "keyword": [
                 "county",
                 "deaths",
@@ -27323,8 +27340,8 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "temporal": "2022-06-01/2022-09-26",
-            "modified": "2022-10-05",
+            "temporal": "2022-06-01/2022-10-17",
+            "modified": "2022-10-26",
             "keyword": [
                 "covid-19",
                 "post-covid"
@@ -28925,7 +28942,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -29023,7 +29040,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -29229,7 +29246,7 @@
             ],
             "issued": "2017-07-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-20",
+            "modified": "2022-10-26",
             "keyword": [
                 "birth",
                 "deaths",
@@ -31402,7 +31419,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-21",
+            "modified": "2022-10-28",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -31510,7 +31527,7 @@
             ],
             "issued": "2022-10-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-18",
+            "modified": "2022-10-27",
             "keyword": [
                 "food safety",
                 "restaurant grading"
@@ -31958,8 +31975,8 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "temporal": "2020-08-19/2022-09-26",
-            "modified": "2022-10-05",
+            "temporal": "2020-08-19/2022-10-17",
+            "modified": "2022-10-26",
             "keyword": [
                 "covid-19",
                 "private coverage",
@@ -32161,7 +32178,7 @@
             "issued": "2022-10-19",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2022-10-21",
+            "modified": "2022-10-27",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6"
             ],
@@ -32183,7 +32200,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/jgk8-6dpn",
-            "description": "Beginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains historical community transmission levels data that are updated weekly for all available counties and jurisdictions. Each week, the dataset is appended to contain the most recent week's data and will be updated on\u202f<b>Thursdays</b>,\u202ftypically by <b>8pm</b> ET. \n\n<b>Related data </b>\nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with the levels for each county from January 22, 2020 (Weekly <a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Historical Changes dataset</a>) and a dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/dataset/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>) since October 20, 2022.  \n\n<b>Methods for calculating county level of community transmission indicator</b>\nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metrics, CDC classifies transmission values as low, moderate, substantial, or high (below and <a href=\"https://www.cdc.gov/mmwr/volumes/70/wr/mm7030e2.htm?s_cid=mm7030e2_w#T1_down\">here</a>). If the values for each of these two metrics differ (e.g., one indicates moderate and the other low), then the higher of the two should be used for decision-making. \n\n<b>CDC core metrics of and thresholds for community transmission levels of SARS-CoV-2</b>\n<b>Total New Case Rate Metric:</b> \"New cases per 100,000 persons in the past 7 days\" is calculated by adding the number of new cases in the county (or other administrative level) in the last 7 days divided by the population in the county (or other administrative level) and multiplying by 100,000. \"New cases per 100,000 persons in the past 7 days\" is considered to have transmission level of Low (0-9.99); Moderate (10.00-49.99); Substantial (50.00-99.99); and High (greater than or equal to 100.00). \n\n<b>Test Percent Positivity Metric:</b> \"Percentage of positive NAAT in the past 7 days\" is calculated by dividing the number of positive tests in the county (or other administrative level) during the last 7 days by the total number of tests resulted over the last 7 days. \"Percentage of positive NAAT in the past 7 days\" is considered to have transmission level of Low (less than 5.00); Moderate (5.00-7.99); Substantial (8.00-9.99); and High (greater than or equal to 10.00). \n\nIf the two metrics suggest different transmission levels, the higher level is selected. If one metric is missing, the other metric is used for the indicator. \n\nThe reported transmission categories include: \n\nLow Transmission Threshold: Counties with fewer than 10 total cases per 100,000 population in the past 7 days, and a NAAT percent test positivity in the past 7 days below 5%; \n\nModerate Transmission Threshold: Counties with 10-49 total cases per 100,000 population in the past 7 days or a NAAT test percent positivity in the past 7 days of 5.0-7.99%; \n\nSubstantial Transmission Threshold: Counties with 50-99 total cases per 100,000 population in the past 7 days or a NAAT test percent positivity in the past 7 days of 8.0-9.99%; \n\nHigh Transmission Threshold: Counties with 100 or more total cases per 100,000 population in the past 7 days or a NAAT test percent positivity in the past 7 days of 10.0% or greater. \n\nBlank : total new cases in the past 7 days are not reported (county data known to be unavailable) and the percentage of positive NAATs tests during the past 7 days (blank) are not reported. \n\n<b>Data Suppression </b>\nTo prevent the release of data that could be used to identify p",
+            "description": "<b>Announcement</b>\n<b>October 27, 2022:</b> Due to a processing issue this dataset will not be posted this week. CDC is currently working to address the issue and will publish the data when able.  \n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains historical community transmission levels data that are updated weekly for all available counties and jurisdictions. Each week, the dataset is appended to contain the most recent week's data and will be updated on\u202f<b>Thursdays</b>,\u202ftypically by <b>8pm</b> ET. \n\n<b>Related data </b>\nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with the levels for each county from January 22, 2020 (Weekly <a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Historical Changes dataset</a>) and a dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/dataset/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>) since October 20, 2022.  \n\n<b>Methods for calculating county level of community transmission indicator</b>\nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metrics, CDC classifies transmission values as low, moderate, substantial, or high (below and <a href=\"https://www.cdc.gov/mmwr/volumes/70/wr/mm7030e2.htm?s_cid=mm7030e2_w#T1_down\">here</a>). If the values for each of these two metrics differ (e.g., one indicates moderate and the other low), then the higher of the two should be used for decision-making. \n\n<b>CDC core metrics of and thresholds for community transmission levels of SARS-CoV-2</b>\n<b>Total New Case Rate Metric:</b> \"New cases per 100,000 persons in the past 7 days\" is calculated by adding the number of new cases in the county (or other administrative level) in the last 7 days divided by the population in the county (or other administrative level) and multiplying by 100,000. \"New cases per 100,000 persons in the past 7 days\" is considered to have transmission level of Low (0-9.99); Moderate (10.00-49.99); Substantial (50.00-99.99); and High (greater than or equal to 100.00). \n\n<b>Test Percent Positivity Metric:</b> \"Percentage of positive NAAT in the past 7 days\" is calculated by dividing the number of positive tests in the county (or other administrative level) during the last 7 days by the total number of tests resulted over the last 7 days. \"Percentage of positive NAAT in the past 7 days\" is considered to have transmission level of Low (less than 5.00); Moderate (5.00-7.99); Substantial (8.00-9.99); and High (greater than or equal to 10.00). \n\nIf the two metrics suggest different transmission levels, the higher level is selected. If one metric is missing, the other metric is used for the indicator. \n\nThe reported transmission categories include: \n\nLow Transmission Threshold: Counties with fewer than 10 total cases per 100,000 population in the past 7 days, and a NAAT percent test positivity in the past 7 days below 5%; \n\nModerate Transmission Threshold: Counties with 10-49 total cases per 100,000 population in the past 7 days or a NAAT test percent positivity in the past 7 days of 5.0-7.99%; \n\nSubstantial Transmission Threshold: Counties with 50-99 total cases per 100,000 population in the past 7 days or a NAAT test percent positivity in the past 7 days of 8.0-9.99%; \n\nHigh Transmission Threshold: Counties with 100 or more total cases per 100,000 population in the past 7 days or a NAAT test percent positivity in the past 7 days of 10.0% or greater. \n\nBlank : total new cases in the past 7 days are not reported (county data known t",
             "title": "Weekly COVID-19 County Level of Community Transmission Historical Changes",
             "programCode": [
                 "009:020"
@@ -32272,8 +32289,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-10-21",
-            "modified": "2022-10-21",
+            "temporal": "2020-12-13/2022-10-28",
+            "modified": "2022-10-28",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -32738,7 +32755,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-21",
+            "modified": "2022-10-28",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -32943,7 +32960,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "age",
                 "age group",
@@ -33804,7 +33821,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2018-2023",
-            "modified": "2022-10-21",
+            "modified": "2022-10-28",
             "references": [
                 "CDC"
             ],
@@ -33942,7 +33959,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -34345,7 +34362,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-20",
+            "modified": "2022-10-27",
             "keyword": [
                 "cares act",
                 "health system",
@@ -34676,8 +34693,8 @@
             ],
             "issued": "2022-08-12",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-10-21",
-            "modified": "2022-10-21",
+            "temporal": "2020-12-13/2022-10-28",
+            "modified": "2022-10-28",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -35088,7 +35105,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -35418,7 +35435,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "age",
                 "age group",
@@ -35687,6 +35704,25 @@
             "theme": [
                 "500 Cities & Places"
             ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/kvms-atr7",
+            "issued": "2022-10-27",
+            "@type": "dcat:Dataset",
+            "modified": "2022-10-27",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Seth Billiau",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/kvms-atr7",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "Due to a processing issue the dataset \"Weekly COVID-19 County Level of Community Transmission Historical Changes\" will not be posted this week. CDC is currently working to address the issue and will publish the data when able.",
+            "title": "Data Not Posted on the Week of October 27, 2022"
         },
         {
             "accessLevel": "public",
@@ -37995,7 +38031,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -39793,7 +39829,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "age",
                 "age group",
@@ -40655,6 +40691,70 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/pbq2-7wr2",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-10-24",
+            "@type": "dcat:Dataset",
+            "modified": "2022-10-27",
+            "references": [
+                "https://www.cdc.gov/rsv/research/rsv-net.html"
+            ],
+            "keyword": [
+                "rsv",
+                "surveillance"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCIRD DVD",
+                "hasEmail": "mailto:@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/pbq2-7wr2",
+            "description": "The Respiratory Syncytial Virus Hospitalization Surveillance Network (RSV-NET) is a network that conducts active, population-based surveillance for laboratory-confirmed RSV-associated hospitalizations in children younger than 18 years of age and adults. The network currently includes 58 counties in 12 states, and data are collected and reported during the October 1-April 30 season each year.  In some years, additional months of data are collected.  In adults, RSV hospitalization tracking began in the 2016\u20132017 season. In children less than 18 years of age, surveillance began in the 2018\u201319 season. Because the surveillance areas and age groups included in surveillance have changed over time, trends should be interpreted with caution. Hospitalization data are preliminary and subject to change as more data become available.  In particular, case counts and rates for recent hospitalizations are subject to lag.  Lag for RSV-NET case identification and reporting might increase around holidays or during periods of increased hospitalization utilization.  As data are received each week, prior case counts and rates are updated accordingly.\nFor more information about RSV-NET, please see https://www.cdc.gov/rsv/research/rsv-net.html.",
+            "title": "Monthly Rates of Laboratory-Confirmed RSV Hospitalizations from the RSV-NET Surveillance System",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/pbq2-7wr2/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/pbq2-7wr2/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/pbq2-7wr2/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/pbq2-7wr2/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/pbq2-7wr2/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/pbq2-7wr2/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/pbq2-7wr2/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "Case Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/pf7q-w24q",
             "bureauCode": [
                 "009:20"
@@ -40908,7 +41008,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -41757,7 +41857,7 @@
             "issued": "2022-10-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2022-10-21",
+            "modified": "2022-10-28",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -43044,7 +43144,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -44049,7 +44149,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-21",
+            "modified": "2022-10-28",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -44579,7 +44679,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-21",
+            "modified": "2022-10-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -45171,8 +45271,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-10-21",
-            "modified": "2022-10-21",
+            "temporal": "2020-12-13/2022-10-28",
+            "modified": "2022-10-28",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -45757,7 +45857,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-18",
+            "modified": "2022-10-25",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -47125,7 +47225,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "age",
                 "age group",
@@ -48892,7 +48992,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "age",
                 "age group",
@@ -49662,7 +49762,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -50366,7 +50466,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-21",
+            "modified": "2022-10-28",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -50479,7 +50579,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -50687,8 +50787,8 @@
             ],
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-10-21",
-            "modified": "2022-10-21",
+            "temporal": "2020-12-13/2022-10-28",
+            "modified": "2022-10-28",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -52882,7 +52982,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "age",
                 "age group",
@@ -54018,7 +54118,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-12",
+            "modified": "2022-10-26",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -55893,7 +55993,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-20",
+            "modified": "2022-10-27",
             "keyword": [
                 "2022",
                 "nndss",
@@ -56366,7 +56466,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2022-10-20",
+            "modified": "2022-10-27",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -56510,7 +56610,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -57964,7 +58064,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-19",
+            "modified": "2022-10-26",
             "keyword": [
                 "age",
                 "age group",
@@ -58768,7 +58868,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-20",
+            "modified": "2022-10-27",
             "keyword": [
                 "age",
                 "age group",
