@@ -517,9 +517,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-10-24",
+            "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-23",
+            "modified": "2022-12-08",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -764,7 +764,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-12-02",
+            "modified": "2022-12-09",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -905,7 +905,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-04",
+            "modified": "2022-12-10",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2221,7 +2221,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "age",
                 "all causes",
@@ -2943,7 +2943,7 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-12-01",
+            "modified": "2022-12-08",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2963,7 +2963,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "<b>Note:</b>\n<b>December 1, 2022:</b> Due to a data processing error, case rates for California appear lower than expected in the December 1, 2022, Covid Data Tracker release. Therefore, the COVID-19 Community Levels and Community Transmission levels for California counties may be underestimated and should be interpreted with caution. \n\n<b>December 1, 2022:</b> Due to cadence changes over the Thanksgiving holiday, case rates for all Ohio counties are reported as 0 in the COVID-19 Community Level data released on December 1, 2022. Therefore, the COVID-19 Community Levels may be underestimated and should be interpreted with caution.\u202f\n\n<b>December 1, 2022:</b> Due to a reporting cadence issue, case rates for all Mississippi counties are calculated based on 14 days\u2019 worth of case count data in the COVID-19 Community Level information released on December 1, 2022, instead of the customary 7 days\u2019 worth of case count data. Therefore, the weekly case rates for all counties will be overestimated, which could affect COVID-19 Community Level classification and should be interpreted with caution.\u202f\u202f\n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals.\n\nSee <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html\">COVID-19 by County</a> for more information.\n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other rec",
+            "description": "<b>Note:</b>\n<b>December 8, 2022:</b> Due to a statewide network issue, CDC did not receive updated case or death data from Georgia. As a result, case and death metrics will be reported as 0 in COVID Data Tracker\u2019s December 8, 2022, release. COVID-19 Community Levels and Community Transmission metrics may be underestimated and should be interpreted with caution. \n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals.\n\nSee <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html\">COVID-19 by County</a> for more information.\n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/2022, thus the value",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -3086,8 +3086,8 @@
             ],
             "issued": "2022-07-25",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-01",
-            "modified": "2022-12-01",
+            "temporal": "2020-12-13/2022-12-08",
+            "modified": "2022-12-08",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -5313,7 +5313,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "age",
                 "age group",
@@ -6132,7 +6132,7 @@
             "issued": "2022-11-18",
             "temporal": "October 3, 2021 - October 22, 2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-22",
+            "modified": "2022-12-04",
             "keyword": [
                 "covid-19 bivalent boosters",
                 "covid-19 booster doses",
@@ -6151,7 +6151,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/54ys-qyzm",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Updated (Bivalent) Booster Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\n\nThese data were posted on November 22, 2022 and reflect cases among persons with a positive specimen collection date through October 22, 2022, and deaths among persons with a positive specimen collection date through October 1, 2022. These data will be updated monthly. Please note that these provisional data are subject to change. \n\nVaccination status: A person vaccinated with at least a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected. A person vaccinated with a primary series and a monovalent booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and at least one additional dose of any monovalent FDA-authorized or approved COVID-19 vaccine on or after August 13, 2021. (Note: this definition does not distinguish between vaccine recipients who are immunocompromised and are receiving an additional dose versus those who are not immunocompromised and receiving a booster dose.) A person vaccinated with a primary series and an updated (bivalent) booster dose had SARS-CoV-2 RNA or antigen detected in a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and an additional dose of any bivalent FDA-authorized or approved vaccine COVID-19 vaccine on or after September 1, 2022. (Note: Doses with bivalent doses reported as first or second doses are classified as vaccinated with a bivalent booster dose.) People with primary series or a monovalent booster dose were combined in the \u201cvaccinated without an updated booster\u201d category. \n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Per the interim\u202fguidance of the Council of State and Territorial Epidemiologists (CSTE),\u202fthis should include persons whose death certificate lists COVID-19 disease or SARS-CoV-2 as the underlying cause of death or as a significant condition contributing to death. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis. \n\nParticipating jurisdictions: Currently, these 18 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Arizona, Colorado, District of Columbia, Georgia, Idaho, Indiana, Kentucky, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Mexico, North Carolina, South Dakota, Tennessee, Texas, and Washington; 18 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 38% of the total U.S. population and all ten of the Health and Human Services Regions. This list will be updated as more jurisdictions participate.  \n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination status were calculated as the number of cases or deaths divided by the number of people vaccinated with a",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Updated (Bivalent) Booster Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\n\nThese data were posted on November 22, 2022 and reflect cases among persons with a positive specimen collection date through October 22, 2022, and deaths among persons with a positive specimen collection date through October 1, 2022. These data will be updated monthly. Please note that these provisional data are subject to change. \n\nVaccination status: A person vaccinated with at least a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected. A person vaccinated with a primary series and a monovalent booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and at least one additional dose of any monovalent FDA-authorized or approved COVID-19 vaccine on or after August 13, 2021. (Note: this definition does not distinguish between vaccine recipients who are immunocompromised and are receiving an additional dose versus those who are not immunocompromised and receiving a booster dose.) A person vaccinated with a primary series and an updated (bivalent) booster dose had SARS-CoV-2 RNA or antigen detected in a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and an additional dose of any bivalent FDA-authorized or approved vaccine COVID-19 vaccine on or after September 1, 2022. (Note: Doses with bivalent doses reported as first or second doses are classified as vaccinated with a bivalent booster dose.) People with primary series or a monovalent booster dose were combined in the \u201cvaccinated without an updated booster\u201d category. \n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Per the interim\u202fguidance of the Council of State and Territorial Epidemiologists (CSTE),\u202fthis should include persons whose death certificate lists COVID-19 disease or SARS-CoV-2 as the underlying cause of death or as a significant condition contributing to death. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis. \n\nParticipating jurisdictions: Currently, these 21 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Colorado, District of Columbia, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Mexico, North Carolina, South Dakota, Tennessee, Texas, Utah, and Washington; 21 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 41% of the total U.S. population and all ten of the Health and Human Services Regions. This list will be updated as more jurisdictions participate.    \n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination status were calculated as the number of cases or deaths divided by the number of",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Updated (Bivalent) Booster Status",
             "programCode": [
                 "009:038"
@@ -6895,8 +6895,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-01",
-            "modified": "2022-12-01",
+            "temporal": "2020-12-13/2022-12-08",
+            "modified": "2022-12-08",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -7036,7 +7036,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-03",
+            "modified": "2022-12-08",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -8835,7 +8835,7 @@
             "issued": "2021-11-16",
             "@type": "dcat:Dataset",
             "temporal": "2021-2022",
-            "modified": "2022-07-06",
+            "modified": "2022-12-09",
             "keyword": [
                 "adults",
                 "age",
@@ -11014,7 +11014,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-01",
+            "modified": "2022-12-08",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -11737,7 +11737,7 @@
             "issued": "2021-11-03",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-12-02",
+            "modified": "2022-12-09",
             "references": [
                 "IQVIA Pharmacy and Physician Medical Office Claims"
             ],
@@ -12700,7 +12700,7 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-02",
+            "modified": "2022-12-09",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "NCIRD",
@@ -13089,10 +13089,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-09-02",
+            "issued": "2022-12-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-01",
-            "modified": "2022-12-01",
+            "temporal": "2020-12-13/2022-12-08",
+            "modified": "2022-12-09",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -13967,7 +13967,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "age",
                 "age group",
@@ -14225,7 +14225,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14523,7 +14523,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -16734,7 +16734,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-28",
+            "modified": "2022-12-05",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17926,7 +17926,7 @@
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
             "temporal": "Monthly",
-            "modified": "2022-12-02",
+            "modified": "2022-12-09",
             "keyword": [
                 "adults",
                 "coverage",
@@ -18500,7 +18500,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-09",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -19057,7 +19057,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-04",
+            "modified": "2022-12-09",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -20714,7 +20714,7 @@
             ],
             "issued": "2020-12-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-15",
+            "modified": "2022-12-06",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -22376,7 +22376,7 @@
             "issued": "2022-10-27",
             "@type": "dcat:Dataset",
             "temporal": "2022-10-20/-",
-            "modified": "2022-12-01",
+            "modified": "2022-12-08",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn"
             ],
@@ -23565,7 +23565,7 @@
             ],
             "issued": "2020-12-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-15",
+            "modified": "2022-12-06",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -24916,7 +24916,7 @@
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-12-02",
+            "modified": "2022-12-09",
             "references": [
                 "NIS-Flu"
             ],
@@ -26504,7 +26504,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-12-02",
+            "modified": "2022-12-09",
             "references": [
                 "Vaccine Safety Datalink"
             ],
@@ -27056,7 +27056,7 @@
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-12-02",
+            "modified": "2022-12-09",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -27190,7 +27190,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-04",
+            "modified": "2022-12-10",
             "keyword": [
                 "wastewater"
             ],
@@ -29535,7 +29535,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -29633,7 +29633,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -30645,7 +30645,7 @@
             ],
             "issued": "2021-12-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-18",
+            "modified": "2022-12-06",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -31743,7 +31743,7 @@
             "issued": "2022-10-18",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-10-15",
-            "modified": "2022-11-09",
+            "modified": "2022-12-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32083,7 +32083,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-28",
+            "modified": "2022-12-05",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -32907,7 +32907,7 @@
             "issued": "2022-10-19",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2022-12-01",
+            "modified": "2022-12-08",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6"
             ],
@@ -33082,8 +33082,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-01",
-            "modified": "2022-12-01",
+            "temporal": "2020-12-13/2022-12-08",
+            "modified": "2022-12-08",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -33548,7 +33548,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-02",
+            "modified": "2022-12-09",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -33753,7 +33753,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "age",
                 "age group",
@@ -34614,7 +34614,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2018-2023",
-            "modified": "2022-12-02",
+            "modified": "2022-12-09",
             "references": [
                 "CDC"
             ],
@@ -34752,7 +34752,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -34952,7 +34952,7 @@
             ],
             "issued": "2021-12-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-15",
+            "modified": "2022-12-06",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -35550,8 +35550,8 @@
             ],
             "issued": "2022-11-23",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-01",
-            "modified": "2022-12-01",
+            "temporal": "2020-12-13/2022-12-08",
+            "modified": "2022-12-08",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -35962,7 +35962,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36292,7 +36292,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "age",
                 "age group",
@@ -37670,10 +37670,10 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-11-03",
-            "modified": "2022-11-08",
+            "temporal": "2020-01-01/2022-12-01",
+            "modified": "2022-12-06",
             "references": [
-                "https://data.cdc.gov/api/views/mbd7-r32t/files/bf557619-85bf-498d-8597-35782725a988?download=true&filename=Public%2033%20Utility%20summary.pdf"
+                "https://data.cdc.gov/api/views/mbd7-r32t/files/b097cc4d-149c-4177-a551-442e9dbaf3d5?download=true&filename=Public%2033%20Utility%20Summary.pdf"
             ],
             "keyword": [
                 "cases",
@@ -39022,7 +39022,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -39993,8 +39993,8 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-11-03",
-            "modified": "2022-11-08",
+            "temporal": "2020-01-01/2022-12-01",
+            "modified": "2022-12-06",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2019%20utility%20summary.pdf"
             ],
@@ -40820,7 +40820,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "age",
                 "age group",
@@ -41686,9 +41686,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-10-24",
+            "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-23",
+            "modified": "2022-12-08",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -41999,7 +41999,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -42920,7 +42920,7 @@
             "issued": "2022-10-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2022-12-01",
+            "modified": "2022-12-08",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -44280,7 +44280,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -44663,7 +44663,7 @@
             ],
             "issued": "2020-12-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-15",
+            "modified": "2022-12-06",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -45285,7 +45285,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-28",
+            "modified": "2022-12-05",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -45815,7 +45815,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-02",
+            "modified": "2022-12-09",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -46407,8 +46407,8 @@
             ],
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-01",
-            "modified": "2022-12-01",
+            "temporal": "2020-12-13/2022-12-08",
+            "modified": "2022-12-08",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -46993,7 +46993,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-29",
+            "modified": "2022-12-06",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -48434,7 +48434,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "age",
                 "age group",
@@ -49172,7 +49172,7 @@
             ],
             "issued": "2021-03-17",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-15",
+            "modified": "2022-12-06",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -50201,7 +50201,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "age",
                 "age group",
@@ -50711,7 +50711,7 @@
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
             "temporal": "Monthly",
-            "modified": "2022-12-02",
+            "modified": "2022-12-09",
             "keyword": [
                 "adults",
                 "coverage",
@@ -51042,7 +51042,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -51746,7 +51746,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-29",
+            "modified": "2022-12-05",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -51859,7 +51859,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -52067,8 +52067,8 @@
             ],
             "issued": "2022-11-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-01",
-            "modified": "2022-12-01",
+            "temporal": "2020-12-13/2022-12-08",
+            "modified": "2022-12-08",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -52520,6 +52520,78 @@
             ],
             "theme": [
                 "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/vaccines/imz-managers/nis/",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-12-07",
+            "@type": "dcat:Dataset",
+            "temporal": "Monthly",
+            "modified": "2022-12-09",
+            "keyword": [
+                "adults",
+                "ethnicity",
+                "flu",
+                "flu vaccination",
+                "race",
+                "vaccination",
+                "vaccine coverage"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCIRD",
+                "hasEmail": "mailto:VaxView@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
+            },
+            "identifier": "https://data.cdc.gov/api/views/v22g-tzpk",
+            "description": "Differences in Cumulative Influenza Vaccination Coverage by Race/Ethnicity, Adults 18 Year and Older, NIS Adult COVID Module\n\n\u2022 The National Immunization Survey-Adult COVID Module (NIS-ACM) was launched in April 2021 among adults 18 years and older. The survey was used to monitor COVID-19 vaccination uptake and confidence in vaccination among adults and included questions about influenza vaccination.",
+            "title": "Differences in Cumulative Influenza Vaccination Coverage by Race/Ethnicity, Adults 18 Year and Older, NIS Adult COVID Module",
+            "programCode": [
+                "009:026"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/v22g-tzpk/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/v22g-tzpk/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/v22g-tzpk/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/v22g-tzpk/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/v22g-tzpk/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/v22g-tzpk/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/v22g-tzpk/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States, District of Columbia, US Virgin Islands, and Puerto Rico",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Approximately Monthly",
+            "theme": [
+                "Vaccinations"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
@@ -53250,8 +53322,8 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-11-03",
-            "modified": "2022-11-08",
+            "temporal": "2020-01-01/2022-12-01",
+            "modified": "2022-12-06",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2012%20utility%20summary.pdf"
             ],
@@ -53587,7 +53659,7 @@
             ],
             "issued": "2021-12-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-15",
+            "modified": "2022-12-06",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -54262,7 +54334,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "age",
                 "age group",
@@ -55398,7 +55470,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-29",
+            "modified": "2022-12-06",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -57273,7 +57345,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-01",
+            "modified": "2022-12-09",
             "keyword": [
                 "2022",
                 "nndss",
@@ -57890,7 +57962,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -59344,7 +59416,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-30",
+            "modified": "2022-12-07",
             "keyword": [
                 "age",
                 "age group",
@@ -60009,7 +60081,7 @@
             ],
             "issued": "2021-12-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-15",
+            "modified": "2022-12-06",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -60148,7 +60220,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-01",
+            "modified": "2022-12-08",
             "keyword": [
                 "age",
                 "age group",
