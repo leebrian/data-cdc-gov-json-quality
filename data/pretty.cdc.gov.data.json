@@ -519,7 +519,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-08",
+            "modified": "2022-12-15",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -764,7 +764,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -905,7 +905,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-10",
+            "modified": "2022-12-18",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2221,7 +2221,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "age",
                 "all causes",
@@ -2943,7 +2943,7 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-12-08",
+            "modified": "2022-12-15",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2963,7 +2963,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "<b>Note:</b>\n<b>December 8, 2022:</b> Due to a statewide network issue, CDC did not receive updated case or death data from Georgia. As a result, case and death metrics will be reported as 0 in COVID Data Tracker\u2019s December 8, 2022, release. COVID-19 Community Levels and Community Transmission metrics may be underestimated and should be interpreted with caution. \n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals.\n\nSee <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html\">COVID-19 by County</a> for more information.\n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/2022, thus the value",
+            "description": "This public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals.\n\nSee <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html\">COVID-19 by County</a> for more information.\n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/2022, thus the values were previously missing for records released the week prior.\n\n<b>April 7, 2022:</b> Updates made to data released on 3/24/2022 for Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands to correct a data mapping error.\n\n<b>April 21, 2022:</b> COVID-19 Community Level (CCL) data released for counties in Nebraska for the week of April",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -3086,8 +3086,8 @@
             ],
             "issued": "2022-07-25",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-08",
-            "modified": "2022-12-08",
+            "temporal": "2020-12-13/2022-12-16",
+            "modified": "2022-12-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -5313,7 +5313,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "age",
                 "age group",
@@ -6130,9 +6130,9 @@
                 "009:20"
             ],
             "issued": "2022-11-18",
-            "temporal": "October 3, 2021 - October 22, 2022",
+            "temporal": "October 3, 2021 - November 19, 2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-04",
+            "modified": "2022-12-16",
             "keyword": [
                 "covid-19 bivalent boosters",
                 "covid-19 booster doses",
@@ -6151,7 +6151,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/54ys-qyzm",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Updated (Bivalent) Booster Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\n\nThese data were posted on November 22, 2022 and reflect cases among persons with a positive specimen collection date through October 22, 2022, and deaths among persons with a positive specimen collection date through October 1, 2022. These data will be updated monthly. Please note that these provisional data are subject to change. \n\nVaccination status: A person vaccinated with at least a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected. A person vaccinated with a primary series and a monovalent booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and at least one additional dose of any monovalent FDA-authorized or approved COVID-19 vaccine on or after August 13, 2021. (Note: this definition does not distinguish between vaccine recipients who are immunocompromised and are receiving an additional dose versus those who are not immunocompromised and receiving a booster dose.) A person vaccinated with a primary series and an updated (bivalent) booster dose had SARS-CoV-2 RNA or antigen detected in a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and an additional dose of any bivalent FDA-authorized or approved vaccine COVID-19 vaccine on or after September 1, 2022. (Note: Doses with bivalent doses reported as first or second doses are classified as vaccinated with a bivalent booster dose.) People with primary series or a monovalent booster dose were combined in the \u201cvaccinated without an updated booster\u201d category. \n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Per the interim\u202fguidance of the Council of State and Territorial Epidemiologists (CSTE),\u202fthis should include persons whose death certificate lists COVID-19 disease or SARS-CoV-2 as the underlying cause of death or as a significant condition contributing to death. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis. \n\nParticipating jurisdictions: Currently, these 21 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Colorado, District of Columbia, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Mexico, North Carolina, South Dakota, Tennessee, Texas, Utah, and Washington; 21 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 41% of the total U.S. population and all ten of the Health and Human Services Regions. This list will be updated as more jurisdictions participate.    \n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination status were calculated as the number of cases or deaths divided by the number of",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Updated (Bivalent) Booster Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\n\nThese data were posted on December 16, 2022 and reflect cases among persons with a positive specimen collection date through November 19, 2022, and deaths among persons with a positive specimen collection date through October 29, 2022. These data will be updated monthly. Please note that these provisional data are subject to change. \n\nVaccination status: A person vaccinated with at least a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected. A person vaccinated with a primary series and a monovalent booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and at least one additional dose of any monovalent FDA-authorized or approved COVID-19 vaccine on or after August 13, 2021. (Note: this definition does not distinguish between vaccine recipients who are immunocompromised and are receiving an additional dose versus those who are not immunocompromised and receiving a booster dose.) A person vaccinated with a primary series and an updated (bivalent) booster dose had SARS-CoV-2 RNA or antigen detected in a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and an additional dose of any bivalent FDA-authorized or approved vaccine COVID-19 vaccine on or after September 1, 2022. (Note: Doses with bivalent doses reported as first or second doses are classified as vaccinated with a bivalent booster dose.) People with primary series or a monovalent booster dose were combined in the \u201cvaccinated without an updated booster\u201d category. \n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Per the interim\u202fguidance of the Council of State and Territorial Epidemiologists (CSTE),\u202fthis should include persons whose death certificate lists COVID-19 disease or SARS-CoV-2 as the underlying cause of death or as a significant condition contributing to death. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis. \n\nParticipating jurisdictions: Currently, these 23 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arkansas, Arizona, Colorado, District of Columbia, Georgia, Indiana,  Kansas, Kentucky, Louisiana, Massachusetts, Minnesota, Nebraska, New Mexico, New Jersey, New York, North Carolina, South Dakota, Tennessee, Texas, Utah, Washington and West Virginia; 22 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 50% of the total U.S. population and all ten of the Health and Human Services Regions. This list will be updated as more jurisdictions participate.    \n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination status were calculated as the number of cases or",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Updated (Bivalent) Booster Status",
             "programCode": [
                 "009:038"
@@ -6895,8 +6895,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-08",
-            "modified": "2022-12-08",
+            "temporal": "2020-12-13/2022-12-16",
+            "modified": "2022-12-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -7036,7 +7036,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-08",
+            "modified": "2022-12-17",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -8026,7 +8026,7 @@
             ],
             "issued": "2021-01-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-16",
+            "modified": "2022-12-13",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -8054,7 +8054,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/66cx-b9a4",
-            "description": "2010-2021.  National Quitline Data Warehouse (NQDW). State Tobacco Activities Tracking and Evaluation (STATE) System.  NQDW Data.  National Quitline Data Warehouse (NQDW) assists in evaluating quitline activities and serves as a national resource for data on the use, success, and services of state quitlines.  States report data on quitline callers, quitting success, as well as the services provided by their quitlines. The NQDW consolidates this information for evaluating programs and improving quitline services.  The jurisdictions participating in this data collection effort include the 50 states, the District of Columbia, Guam and Puerto Rico.",
+            "description": "2010-2020.  National Quitline Data Warehouse (NQDW). State Tobacco Activities Tracking and Evaluation (STATE) System.  NQDW Data.  National Quitline Data Warehouse (NQDW) assists in evaluating quitline activities and serves as a national resource for data on the use, success, and services of state quitlines.  States report data on quitline callers, quitting success, as well as the services provided by their quitlines. The NQDW consolidates this information for evaluating programs and improving quitline services.  The jurisdictions participating in this data collection effort include the 50 states, the District of Columbia, Guam and Puerto Rico.",
             "title": "Quitline \u2013 Services Available \u2013 Counseling - 2010 To Present",
             "programCode": [
                 "009:020"
@@ -8835,7 +8835,7 @@
             "issued": "2021-11-16",
             "@type": "dcat:Dataset",
             "temporal": "2021-2022",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "keyword": [
                 "adults",
                 "age",
@@ -11014,7 +11014,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-08",
+            "modified": "2022-12-15",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -11737,7 +11737,7 @@
             "issued": "2021-11-03",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "references": [
                 "IQVIA Pharmacy and Physician Medical Office Claims"
             ],
@@ -12700,7 +12700,7 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "NCIRD",
@@ -13091,8 +13091,8 @@
             ],
             "issued": "2022-12-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-08",
-            "modified": "2022-12-09",
+            "temporal": "2020-12-13/2022-12-16",
+            "modified": "2022-12-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -13967,7 +13967,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "age",
                 "age group",
@@ -14225,7 +14225,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14523,7 +14523,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -15518,12 +15518,11 @@
             "issued": "2022-09-09",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-09-03",
-            "modified": "2022-10-28",
+            "modified": "2022-12-16",
             "keyword": [
                 "age",
                 "age group",
                 "all causes",
-                "children",
                 "coronavirus",
                 "covid-19",
                 "deaths",
@@ -15533,7 +15532,6 @@
                 "nchs",
                 "nvss",
                 "provisional",
-                "puerto rico",
                 "race",
                 "united states",
                 "weekly"
@@ -15548,7 +15546,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/9xc7-3a4q",
-            "description": "Deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by time-period, HHS region, race and Hispanic origin, and age groups (<65, 65-74. 75-84, 85+, and 65+).",
+            "description": "Deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by time-period, HHS region, race and Hispanic origin, and age groups (<65, 65-74. 75-84, 85+, and 65+).\n\nUnited States death counts include the 50 states, plus the District of Columbia and New York City. The ten (10) United States Department of Health and Human Services (HHS) regions include the following jurisdictions. Region 1: Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont; Region 2: New Jersey, New York, New York City; Region 3: Delaware, District of Columbia, Maryland, Pennsylvania, Virginia, West Virginia; Region 4: Alabama, Florida, Georgia, Kentucky, Mississippi, North Carolina, South Carolina, Tennessee; Region 5: Illinois, Indiana, Michigan, Minnesota, Ohio, Wisconsin; Region 6: Arkansas, Louisiana, New Mexico, Oklahoma, Texas; Region 7: Iowa, Kansas, Missouri, Nebraska; Region 8: Colorado, Montana, North Dakota, South Dakota, Utah, Wyoming; Region 9: Arizona, California, Hawaii, Nevada; Region 10: Alaska, Idaho, Oregon, Washington.",
             "title": "AH Provisional COVID-19 Deaths by HHS Region, Race, Age 65plus",
             "programCode": [
                 "009:020"
@@ -16523,7 +16521,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-06-15",
+            "modified": "2022-12-13",
             "keyword": [
                 "immunization",
                 "pneumococcal",
@@ -16734,7 +16732,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-05",
+            "modified": "2022-12-12",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17926,7 +17924,7 @@
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
             "temporal": "Monthly",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "keyword": [
                 "adults",
                 "coverage",
@@ -18500,7 +18498,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -19057,7 +19055,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-09",
+            "modified": "2022-12-18",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -19669,9 +19667,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-11-28",
+            "issued": "2022-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-28",
+            "modified": "2022-12-15",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -20923,8 +20921,8 @@
             ],
             "issued": "2020-10-21",
             "@type": "dcat:Dataset",
-            "temporal": "2020-02-01/2022-02-26",
-            "modified": "2022-09-30",
+            "temporal": "2020-02-01/2022-05-31",
+            "modified": "2022-12-15",
             "keyword": [
                 "coronavirus",
                 "covid",
@@ -22376,7 +22374,7 @@
             "issued": "2022-10-27",
             "@type": "dcat:Dataset",
             "temporal": "2022-10-20/-",
-            "modified": "2022-12-08",
+            "modified": "2022-12-15",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn"
             ],
@@ -24627,7 +24625,7 @@
             ],
             "issued": "2021-01-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-16",
+            "modified": "2022-12-13",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -24655,7 +24653,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/equ4-92qe",
-            "description": "2010-2021.  National Quitline Data Warehouse (NQDW). State Tobacco Activities Tracking and Evaluation (STATE) System.  NQDW Data.  National Quitline Data Warehouse (NQDW) assists in evaluating quitline activities and serves as a national resource for data on the use, success, and services of state quitlines.  States report data on quitline callers, quitting success, as well as the services provided by their quitlines. The NQDW consolidates this information for evaluating programs and improving quitline services.  The jurisdictions participating in this data collection effort include the 50 states, the District of Columbia, Guam and Puerto Rico.",
+            "description": "2010-2020.  National Quitline Data Warehouse (NQDW). State Tobacco Activities Tracking and Evaluation (STATE) System.  NQDW Data.  National Quitline Data Warehouse (NQDW) assists in evaluating quitline activities and serves as a national resource for data on the use, success, and services of state quitlines.  States report data on quitline callers, quitting success, as well as the services provided by their quitlines. The NQDW consolidates this information for evaluating programs and improving quitline services.  The jurisdictions participating in this data collection effort include the 50 states, the District of Columbia, Guam and Puerto Rico.",
             "title": "Quitline \u2013 Service Utilization - 2010 To Present",
             "programCode": [
                 "009:020"
@@ -24913,10 +24911,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-12-03",
+            "issued": "2022-12-15",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "references": [
                 "NIS-Flu"
             ],
@@ -26504,7 +26502,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "references": [
                 "Vaccine Safety Datalink"
             ],
@@ -27056,7 +27054,7 @@
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -27190,7 +27188,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-10",
+            "modified": "2022-12-18",
             "keyword": [
                 "wastewater"
             ],
@@ -27872,7 +27870,7 @@
             ],
             "issued": "2022-06-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-22",
+            "modified": "2022-12-13",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -28565,7 +28563,7 @@
             ],
             "issued": "2015-02-20",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-20",
+            "modified": "2022-12-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -29535,7 +29533,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -29633,7 +29631,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31743,7 +31741,7 @@
             "issued": "2022-10-18",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-10-15",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32083,7 +32081,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-05",
+            "modified": "2022-12-12",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -32706,9 +32704,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-11-28",
+            "issued": "2022-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-28",
+            "modified": "2022-12-15",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -32907,7 +32905,7 @@
             "issued": "2022-10-19",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2022-12-08",
+            "modified": "2022-12-15",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6"
             ],
@@ -33082,8 +33080,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-08",
-            "modified": "2022-12-08",
+            "temporal": "2020-12-13/2022-12-16",
+            "modified": "2022-12-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -33548,7 +33546,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -33753,7 +33751,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "age",
                 "age group",
@@ -34614,7 +34612,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2018-2023",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "references": [
                 "CDC"
             ],
@@ -34752,7 +34750,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -35155,7 +35153,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-01",
+            "modified": "2022-12-15",
             "keyword": [
                 "cares act",
                 "health system",
@@ -35219,7 +35217,7 @@
             ],
             "issued": "2022-11-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-28",
+            "modified": "2022-12-15",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -35550,8 +35548,8 @@
             ],
             "issued": "2022-11-23",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-08",
-            "modified": "2022-12-08",
+            "temporal": "2020-12-13/2022-12-16",
+            "modified": "2022-12-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -35962,7 +35960,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36292,7 +36290,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "age",
                 "age group",
@@ -39022,7 +39020,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -40820,7 +40818,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "age",
                 "age group",
@@ -41688,7 +41686,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-08",
+            "modified": "2022-12-15",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -41999,7 +41997,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -42920,7 +42918,7 @@
             "issued": "2022-10-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2022-12-08",
+            "modified": "2022-12-15",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -44280,7 +44278,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -45285,7 +45283,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-05",
+            "modified": "2022-12-12",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -45815,7 +45813,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -46407,8 +46405,8 @@
             ],
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-08",
-            "modified": "2022-12-08",
+            "temporal": "2020-12-13/2022-12-16",
+            "modified": "2022-12-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -46860,7 +46858,7 @@
             ],
             "issued": "2018-10-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-06",
+            "modified": "2022-12-16",
             "references": [
                 "https://chronicdata.cdc.gov/d/vtwh-8kxg"
             ],
@@ -46993,7 +46991,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-06",
+            "modified": "2022-12-13",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -48434,7 +48432,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "age",
                 "age group",
@@ -49465,7 +49463,7 @@
             ],
             "issued": "2021-01-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-16",
+            "modified": "2022-12-13",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -49493,7 +49491,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/tbyb-bvjd",
-            "description": "2010-2021.  National Quitline Data Warehouse (NQDW). State Tobacco Activities Tracking and Evaluation (STATE) System.  NQDW Data.  National Quitline Data Warehouse (NQDW) assists in evaluating quitline activities and serves as a national resource for data on the use, success, and services of state quitlines.  States report data on quitline callers, quitting success, as well as the services provided by their quitlines. The NQDW consolidates this information for evaluating programs and improving quitline services.  The jurisdictions participating in this data collection effort include the 50 states, the District of Columbia, Guam and Puerto Rico.",
+            "description": "2010-2020.  National Quitline Data Warehouse (NQDW). State Tobacco Activities Tracking and Evaluation (STATE) System.  NQDW Data.  National Quitline Data Warehouse (NQDW) assists in evaluating quitline activities and serves as a national resource for data on the use, success, and services of state quitlines.  States report data on quitline callers, quitting success, as well as the services provided by their quitlines. The NQDW consolidates this information for evaluating programs and improving quitline services.  The jurisdictions participating in this data collection effort include the 50 states, the District of Columbia, Guam and Puerto Rico.",
             "title": "Quitline \u2013 Services Available \u2013 Medications - 2010 To Present",
             "programCode": [
                 "009:020"
@@ -50031,7 +50029,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-07-12",
+            "modified": "2022-12-13",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -50059,7 +50057,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/tid6-xphm",
-            "description": "2010-2021.  National Quitline Data Warehouse (NQDW). State Tobacco Activities Tracking and Evaluation (STATE) System.  NQDW Data.  National Quitline Data Warehouse (NQDW) assists in evaluating quitline activities and serves as a national resource for data on the use, success, and services of state quitlines.  States report data on quitline callers, quitting success, as well as the services provided by their quitlines. The NQDW consolidates this information for evaluating programs and improving quitline services.  The jurisdictions participating in this data collection effort include the 50 states, the District of Columbia, Guam and Puerto Rico.",
+            "description": "2010-2020.  National Quitline Data Warehouse (NQDW). State Tobacco Activities Tracking and Evaluation (STATE) System.  NQDW Data.  National Quitline Data Warehouse (NQDW) assists in evaluating quitline activities and serves as a national resource for data on the use, success, and services of state quitlines.  States report data on quitline callers, quitting success, as well as the services provided by their quitlines. The NQDW consolidates this information for evaluating programs and improving quitline services.  The jurisdictions participating in this data collection effort include the 50 states, the District of Columbia, Guam and Puerto Rico.",
             "title": "Quitline \u2013 Quitline Names and Phone Numbers",
             "programCode": [
                 "009:020"
@@ -50201,7 +50199,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-16",
             "keyword": [
                 "age",
                 "age group",
@@ -50231,7 +50229,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/tpcp-uiv5",
-            "description": "Deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by time-period, HHS region, race and Hispanic origin, and age group.",
+            "description": "Deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by time-period, HHS region, race and Hispanic origin, and age group.\n\nUnited States death counts include the 50 states, plus the District of Columbia and New York City. The ten (10) United States Department of Health and Human Services (HHS) regions include the following jurisdictions. Region 1: Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont; Region 2: New Jersey, New York, New York City, Puerto Rico; Region 3: Delaware, District of Columbia, Maryland, Pennsylvania, Virginia, West Virginia; Region 4: Alabama, Florida, Georgia, Kentucky, Mississippi, North Carolina, South Carolina, Tennessee; Region 5: Illinois, Indiana, Michigan, Minnesota, Ohio, Wisconsin; Region 6: Arkansas, Louisiana, New Mexico, Oklahoma, Texas; Region 7: Iowa, Kansas, Missouri, Nebraska; Region 8: Colorado, Montana, North Dakota, South Dakota, Utah, Wyoming; Region 9: Arizona, California, Hawaii, Nevada; Region 10: Alaska, Idaho, Oregon, Washington.",
             "title": "Provisional COVID-19 Deaths by HHS Region, Race, and Age",
             "programCode": [
                 "009:020"
@@ -50711,7 +50709,7 @@
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
             "temporal": "Monthly",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "keyword": [
                 "adults",
                 "coverage",
@@ -51042,7 +51040,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -51746,7 +51744,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-05",
+            "modified": "2022-12-12",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -51859,7 +51857,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -52067,8 +52065,8 @@
             ],
             "issued": "2022-11-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-08",
-            "modified": "2022-12-08",
+            "temporal": "2020-12-13/2022-12-16",
+            "modified": "2022-12-16",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -52139,7 +52137,7 @@
             ],
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-22",
+            "modified": "2022-12-13",
             "keyword": [
                 "covid-19",
                 "covid-19 vaccination",
@@ -52531,7 +52529,7 @@
             "issued": "2022-12-07",
             "@type": "dcat:Dataset",
             "temporal": "Monthly",
-            "modified": "2022-12-09",
+            "modified": "2022-12-16",
             "keyword": [
                 "adults",
                 "ethnicity",
@@ -52864,7 +52862,7 @@
             ],
             "issued": "2020-05-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-14",
+            "modified": "2022-12-12",
             "references": [
                 "https://www.cms.gov/files/document/Accelerated-and-Advanced-Payments-Fact-Sheet.pdf"
             ],
@@ -53731,7 +53729,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-18",
+            "modified": "2022-12-13",
             "keyword": [
                 "flu vaccination",
                 "immunization",
@@ -54334,7 +54332,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "age",
                 "age group",
@@ -54408,7 +54406,7 @@
             ],
             "issued": "2021-01-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-16",
+            "modified": "2022-12-13",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -54436,7 +54434,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/vtt8-av2v",
-            "description": "2010-2021.  National Quitline Data Warehouse (NQDW). State Tobacco Activities Tracking and Evaluation (STATE) System.  NQDW Data.  National Quitline Data Warehouse (NQDW) assists in evaluating quitline activities and serves as a national resource for data on the use, success, and services of state quitlines.  States report data on quitline callers, quitting success, as well as the services provided by their quitlines. The NQDW consolidates this information for evaluating programs and improving quitline services.  The jurisdictions participating in this data collection effort include the 50 states, the District of Columbia, Guam and Puerto Rico.",
+            "description": "2010-2020.  National Quitline Data Warehouse (NQDW). State Tobacco Activities Tracking and Evaluation (STATE) System.  NQDW Data.  National Quitline Data Warehouse (NQDW) assists in evaluating quitline activities and serves as a national resource for data on the use, success, and services of state quitlines.  States report data on quitline callers, quitting success, as well as the services provided by their quitlines. The NQDW consolidates this information for evaluating programs and improving quitline services.  The jurisdictions participating in this data collection effort include the 50 states, the District of Columbia, Guam and Puerto Rico.",
             "title": "Quitline \u2013 Services Available \u2013 Hours Of Operation And Available Languages - 2010 To Present",
             "programCode": [
                 "009:020"
@@ -55470,7 +55468,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-06",
+            "modified": "2022-12-16",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -57345,7 +57343,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-09",
+            "modified": "2022-12-15",
             "keyword": [
                 "2022",
                 "nndss",
@@ -57884,7 +57882,7 @@
             ],
             "issued": "2018-03-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-16",
+            "modified": "2022-12-14",
             "keyword": [
                 "cocaine",
                 "deaths",
@@ -57914,7 +57912,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/xkb8-kh2a",
-            "description": "This data contains provisional counts for drug overdose deaths based on a current flow of mortality data in the National Vital Statistics System. Counts for the most recent final annual data are provided for comparison. National provisional counts include deaths occurring within the 50 states and the District of Columbia as of the date specified and may not include all deaths that occurred during a given time period. Provisional counts are often incomplete and causes of death may be pending investigation (see Technical notes) resulting in an underestimate relative to final counts. To address this, methods were developed to adjust provisional counts for reporting delays by generating a set of predicted provisional counts (see Technical notes). Starting in June 2018, this monthly data release will include both reported and predicted provisional counts.\r\n\r\nThe provisional data include: (a) the reported and predicted provisional counts of deaths due to drug overdose occurring nationally and in each jurisdiction; (b) the percentage changes in provisional drug overdose deaths for the current 12 month-ending period compared with the 12-month period ending in the same month of the previous year, by jurisdiction; and (c) the reported and predicted provisional counts of drug overdose deaths involving specific drugs or drug classes occurring nationally and in selected jurisdictions. The reported and predicted provisional counts represent the numbers of deaths due to drug overdose occurring in the 12-month periods ending in the month indicated. These counts include all seasons of the year and are insensitive to variations by seasonality. Deaths are reported by the jurisdiction in which the death occurred.\r\n\r\nSeveral data quality metrics, including the percent completeness in overall death reporting, percentage of deaths with cause of death pending further investigation, and the percentage of drug overdose deaths with specific drugs or drug classes reported are included to aid in interpretation of provisional data as these measures are related to the accuracy of provisional counts (see Technical notes). Reporting of the specific drugs and drug classes involved in drug overdose deaths varies by jurisdiction, and comparisons of death rates involving specific drugs across selected jurisdictions should not be made (see Technical notes). Provisional data will be updated on a monthly basis as additional records are received.\r\n\r\nTechnical notes\r\n\r\nNature and sources of data\r\n\r\nProvisional drug overdose death counts are based on death records received and processed by the National Center for Health Statistics (NCHS) as of a specified cutoff date. The cutoff date is generally the first Sunday of each month. National provisional estimates include deaths occurring within the 50 states and the District of Columbia. NCHS receives the death records from state vital registration offices through the Vital Statistics Cooperative Program (VSCP).\r\n\r\nThe timeliness of provisional mortality surveillance data in the National Vital Statistics System (NVSS) database varies by cause of death. The lag time (i.e., the time between when the death occurred and when the data are available for analysis) is longer for drug overdose deaths compared with other causes of death (1). Thus, provisional estimates of drug overdose deaths are reported 6 months after the date of death.\r\n\r\nProvisional death counts presented in this data visualization are for \u201c12-month ending periods,\u201d defined as the number of deaths occurring in the 12-month period ending in the month indicated. For example, the 12-month ending period in June 2017 would include deaths occurring from July 1, 2016, through June 30, 2017. The 12-month ending period counts include all seasons of the year and are insensitive to reporting variations by seasonality. Counts for the 12-month period ending in the same month of the previous year are shown for comparison. These provisional counts of drug overdose deaths and re",
+            "description": "This data presents provisional counts for drug overdose deaths based on a current flow of mortality data in the National Vital Statistics System. Counts for the most recent final annual data are provided for comparison. National provisional counts include deaths occurring within the 50 states and the District of Columbia as of the date specified and may not include all deaths that occurred during a given time period. Provisional counts are often incomplete and causes of death may be pending investigation resulting in an underestimate relative to final counts. To address this, methods were developed to adjust provisional counts for reporting delays by generating a set of predicted provisional counts.\n\nSeveral data quality metrics, including the percent completeness in overall death reporting, percentage of deaths with cause of death pending further investigation, and the percentage of drug overdose deaths with specific drugs or drug classes reported are included to aid in interpretation of provisional data as these measures are related to the accuracy of provisional counts. Reporting of the specific drugs and drug classes involved in drug overdose deaths varies by jurisdiction, and comparisons of death rates involving specific drugs across selected jurisdictions should not be made. Provisional data presented will be updated on a monthly basis as additional records are received.\n\nFor more information please visit: https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm",
             "title": "VSRR Provisional Drug Overdose Death Counts",
             "programCode": [
                 "009:020"
@@ -57962,7 +57960,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -59416,7 +59414,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-07",
+            "modified": "2022-12-14",
             "keyword": [
                 "age",
                 "age group",
@@ -59810,9 +59808,9 @@
                 "009:20"
             ],
             "issued": "2022-06-01",
-            "temporal": "2016/2019",
+            "temporal": "2016/2020",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-25",
+            "modified": "2022-12-15",
             "keyword": [
                 "emergency department",
                 "national hospital ambulatory medical care survey",
@@ -59829,8 +59827,8 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/ycxr-emue",
-            "description": "The National Hospital Ambulatory Medical Care Survey (NHAMCS), conducted by the National Center for Health Statistics (NCHS), collects annual data on visits to emergency departments to describe patterns of utilization and provision of ambulatory care delivery in the United States. Data are collected from nonfederal, general, and short-stay hospitals from all 50 U.S. states and the District of Columbia, and are used to develop nationally representative estimates. \n\nThe data include counts and rates of emergency department visits from 2016-2019 for the 10 leading primary diagnoses and reasons for visit, stratified by selected patient and hospital characteristics. Rankings for the 10 leading categories were identified using weighted data from 2019 and were then assessed in prior years.",
-            "title": "Estimates of Emergency Department Visits in the United States from 2016-2019",
+            "description": "The National Hospital Ambulatory Medical Care Survey (NHAMCS), conducted by the National Center for Health Statistics (NCHS), collects annual data on visits to emergency departments to describe patterns of utilization and provision of ambulatory care delivery in the United States. Data are collected from nonfederal, general, and short-stay hospitals from all 50 U.S. states and the District of Columbia, and are used to develop nationally representative estimates. \n\nThe data include counts and rates of emergency department visits from 2016-2020 for the 10 leading primary diagnoses and reasons for visit, stratified by selected patient and hospital characteristics. Rankings for the 10 leading categories were identified using weighted data from 2020 and were then assessed in prior years.",
+            "title": "Estimates of Emergency Department Visits in the United States from 2016-2020",
             "programCode": [
                 "009:020"
             ],
@@ -60220,7 +60218,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-08",
+            "modified": "2022-12-15",
             "keyword": [
                 "age",
                 "age group",
