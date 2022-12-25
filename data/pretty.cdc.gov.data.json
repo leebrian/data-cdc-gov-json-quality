@@ -519,7 +519,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-15",
+            "modified": "2022-12-22",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -905,7 +905,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-18",
+            "modified": "2022-12-25",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1744,7 +1744,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-17",
+            "modified": "2022-12-22",
             "keyword": [
                 "legislation",
                 "osh",
@@ -2221,7 +2221,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "age",
                 "all causes",
@@ -2423,7 +2423,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2019/2021",
-            "modified": "2022-08-19",
+            "modified": "2022-12-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
             ],
@@ -2943,7 +2943,7 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2022-12-15",
+            "modified": "2022-12-22",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2963,7 +2963,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "This public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals.\n\nSee <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html\">COVID-19 by County</a> for more information.\n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/2022, thus the values were previously missing for records released the week prior.\n\n<b>April 7, 2022:</b> Updates made to data released on 3/24/2022 for Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands to correct a data mapping error.\n\n<b>April 21, 2022:</b> COVID-19 Community Level (CCL) data released for counties in Nebraska for the week of April",
+            "description": "<b>Note:</b>\n<b>December 22, 2022</b>: Due to an internal revision process, case rates for some Tennessee counties may appear higher than expected in the December 22, 2022, COVID Data Tracker release. Therefore, the COVID-19 Community Levels and Community Transmission levels for some Tennessee counties may be overestimated and should be interpreted with caution.\n\n<b>December 22, 2022</b>: Due to reporting of a backlog of historic COVID-19 cases, case rates for some Louisiana counties will appear higher than expected in the December 22, 2022, COVID Data Tracker release. Therefore, the COVID-19 Community Levels and Community Transmission levels for some Louisiana counties may be overestimated and should be interpreted with caution.   \n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals.\n\nSee <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html\">COVID-19 by County</a> for more information.\n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column de",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -3086,8 +3086,8 @@
             ],
             "issued": "2022-07-25",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-16",
-            "modified": "2022-12-16",
+            "temporal": "2020-12-13/2022-12-23",
+            "modified": "2022-12-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -5313,7 +5313,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "age",
                 "age group",
@@ -6132,7 +6132,7 @@
             "issued": "2022-11-18",
             "temporal": "October 3, 2021 - November 19, 2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-16",
+            "modified": "2022-12-22",
             "keyword": [
                 "covid-19 bivalent boosters",
                 "covid-19 booster doses",
@@ -6416,6 +6416,55 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/medicaid-restricted.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-12-20",
+            "temporal": "2014-2019",
+            "@type": "dcat:Dataset",
+            "modified": "2022-12-20",
+            "references": [
+                "https://www.cdc.gov/nchs/data/datalinkage/NCHS-CMS-TMSIS-linked-data-list-of-variables.pdf"
+            ],
+            "keyword": [
+                "linked medicaid files",
+                "nchs surveys",
+                "research-data-center",
+                "t-msis"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS Data Linkage Program",
+                "hasEmail": "mailto:DataLinkage@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/5cg4-4qqe",
+            "description": "NCHS has linked various surveys with Medicaid enrollment and claims records collected from the Centers for Medicare & Medicaid Services (CMS) Transformed Medicaid Statistical Information System (T-MSIS). Linkage of the NCHS survey participants with the CMS T-MSIS data creates a new data resource that can support research studies focused on a wide range of patient health outcomes and the association of means-tested government insurance programs on health and health outcomes.",
+            "title": "NCHS Survey Data Linked to Centers for Medicare & Medicaid Services (CMS) Medicaid Enrollment and Claims Files",
+            "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "describedBy": "Match status can be found in the match rate tables here: https://www.cdc.gov/nchs/data/datalinkage/NCHS-TMSIS-MATCH-STATUS.pdf",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -6895,8 +6944,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-16",
-            "modified": "2022-12-16",
+            "temporal": "2020-12-13/2022-12-23",
+            "modified": "2022-12-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -7036,7 +7085,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-17",
+            "modified": "2022-12-24",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -9519,7 +9568,7 @@
             ],
             "issued": "2015-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-23",
+            "modified": "2022-12-22",
             "keyword": [
                 "cigarette excise tax",
                 "slides"
@@ -11014,7 +11063,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-15",
+            "modified": "2022-12-22",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -11872,7 +11921,7 @@
             ],
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-01",
+            "modified": "2022-12-22",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -13091,8 +13140,8 @@
             ],
             "issued": "2022-12-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-16",
-            "modified": "2022-12-16",
+            "temporal": "2020-12-13/2022-12-23",
+            "modified": "2022-12-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -13967,7 +14016,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "age",
                 "age group",
@@ -14225,7 +14274,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14523,7 +14572,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -16732,7 +16781,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-12",
+            "modified": "2022-12-20",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17003,7 +17052,7 @@
             "issued": "2022-11-04",
             "@type": "dcat:Dataset",
             "temporal": "2022-01-01/2022-03-31",
-            "modified": "2022-11-14",
+            "modified": "2022-12-19",
             "keyword": [
                 "coronavirus",
                 "covid",
@@ -17332,6 +17381,55 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/nhcs-medicaid.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-12-20",
+            "temporal": "2015-2017",
+            "@type": "dcat:Dataset",
+            "modified": "2022-12-20",
+            "references": [
+                "https://www.cdc.gov/nchs/data/datalinkage/NCHS-TMSIS-MATCH-STATUS.pdf"
+            ],
+            "keyword": [
+                "linked medicaid data",
+                "nhcs",
+                "research-data-center",
+                "t-msis"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS Data Linkage Program",
+                "hasEmail": "mailto:DataLinkage@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/ay69-birh",
+            "description": "Through its data linkage program, NCHS has been able to expand the analytic utility of the data collected from the National Hospital Care Survey (NHCS) by augmenting it with Medicaid and Children\u2019s Health Insurance Program (CHIP) claims data collected by the Centers for Medicare & Medicaid Services (CMS) Transformed Medicaid Statistical Information System (T-MSIS). Linkage of NHCS patient data with T-MSIS enrollment and claims data creates a new data resource that can support research studies focused on a wide range of patient health outcomes and the association of means-tested government insurance programs with health and health outcomes.",
+            "title": "National Hospital Care Survey (NHCS) linked to Centers for Medicare & Medicaid (CMS) Medicaid Data",
+            "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "describedBy": "Match status can be found in the match rate table (see Table 1 on page 22) here: https://www.cdc.gov/nchs/data/datalinkage/2016-nhcs-cms-medicaid-linkage-methodology.pdf",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -18498,7 +18596,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-16",
+            "modified": "2022-12-21",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -18553,7 +18651,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2019/2021",
-            "modified": "2022-08-19",
+            "modified": "2022-12-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
             ],
@@ -19055,7 +19153,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-18",
+            "modified": "2022-12-25",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -20922,7 +21020,7 @@
             "issued": "2020-10-21",
             "@type": "dcat:Dataset",
             "temporal": "2020-02-01/2022-05-31",
-            "modified": "2022-12-15",
+            "modified": "2022-12-22",
             "keyword": [
                 "coronavirus",
                 "covid",
@@ -22374,7 +22472,7 @@
             "issued": "2022-10-27",
             "@type": "dcat:Dataset",
             "temporal": "2022-10-20/-",
-            "modified": "2022-12-15",
+            "modified": "2022-12-22",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn"
             ],
@@ -27188,7 +27286,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-18",
+            "modified": "2022-12-25",
             "keyword": [
                 "wastewater"
             ],
@@ -29533,7 +29631,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -29631,7 +29729,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -30027,6 +30125,74 @@
                     "describedByType": "application/xml",
                     "@type": "dcat:Distribution"
                 }
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/hrdz-jaxc",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2022-12-20",
+            "@type": "dcat:Dataset",
+            "temporal": "2020-03-01/-",
+            "modified": "2022-12-23",
+            "keyword": [
+                "case",
+                "community transmission",
+                "coronavirus",
+                "county",
+                "covid-19",
+                "laboratory"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Surveillance Review and Response Group",
+                "hasEmail": "mailto:eocevent394@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/hrdz-jaxc",
+            "description": "This table summarizes COVID-19 case and death data submitted to CDC as case reports for the line-level dataset. Case and death counts are stratified according to sex, age, and race and ethnicity at regional and national levels. Data for US territories are included in case and death counts, but not population counts. Weekly cumulative counts with five or fewer cases or deaths are not reported to protect confidentiality of patients. Records with unknown or missing sex, age, or race and ethnicity and of multiple, non-Hispanic race and ethnicity are included in case and death totals. COVID-19 case and death data are provisional and are subject to change. Visualization of COVID-19 case and death rate trends by demographic variables may be viewed on COVID Data Tracker (<a href=\"https://covid.cdc.gov/covid-data-tracker/#demographicsovertime\">https://covid.cdc.gov/covid-data-tracker/#demographicsovertime</a>).",
+            "title": "COVID-19 Weekly Cases and Deaths by Age, Race/Ethnicity, and Sex",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/hrdz-jaxc/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/hrdz-jaxc/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hrdz-jaxc/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/hrdz-jaxc/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hrdz-jaxc/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/hrdz-jaxc/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hrdz-jaxc/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
+            "theme": [
+                "Public Health Surveillance"
             ]
         },
         {
@@ -30930,7 +31096,7 @@
             ],
             "issued": "2020-10-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-01",
+            "modified": "2022-12-22",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -31741,7 +31907,7 @@
             "issued": "2022-10-18",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-10-15",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31813,7 +31979,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-17",
+            "modified": "2022-12-22",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -32081,7 +32247,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-12",
+            "modified": "2022-12-20",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -32905,7 +33071,7 @@
             "issued": "2022-10-19",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2022-12-15",
+            "modified": "2022-12-22",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6"
             ],
@@ -33080,8 +33246,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-16",
-            "modified": "2022-12-16",
+            "temporal": "2020-12-13/2022-12-23",
+            "modified": "2022-12-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -33331,7 +33497,7 @@
             ],
             "issued": "2021-05-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "age",
                 "age group",
@@ -33546,7 +33712,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-16",
+            "modified": "2022-12-23",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -33751,7 +33917,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "age",
                 "age group",
@@ -34750,7 +34916,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -35548,8 +35714,8 @@
             ],
             "issued": "2022-11-23",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-16",
-            "modified": "2022-12-16",
+            "temporal": "2020-12-13/2022-12-23",
+            "modified": "2022-12-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -35960,7 +36126,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36290,7 +36456,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "age",
                 "age group",
@@ -37292,7 +37458,7 @@
             ],
             "issued": "2020-11-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "age",
                 "age group",
@@ -37369,7 +37535,7 @@
             ],
             "issued": "2015-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-23",
+            "modified": "2022-12-22",
             "keyword": [
                 "comprehensive smokefree indoor air",
                 "slides"
@@ -38418,6 +38584,56 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/rdc/index.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information. Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement. If approved, data access would occur at a NCHS or Federal Statistical Research Data Center. For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm.",
+            "issued": "2022-12-22",
+            "@type": "dcat:Dataset",
+            "temporal": "1982/2020",
+            "modified": "2022-12-22",
+            "keyword": [
+                "county",
+                "date of delivery",
+                "fetal death",
+                "nchs",
+                "research-data-center",
+                "united states"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:births@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/mny7-y385",
+            "description": "This dataset includes all fetal deaths for a given year and includes all items released in the public-use file. Additional information in this file includes state and county of residence (cities with a population of 250,000 or greater) and exact date of delivery (which includes day of month, month, and year).",
+            "title": "NCHS - All-County Fetal Death File with Exact Date of Delivery",
+            "isPartOf": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "mediaType": "text/html",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "description": "This dataset includes all fetal deaths for a given year and includes all items released in the public-use file. Additional information in this file includes state and county of residence (cities with a population of 250,000 or greater) and exact date of delivery (which includes day of month, month, and year).",
+                    "@type": "dcat:Distribution",
+                    "title": "NCHS - All-County Fetal Death File with Exact Date of Delivery"
+                }
+            ],
+            "spatial": "50 states and District of Columbia, all counties and cities with a population of 100,000 or greater",
+            "describedBy": "All registered fetal deaths occurring to residents of the United States for a given year",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/mpdg-hf57",
             "bureauCode": [
@@ -38957,7 +39173,7 @@
             ],
             "issued": "2021-09-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-04",
+            "modified": "2022-12-20",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -39020,7 +39236,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -39503,7 +39719,7 @@
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
             "temporal": "2019/2021",
-            "modified": "2022-08-17",
+            "modified": "2022-12-19",
             "keyword": [
                 "dhis",
                 "health statistics",
@@ -39531,7 +39747,8 @@
                 {
                     "@type": "dcat:Distribution",
                     "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "mediaType": "text/html"
+                    "mediaType": "text/html",
+                    "description": "The NHIS Paradata File contains paradata, which are data about the NHIS interview process collected as part of the NHIS interview. The Paradata File is on a case (household) level, where one record represents one case. The Paradata File is intended as both a stand-alone data file and one whose fully complete and sufficiently\ncomplete cases can be linked with the NHIS regular public use health data file."
                 }
             ],
             "spatial": "United States",
@@ -40818,7 +41035,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "age",
                 "age group",
@@ -41227,6 +41444,55 @@
             "describedBy": "https://chronicdata.cdc.gov/Nutrition-Physical-Activity-and-Obesity/CDC-Nutrition-Physical-Activity-and-Obesity-Legisl/nxst-x9p4",
             "theme": [
                 "Nutrition, Physical Activity, and Obesity"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/va-restricted.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-12-20",
+            "temporal": "Through 2020",
+            "@type": "dcat:Dataset",
+            "modified": "2022-12-20",
+            "references": [
+                "https://www.cdc.gov/nchs/data/datalinkage/va-match-status-all.pdf"
+            ],
+            "keyword": [
+                "linked va files",
+                "nchs surveys",
+                "research-data-center",
+                "veterans"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS Data Linkage Program",
+                "hasEmail": "mailto:DataLinkage@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/nxu4-tewx",
+            "description": "NCHS has linked 2005-2018 National Health Interview Survey (NHIS) and 2005-2018 National Health and Nutrition Examination Survey (NHANES) to Department of Veterans Affairs (VA) administrative data through fiscal year 2020. Linkage of NCHS survey participants with VA administrative data provides the opportunity to examine a wide range of health-related topics for Veterans, including Veteran status and utilization of VA benefit programs.",
+            "title": "NCHS Survey Data Linked to Department of Veterans Affairs Administrative Data Files",
+            "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "describedBy": "Match status can be found in the match rate tables here: https://www.cdc.gov/nchs/data/datalinkage/va-match-status-all.pdf",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -41686,7 +41952,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-15",
+            "modified": "2022-12-22",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -41997,7 +42263,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -42918,7 +43184,7 @@
             "issued": "2022-10-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2022-12-15",
+            "modified": "2022-12-22",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -44278,7 +44544,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -45283,7 +45549,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-12",
+            "modified": "2022-12-20",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -45813,7 +46079,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-16",
+            "modified": "2022-12-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -46405,8 +46671,8 @@
             ],
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-16",
-            "modified": "2022-12-16",
+            "temporal": "2020-12-13/2022-12-23",
+            "modified": "2022-12-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -46991,7 +47257,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-13",
+            "modified": "2022-12-20",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -48432,7 +48698,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "age",
                 "age group",
@@ -48628,7 +48894,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2019/2021",
-            "modified": "2022-08-23",
+            "modified": "2022-12-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
             ],
@@ -49057,7 +49323,7 @@
         },
         {
             "accessLevel": "restricted public",
-            "landingPage": "https://www.cdc.gov/nchs/data-linkage/medicaid-restricted.htm",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/max-linkage.htm",
             "bureauCode": [
                 "009:20"
             ],
@@ -49065,7 +49331,7 @@
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
             "temporal": "1999-2014",
-            "modified": "2022-07-01",
+            "modified": "2022-12-20",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/nchs-cms-medicaid-linked-data-list-of-variables.pdf"
             ],
@@ -49085,8 +49351,8 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/sv3x-rgz2",
-            "description": "NCHS has linked various surveys with Medicaid enrollment and claims records collected from the Centers for Medicare & Medicaid Services (CMS). Linkage of the NCHS survey participants with the CMS Medicaid data provides the opportunity to study changes in health status, health care utilization and expenditures in low income families with children and the elderly U.S. populations.",
-            "title": "NCHS Survey Data Linked to Centers for Medicare & Medicaid Services (CMS) Medicaid Enrollment and Claims Files",
+            "description": "NCHS has linked various surveys with the Medicaid Analytic eXtract (MAX) files collected from the Centers for Medicare & Medicaid Services (CMS). Linkage of the NCHS survey participants with the CMS Medicaid MAX data provides the opportunity to study changes in health status, health care utilization and expenditures in low-income families with children and the elderly U.S. populations.",
+            "title": "NCHS Survey Data Linked to Centers for Medicare & Medicaid Services (CMS) MAX Data",
             "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
             "describedByType": "application/pdf",
             "programCode": [
@@ -50199,7 +50465,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-16",
+            "modified": "2022-12-23",
             "keyword": [
                 "age",
                 "age group",
@@ -50405,7 +50671,7 @@
             "landingPage": "https://data.cdc.gov/d/tt3f-rr33",
             "issued": "2021-06-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-18",
+            "modified": "2022-12-19",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "CDC INFO",
@@ -51040,7 +51306,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -51744,7 +52010,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-12",
+            "modified": "2022-12-20",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -51857,7 +52123,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -52065,8 +52331,8 @@
             ],
             "issued": "2022-11-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2022-12-16",
-            "modified": "2022-12-16",
+            "temporal": "2020-12-13/2022-12-23",
+            "modified": "2022-12-23",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -52137,7 +52403,7 @@
             ],
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-13",
+            "modified": "2022-12-21",
             "keyword": [
                 "covid-19",
                 "covid-19 vaccination",
@@ -53242,6 +53508,55 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/nhcs-va.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2022-12-20",
+            "temporal": "Through 2020",
+            "@type": "dcat:Dataset",
+            "modified": "2022-12-20",
+            "references": [
+                "https://www.cdc.gov/nchs/data/datalinkage/NHCS-Linked-VA-Match-File.pdf"
+            ],
+            "keyword": [
+                "linked va files",
+                "nhcs",
+                "research-data-center",
+                "veterans"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS Data Linkage Program",
+                "hasEmail": "mailto:DataLinkage@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/vaca-65fb",
+            "description": "Through its data linkage program, NCHS has been able to expand the analytic utility of the data collected from the National Hospital Care Survey (NHCS) by augmenting it with administrative data from the Department of Veterans Affairs (VA). NHCS data have been linked to VA administrative data containing information on details of active-duty service in the United States uniformed services (such as branch of service and era of active-duty service) and VA benefit program utilization including VA health care, service-connected disability compensation, pension, VA guaranteed home loan program, life insurance, education, training and veteran readiness (vocational rehabilitation), and employment benefit programs.",
+            "title": "National Hospital Care Survey (NHCS) linked to Department of Veterans Affairs Administrative Data Files",
+            "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "describedBy": "Match status can be found in the match rate table (see Table 1 on page 9) here: https://www.cdc.gov/nchs/data/datalinkage/NHCS-VA-Linkage-Methods-and-Analytic-Considerations.pdf",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/vba9-s8jp",
             "bureauCode": [
                 "009:20"
@@ -54332,7 +54647,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "age",
                 "age group",
@@ -55468,7 +55783,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-16",
+            "modified": "2022-12-21",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -55847,7 +56162,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-17",
+            "modified": "2022-12-22",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -56352,6 +56667,58 @@
         },
         {
             "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information. Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement. If approved, data access would occur at a NCHS or Federal Statistical Research Data Center. For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm.",
+            "issued": "2022-12-22",
+            "@type": "dcat:Dataset",
+            "temporal": "2016/2020",
+            "modified": "2022-12-22",
+            "keyword": [
+                "births",
+                "county",
+                "date of birth",
+                "date of death",
+                "infant deaths",
+                "nhcs",
+                "research-data-center",
+                "united states"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:births@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/wis9-vyx6",
+            "description": "This dataset includes all infant deaths that were linked to their corresponding birth certificate and includes all items released in the public-use file. Additional information in this file includes state and county of residence and exact dates of birth and death (which includes day of month, month, and year).",
+            "title": "NCHS - All-County Linked Births/Infant Deaths File with Exact Dates of Birth and Death",
+            "isPartOf": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "mediaType": "text/html",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "description": "This dataset includes all infant deaths that were linked to their corresponding birth certificate and includes all items released in the public-use file. Additional information in this file includes state and county of residence and exact dates of birth and death (which includes day of month, month, and year).",
+                    "@type": "dcat:Distribution",
+                    "title": "NCHS - All-County Linked Births/Infant Deaths File with Exact Dates of Birth and Death"
+                }
+            ],
+            "spatial": "50 states and District of Columbia, all counties with a population of 100,000 or greater",
+            "describedBy": "All registered infant deaths linked with corresponding birth certificates occurring to residents of the United States",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
             "landingPage": "https://www.cdc.gov/nchs/nhis/index.htm",
             "bureauCode": [
                 "009:20"
@@ -56360,7 +56727,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2019/2021",
-            "modified": "2022-08-18",
+            "modified": "2022-12-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
             ],
@@ -57343,7 +57710,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-15",
+            "modified": "2022-12-22",
             "keyword": [
                 "2022",
                 "nndss",
@@ -57960,7 +58327,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -59414,7 +59781,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2022-12-21",
             "keyword": [
                 "age",
                 "age group",
@@ -60011,7 +60378,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-23",
+            "modified": "2022-12-22",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -60218,7 +60585,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-15",
+            "modified": "2022-12-22",
             "keyword": [
                 "age",
                 "age group",
