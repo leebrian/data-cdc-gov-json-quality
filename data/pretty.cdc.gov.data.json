@@ -519,7 +519,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-29",
+            "modified": "2023-01-12",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -764,7 +764,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-01-06",
+            "modified": "2023-01-13",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -905,7 +905,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-08",
+            "modified": "2023-01-15",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -960,88 +960,6 @@
             ],
             "language": [
                 "English"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://www.cdc.gov/nchs/hus",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2022-07-21",
-            "@type": "dcat:Dataset",
-            "temporal": "1984/2017",
-            "modified": "2022-07-21",
-            "keyword": [
-                "adults",
-                "american indian or alaska native",
-                "asian",
-                "asian or pacific islander",
-                "black or african american",
-                "children and adolescents",
-                "female",
-                "functional limitation status",
-                "health insurance",
-                "health insurance status",
-                "hispanic or latino",
-                "male",
-                "marital status",
-                "medicaid",
-                "metropolitan and nonmetropolitan",
-                "multiple race",
-                "native hawaiian or other pacific islander",
-                "poverty status",
-                "region",
-                "white"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:healthus@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "National Center for Health Statistics"
-            },
-            "identifier": "https://data.cdc.gov/api/views/2g8y-scu5",
-            "description": "Data on Medicaid coverage among persons under age 65 by selected characteristics, including age, sex, geographic region, poverty level, race, Hispanic origin, marital status, and functional limitation. Data are from Health, United States (https://www.cdc.gov/nchs/hus). \n\nSOURCE: CDC/NCHS, National Health Interview Survey.",
-            "title": "DQS Medicaid coverage among persons under age 65, by selected characteristics: United States",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/2g8y-scu5/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/2g8y-scu5/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/2g8y-scu5/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/2g8y-scu5/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/2g8y-scu5/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/2g8y-scu5/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/2g8y-scu5/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "spatial": "United States",
-            "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Annual (R/P1Y)",
-            "theme": [
-                "NCHS"
             ]
         },
         {
@@ -2221,7 +2139,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "age",
                 "all causes",
@@ -2943,7 +2861,7 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2023-01-05",
+            "modified": "2023-01-13",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2963,7 +2881,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "<b>Note:</b>\n<b>January 5, 2023</b>: Due to a reporting cadence issue, case rates for all Alabama counties will be calculated based on 14 days\u2019 worth of case count data in the COVID-19 Community Level information released on January 5, 2023, instead of the customary 7 days\u2019 worth of case count data. Therefore, the weekly case rates will be overestimated, which could affect counties\u2019 COVID-19 Community Level classification and should be interpreted with caution.  \n\n<b>January 5, 2023</b>: Due to technical difficulties at the source, case rates for all Colorado counties will be reported as 0 in the COVID-19 Community Level data released on January 5, 2023. This could lead to the COVID-19 Community Levels for Colorado counties being underestimated; therefore, they should be interpreted with caution. \n\n<b>January 5, 2023</b>: Due to North Carolina\u2019s holiday reporting cadence, aggregate case and death data will contain 14 days\u2019 worth of data instead of the customary 7 days. As a result, case and death metrics will appear higher than expected in COVID Data Tracker\u2019s January 5, 2023, release. COVID-19 Community Levels and Community Transmission metrics may be overestimated and should be interpreted with caution. \n\n<b>January 5, 2023</b>: Due to a data processing issue, case rates for all Nevada counties will be reported as 0 in the COVID-19 Community Level data released on January 5, 2023. This could lead to the COVID-19 Community Levels for Nevada counties being underestimated; therefore, they should be interpreted with caution.  \n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals.\n\nSee <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html\">COVID-19 by County</a> for more information.\n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b",
+            "description": "<b>Note:</b>\n<b>January 13, 2023:</b> COVID-19 Community Level (CCL) data released for Los Angeles County, California for the week of December 22nd, 2022, and December 29th, 2022, have been corrected for a data processing error. While the issue did not affect the CCL category on December 22nd, 2022, the case rate has been updated. Additionally, Los Angeles County should have appeared in the medium CCL category instead of the high CCL category on December 29th, 2022. These corrections are reflected in this update. \n\n<b>January 12, 2023:</b> Due to a reporting cadence issue, Illinois\u2019s aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in COVID Data Tracker\u2019s January 12, 2023, release. COVID-19 Community Levels and Community Transmission metrics may be underestimated and should be interpreted with caution.\u202f \n\n<b>January 12, 2023:</b> Due to technical difficulties, Indiana\u2019s aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in COVID Data Tracker\u2019s January 12, 2023, release. COVID-19 Community Levels and Community Transmission metrics may be underestimated and should be interpreted with caution.\u202f\n\n<b>January 12, 2023:</b> Due to data processing delays, Mississippi\u2019s aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in COVID Data Tracker\u2019s January 12, 2023, release. COVID-19 Community Levels and Community Transmission metrics may be underestimated and should be interpreted with caution.\u202f \n\n<b>January 12, 2023:</b> Due to technical difficulties, aggregate county-level case and death data in COVID Data Tracker\u2019s January 12, 2023, release will be reported as 0 for the following counties in Texas: Dallas County, Tom Green County, and Travis County. Therefore, COVID-19 Community Levels and Community Transmission metrics for those counties may be underestimated and should be interpreted with caution.\u202f \n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals.\n\nSee <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html\">COVID-19 by County</a> for more information.\n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state an",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -3086,8 +3004,8 @@
             ],
             "issued": "2022-07-25",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-06",
-            "modified": "2023-01-06",
+            "temporal": "2020-12-13/2023-01-13",
+            "modified": "2023-01-13",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -5313,7 +5231,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "age",
                 "age group",
@@ -6944,8 +6862,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-06",
-            "modified": "2023-01-06",
+            "temporal": "2020-12-13/2023-01-13",
+            "modified": "2023-01-13",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -7085,7 +7003,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-07",
+            "modified": "2023-01-14",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7571,6 +7489,62 @@
             "describedBy": "https://chronicdata.cdc.gov/Heart-Disease-Stroke-Prevention/National-Health-and-Nutrition-Examination-Survey-N/5svk-8bnq",
             "theme": [
                 "Heart Disease & Stroke Prevention"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://wwwn.cdc.gov/nchs/nhanes/search/nnyfsdata.aspx?Component=LimitedAccess",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm.",
+            "issued": "2022-10-01",
+            "@type": "dcat:Dataset",
+            "temporal": "2012/2012",
+            "modified": "2023-01-11",
+            "references": [
+                "https://www.cdc.gov/nchs/nnyfs/index.htm"
+            ],
+            "keyword": [
+                "fitness",
+                "health statistics",
+                "nchs",
+                "nhanes",
+                "nnyfs",
+                "nutrition",
+                "physical activity",
+                "research-data-center",
+                "surveillance",
+                "survey"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/5u84-m4rs",
+            "description": "The <b>National Health and Nutrition Examination Survey\u2019s</b> (NHANES) <b>National Youth Fitness Survey</b> (NNYFS) was conducted in 2012 to collect nationally representative data on physical activity and fitness levels for U.S. children and adolescents aged 3-15 years, through household interviews and fitness tests conducted in mobile examination centers. <br>\nThe NNYFS interview includes demographic, socioeconomic, dietary, and health-related questions. The fitness tests included standardized measurements of core, upper, and lower body muscle strength, and gross motor skills, as well as a measurement of cardiovascular fitness by walking and running on a treadmill. A total of 1,640 children and adolescents aged 3-15 were interviewed and 1,576 were examined. <br>\nThis set of restricted data files contains indirect identifying and/or sensitive information collected in NNYFS. For NNYFS public use files, please visit <a href=\"https://wwwn.cdc.gov/nchs/nhanes/search/nnyfs12.aspx\">NNYFS 2012 at: https://wwwn.cdc.gov/nchs/nhanes/search/nnyfs12.aspx.</a>\nFor more information on the survey design, implementation, and data analysis, see the <a href=\"https://www.cdc.gov/nchs/nnyfs/analytic_guidelines.htm\"> NNYFS Analytic Guidelines at: https://www.cdc.gov/nchs/nnyfs/analytic_guidelines.htm.</a> \nFor more information on NHANES, visit the <a href=\"https://www.cdc.gov/nchs/nhanes/index.htm\"> NHANES - National Health and Nutrition Examination Survey Homepage at: https://www.cdc.gov/nchs/nhanes/index.htm.</a>",
+            "title": "NHANES National Youth Fitness Survey (NNYFS) Restricted Data",
+            "isPartOf": "https://wwwn.cdc.gov/nchs/nhanes/search/nnyfs12.aspx",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html",
+                    "title": "NHANES National Youth Fitness Survey (NNYFS) Restricted Data"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "NNYFS was conducted concurrently with NHANES in 2012, the second year of the NHANES 2011\u20132012 cycle, with survey participants selected from an independent sample of dwelling units within the segments selected for that year of NHANES. The sample design has consisted of stratified, clustered four-stage probability sampling.",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -11063,7 +11037,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-05",
+            "modified": "2023-01-12",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -11786,7 +11760,7 @@
             "issued": "2021-11-03",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-01-06",
+            "modified": "2023-01-13",
             "references": [
                 "IQVIA Pharmacy and Physician Medical Office Claims"
             ],
@@ -11921,7 +11895,7 @@
             ],
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-03",
+            "modified": "2023-01-11",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -12749,7 +12723,7 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-06",
+            "modified": "2023-01-13",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "NCIRD",
@@ -13140,8 +13114,8 @@
             ],
             "issued": "2022-12-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-06",
-            "modified": "2023-01-06",
+            "temporal": "2020-12-13/2023-01-13",
+            "modified": "2023-01-13",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -13341,7 +13315,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-03",
+            "modified": "2023-01-11",
             "references": [
                 "https://chronicdata.cdc.gov/d/sfei-pddr"
             ],
@@ -14016,7 +13990,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "age",
                 "age group",
@@ -14274,7 +14248,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2022",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14572,7 +14546,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -14695,6 +14669,59 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=LimitedAccess",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm.",
+            "issued": "2023-01-01",
+            "@type": "dcat:Dataset",
+            "temporal": "1999/2021",
+            "modified": "2023-01-11",
+            "references": [
+                "https://www.cdc.gov/nchs/nhanes/index.htm"
+            ],
+            "keyword": [
+                "health statistics",
+                "nchs",
+                "nhanes",
+                "nutrition",
+                "research-data-center",
+                "surveillance",
+                "survey"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/9ixb-fwvy",
+            "description": "The <b>National Health and Nutrition Examination Survey</b> (NHANES) is designed to assess the health and nutritional status of adults and children in the United States. The survey is unique in that it combines interviews with standardized physical examinations and laboratory tests. <br>\nNHANES was conducted on a periodic basis from 1971 to 1994. In 1999 NHANES became continuous. Every year, approximately 5,000 people of all ages are interviewed in their homes and complete the health examination conducted in a mobile examination center. <br>\nThe NHANES interview includes demographic, socioeconomic, dietary, and health-related questions. The examination component consists of medical, dental, and physiological measurements, as well as the collection of biospecimens, such as blood and urine for laboratory testing.\n\nThis set of restricted data contains indirect identifying and/or sensitive information collected in <b>continuous NHANES since 1999</b>. Please refer to the links below for additional data available from NHANES:  \n<ul><li><a href=\"https://wwwn.cdc.gov/nchs/nhanes/Default.aspx\">NHANES Public Use Data at: https://wwwn.cdc.gov/nchs/nhanes/Default.aspx</a></li>\n<li><a href=\"https://data.cdc.gov/dataset/National-Health-and-Nutrition-Examination-Survey-N/hdx4-e4uu\">NHANES Genetic Restricted Data at: https://data.cdc.gov/dataset/National-Health-and-Nutrition-Examination-Survey-N/hdx4-e4uu</a></li>\n<li><a href=\"https://data.cdc.gov/dataset/National-Health-and-Nutrition-Examination-Survey-N/ic32-yq9m\">NHANES Restricted Data: Prior to 1999 at: https://data.cdc.gov/dataset/National-Health-and-Nutrition-Examination-Survey-N/ic32-yq9m</a></li>\n<li><a href=\"https://data.cdc.gov/dataset/3-NHANES-National-Youth-Fitness-Survey-NNYFS-Restr/5u84-m4rs\">NHANES National Youth Fitness Survey (NNYFS) Restricted Data at: https://data.cdc.gov/dataset/3-NHANES-National-Youth-Fitness-Survey-NNYFS-Restr/5u84-m4rs</a></li> </ul>\nPlease refer to the <a href=\"https://wwwn.cdc.gov/nchs/nhanes/analyticguidelines.aspx\">NHANES Analytic Guidelines at: https://wwwn.cdc.gov/nchs/nhanes/analyticguidelines.aspx</a> and the on-line <a href=\"https://wwwn.cdc.gov/nchs/nhanes/tutorials/default.aspx\">NHANES Tutorial at: https://wwwn.cdc.gov/nchs/nhanes/tutorials/default.aspx</a> for further details on the survey design, implementation, and data analysis.",
+            "title": "National Health and Nutrition Examination Survey (NHANES) Restricted Data: 1999 to Present",
+            "isPartOf": "https://wwwn.cdc.gov/nchs/nhanes/default.aspx",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html",
+                    "title": "National Health and Nutrition Examination Survey (NHANES) Restricted Data: 1999 to Present"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "Since 1999, the NHANES sample design has consisted of multi-year, stratified, clustered four-stage samples, with data release in 2-year cycles.",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -16781,7 +16808,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-03",
+            "modified": "2023-01-09",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -19153,7 +19180,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-08",
+            "modified": "2023-01-15",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -22472,7 +22499,7 @@
             "issued": "2022-10-27",
             "@type": "dcat:Dataset",
             "temporal": "2022-10-20/-",
-            "modified": "2023-01-05",
+            "modified": "2023-01-12",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn"
             ],
@@ -25012,7 +25039,7 @@
             "issued": "2022-12-15",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-01-06",
+            "modified": "2023-01-13",
             "references": [
                 "NIS-Flu"
             ],
@@ -27286,7 +27313,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-08",
+            "modified": "2023-01-15",
             "keyword": [
                 "wastewater"
             ],
@@ -28236,8 +28263,8 @@
             ],
             "issued": "2022-09-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-07-31",
-            "modified": "2022-11-16",
+            "temporal": "2020-01-01/2022-09-30",
+            "modified": "2023-01-13",
             "keyword": [
                 "amphetamine",
                 "bed size",
@@ -28278,7 +28305,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/gypc-kpgn",
-            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). From this collection, the NHCS contributes data that may inform emerging national health threats such as the current opioid public health emergency. The 2020, 2021, and 2022 NHCS are not yet fully operational so it is important to note that the data presented here are preliminary and not nationally representative.\n\nThe data are from 27 hospitals submitting inpatient and 27 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from January 1, 2020\u2013July 31, 2022. Even though the data are not nationally representative, they can provide insight into the use of opioids and other overdose drugs. The NHCS data is submitted from various types of hospitals (e.g., general/acute, children\u2019s, etc.) and can show results from a variety of indicators related to drug use, such as overall drug use, comorbidities, and drug and polydrug overdose. NHCS data can also be used to report on patient conditions within the hospital over time.",
+            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). From this collection, the NHCS contributes data that may inform emerging national health threats such as the current opioid public health emergency. The 2020, 2021, and 2022 NHCS are not yet fully operational so it is important to note that the data presented here are preliminary and not nationally representative.\n\nThe data are from 42 hospitals submitting inpatient and 43 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from January 1, 2020\u2013September 30, 2022. Even though the data are not nationally representative, they can provide insight into the use of opioids and other overdose drugs. The NHCS data is submitted from various types of hospitals (e.g., general/acute, children\u2019s, etc.) and can show results from a variety of indicators related to drug use, such as overall drug use, comorbidities, and drug and polydrug overdose. NHCS data can also be used to report on patient conditions within the hospital over time.",
             "title": "Drug Use Data from Selected Hospitals",
             "programCode": [
                 "009:020"
@@ -29158,6 +29185,60 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/nhanes/biospecimens/dnaspecimens.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm.",
+            "issued": "2015-03-01",
+            "@type": "dcat:Dataset",
+            "temporal": "1991/2012",
+            "modified": "2023-01-11",
+            "references": [
+                "https://www.cdc.gov/nchs/nhanes/index.htm"
+            ],
+            "keyword": [
+                "genetics",
+                "health statistics",
+                "nchs",
+                "nhanes",
+                "nutrition",
+                "research-data-center",
+                "surveillance",
+                "survey"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:NHANESGenetics@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/hdx4-e4uu",
+            "description": "DNA samples were collected in the <b>Third National Health and Nutrition Examination Survey</b> (NHANES III; 1988-1994) and in subsequent NHANES cycles (1999-2002, 2007-2008, 2009-2010, and 2011-2012). The program is a nationally representative collection of stored DNA samples and genetic data and will serve to add to the extensive amount of health, nutritional, and environmental information collected from NHANES. Resulting genetic variants are deposited into the NHANES Genetic Data Repository. These datasets are categorized as restricted data since they contain identifiable information.\n\nFor more information on the NHANES Genetic Data please visit: <a href=\"https://www.cdc.gov/nchs/nhanes/biospecimens/dnaspecimens.htm\">NHANES DNA Specimens and Genetic Data Program at: https://www.cdc.gov/nchs/nhanes/biospecimens/dnaspecimens.htm.</a>\nFor more information on NHANES, visit the <a href=\"https://www.cdc.gov/nchs/nhanes/index.htm\">NHANES - National Health and Nutrition Examination Survey Homepage at: https://www.cdc.gov/nchs/nhanes/index.htm.</a>",
+            "title": "National Health and Nutrition Examination Survey (NHANES) Genetic Restricted Data",
+            "isPartOf": "https://wwwn.cdc.gov/nchs/nhanes/default.aspx",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html",
+                    "title": "National Health and Nutrition Examination Survey (NHANES) Genetic Restricted Data"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "The NHANES samples were selected using a complex, stratified, multistage probability cluster sampling design.",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
             "bureauCode": [
@@ -29631,7 +29712,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -29729,7 +29810,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -30007,7 +30088,7 @@
             ],
             "issued": "2019-02-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-12-07",
+            "modified": "2023-01-09",
             "references": [
                 "https://www.cdc.gov/nccdphp/dnpao/index.html"
             ],
@@ -30136,7 +30217,7 @@
             "issued": "2022-12-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-01-05",
+            "modified": "2023-01-12",
             "keyword": [
                 "case",
                 "community transmission",
@@ -31096,7 +31177,7 @@
             ],
             "issued": "2020-10-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-03",
+            "modified": "2023-01-11",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -31281,6 +31362,59 @@
             "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Census-Tract-Data-GIS-Friendly-Format-2020-/yjkw-uj5s",
             "theme": [
                 "500 Cities & Places"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://wwwn.cdc.gov/nchs/nhanes/search/DataPage.aspx?Component=LimitedAccess&Cycle=1959-1994",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm.",
+            "issued": "2018-03-01",
+            "@type": "dcat:Dataset",
+            "temporal": "1971/1994",
+            "modified": "2023-01-11",
+            "references": [
+                "https://www.cdc.gov/nchs/nhanes/index.htm"
+            ],
+            "keyword": [
+                "health statistics",
+                "nchs",
+                "nhanes",
+                "nutrition",
+                "research-data-center",
+                "surveillance",
+                "survey"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/ic32-yq9m",
+            "description": "The <b> National Health and Nutrition Examination Survey</b> (NHANES) is designed to assess the health and nutritional status of adults and children in the United States. The survey is unique in that it combines interviews with standardized physical examinations and laboratory tests. <br>\nNHANES was conducted on a periodic basis from 1971 to 1994, including NHANES I (1971-1975), NHANES II (1976-1980), NHANES III (1988-1994), and a Hispanic Health and Nutrition Examination Survey (HHANES, 1982-1984). In 1999, NHANES became continuous and has been collecting data annually ever since. <br>\nAll of the NHANES programs utilized a stratified, multistage probability cluster design to provide a nationally representative sample of the U.S. civilian, noninstitutionalized population. The NHANES interview includes demographic, socioeconomic, dietary, and health-related questions. The examination component conducted in a mobile examination center consists of medical, dental, and physiological measurements, as well as the collection of biospecimens, such as blood and urine for laboratory testing.\n\nThis set of restricted data contains indirect identifying and/or sensitive information collected in <b>NHANES prior to 1999. </b>Please refer to the links below for additional data available from NHANES:\n<ul><li><a href=\"https://wwwn.cdc.gov/nchs/nhanes/Default.aspx\">NHANES Public Use Data at: https://wwwn.cdc.gov/nchs/nhanes/Default.aspx</a></li>\n<li><a href=\"https://data.cdc.gov/dataset/National-Health-and-Nutrition-Examination-Survey-N/9ixb-fwvy\">NHANES Restricted Data: 1999 - present at: https://data.cdc.gov/dataset/National-Health-and-Nutrition-Examination-Survey-N/9ixb-fwvy</a></li>\n<li><a href=\"https://data.cdc.gov/dataset/National-Health-and-Nutrition-Examination-Survey-N/hdx4-e4uu\">NHANES Genetic Restricted Data at: https://data.cdc.gov/dataset/National-Health-and-Nutrition-Examination-Survey-N/hdx4-e4uu</a></li>\n<li><a href=\"https://data.cdc.gov/dataset/3-NHANES-National-Youth-Fitness-Survey-NNYFS-Restr/5u84-m4rs\">NHANES National Youth Fitness Survey (NNYFS) Restricted Data at: https://data.cdc.gov/dataset/3-NHANES-National-Youth-Fitness-Survey-NNYFS-Restr/5u84-m4rs</a></li> </ul>\nPlease refer to the <a href=\"https://www.cdc.gov/nchs/nhanes/index.htm\">NHANES - National Health and Nutrition Examination Survey Homepage at: https://www.cdc.gov/nchs/nhanes/index.htm</a> for further details on the NHANES design, implementation, and data analysis.",
+            "title": "National Health and Nutrition Examination Survey (NHANES) Restricted Data: Prior to 1999",
+            "isPartOf": "https://wwwn.cdc.gov/nchs/nhanes/default.aspx",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html",
+                    "title": "National Health and Nutrition Examination Survey (NHANES) Restricted Data: Prior to 1999"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "The NHANES samples were selected using complex, stratified, multistage probability cluster sampling designs.",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -31907,7 +32041,7 @@
             "issued": "2022-10-18",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-10-15",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32247,7 +32381,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-03",
+            "modified": "2023-01-09",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -33071,7 +33205,7 @@
             "issued": "2022-10-19",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2023-01-05",
+            "modified": "2023-01-12",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6"
             ],
@@ -33246,8 +33380,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-06",
-            "modified": "2023-01-06",
+            "temporal": "2020-12-13/2023-01-13",
+            "modified": "2023-01-13",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -33712,7 +33846,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-06",
+            "modified": "2023-01-13",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -33917,7 +34051,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "age",
                 "age group",
@@ -34778,7 +34912,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2018-2023",
-            "modified": "2023-01-06",
+            "modified": "2023-01-13",
             "references": [
                 "CDC"
             ],
@@ -34916,7 +35050,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -35319,7 +35453,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-06",
+            "modified": "2023-01-13",
             "keyword": [
                 "cares act",
                 "health system",
@@ -35580,8 +35714,8 @@
             ],
             "issued": "2021-10-18",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-15/2021-05-05",
-            "modified": "2022-08-24",
+            "temporal": "2020-12-15/2022-05-06",
+            "modified": "2023-01-12",
             "keyword": [
                 "covid-19",
                 "physicians"
@@ -35596,7 +35730,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/kk8c-wtm4",
-            "description": "The National Ambulatory Medical Care Survey (NAMCS), conducted by the National Center for Health Statistics (NCHS), collects data on visits to physician offices to describe patterns of ambulatory care delivery in the United States. As part of NAMCS, the Physician Induction Interview collects information about practice characteristics at physician offices. Partway through the 2020 NAMCS, NCHS added questions to the Physician Induction Interview to assess physician experiences related to COVID-19 in office-based settings.\n\nThe data include nationally representative estimates of experiences related to COVID-19 among office-based physicians in the United States, including: shortages of personal protective equipment (PPE) in the past 3 months; the ability to test for COVID-19 in the past 3 months; providers testing positive for COVID-19 in the past 3 months; turning away COVID-19 patients in the past 3 months; and telemedicine or telehealth technology use before and after March 2020.  Estimates were derived from interviews with physicians in periods 3 and 4 of 2020 NAMCS, which occurred between December 15, 2020 and May 5, 2021.  The data are considered preliminary, and the results may change with the final data release.",
+            "description": "The National Ambulatory Medical Care Survey (NAMCS), conducted by the National Center for Health Statistics (NCHS), collects data on visits to physician offices to describe patterns of ambulatory care delivery in the United States. As part of NAMCS, the Physician Induction Interview collects information about practice characteristics at physician offices. Partway through the 2020 NAMCS, NCHS added questions to the Physician Induction Interview to assess physician experiences related to COVID-19 in office-based settings.\n\nThe data include nationally representative estimates of experiences related to COVID-19 among office-based physicians in the United States, including: shortages of personal protective equipment (PPE) in the past 3 months; the ability to test for COVID-19 in the past 3 months; providers testing positive for COVID-19 in the past 3 months; turning away COVID-19 patients in the past 3 months; and telemedicine or telehealth technology use before and after March 2020.  Estimates were derived from interviews with physicians in periods 3 and 4 of 2020 NAMCS and periods 1 through 4 of 2021 NAMCS, which occurred between December 15, 2020 and May 6, 2022.  The data are considered preliminary, and the results may change with the final data release.",
             "title": "Physician Experiences Related to COVID-19 from the National Ambulatory Medical Care Survey",
             "programCode": [
                 "009:020"
@@ -35714,8 +35848,8 @@
             ],
             "issued": "2022-11-23",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-06",
-            "modified": "2023-01-06",
+            "temporal": "2020-12-13/2023-01-13",
+            "modified": "2023-01-13",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -36126,7 +36260,7 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36456,7 +36590,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "age",
                 "age group",
@@ -39236,7 +39370,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2022",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -41035,7 +41169,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "age",
                 "age group",
@@ -41245,7 +41379,7 @@
             ],
             "issued": "2019-04-12",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-13",
+            "modified": "2023-01-13",
             "references": [
                 "https://chronicdata.cdc.gov/d/x7ys-5vpn"
             ],
@@ -41952,7 +42086,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-29",
+            "modified": "2023-01-12",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -42263,7 +42397,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -43184,7 +43318,7 @@
             "issued": "2022-10-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2023-01-05",
+            "modified": "2023-01-12",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -43499,8 +43633,8 @@
             ],
             "issued": "2020-12-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-03-18/2021-07-26",
-            "modified": "2022-11-16",
+            "temporal": "2020-03-18/2022-09-27",
+            "modified": "2023-01-13",
             "keyword": [
                 "covid-19",
                 "emergency department",
@@ -43522,7 +43656,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/q3t8-zr7t",
-            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020, 2021 and 2022 NHCS are not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 27 hospitals submitting inpatient and 27 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020-July 26, 2022.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
+            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020, 2021 and 2022 NHCS are not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 42 hospitals submitting inpatient and 43 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020-September 27, 2022.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
             "title": "COVID-19 Hospital Data from the National Hospital Care Survey",
             "programCode": [
                 "009:020"
@@ -44544,7 +44678,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -45549,7 +45683,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-03",
+            "modified": "2023-01-09",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -46079,7 +46213,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-06",
+            "modified": "2023-01-13",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -46671,8 +46805,8 @@
             ],
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-06",
-            "modified": "2023-01-06",
+            "temporal": "2020-12-13/2023-01-13",
+            "modified": "2023-01-13",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -47257,7 +47391,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-03",
+            "modified": "2023-01-10",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -48698,7 +48832,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "age",
                 "age group",
@@ -50465,7 +50599,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "age",
                 "age group",
@@ -51306,7 +51440,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -52010,7 +52144,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-03",
+            "modified": "2023-01-09",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -52123,7 +52257,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -52331,8 +52465,8 @@
             ],
             "issued": "2022-11-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-06",
-            "modified": "2023-01-06",
+            "temporal": "2020-12-13/2023-01-13",
+            "modified": "2023-01-13",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -53128,7 +53262,7 @@
             ],
             "issued": "2020-05-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-12",
+            "modified": "2023-01-13",
             "references": [
                 "https://www.cms.gov/files/document/Accelerated-and-Advanced-Payments-Fact-Sheet.pdf"
             ],
@@ -54647,7 +54781,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "age",
                 "age group",
@@ -55783,7 +55917,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-06",
+            "modified": "2023-01-13",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -58249,7 +58383,7 @@
             ],
             "issued": "2018-03-06",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-14",
+            "modified": "2023-01-11",
             "keyword": [
                 "cocaine",
                 "deaths",
@@ -58327,7 +58461,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -59781,7 +59915,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-04",
+            "modified": "2023-01-11",
             "keyword": [
                 "age",
                 "age group",
@@ -60585,7 +60719,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-05",
+            "modified": "2023-01-12",
             "keyword": [
                 "age",
                 "age group",
