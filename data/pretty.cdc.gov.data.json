@@ -519,7 +519,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-12",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -764,7 +764,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-01-13",
+            "modified": "2023-01-20",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -905,7 +905,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-15",
+            "modified": "2023-01-22",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2139,7 +2139,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "age",
                 "all causes",
@@ -2165,7 +2165,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/3apk-4u4f",
             "description": "Cumulative deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by sex and age in years, in the United States.",
-            "title": "Provisional COVID-19 Death Counts by Age in Years, 2020-2022",
+            "title": "Provisional COVID-19 Death Counts by Age in Years, 2020-2023",
             "programCode": [
                 "009:020"
             ],
@@ -2861,7 +2861,7 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2023-01-13",
+            "modified": "2023-01-19",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2881,7 +2881,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "<b>Note:</b>\n<b>January 13, 2023:</b> COVID-19 Community Level (CCL) data released for Los Angeles County, California for the week of December 22nd, 2022, and December 29th, 2022, have been corrected for a data processing error. While the issue did not affect the CCL category on December 22nd, 2022, the case rate has been updated. Additionally, Los Angeles County should have appeared in the medium CCL category instead of the high CCL category on December 29th, 2022. These corrections are reflected in this update. \n\n<b>January 12, 2023:</b> Due to a reporting cadence issue, Illinois\u2019s aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in COVID Data Tracker\u2019s January 12, 2023, release. COVID-19 Community Levels and Community Transmission metrics may be underestimated and should be interpreted with caution.\u202f \n\n<b>January 12, 2023:</b> Due to technical difficulties, Indiana\u2019s aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in COVID Data Tracker\u2019s January 12, 2023, release. COVID-19 Community Levels and Community Transmission metrics may be underestimated and should be interpreted with caution.\u202f\n\n<b>January 12, 2023:</b> Due to data processing delays, Mississippi\u2019s aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in COVID Data Tracker\u2019s January 12, 2023, release. COVID-19 Community Levels and Community Transmission metrics may be underestimated and should be interpreted with caution.\u202f \n\n<b>January 12, 2023:</b> Due to technical difficulties, aggregate county-level case and death data in COVID Data Tracker\u2019s January 12, 2023, release will be reported as 0 for the following counties in Texas: Dallas County, Tom Green County, and Travis County. Therefore, COVID-19 Community Levels and Community Transmission metrics for those counties may be underestimated and should be interpreted with caution.\u202f \n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals.\n\nSee <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html\">COVID-19 by County</a> for more information.\n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state an",
+            "description": "<b>Note:</b>\n<b>January 19, 2023:</b> Due to a reporting cadence issue, Mississippi\u2019s aggregate case and death data will be calculated based on 14 days\u2019 worth of data instead of the customary 7 days in COVID Data Tracker\u2019s January 19, 2023, release. Therefore, COVID-19 Community Levels and Community Transmission metrics may be overestimated and should be interpreted with caution. \n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and other local information, like early alerts from surveillance, such as through wastewater or the number of emergency department visits for COVID-19, when available, can also inform decision making for health officials and individuals.\n\nSee <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/science/community-levels.html\">COVID-19 by County</a> for more information.\n\nFor the most accurate and up-to-date data for any county or state, visit the relevant health department website. COVID Data Tracker may display data that differ from state and local websites. This can be due to differences in how data were collected, how metrics were calculated, or the timing of web updates.\n\n\n<b>Note:</b>\n\nThis dataset was renamed from \"United States COVID-19 Community Levels by County as Originally Posted\" to \"United States COVID-19 Community Levels by County\" on March 31, 2022. \n\n<b>March 31, 2022:</b> Column name for county population was changed to \u201ccounty_population\u201d. No change was made to the data points previous released.\n\n<b>March 31, 2022:</b> New column, \u201chealth_service_area_population\u201d, was added to the dataset to denote the total population in the designated Health Service Area based on 2019 Census estimate. \n\n<b>March 31, 2022:</b> FIPS codes for territories American Samoa, Guam, Commonwealth of the Northern Mariana Islands, and United States Virgin Islands were re-formatted to 5-digit numeric for records released on 3/3/2022 to be consistent with other records in the dataset.\n\n<b>March 31, 2022:</b> Changes were made to the text fields in variables \u201ccounty\u201d, \u201cstate\u201d, and \u201chealth_service_area\u201d so the formats are consistent across releases.\n\n<b>March 31, 2022:</b> The \u201c%\u201d sign was removed from the text field in column \u201ccovid_inpatient_bed_utilization\u201d. No change was made to the data. As indicated in the column description, values in this column represent the percentage of staffed inpatient beds occupied by COVID-19 patients (7-day average).  \n\n<b>March 31, 2022:</b> Data values for columns, \u201ccounty_population\u201d, \u201chealth_service_area_number\u201d, and \u201chealth_service_area\u201d were backfilled for records released on 2/24/2022. These columns were added since the week of 3/3/20",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -3004,8 +3004,8 @@
             ],
             "issued": "2022-07-25",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-13",
-            "modified": "2023-01-13",
+            "temporal": "2020-12-13/2023-01-20",
+            "modified": "2023-01-20",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -3706,8 +3706,8 @@
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-06-23",
             "@type": "dcat:Dataset",
-            "temporal": "2014-2017",
-            "modified": "2022-07-01",
+            "temporal": "2014/2017",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/nchs/data-linkage/cms/nchs-cms_medicare14_18_linked_data-list_of_variables.pdf"
             ],
@@ -5231,7 +5231,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "age",
                 "age group",
@@ -6344,9 +6344,9 @@
             ],
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-12-20",
-            "temporal": "2014-2019",
+            "temporal": "2014/2019",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-20",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/NCHS-CMS-TMSIS-linked-data-list-of-variables.pdf"
             ],
@@ -6862,8 +6862,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-13",
-            "modified": "2023-01-13",
+            "temporal": "2020-12-13/2023-01-20",
+            "modified": "2023-01-20",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -7003,7 +7003,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-14",
+            "modified": "2023-01-17",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -8858,7 +8858,7 @@
             "issued": "2021-11-16",
             "@type": "dcat:Dataset",
             "temporal": "2021-2022",
-            "modified": "2023-01-06",
+            "modified": "2023-01-20",
             "keyword": [
                 "adults",
                 "age",
@@ -11037,7 +11037,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-12",
+            "modified": "2023-01-19",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -11760,7 +11760,7 @@
             "issued": "2021-11-03",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-01-13",
+            "modified": "2023-01-20",
             "references": [
                 "IQVIA Pharmacy and Physician Medical Office Claims"
             ],
@@ -12723,7 +12723,7 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-13",
+            "modified": "2023-01-20",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "NCIRD",
@@ -13114,8 +13114,8 @@
             ],
             "issued": "2022-12-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-13",
-            "modified": "2023-01-13",
+            "temporal": "2020-12-13/2023-01-20",
+            "modified": "2023-01-20",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -13990,7 +13990,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "age",
                 "age group",
@@ -14246,9 +14246,9 @@
                 "009:20"
             ],
             "issued": "2021-02-03",
-            "temporal": "2020/2022",
+            "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14289,8 +14289,8 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/9dzk-mvmi",
-            "description": "Provisional counts of deaths by the month the death occurred and by select causes of death for 2020-2022.",
-            "title": "Monthly Provisional Counts of Deaths by Select Causes, 2020-2022",
+            "description": "Provisional counts of deaths by the month the death occurred and by select causes of death for 2020-2023.",
+            "title": "Monthly Provisional Counts of Deaths by Select Causes, 2020-2023",
             "programCode": [
                 "009:020"
             ],
@@ -14546,7 +14546,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -17418,9 +17418,9 @@
             ],
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-12-20",
-            "temporal": "2015-2017",
+            "temporal": "2015/2017",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-20",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/NCHS-TMSIS-MATCH-STATUS.pdf"
             ],
@@ -18049,7 +18049,7 @@
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
             "temporal": "Monthly",
-            "modified": "2022-12-16",
+            "modified": "2023-01-20",
             "keyword": [
                 "adults",
                 "coverage",
@@ -18623,7 +18623,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-21",
+            "modified": "2023-01-19",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -19180,7 +19180,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-15",
+            "modified": "2023-01-18",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -19794,7 +19794,7 @@
             ],
             "issued": "2022-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-15",
+            "modified": "2023-01-17",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -19812,7 +19812,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/ch83-ush6",
             "description": "The BEAM (Bacteria, Enterics, Amoeba, and Mycotics) Dashboard is an interactive tool to access and visualize data from the System for Enteric Disease Response, Investigation, and Coordination (SEDRIC). The BEAM Dashboard provides timely data on pathogen trends and serotype details to inform work to prevent illnesses from food and animal contact.",
-            "title": "BEAM Dashboard - Top 30 Most Common Serotypes",
+            "title": "BEAM Dashboard \u2013 Top 30 Most Common Serotypes",
             "programCode": [
                 "009:028"
             ],
@@ -22499,7 +22499,7 @@
             "issued": "2022-10-27",
             "@type": "dcat:Dataset",
             "temporal": "2022-10-20/-",
-            "modified": "2023-01-12",
+            "modified": "2023-01-19",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn"
             ],
@@ -25039,7 +25039,7 @@
             "issued": "2022-12-15",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-01-13",
+            "modified": "2023-01-20",
             "references": [
                 "NIS-Flu"
             ],
@@ -26627,7 +26627,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-01-06",
+            "modified": "2023-01-20",
             "references": [
                 "Vaccine Safety Datalink"
             ],
@@ -27313,7 +27313,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-15",
+            "modified": "2023-01-22",
             "keyword": [
                 "wastewater"
             ],
@@ -29711,8 +29711,8 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "temporal": "2020/2022",
-            "modified": "2023-01-11",
+            "temporal": "2020/2023",
+            "modified": "2023-01-18",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -29762,8 +29762,8 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/hk9y-quqm",
-            "description": "This dataset shows health conditions and contributing causes mentioned in conjunction with deaths involving coronavirus disease 2019 (COVID-19) by age group and jurisdiction of occurrence.\n\n2021-2022 data are provisional. Estimates for 2020 are based on final data.",
-            "title": "Conditions Contributing to COVID-19 Deaths, by State and Age, Provisional 2020-2022",
+            "description": "This dataset shows health conditions and contributing causes mentioned in conjunction with deaths involving coronavirus disease 2019 (COVID-19) by age group and jurisdiction of occurrence.\n\n2022 and 2023 data are provisional. Estimates for 2020 and 2021 are based on final data.",
+            "title": "Conditions Contributing to COVID-19 Deaths, by State and Age, Provisional 2020-2023",
             "programCode": [
                 "009:020"
             ],
@@ -29810,7 +29810,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -30217,7 +30217,7 @@
             "issued": "2022-12-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-01-12",
+            "modified": "2023-01-19",
             "keyword": [
                 "case",
                 "community transmission",
@@ -32041,7 +32041,7 @@
             "issued": "2022-10-18",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-10-15",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -33006,7 +33006,7 @@
             ],
             "issued": "2022-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-15",
+            "modified": "2023-01-17",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -33205,7 +33205,7 @@
             "issued": "2022-10-19",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2023-01-12",
+            "modified": "2023-01-19",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6"
             ],
@@ -33380,8 +33380,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-13",
-            "modified": "2023-01-13",
+            "temporal": "2020-12-13/2023-01-20",
+            "modified": "2023-01-20",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -33583,8 +33583,8 @@
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "temporal": "1994/2018",
-            "modified": "2022-07-01",
+            "temporal": "1974/2018",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/Variable-List.pdf"
             ],
@@ -33846,7 +33846,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-13",
+            "modified": "2023-01-20",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -34051,7 +34051,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "age",
                 "age group",
@@ -34912,7 +34912,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2018-2023",
-            "modified": "2023-01-13",
+            "modified": "2023-01-20",
             "references": [
                 "CDC"
             ],
@@ -35050,7 +35050,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -35453,7 +35453,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-13",
+            "modified": "2023-01-19",
             "keyword": [
                 "cares act",
                 "health system",
@@ -35517,7 +35517,7 @@
             ],
             "issued": "2022-11-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-15",
+            "modified": "2023-01-17",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -35848,8 +35848,8 @@
             ],
             "issued": "2022-11-23",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-13",
-            "modified": "2023-01-13",
+            "temporal": "2020-12-13/2023-01-20",
+            "modified": "2023-01-20",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -36260,7 +36260,8 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "temporal": "2020/2023",
+            "modified": "2023-01-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36283,7 +36284,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/kn79-hsxy",
-            "description": "Provisional count of deaths involving coronavirus disease 2019 (COVID-19) by county of occurrence, in the United States, 2020-2022.",
+            "description": "Provisional count of deaths involving coronavirus disease 2019 (COVID-19) by county of occurrence, in the United States, 2020-2023.",
             "title": "Provisional COVID-19 Death Counts in the United States by County",
             "programCode": [
                 "009:020"
@@ -36590,7 +36591,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "age",
                 "age group",
@@ -36858,6 +36859,64 @@
             ],
             "theme": [
                 "500 Cities & Places"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/kvib-3txy",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-01-17",
+            "@type": "dcat:Dataset",
+            "modified": "2023-01-20",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Michael Whitaker",
+                "hasEmail": "mailto:pgn6@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/kvib-3txy",
+            "description": "COVID-NET, RSV-NET, and FluSurv-NET are  population-based surveillance systems that collect data on laboratory-confirmed hospitalizations among children and adults through a network of over 250 acute-care hospitals in 14 states. \n\nData are preliminary and subject to change as more data become available. Data will be updated weekly.",
+            "title": "Rates of Laboratory-Confirmed RSV, COVID-19, and Flu Hospitalizations from the RESP-NET Surveillance Systems",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/kvib-3txy/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/kvib-3txy/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/kvib-3txy/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/kvib-3txy/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/kvib-3txy/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/kvib-3txy/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/kvib-3txy/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "RESP-NET Sites",
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "Public Health Surveillance"
             ]
         },
         {
@@ -37775,8 +37834,8 @@
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
-            "temporal": "1986/2019",
-            "modified": "2022-07-01",
+            "temporal": "1979/2019",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/LMF2019-DataDictionary-MortVars.pdf"
             ],
@@ -37968,10 +38027,10 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-12-01",
-            "modified": "2022-12-06",
+            "temporal": "2020-01-01/2023-01-12",
+            "modified": "2023-01-18",
             "references": [
-                "https://data.cdc.gov/api/views/mbd7-r32t/files/b097cc4d-149c-4177-a551-442e9dbaf3d5?download=true&filename=Public%2033%20Utility%20Summary.pdf"
+                "https://data.cdc.gov/api/views/mbd7-r32t/files/f8995657-bec0-47f9-a398-a52a39babe2e?download=true&filename=public%2033%20utility%20summary.pdf"
             ],
             "keyword": [
                 "cases",
@@ -38444,8 +38503,8 @@
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "temporal": "2014-2018",
-            "modified": "2022-07-01",
+            "temporal": "2014/2018",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/nchs/data-linkage/cms/nchs-cms_medicare14_18_linked_data-list_of_variables.pdf"
             ],
@@ -39369,8 +39428,8 @@
             ],
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
-            "temporal": "2020/2022",
-            "modified": "2023-01-11",
+            "temporal": "2020/2023",
+            "modified": "2023-01-18",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -39408,8 +39467,8 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/muzy-jte6",
-            "description": "Provisional counts of deaths by the week the deaths occurred, by state of occurrence, and by select underlying causes of death for 2020-2022.  The dataset also includes weekly provisional counts of death for COVID-19, coded to ICD-10 code U07.1 as an underlying or multiple cause of death.\n\nNOTE: death counts are presented with a one week lag.",
-            "title": "Weekly Provisional Counts of Deaths by State and Select Causes, 2020-2022",
+            "description": "Provisional counts of deaths by the week the deaths occurred, by state of occurrence, and by select underlying causes of death for 2020-2023.  The dataset also includes weekly provisional counts of death for COVID-19, coded to ICD-10 code U07.1 as an underlying or multiple cause of death.\n\nNOTE: death counts are presented with a one week lag.",
+            "title": "Weekly Provisional Counts of Deaths by State and Select Causes, 2020-2023",
             "programCode": [
                 "009:020"
             ],
@@ -40342,8 +40401,8 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-12-01",
-            "modified": "2022-12-06",
+            "temporal": "2020-01-01/2023-01-12",
+            "modified": "2023-01-18",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2019%20utility%20summary.pdf"
             ],
@@ -41169,7 +41228,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "age",
                 "age group",
@@ -41588,9 +41647,9 @@
             ],
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-12-20",
-            "temporal": "Through 2020",
+            "temporal": "2005/2020",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-20",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/va-match-status-all.pdf"
             ],
@@ -42086,7 +42145,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-12",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -42397,7 +42456,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -43318,7 +43377,7 @@
             "issued": "2022-10-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2023-01-12",
+            "modified": "2023-01-19",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -44678,7 +44737,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -44754,8 +44813,8 @@
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-06-23",
             "@type": "dcat:Dataset",
-            "temporal": "2013-2017",
-            "modified": "2022-07-01",
+            "temporal": "2013/2017",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/NHCS-Linked-HUD-Program-Participation-Any.pdf"
             ],
@@ -46213,7 +46272,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-13",
+            "modified": "2023-01-20",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -46805,8 +46864,8 @@
             ],
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-13",
-            "modified": "2023-01-13",
+            "temporal": "2020-12-13/2023-01-20",
+            "modified": "2023-01-20",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -47391,7 +47450,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-10",
+            "modified": "2023-01-17",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -48832,7 +48891,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "age",
                 "age group",
@@ -48861,7 +48920,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/siwp-yg6m",
             "description": "Provisional deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by MMWR week, race and Hispanic origin, and age group. Deaths occurred in the United States.\n\nAge groups: 0-4, 5-11, 12-17, 18-29, 30-39, 40-49, 50-64, 65-74, and 75+ years",
-            "title": "AH Provisional COVID-19 Death Counts by Week, Race, and Age, United States 2020-2022",
+            "title": "AH Provisional COVID-19 Death Counts by Week, Race, and Age, United States 2020-2023",
             "programCode": [
                 "009:020"
             ],
@@ -49464,8 +49523,8 @@
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "temporal": "1999-2014",
-            "modified": "2022-12-20",
+            "temporal": "1999/2014",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/nchs-cms-medicaid-linked-data-list-of-variables.pdf"
             ],
@@ -50599,7 +50658,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "age",
                 "age group",
@@ -50994,8 +51053,8 @@
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-06-23",
             "@type": "dcat:Dataset",
-            "temporal": "2014-2017",
-            "modified": "2022-07-01",
+            "temporal": "2014/2017",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/NHCS-Codebook-Mortality-Variables.pdf"
             ],
@@ -51109,7 +51168,7 @@
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
             "temporal": "Monthly",
-            "modified": "2022-12-16",
+            "modified": "2023-01-20",
             "keyword": [
                 "adults",
                 "coverage",
@@ -51440,7 +51499,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -52257,7 +52316,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -52465,8 +52524,8 @@
             ],
             "issued": "2022-11-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-01-13",
-            "modified": "2023-01-13",
+            "temporal": "2020-12-13/2023-01-20",
+            "modified": "2023-01-20",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -52929,7 +52988,7 @@
             "issued": "2022-12-07",
             "@type": "dcat:Dataset",
             "temporal": "Monthly",
-            "modified": "2022-12-16",
+            "modified": "2023-01-20",
             "keyword": [
                 "adults",
                 "ethnicity",
@@ -53648,9 +53707,9 @@
             ],
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-12-20",
-            "temporal": "Through 2020",
+            "temporal": "2015/2020",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-20",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/NHCS-Linked-VA-Match-File.pdf"
             ],
@@ -53769,8 +53828,8 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-12-01",
-            "modified": "2022-12-06",
+            "temporal": "2020-01-01/2023-01-12",
+            "modified": "2023-01-18",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2012%20utility%20summary.pdf"
             ],
@@ -54781,7 +54840,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "age",
                 "age group",
@@ -57844,9 +57903,10 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-06",
+            "modified": "2023-01-19",
             "keyword": [
                 "2022",
+                "2023",
                 "nndss",
                 "wonder"
             ],
@@ -57860,7 +57920,7 @@
                 "name": "data.cdc.gov"
             },
             "identifier": "https://data.cdc.gov/api/views/x9gk-5huc",
-            "description": "NNDSS - In this Table, provisional cases* of notifiable diseases are displayed for United States, U.S. territories, and Non-U.S. residents.\n\n\nNotes:\n\n\u2022 These are weekly cases of selected infectious national notifiable diseases, from the National Notifiable Diseases Surveillance System (NNDSS). NNDSS data reported by the 50 states, New York City, the District of Columbia, and the U.S. territories are collated and published weekly as numbered tables available at https://www.cdc.gov/nndss/data-statistics/index.html. Cases reported by state health departments to CDC for weekly publication are subject to ongoing revision of information and delayed reporting. Therefore, numbers listed in later weeks may reflect changes made to these counts as additional information becomes available. Case counts in the tables are presented as published each week. See also Guide to Interpreting Provisional and Finalized NNDSS Data.\n\n\u2022 Notices, errata, and other notes are available in the Notice To Data Users page.\n\n\u2022 The list of national notifiable infectious diseases and conditions and their national surveillance case definitions are available at https://ndc.services.cdc.gov/. This list incorporates the Council of State and Territorial Epidemiologists (CSTE) position statements approved by CSTE for national surveillance.\n\nFootnotes:\n\n*Case counts for reporting years 2021 and 2022 are provisional and subject to change. Cases are assigned to the reporting jurisdiction submitting the case to NNDSS, if the case's country of usual residence is the U.S., a U.S. territory, unknown, or null (i.e. country not reported); otherwise, the case is assigned to the 'Non-U.S. Residents' category. Country of usual residence is currently not reported by all jurisdictions or for all conditions. For further information on interpretation of these data, see https://www.cdc.gov/nndss/docs/Readers-Guide-WONDER-Tables-20210421-508.pdf.\n\u2020Previous 52 week maximum and cumulative YTD are determined from periods of time when the condition was reportable in the jurisdiction (i.e., may be less than 52 weeks of data or incomplete YTD data).\n\u2022 Please refer to the CDC WONDER publication for weekly updates to the footnote for influenza-associated pediatric mortality.\nU: Unavailable \u2014 The reporting jurisdiction was unable to send the data to CDC or CDC was unable to process the data.\n-: No reported cases \u2014 The reporting jurisdiction did not submit any cases to CDC.\nN: Not reportable \u2014 The disease or condition was not reportable by law, statute, or regulation in the reporting jurisdiction.\nNN: Not nationally notifiable \u2014 This condition was not designated as being nationally notifiable.\nNP: Nationally notifiable but not published.\nNC: Not calculated \u2014 There is insufficient data available to support the calculation of this statistic.\nCum: Cumulative year-to-date counts.\nMax: Maximum \u2014 Maximum case count during the previous 52 weeks.",
+            "description": "NNDSS - In this Table, provisional cases* of notifiable diseases are displayed for United States, U.S. territories, and Non-U.S. residents.\n\n\nNotes:\n\n\u2022 These are weekly cases of selected infectious national notifiable diseases, from the National Notifiable Diseases Surveillance System (NNDSS). NNDSS data reported by the 50 states, New York City, the District of Columbia, and the U.S. territories are collated and published weekly as numbered tables available at https://www.cdc.gov/nndss/data-statistics/index.html. Cases reported by state health departments to CDC for weekly publication are subject to ongoing revision of information and delayed reporting. Therefore, numbers listed in later weeks may reflect changes made to these counts as additional information becomes available. Case counts in the tables are presented as published each week. See also Guide to Interpreting Provisional and Finalized NNDSS Data.\n\n\u2022 Notices, errata, and other notes are available in the Notice To Data Users page.\n\n\u2022 The list of national notifiable infectious diseases and conditions and their national surveillance case definitions are available at https://ndc.services.cdc.gov/. This list incorporates the Council of State and Territorial Epidemiologists (CSTE) position statements approved by CSTE for national surveillance.\n\nFootnotes:\n\n*Case counts for reporting years 2022 and 2023 are provisional and subject to change. Cases are assigned to the reporting jurisdiction submitting the case to NNDSS, if the case's country of usual residence is the U.S., a U.S. territory, unknown, or null (i.e. country not reported); otherwise, the case is assigned to the 'Non-U.S. Residents' category. Country of usual residence is currently not reported by all jurisdictions or for all conditions. For further information on interpretation of these data, see https://www.cdc.gov/nndss/docs/Readers-Guide-WONDER-Tables-20210421-508.pdf.\n\u2020Previous 52 week maximum and cumulative YTD are determined from periods of time when the condition was reportable in the jurisdiction (i.e., may be less than 52 weeks of data or incomplete YTD data).\n\u2022 Please refer to the CDC WONDER publication for weekly updates to the footnote for influenza-associated pediatric mortality.\nU: Unavailable \u2014 The reporting jurisdiction was unable to send the data to CDC or CDC was unable to process the data.\n-: No reported cases \u2014 The reporting jurisdiction did not submit any cases to CDC.\nN: Not reportable \u2014 The disease or condition was not reportable by law, statute, or regulation in the reporting jurisdiction.\nNN: Not nationally notifiable \u2014 This condition was not designated as being nationally notifiable.\nNP: Nationally notifiable but not published.\nNC: Not calculated \u2014 There is insufficient data available to support the calculation of this statistic.\nCum: Cumulative year-to-date counts.\nMax: Maximum \u2014 Maximum case count during the previous 52 weeks.",
             "title": "NNDSS Weekly Data",
             "programCode": [
                 "009:020"
@@ -58161,8 +58221,8 @@
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "temporal": "1999/2019",
-            "modified": "2022-07-01",
+            "temporal": "1996/2019",
+            "modified": "2023-01-19",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/weight-file.pdf"
             ],
@@ -58461,7 +58521,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -59915,7 +59975,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-11",
+            "modified": "2023-01-18",
             "keyword": [
                 "age",
                 "age group",
@@ -60719,7 +60779,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-12",
+            "modified": "2023-01-19",
             "keyword": [
                 "age",
                 "age group",
