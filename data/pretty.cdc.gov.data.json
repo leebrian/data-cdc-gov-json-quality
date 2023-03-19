@@ -271,10 +271,10 @@
             "temporal": "2021-10-01/2023-03-10",
             "modified": "2023-03-10",
             "keyword": [
+                "coronavirus",
                 "covid-19",
-                "self-tests",
                 "otc",
-                "coronavirus"
+                "self-tests"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -588,7 +588,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-10",
+            "modified": "2023-03-17",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -906,7 +906,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-21",
+            "modified": "2023-03-15",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -974,11 +974,11 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-12",
+            "modified": "2023-03-19",
             "keyword": [
-                "wastewater",
+                "covid19",
                 "sars-cov-2",
-                "covid19"
+                "wastewater"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -1731,7 +1731,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-23",
+            "modified": "2023-03-15",
             "keyword": [
                 "legislation",
                 "osh",
@@ -2208,20 +2208,20 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
+                "age",
+                "all causes",
+                "children",
                 "coronavirus",
+                "covid-19",
                 "deaths",
                 "mortality",
-                "covid-19",
                 "nchs",
                 "nvss",
                 "provisional",
-                "united states",
-                "age",
                 "sex",
-                "all causes",
-                "children"
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -2979,13 +2979,13 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2023-03-10",
+            "modified": "2023-03-17",
             "keyword": [
-                "covid-19",
-                "coronavirus",
                 "cases",
-                "county",
                 "community levels",
+                "coronavirus",
+                "county",
+                "covid-19",
                 "hospital",
                 "united states"
             ],
@@ -2999,7 +2999,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "<b>Note:</b>\n<b>March 9, 2023:</b> Due to incomplete or missing hospital data received for the March 1st, 2023, through March 7th, 2023, reporting period, hospital admission and COVID-19 occupancy rates for American Samoa will be reported as NA in the COVID-19 Community Level data released on March 9th, 2023. Therefore, the COVID-19 Community Level metric for American Samoa could not be calculated and will be reported as \u201cNot Available\u201d.\n\n<b>March 9, 2023:</b> Due to incomplete or missing hospital data received for the March 1st, 2023, through March 7th, 2023, reporting period, hospital admission and COVID-19 occupancy rates for the Northern Mariana Islands will be reported as NA in the COVID-19 Community Level data released on March 9th, 2023. Therefore, the COVID-19 Community Level metric for the Northern Mariana Islands could not be calculated and will be reported as \u201cNot Available\u201d.\n\n<b>March 9, 2023:</b> Due to incomplete or missing hospital data received for the March 1st, 2023, through March 7th,2023, reporting period, hospital admission and COVID-19 occupancy rates for the United States Virgin Islands will be reported as NA in the COVID-19 Community Level data released on March 9th, 2023. Therefore, the COVID-19 Community Level metric for the United States Virgin Islands could not be calculated and will be reported as \u201cNot Available\u201d.\n\n<b>March 9, 2023:</b> Due to data processing delays, Utah's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 9, 2023, weekly release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 9, 2023:</b> Due to technical difficulties, Washington State's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 9, 2023, weekly release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\n\n<b>March 9, 2023:</b> Due to technical difficulties, Florida's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 9, 2023, weekly release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 9, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia, will be reported as 0 in the March 9, 2023, weekly release. Therefore, the COVID-19 Community Levels for these counties may be underestimated and should be interpreted with caution.\u00a0\u00a0\n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-\ntype=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the past 7 days. New COVID-19 admissions and the percent of staffed inpatient beds occupied represent the current potential for strain on the health system. Data on new cases acts as an early warning indicator of potential increases in health system strain in the event of a COVID-19 surge.\n\nUsing these data, the COVID-19 community level is classified as low, medium, or high.\n\nCOVID-19 Community Levels can help communities and individuals make decisions based on their local context and their unique needs. Community vaccination coverage and othe",
+            "description": "<b>Note:</b>\n<b>March 16, 2023:</b> In coordination with Florida health officials, CDC completed a historical correction to address a technical issue affecting aggregate COVID-19 cases reported by Florida between November 2022 and March 2023.\n\n<b>March 16, 2023:</b> Due to technical difficulties, Arkansas\u2019s aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. Therefore, COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\n\n<b>March 16, 2023:</b> Due to potential technical difficulties that are being reviewed with the state, Texas's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia, will be reported as 0 in the March 16, 2023, weekly release. Therefore, the COVID-19 Community Levels for these counties may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to a backlog of historic COVID-19 cases being reported this week, the case rate for Washoe County, NV, will appear higher than expected in the weekly data released on March 16, 2023. Therefore, the COVID-19 Community Levels for Washoe County, NV, may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to data processing delays, the case rates for all Mississippi counties will be reported as 0 in the weekly data released on March 16, 2023. Therefore, the COVID-19 Community Levels metrics for all Mississippi counties may be underestimated and should be interpreted with caution. Updates to the state-level case counts were not affected by this issue. \u00a0\n\n<b>March 16, 2023:</b> Due to incomplete or missing hospital data received for the March 8th, 2023, through March 14, 2023, reporting period, hospital admission and COVID-19 occupancy rates for American Samoa will be reported as NA in the COVID-19 Community Level data released on March 16th, 2023. Therefore, the COVID-19 Community Level metric for American Samoa could not be calculated and will be reported as \u201cNot Available\u201d.\n\n<b>March 16, 2023:</b> Due to incomplete or missing hospital data received for the March 8, 2023, through March 14, 2023, reporting period, hospital admission and COVID-19 occupancy rates for the Northern Mariana Islands will be reported as NA in the COVID-19 Community Level data released on March 16th, 2023. Therefore, the COVID-19 Community Level metric for the Northern Mariana Islands could not be calculated and will be reported as \u201cNot Available\u201d.\n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-\ntype=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -3122,23 +3122,23 @@
             ],
             "issued": "2022-07-25",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-10",
-            "modified": "2023-03-10",
+            "temporal": "2020-12-13/2023-03-17",
+            "modified": "2023-03-17",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "demographics",
-                "sex",
                 "age",
+                "coronavirus",
+                "covid-19",
+                "demographics",
+                "ethnicity",
+                "immunization",
+                "izdl",
                 "race",
-                "ethnicity"
+                "sex",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -4215,45 +4215,45 @@
             "@type": "dcat:Dataset",
             "modified": "2023-03-07",
             "keyword": [
-                "nchs",
-                "nvss",
-                "vsrr",
-                "provisional",
-                "deaths",
-                "mortality",
-                "quarterly",
-                "all causes",
-                "causes of death",
-                "covid-19",
-                "coronavirus",
-                "state",
-                "united states",
                 "age",
                 "age group",
-                "sex",
-                "death rate",
+                "all causes",
                 "alzheimer disease",
                 "cancer",
-                "chronic lower respiratory disease",
+                "causes of death",
+                "cerebrovascular disease",
                 "chronic liver disease",
+                "chronic lower respiratory disease",
                 "cirrhosis",
+                "coronavirus",
+                "covid-19",
+                "death rate",
+                "deaths",
                 "diabetes",
+                "diseases of heart",
                 "drug overdose",
                 "falls",
                 "firearm injury",
-                "diseases of heart",
                 "hiv disease",
                 "homicide",
+                "hypertensive disease",
                 "influenza",
-                "pneumonia",
                 "kidney disease",
+                "mortality",
+                "nchs",
+                "nvss",
                 "parkinson disease",
+                "pneumonia",
+                "pneumonitis due to solids and liquids",
+                "provisional",
+                "quarterly",
                 "septicemia",
-                "cerebrovascular disease",
+                "sex",
+                "state",
                 "suicide",
                 "unintentional injuries",
-                "pneumonitis due to solids and liquids",
-                "hypertensive disease"
+                "united states",
+                "vsrr"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -5349,26 +5349,26 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
-                "deaths",
-                "mortality",
-                "nchs",
-                "covid-19",
-                "coronavirus",
                 "age",
                 "age group",
-                "influenza",
-                "pneumonia",
-                "united states",
-                "state",
-                "puerto rico",
-                "place of death",
                 "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "influenza",
+                "monthly",
+                "mortality",
+                "nchs",
                 "nvss",
+                "place of death",
+                "pneumonia",
                 "provisional",
-                "yearly",
-                "monthly"
+                "puerto rico",
+                "state",
+                "united states",
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -6165,10 +6165,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-11-18",
-            "temporal": "October 3, 2021 - January 21, 2023",
+            "issued": "2023-03-17",
+            "temporal": "October 3, 2021 - February 18, 2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-17",
+            "modified": "2023-03-17",
             "keyword": [
                 "covid-19 bivalent boosters",
                 "covid-19 booster doses",
@@ -6187,7 +6187,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/54ys-qyzm",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Updated (Bivalent) Booster Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\n\nThese data were posted on February 17, 2023 and reflect cases among persons with a positive specimen collection date through January 21, 2023, and deaths among persons with a positive specimen collection date through December 31, 2022. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A person vaccinated with at least a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected. A person vaccinated with a primary series and a monovalent booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and at least one additional dose of any monovalent FDA-authorized or approved COVID-19 vaccine on or after August 13, 2021. (Note: this definition does not distinguish between vaccine recipients who are immunocompromised and are receiving an additional dose versus those who are not immunocompromised and receiving a booster dose.) A person vaccinated with a primary series and an updated (bivalent) booster dose had SARS-CoV-2 RNA or antigen detected in a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and an additional dose of any bivalent FDA-authorized or approved vaccine COVID-19 vaccine on or after September 1, 2022. (Note: Doses with bivalent doses reported as first or second doses are classified as vaccinated with a bivalent booster dose.) People with primary series or a monovalent booster dose were combined in the \u201cvaccinated without an updated booster\u201d category. \n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Per the interim\u202fguidance of the Council of State and Territorial Epidemiologists (CSTE),\u202fthis should include persons whose death certificate lists COVID-19 disease or SARS-CoV-2 as the underlying cause of death or as a significant condition contributing to death. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis. \n\nParticipating jurisdictions: Currently, these 25 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, Colorado, District of Columbia, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (NY), North Carolina,  Tennessee, Texas, Utah, Washington, and West Virginia; 24 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 52% of the total U.S. population and all ten of the Health and Human Services Regions. This list will be updated as more jurisdictions participate.     \n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination status were calculated a",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Updated (Bivalent) Booster Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\n\nThese data were posted on March 17, 2023 and reflect cases among persons with a positive specimen collection date through February 18, 2023, and deaths among persons with a positive specimen collection date through January 28, 2022. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A person vaccinated with at least a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected. A person vaccinated with a primary series and a monovalent booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and at least one additional dose of any monovalent FDA-authorized or approved COVID-19 vaccine on or after August 13, 2021. (Note: this definition does not distinguish between vaccine recipients who are immunocompromised and are receiving an additional dose versus those who are not immunocompromised and receiving a booster dose.) A person vaccinated with a primary series and an updated (bivalent) booster dose had SARS-CoV-2 RNA or antigen detected in a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and an additional dose of any bivalent FDA-authorized or approved vaccine COVID-19 vaccine on or after September 1, 2022. (Note: Doses with bivalent doses reported as first or second doses are classified as vaccinated with a bivalent booster dose.) People with primary series or a monovalent booster dose were combined in the \u201cvaccinated without an updated booster\u201d category. \n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Per the interim\u202fguidance of the Council of State and Territorial Epidemiologists (CSTE),\u202fthis should include persons whose death certificate lists COVID-19 disease or SARS-CoV-2 as the underlying cause of death or as a significant condition contributing to death. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis. \n\nParticipating jurisdictions: Currently, these 25 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, Colorado, District of Columbia, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Massachusetts, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (NY), North Carolina, Rhode Island, Tennessee, Texas, Utah, Washington, and West Virginia; 24 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 50% of the total U.S. population and all ten of the Health and Human Services Regions. This list will be updated as more jurisdictions participate.     \n\nIncidence rate estimates: Weekly age-specific incidence rates by vaccination status were calculated a",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Updated (Bivalent) Booster Status",
             "programCode": [
                 "009:038"
@@ -6981,23 +6981,23 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-10",
-            "modified": "2023-03-10",
+            "temporal": "2020-12-13/2023-03-17",
+            "modified": "2023-03-17",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "demographics",
-                "sex",
                 "age",
+                "coronavirus",
+                "covid-19",
+                "demographics",
+                "ethnicity",
+                "immunization",
+                "izdl",
                 "race",
-                "ethnicity"
+                "sex",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -7122,7 +7122,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-11",
+            "modified": "2023-03-18",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -9661,7 +9661,7 @@
             ],
             "issued": "2015-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-22",
+            "modified": "2023-03-17",
             "keyword": [
                 "cigarette excise tax",
                 "slides"
@@ -11156,12 +11156,12 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-09",
+            "modified": "2023-03-16",
             "keyword": [
-                "covid-19",
-                "coronavirus",
                 "aggregate county data",
-                "cases"
+                "cases",
+                "coronavirus",
+                "covid-19"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -12067,7 +12067,7 @@
             ],
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-10",
+            "modified": "2023-03-15",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -13161,8 +13161,8 @@
             "@type": "dcat:Dataset",
             "modified": "2023-03-07",
             "keyword": [
-                "covid-19",
-                "american rescue plan"
+                "american rescue plan",
+                "covid-19"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -13352,19 +13352,19 @@
             ],
             "issued": "2022-12-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-10",
-            "modified": "2023-03-10",
+            "temporal": "2020-12-13/2023-03-17",
+            "modified": "2023-03-17",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "age"
+                "age",
+                "coronavirus",
+                "covid-19",
+                "immunization",
+                "izdl",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -14228,25 +14228,25 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
                 "age",
-                "sex",
-                "state",
-                "mortality",
+                "age group",
                 "coronavirus",
                 "covid-19",
-                "nchs",
-                "united states",
+                "deaths",
                 "influenza",
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
                 "pneumonia",
                 "provisional",
                 "puerto rico",
-                "monthly",
-                "yearly",
-                "nvss",
-                "age group",
-                "deaths"
+                "sex",
+                "state",
+                "united states",
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -14486,36 +14486,36 @@
             "issued": "2021-02-03",
             "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
+                "all causes",
+                "alzheimer disease",
+                "cancer",
+                "causes of death",
+                "cerebrovascular disease",
+                "chronic lower respiratory disease",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "diabetes",
+                "diseases of heart",
+                "drug overdose",
+                "homicide",
+                "influenza",
+                "kidney disease",
                 "monthly",
                 "mortality",
-                "nvss",
-                "deaths",
-                "provisional",
-                "nchs",
-                "united states",
-                "covid-19",
-                "coronavirus",
-                "all causes",
-                "causes of death",
-                "natural cause",
-                "septicemia",
-                "cancer",
-                "diabetes",
-                "alzheimer disease",
-                "influenza",
-                "pneumonia",
-                "chronic lower respiratory disease",
-                "respiratory disease",
-                "kidney disease",
-                "diseases of heart",
-                "cerebrovascular disease",
-                "unintentional injuries",
-                "homicide",
-                "suicide",
                 "motor vehicle accidents",
-                "drug overdose"
+                "natural cause",
+                "nchs",
+                "nvss",
+                "pneumonia",
+                "provisional",
+                "respiratory disease",
+                "septicemia",
+                "suicide",
+                "unintentional injuries",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -14784,19 +14784,19 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "deaths",
-                "mortality",
+                "social vulnerability index",
                 "united states",
-                "weekly",
-                "covid-19",
-                "coronavirus",
-                "all causes",
-                "social vulnerability index"
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -15563,15 +15563,15 @@
             ],
             "issued": "2022-08-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-02",
+            "modified": "2023-03-13",
             "keyword": [
                 "art",
+                "assisted reproductive technology",
+                "clinic",
                 "fertility",
                 "infertility",
-                "clinic",
-                "success rates",
                 "services",
-                "assisted reproductive technology"
+                "success rates"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -17161,7 +17161,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-02",
+            "modified": "2023-03-16",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -19534,7 +19534,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-12",
+            "modified": "2023-03-19",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -20082,15 +20082,15 @@
             ],
             "issued": "2022-10-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-02",
+            "modified": "2023-03-13",
             "keyword": [
+                "art",
+                "assisted reproductive technology",
+                "clinic",
                 "fertility",
                 "infertility",
-                "clinic",
-                "success rates",
                 "services",
-                "art",
-                "assisted reproductive technology"
+                "success rates"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -20214,7 +20214,7 @@
             ],
             "issued": "2022-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-15",
+            "modified": "2023-03-15",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -22919,16 +22919,16 @@
             "issued": "2023-02-24",
             "@type": "dcat:Dataset",
             "temporal": "2022-10-20/-",
-            "modified": "2023-03-09",
+            "modified": "2023-03-17",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "community transmission",
-                "county",
                 "case",
+                "community transmission",
+                "coronavirus",
+                "county",
+                "covid-19",
                 "laboratory"
             ],
             "contactPoint": {
@@ -22941,7 +22941,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/dt66-w6m6",
-            "description": "<b>Note:</b>\n<b>March 9, 2023:</b> Due to data processing delays, Utah's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 9, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 9, 2023:</b> Due to technical difficulties, Washington State's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 9, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 9, 2023:</b> Due to technical difficulties, Florida's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 9, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 9, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia will be reported as 0 in the March 9, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\u00a0\u00a0\n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains weekly community transmission levels data for all available counties and jurisdictions as displayed on <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=Risk\">COVID Data Tracker's County View</a> since <b>October 20, 2022</b>. Each week, the dataset is appended to contain the most recent week's data and is updated on Thursdays, typically by <b>8pm</b> ET. Historical corrections are not made to these data if new case or testing information become available. A separate file is made available here (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly COVID-19 County Level of Community Transmission Historical Changes</a>) if historically updated data are desired.\n\n<b>Related data</b> \nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>), updated weekly with the most recent week\u2019s data since October 20, 2022, and a historical dataset with the county-level transmission data from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>).  \n \n<b>Methods for calculating county level of community transmission indicator</b> \nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metrics, CDC classifies transmission values as low, moderate, substantial, or high (below and\u202f<a href=\"https://www.cdc.gov/mmwr/volumes/70/wr/mm7030e2.htm?s_cid=mm7030e2_w#T1_down\">here</a>). If the values for each of these two metrics differ (e.g., one indicates moderate and the other low), then the higher of the two should be used for decision-making. \n \n<b>CDC core metrics of and thresholds for community transmission levels of SARS-CoV-2</b>\n<b>Total New Case Rate Metric:</b> \"New cases per 100,000 persons in the past 7 days\" is calculated by adding the number of new cases in the county (or other administrative level) in the last 7 days divided by the population in the county (or other administrative level) and multiply",
+            "description": "<b>Note:</b>\n<b>March 16, 2023:</b> In coordination with Florida health officials, CDC completed a historical correction to address a technical issue affecting aggregate COVID-19 cases reported by Florida between November 2022 and March 2023.\n\n<b>March 16, 2023:</b> Due to technical difficulties, Arkansas\u2019s aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. Therefore, COVID-19 Community transmission metrics may be underestimated and should be interpreted with caution.\n\n<b>March 16, 2023:</b> Due to potential technical difficulties that are being reviewed with the state, Texas's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia, will be reported as 0 in the March 16, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to a backlog of historic COVID-19 cases being reported this week, the case rate for Washoe County, NV, will appear higher than expected in the weekly data released on March 16, 2023. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to data processing delays, the case rates for all Mississippi counties will be reported as 0 in the weekly data released on March 16, 2023. Therefore, the COVID-19 Community Transmission metrics for all Mississippi counties may be underestimated and should be interpreted with caution. Updates to the state-level case counts were not affected by this issue. \u00a0\n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains weekly community transmission levels data for all available counties and jurisdictions as displayed on <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=Risk\">COVID Data Tracker's County View</a> since <b>October 20, 2022</b>. Each week, the dataset is appended to contain the most recent week's data and is updated on Thursdays, typically by <b>8pm</b> ET. Historical corrections are not made to these data if new case or testing information become available. A separate file is made available here (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly COVID-19 County Level of Community Transmission Historical Changes</a>) if historically updated data are desired.\n\n<b>Related data</b> \nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>), updated weekly with the most recent week\u2019s data since October 20, 2022, and a historical dataset with the county-level transmission data from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>).  \n \n<b>Methods for calculating county level of community tran",
             "title": "Weekly COVID-19 County Level of Community Transmission as Originally Posted",
             "programCode": [
                 "009:020"
@@ -23647,6 +23647,79 @@
             "describedBy": "https://chronicdata.cdc.gov/d/e28h-tx85",
             "theme": [
                 "Vision & Eye Health"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/nvss/vsrr/provisional-maternal-deaths.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-03-10",
+            "@type": "dcat:Dataset",
+            "temporal": "2019-01-01/2022-10-31",
+            "modified": "2023-03-16",
+            "keyword": [
+                "age",
+                "age group",
+                "deaths",
+                "hispanic origin",
+                "maternal causes",
+                "mortality",
+                "nchs",
+                "nvss",
+                "provisional",
+                "race",
+                "united states"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/e2d5-ggg7",
+            "description": "This data presents national-level provisional counts of maternal deaths based on a current flow of mortality data in the National Vital Statistics System. Provisional counts include deaths among U.S. residents in the United States, as of the date specified and may not include all deaths that occurred during a given time period (see Technical Notes on Homepage link). \n\nA maternal death is the death of a woman while pregnant or within 42 days of termination of pregnancy. In this data visualization, maternal deaths are those deaths with an underlying cause of death assigned to International Statistical Classification of Diseases, 10th Revision (ICD-10) code numbers A34, O00\u2013O95, and O98\u2013O99.\n\nThe provisional data presented include reported 12 month-ending provisional counts of maternal death overall, and by age, and by race/ethnicity. Provisional maternal death counts presented in this data visualization are for \u201c12-month ending periods,\u201d defined as the number of deaths occurring in the 12-month period ending in the month indicated. For example, the 12-month ending period in June 2020 would include deaths occurring from July 1, 2019, through June 30, 2020. Evaluation of trends over time should compare estimates from year to year (June 2020 and June 2021), rather than month to month, to avoid overlapping time periods. It is important to note that the data represent counts of death, and not maternal mortality ratios or rates, which are the standard measure used to compare groups, and therefore should not be used to determine populations at disproportionate risk of maternal death. Death counts between 1-9 are suppressed in accordance with National Center for Health Statistics (NCHS) confidentiality standards.",
+            "title": "VSRR Provisional Maternal Death Counts",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/e2d5-ggg7/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/e2d5-ggg7/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/e2d5-ggg7/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/e2d5-ggg7/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/e2d5-ggg7/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/e2d5-ggg7/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/e2d5-ggg7/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P3M",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -27733,7 +27806,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-12",
+            "modified": "2023-03-19",
             "keyword": [
                 "wastewater"
             ],
@@ -28481,7 +28554,7 @@
             ],
             "issued": "2022-06-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-16",
+            "modified": "2023-03-16",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -30198,45 +30271,45 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
-                "nchs",
-                "coronavirus",
-                "covid-19",
-                "health conditions",
-                "mortality",
-                "deaths",
-                "age group",
-                "provisional",
-                "nvss",
-                "united states",
-                "puerto rico",
-                "state",
-                "monthly",
-                "yearly",
-                "age",
-                "respiratory disease",
-                "influenza",
-                "pneumonia",
-                "chronic lower respiratory disease",
                 "adult respiratory distress syndrome",
-                "respiratory failure",
-                "respiratory arrest",
-                "circulatory disease",
-                "hypertensive disease",
-                "ischemic heart disease",
+                "age",
+                "age group",
+                "alzheimer disease",
+                "cancer",
                 "cardiac arrest",
                 "cardiac arrhythmia",
-                "heart failure",
                 "cerebrovascular disease",
-                "septicemia",
-                "cancer",
-                "diabetes",
-                "obesity",
-                "alzheimer disease",
+                "chronic lower respiratory disease",
+                "circulatory disease",
+                "coronavirus",
+                "covid-19",
+                "deaths",
                 "dementia",
+                "diabetes",
+                "health conditions",
+                "heart failure",
+                "hypertensive disease",
+                "influenza",
+                "injury",
+                "ischemic heart disease",
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
+                "obesity",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
                 "renal failure",
-                "injury"
+                "respiratory arrest",
+                "respiratory disease",
+                "respiratory failure",
+                "septicemia",
+                "state",
+                "united states",
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30296,19 +30369,19 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "mortality",
                 "nchs",
                 "nvss",
-                "mortality",
-                "deaths",
                 "provisional",
                 "united states",
-                "weekly",
                 "urbanicity",
-                "covid-19",
-                "all causes",
-                "coronavirus"
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30703,13 +30776,13 @@
             "issued": "2022-12-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-03-09",
+            "modified": "2023-03-16",
             "keyword": [
-                "coronavirus",
-                "covid-19",
-                "community transmission",
-                "county",
                 "case",
+                "community transmission",
+                "coronavirus",
+                "county",
+                "covid-19",
                 "laboratory"
             ],
             "contactPoint": {
@@ -31729,7 +31802,7 @@
             ],
             "issued": "2020-10-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-10",
+            "modified": "2023-03-15",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -32593,19 +32666,19 @@
             "issued": "2022-10-18",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-10-15",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
+                "all causes",
+                "coronavirus",
+                "county",
+                "covid-19",
                 "deaths",
                 "mortality",
-                "covid-19",
-                "county",
                 "nchs",
-                "coronavirus",
-                "all causes",
                 "nvss",
                 "provisional",
-                "weekly",
-                "united states"
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -32933,7 +33006,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-02",
+            "modified": "2023-03-16",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -32994,15 +33067,15 @@
             ],
             "issued": "2022-10-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-02",
+            "modified": "2023-03-13",
             "keyword": [
                 "art",
+                "assisted reproductive technology",
+                "clinic",
                 "fertility",
                 "infertility",
-                "clinic",
-                "success rates",
                 "services",
-                "assisted reproductive technology"
+                "success rates"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -33624,7 +33697,7 @@
             ],
             "issued": "2022-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-15",
+            "modified": "2023-03-15",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -33823,17 +33896,17 @@
             "issued": "2023-02-24",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2023-03-09",
+            "modified": "2023-03-17",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "laboratory",
                 "cases",
+                "community transmission",
+                "coronavirus",
                 "county",
-                "community transmission"
+                "covid-19",
+                "laboratory"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -33845,7 +33918,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/jgk8-6dpn",
-            "description": "<b>Note:</b>\n<b>March 9, 2023:</b> Due to data processing delays, Utah's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 9, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 9, 2023:</b> Due to technical difficulties, Washington State's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 9, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 9, 2023:</b> Due to technical difficulties, Florida's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 9, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 9, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia will be reported as 0 in the March 9, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\u00a0\u00a0\n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains historical case and percent positivity data updated weekly for all available counties and jurisdictions. Each week, the dataset is refreshed to capture any historical updates and is updated on \u202f<b>Thursdays</b>,\u202ftypically by <b>8pm</b> ET. Please note, percent positivity data may be incomplete for the most recent time period. \n\n<b>Related data </b>\nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with historical case and percent positivity data for each county from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>) and a dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/dataset/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>) since October 20, 2022. <b>Please navigate to the <a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a> for the Community Transmission Levels published weekly on Thursdays.</b>\n\n<b>Methods for calculating county level of community transmission indicator</b>\nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metrics, CDC classifies transmission values as low, moderate, substantial, or high (below and <a href=\"https://www.cdc.gov/mmwr/volumes/70/wr/mm7030e2.htm?s_cid=mm7030e2_w#T1_down\">here</a>). If the values for each of these two metrics differ (e.g., one indicates moderate and the other low), then the higher of the two should be used for decision-making. \n\n<b>CDC core metrics of and thresholds for community transmission levels of SARS-CoV-2</b>\n<b>Total New Case Rate Metric:</b> \"New cases per 100,000 persons in the past 7 days\" is calculated by adding the number of new cases in the county (or other administrative level) in the last 7 days divided by the population in the county (or other administrative level) and multiplying by 100,000. \"New cases per 100,000 persons in the past 7 days\" is considered to have transmission level of Low (0-9.99); Moderate (10.00-49.99); Substantial (50.00-99.99); and High (greater than or equal to 100.00). \n\n<b>Test Percent Positivity Metric:</b> \"Percentage of positive NAAT in the past",
+            "description": "<b>Note:</b>\n<b>March 16, 2023:</b> In coordination with Florida health officials, CDC completed a historical correction to address a technical issue affecting aggregate COVID-19 cases reported by Florida between November 2022 and March 2023.\n\n<b>March 16, 2023:</b> Due to technical difficulties, Arkansas\u2019s aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. Therefore, COVID-19 Community transmission metrics may be underestimated and should be interpreted with caution.\n\n<b>March 16, 2023:</b> Due to potential technical difficulties that are being reviewed with the state, Texas's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia, will be reported as 0 in the March 16, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to a backlog of historic COVID-19 cases being reported this week, the case rate for Washoe County, NV, will appear higher than expected in the weekly data released on March 16, 2023. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to data processing delays, the case rates for all Mississippi counties will be reported as 0 in the weekly data released on March 16, 2023. Therefore, the COVID-19 Community Transmission metrics for all Mississippi counties may be underestimated and should be interpreted with caution. Updates to the state-level case counts were not affected by this issue. \u00a0\n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains historical case and percent positivity data updated weekly for all available counties and jurisdictions. Each week, the dataset is refreshed to capture any historical updates and is updated on \u202f<b>Thursdays</b>,\u202ftypically by <b>8pm</b> ET. Please note, percent positivity data may be incomplete for the most recent time period. \n\n<b>Related data </b>\nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with historical case and percent positivity data for each county from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>) and a dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/dataset/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>) since October 20, 2022. <b>Please navigate to the <a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a> for the Community Transmission Levels published weekly on Thursdays.</b>\n\n<b>Methods for calculating county level of community transmission indicator</b>\nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metric",
             "title": "Weekly COVID-19 County Level of Community Transmission Historical Changes",
             "programCode": [
                 "009:020"
@@ -33998,23 +34071,23 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-10",
-            "modified": "2023-03-10",
+            "temporal": "2020-12-13/2023-03-17",
+            "modified": "2023-03-17",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "demographics",
-                "sex",
                 "age",
+                "coronavirus",
+                "covid-19",
+                "demographics",
+                "ethnicity",
+                "immunization",
+                "izdl",
                 "race",
-                "ethnicity"
+                "sex",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -34251,23 +34324,23 @@
             "@type": "dcat:Dataset",
             "modified": "2023-03-06",
             "keyword": [
-                "excess deaths",
+                "age",
+                "age group",
+                "all causes",
+                "coronavirus",
                 "covid-19",
+                "deaths",
+                "excess deaths",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "mortality",
-                "deaths",
-                "united states",
-                "weekly",
-                "age",
-                "age group",
                 "race",
-                "hispanic origin",
                 "sex",
-                "all causes",
-                "coronavirus",
-                "state"
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -34464,14 +34537,14 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-10",
+            "modified": "2023-03-17",
             "keyword": [
-                "sars-cov-2",
                 "covid-19",
+                "nowcasting",
+                "sars-cov-2",
                 "surveillance",
-                "variant surveillance",
                 "variant proportion",
-                "nowcasting"
+                "variant surveillance"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -34669,22 +34742,22 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
-                "death rate",
-                "covid-19",
-                "coronavirus",
+                "age",
                 "age group",
-                "race",
+                "coronavirus",
+                "covid-19",
+                "death rate",
+                "deaths",
                 "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
-                "deaths",
-                "mortality",
                 "provisional",
-                "age",
-                "united states",
-                "state"
+                "race",
+                "state",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -35668,20 +35741,20 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
-                "county",
-                "race",
-                "coronavirus",
-                "covid-19",
-                "mortality",
-                "united states",
-                "provisional",
-                "nvss",
-                "hispanic origin",
-                "deaths",
                 "all causes",
-                "nchs"
+                "coronavirus",
+                "county",
+                "covid-19",
+                "deaths",
+                "hispanic origin",
+                "mortality",
+                "nchs",
+                "nvss",
+                "provisional",
+                "race",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -36071,11 +36144,11 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-09",
+            "modified": "2023-03-16",
             "keyword": [
-                "provider relief fund",
                 "cares act",
-                "health system"
+                "health system",
+                "provider relief fund"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -36135,7 +36208,7 @@
             ],
             "issued": "2022-11-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-15",
+            "modified": "2023-03-15",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -36466,23 +36539,23 @@
             ],
             "issued": "2022-11-23",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-10",
-            "modified": "2023-03-10",
+            "temporal": "2020-12-13/2023-03-17",
+            "modified": "2023-03-17",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "demographics",
-                "sex",
                 "age",
+                "coronavirus",
+                "covid-19",
+                "demographics",
+                "ethnicity",
+                "immunization",
+                "izdl",
                 "race",
-                "ethnicity"
+                "sex",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -36879,18 +36952,18 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
-                "deaths",
-                "mortality",
-                "united states",
+                "all causes",
+                "coronavirus",
                 "county",
                 "covid-19",
-                "coronavirus",
+                "deaths",
+                "mortality",
                 "nchs",
-                "all causes",
+                "nvss",
                 "provisional",
-                "nvss"
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -37274,25 +37347,25 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
-                "nchs",
+                "age",
+                "age group",
+                "all causes",
                 "coronavirus",
                 "covid-19",
-                "pneumonia",
-                "influenza",
+                "deaths",
                 "hispanic origin",
+                "influenza",
+                "mortality",
+                "nchs",
+                "nvss",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
                 "race",
                 "state",
-                "age group",
-                "nvss",
-                "united states",
-                "puerto rico",
-                "all causes",
-                "provisional",
-                "mortality",
-                "deaths",
-                "age"
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -37552,7 +37625,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-10",
+            "modified": "2023-03-17",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -38336,22 +38409,22 @@
             "@type": "dcat:Dataset",
             "modified": "2023-03-06",
             "keyword": [
-                "excess deaths",
+                "age",
+                "age group",
+                "all causes",
+                "coronavirus",
                 "covid-19",
+                "deaths",
+                "excess deaths",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "mortality",
-                "deaths",
-                "united states",
-                "weekly",
-                "age",
-                "age group",
                 "race",
-                "hispanic origin",
                 "sex",
-                "all causes",
-                "coronavirus"
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -38411,7 +38484,7 @@
             ],
             "issued": "2015-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-22",
+            "modified": "2023-03-17",
             "keyword": [
                 "comprehensive smokefree indoor air",
                 "slides"
@@ -38716,13 +38789,13 @@
                 "https://data.cdc.gov/api/views/mbd7-r32t/files/9c040cf1-fcb7-47b8-ac28-c7f978c65c85?download=true&filename=public%2033%20utility%20summary.pdf"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
                 "cases",
-                "surveillance",
+                "coronavirus",
                 "covid",
                 "covid19",
-                "restricted"
+                "covid-19",
+                "restricted",
+                "surveillance"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -40112,33 +40185,33 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
+                "all causes",
+                "alzheimer disease",
+                "cancer",
+                "causes of death",
+                "cerebrovascular disease",
+                "chronic lower respiratory disease",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "diabetes",
+                "diseases of heart",
+                "influenza",
+                "kidney disease",
+                "mortality",
+                "natural cause",
                 "nchs",
                 "nvss",
-                "mortality",
-                "deaths",
-                "all causes",
-                "covid-19",
-                "coronavirus",
-                "weekly",
-                "united states",
-                "state",
-                "puerto rico",
-                "provisional",
-                "causes of death",
-                "natural cause",
-                "septicemia",
-                "cancer",
-                "diabetes",
-                "alzheimer disease",
-                "influenza",
                 "pneumonia",
-                "chronic lower respiratory disease",
+                "provisional",
+                "puerto rico",
                 "respiratory disease",
-                "kidney disease",
-                "diseases of heart",
-                "cerebrovascular disease"
+                "septicemia",
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41090,14 +41163,14 @@
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2019%20utility%20summary.pdf"
             ],
             "keyword": [
-                "covid-19",
-                "covid19",
-                "coronavirus",
                 "cases",
-                "surveillance",
+                "coronavirus",
                 "county",
+                "covid19",
+                "covid-19",
+                "microdata",
                 "state",
-                "microdata"
+                "surveillance"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41911,22 +41984,22 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
-                "mortality",
+                "age",
+                "age group",
                 "children",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "covid-19",
-                "coronavirus",
                 "race",
-                "age group",
                 "sex",
-                "united states",
-                "hispanic origin",
-                "deaths",
-                "age"
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42829,7 +42902,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-10",
+            "modified": "2023-03-17",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -43140,19 +43213,19 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
-                "deaths",
-                "race",
-                "mortality",
-                "united states",
-                "state",
-                "covid-19",
                 "coronavirus",
-                "nchs",
+                "covid-19",
+                "deaths",
                 "hispanic origin",
+                "mortality",
+                "nchs",
+                "nvss",
                 "provisional",
-                "nvss"
+                "race",
+                "state",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -44127,13 +44200,13 @@
             "issued": "2022-10-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2023-03-09",
+            "modified": "2023-03-17",
             "keyword": [
-                "covid-19",
                 "aggregate",
-                "death",
                 "cases",
-                "coronavirus"
+                "coronavirus",
+                "covid-19",
+                "death"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -44145,7 +44218,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/pwn4-m3yp",
-            "description": "<b>Note:</b>\n<b>March 9, 2023:</b> Due to data processing delays, Utah's aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in the March 9, 2023, weekly release.\n\n<b>March 9, 2023:</b> Due to technical difficulties, Washington State's aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in the March 9, 2023, weekly release.\n\n<b>March 9, 2023:</b> Due to technical difficulties, Florida's aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in the March 9, 2023, weekly release. \n\nBeginning on <b>October 20, 2022,</b> CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. As a result, aggregate case and death data displayed on data.cdc.gov will be updated weekly on\u202f<b>Thursdays</b>,\u202ftypically by <b>8pm ET</b>, instead of daily. Although these counts are still presented at the state level, CDC now aggregates county level data to obtain state and territory specific totals. For detailed methodology changes please see the dataset description below.  \n\n<b>Aggregate Data Collection Process </b>\nSince the start of the COVID-19 pandemic, data have been gathered through a robust process with the following steps: \n<ul><li>A CDC data team reviews and validates the information obtained from jurisdictions\u2019 state and local websites via an overnight data review process.</li>\n<li>If more than one official county data source exists, CDC uses a comprehensive data selection process comparing each official county data source, and takes the highest case and death counts respectively, unless otherwise specified by the state. </li>\n<li>CDC compiles these data and posts the finalized information on COVID Data Tracker. </li>\n<li>County level data is aggregated to obtain state and territory specific totals.</li>\n</ul>This process is collaborative, with CDC and jurisdictions working together to ensure the accuracy of COVID-19 case and death numbers. County counts provide the most up-to-date numbers on cases and deaths by report date. CDC may retrospectively update counts to correct data quality issues. \n\n<b>Relation to Archived Dataset</b>\nPrior to October 20, 2022, CDC collected aggregate case and death data at the state level. This data was compiled and published daily on data.cdc.gov in a dataset called <a href=\"https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36\">United States COVID-19 Cases and Deaths by State over Time</a>. As of 10/20/2022, this dataset has been archived and will no longer update. \n\n<b>Methodology Changes </b>\nSeveral differences exist between the current, weekly-updated dataset and the archived version of the <a href=\"https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36\">United States COVID-19 Cases and Deaths by State over Time</a> dataset: \n<ul><li><b>Source:</b>\u202fThe current Weekly-Updated Version is based on county-level aggregate count data, while the Archived Version is based on State-level aggregate count data. </li>\n<li><b>Confirmed/Probable Cases/Death breakdown:\u202f</b> While the probable cases and deaths are included in the total case and total death counts in both versions (if applicable), they were reported separately from the confirmed cases and deaths by jurisdiction in the Archived Version.\u202f In the current Weekly-Updated Version, the counts by jurisdiction are not reported by confirmed or probable status (See Confirmed and Probable Counts section for more detail).</li>\n<li><b>Time Series Frequency:</b> The current Weekly-Updated Version contains weekly time series data (i.e., one record per week per jurisdiction), while the Archived Version contains daily time series data (i.e., one record per day per jurisdiction). </li>\n<li><b>Update Frequency:</b>\u202fThe current Weekly-Upd",
+            "description": "<b>Note:</b>\n<b>March 16, 2023:</b> In coordination with Florida health officials, CDC completed a historical correction to address a technical issue affecting aggregate COVID-19 cases reported by Florida between November 2022 and March 2023.\n\n<b>March 16, 2023:</b> Due to technical difficulties, Arkansas\u2019s aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in the March 16, 2023, weekly release. \n\n<b>March 16, 2023:</b> Due to potential technical difficulties that are being reviewed with the state, Texas's aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in the March 16, 2023, weekly release.\n\n<b>March 16, 2023:</b> Due to technical difficulties, Indiana's aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in the March 16, 2023, weekly release. \n\nBeginning on <b>October 20, 2022,</b> CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. As a result, aggregate case and death data displayed on data.cdc.gov will be updated weekly on\u202f<b>Thursdays</b>,\u202ftypically by <b>8pm ET</b>, instead of daily. Although these counts are still presented at the state level, CDC now aggregates county level data to obtain state and territory specific totals. For detailed methodology changes please see the dataset description below.  \n\n<b>Aggregate Data Collection Process </b>\nSince the start of the COVID-19 pandemic, data have been gathered through a robust process with the following steps: \n<ul><li>A CDC data team reviews and validates the information obtained from jurisdictions\u2019 state and local websites via an overnight data review process.</li>\n<li>If more than one official county data source exists, CDC uses a comprehensive data selection process comparing each official county data source, and takes the highest case and death counts respectively, unless otherwise specified by the state. </li>\n<li>CDC compiles these data and posts the finalized information on COVID Data Tracker. </li>\n<li>County level data is aggregated to obtain state and territory specific totals.</li>\n</ul>This process is collaborative, with CDC and jurisdictions working together to ensure the accuracy of COVID-19 case and death numbers. County counts provide the most up-to-date numbers on cases and deaths by report date. CDC may retrospectively update counts to correct data quality issues. \n\n<b>Relation to Archived Dataset</b>\nPrior to October 20, 2022, CDC collected aggregate case and death data at the state level. This data was compiled and published daily on data.cdc.gov in a dataset called <a href=\"https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36\">United States COVID-19 Cases and Deaths by State over Time</a>. As of 10/20/2022, this dataset has been archived and will no longer update. \n\n<b>Methodology Changes </b>\nSeveral differences exist between the current, weekly-updated dataset and the archived version of the <a href=\"https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36\">United States COVID-19 Cases and Deaths by State over Time</a> dataset: \n<ul><li><b>Source:</b>\u202fThe current Weekly-Updated Version is based on county-level aggregate count data, while the Archived Version is based on State-level aggregate count data. </li>\n<li><b>Confirmed/Probable Cases/Death breakdown:\u202f</b> While the probable cases and deaths are included in the total case and total death counts in both versions (if applicable), they were reported separately from the confirmed cases and deaths by jurisdiction in the Archived Version.\u202f In the current Weekly-Updated Version, the counts by jurisdiction are not reported by confirmed or probable status (See Confirmed and Probable Counts section for more detail).</li>\n<li><b>Time Series Frequency:",
             "title": "Weekly United States COVID-19 Cases and Deaths by State",
             "programCode": [
                 "009:020"
@@ -44442,8 +44515,8 @@
             ],
             "issued": "2020-12-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-03-18/2022-09-27",
-            "modified": "2023-01-13",
+            "temporal": "2020-03-18/2022-11-29",
+            "modified": "2023-03-15",
             "keyword": [
                 "covid-19",
                 "emergency department",
@@ -44465,7 +44538,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/q3t8-zr7t",
-            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020, 2021 and 2022 NHCS are not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 42 hospitals submitting inpatient and 43 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020-September 27, 2022.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
+            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020, 2021 and 2022 NHCS are not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 29 hospitals submitting inpatient and 29 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020-November 29, 2022.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
             "title": "COVID-19 Hospital Data from the National Hospital Care Survey",
             "programCode": [
                 "009:020"
@@ -45487,22 +45560,22 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "deaths",
-                "mortality",
-                "united states",
-                "state",
                 "puerto rico",
-                "weekly",
                 "race",
-                "hispanic origin",
-                "all causes",
-                "covid-19",
-                "coronavirus"
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46492,7 +46565,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-02",
+            "modified": "2023-03-16",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -47022,24 +47095,25 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-10",
+            "temporal": "2019-12-29/2023-03-01",
+            "modified": "2023-03-17",
             "keyword": [
+                "all causes",
                 "coronavirus",
+                "covid-19",
+                "deaths",
+                "influenza",
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
                 "state",
                 "united states",
-                "nchs",
-                "covid-19",
-                "mortality",
-                "pneumonia",
-                "influenza",
-                "nvss",
-                "provisional",
                 "weekly",
-                "monthly",
-                "yearly",
-                "all causes",
-                "puerto rico",
-                "deaths"
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -47614,19 +47688,19 @@
             ],
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-10",
-            "modified": "2023-03-10",
+            "temporal": "2020-12-13/2023-03-17",
+            "modified": "2023-03-17",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "report date"
+                "coronavirus",
+                "covid-19",
+                "immunization",
+                "izdl",
+                "report date",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -48200,7 +48274,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-07",
+            "modified": "2023-03-14",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -49641,23 +49715,23 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
+                "age",
+                "age group",
+                "all causes",
+                "children",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "mortality",
-                "deaths",
-                "united states",
-                "weekly",
-                "age",
-                "age group",
                 "race",
-                "hispanic origin",
-                "coronavirus",
-                "covid-19",
-                "all causes",
-                "children"
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -51408,25 +51482,25 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
-                "covid-19",
-                "race",
-                "hispanic origin",
                 "age",
+                "age group",
+                "all causes",
+                "children",
+                "coronavirus",
+                "covid-19",
                 "deaths",
+                "hhs region",
+                "hispanic origin",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "coronavirus",
-                "age group",
-                "weekly",
-                "all causes",
-                "mortality",
-                "united states",
                 "puerto rico",
-                "hhs region",
-                "children"
+                "race",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -51614,7 +51688,7 @@
             "landingPage": "https://data.cdc.gov/d/tt3f-rr33",
             "issued": "2021-06-02",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-19",
+            "modified": "2023-03-16",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "CDC INFO",
@@ -52249,33 +52323,33 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
-                "nchs",
-                "nvss",
-                "provisional",
-                "mortality",
-                "deaths",
-                "united states",
-                "state",
-                "puerto rico",
-                "weekly",
-                "causes of death",
                 "alzheimer disease",
-                "dementia",
                 "cancer",
+                "causes of death",
                 "cerebrovascular disease",
-                "diabetes",
                 "chronic lower respiratory disease",
-                "influenza",
-                "pneumonia",
-                "respiratory disease",
-                "renal failure",
+                "circulatory disease",
+                "deaths",
+                "dementia",
+                "diabetes",
                 "heart failure",
                 "hypertensive disease",
+                "influenza",
                 "ischemic heart disease",
-                "circulatory disease",
-                "septicemia"
+                "mortality",
+                "nchs",
+                "nvss",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
+                "renal failure",
+                "respiratory disease",
+                "septicemia",
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -53066,23 +53140,23 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
-                "nchs",
                 "coronavirus",
                 "covid-19",
-                "state",
-                "united states",
-                "mortality",
-                "monthly",
-                "yearly",
-                "nvss",
-                "place of death",
-                "provisional",
-                "puerto rico",
                 "deaths",
                 "influenza",
-                "pneumonia"
+                "monthly",
+                "mortality",
+                "nchs",
+                "nvss",
+                "place of death",
+                "pneumonia",
+                "provisional",
+                "puerto rico",
+                "state",
+                "united states",
+                "yearly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -53274,19 +53348,19 @@
             ],
             "issued": "2023-02-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-10",
-            "modified": "2023-03-10",
+            "temporal": "2020-12-13/2023-03-17",
+            "modified": "2023-03-17",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
             "keyword": [
-                "covid-19",
-                "coronavirus",
-                "izdl",
-                "immunization",
                 "administration",
-                "vaccination",
-                "age"
+                "age",
+                "coronavirus",
+                "covid-19",
+                "immunization",
+                "izdl",
+                "vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -53346,7 +53420,7 @@
             ],
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-16",
+            "modified": "2023-03-16",
             "keyword": [
                 "covid-19",
                 "covid-19 vaccination",
@@ -54076,11 +54150,11 @@
                 "https://www.cms.gov/files/document/Accelerated-and-Advanced-Payments-Fact-Sheet.pdf"
             ],
             "keyword": [
-                "coronavirus",
-                "cares act",
                 "accelerated and advance payments",
-                "provider relief fund",
-                "covid-19"
+                "cares act",
+                "coronavirus",
+                "covid-19",
+                "provider relief fund"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -54585,12 +54659,12 @@
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2012%20utility%20summary.pdf"
             ],
             "keyword": [
-                "covid-19",
                 "cases",
-                "surveillance",
+                "coronavirus",
                 "covid",
                 "covid19",
-                "coronavirus"
+                "covid-19",
+                "surveillance"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -55591,21 +55665,21 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
-                "nchs",
+                "age",
+                "age group",
+                "all causes",
                 "coronavirus",
                 "covid-19",
-                "sex",
-                "age group",
-                "united states",
-                "nvss",
-                "mortality",
-                "provisional",
-                "weekly",
-                "all causes",
                 "deaths",
-                "age"
+                "mortality",
+                "nchs",
+                "nvss",
+                "provisional",
+                "sex",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -56778,7 +56852,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-07",
+            "modified": "2023-03-16",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -57157,7 +57231,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-23",
+            "modified": "2023-03-15",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -57895,15 +57969,15 @@
             ],
             "issued": "2022-10-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-02",
+            "modified": "2023-03-13",
             "keyword": [
                 "art",
+                "assisted reproductive technology",
+                "clinic",
                 "fertility",
                 "infertility",
-                "clinic",
-                "success rates",
                 "services",
-                "assisted reproductive technology"
+                "success rates"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -58771,7 +58845,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-09",
+            "modified": "2023-03-17",
             "keyword": [
                 "2022",
                 "2023",
@@ -59245,14 +59319,14 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-03-09",
+            "modified": "2023-03-16",
             "keyword": [
-                "covid-19",
-                "coronavirus preparedness and response supplemental appropriations act",
-                "coronavirus aid",
-                "relief",
                 "and economic security act",
-                "paycheck protection program and health care enhancement act"
+                "coronavirus aid",
+                "coronavirus preparedness and response supplemental appropriations act",
+                "covid-19",
+                "paycheck protection program and health care enhancement act",
+                "relief"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -59311,7 +59385,8 @@
             ],
             "issued": "2018-03-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-15",
+            "temporal": "2015-01-01/2022-10-31",
+            "modified": "2023-03-15",
             "keyword": [
                 "cocaine",
                 "deaths",
@@ -59389,21 +59464,21 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "excess deaths",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "mortality",
-                "deaths",
-                "excess deaths",
-                "united states",
-                "state",
                 "puerto rico",
-                "weekly",
-                "all causes",
-                "covid-19",
-                "coronavirus"
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -59847,7 +59922,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-03",
+            "modified": "2023-03-15",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -60843,20 +60918,20 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-15",
             "keyword": [
+                "age",
+                "age group",
+                "all causes",
+                "deaths",
+                "mortality",
                 "nchs",
                 "nvss",
                 "provisional",
-                "deaths",
-                "mortality",
-                "united states",
-                "state",
                 "puerto rico",
-                "weekly",
-                "age group",
-                "age",
-                "all causes"
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -61440,7 +61515,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-23",
+            "modified": "2023-03-15",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -61647,24 +61722,24 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-09",
+            "modified": "2023-03-16",
             "keyword": [
+                "age",
+                "age group",
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "hhs region",
+                "influenza",
+                "mortality",
                 "nchs",
                 "nvss",
-                "provisional",
-                "mortality",
-                "deaths",
-                "united states",
-                "state",
-                "weekly",
-                "age group",
-                "age",
-                "covid-19",
-                "coronavirus",
                 "pneumonia",
-                "influenza",
-                "all causes",
-                "hhs region"
+                "provisional",
+                "state",
+                "united states",
+                "weekly"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
