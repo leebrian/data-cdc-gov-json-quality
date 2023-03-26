@@ -588,7 +588,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-17",
+            "modified": "2023-03-24",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -974,7 +974,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-19",
+            "modified": "2023-03-26",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2208,7 +2208,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "age",
                 "all causes",
@@ -2979,7 +2979,7 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2023-03-17",
+            "modified": "2023-03-24",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2999,7 +2999,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "<b>Note:</b>\n<b>March 16, 2023:</b> In coordination with Florida health officials, CDC completed a historical correction to address a technical issue affecting aggregate COVID-19 cases reported by Florida between November 2022 and March 2023.\n\n<b>March 16, 2023:</b> Due to technical difficulties, Arkansas\u2019s aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. Therefore, COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\n\n<b>March 16, 2023:</b> Due to potential technical difficulties that are being reviewed with the state, Texas's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia, will be reported as 0 in the March 16, 2023, weekly release. Therefore, the COVID-19 Community Levels for these counties may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to a backlog of historic COVID-19 cases being reported this week, the case rate for Washoe County, NV, will appear higher than expected in the weekly data released on March 16, 2023. Therefore, the COVID-19 Community Levels for Washoe County, NV, may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to data processing delays, the case rates for all Mississippi counties will be reported as 0 in the weekly data released on March 16, 2023. Therefore, the COVID-19 Community Levels metrics for all Mississippi counties may be underestimated and should be interpreted with caution. Updates to the state-level case counts were not affected by this issue. \u00a0\n\n<b>March 16, 2023:</b> Due to incomplete or missing hospital data received for the March 8th, 2023, through March 14, 2023, reporting period, hospital admission and COVID-19 occupancy rates for American Samoa will be reported as NA in the COVID-19 Community Level data released on March 16th, 2023. Therefore, the COVID-19 Community Level metric for American Samoa could not be calculated and will be reported as \u201cNot Available\u201d.\n\n<b>March 16, 2023:</b> Due to incomplete or missing hospital data received for the March 8, 2023, through March 14, 2023, reporting period, hospital admission and COVID-19 occupancy rates for the Northern Mariana Islands will be reported as NA in the COVID-19 Community Level data released on March 16th, 2023. Therefore, the COVID-19 Community Level metric for the Northern Mariana Islands could not be calculated and will be reported as \u201cNot Available\u201d.\n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-\ntype=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-19 community level is determined by the higher of the new admissions and inpatient beds metrics, based on the current level of new cases per 100,000 population in the",
+            "description": "<b>Note:</b>\n<b>March 23, 2023:</b> Due to incomplete or missing hospital data received for the March 15, 2023, through March 21, 2023, reporting period, hospital admission and COVID-19 occupancy rates for American Samoa will be reported as NA in the COVID-19 Community Level data released on March 23, 2023. Therefore, the COVID-19 Community Level metric for American Samoa could not be calculated and will be reported as \u201cNot Available\u201d.\n\n<b>March 23, 2023:</b> Due to incomplete or missing hospital data received for the March 15, 2023, through March 21, 2023, reporting period, hospital admission and COVID-19 occupancy rates for the Commonwealth of the Northern Mariana Islands will be reported as NA in the COVID-19 Community Level data released on March 23, 2023. Therefore, the COVID-19 Community Level metric for the Commonwealth of the Northern Mariana Islands could not be calculated and will be reported as \u201cNot Available\u201d. \n\n<b>March 23, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to data processing delays, the case rates for all Mississippi counties will be reported as 0 in the data released on March 23, 2023. Therefore, the COVID-19 Community Levels metrics for all Mississippi counties may be underestimated and should be interpreted with caution. Updates to the state-level case counts were not affected by this issue.\u00a0\u00a0\u00a0\u00a0\n\n<b>March 23, 2023:</b> CDC is working together with colleagues from the Texas Department of State Health Services to accurately reflect the results of a 2021 reconciliation process for COVID-19 cases. As of the data collection deadline, a solution was not able to be finalized. Texas\u2019s aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the weekly March 23, 2023, release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\u00a0\u00a0\n\n<b>March 23, 2023:</b> Due to maintenance to Arkansas\u2019s COVID-19 dashboard, aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia will be reported as 0 in the March 23, 2023,weekly  release. Therefore, the COVID-19 Community Levels for these counties may be underestimated and should be interpreted with caution. \n\n<b>March 23, 2023:</b> The case counts reported for Florida at the state and county levels may be artificially increased due to a technical issue; CDC is working with Florida Department of Health officials to address the potential issue.  Because no counties are reporting case rates above the threshold of 200 cases per 100,000 population, COVID-19 Community Level classifications are unaffected. However, Community Transmission metrics may be impacted for several counties across the state and should be interpreted with caution. \n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-\ntype=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -3122,8 +3122,8 @@
             ],
             "issued": "2022-07-25",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-17",
-            "modified": "2023-03-17",
+            "temporal": "2020-12-13/2023-03-24",
+            "modified": "2023-03-24",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -5349,7 +5349,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "age",
                 "age group",
@@ -6981,8 +6981,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-17",
-            "modified": "2023-03-17",
+            "temporal": "2020-12-13/2023-03-24",
+            "modified": "2023-03-24",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -7122,7 +7122,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-18",
+            "modified": "2023-03-24",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -11156,7 +11156,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-16",
+            "modified": "2023-03-23",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -12957,8 +12957,8 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "temporal": "2020-08-19/2023-02-13",
-            "modified": "2023-02-22",
+            "temporal": "2020-08-19/2023-03-13",
+            "modified": "2023-03-22",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -13352,8 +13352,8 @@
             ],
             "issued": "2022-12-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-17",
-            "modified": "2023-03-17",
+            "temporal": "2020-12-13/2023-03-24",
+            "modified": "2023-03-24",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -14228,7 +14228,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "age",
                 "age group",
@@ -14486,7 +14486,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14784,7 +14784,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -17161,7 +17161,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-16",
+            "modified": "2023-03-21",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -18977,7 +18977,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-08",
+            "modified": "2023-03-23",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -19534,7 +19534,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-19",
+            "modified": "2023-03-26",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -22919,7 +22919,7 @@
             "issued": "2023-02-24",
             "@type": "dcat:Dataset",
             "temporal": "2022-10-20/-",
-            "modified": "2023-03-17",
+            "modified": "2023-03-24",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn"
             ],
@@ -22941,7 +22941,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/dt66-w6m6",
-            "description": "<b>Note:</b>\n<b>March 16, 2023:</b> In coordination with Florida health officials, CDC completed a historical correction to address a technical issue affecting aggregate COVID-19 cases reported by Florida between November 2022 and March 2023.\n\n<b>March 16, 2023:</b> Due to technical difficulties, Arkansas\u2019s aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. Therefore, COVID-19 Community transmission metrics may be underestimated and should be interpreted with caution.\n\n<b>March 16, 2023:</b> Due to potential technical difficulties that are being reviewed with the state, Texas's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia, will be reported as 0 in the March 16, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to a backlog of historic COVID-19 cases being reported this week, the case rate for Washoe County, NV, will appear higher than expected in the weekly data released on March 16, 2023. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to data processing delays, the case rates for all Mississippi counties will be reported as 0 in the weekly data released on March 16, 2023. Therefore, the COVID-19 Community Transmission metrics for all Mississippi counties may be underestimated and should be interpreted with caution. Updates to the state-level case counts were not affected by this issue. \u00a0\n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains weekly community transmission levels data for all available counties and jurisdictions as displayed on <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=Risk\">COVID Data Tracker's County View</a> since <b>October 20, 2022</b>. Each week, the dataset is appended to contain the most recent week's data and is updated on Thursdays, typically by <b>8pm</b> ET. Historical corrections are not made to these data if new case or testing information become available. A separate file is made available here (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly COVID-19 County Level of Community Transmission Historical Changes</a>) if historically updated data are desired.\n\n<b>Related data</b> \nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>), updated weekly with the most recent week\u2019s data since October 20, 2022, and a historical dataset with the county-level transmission data from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>).  \n \n<b>Methods for calculating county level of community tran",
+            "description": "<b>Note:</b>\n<b>March 23, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to data processing delays, the case rates for all Mississippi counties will be reported as 0 in the data released on March 23, 2023. Therefore, the COVID-19 Community Transmission metrics for all Mississippi counties may be underestimated and should be interpreted with caution. Updates to the state-level case counts were not affected by this issue.\u00a0\u00a0\u00a0\u00a0\n\n<b>March 23, 2023:</b> CDC is working together with colleagues from the Texas Department of State Health Services to accurately reflect the results of a 2021 reconciliation process for COVID-19 cases. As of the data collection deadline, a solution was not able to be finalized. Texas\u2019s aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\u00a0\n\n<b>March 23, 2023:</b> Due to maintenance to Arkansas\u2019s COVID-19 dashboard, aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia will be reported as 0 in the March 23, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\u00a0\n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains weekly community transmission levels data for all available counties and jurisdictions as displayed on <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=Risk\">COVID Data Tracker's County View</a> since <b>October 20, 2022</b>. Each week, the dataset is appended to contain the most recent week's data and is updated on Thursdays, typically by <b>8pm</b> ET. Historical corrections are not made to these data if new case or testing information become available. A separate file is made available here (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly COVID-19 County Level of Community Transmission Historical Changes</a>) if historically updated data are desired.\n\n<b>Related data</b> \nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>), updated weekly with the most recent week\u2019s data since October 20, 2022, and a historical dataset with the county-level transmission data from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>).  \n \n<b>Methods for calculating county level of community transmission indicator</b> \nThe County Level of Community Transmission indicator uses two metrics: (1) total n",
             "title": "Weekly COVID-19 County Level of Community Transmission as Originally Posted",
             "programCode": [
                 "009:020"
@@ -27806,7 +27806,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-19",
+            "modified": "2023-03-26",
             "keyword": [
                 "wastewater"
             ],
@@ -28615,8 +28615,8 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "temporal": "2022-06-01/2023-02-13",
-            "modified": "2023-02-22",
+            "temporal": "2022-06-01/2023-03-13",
+            "modified": "2023-03-22",
             "keyword": [
                 "covid-19",
                 "post-covid"
@@ -30271,7 +30271,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -30369,7 +30369,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -30776,7 +30776,7 @@
             "issued": "2022-12-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-03-16",
+            "modified": "2023-03-23",
             "keyword": [
                 "case",
                 "community transmission",
@@ -32666,7 +32666,7 @@
             "issued": "2022-10-18",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-10-15",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -33006,7 +33006,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-16",
+            "modified": "2023-03-21",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -33628,8 +33628,8 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "temporal": "2020-08-19/2023-02-13",
-            "modified": "2023-02-22",
+            "temporal": "2020-08-19/2023-03-13",
+            "modified": "2023-03-22",
             "keyword": [
                 "covid-19",
                 "private coverage",
@@ -33896,7 +33896,7 @@
             "issued": "2023-02-24",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2023-03-17",
+            "modified": "2023-03-24",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6"
             ],
@@ -33918,7 +33918,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/jgk8-6dpn",
-            "description": "<b>Note:</b>\n<b>March 16, 2023:</b> In coordination with Florida health officials, CDC completed a historical correction to address a technical issue affecting aggregate COVID-19 cases reported by Florida between November 2022 and March 2023.\n\n<b>March 16, 2023:</b> Due to technical difficulties, Arkansas\u2019s aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. Therefore, COVID-19 Community transmission metrics may be underestimated and should be interpreted with caution.\n\n<b>March 16, 2023:</b> Due to potential technical difficulties that are being reviewed with the state, Texas's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia, will be reported as 0 in the March 16, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to a backlog of historic COVID-19 cases being reported this week, the case rate for Washoe County, NV, will appear higher than expected in the weekly data released on March 16, 2023. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 16, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 16, 2023:</b> Due to data processing delays, the case rates for all Mississippi counties will be reported as 0 in the weekly data released on March 16, 2023. Therefore, the COVID-19 Community Transmission metrics for all Mississippi counties may be underestimated and should be interpreted with caution. Updates to the state-level case counts were not affected by this issue. \u00a0\n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains historical case and percent positivity data updated weekly for all available counties and jurisdictions. Each week, the dataset is refreshed to capture any historical updates and is updated on \u202f<b>Thursdays</b>,\u202ftypically by <b>8pm</b> ET. Please note, percent positivity data may be incomplete for the most recent time period. \n\n<b>Related data </b>\nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with historical case and percent positivity data for each county from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>) and a dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/dataset/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>) since October 20, 2022. <b>Please navigate to the <a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a> for the Community Transmission Levels published weekly on Thursdays.</b>\n\n<b>Methods for calculating county level of community transmission indicator</b>\nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metric",
+            "description": "<b>Note:</b>\n<b>March 23, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to data processing delays, the case rates for all Mississippi counties will be reported as 0 in the data released on March 23, 2023. Therefore, the COVID-19 Community Transmission metrics for all Mississippi counties may be underestimated and should be interpreted with caution. Updates to the state-level case counts were not affected by this issue.\u00a0\u00a0\u00a0\u00a0\n\n<b>March 23, 2023:</b> CDC is working together with colleagues from the Texas Department of State Health Services to accurately reflect the results of a 2021 reconciliation process for COVID-19 cases. As of the data collection deadline, a solution was not able to be finalized. Texas\u2019s aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\u00a0\n\n<b>March 23, 2023:</b> Due to maintenance to Arkansas\u2019s COVID-19 dashboard, aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia will be reported as 0 in the March 23, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains historical case and percent positivity data updated weekly for all available counties and jurisdictions. Each week, the dataset is refreshed to capture any historical updates and is updated on \u202f<b>Thursdays</b>,\u202ftypically by <b>8pm</b> ET. Please note, percent positivity data may be incomplete for the most recent time period. \n\n<b>Related data </b>\nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with historical case and percent positivity data for each county from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>) and a dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/dataset/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>) since October 20, 2022. <b>Please navigate to the <a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a> for the Community Transmission Levels published weekly on Thursdays.</b>\n\n<b>Methods for calculating county level of community transmission indicator</b>\nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metrics, CDC classifies transmission values as low, moderate, substantial, or high (below and <a href=\"https://ww",
             "title": "Weekly COVID-19 County Level of Community Transmission Historical Changes",
             "programCode": [
                 "009:020"
@@ -34071,8 +34071,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-17",
-            "modified": "2023-03-17",
+            "temporal": "2020-12-13/2023-03-24",
+            "modified": "2023-03-24",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -34537,7 +34537,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-17",
+            "modified": "2023-03-24",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -34742,7 +34742,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "age",
                 "age group",
@@ -35741,7 +35741,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36539,8 +36539,8 @@
             ],
             "issued": "2022-11-23",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-17",
-            "modified": "2023-03-17",
+            "temporal": "2020-12-13/2023-03-24",
+            "modified": "2023-03-24",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -36952,7 +36952,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -37347,7 +37347,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "age",
                 "age group",
@@ -37625,7 +37625,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-17",
+            "modified": "2023-03-24",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -40185,7 +40185,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -41984,7 +41984,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "age",
                 "age group",
@@ -42902,7 +42902,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-17",
+            "modified": "2023-03-23",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -43213,7 +43213,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -44200,7 +44200,7 @@
             "issued": "2022-10-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2023-03-17",
+            "modified": "2023-03-23",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -45560,7 +45560,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -46565,7 +46565,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-16",
+            "modified": "2023-03-21",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -47096,7 +47096,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-03-01",
-            "modified": "2023-03-17",
+            "modified": "2023-03-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47688,8 +47688,8 @@
             ],
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-17",
-            "modified": "2023-03-17",
+            "temporal": "2020-12-13/2023-03-24",
+            "modified": "2023-03-24",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -48274,7 +48274,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-14",
+            "modified": "2023-03-21",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -49715,7 +49715,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "age",
                 "age group",
@@ -51482,7 +51482,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "age",
                 "age group",
@@ -52323,7 +52323,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -53027,7 +53027,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-02",
+            "modified": "2023-03-21",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -53140,7 +53140,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -53348,8 +53348,8 @@
             ],
             "issued": "2023-02-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-17",
-            "modified": "2023-03-17",
+            "temporal": "2020-12-13/2023-03-24",
+            "modified": "2023-03-24",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -55665,7 +55665,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "age",
                 "age group",
@@ -56852,7 +56852,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-16",
+            "modified": "2023-03-22",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -58845,7 +58845,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-17",
+            "modified": "2023-03-23",
             "keyword": [
                 "2022",
                 "2023",
@@ -59464,7 +59464,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -60918,7 +60918,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-15",
+            "modified": "2023-03-22",
             "keyword": [
                 "age",
                 "age group",
@@ -61722,7 +61722,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-16",
+            "modified": "2023-03-23",
             "keyword": [
                 "age",
                 "age group",
