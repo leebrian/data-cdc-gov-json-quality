@@ -147,7 +147,7 @@
             "issued": "2021-11-17",
             "temporal": "2019/2020",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-12",
+            "modified": "2023-03-27",
             "keyword": [
                 "nhis",
                 "summary health statistics"
@@ -588,7 +588,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-24",
+            "modified": "2023-03-30",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -833,7 +833,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-02-24",
+            "modified": "2023-03-31",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -974,7 +974,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-26",
+            "modified": "2023-04-02",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1862,7 +1862,7 @@
             ],
             "issued": "2021-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-09-01",
+            "modified": "2023-03-30",
             "keyword": [
                 "haicviz"
             ],
@@ -2208,7 +2208,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "age",
                 "all causes",
@@ -2838,9 +2838,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-01-06",
+            "issued": "2023-03-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-30",
+            "modified": "2023-03-28",
             "keyword": [
                 "adults",
                 "coverage",
@@ -2859,8 +2859,8 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/3myw-4j4q",
-            "description": "Cumulative Influenza Coverage Age Group, Race/Ethnicity, and Jurisdiction, Adults 18 Years and Older, United States, National Immunization Survey Adult COVID Module.\n\nArchived data are available including for Figures 4B and 4C:  https://data.cdc.gov/resource/8dyx-9z99 \n\n\u2022  The National Immunization Survey-Adult COVID Module (NIS-ACM) was launched in April 2021 among adults 18 years and older. The survey was used to monitor COVID-19 vaccination uptake and confidence in vaccination among adults and included questions about influenza vaccination.",
-            "title": "Cumulative Influenza Coverage by Race/Ethnicity and Age Group, NIS-ACM",
+            "description": "Cumulative Influenza Vaccination Coverage Age Group, Race/Ethnicity, and Jurisdiction, Adults 18 Years and Older, United States, National Immunization Survey Adult COVID Module.\n\nArchived data are available including for Figures 4B and 4C:  https://data.cdc.gov/resource/8dyx-9z99 \n\n\u2022  The National Immunization Survey-Adult COVID Module (NIS-ACM) was launched in April 2021 among adults 18 years and older. The survey was used to monitor COVID-19 vaccination uptake and confidence in vaccination among adults and included questions about influenza vaccination.",
+            "title": "Cumulative Influenza Vaccination Coverage by Race/Ethnicity and Age Group, NIS-ACM",
             "programCode": [
                 "009:026"
             ],
@@ -2979,7 +2979,7 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022/2022",
-            "modified": "2023-03-24",
+            "modified": "2023-03-30",
             "keyword": [
                 "cases",
                 "community levels",
@@ -2999,7 +2999,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/3nnm-4jni",
-            "description": "<b>Note:</b>\n<b>March 23, 2023:</b> Due to incomplete or missing hospital data received for the March 15, 2023, through March 21, 2023, reporting period, hospital admission and COVID-19 occupancy rates for American Samoa will be reported as NA in the COVID-19 Community Level data released on March 23, 2023. Therefore, the COVID-19 Community Level metric for American Samoa could not be calculated and will be reported as \u201cNot Available\u201d.\n\n<b>March 23, 2023:</b> Due to incomplete or missing hospital data received for the March 15, 2023, through March 21, 2023, reporting period, hospital admission and COVID-19 occupancy rates for the Commonwealth of the Northern Mariana Islands will be reported as NA in the COVID-19 Community Level data released on March 23, 2023. Therefore, the COVID-19 Community Level metric for the Commonwealth of the Northern Mariana Islands could not be calculated and will be reported as \u201cNot Available\u201d. \n\n<b>March 23, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to data processing delays, the case rates for all Mississippi counties will be reported as 0 in the data released on March 23, 2023. Therefore, the COVID-19 Community Levels metrics for all Mississippi counties may be underestimated and should be interpreted with caution. Updates to the state-level case counts were not affected by this issue.\u00a0\u00a0\u00a0\u00a0\n\n<b>March 23, 2023:</b> CDC is working together with colleagues from the Texas Department of State Health Services to accurately reflect the results of a 2021 reconciliation process for COVID-19 cases. As of the data collection deadline, a solution was not able to be finalized. Texas\u2019s aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the weekly March 23, 2023, release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\u00a0\u00a0\n\n<b>March 23, 2023:</b> Due to maintenance to Arkansas\u2019s COVID-19 dashboard, aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, release. COVID-19 Community Levels metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia will be reported as 0 in the March 23, 2023,weekly  release. Therefore, the COVID-19 Community Levels for these counties may be underestimated and should be interpreted with caution. \n\n<b>March 23, 2023:</b> The case counts reported for Florida at the state and county levels may be artificially increased due to a technical issue; CDC is working with Florida Department of Health officials to address the potential issue.  Because no counties are reporting case rates above the threshold of 200 cases per 100,000 population, COVID-19 Community Level classifications are unaffected. However, Community Transmission metrics may be impacted for several counties across the state and should be interpreted with caution. \n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-\ntype=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 days, the percent of staffed inpatient beds occupied by COVID-19 patients, and total new COVID-19 cases per 100,000 population in the past 7 days \u2014 to determine the COVID-19 community level. The COVID-",
+            "description": "<b>Note:</b>\n<b>March 30, 2023:</b> Due to potential technical issues, Florida was unable to report aggregate case data to CDC. As a result, case metrics will be reported as 0 in the March 30, 2023, weekly release. Therefore, the COVID-19 Community Levels for all Florida counties may be underestimated and should be interpreted with caution.\u00a0\u00a0\n\n<b>March 30, 2023:</b> Due to technical difficulties, Delaware was unable to report aggregate case data to CDC. As a result, case metrics will be reported as 0 in the March 30, 2023, weekly release. COVID-19 Community Levels may be underestimated and should be interpreted with caution.\n\n<b>March 30, 2023:</b> Due to data processing delays, Mississippi was unable to report aggregate case data to CDC.\u00a0 As a result, case metrics will be reported as 0 in the March 30, 2023, release. COVID-19 Community Levels may be underestimated and should be interpreted with caution.\n\n<b>March 30, 2023:</b> Due to a backlog of historic COVID-19 cases being reported this week, aggregate case counts in Louisiana counties may appear higher than expected in the March 30, 2023, weekly release. According to Louisiana Department of Health officials, all regions are impacted but the following parishes may be particularly affected: Acadia, Evangeline, Iberia, Lafayette, St. Landry, St. Martin, Vermillion. COVID-19 Community Levels may be overestimated and should be interpreted with caution.\u00a0\u00a0\n\n<b>March 30, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Clark County, Washington, Richmond City, Virginia, and Navajo County, Arizona will be reported as 0 in the March 30, 2023, weekly release. Therefore, the COVID-19 Community Levels for these counties may be underestimated and should be interpreted with caution. CDC is working with state officials to verify the data submitted.\u00a0\n\n<b>March 30, 2023:</b> Due to changes in the state health department\u2019s COVID-19 surveillance system, Oklahoma\u2019s aggregate case data at state and county levels may be affected in the March 30, 2023, release. The COVID-19 Community Levels for all Oklahoma counties should be interpreted with caution.\u00a0\n\n<b>March 30, 2023:</b> Due to incomplete or missing hospital data received for the March 22, 2023, through March 28, 2023, reporting period, hospital admission and COVID-19 occupancy rates for American Samoa will be reported as NA in the COVID-19 Community Level data released on March 30, 2023. Therefore, the COVID-19 Community Level metric for American Samoa could not be calculated and will be reported as \u201cNot Available\u201d.\n\n<b>March 30, 2023:</b> Due to incomplete or missing hospital data received for the March 22, 2023, through March 28, 2023, reporting period, hospital admission and COVID-19 occupancy rates for the Commonwealth of the Northern Mariana Islands will be reported as NA in the COVID-19 Community Level data released on March 30, 2023. Therefore, the COVID-19 Community Level metric for the Commonwealth of the Northern Mariana Islands could not be calculated and will be reported as \u201cNot Available\u201d.\n\n<b>March 30, 2023:</b> Due to incomplete or missing hospital data received for the March 22, 2023, through March 28, 2023, reporting period, hospital admission and COVID-19 occupancy rates for Guam will be reported as NA in the COVID-19 Community Level data released on March 30, 2023. Therefore, the COVID-19 Community Level metric for Guam could not be calculated and will be reported as \u201cNot Available\u201d.\n\nThis public use dataset has 11 data elements reflecting United States COVID-19 community levels for all available counties. The dataset contains the same values used to display information available on the <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-\ntype=CommunityLevels\">COVID Data Tracker</a>, and is updated weekly.\n\nCDC looks at the combination of three metrics \u2014 new COVID-19 admissions per 100,000 population in the past 7 da",
             "title": "United States COVID-19 Community Levels by County",
             "programCode": [
                 "009:020"
@@ -3122,8 +3122,8 @@
             ],
             "issued": "2022-07-25",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-24",
-            "modified": "2023-03-24",
+            "temporal": "2020-12-13/2023-03-31",
+            "modified": "2023-03-31",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -3595,7 +3595,7 @@
             ],
             "issued": "2021-02-03",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2023-03-30",
             "keyword": [
                 "age",
                 "age group",
@@ -3610,6 +3610,8 @@
                 "nvss",
                 "provisional",
                 "race",
+                "sdoh-higher-education",
+                "sdoh-high-school",
                 "sex",
                 "united states"
             ],
@@ -5272,7 +5274,7 @@
             ],
             "issued": "2021-02-24",
             "@type": "dcat:Dataset",
-            "modified": "2022-04-01",
+            "modified": "2023-03-30",
             "keyword": [
                 "age",
                 "age group",
@@ -5287,6 +5289,8 @@
                 "nvss",
                 "provisional",
                 "race",
+                "sdoh-higher-education",
+                "sdoh-high-school",
                 "sex",
                 "united states",
                 "yearly"
@@ -5349,7 +5353,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "age",
                 "age group",
@@ -6121,7 +6125,7 @@
             "issued": "2022-06-15",
             "@type": "dcat:Dataset",
             "temporal": "2019",
-            "modified": "2022-06-29",
+            "modified": "2023-03-27",
             "keyword": [
                 "chronic conditions",
                 "disability",
@@ -6464,7 +6468,7 @@
             "issued": "2022-12-20",
             "@type": "dcat:Dataset",
             "temporal": "2014/2019",
-            "modified": "2023-01-23",
+            "modified": "2023-03-27",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/NCHS-CMS-TMSIS-linked-data-list-of-variables.pdf"
             ],
@@ -6981,8 +6985,8 @@
             ],
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-24",
-            "modified": "2023-03-24",
+            "temporal": "2020-12-13/2023-03-31",
+            "modified": "2023-03-31",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -7122,7 +7126,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-24",
+            "modified": "2023-04-01",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7620,7 +7624,7 @@
             "issued": "2022-10-01",
             "@type": "dcat:Dataset",
             "temporal": "2012/2012",
-            "modified": "2023-01-11",
+            "modified": "2023-03-27",
             "references": [
                 "https://www.cdc.gov/nchs/nnyfs/index.htm"
             ],
@@ -8309,7 +8313,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2021",
-            "modified": "2022-06-29",
+            "modified": "2023-03-27",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -8977,7 +8981,7 @@
             "issued": "2021-11-16",
             "@type": "dcat:Dataset",
             "temporal": "2021-2022",
-            "modified": "2023-02-24",
+            "modified": "2023-03-31",
             "keyword": [
                 "adults",
                 "age",
@@ -9933,6 +9937,25 @@
             "language": [
                 "English"
             ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/728v-5uaa",
+            "issued": "2023-03-30",
+            "@type": "dcat:Dataset",
+            "modified": "2023-03-30",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Tarila",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/728v-5uaa",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "trails_lines"
         },
         {
             "accessLevel": "public",
@@ -11156,7 +11179,7 @@
             ],
             "issued": "2022-05-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-23",
+            "modified": "2023-03-30",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -11932,7 +11955,7 @@
             "issued": "2021-11-03",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-02-24",
+            "modified": "2023-03-31",
             "references": [
                 "IQVIA Pharmacy and Physician Medical Office Claims"
             ],
@@ -12383,7 +12406,7 @@
             ],
             "issued": "2022-09-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-28",
+            "modified": "2023-03-28",
             "keyword": [
                 "adults",
                 "coverage",
@@ -12402,8 +12425,8 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/8dyx-9z99",
-            "description": "Cumulative Influenza Coverage Age Group, Race/Ethnicity, and Jurisdiction, Adults 18 Years and Older, United States, National Immunization Survey Adult COVID Module.\n\nThe National Immunization Survey-Adult COVID Module (NIS-ACM) was launched in April 2021 among adults 18 years and older. The survey was used to monitor COVID-19 vaccination uptake and confidence in vaccination among adults and included questions about influenza vaccination.",
-            "title": "Cumulative Influenza Coverage by Race/Ethnicity and Age Group, NIS-ACM (Archived)",
+            "description": "Cumulative Influenza Vaccination Coverage Age Group, Race/Ethnicity, and Jurisdiction, Adults 18 Years and Older, United States, National Immunization Survey Adult COVID Module.\n\nThe National Immunization Survey-Adult COVID Module (NIS-ACM) was launched in April 2021 among adults 18 years and older. The survey was used to monitor COVID-19 vaccination uptake and confidence in vaccination among adults and included questions about influenza vaccination.",
+            "title": "Cumulative Influenza Vaccination Coverage by Race/Ethnicity and Age Group, NIS-ACM (Archived)",
             "programCode": [
                 "009:020"
             ],
@@ -12895,7 +12918,7 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-24",
+            "modified": "2023-03-31",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "NCIRD",
@@ -13352,8 +13375,8 @@
             ],
             "issued": "2022-12-09",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-24",
-            "modified": "2023-03-24",
+            "temporal": "2020-12-13/2023-03-31",
+            "modified": "2023-03-31",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -14228,7 +14251,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "age",
                 "age group",
@@ -14486,7 +14509,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14784,7 +14807,7 @@
             ],
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-30",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -14919,7 +14942,7 @@
             "issued": "2023-01-01",
             "@type": "dcat:Dataset",
             "temporal": "1999/2021",
-            "modified": "2023-01-11",
+            "modified": "2023-03-27",
             "references": [
                 "https://www.cdc.gov/nchs/nhanes/index.htm"
             ],
@@ -17114,7 +17137,7 @@
             "issued": "2023-02-22",
             "@type": "dcat:Dataset",
             "temporal": "2022",
-            "modified": "2023-02-22",
+            "modified": "2023-03-27",
             "keyword": [
                 "gender identity",
                 "intimate partner violence",
@@ -17161,7 +17184,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-21",
+            "modified": "2023-03-30",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17771,9 +17794,9 @@
             ],
             "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
             "issued": "2022-12-20",
-            "@type": "dcat:Dataset",
             "temporal": "2015/2017",
-            "modified": "2023-01-23",
+            "@type": "dcat:Dataset",
+            "modified": "2023-03-27",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/NCHS-TMSIS-MATCH-STATUS.pdf"
             ],
@@ -17807,7 +17830,6 @@
                     "mediaType": "text/html"
                 }
             ],
-            "spatial": "United States",
             "describedBy": "Match status can be found in the match rate table (see Table 1 on page 22) here: https://www.cdc.gov/nchs/data/datalinkage/2016-nhcs-cms-medicaid-linkage-methodology.pdf",
             "theme": [
                 "NCHS"
@@ -18403,7 +18425,7 @@
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
             "temporal": "Monthly",
-            "modified": "2023-02-24",
+            "modified": "2023-03-31",
             "keyword": [
                 "adults",
                 "coverage",
@@ -18977,7 +18999,7 @@
             "landingPage": "https://data.cdc.gov/d/biid-68vb",
             "issued": "2018-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-23",
+            "modified": "2023-03-27",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -19534,7 +19556,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-26",
+            "modified": "2023-04-02",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -20711,7 +20733,7 @@
             "issued": "2022-06-15",
             "@type": "dcat:Dataset",
             "temporal": "2020",
-            "modified": "2022-06-29",
+            "modified": "2023-03-27",
             "keyword": [
                 "activities of daily living",
                 "anxiety",
@@ -22919,7 +22941,7 @@
             "issued": "2023-02-24",
             "@type": "dcat:Dataset",
             "temporal": "2022-10-20/-",
-            "modified": "2023-03-24",
+            "modified": "2023-03-30",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn"
             ],
@@ -22941,7 +22963,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/dt66-w6m6",
-            "description": "<b>Note:</b>\n<b>March 23, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to data processing delays, the case rates for all Mississippi counties will be reported as 0 in the data released on March 23, 2023. Therefore, the COVID-19 Community Transmission metrics for all Mississippi counties may be underestimated and should be interpreted with caution. Updates to the state-level case counts were not affected by this issue.\u00a0\u00a0\u00a0\u00a0\n\n<b>March 23, 2023:</b> CDC is working together with colleagues from the Texas Department of State Health Services to accurately reflect the results of a 2021 reconciliation process for COVID-19 cases. As of the data collection deadline, a solution was not able to be finalized. Texas\u2019s aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\u00a0\n\n<b>March 23, 2023:</b> Due to maintenance to Arkansas\u2019s COVID-19 dashboard, aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia will be reported as 0 in the March 23, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\u00a0\n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains weekly community transmission levels data for all available counties and jurisdictions as displayed on <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=Risk\">COVID Data Tracker's County View</a> since <b>October 20, 2022</b>. Each week, the dataset is appended to contain the most recent week's data and is updated on Thursdays, typically by <b>8pm</b> ET. Historical corrections are not made to these data if new case or testing information become available. A separate file is made available here (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly COVID-19 County Level of Community Transmission Historical Changes</a>) if historically updated data are desired.\n\n<b>Related data</b> \nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>), updated weekly with the most recent week\u2019s data since October 20, 2022, and a historical dataset with the county-level transmission data from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>).  \n \n<b>Methods for calculating county level of community transmission indicator</b> \nThe County Level of Community Transmission indicator uses two metrics: (1) total n",
+            "description": "<b>Note:</b>\n<b>March 30, 2023:</b> Due to potential technical issues, Florida was unable to report aggregate case data to CDC. As a result, case metrics will be reported as 0 in the March 30, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for all Florida counties may be underestimated and should be interpreted with caution.\n\n<b>March 30, 2023:</b> Due to technical difficulties, Delaware was unable to report aggregate case data to CDC. As a result, case metrics will be reported as 0 in the March 30, 2023, weekly release. COVID-19 Community Transmission metrics\u00a0may be underestimated and should be interpreted with caution.\n\n<b>March 30, 2023:</b> Due to data processing delays, Mississippi was unable to report aggregate case data to CDC.\u00a0 As a result, case metrics will be reported as 0 in the March 30, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 30, 2023:</b> Due to a backlog of historic COVID-19 cases being reported this week, aggregate case counts in Louisiana counties may appear higher than expected in the March 30, 2023, weekly release. According to Louisiana Department of Health officials, all regions are impacted but the following parishes may be particularly affected: Acadia, Evangeline, Iberia, Lafayette, St. Landry, St. Martin, Vermillion. COVID-19 Community Transmission metrics may be overestimated and should be interpreted with caution.\u00a0\u00a0\n\n<b>March 30, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Clark County, Washington, Richmond City, Virginia, and Navajo County, Arizona will be reported as 0 in the March 30, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution. CDC is working with state officials to verify the data submitted.\u00a0\n\n<b>March 30, 2023:</b> Due to changes in the state health department\u2019s COVID-19 surveillance system, Oklahoma\u2019s aggregate case data at state and county levels may be affected in the March 30, 2023, weekly release. The COVID-19 Community Transmission levels for all Oklahoma counties should be interpreted with caution.\u00a0\u00a0\n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains weekly community transmission levels data for all available counties and jurisdictions as displayed on <a href=\"https://covid.cdc.gov/covid-data-tracker/#county-view?list_select_state=all_states&list_select_county=all_counties&data-type=Risk\">COVID Data Tracker's County View</a> since <b>October 20, 2022</b>. Each week, the dataset is appended to contain the most recent week's data and is updated on Thursdays, typically by <b>8pm</b> ET. Historical corrections are not made to these data if new case or testing information become available. A separate file is made available here (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly COVID-19 County Level of Community Transmission Historical Changes</a>) if historically updated data are desired.\n\n<b>Related data</b> \nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>), updated weekly with the most recent week\u2019s data since October 20, 2022, and a historical dataset with the county-level transmission data from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>).  \n \n<b>Methods for calculating county level of community transmission indicator</b> \nThe Co",
             "title": "Weekly COVID-19 County Level of Community Transmission as Originally Posted",
             "programCode": [
                 "009:020"
@@ -25532,7 +25554,7 @@
             "issued": "2022-12-15",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-02-24",
+            "modified": "2023-03-31",
             "references": [
                 "NIS-Flu"
             ],
@@ -27120,7 +27142,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-02-24",
+            "modified": "2023-03-31",
             "references": [
                 "Vaccine Safety Datalink"
             ],
@@ -27672,7 +27694,7 @@
             "issued": "2021-12-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-02-24",
+            "modified": "2023-03-31",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -27806,7 +27828,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-26",
+            "modified": "2023-04-02",
             "keyword": [
                 "wastewater"
             ],
@@ -28017,7 +28039,7 @@
             "issued": "2022-06-15",
             "@type": "dcat:Dataset",
             "temporal": "2020",
-            "modified": "2022-06-29",
+            "modified": "2023-03-27",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -28441,7 +28463,7 @@
             "issued": "2022-06-15",
             "@type": "dcat:Dataset",
             "temporal": "2015",
-            "modified": "2022-06-29",
+            "modified": "2023-03-27",
             "keyword": [
                 "chronic conditions",
                 "food security",
@@ -29753,7 +29775,7 @@
             "issued": "2015-03-01",
             "@type": "dcat:Dataset",
             "temporal": "1991/2012",
-            "modified": "2023-01-11",
+            "modified": "2023-03-27",
             "references": [
                 "https://www.cdc.gov/nchs/nhanes/index.htm"
             ],
@@ -30271,7 +30293,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -30369,7 +30391,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -30776,7 +30798,7 @@
             "issued": "2022-12-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-03-23",
+            "modified": "2023-03-30",
             "keyword": [
                 "case",
                 "community transmission",
@@ -31999,7 +32021,7 @@
             "issued": "2018-03-01",
             "@type": "dcat:Dataset",
             "temporal": "1971/1994",
-            "modified": "2023-01-11",
+            "modified": "2023-03-27",
             "references": [
                 "https://www.cdc.gov/nchs/nhanes/index.htm"
             ],
@@ -32666,7 +32688,7 @@
             "issued": "2022-10-18",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-10-15",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -33006,7 +33028,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-21",
+            "modified": "2023-03-30",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -33896,7 +33918,7 @@
             "issued": "2023-02-24",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2023-03-24",
+            "modified": "2023-03-30",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6"
             ],
@@ -33918,7 +33940,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/jgk8-6dpn",
-            "description": "<b>Note:</b>\n<b>March 23, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to technical difficulties, Indiana's aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to data processing delays, the case rates for all Mississippi counties will be reported as 0 in the data released on March 23, 2023. Therefore, the COVID-19 Community Transmission metrics for all Mississippi counties may be underestimated and should be interpreted with caution. Updates to the state-level case counts were not affected by this issue.\u00a0\u00a0\u00a0\u00a0\n\n<b>March 23, 2023:</b> CDC is working together with colleagues from the Texas Department of State Health Services to accurately reflect the results of a 2021 reconciliation process for COVID-19 cases. As of the data collection deadline, a solution was not able to be finalized. Texas\u2019s aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\u00a0\n\n<b>March 23, 2023:</b> Due to maintenance to Arkansas\u2019s COVID-19 dashboard, aggregate case data will be reported as 0. As a result, case metrics will appear lower than expected in the March 23, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 23, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Richmond City, Virginia will be reported as 0 in the March 23, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution.\n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains historical case and percent positivity data updated weekly for all available counties and jurisdictions. Each week, the dataset is refreshed to capture any historical updates and is updated on \u202f<b>Thursdays</b>,\u202ftypically by <b>8pm</b> ET. Please note, percent positivity data may be incomplete for the most recent time period. \n\n<b>Related data </b>\nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with historical case and percent positivity data for each county from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>) and a dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/dataset/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>) since October 20, 2022. <b>Please navigate to the <a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a> for the Community Transmission Levels published weekly on Thursdays.</b>\n\n<b>Methods for calculating county level of community transmission indicator</b>\nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metrics, CDC classifies transmission values as low, moderate, substantial, or high (below and <a href=\"https://ww",
+            "description": "<b>Note:</b>\n<b>March 30, 2023:</b> Due to potential technical issues, Florida was unable to report aggregate case data to CDC. As a result, case metrics will be reported as 0 in the March 30, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for all Florida counties may be underestimated and should be interpreted with caution.\n\n<b>March 30, 2023:</b> Due to technical difficulties, Delaware was unable to report aggregate case data to CDC. As a result, case metrics will be reported as 0 in the March 30, 2023, weekly release. COVID-19 Community Transmission metrics\u00a0may be underestimated and should be interpreted with caution.\n\n<b>March 30, 2023:</b> Due to data processing delays, Mississippi was unable to report aggregate case data to CDC.\u00a0 As a result, case metrics will be reported as 0 in the March 30, 2023, weekly release. COVID-19 Community Transmission metrics may be underestimated and should be interpreted with caution.\u00a0\n\n<b>March 30, 2023:</b> Due to a backlog of historic COVID-19 cases being reported this week, aggregate case counts in Louisiana counties may appear higher than expected in the March 30, 2023, weekly release. According to Louisiana Department of Health officials, all regions are impacted but the following parishes may be particularly affected: Acadia, Evangeline, Iberia, Lafayette, St. Landry, St. Martin, Vermillion. COVID-19 Community Transmission metrics may be overestimated and should be interpreted with caution.\u00a0\u00a0\n\n<b>March 30, 2023:</b> Due to a decrease reported in cumulative case counts, case rates for Clark County, Washington, Richmond City, Virginia, and Navajo County, Arizona will be reported as 0 in the March 30, 2023, weekly release. Therefore, the COVID-19 Community Transmission levels for these counties may be underestimated and should be interpreted with caution. CDC is working with state officials to verify the data submitted.\u00a0\n\n<b>March 30, 2023:</b> Due to changes in the state health department\u2019s COVID-19 surveillance system, Oklahoma\u2019s aggregate case data at state and county levels may be affected in the March 30, 2023, weekly release. The COVID-19 Community Transmission levels for all Oklahoma counties should be interpreted with caution.\u00a0\n\nBeginning on <b>October 20, 2022</b>, CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. This public use dataset contains historical case and percent positivity data updated weekly for all available counties and jurisdictions. Each week, the dataset is refreshed to capture any historical updates and is updated on \u202f<b>Thursdays</b>,\u202ftypically by <b>8pm</b> ET. Please note, percent positivity data may be incomplete for the most recent time period. \n\n<b>Related data </b>\nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with historical case and percent positivity data for each county from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>) and a dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/dataset/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>) since October 20, 2022. <b>Please navigate to the <a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a> for the Community Transmission Levels published weekly on Thursdays.</b>\n\n<b>Methods for calculating county level of community transmission indicator</b>\nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metrics, CDC classifies transmission",
             "title": "Weekly COVID-19 County Level of Community Transmission Historical Changes",
             "programCode": [
                 "009:020"
@@ -34071,8 +34093,8 @@
             ],
             "issued": "2022-02-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-24",
-            "modified": "2023-03-24",
+            "temporal": "2020-12-13/2023-03-31",
+            "modified": "2023-03-31",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -34537,7 +34559,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-24",
+            "modified": "2023-03-31",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -34742,7 +34764,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "age",
                 "age group",
@@ -35603,7 +35625,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2018-2023",
-            "modified": "2023-02-24",
+            "modified": "2023-03-31",
             "references": [
                 "CDC"
             ],
@@ -35741,7 +35763,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36144,7 +36166,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-16",
+            "modified": "2023-03-30",
             "keyword": [
                 "cares act",
                 "health system",
@@ -36539,8 +36561,8 @@
             ],
             "issued": "2022-11-23",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-24",
-            "modified": "2023-03-24",
+            "temporal": "2020-12-13/2023-03-31",
+            "modified": "2023-03-31",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -36900,7 +36922,7 @@
             "issued": "2022-05-31",
             "@type": "dcat:Dataset",
             "temporal": "1950-2020",
-            "modified": "2022-06-27",
+            "modified": "2023-03-27",
             "references": [
                 "https://www.cdc.gov/nchs/nvss/deaths.htm"
             ],
@@ -36952,7 +36974,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -37227,11 +37249,22 @@
             "issued": "2022-02-09",
             "temporal": "2019-2021",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-08",
+            "modified": "2023-03-30",
             "keyword": [
                 "ethnicity",
                 "nhis",
                 "race",
+                "sdoh-access-to-health-care",
+                "sdoh-employment",
+                "sdoh-food-access",
+                "sdoh-food-insecurity",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-housing-stability",
+                "sdoh-poverty-income",
+                "sdoh-source-of-health-care",
+                "sdoh-use-of-health-care",
+                "sdoh-workplace",
                 "summary health statistics"
             ],
             "contactPoint": {
@@ -37347,7 +37380,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "age",
                 "age group",
@@ -37625,7 +37658,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-24",
+            "modified": "2023-03-31",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -40185,7 +40218,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -41984,7 +42017,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "age",
                 "age group",
@@ -42405,7 +42438,7 @@
             "issued": "2022-09-16",
             "@type": "dcat:Dataset",
             "temporal": "2005/2020",
-            "modified": "2023-01-23",
+            "modified": "2023-03-27",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/va-match-status-all.pdf"
             ],
@@ -42539,6 +42572,25 @@
             "theme": [
                 "NCHS"
             ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/p69a-c4wz",
+            "issued": "2023-03-30",
+            "@type": "dcat:Dataset",
+            "modified": "2023-03-30",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Tarila",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/p69a-c4wz",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "trailheads"
         },
         {
             "accessLevel": "public",
@@ -42902,7 +42954,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-23",
+            "modified": "2023-03-30",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -43213,7 +43265,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -44200,7 +44252,7 @@
             "issued": "2022-10-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/-",
-            "modified": "2023-03-23",
+            "modified": "2023-03-30",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -44218,7 +44270,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/pwn4-m3yp",
-            "description": "<b>Note:</b>\n<b>March 16, 2023:</b> In coordination with Florida health officials, CDC completed a historical correction to address a technical issue affecting aggregate COVID-19 cases reported by Florida between November 2022 and March 2023.\n\n<b>March 16, 2023:</b> Due to technical difficulties, Arkansas\u2019s aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in the March 16, 2023, weekly release. \n\n<b>March 16, 2023:</b> Due to potential technical difficulties that are being reviewed with the state, Texas's aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in the March 16, 2023, weekly release.\n\n<b>March 16, 2023:</b> Due to technical difficulties, Indiana's aggregate case and death data will be reported as 0. As a result, case and death metrics will appear lower than expected in the March 16, 2023, weekly release. \n\nBeginning on <b>October 20, 2022,</b> CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. As a result, aggregate case and death data displayed on data.cdc.gov will be updated weekly on\u202f<b>Thursdays</b>,\u202ftypically by <b>8pm ET</b>, instead of daily. Although these counts are still presented at the state level, CDC now aggregates county level data to obtain state and territory specific totals. For detailed methodology changes please see the dataset description below.  \n\n<b>Aggregate Data Collection Process </b>\nSince the start of the COVID-19 pandemic, data have been gathered through a robust process with the following steps: \n<ul><li>A CDC data team reviews and validates the information obtained from jurisdictions\u2019 state and local websites via an overnight data review process.</li>\n<li>If more than one official county data source exists, CDC uses a comprehensive data selection process comparing each official county data source, and takes the highest case and death counts respectively, unless otherwise specified by the state. </li>\n<li>CDC compiles these data and posts the finalized information on COVID Data Tracker. </li>\n<li>County level data is aggregated to obtain state and territory specific totals.</li>\n</ul>This process is collaborative, with CDC and jurisdictions working together to ensure the accuracy of COVID-19 case and death numbers. County counts provide the most up-to-date numbers on cases and deaths by report date. CDC may retrospectively update counts to correct data quality issues. \n\n<b>Relation to Archived Dataset</b>\nPrior to October 20, 2022, CDC collected aggregate case and death data at the state level. This data was compiled and published daily on data.cdc.gov in a dataset called <a href=\"https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36\">United States COVID-19 Cases and Deaths by State over Time</a>. As of 10/20/2022, this dataset has been archived and will no longer update. \n\n<b>Methodology Changes </b>\nSeveral differences exist between the current, weekly-updated dataset and the archived version of the <a href=\"https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36\">United States COVID-19 Cases and Deaths by State over Time</a> dataset: \n<ul><li><b>Source:</b>\u202fThe current Weekly-Updated Version is based on county-level aggregate count data, while the Archived Version is based on State-level aggregate count data. </li>\n<li><b>Confirmed/Probable Cases/Death breakdown:\u202f</b> While the probable cases and deaths are included in the total case and total death counts in both versions (if applicable), they were reported separately from the confirmed cases and deaths by jurisdiction in the Archived Version.\u202f In the current Weekly-Updated Version, the counts by jurisdiction are not reported by confirmed or probable status (See Confirmed and Probable Counts section for more detail).</li>\n<li><b>Time Series Frequency:",
+            "description": "<b>Note:</b>\n<b>March 30, 2023:</b> Due to potential technical issues, Florida was unable to report aggregate case and death data to CDC. As a result, case and death metrics will be reported as 0 in the March 30, 2023, weekly release.\n\n<b>March 30, 2023:</b> Due to technical difficulties, Delaware was unable to report aggregate case\u00a0and death data to CDC. As a result, case and death metrics will be reported as 0 in the March 30, 2023, weekly release.\n\n<b>March 30, 2023:</b> Due to data processing delays, Mississippi was unable to report aggregate case and death data to CDC. As a result, case and death metrics will be reported as 0 in the March 30, 2023, weekly release.\n\n<b>March 30, 2023:</b> Due to changes in the state health department\u2019s COVID-19 surveillance system, Oklahoma\u2019s aggregate case data at state and county levels may be affected in the March 30, 2023, weekly release.\n\nBeginning on <b>October 20, 2022,</b> CDC retrieves aggregate case and death data from jurisdictional and state partners weekly instead of daily. As a result, aggregate case and death data displayed on data.cdc.gov will be updated weekly on\u202f<b>Thursdays</b>,\u202ftypically by <b>8pm ET</b>, instead of daily. Although these counts are still presented at the state level, CDC now aggregates county level data to obtain state and territory specific totals. For detailed methodology changes please see the dataset description below.  \n\n<b>Aggregate Data Collection Process </b>\nSince the start of the COVID-19 pandemic, data have been gathered through a robust process with the following steps: \n<ul><li>A CDC data team reviews and validates the information obtained from jurisdictions\u2019 state and local websites via an overnight data review process.</li>\n<li>If more than one official county data source exists, CDC uses a comprehensive data selection process comparing each official county data source, and takes the highest case and death counts respectively, unless otherwise specified by the state. </li>\n<li>CDC compiles these data and posts the finalized information on COVID Data Tracker. </li>\n<li>County level data is aggregated to obtain state and territory specific totals.</li>\n</ul>This process is collaborative, with CDC and jurisdictions working together to ensure the accuracy of COVID-19 case and death numbers. County counts provide the most up-to-date numbers on cases and deaths by report date. CDC may retrospectively update counts to correct data quality issues. \n\n<b>Relation to Archived Dataset</b>\nPrior to October 20, 2022, CDC collected aggregate case and death data at the state level. This data was compiled and published daily on data.cdc.gov in a dataset called <a href=\"https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36\">United States COVID-19 Cases and Deaths by State over Time</a>. As of 10/20/2022, this dataset has been archived and will no longer update. \n\n<b>Methodology Changes </b>\nSeveral differences exist between the current, weekly-updated dataset and the archived version of the <a href=\"https://data.cdc.gov/Case-Surveillance/United-States-COVID-19-Cases-and-Deaths-by-State-o/9mfq-cb36\">United States COVID-19 Cases and Deaths by State over Time</a> dataset: \n<ul><li><b>Source:</b>\u202fThe current Weekly-Updated Version is based on county-level aggregate count data, while the Archived Version is based on State-level aggregate count data. </li>\n<li><b>Confirmed/Probable Cases/Death breakdown:\u202f</b> While the probable cases and deaths are included in the total case and total death counts in both versions (if applicable), they were reported separately from the confirmed cases and deaths by jurisdiction in the Archived Version.\u202f In the current Weekly-Updated Version, the counts by jurisdiction are not reported by confirmed or probable status (See Confirmed and Probable Counts section for more detail).</li>\n<li><b>Time Series Frequency:</b> The current Weekly-Updated Version contains weekly time series data (i",
             "title": "Weekly United States COVID-19 Cases and Deaths by State",
             "programCode": [
                 "009:020"
@@ -44268,7 +44320,7 @@
             "issued": "2022-05-31",
             "@type": "dcat:Dataset",
             "temporal": "2010-2017",
-            "modified": "2022-06-27",
+            "modified": "2023-03-27",
             "references": [
                 "https://www.cdc.gov/rdc/b1datatype/dt1229.html"
             ],
@@ -44658,7 +44710,7 @@
             "issued": "2022-06-15",
             "@type": "dcat:Dataset",
             "temporal": "2020",
-            "modified": "2022-06-29",
+            "modified": "2023-03-27",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -45560,7 +45612,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -46565,7 +46617,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-21",
+            "modified": "2023-03-30",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -47096,7 +47148,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-03-01",
-            "modified": "2023-03-24",
+            "modified": "2023-03-31",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47433,7 +47485,7 @@
             "issued": "2022-06-15",
             "@type": "dcat:Dataset",
             "temporal": "2016",
-            "modified": "2022-06-29",
+            "modified": "2023-03-27",
             "keyword": [
                 "anxiety",
                 "chronic conditions",
@@ -47688,8 +47740,8 @@
             ],
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-24",
-            "modified": "2023-03-24",
+            "temporal": "2020-12-13/2023-03-31",
+            "modified": "2023-03-31",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -47762,7 +47814,7 @@
             "issued": "2022-06-08",
             "@type": "dcat:Dataset",
             "temporal": "2020",
-            "modified": "2022-07-05",
+            "modified": "2023-03-27",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -48274,7 +48326,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-21",
+            "modified": "2023-03-28",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -49715,7 +49767,7 @@
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "age",
                 "age group",
@@ -51482,7 +51534,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "age",
                 "age group",
@@ -51625,7 +51677,7 @@
             "issued": "2021-07-07",
             "temporal": "2019/2021",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-03",
+            "modified": "2023-03-27",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -51992,7 +52044,7 @@
             "issued": "2022-12-01",
             "@type": "dcat:Dataset",
             "temporal": "Monthly",
-            "modified": "2023-02-24",
+            "modified": "2023-03-31",
             "keyword": [
                 "adults",
                 "coverage",
@@ -52011,8 +52063,8 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/ty79-wym3",
-            "description": "Cumulative Influenza Coverage by Age Group, Race/Ethnicity, Urbanicity and Jurisdiction, NIS-ACM, Adults 18 Years and Older, United States, National Immunization Survey-Adult COVID Module. Archived data are available at the following locations: \n1. https://data.cdc.gov/resource/8dyx-9z99 \n2. https://data.cdc.gov/resource/3myw-4j4q\n\n\u2022 The National Immunization Survey-Adult COVID Module (NIS-ACM) was launched in April 2021 among adults 18 years and older. The survey was used to monitor COVID-19 vaccination uptake and confidence in vaccination among adults and included questions about influenza vaccination.",
-            "title": "Cumulative Influenza Coverage by Age Group, Race/Ethnicity, Urbanicity and Jurisdiction, NIS-ACM, Adults 18 Years and Older - NIS ACM",
+            "description": "Cumulative Influenza Vaccination Coverage by Age Group, Race/Ethnicity, Urbanicity and Jurisdiction, NIS-ACM, Adults 18 Years and Older, United States, National Immunization Survey-Adult COVID Module. Archived data are available at the following locations: \n1. https://data.cdc.gov/resource/8dyx-9z99 \n2. https://data.cdc.gov/resource/3myw-4j4q\n\n\u2022 The National Immunization Survey-Adult COVID Module (NIS-ACM) was launched in April 2021 among adults 18 years and older. The survey was used to monitor COVID-19 vaccination uptake and confidence in vaccination among adults and included questions about influenza vaccination.",
+            "title": "Cumulative Influenza Vaccination Coverage by Age Group, Race/Ethnicity, Urbanicity and Jurisdiction, NIS-ACM, Adults 18 Years and Older - NIS ACM",
             "programCode": [
                 "009:026"
             ],
@@ -52323,7 +52375,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -53140,7 +53192,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -53348,8 +53400,8 @@
             ],
             "issued": "2023-02-24",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-03-24",
-            "modified": "2023-03-24",
+            "temporal": "2020-12-13/2023-03-31",
+            "modified": "2023-03-31",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -53812,7 +53864,7 @@
             "issued": "2022-12-07",
             "@type": "dcat:Dataset",
             "temporal": "Monthly",
-            "modified": "2023-02-24",
+            "modified": "2023-03-31",
             "keyword": [
                 "adults",
                 "ethnicity",
@@ -54533,7 +54585,7 @@
             "issued": "2022-12-09",
             "@type": "dcat:Dataset",
             "temporal": "2015/2020",
-            "modified": "2023-01-23",
+            "modified": "2023-03-27",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/NHCS-Linked-VA-Match-File.pdf"
             ],
@@ -55665,7 +55717,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "age",
                 "age group",
@@ -55741,7 +55793,7 @@
             "issued": "2023-02-22",
             "@type": "dcat:Dataset",
             "temporal": "2022",
-            "modified": "2023-02-22",
+            "modified": "2023-03-27",
             "keyword": [
                 "birth control",
                 "cervical cancer screening",
@@ -56276,7 +56328,7 @@
             "issued": "2022-06-15",
             "@type": "dcat:Dataset",
             "temporal": "2020",
-            "modified": "2022-07-05",
+            "modified": "2023-03-27",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -56852,7 +56904,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -57906,7 +57958,7 @@
             "issued": "2021-06-03",
             "temporal": "2019-2022",
             "@type": "dcat:Dataset",
-            "modified": "2023-01-26",
+            "modified": "2023-03-27",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -58196,7 +58248,7 @@
             "issued": "2021-11-18",
             "temporal": "2019/2020",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-12",
+            "modified": "2023-03-27",
             "keyword": [
                 "nhis",
                 "summary health statistics"
@@ -59319,7 +59371,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-03-16",
+            "modified": "2023-03-30",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -59464,7 +59516,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -60918,7 +60970,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-22",
+            "modified": "2023-03-29",
             "keyword": [
                 "age",
                 "age group",
@@ -61722,7 +61774,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-23",
+            "modified": "2023-03-30",
             "keyword": [
                 "age",
                 "age group",
