@@ -591,7 +591,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-12",
+            "modified": "2023-05-18",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -977,7 +977,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-14",
+            "modified": "2023-05-21",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2249,7 +2249,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "age",
                 "all causes",
@@ -5397,7 +5397,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "age",
                 "age group",
@@ -7194,7 +7194,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-13",
+            "modified": "2023-05-20",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -11249,7 +11249,7 @@
             "issued": "2022-05-18",
             "temporal": "2020-01-22/2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-11",
+            "modified": "2023-05-19",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -13121,8 +13121,8 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "temporal": "2020-08-19/2023-04-10",
-            "modified": "2023-04-19",
+            "temporal": "2020-08-19/2023-05-08",
+            "modified": "2023-05-17",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -14401,7 +14401,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "age",
                 "age group",
@@ -14659,7 +14659,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14958,7 +14958,7 @@
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-03-12",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -19735,7 +19735,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-14",
+            "modified": "2023-05-21",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -20415,7 +20415,7 @@
             ],
             "issued": "2022-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-14",
+            "modified": "2023-05-15",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -22791,7 +22791,7 @@
             ],
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -23267,7 +23267,7 @@
             "issued": "2023-02-24",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/2023-05-10",
-            "modified": "2023-05-11",
+            "modified": "2023-05-17",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn"
             ],
@@ -23289,7 +23289,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/dt66-w6m6",
-            "description": "Reporting of Aggregate Case and Death Count data was discontinued May 11, 2023, with the expiration of the COVID-19 public health emergency declaration. Although these data will continue to be publicly available, this dataset will no longer be updated.\n\nThis archived public use dataset contains historical case and percent positivity data updated weekly for all available counties and jurisdictions. Each week, the dataset was refreshed to capture any historical updates. Please note, percent positivity data may be incomplete for the most recent time period.\n\nThis archived public use dataset contains weekly community transmission levels data for all available counties and jurisdictions since October 20, 2022. The dataset was appended to contain the most recent week's data as originally posted on COVID Data Tracker. Historical corrections are not made to these data if new case or testing information become available. A separate archived file is made available here (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">: Weekly COVID-19 County Level of Community Transmission Historical Changes</a>) if historically updated data are desired.\n\n<b>Related data</b> \nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>), updated weekly with the most recent week\u2019s data since October 20, 2022, and a historical dataset with the county-level transmission data from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>).  \n \n<b>Methods for calculating county level of community transmission indicator</b> \nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metrics, CDC classifies transmission values as low, moderate, substantial, or high (below and\u202f<a href=\"https://www.cdc.gov/mmwr/volumes/70/wr/mm7030e2.htm?s_cid=mm7030e2_w#T1_down\">here</a>). If the values for each of these two metrics differ (e.g., one indicates moderate and the other low), then the higher of the two should be used for decision-making. \n \n<b>CDC core metrics of and thresholds for community transmission levels of SARS-CoV-2</b>\n<b>Total New Case Rate Metric:</b> \"New cases per 100,000 persons in the past 7 days\" is calculated by adding the number of new cases in the county (or other administrative level) in the last 7 days divided by the population in the county (or other administrative level) and multiplying by 100,000. \"New cases per 100,000 persons in the past 7 days\" is considered to have a transmission level of Low (0-9.99); Moderate (10.00-49.99); Substantial (50.00-99.99); and High (greater than or equal to 100.00). \n \n<b>Test Percent Positivity Metric:</b> \"Percentage of positive NAAT in the past 7 days\" is calculated by dividing the number of positive tests in the county (or other administrative level) during the last 7 days by the total number of tests conducted over the last 7 days. \"Percentage of positive NAAT in the past 7 days\" is considered to have a transmission level of Low (less than 5.00); Moderate (5.00-7.99); Substantial (8.00-9.99); and High (greater than or equal to 10.00). \n \nIf the two metrics suggest different transmission levels, the higher level is selected. \n \nThe reported transmission categories include: \n \nLow Transmission Threshold: Counties with fewer than 10 total cases per 100,000 population in the past 7 days, and a NAAT percent test positivity in the past 7 days below 5%; \n \nModerate Tr",
+            "description": "Reporting of Aggregate Case and Death Count data was discontinued May 11, 2023, with the expiration of the COVID-19 public health emergency declaration. Although these data will continue to be publicly available, this dataset will no longer be updated.\n\nWeekly COVID-19 Community Levels (CCLs) have been replaced with levels of COVID-19 hospital admission rates (low, medium, or high) which demonstrate <a href=\"https://www.cdc.gov/mmwr/volumes/72/wr/mm7219e1.htm\">>99% concordance</a> by county during February 2022\u2013March 2023. For more information on the latest COVID-19 status levels in your area and hospital admission rates, visit <a href=\"https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county\">United States COVID-19 Hospitalizations, Deaths, and Emergency Visits by Geographic Area.</a>\n\nThis archived public use dataset contains historical case and percent positivity data updated weekly for all available counties and jurisdictions. Each week, the dataset was refreshed to capture any historical updates. Please note, percent positivity data may be incomplete for the most recent time period.\n\nThis archived public use dataset contains weekly community transmission levels data for all available counties and jurisdictions since October 20, 2022. The dataset was appended to contain the most recent week's data as originally posted on COVID Data Tracker. Historical corrections are not made to these data if new case or testing information become available. A separate archived file is made available here (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">: Weekly COVID-19 County Level of Community Transmission Historical Changes</a>) if historically updated data are desired.\n\n<b>Related data</b> \nCDC provides the public with two active versions of COVID-19 county-level community transmission level data: this dataset with the levels as originally posted (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6\">Weekly Originally Posted dataset</a>), updated weekly with the most recent week\u2019s data since October 20, 2022, and a historical dataset with the county-level transmission data from January 22, 2020 (<a href=\"https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/jgk8-6dpn\">Weekly Historical Changes dataset</a>).  \n \n<b>Methods for calculating county level of community transmission indicator</b> \nThe County Level of Community Transmission indicator uses two metrics: (1) total new COVID-19 cases per 100,000 persons in the last 7 days and (2) percentage of positive SARS-CoV-2 diagnostic nucleic acid amplification tests (NAAT) in the last 7 days. For each of these metrics, CDC classifies transmission values as low, moderate, substantial, or high (below and\u202f<a href=\"https://www.cdc.gov/mmwr/volumes/70/wr/mm7030e2.htm?s_cid=mm7030e2_w#T1_down\">here</a>). If the values for each of these two metrics differ (e.g., one indicates moderate and the other low), then the higher of the two should be used for decision-making. \n \n<b>CDC core metrics of and thresholds for community transmission levels of SARS-CoV-2</b>\n<b>Total New Case Rate Metric:</b> \"New cases per 100,000 persons in the past 7 days\" is calculated by adding the number of new cases in the county (or other administrative level) in the last 7 days divided by the population in the county (or other administrative level) and multiplying by 100,000. \"New cases per 100,000 persons in the past 7 days\" is considered to have a transmission level of Low (0-9.99); Moderate (10.00-49.99); Substantial (50.00-99.99); and High (greater than or equal to 100.00). \n \n<b>Test Percent Positivity Metric:</b> \"Percentage of positive NAAT in the past 7 days\" is calculated by dividing the number of positive tests in the county (or other administrative level) during the last 7 days by the total number of tests conducted",
             "title": "Weekly COVID-19 County Level of Community Transmission as Originally Posted - ARCHIVED",
             "programCode": [
                 "009:020"
@@ -23927,75 +23927,6 @@
             ],
             "theme": [
                 "NNDSS"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/e28h-tx85",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2021-06-15",
-            "@type": "dcat:Dataset",
-            "modified": "2023-05-03",
-            "references": [
-                "https://www.resdac.org",
-                "https://www.cdc.gov/visionhealth/vehss/data/claims/medicare.html"
-            ],
-            "keyword": [
-                "claims",
-                "eye exams",
-                "medical diagnoses",
-                "medicare",
-                "service utilization",
-                "treated prevalence"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "DDT Public Inquiries",
-                "hasEmail": "mailto:ddtpubsmailbox@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/e28h-tx85",
-            "description": "2014-2019. This dataset is a de-identified summary table of vision and eye health data indicators from Medicare claims, stratified by all available combinations of age group, race/ethnicity, gender, and state. Medicare claims for VEHSS includes beneficiaries who were fully enrolled in Medicare Part B Fee-for-Service (FFS) for the duration of the year. Medicare claims provide a convenience sample that includes approximately 30 million individuals annually, which represents nearly 89% of the US population aged 65 and older and 3.3% of the US population younger than 65, including persons disabled due to blindness. Medicare data for VEHSS include Service Utilization and Medical Diagnoses indicators. Data were suppressed for de-identification to ensure protection of patient privacy. Data will be updated as it becomes available. Detailed information on VEHSS Medicare analyses can be found on the VEHSS Medicare webpage (cdc.gov/visionhealth/vehss/data/claims/medicare.html). Information on available Medicare claims data can be found on the ResDac website (www.resdac.org). The VEHSS Medicare dataset was last updated May 2023.",
-            "title": "Medicare Claims \u2013 Vision and Eye Health Surveillance",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/e28h-tx85/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/e28h-tx85/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/e28h-tx85/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/e28h-tx85/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/e28h-tx85/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/e28h-tx85/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/e28h-tx85/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "describedBy": "https://chronicdata.cdc.gov/d/e28h-tx85",
-            "theme": [
-                "Vision & Eye Health"
             ]
         },
         {
@@ -28221,7 +28152,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-14",
+            "modified": "2023-05-21",
             "keyword": [
                 "wastewater"
             ],
@@ -28997,7 +28928,7 @@
             ],
             "issued": "2022-06-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-28",
+            "modified": "2023-05-19",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -29058,8 +28989,8 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "temporal": "2022-06-01/2023-04-10",
-            "modified": "2023-04-19",
+            "temporal": "2022-06-01/2023-05-08",
+            "modified": "2023-05-17",
             "keyword": [
                 "covid-19",
                 "post-covid"
@@ -30715,7 +30646,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -30813,7 +30744,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31221,7 +31152,7 @@
             "issued": "2022-12-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-05-11",
+            "modified": "2023-05-18",
             "keyword": [
                 "case",
                 "community transmission",
@@ -34102,8 +34033,8 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "temporal": "2020-08-19/2023-04-10",
-            "modified": "2023-04-19",
+            "temporal": "2020-08-19/2023-05-08",
+            "modified": "2023-05-17",
             "keyword": [
                 "covid-19",
                 "private coverage",
@@ -34172,7 +34103,7 @@
             ],
             "issued": "2022-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-14",
+            "modified": "2023-05-15",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -35237,7 +35168,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "age",
                 "age group",
@@ -35961,7 +35892,7 @@
             ],
             "issued": "2021-05-04",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-19",
+            "modified": "2023-05-15",
             "keyword": [
                 "dhds",
                 "disability"
@@ -36236,7 +36167,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36640,7 +36571,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-03",
+            "modified": "2023-05-17",
             "keyword": [
                 "cares act",
                 "health system",
@@ -36704,7 +36635,7 @@
             ],
             "issued": "2022-11-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-14",
+            "modified": "2023-05-15",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -37448,7 +37379,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -37855,7 +37786,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "age",
                 "age group",
@@ -38133,7 +38064,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-12",
+            "modified": "2023-05-19",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -40210,7 +40141,7 @@
             ],
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -40812,7 +40743,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -41784,8 +41715,8 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2023-04-06",
-            "modified": "2023-04-11",
+            "temporal": "2020-01-01/2023-05-04",
+            "modified": "2023-05-19",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2019%20utility%20summary.pdf"
             ],
@@ -41900,12 +41831,15 @@
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2021-07-21",
-            "modified": "2022-06-29",
+            "modified": "2023-05-17",
             "keyword": [
                 "covid-19",
                 "long-term care",
                 "research-data-center",
-                "residential care communities"
+                "residential care communities",
+                "sdoh-access-to-health-care",
+                "sdoh-source-of-health-care",
+                "sdoh-transportation"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42611,7 +42545,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "age",
                 "age group",
@@ -43870,7 +43804,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -46232,7 +46166,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47777,7 +47711,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-05-01",
-            "modified": "2023-05-12",
+            "modified": "2023-05-19",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47911,6 +47845,74 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/data-linkage/mortality-public.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-05-15",
+            "temporal": "1979/2019",
+            "@type": "dcat:Dataset",
+            "modified": "2023-05-15",
+            "references": [
+                "https://www.cdc.gov/nchs/data/datalinkage/public-use-linked-mortality-files-data-dictionary.pdf"
+            ],
+            "keyword": [
+                "linked mortality files",
+                "nchs surveys",
+                "public use files",
+                "research-data-center",
+                "sdoh-access-to-health-care",
+                "sdoh-civid-participation",
+                "sdoh-crime-violence",
+                "sdoh-early-childhood",
+                "sdoh-employment",
+                "sdoh-environmental",
+                "sdoh-food-access",
+                "sdoh-food-insecurity",
+                "sdoh-health-literacy",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-housing-quality",
+                "sdoh-housing-stability",
+                "sdoh-language",
+                "sdoh-poverty-income",
+                "sdoh-social-emotional",
+                "sdoh-source-of-health-care",
+                "sdoh-transportation",
+                "sdoh-use-of-health-care",
+                "sdoh-workplace"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCHS Data Linkage Program",
+                "hasEmail": "mailto:DataLinkage@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/r9nv-zxge",
+            "description": "NCHS has linked data from various surveys with death certificate records from the National Death Index (NDI). Linkage of the NCHS survey participant data with the NDI mortality data provides the opportunity to conduct a vast array of outcome studies designed to investigate the association of a wide variety of health factors with mortality. The Linked Mortality Files (LMF) have been updated with mortality follow-up data through December 31, 2019.\n\nPublic-use Linked Mortality Files (LMF) are available for 1986-2018 NHIS, 1999-2018 NHANES, and NHANES III. The files include a limited set of mortality variables for adult participants only. The public-use versions of the NCHS Linked Mortality Files were subjected to data perturbation techniques to reduce the risk of participant re-identification. For select records, synthetic data were substituted for follow-up time or underlying cause of death. Information regarding vital status was not perturbed.",
+            "title": "Public-Use Linked Mortality Files",
+            "isPartOf": "https://www.cdc.gov/nchs/data-linkage/index.htm",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "describedBy": "https://www.cdc.gov/nchs/data/datalinkage/public-use-linked-mortality-file-description.pdf",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -48973,7 +48975,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-09",
+            "modified": "2023-05-16",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -52205,7 +52207,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "age",
                 "age group",
@@ -53111,7 +53113,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -53928,7 +53930,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -54208,7 +54210,7 @@
             ],
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-28",
+            "modified": "2023-05-19",
             "keyword": [
                 "covid-19",
                 "covid-19 vaccination",
@@ -55444,8 +55446,8 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2023-04-06",
-            "modified": "2023-04-11",
+            "temporal": "2020-01-01/2023-05-04",
+            "modified": "2023-05-19",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2012%20utility%20summary.pdf"
             ],
@@ -56456,7 +56458,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "age",
                 "age group",
@@ -57665,7 +57667,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-16",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -59725,7 +59727,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-11",
+            "modified": "2023-05-18",
             "keyword": [
                 "2022",
                 "2023",
@@ -60220,7 +60222,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-05-03",
+            "modified": "2023-05-17",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -60287,7 +60289,7 @@
             "issued": "2018-03-06",
             "@type": "dcat:Dataset",
             "temporal": "2015-01-01/2022-11-30",
-            "modified": "2023-04-12",
+            "modified": "2023-05-17",
             "keyword": [
                 "cocaine",
                 "deaths",
@@ -60365,7 +60367,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -60645,12 +60647,15 @@
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2021-07-21",
-            "modified": "2022-06-29",
+            "modified": "2023-05-17",
             "keyword": [
                 "adult day services centers",
                 "covid-19",
                 "long-term care",
-                "research-data-center"
+                "research-data-center",
+                "sdoh-access-to-health-care",
+                "sdoh-transportation",
+                "sdoh-use-of-health-care"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -61820,7 +61825,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-05-17",
             "keyword": [
                 "age",
                 "age group",
@@ -62625,7 +62630,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-11",
+            "modified": "2023-05-18",
             "keyword": [
                 "age",
                 "age group",
