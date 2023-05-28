@@ -591,7 +591,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-18",
+            "modified": "2023-05-25",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -977,7 +977,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-21",
+            "modified": "2023-05-28",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2249,7 +2249,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "age",
                 "all causes",
@@ -5397,7 +5397,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "age",
                 "age group",
@@ -7194,7 +7194,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-20",
+            "modified": "2023-05-27",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -11249,7 +11249,7 @@
             "issued": "2022-05-18",
             "temporal": "2020-01-22/2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-19",
+            "modified": "2023-05-26",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -14401,7 +14401,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "age",
                 "age group",
@@ -14659,7 +14659,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14958,7 +14958,7 @@
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-03-12",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -17359,7 +17359,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-08",
+            "modified": "2023-05-26",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17492,6 +17492,80 @@
             "describedBy": "https://chronicdata.cdc.gov/Maternal-Child-Health/CDC-PRAMStat-Data-for-2006/akmt-4qtj",
             "theme": [
                 "Maternal & Child Health"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/akn2-qxic",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "N/A",
+            "issued": "2023-05-25",
+            "@type": "dcat:Dataset",
+            "temporal": "5/11/2023 \u2013",
+            "modified": "2023-05-25",
+            "references": [
+                "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
+            ],
+            "keyword": [
+                "admissions",
+                "coronavirus",
+                "covid-19",
+                "hospital capacity",
+                "hospitalizations",
+                "hospital occupancy",
+                "icu beds",
+                "inpatient beds"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "DHQP",
+                "hasEmail": "mailto:nhsn@cdc.gov (subject line: county-level COVID-19 hospital) "
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/akn2-qxic",
+            "description": "This dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy among hospitals within the selected HSA. Therefore, admissions, capacity, and occupancy are not limited to residents of the selected HSA. </li><li>For all county-level hospital metrics listed below the values are calculated first for the entire HSA, and then the HSA-level value is then applied to each county within the HSA. </li><li>For all county-level hospital metrics listed below the values are calculated first for the entire HSA, and then the HSA-level value is then applied to each county within the HSA. </li></ul>\n<b>Metric details:</b><ul><li><b>Time period:</b> data for the previous MMWR week (Sunday-Saturday) will update weekly on Thursdays as soon as they are reviewed and ve",
+            "title": "Weekly United States COVID-19 Hospitalization Metrics by County",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/akn2-qxic/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/akn2-qxic/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/akn2-qxic/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/akn2-qxic/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/akn2-qxic/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/akn2-qxic/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/akn2-qxic/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
+            "theme": [
+                "Public Health Surveillance"
             ]
         },
         {
@@ -19735,7 +19809,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-21",
+            "modified": "2023-05-28",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -22791,7 +22865,7 @@
             ],
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -28152,7 +28226,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-21",
+            "modified": "2023-05-28",
             "keyword": [
                 "wastewater"
             ],
@@ -30646,7 +30720,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -30744,7 +30818,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31152,7 +31226,7 @@
             "issued": "2022-12-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-05-18",
+            "modified": "2023-05-25",
             "keyword": [
                 "case",
                 "community transmission",
@@ -33411,7 +33485,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-08",
+            "modified": "2023-05-26",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -34963,7 +35037,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-12",
+            "modified": "2023-05-26",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -35168,7 +35242,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "age",
                 "age group",
@@ -36167,7 +36241,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36571,7 +36645,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "cares act",
                 "health system",
@@ -37379,7 +37453,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -37786,7 +37860,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "age",
                 "age group",
@@ -38064,7 +38138,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-19",
+            "modified": "2023-05-26",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -39242,10 +39316,10 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2023-04-06",
-            "modified": "2023-04-12",
+            "temporal": "2020-01-01/2023-05-04",
+            "modified": "2023-05-23",
             "references": [
-                "https://data.cdc.gov/api/views/mbd7-r32t/files/1abc0385-f7c0-46b6-95ec-5a1f0740fd56?download=true&filename=public%2033%20utility%20summary.pdf"
+                "https://data.cdc.gov/api/views/mbd7-r32t/files/9350649a-30a0-4bd5-aedc-07bb2eac329f?download=true&filename=public%2033%20utility%20summary.pdf"
             ],
             "keyword": [
                 "cases",
@@ -40141,7 +40215,7 @@
             ],
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -40743,7 +40817,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -42545,7 +42619,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "age",
                 "age group",
@@ -43493,7 +43567,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-11",
+            "modified": "2023-05-25",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -43804,7 +43878,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -46166,7 +46240,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47180,7 +47254,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-08",
+            "modified": "2023-05-26",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -47711,7 +47785,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-05-01",
-            "modified": "2023-05-19",
+            "modified": "2023-05-26",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -48975,7 +49049,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-16",
+            "modified": "2023-05-23",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -50557,7 +50631,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-07",
+            "modified": "2023-05-26",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -52207,7 +52281,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "age",
                 "age group",
@@ -52991,7 +53065,7 @@
             ],
             "issued": "2023-04-04",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-04",
+            "modified": "2023-05-23",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -53113,7 +53187,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -53817,7 +53891,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-08",
+            "modified": "2023-05-26",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -53930,7 +54004,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -56458,7 +56532,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "age",
                 "age group",
@@ -57667,7 +57741,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-16",
+            "modified": "2023-05-26",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -59727,7 +59801,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-18",
+            "modified": "2023-05-25",
             "keyword": [
                 "2022",
                 "2023",
@@ -60222,7 +60296,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -60367,7 +60441,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -61825,7 +61899,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-17",
+            "modified": "2023-05-24",
             "keyword": [
                 "age",
                 "age group",
@@ -62630,7 +62704,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-18",
+            "modified": "2023-05-25",
             "keyword": [
                 "age",
                 "age group",
