@@ -591,7 +591,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-25",
+            "modified": "2023-06-01",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -977,7 +977,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-28",
+            "modified": "2023-06-04",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2249,7 +2249,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "age",
                 "all causes",
@@ -3020,7 +3020,7 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022-02-24 - 2023-05-10",
-            "modified": "2023-05-11",
+            "modified": "2023-06-01",
             "keyword": [
                 "cases",
                 "community levels",
@@ -5397,7 +5397,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "age",
                 "age group",
@@ -6218,9 +6218,9 @@
                 "009:20"
             ],
             "issued": "2023-03-17",
-            "temporal": "October 3, 2021 - March 25, 2023",
+            "temporal": "October 3, 2021 - April 22, 2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-21",
+            "modified": "2023-06-01",
             "keyword": [
                 "covid-19 bivalent boosters",
                 "covid-19 booster doses",
@@ -6239,7 +6239,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/54ys-qyzm",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Updated (Bivalent) Booster Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\n\nThese data were posted on April 21, 2023 and reflect cases among persons with a positive specimen collection date through March 25, 2023, and deaths among persons with a positive specimen collection date through March 4, 2022. These data will be updated monthly. Please note that these provisional data are subject to change.\n\nVaccination status: A person vaccinated with at least a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected. A person vaccinated with a primary series and a monovalent booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and at least one additional dose of any monovalent FDA-authorized or approved COVID-19 vaccine on or after August 13, 2021. (Note: this definition does not distinguish between vaccine recipients who are immunocompromised and are receiving an additional dose versus those who are not immunocompromised and receiving a booster dose.) A person vaccinated with a primary series and an updated (bivalent) booster dose had SARS-CoV-2 RNA or antigen detected in a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and an additional dose of any bivalent FDA-authorized or approved vaccine COVID-19 vaccine on or after September 1, 2022. (Note: Doses with bivalent doses reported as first or second doses are classified as vaccinated with a bivalent booster dose.) People with primary series or a monovalent booster dose were combined in the \u201cvaccinated without an updated booster\u201d category. \n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Per the interim guidance of the Council of State and Territorial Epidemiologists (CSTE), this should include persons whose death certificate lists COVID-19 disease or SARS-CoV-2 as the underlying cause of death or as a significant condition contributing to death. Rates of COVID-19 deaths by vaccination status are primarily reported based on when the patient was tested for COVID-19. In select jurisdictions, deaths are included that are not laboratory confirmed and are reported based on alternative dates (i.e., onset date for most; or date of death or report date, where onset date is unavailable). Deaths usually occur up to 30 days after COVID-19 diagnosis.\n\nParticipating jurisdictions: Currently, these 26 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, Colorado, District of Columbia, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (NY), North Carolina, Rhode Island, Tennessee, Texas, Utah, Washington, and West Virginia; 25 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 51% of the total U.S. population and all ten of",
+            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Updated (Bivalent) Booster Status.\nClick 'More' for important dataset description and footnotes\n\nWebpage: https://covid.cdc.gov/covid-data-tracker/#rates-by-vaccine-status\n\nDataset and data visualization details:\n\n\nThese data were posted and archived on May 30, 2023 and reflect cases among persons with a positive specimen collection date through April 22, 2023, and deaths among persons with a positive specimen collection date through April 1, 2023. These data will no longer be updated after May 2023.\n\nVaccination status: A person vaccinated with at least a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected. A person vaccinated with a primary series and a monovalent booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and at least one additional dose of any monovalent FDA-authorized or approved COVID-19 vaccine on or after August 13, 2021. (Note: this definition does not distinguish between vaccine recipients who are immunocompromised and are receiving an additional dose versus those who are not immunocompromised and receiving a booster dose.) A person vaccinated with a primary series and an updated (bivalent) booster dose had SARS-CoV-2 RNA or antigen detected in a respiratory specimen collected \u226514 days after verifiably receiving a primary series of an FDA-authorized or approved vaccine and an additional dose of any bivalent FDA-authorized or approved vaccine COVID-19 vaccine on or after September 1, 2022. (Note: Doses with bivalent doses reported as first or second doses are classified as vaccinated with a bivalent booster dose.) People with primary series or a monovalent booster dose were combined in the \u201cvaccinated without an updated booster\u201d category. \n\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Per the interim guidance of the Council of State and Territorial Epidemiologists (CSTE), this should include persons whose death certificate lists COVID-19 disease or SARS-CoV-2 as the underlying cause of death or as a significant condition contributing to death. Rates of COVID-19 deaths by vaccination status are primarily reported based on when the patient was tested for COVID-19. In select jurisdictions, deaths are included that are not laboratory confirmed and are reported based on alternative dates (i.e., onset date for most; or date of death or report date, where onset date is unavailable). Deaths usually occur up to 30 days after COVID-19 diagnosis.\n\nParticipating jurisdictions: Currently, these 24 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Colorado, District of Columbia, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (NY), North Carolina, Rhode Island, Tennessee, Texas, Utah, and West Virginia; 23 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 48% of the total U.S. population and all ten of the Health and Human Services Regions. This list will be",
             "title": "Rates of COVID-19 Cases or Deaths by Age Group and Updated (Bivalent) Booster Status",
             "programCode": [
                 "009:038"
@@ -6273,7 +6273,7 @@
                 }
             ],
             "spatial": "Select US Jurisdictions",
-            "accrualPeriodicity": "Monthly",
+            "accrualPeriodicity": "None - this dataset is archived as of May 2023",
             "theme": [
                 "Public Health Surveillance"
             ],
@@ -7194,7 +7194,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-27",
+            "modified": "2023-05-30",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -10309,7 +10309,7 @@
             ],
             "issued": "2016-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-16",
+            "modified": "2023-06-01",
             "keyword": [
                 "birth rate",
                 "cesarean delivery",
@@ -11249,7 +11249,7 @@
             "issued": "2022-05-18",
             "temporal": "2020-01-22/2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-26",
+            "modified": "2023-06-02",
             "keyword": [
                 "aggregate county data",
                 "cases",
@@ -12160,7 +12160,7 @@
             ],
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-01",
+            "modified": "2023-06-01",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -13726,7 +13726,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-01",
+            "modified": "2023-06-01",
             "references": [
                 "https://chronicdata.cdc.gov/d/sfei-pddr"
             ],
@@ -14401,7 +14401,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "age",
                 "age group",
@@ -14659,7 +14659,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14958,7 +14958,7 @@
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-03-12",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -17359,7 +17359,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-26",
+            "modified": "2023-06-02",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17504,7 +17504,7 @@
             "issued": "2023-05-25",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 \u2013",
-            "modified": "2023-05-25",
+            "modified": "2023-06-01",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -17528,7 +17528,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/akn2-qxic",
-            "description": "This dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy among hospitals within the selected HSA. Therefore, admissions, capacity, and occupancy are not limited to residents of the selected HSA. </li><li>For all county-level hospital metrics listed below the values are calculated first for the entire HSA, and then the HSA-level value is then applied to each county within the HSA. </li><li>For all county-level hospital metrics listed below the values are calculated first for the entire HSA, and then the HSA-level value is then applied to each county within the HSA. </li></ul>\n<b>Metric details:</b><ul><li><b>Time period:</b> data for the previous MMWR week (Sunday-Saturday) will update weekly on Thursdays as soon as they are reviewed and ve",
+            "description": "<b>Note:</b>\n<b>June 1, 2023:</b> Due to incomplete or missing hospital data received for the May 21, 2023, through May 27, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on June 1, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy among hospitals within the selected HSA. Therefore, admissions, capacity, and occupancy are not limited to residents of the selected HSA. </li><li>For all county-level hospital metrics listed below the values are calculated first for the entire HSA, and then the HSA-level value is then applied to each county within the HSA. </li><li>For all county-",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County",
             "programCode": [
                 "009:020"
@@ -19809,7 +19809,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-28",
+            "modified": "2023-05-31",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -22865,7 +22865,7 @@
             ],
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -26610,7 +26610,7 @@
             ],
             "issued": "2018-12-11",
             "@type": "dcat:Dataset",
-            "modified": "2022-03-02",
+            "modified": "2023-05-30",
             "references": [
                 "https://chronicdata.cdc.gov/d/sgg4-hiwe"
             ],
@@ -26632,7 +26632,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/ffbi-is3j",
-            "description": "1999-2021. National Association of Attorneys General (NAAG). Policy\u2014Tobacco Settlement Payments. The National Association of Attorneys General (NAAG) provides Tobacco Settlement Revenue data for 46 states participating in the Master Settlement Agreement (MSA) with the four largest tobacco companies in the United States.  Data are reported on an annual basis.  Four states (Florida, Minnesota, Mississippi, and Texas) provide the STATE System their Tobacco Settlement Revenue data independently.",
+            "description": "1999-2023. National Association of Attorneys General (NAAG). Policy\u2014Tobacco Settlement Payments. The National Association of Attorneys General (NAAG) provides Tobacco Settlement Revenue data for 46 states participating in the Master Settlement Agreement (MSA) with the four largest tobacco companies in the United States.  Data are reported on an annual basis.  Four states (Florida, Minnesota, Mississippi, and Texas) provide the STATE System their Tobacco Settlement Revenue data independently.",
             "title": "NAAG Tobacco Settlement Payments",
             "programCode": [
                 "009:020"
@@ -28226,7 +28226,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-28",
+            "modified": "2023-06-04",
             "keyword": [
                 "wastewater"
             ],
@@ -30458,7 +30458,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-03",
+            "modified": "2023-06-01",
             "keyword": [
                 "legislation",
                 "osh",
@@ -30720,7 +30720,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -30818,7 +30818,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31226,7 +31226,7 @@
             "issued": "2022-12-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-05-25",
+            "modified": "2023-06-01",
             "keyword": [
                 "case",
                 "community transmission",
@@ -32263,7 +32263,7 @@
             ],
             "issued": "2020-10-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-01",
+            "modified": "2023-06-01",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -32714,7 +32714,7 @@
             ],
             "issued": "2021-05-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-05-03",
+            "modified": "2023-06-01",
             "keyword": [
                 "any exemption",
                 "dt",
@@ -33485,7 +33485,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-26",
+            "modified": "2023-06-02",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -34376,7 +34376,7 @@
             "issued": "2023-02-24",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/ 2023-05-10",
-            "modified": "2023-05-11",
+            "modified": "2023-06-01",
             "references": [
                 "https://data.cdc.gov/Public-Health-Surveillance/Weekly-COVID-19-County-Level-of-Community-Transmis/dt66-w6m6"
             ],
@@ -34900,7 +34900,7 @@
             ],
             "issued": "2016-11-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-28",
+            "modified": "2023-06-01",
             "keyword": [
                 "causes of death",
                 "deaths",
@@ -35037,7 +35037,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-26",
+            "modified": "2023-06-01",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -35242,7 +35242,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "age",
                 "age group",
@@ -36241,7 +36241,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36645,7 +36645,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "cares act",
                 "health system",
@@ -37453,7 +37453,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -37860,7 +37860,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "age",
                 "age group",
@@ -38138,7 +38138,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-26",
+            "modified": "2023-06-02",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -40215,7 +40215,7 @@
             ],
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -40817,7 +40817,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -42619,7 +42619,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "age",
                 "age group",
@@ -43567,7 +43567,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-25",
+            "modified": "2023-06-01",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -43878,7 +43878,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -44870,7 +44870,7 @@
             "issued": "2022-10-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-22/2023-05-10",
-            "modified": "2023-05-11",
+            "modified": "2023-06-01",
             "keyword": [
                 "aggregate",
                 "cases",
@@ -46240,7 +46240,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -46898,6 +46898,72 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/qvzb-qs6p",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-05-30",
+            "@type": "dcat:Dataset",
+            "modified": "2023-05-30",
+            "keyword": [
+                "abcs",
+                "active bacterial core surveillance",
+                "bactfacts",
+                "invasive pneumococcal disease serotypes",
+                "ipd serotype frequencies",
+                "ipd serotypes",
+                "spn serotypes",
+                "streptococcus pneumoniae serotypes"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Active Bacterial Core Surveillance",
+                "hasEmail": "mailto:abcs@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Active Bacterial Core Surveillance"
+            },
+            "identifier": "https://data.cdc.gov/api/views/qvzb-qs6p",
+            "description": "CDC monitors invasive bacterial infections that cause bloodstream infections, sepsis, and meningitis in persons living in the community through Active Bacterial Core surveillance (ABCs). ABCs conducts laboratory- and population-based surveillance for invasive pneumococcal disease (IPD). ABCs serotype data are used to measure the impact of vaccine use in the United States on vaccine-type IPD. \n\nThis table reports IPD case counts in the ABCs catchment area by serotype for years 2016 through 2020. Cases are grouped into the following mutually exclusive age groups: age <2 years old, age 2\u20134 years old, age 5\u201317 years old, age 18\u201349 years old, age 50\u201364 years old, and age \u226565 years old.\n\nABCs methods and surveillance areas reporting IPD cases has changed over time. Given these changes, trends in serotype distribution by year and age group should be interpreted with caution. Additional information on ABCs methods and surveillance population is available at <a href=\"url\">https://www.cdc.gov/abcs/methodology/index.html</a>.\n\nAnalyze and visualize data using the ABCs Bact Facts Interactive Data Dashboard at <a href=\"url\">https://www.cdc.gov/abcs/bact-facts-interactive-dashboard.html</a>.",
+            "title": "2016-2020 Serotype Data for Invasive Pneumococcal Disease Cases by Age Group from Active Bacterial Core surveillance",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/qvzb-qs6p/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/qvzb-qs6p/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/qvzb-qs6p/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/qvzb-qs6p/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/qvzb-qs6p/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/qvzb-qs6p/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/qvzb-qs6p/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/qwf3-87ny",
             "bureauCode": [
                 "009:00"
@@ -47254,7 +47320,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-26",
+            "modified": "2023-06-02",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -47784,8 +47850,8 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "temporal": "2019-12-29/2023-05-01",
-            "modified": "2023-05-26",
+            "temporal": "2019-12-29/2023-06-01",
+            "modified": "2023-06-02",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -49049,7 +49115,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-23",
+            "modified": "2023-05-30",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -52281,7 +52347,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "age",
                 "age group",
@@ -53187,7 +53253,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -53891,7 +53957,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-26",
+            "modified": "2023-06-02",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -54004,7 +54070,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -55078,7 +55144,7 @@
             ],
             "issued": "2021-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2021-07-28",
+            "modified": "2023-06-01",
             "keyword": [
                 "antimicrobial resistance",
                 "carbapenem-resistant acinetobacter baumannii",
@@ -56532,7 +56598,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "age",
                 "age group",
@@ -57741,7 +57807,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-26",
+            "modified": "2023-05-31",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -59801,7 +59867,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-25",
+            "modified": "2023-06-01",
             "keyword": [
                 "2022",
                 "2023",
@@ -60296,7 +60362,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -60441,7 +60507,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -61899,7 +61965,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-24",
+            "modified": "2023-05-31",
             "keyword": [
                 "age",
                 "age group",
@@ -62704,7 +62770,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-25",
+            "modified": "2023-06-01",
             "keyword": [
                 "age",
                 "age group",
