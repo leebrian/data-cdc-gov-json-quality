@@ -7,6 +7,53 @@
     "dataset": [
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/22bd-uszz",
+            "issued": "2023-04-25",
+            "@type": "dcat:Dataset",
+            "modified": "2023-04-25",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Ethan A. Broadfoot",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/22bd-uszz",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
+            "title": "SVI2020_US_county - Theme 1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/22bd-uszz/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/22bd-uszz/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/22bd-uszz/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/22bd-uszz/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/22bd-uszz/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/22bd-uszz/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/22bd-uszz/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/23gt-ssfe",
             "bureauCode": [
                 "009:00"
@@ -202,6 +249,53 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/262c-hfiz",
+            "issued": "2023-04-25",
+            "@type": "dcat:Dataset",
+            "modified": "2023-04-25",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Ethan A. Broadfoot",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/262c-hfiz",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
+            "title": "SVI2020_US_county",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/262c-hfiz/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/262c-hfiz/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/262c-hfiz/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/262c-hfiz/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/262c-hfiz/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/262c-hfiz/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/262c-hfiz/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/26a7-nc4u",
             "bureauCode": [
                 "009:00"
@@ -258,6 +352,53 @@
             ],
             "theme": [
                 "Motor Vehicle"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/26vq-m8vg",
+            "issued": "2023-04-25",
+            "@type": "dcat:Dataset",
+            "modified": "2023-04-25",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Ethan A. Broadfoot",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/26vq-m8vg",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
+            "title": "SVI2020_US_tract - Theme 2",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/26vq-m8vg/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/26vq-m8vg/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/26vq-m8vg/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/26vq-m8vg/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/26vq-m8vg/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/26vq-m8vg/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/26vq-m8vg/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -591,7 +732,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-01",
+            "modified": "2023-06-08",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -782,53 +923,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/2a47-59fz",
-            "issued": "2022-01-27",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/2a47-59fz",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/2a47-59fz/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/2a47-59fz/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/2a47-59fz/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/2a47-59fz/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/2a47-59fz/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/2a47-59fz/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/2a47-59fz/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/flu/fluvaxview/dashboard/vaccination-dashboard.html",
             "bureauCode": [
                 "009:20"
@@ -977,7 +1071,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-04",
+            "modified": "2023-06-11",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2249,7 +2343,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "age",
                 "all causes",
@@ -3366,68 +3460,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/3rge-nu2a",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2022-01-21",
-            "temporal": "April 4, 2021-September 24, 2022",
-            "@type": "dcat:Dataset",
-            "modified": "2023-02-22",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Vaccine Breakthrough Unit, Surveillance and Analytics Team",
-                "hasEmail": "mailto:vbtsurveillance@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "CDC"
-            },
-            "identifier": "https://data.cdc.gov/api/views/3rge-nu2a",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nDataset and data visualization details:\nThese data were posted on October 21, 2022, archived on November 18, 2022, and revised on February 22, 2023. These data reflect cases among persons with a positive specimen collection date through September 24, 2022, and deaths among persons with a positive specimen collection date through September 3, 2022. \n\nVaccination status: A person vaccinated with a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\nAdditional or booster dose: A person vaccinated with a primary series and an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. For people ages 18 years and older, data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. For people ages 12-17 years, data are graphed starting the week of December 26, 2021, 2 weeks after the first recommendation for a booster dose for adolescents ages 16-17 years. For people ages 5-11 years, data are included starting the week of June 5, 2022, 2 weeks after the first recommendation for a booster dose for children aged 5-11 years. For people ages 50 years and older, data on second booster doses are graphed starting the week including March 29, 2022, when the recommendation was made for second boosters. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type. \n** Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group.\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis.\nParticipating jurisdictions: Currently, these 31 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (New York), North Carolina, Philadelphia (Pennsylvania), Rhode Island, South Dakota, Tennessee, Texas, Utah, Washington, and West Virginia; 30 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 72% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases",
-            "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status",
-            "programCode": [
-                "009:038"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/3rge-nu2a/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/3rge-nu2a/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/3rge-nu2a/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/3rge-nu2a/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/3rge-nu2a/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/3rge-nu2a/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/3rge-nu2a/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "spatial": "Select US Jurisdictions",
-            "accrualPeriodicity": "Monthly",
-            "theme": [
-                "Public Health Surveillance"
-            ],
-            "language": [
-                "English"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/3se3-rwj2",
             "bureauCode": [
                 "009:00"
@@ -3704,6 +3736,53 @@
             "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/3uz5-558c",
+            "issued": "2023-04-25",
+            "@type": "dcat:Dataset",
+            "modified": "2023-04-25",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Ethan A. Broadfoot",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/3uz5-558c",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
+            "title": "SVI2020_US_tract - Theme 1",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/3uz5-558c/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/3uz5-558c/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3uz5-558c/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/3uz5-558c/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3uz5-558c/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/3uz5-558c/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3uz5-558c/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -4619,6 +4698,25 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/4ckf-c7xz",
+            "issued": "2023-06-08",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-08",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCIRD",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/4ckf-c7xz",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "Vaccination Data Update archive"
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://www.atsdr.cdc.gov/placeandhealth/svi/index.html",
             "bureauCode": [
                 "009:20"
@@ -5159,53 +5257,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/4rma-k8rw",
-            "issued": "2022-01-31",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-31",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/4rma-k8rw",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/4rma-k8rw/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/4rma-k8rw/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/4rma-k8rw/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/4rma-k8rw/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/4rma-k8rw/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/4rma-k8rw/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/4rma-k8rw/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/4t6w-ibvk",
             "bureauCode": [
                 "009:00"
@@ -5397,7 +5448,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "age",
                 "age group",
@@ -7194,7 +7245,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-30",
+            "modified": "2023-06-09",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7609,6 +7660,53 @@
             ],
             "theme": [
                 "Legislation"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/5rgh-quze",
+            "issued": "2023-04-25",
+            "@type": "dcat:Dataset",
+            "modified": "2023-04-25",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Ethan A. Broadfoot",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/5rgh-quze",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
+            "title": "SVI2020_US_tract - Theme 3",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/5rgh-quze/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/5rgh-quze/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/5rgh-quze/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/5rgh-quze/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/5rgh-quze/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/5rgh-quze/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/5rgh-quze/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -9850,53 +9948,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/6yc4-dwxq",
-            "issued": "2022-01-27",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/6yc4-dwxq",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/6yc4-dwxq/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/6yc4-dwxq/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/6yc4-dwxq/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/6yc4-dwxq/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/6yc4-dwxq/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/6yc4-dwxq/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/6yc4-dwxq/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/6yz5-ufy2",
             "bureauCode": [
                 "009:00"
@@ -11372,6 +11423,53 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/7s96-5wg7",
+            "issued": "2023-04-25",
+            "@type": "dcat:Dataset",
+            "modified": "2023-04-25",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Ethan A. Broadfoot",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/7s96-5wg7",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
+            "title": "SVI2020_US_tract",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/7s96-5wg7/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/7s96-5wg7/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/7s96-5wg7/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/7s96-5wg7/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/7s96-5wg7/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/7s96-5wg7/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/7s96-5wg7/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/7vdq-ztk9",
             "bureauCode": [
                 "009:20"
@@ -12298,6 +12396,53 @@
             ],
             "language": [
                 "English"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/8b72-amia",
+            "issued": "2023-04-25",
+            "@type": "dcat:Dataset",
+            "modified": "2023-04-25",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Ethan A. Broadfoot",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/8b72-amia",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
+            "title": "SVI2020_US_county - Theme 2",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/8b72-amia/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/8b72-amia/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/8b72-amia/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/8b72-amia/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/8b72-amia/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/8b72-amia/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/8b72-amia/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -14196,72 +14341,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/98pz-jhyt",
-            "bureauCode": [
-                "009:00"
-            ],
-            "issued": "2018-01-04",
-            "@type": "dcat:Dataset",
-            "modified": "2018-01-04",
-            "keyword": [
-                "2017",
-                "mmwr",
-                "nedss",
-                "netss",
-                "nndss",
-                "other than toxigenic vibrio cholerae o1 or o139)",
-                "vibriosis (any species of the family vibrionaceae",
-                "wonder"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/98pz-jhyt",
-            "description": "NNDSS - Table II. Vibriosis - 2017.  In this Table, provisional cases of selected notifiable diseases (\u22651,000 cases reported during the preceding year), and selected low frequency diseases are displayed. The Table includes total number of cases reported in the United States, by region and by states, in accordance with the current method of displaying MMWR data.  Data on United States exclude counts from US territories.\r\n\r\nNote:\r\nThese are provisional cases of selected national notifiable diseases, from the National Notifiable Diseases Surveillance System (NNDSS). NNDSS data reported by the 50 states, New York City, the District of Columbia, and the U.S. territories are collated and published weekly as numbered tables printed in the back of the Morbidity and Mortality Weekly Report (MMWR). Cases reported by state health departments to CDC for weekly publication are provisional because of ongoing revision of information and delayed reporting. \r\n\r\nCase counts in this table are presented as they were published in the MMWR issues. Therefore, numbers listed in later MMWR weeks may reflect changes made to these counts as additional information becomes available. \r\n\r\nFootnotes:\r\n C.N.M.I.: Commonwealth of Northern Mariana Islands. \r\n\r\n U: Unavailable. \u2014: No reported cases. N: Not reportable. NN: Not Nationally Notifiable. NP: Nationally notifiable but not published. Cum: Cumulative year-to-date counts. Med: Median. Max: Maximum. \r\n\r\n*Three low incidence conditions, rubella, rubella congenital, and tetanus, are in Table II to facilitate case count verification with reporting jurisdictions. \r\n\r\n\u2020 Case counts for reporting year 2017 are provisional and subject to change. For further information on interpretation of these data, see http://wwwn.cdc.gov/nndss/document/ ProvisionalNationaNotifiableDiseasesSurveillanceData20100927.pdf. Data for tuberculosis are displayed in Table IV, which appears quarterly.\r\n\r\n\u00a7 The national surveillance case definition was revised in 2017 to include infections confirmed by culture-independent diagnostic tests as probable cases.",
-            "title": "NNDSS - Table II. Vibriosis",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/98pz-jhyt/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/98pz-jhyt/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/98pz-jhyt/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/98pz-jhyt/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/98pz-jhyt/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/98pz-jhyt/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/98pz-jhyt/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "theme": [
-                "NNDSS"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/9976-4iqj",
             "bureauCode": [
                 "009:20"
@@ -14401,7 +14480,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "age",
                 "age group",
@@ -14469,53 +14548,6 @@
             "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/9cni-hcv4",
-            "issued": "2022-01-27",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/9cni-hcv4",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/9cni-hcv4/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/9cni-hcv4/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/9cni-hcv4/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/9cni-hcv4/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/9cni-hcv4/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/9cni-hcv4/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/9cni-hcv4/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
             ]
         },
         {
@@ -14659,7 +14691,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14958,7 +14990,7 @@
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-03-12",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -15234,6 +15266,53 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/9j94-5nq4",
+            "issued": "2023-04-25",
+            "@type": "dcat:Dataset",
+            "modified": "2023-04-25",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Ethan A. Broadfoot",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/9j94-5nq4",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
+            "title": "SVI2020_US_tract - Theme 4",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/9j94-5nq4/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9j94-5nq4/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9j94-5nq4/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/9j94-5nq4/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9j94-5nq4/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9j94-5nq4/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9j94-5nq4/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/9k8a-cbgx",
             "bureauCode": [
                 "009:20"
@@ -15432,120 +15511,6 @@
             ],
             "theme": [
                 "Policy Surveillance"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/9kkz-pdww",
-            "issued": "2022-01-27",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/9kkz-pdww",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/9kkz-pdww/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/9kkz-pdww/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/9kkz-pdww/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/9kkz-pdww/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/9kkz-pdww/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/9kkz-pdww/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/9kkz-pdww/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/9mfq-cb36",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2020-06-11",
-            "@type": "dcat:Dataset",
-            "temporal": "2020-01-21/2022-10-19",
-            "modified": "2023-05-11",
-            "keyword": [
-                "aggregate",
-                "cases",
-                "coronavirus",
-                "covid-19",
-                "death"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Surveillance Review and Response Group",
-                "hasEmail": "mailto:eocevent394@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "CDC"
-            },
-            "identifier": "https://data.cdc.gov/api/views/9mfq-cb36",
-            "description": "Beginning on <b>October 20, 2022</b>, the CDC retrieves aggregate case and death data from jurisdictional and state partners on a weekly basis rather than daily. This dataset contains archived aggregate daily counts of COVID-19 cases and death by state. Although these data will continue to be publicly available, as of 10/20/2022, this dataset will no longer be updated. \n\nAn archived dataset which aggregates weekly COVID-19 cases and deaths by state can be found on this webpage: <a href=\"https://data.cdc.gov/dataset/Weekly-United-States-COVID-19-Cases-and-Deaths-by-/pwn4-m3yp\">Weekly United States COVID-19 Cases and Deaths by State | Data | Centers for Disease Control and Prevention (cdc.gov)</a>. This dataset was compiled using different methodology; please see the corresponding description on the weekly archived dataset for additional details.\n\n<b>Deaths</b>\nSeparately, CDC also regularly reports provisional death certificate data from the National Vital Statistics System (NVSS) on data.cdc.gov. Details are described on the <a href=\"https://www.cdc.gov/nchs/nvss/covid-19.htm\">NCHS website</a>. Reporting the number of deaths by using death certificates ultimately provides more complete information but is a longer process; therefore, these numbers will be less than the death counts on the COVID-19 website.\n\n<b>Accuracy of Data</b>\nCDC tracks COVID-19 illnesses, hospitalizations, and deaths to track trends, detect outbreaks, and monitor whether public health measures are working. However, counting exact numbers of COVID-19 cases is not possible due to a variety of reasons. For instance, COVID-19 can cause mild illness which may not be reported, symptoms might not appear immediately, there may be delays in reporting and testing, not everyone who is infected hay get tested or seek medical care, and there may be differences in how completely states and territories report their cases.\n\nCOVID-19 is one of about <a href=\"https://wwwn.cdc.gov/nndss/\">120 diseases or conditions</a> health departments voluntarily report to CDC. State, local, and territorial public health departments verify and report cases to CDC. When there are differences between numbers of cases reported by CDC versus by health departments, data reported by health departments should be considered the most up to date. Health departments may update case data over time when they receive more complete and accurate information. The number of new cases reported each day fluctuates. There is generally less reporting on the weekends and holidays.\n\nCDC reports death data on other sections of the website: <a href=\"https://covid.cdc.gov/covid-data-tracker/#datatracker-home\">CDC COVID Data Tracker: Home, CDC COVID Data Tracker: Cases, Deaths, and Testing</a>, and <a href=\"https://www.cdc.gov/nchs/nvss/covid-19.htm\">NCHS Provisional Death Counts</a>. Information presented on the COVID Data Tracker pages is based on the same source (total case counts) as this dataset; however, NCHS Death Counts are based on death certificates that use information reported by physicians, medical examiners, or coroners in the cause-of-death section of each certificate. Data from each of these pages are considered provisional (not complete and pending verification) and are therefore subject to change. Counts are continually revised as more records are received and processed. Because not all jurisdictions report counts daily, counts may increase at different intervals.\n\n<b>Confirmed & Probable Counts</b>\nAs of April 14, 2020, CDC case counts and death counts include both confirmed and probable cases and deaths. This change was made to reflect an <a href=\"https://cdn.ymaws.com/www.cste.org/resource/resmgr/2020ps/Interim-20-ID-01_COVID-19.pdf\">interim COVID-19 position statement</a> issued by the Council of State and Territorial Epidemiologists on April 5, 2020. The position statement included a case definition and made COVID-19 a nationally notifiable disease. Nationally notifiable disease cases are vol",
-            "title": "United States COVID-19 Cases and Deaths by State over Time - ARCHIVED",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/9mfq-cb36/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/9mfq-cb36/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/9mfq-cb36/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/9mfq-cb36/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/9mfq-cb36/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/9mfq-cb36/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/9mfq-cb36/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "spatial": "US",
-            "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "No longer updated (dataset archived)",
-            "theme": [
-                "Case Surveillance"
             ]
         },
         {
@@ -17359,7 +17324,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-02",
+            "modified": "2023-06-09",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17504,7 +17469,7 @@
             "issued": "2023-05-25",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 \u2013",
-            "modified": "2023-06-01",
+            "modified": "2023-06-08",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -17528,7 +17493,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/akn2-qxic",
-            "description": "<b>Note:</b>\n<b>June 1, 2023:</b> Due to incomplete or missing hospital data received for the May 21, 2023, through May 27, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on June 1, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy among hospitals within the selected HSA. Therefore, admissions, capacity, and occupancy are not limited to residents of the selected HSA. </li><li>For all county-level hospital metrics listed below the values are calculated first for the entire HSA, and then the HSA-level value is then applied to each county within the HSA. </li><li>For all county-",
+            "description": "<b>Note:</b>\n<b>June 8, 2023:</b> Due to incomplete or missing hospital data received for the May 28, 2023, through June 3, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on June 8, 2023.\n\n<b>June 8, 2023:</b> Due to incomplete or missing hospital data received for the May 28, 2023, through June 3, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on June 8, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy among hospitals within",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County",
             "programCode": [
                 "009:020"
@@ -18344,6 +18309,67 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://data.cdc.gov/d/b2qj-y9ew",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.\u00a0 Researchers must apply for data access through a proposal process, take confidentiality training and sign a data use agreement.\u00a0 If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.\u00a0 For more information about submitting a proposal for data access, please see:\u00a0https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2023-06-06",
+            "@type": "dcat:Dataset",
+            "temporal": "2022",
+            "modified": "2023-06-06",
+            "keyword": [
+                "chronic health conditions",
+                "disability",
+                "firearms safety",
+                "gender identity",
+                "long covid",
+                "research-data-center",
+                "sdoh-access-to-health-care",
+                "sdoh-civic-participation",
+                "sdoh-employment",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-poverty-income",
+                "sdoh-source-of-health-care",
+                "sdoh-use-of-health-care",
+                "social participation",
+                "traumatic brain injury",
+                "vaccination"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/b2qj-y9ew",
+            "description": "The Research and Development Survey (RANDS) is a series of cross-sectional surveys using probability-sampled commercial survey panels. The seventh round of RANDS (RANDS 7) was administered by NORC at the University of Chicago using the AmeriSpeak Panel from November 3, 2022 to December 12, 2022. RANDS 7 contained the embedded probe questions and experiments as in previous rounds of RANDS. It included questions on firearm safety, chronic health conditions, and health and civic behaviors, and questions related to gender identity, traumatic brain injury and long symptoms of coronavirus disease (COVID-19). RANDS 7 has a known survey sampling design and can be used to produce nationally and sub-nationally representative estimates.",
+            "title": "NCHS Research and Development Survey (RANDS) Round 7 Restricted File",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "mediaType": "text/html",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "description": "The Research and Development Survey (RANDS) is a series of cross-sectional surveys using probability-sampled commercial survey panels. The seventh round of RANDS (RANDS 7) was administered by NORC at the University of Chicago using the AmeriSpeak Panel from November 3, 2022 to December 12, 2022. RANDS 7 contained the embedded probe questions and experiments as in previous rounds of RANDS. It included questions on firearm safety, chronic health conditions, and health and civic behaviors, along with questions related to gender identity, traumatic brain injury and long symptoms of coronavirus disease (COVID-19). RANDS 7 has a known survey sampling design and can be used to produce nationally and sub-nationally representative estimates.",
+                    "@type": "dcat:Distribution",
+                    "title": "NCHS Research and Development Survey (RANDS) Round 7 Restricted File"
+                }
+            ],
+            "spatial": "50 states and District of Columbia",
+            "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS7-technical-documentation.pdf",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/b36e-ru3r",
             "bureauCode": [
@@ -19133,53 +19159,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/bi4f-2zxp",
-            "issued": "2022-01-27",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/bi4f-2zxp",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/bi4f-2zxp/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/bi4f-2zxp/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/bi4f-2zxp/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/bi4f-2zxp/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/bi4f-2zxp/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/bi4f-2zxp/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/bi4f-2zxp/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/data-visualization/mortality-leading-causes/index.htm",
             "bureauCode": [
                 "009:20"
@@ -19809,7 +19788,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-10",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -20684,6 +20663,53 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/chxq-atqp",
+            "issued": "2023-04-25",
+            "@type": "dcat:Dataset",
+            "modified": "2023-04-25",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Ethan A. Broadfoot",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/chxq-atqp",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
+            "title": "SVI2020_US_county - Theme 3",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/chxq-atqp/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/chxq-atqp/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/chxq-atqp/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/chxq-atqp/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/chxq-atqp/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/chxq-atqp/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/chxq-atqp/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -22211,76 +22237,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/d6p8-wqjm",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2022-03-22",
-            "temporal": "September 19, 2021-September 24, 2022",
-            "@type": "dcat:Dataset",
-            "modified": "2023-02-22",
-            "keyword": [
-                "covid-19",
-                "covid-19 booster doses",
-                "covid-19 breakthrough",
-                "covid-19 cases",
-                "covid-19 deaths",
-                "covid-19 vaccination"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Vaccine Breakthrough Unit, Surveillance and Analytics Team",
-                "hasEmail": "mailto:vbtsurveillance@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "CDC"
-            },
-            "identifier": "https://data.cdc.gov/api/views/d6p8-wqjm",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nDataset and data visualization details:\nThese data were posted on October 21, 2022, archived on November 18, 2022, and revised on February 22, 2023. These data reflect cases among persons with a positive specimen collection date through September 24, 2022, and deaths among persons with a positive specimen collection date through September 3, 2022. \n\nVaccination status: A person vaccinated with a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\nAdditional or booster dose: A person vaccinated with a primary series and an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. For people ages 18 years and older, data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. For people ages 12-17 years, data are graphed starting the week of December 26, 2021, 2 weeks after the first recommendation for a booster dose for adolescents ages 16-17 years. For people ages 5-11 years, data are included starting the week of June 5, 2022, 2 weeks after the first recommendation for a booster dose for children aged 5-11 years. For people ages 50 years and older, data on second booster doses are graphed starting the week including March 29, 2022, when the recommendation was made for second boosters. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type.\n** Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group.\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis.\nParticipating jurisdictions: Currently, these 31 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (New York), North Carolina, Philadelphia (Pennsylvania), Rhode Island, South Dakota, Tennessee, Texas, Utah, Washington, and West Virginia; 30 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 72% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases",
-            "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status and Booster Dose",
-            "programCode": [
-                "009:038"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/d6p8-wqjm/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/d6p8-wqjm/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/d6p8-wqjm/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/d6p8-wqjm/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/d6p8-wqjm/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/d6p8-wqjm/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/d6p8-wqjm/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "spatial": "Select US Jurisdictions",
-            "accrualPeriodicity": "Monthly",
-            "theme": [
-                "Public Health Surveillance"
-            ],
-            "language": [
-                "English"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/d7i3-8vbf",
             "bureauCode": [
                 "009:20"
@@ -22865,7 +22821,7 @@
             ],
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -24001,6 +23957,75 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/e28h-tx85",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2021-06-15",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-06",
+            "references": [
+                "https://www.resdac.org",
+                "https://www.cdc.gov/visionhealth/vehss/data/claims/medicare.html"
+            ],
+            "keyword": [
+                "claims",
+                "eye exams",
+                "medical diagnoses",
+                "medicare",
+                "service utilization",
+                "treated prevalence"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "DDT Public Inquiries",
+                "hasEmail": "mailto:ddtpubsmailbox@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/e28h-tx85",
+            "description": "2014-2019. This dataset is a de-identified summary table of vision and eye health data indicators from Medicare claims, stratified by all available combinations of age group, race/ethnicity, gender, and state. Medicare claims for VEHSS includes beneficiaries who were fully enrolled in Medicare Part B Fee-for-Service (FFS) for the duration of the year. Medicare claims provide a convenience sample that includes approximately 30 million individuals annually, which represents nearly 89% of the US population aged 65 and older and 3.3% of the US population younger than 65, including persons disabled due to blindness. Medicare data for VEHSS include Service Utilization and Medical Diagnoses indicators. Data were suppressed for de-identification to ensure protection of patient privacy. Data will be updated as it becomes available. Detailed information on VEHSS Medicare analyses can be found on the VEHSS Medicare webpage (cdc.gov/visionhealth/vehss/data/claims/medicare.html). Information on available Medicare claims data can be found on the ResDac website (www.resdac.org). The VEHSS Medicare dataset was last updated May 2023.",
+            "title": "Medicare Claims \u2013 Vision and Eye Health Surveillance",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/e28h-tx85/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/e28h-tx85/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/e28h-tx85/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/e28h-tx85/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/e28h-tx85/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/e28h-tx85/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/e28h-tx85/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "describedBy": "https://chronicdata.cdc.gov/d/e28h-tx85",
+            "theme": [
+                "Vision & Eye Health"
             ]
         },
         {
@@ -28226,7 +28251,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-04",
+            "modified": "2023-06-11",
             "keyword": [
                 "wastewater"
             ],
@@ -29187,6 +29212,76 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://covid.cdc.gov/covid-data-tracker/#trends",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-06",
+            "temporal": "Data from 2020-03-14 to present (posted starting 2023-06-06)",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-08",
+            "references": [
+                "https://covid.cdc.gov/covid-data-tracker/"
+            ],
+            "keyword": [
+                "covid19",
+                "nrevss",
+                "test"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Virologic Unit, Surveillance and Analytics Team",
+                "hasEmail": "mailto:nrevss@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/gvsb-yw6g",
+            "description": "More than 450 public health and clinical laboratories located throughout the United States participate in surveillance for severe acute respiratory virus coronavirus type 2 (SARS-CoV-2), the virus that causes COVID-19, through CDC's National Respiratory and Enteric Virus Surveillance System (NREVSS). The dataset contains a weekly summary of aggregate counts of the total SARS-CoV-2 tests and SARS-CoV-2 detections reported to NREVSS since March 14, 2020. These data are reported weekly on a voluntary basis. Clinical laboratories do not report demographic data through NREVSS. Testing practices may vary regionally, and the number of participating laboratories may change from year to year. Results can be changed for up to 2 years after the initial reporting week. However, discrepancies may be noted and updated at the discretion of the data stewards and key stakeholders.\n\nWhile NREVSS strives to present the most precise estimates of respiratory viral trends with reporting burden minimized for participating laboratories, there are several inherent limitations to this surveillance system.\n\nNREVSS does not collect patient-specific data or demographic information. Multiple samples may be collected from a single patient, so NREVSS results do not necessarily reflect the number of patients tested, nor do they directly reflect hospitalizations or deaths related to COVID-19.\n\nParticipating laboratories vary in size, testing capabilities, and areas served. Some institutions may receive and test samples from sites across a given state or even from multiple states. Without direct knowledge of the population base, NREVSS cannot be used to determine the prevalence or incidence of infection.\n\nFor more information on NREVSS and COVID-19 surveillance please visit: https://www.cdc.gov/surveillance/nrevss. These data appear starting May 25, 2023 on the CDC COVID Data Tracker at the following URLs: https://covid.cdc.gov/covid-data-tracker/#trends ; https://covid.cdc.gov/covid-data-tracker/#cases.   \n\nNREVSS data are reported at the national and HHS regional levels. The ten (10) U.S. Department of HHS regions are defined here: https://www.hhs.gov/about/agencies/iea/regional-offices/index.html. \n\nThe data represent SARS-CoV-2 Nucleic Acid Amplification Test (NAAT) results, which include reverse transcriptase-polymerase chain reaction (RT-PCR) tests from a voluntary, sentinel network of participating laboratories in the United States, including clinical, public health and commercial laboratories (https://www.cdc.gov/surveillance/nrevss/labs/index.html). \n\nThese data exclude antigen, antibody, and at-home test results. \n\nAll data are provisional and subject to change. Reporting is less complete for the past 1 week, and more complete (>90%) for the period 2 weeks earlier. \n\nThere are data from all states across the 10 HHS regions. Because the data are from a sentinel network of laboratories, however, results may vary geographically. The data do not include all test results within a jurisdiction and therefore do not reflect all SARS-CoV-2 NAATs administered in the United States. \n\nPercent positivity is one of the surveillance metrics used to monitor COVID-19 transmission over time and by area. Percent positivity is calculated by dividing the number of positive NAATs by the total number of NAATs administered, then multiplying by 100 [(# of positive NAAT tests / total NAAT tests) x 100].\n\nThe data represent laboratory tests performed, not individual (deduplicated) results in people. In the table and upon hovering on the map, the total test counts in the data reflect the latest data reported from NREVSS laboratories and may not match the data presented by various jurisdictions.\n\nOn May 11, 2023, CDC discontinued utilizing the COVID electronic laboratory reporting (CELR) platform as the primary laboratory source of COVID-19 results. These data are archived at health.data.gov.\n\nFor more information about NREVSS, please see: https://www.cdc.gov/surveillance/nrevss/",
+            "title": "Percent Positivity of COVID-19 Nucleic Acid Amplification Tests by HHS Region, National Respiratory and Enteric Virus Surveillance System",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/gvsb-yw6g/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/gvsb-yw6g/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/gvsb-yw6g/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/gvsb-yw6g/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/gvsb-yw6g/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/gvsb-yw6g/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/gvsb-yw6g/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "accrualPeriodicity": "Weekly",
+            "theme": [
+                "Laboratory Surveillance"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
@@ -30720,7 +30815,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -30818,7 +30913,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31226,7 +31321,7 @@
             "issued": "2022-12-20",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-06-01",
+            "modified": "2023-06-09",
             "keyword": [
                 "case",
                 "community transmission",
@@ -33485,7 +33580,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-02",
+            "modified": "2023-06-09",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -33602,53 +33697,6 @@
             "describedBy": "https://chronicdata.cdc.gov/dataset/2020-Final-Assisted-Reproductive-Technology-ART-Se/ix4g-rt8v",
             "theme": [
                 "Assisted Reproductive Technology (ART)"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ixw2-rj5h",
-            "issued": "2022-01-27",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/ixw2-rj5h",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/ixw2-rj5h/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/ixw2-rj5h/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/ixw2-rj5h/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/ixw2-rj5h/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/ixw2-rj5h/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/ixw2-rj5h/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/ixw2-rj5h/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
             ]
         },
         {
@@ -35037,7 +35085,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-01",
+            "modified": "2023-06-09",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -35242,7 +35290,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "age",
                 "age group",
@@ -35593,53 +35641,6 @@
             ],
             "theme": [
                 "500 Cities & Places"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/k35a-yz3f",
-            "issued": "2022-02-01",
-            "@type": "dcat:Dataset",
-            "modified": "2022-02-01",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/k35a-yz3f",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/k35a-yz3f/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/k35a-yz3f/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/k35a-yz3f/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/k35a-yz3f/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/k35a-yz3f/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/k35a-yz3f/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/k35a-yz3f/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
             ]
         },
         {
@@ -36241,7 +36242,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36645,7 +36646,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "cares act",
                 "health system",
@@ -37453,7 +37454,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -37860,7 +37861,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "age",
                 "age group",
@@ -37992,53 +37993,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ksme-hmi7",
-            "issued": "2022-01-27",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/ksme-hmi7",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/ksme-hmi7/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/ksme-hmi7/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/ksme-hmi7/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/ksme-hmi7/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/ksme-hmi7/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/ksme-hmi7/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/ksme-hmi7/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/ktba-rcfx",
             "issued": "2021-11-24",
             "@type": "dcat:Dataset",
@@ -38138,7 +38092,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-02",
+            "modified": "2023-06-09",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -39316,8 +39270,8 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2023-05-04",
-            "modified": "2023-05-23",
+            "temporal": "2020-01-01/2023-06-01",
+            "modified": "2023-06-07",
             "references": [
                 "https://data.cdc.gov/api/views/mbd7-r32t/files/9350649a-30a0-4bd5-aedc-07bb2eac329f?download=true&filename=public%2033%20utility%20summary.pdf"
             ],
@@ -40215,7 +40169,7 @@
             ],
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -40817,7 +40771,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -41789,8 +41743,8 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2023-05-04",
-            "modified": "2023-05-19",
+            "temporal": "2020-01-01/2023-06-02",
+            "modified": "2023-06-05",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2019%20utility%20summary.pdf"
             ],
@@ -42367,6 +42321,65 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/njmz-dpbc",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-06",
+            "temporal": "2020-01-22/2023-05-10",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-08",
+            "keyword": [
+                "covid",
+                "covid-19"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Surveillance Review and Response Group",
+                "hasEmail": "mailto:eocevent394@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/njmz-dpbc",
+            "description": "Reporting of Aggregate Case and Death Count data was discontinued on May 11, 2023, with the expiration of the COVID-19 public health emergency declaration. Although these data will continue to be publicly available, this dataset will no longer be updated.\n\nThe surveillance case definition for COVID-19, a nationally notifiable disease, was first described in a <a href=\"https://ndc.services.cdc.gov/case-definitions/coronavirus-disease-2019-2021/\">position statement</a> from the Council for State and Territorial Epidemiologists, which was later <a href=\"https://ndc.services.cdc.gov/case-definitions/coronavirus-disease-2019-covid-19/\">revised</a>. However, there is some variation in how jurisdictions implemented these case definitions. More information on how CDC collects COVID-19 case surveillance data can be found at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\">FAQ: COVID-19 Data and Surveillance</a>.\n\n<b>Aggregate Data Collection Process</b>\nSince the beginning of the COVID-19 pandemic, data were reported from state and local health departments through a robust process with the following steps:\n<ul><li>Aggregate county-level counts were obtained indirectly, via automated overnight web collection, or directly, via a data submission process.</li><li>If more than one official county data source existed, CDC used a comprehensive data selection process comparing each official county data source to retrieve the highest case and death counts, unless otherwise specified by the state.</li><li>A CDC data team reviewed counts for congruency prior to integration and set up alerts to monitor for discrepancies in the data.</li><li>CDC routinely compiled these data and post the finalized information on COVID Data Tracker.</li><li>County level data were aggregated to obtain state- and territory- specific totals.</li><li>Counting of cases and deaths is based on date of report and not on the date of symptom onset. CDC calculates rates in these data by using population estimates provided by the US Census Bureau Population Estimates Program (2019 Vintage).</li><li>COVID-19 aggregate case and death data are organized in a time series that includes cumulative number of cases and deaths as reported by a jurisdiction on a given date.  New case and death counts are calculated as the week-to-week change in cumulative counts of cases and deaths reported (i.e., newly reported cases and deaths = cumulative number of cases/deaths reported this week minus the cumulative total reported the prior week.</li></ul>\n\nThis process was collaborative, with CDC and jurisdictions working together to ensure the accuracy of COVID-19 case and death numbers. County counts provided the most up-to-date numbers on cases and deaths by report date. Throughout data collection, CDC retrospectively updated counts to correct known data quality issues.\n\n<b>Description</b>\nThis archived public use dataset focuses on the cumulative and weekly case and death rates per 100,000 persons within various sociodemographic factors across all states and their counties. All resulting data are expressed as rates calculated as the number of cases or deaths per 100,000 persons in counties meeting various classification criteria using <a href=\"https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html\">the US Census Bureau Population Estimates Program</a> (2019 Vintage).\n\nEach county within jurisdictions is classified into multiple categories for each factor. All rates in this dataset are based on classification of counties by the characteristics of their population, not individual-level factors.  This applies to each of the available factors observed in this dataset. Specific factors and their corresponding categories are detailed below.\n\n<b>Population-level factors</b>\nEach unique population factor is detailed below. Please note that the \u201cClassification\u201d column describes each of the 12 factors in the dataset, including a data dict",
+            "title": "Trends in COVID-19 Cases and Deaths in the United States, by County-level Population Factors - ARCHIVED",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/njmz-dpbc/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/njmz-dpbc/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/njmz-dpbc/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/njmz-dpbc/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/njmz-dpbc/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/njmz-dpbc/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/njmz-dpbc/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "accrualPeriodicity": "No longer updated (dataset archived)"
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/nkri-ptxd",
             "bureauCode": [
                 "009:00"
@@ -42619,7 +42632,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "age",
                 "age group",
@@ -43567,7 +43580,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-01",
+            "modified": "2023-06-08",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -43878,7 +43891,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -44425,53 +44438,6 @@
             "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Local-Data-for-Better-Health-County-Data-20/swc5-untb",
             "theme": [
                 "500 Cities & Places"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/prw2-h4g7",
-            "issued": "2022-01-27",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/prw2-h4g7",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/prw2-h4g7/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/prw2-h4g7/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/prw2-h4g7/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/prw2-h4g7/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/prw2-h4g7/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/prw2-h4g7/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/prw2-h4g7/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
             ]
         },
         {
@@ -46240,7 +46206,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47320,7 +47286,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-02",
+            "modified": "2023-06-09",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -47851,7 +47817,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-06-01",
-            "modified": "2023-06-02",
+            "modified": "2023-06-09",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47996,7 +47962,7 @@
             "issued": "2023-05-15",
             "temporal": "1979/2019",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-15",
+            "modified": "2023-06-06",
             "references": [
                 "https://www.cdc.gov/nchs/data/datalinkage/public-use-linked-mortality-files-data-dictionary.pdf"
             ],
@@ -48006,7 +47972,7 @@
                 "public use files",
                 "research-data-center",
                 "sdoh-access-to-health-care",
-                "sdoh-civid-participation",
+                "sdoh-civic-participation",
                 "sdoh-crime-violence",
                 "sdoh-early-childhood",
                 "sdoh-employment",
@@ -49115,7 +49081,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-30",
+            "modified": "2023-06-06",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -49619,53 +49585,6 @@
             ],
             "theme": [
                 "NNDSS"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/rxtc-sdvk",
-            "issued": "2022-01-27",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/rxtc-sdvk",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/rxtc-sdvk/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/rxtc-sdvk/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/rxtc-sdvk/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/rxtc-sdvk/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/rxtc-sdvk/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/rxtc-sdvk/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/rxtc-sdvk/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
             ]
         },
         {
@@ -52347,7 +52266,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "age",
                 "age group",
@@ -53253,7 +53172,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -53957,7 +53876,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-02",
+            "modified": "2023-06-09",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -54017,60 +53936,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/uer9-4v79",
-            "issued": "2022-01-27",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/uer9-4v79",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/uer9-4v79/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/uer9-4v79/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/uer9-4v79/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/uer9-4v79/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/uer9-4v79/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/uer9-4v79/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/uer9-4v79/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -54199,75 +54071,6 @@
             ],
             "theme": [
                 "Environmental Health & Toxicology"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ukww-au2k",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2022-06-17",
-            "temporal": "March 27, 2022 - September 24, 2022",
-            "@type": "dcat:Dataset",
-            "modified": "2023-02-22",
-            "keyword": [
-                "covid-19 booster doses",
-                "covid-19 breakthrough",
-                "covid-19 cases",
-                "covid-19 deaths",
-                "covid-19 vaccination"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Vaccine Breakthrough Unit, Surveillance and Analytics Team",
-                "hasEmail": "mailto:vbtsurveillance@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "CDC"
-            },
-            "identifier": "https://data.cdc.gov/api/views/ukww-au2k",
-            "description": "Data for CDC\u2019s COVID Data Tracker site on Rates of COVID-19 Cases and Deaths by Vaccination Status.\nClick 'More' for important dataset description and footnotes\n\nDataset and data visualization details:\nThese data were posted on October 21, 2022, archived on November 18, 2022, and revised on February 22, 2023. These data reflect cases among persons with a positive specimen collection date through September 24, 2022, and deaths among persons with a positive specimen collection date through September 3, 2022. \n\nVaccination status: A person vaccinated with a primary series had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after verifiably completing the primary series of an FDA-authorized or approved COVID-19 vaccine. An unvaccinated person had SARS-CoV-2 RNA or antigen detected on a respiratory specimen and has not been verified to have received COVID-19 vaccine. Excluded were partially vaccinated people who received at least one FDA-authorized vaccine dose but did not complete a primary series \u226514 days before collection of a specimen where SARS-CoV-2 RNA or antigen was detected.\nAdditional or booster dose: A person vaccinated with a primary series and an additional or booster dose had SARS-CoV-2 RNA or antigen detected on a respiratory specimen collected \u226514 days after receipt of an additional or booster dose of any COVID-19 vaccine on or after August 13, 2021. For people ages 18 years and older, data are graphed starting the week including September 24, 2021, when a COVID-19 booster dose was first recommended by CDC for adults 65+ years old and people in certain populations and high risk occupational and institutional settings. For people ages 12-17 years, data are graphed starting the week of December 26, 2021, 2 weeks after the first recommendation for a booster dose for adolescents ages 16-17 years. For people ages 5-11 years, data are included starting the week of June 5, 2022, 2 weeks after the first recommendation for a booster dose for children aged 5-11 years. For people ages 50 years and older, data on second booster doses are graphed starting the week including March 29, 2022, when the recommendation was made for second boosters. Vertical lines represent dates when changes occurred in U.S. policy for COVID-19 vaccination (details provided above). Reporting is by primary series vaccine type rather than additional or booster dose vaccine type. The booster dose vaccine type may be different than the primary series vaccine type.\n** Because data on the immune status of cases and associated deaths are unavailable, an additional dose in an immunocompromised person cannot be distinguished from a booster dose. This is a relevant consideration because vaccines can be less effective in this group.\nDeaths: A COVID-19\u2013associated death occurred in a person with a documented COVID-19 diagnosis who died; health department staff reviewed to make a determination using vital records, public health investigation, or other data sources. Rates of COVID-19 deaths by vaccination status are reported based on when the patient was tested for COVID-19, not the date they died. Deaths usually occur up to 30 days after COVID-19 diagnosis.\nParticipating jurisdictions: Currently, these 31 health departments that regularly link their case surveillance to immunization information system data are included in these incidence rate estimates: Alabama, Arizona, Arkansas, California, Colorado, Connecticut, District of Columbia, Florida, Georgia, Idaho, Indiana, Kansas, Kentucky, Louisiana, Massachusetts, Michigan, Minnesota, Nebraska, New Jersey, New Mexico, New York, New York City (New York), North Carolina, Philadelphia (Pennsylvania), Rhode Island, South Dakota, Tennessee, Texas, Utah, Washington, and West Virginia; 30 jurisdictions also report deaths among vaccinated and unvaccinated people. These jurisdictions represent 72% of the total U.S. population and all ten of the Health and Human Services Regions. Data on cases",
-            "title": "Rates of COVID-19 Cases or Deaths by Age Group and Vaccination Status and Second Booster Dose",
-            "programCode": [
-                "009:038"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/ukww-au2k/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/ukww-au2k/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/ukww-au2k/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/ukww-au2k/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/ukww-au2k/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/ukww-au2k/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/ukww-au2k/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "spatial": "Select US Jurisdictions",
-            "accrualPeriodicity": "Monthly",
-            "theme": [
-                "Public Health Surveillance"
-            ],
-            "language": [
-                "English"
             ]
         },
         {
@@ -55075,7 +54878,7 @@
             ],
             "issued": "2020-05-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-08",
+            "modified": "2023-06-07",
             "references": [
                 "https://www.cms.gov/files/document/Accelerated-and-Advanced-Payments-Fact-Sheet.pdf"
             ],
@@ -55586,8 +55389,8 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2023-05-04",
-            "modified": "2023-05-19",
+            "temporal": "2020-01-01/2023-06-02",
+            "modified": "2023-06-05",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2012%20utility%20summary.pdf"
             ],
@@ -56598,7 +56401,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "age",
                 "age group",
@@ -57807,7 +57610,7 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-09",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
@@ -58690,6 +58493,79 @@
             ]
         },
         {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/npals/webtables/overview.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-05-11",
+            "@type": "dcat:Dataset",
+            "temporal": "2020-11-01/2021-07-31",
+            "modified": "2023-06-05",
+            "keyword": [
+                "activities of daily living",
+                "adult day services centers",
+                "diagnoses",
+                "healthcare",
+                "long-term care",
+                "medicaid",
+                "nurse staffing",
+                "post-acute care",
+                "residential care communities",
+                "sdoh-access-to-health-care",
+                "sdoh-use-of-health-care"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/wibz-pb5q",
+            "description": "The NCHS National Post-acute and Long-term Care Study (NPALS) collects data on post-acute and long-term care providers every two years. The goal is to monitor post-acute and long-term care settings with reliable, accurate, relevant, and timely statistical information to support and inform post-acute and long-term care services policy, research, and practice. These data tables provide an overview of the geographic, organizational, staffing, service provision, and user characteristics of paid, regulated long-term and post-acute care providers in the adult day services centers (ADSCs) and residential care communities (RCCs) in the United States.",
+            "title": "Biennial Overview of Post-acute and Long-term Care in the United States: Data from the 2020 National Post-acute and Long-term Care Study",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/wibz-pb5q/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/wibz-pb5q/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/wibz-pb5q/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/wibz-pb5q/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/wibz-pb5q/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/wibz-pb5q/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/wibz-pb5q/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "irregular",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "restricted public",
             "landingPage": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
             "bureauCode": [
@@ -59409,53 +59285,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/x2ir-25sx",
-            "issued": "2022-01-27",
-            "@type": "dcat:Dataset",
-            "modified": "2022-01-27",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "QIJ0@cdc.gov",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/x2ir-25sx",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "",
-            "title": "revision test",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/x2ir-25sx/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/x2ir-25sx/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/x2ir-25sx/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/x2ir-25sx/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/x2ir-25sx/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/x2ir-25sx/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/x2ir-25sx/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/x66v-w5ka",
             "bureauCode": [
                 "009:20"
@@ -59867,7 +59696,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-01",
+            "modified": "2023-06-09",
             "keyword": [
                 "2022",
                 "2023",
@@ -60362,7 +60191,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -60507,7 +60336,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -61965,7 +61794,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-31",
+            "modified": "2023-06-07",
             "keyword": [
                 "age",
                 "age group",
@@ -62028,6 +61857,53 @@
             "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/y6af-c7uj",
+            "issued": "2023-04-25",
+            "@type": "dcat:Dataset",
+            "modified": "2023-04-25",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Ethan A. Broadfoot",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/y6af-c7uj",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
+            "title": "SVI2020_US_county - Theme 4",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/y6af-c7uj/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/y6af-c7uj/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/y6af-c7uj/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/y6af-c7uj/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/y6af-c7uj/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/y6af-c7uj/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/y6af-c7uj/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -62770,7 +62646,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-01",
+            "modified": "2023-06-08",
             "keyword": [
                 "age",
                 "age group",
@@ -63050,6 +62926,66 @@
             "language": [
                 "English"
             ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/yviw-z6j5",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-06",
+            "temporal": "2020-01-22/2023-05-10",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-08",
+            "keyword": [
+                "covid",
+                "covid-19",
+                "surveillance"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Surveillance Review and Response Group",
+                "hasEmail": "mailto:eocevent394@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/yviw-z6j5",
+            "description": "Reporting of Aggregate Case and Death Count data was discontinued on May 11, 2023, with the expiration of the COVID-19 public health emergency declaration. Although these data will continue to be publicly available, this dataset will no longer be updated.\n\n<b>Aggregate Data Collection Process\nSince the beginning of the COVID-19 pandemic, data were reported through a robust process with the following steps:</b><ul><li>Aggregate county-level counts were obtained indirectly, via automated overnight web collection, or directly, via a data submission process.</li><li>If more than one official county data source existed, CDC used a comprehensive data selection process comparing each official county data source to retrieve the highest case and death counts, unless otherwise specified by the state.</li><li>A CDC data team reviewed counts for congruency prior to integration. CDC routinely compiled these data and post the finalized information on COVID Data Tracker.</li><li>Cases and deaths are based on date of report and not on the date of symptom onset. CDC calculates rates in this data by using population estimates provided by the US Census Bureau Population Estimates Program (2019 Vintage).</li><li>COVID-19 aggregate case and death data were organized in a time series that includes cumulative number of cases and deaths as reported by a jurisdiction on a given date.  New case and death counts were calculated as the week-to-week change in reported cumulative cases and deaths (i.e., newly reported cases and deaths = cumulative number of cases/deaths reported this week minus the cumulative total reported the week before.</li></ul>\n\nThis process was collaborative, with CDC and jurisdictions working together to ensure the accuracy of COVID-19 case and death numbers. County counts provided the most up-to-date numbers on cases and deaths by report date. Throughout data collection, CDC retrospectively updated counts to correct known data quality issues. CDC also worked with jurisdictions after the end of the public health emergency declaration to finalize county data. \n<ul><li><b>Source:</b> The weekly archived dataset is based on county-level aggregate count data</li><li><b>Confirmed/Probable Cases/Death breakdown:</b> Cumulative cases and deaths for each county are included.  Total reported cases include probable and confirmed cases.</li><li><b>Time Series Frequency:</b> The weekly archived dataset contains weekly time series data (i.e., one record per week per county)</li></ul>\n \n<b>Important note:</b> The counts reflected during a given time period in this dataset may not match the counts reflected for the same time period in the daily archived dataset noted above. Discrepancies may exist due to differences between county and state COVID-19 case surveillance and reconciliation efforts.\n\nThe surveillance case definition for COVID-19, a nationally notifiable disease, was first described in a <a href=\"https://ndc.services.cdc.gov/case-definitions/coronavirus-disease-2019-covid-19/\">position statement</a> from the Council for State and Territorial Epidemiologists, which was later <a href=\"https://ndc.services.cdc.gov/case-definitions/coronavirus-disease-2019-covid-19/\">revised</a>. However, there is some variation in how jurisdictions implement these case classifications. More information on how CDC collects COVID-19 case surveillance data can be found at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\">FAQ: COVID-19 Data and Surveillance</a>.\n\n<b>Confirmed and Probable Counts</b>\nIn this dataset, counts by jurisdiction are not displayed by confirmed or probable status. Instead, counts of confirmed and probable cases and deaths are included in the Total Cases and Total Deaths columns, when available. Not all jurisdictions reported probable cases and deaths to CDC. Confirmed and probable case definition criteria are described here:\n<a href=\"https://ndc.services.cdc.gov/case-definitions/coronavirus-disease-2",
+            "title": "Weekly United States COVID-19 Cases and Deaths by County - ARCHIVED",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/yviw-z6j5/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/yviw-z6j5/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/yviw-z6j5/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/yviw-z6j5/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/yviw-z6j5/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/yviw-z6j5/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/yviw-z6j5/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "accrualPeriodicity": "No longer updated (dataset archived)"
         },
         {
             "accessLevel": "public",
