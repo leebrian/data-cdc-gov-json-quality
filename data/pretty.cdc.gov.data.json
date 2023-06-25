@@ -732,7 +732,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-15",
+            "modified": "2023-06-22",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -1071,7 +1071,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-18",
+            "modified": "2023-06-25",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2343,7 +2343,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "age",
                 "all causes",
@@ -2580,59 +2580,6 @@
             "spatial": "United States",
             "describedBy": "Nationally representative sample of women and men in the household population (civilian, non-institutionalized) ages 15-49",
             "accrualPeriodicity": "Irregular",
-            "theme": [
-                "NCHS"
-            ]
-        },
-        {
-            "accessLevel": "restricted public",
-            "landingPage": "https://www.cdc.gov/nchs/nhis/index.htm",
-            "bureauCode": [
-                "009:20"
-            ],
-            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-            "issued": "2022-06-08",
-            "@type": "dcat:Dataset",
-            "temporal": "2019/2021",
-            "modified": "2023-06-15",
-            "references": [
-                "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
-            ],
-            "keyword": [
-                "dhis",
-                "health statistics",
-                "nchs",
-                "nhis",
-                "research-data-center",
-                "summary health statistics"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "National Center for Health Statistics"
-            },
-            "identifier": "https://data.cdc.gov/api/views/3fbk-zqkm",
-            "description": "The restricted use Sample Child file for the National Health Interview Survey (NHIS) includes variables that have been edited or suppressed in the public-use NHIS Sample Child file. Restricted variables are available through Research Data Center. For more information, see the National Health Interview Survey entry or visit https://www.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm.",
-            "title": "Restricted Use NHIS Sample Child Interview",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "mediaType": "text/html",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "description": "The NHIS questionnaire contains annual core and rotating core content. The annual core questions focus on demographic characteristics, health insurance, chronic conditions, health care access and use, health-related behaviors, and functioning and disability. The rotating core consists of questions that will be included in the interview periodically and include expanded content on mental health, service utilization, preventive services, health-related behaviors, injuries, and chronic pain. The periodicity of questions in the rotating core varies by question and may be every-other year, once-every-three years, or two-out-of-three years. The sample adult dataset contains data from the randomly sampled child.",
-                    "@type": "dcat:Distribution",
-                    "title": "Restricted Use NHIS Sample Child Interview"
-                }
-            ],
-            "spatial": "United States",
-            "describedBy": "https://www.cdc.gov/nchs/nhis/index.htm",
-            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
             ]
@@ -5510,7 +5457,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "age",
                 "age group",
@@ -7307,7 +7254,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-17",
+            "modified": "2023-06-24",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -13604,7 +13551,7 @@
             ],
             "issued": "2022-01-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-07",
+            "modified": "2023-06-20",
             "keyword": [
                 "american rescue plan",
                 "covid-19"
@@ -13666,7 +13613,7 @@
             ],
             "issued": "2021-05-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-11",
+            "modified": "2023-06-20",
             "keyword": [
                 "immunization",
                 "influenza",
@@ -14616,7 +14563,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "age",
                 "age group",
@@ -14827,7 +14774,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -15126,7 +15073,7 @@
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-03-12",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -17194,7 +17141,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-13",
+            "modified": "2023-06-20",
             "keyword": [
                 "immunization",
                 "pneumococcal",
@@ -19413,60 +19360,6 @@
             ]
         },
         {
-            "accessLevel": "restricted public",
-            "landingPage": "https://www.cdc.gov/nchs/nhis/index.htm",
-            "bureauCode": [
-                "009:20"
-            ],
-            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-            "issued": "2022-06-08",
-            "@type": "dcat:Dataset",
-            "temporal": "2019/2021",
-            "modified": "2023-06-12",
-            "references": [
-                "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
-            ],
-            "keyword": [
-                "adult income",
-                "income imputation",
-                "income statistics",
-                "nchs",
-                "nhis",
-                "research-data-center",
-                "summary health statistics"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "National Center for Health Statistics"
-            },
-            "identifier": "https://data.cdc.gov/api/views/bj44-rgrx",
-            "description": "The restricted use Sample Adult Imputed Income file for the National Health Interview Survey (NHIS) includes income variables that have been edited or suppressed in the public-use NHIS Sample Adult Imputed Income file. Restricted variables are available through Research Data Center. For more information, see the National Health Interview Survey entry or visit https://www.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm.",
-            "title": "Restricted Use NHIS Sample Adult Imputed Income",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "mediaType": "text/html",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "description": "The National Health Interview Survey (NHIS) is a multi-purpose health survey and is the principal source of information on the health of the civilian, noninstitutionalized household population of the United States (National Center for Health Statistics). The NHIS provides a rich source of data for studying relationships between income and health and for monitoring the health and health care for persons at different income levels. There is particular interest in the health of vulnerable populations such as those with low income, as well as their access to and use of health care services. However, the nonresponse rates are high for income variables. Multiple imputation methods were used to address high item nonresponse rates to impute the total household income where the entire imputation process was repeated independently 10 times. This dataset represents the income data responses of the randomly sampled adult.",
-                    "@type": "dcat:Distribution",
-                    "title": "Restricted Use NHIS Sample Adult Imputed Income"
-                }
-            ],
-            "spatial": "United States",
-            "describedBy": "https://www.cdc.gov/nchs/nhis/index.htm",
-            "accrualPeriodicity": "R/P1Y",
-            "theme": [
-                "NCHS"
-            ]
-        },
-        {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/bjsc-yd7n",
             "bureauCode": [
@@ -19924,7 +19817,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-18",
+            "modified": "2023-06-25",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -23019,7 +22912,7 @@
             ],
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -25025,7 +24918,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-09-01",
+            "modified": "2023-06-20",
             "keyword": [
                 "adolescent vaccination",
                 "hepb",
@@ -26966,7 +26859,7 @@
             ],
             "issued": "2021-05-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-09",
+            "modified": "2023-06-20",
             "keyword": [
                 "child vaccination",
                 "combined 7 series",
@@ -28449,7 +28342,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-18",
+            "modified": "2023-06-25",
             "keyword": [
                 "wastewater"
             ],
@@ -29421,7 +29314,7 @@
             "issued": "2023-06-06",
             "temporal": "Data from 2020-03-14 to present (posted starting 2023-06-06)",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-15",
+            "modified": "2023-06-22",
             "references": [
                 "https://covid.cdc.gov/covid-data-tracker/"
             ],
@@ -30027,7 +29920,7 @@
             ],
             "issued": "2021-05-13",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-14",
+            "modified": "2023-06-20",
             "keyword": [
                 "immunization",
                 "influenza",
@@ -31013,7 +30906,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -31111,7 +31004,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31707,6 +31600,62 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "bureauCode": [
+                "009:20"
+            ],
+            "landingPage": "https://data.cdc.gov/d/hv7b-3sw8",
+            "issued": "2023-06-22",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-23",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Surveillance and Epidemiology Branch, Immunization Services Division, NCIRD, CDC",
+                "hasEmail": "mailto:VaxView@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/hv7b-3sw8",
+            "description": "Estimates are for pregnant persons who are up-to-date with COVID-19 vaccines, overall and by race and ethnicity based on data from the Vaccine Safety Datalink*.",
+            "title": "Data: COVID-19 vaccination among pregnant people aged 18-49 years overall, by race and ethnicity, and date reported to CDC - Vaccine Safety Datalink,* United States",
+            "programCode": [
+                "009:026"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/hv7b-3sw8/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/hv7b-3sw8/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hv7b-3sw8/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/hv7b-3sw8/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hv7b-3sw8/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/hv7b-3sw8/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hv7b-3sw8/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "Pregnancy & Vaccination"
             ]
         },
         {
@@ -33007,7 +32956,7 @@
             ],
             "issued": "2021-05-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-01",
+            "modified": "2023-06-20",
             "keyword": [
                 "any exemption",
                 "dt",
@@ -35283,7 +35232,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-09",
+            "modified": "2023-06-23",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -35488,7 +35437,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "age",
                 "age group",
@@ -36440,7 +36389,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36844,7 +36793,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "cares act",
                 "health system",
@@ -37652,7 +37601,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -38059,7 +38008,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "age",
                 "age group",
@@ -38290,7 +38239,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-16",
+            "modified": "2023-06-23",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -40367,7 +40316,7 @@
             ],
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -40969,7 +40918,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -41440,55 +41389,6 @@
             ],
             "theme": [
                 "NNDSS"
-            ]
-        },
-        {
-            "accessLevel": "restricted public",
-            "landingPage": "https://www.cdc.gov/nchs/nhis/index.htm",
-            "bureauCode": [
-                "009:20"
-            ],
-            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-            "issued": "2022-06-16",
-            "@type": "dcat:Dataset",
-            "temporal": "2019/2021",
-            "modified": "2023-06-12",
-            "keyword": [
-                "dhis",
-                "health statistics",
-                "nchs",
-                "nhis",
-                "paradata",
-                "research-data-center"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:\tcdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "National Center for Health Statistics"
-            },
-            "identifier": "https://data.cdc.gov/api/views/mz9z-ba2a",
-            "description": "The NHIS Restricted Paradata File contains paradata that has been suppressed or edited in the public-use paradata file about the National Health Interview Process. The Paradata File is on a case (household) level, where one record represents one case. The Paradata File is intended as both a stand-alone data file and one whose fully complete and sufficiently\ncomplete cases can be linked with the NHIS regular public use health data file. For more information, see the National Health Interview entry, or visit https://www.cdc.gov/nchs/nhis/index.htm",
-            "title": "Restricted Use NHIS Paradata file",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "mediaType": "text/html",
-                    "description": "The NHIS Paradata File contains paradata, which are data about the NHIS interview process collected as part of the NHIS interview. The Paradata File is on a case (household) level, where one record represents one case. The Paradata File is intended as both a stand-alone data file and one whose fully complete and sufficiently\ncomplete cases can be linked with the NHIS regular public use health data file."
-                }
-            ],
-            "spatial": "United States",
-            "describedBy": "https://www.cdc.gov/nchs/nhis/index.htm",
-            "accrualPeriodicity": "R/P1Y",
-            "theme": [
-                "NCHS"
             ]
         },
         {
@@ -42830,7 +42730,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "age",
                 "age group",
@@ -43040,7 +42940,7 @@
             ],
             "issued": "2019-04-12",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-27",
+            "modified": "2023-06-21",
             "references": [
                 "https://chronicdata.cdc.gov/d/x7ys-5vpn"
             ],
@@ -43778,7 +43678,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-15",
+            "modified": "2023-06-22",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -44089,7 +43989,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -46337,7 +46237,7 @@
             ],
             "issued": "2021-03-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-02",
+            "modified": "2023-06-21",
             "references": [
                 "JAMA-Opthalmology forthcoming",
                 "https://jamanetwork.com/journals/jamaophthalmology"
@@ -46404,7 +46304,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -48015,7 +47915,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-06-01",
-            "modified": "2023-06-16",
+            "modified": "2023-06-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -49279,7 +49179,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-13",
+            "modified": "2023-06-20",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -50860,62 +50760,6 @@
             ]
         },
         {
-            "accessLevel": "restricted public",
-            "landingPage": "https://www.cdc.gov/nchs/nhis/index.htm",
-            "bureauCode": [
-                "009:20"
-            ],
-            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-            "issued": "2022-06-08",
-            "@type": "dcat:Dataset",
-            "temporal": "2019/2021",
-            "modified": "2023-06-15",
-            "references": [
-                "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
-            ],
-            "keyword": [
-                "dhis",
-                "health statistics",
-                "imputation",
-                "income",
-                "income statistics",
-                "nchs",
-                "nchs surveys",
-                "research-data-center",
-                "summary health statistics"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "National Center for Health Statistics"
-            },
-            "identifier": "https://data.cdc.gov/api/views/skvx-s8hp",
-            "description": "The restricted use Sample Child Imputed Income file for the National Health Interview Survey (NHIS) includes income variables that have been edited or suppressed in the public-use NHIS Sample Child Imputed Income file. Restricted variables are available through Research Data Center. For more information, see the National Health Interview Survey entry or visit https://www.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm.",
-            "title": "Restricted Use NHIS Sample Child Imputed Income",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "mediaType": "text/html",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "description": "The National Health Interview Survey (NHIS) is a multi-purpose health survey and is the principal source of information on the health of the civilian, noninstitutionalized household population of the United States (National Center for Health Statistics). The NHIS provides a rich source of data for studying relationships between income and health and for monitoring the health and health care for persons at different income levels. There is particular interest in the health of vulnerable populations such as those with low income, as well as their access to and use of health care services. However, the nonresponse rates are high for income variables. Multiple imputation methods were used to address high item nonresponse rates to impute the total household income where the entire imputation process was repeated independently 10 times. This dataset represents the income data responses of the randomly sampled child.",
-                    "@type": "dcat:Distribution",
-                    "title": "Restricted Use NHIS Sample Child Imputed Income"
-                }
-            ],
-            "spatial": "United States",
-            "describedBy": "https://www.cdc.gov/nchs/nhis/index.htm",
-            "accrualPeriodicity": "R/P1Y",
-            "theme": [
-                "NCHS"
-            ]
-        },
-        {
             "accessLevel": "public",
             "bureauCode": [
                 "009:00"
@@ -52464,7 +52308,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "age",
                 "age group",
@@ -53370,7 +53214,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -54140,7 +53984,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -56058,7 +55902,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-13",
+            "modified": "2023-06-20",
             "keyword": [
                 "flu vaccination",
                 "immunization",
@@ -56661,7 +56505,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "age",
                 "age group",
@@ -57870,10 +57714,10 @@
             "landingPage": "https://data.cdc.gov/d/w6be-99qd",
             "issued": "2022-02-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-09",
+            "modified": "2023-06-23",
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "Assessment Branch, Immunization Services Division, NCIRD, CDC",
+                "fn": "Surveillance and Epidemiology Branch, Immunization Services Division, NCIRD, CDC",
                 "hasEmail": "mailto:VaxView@cdc.gov"
             },
             "publisher": {
@@ -57881,7 +57725,7 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/w6be-99qd",
-            "description": "These weekly COVID-19 vaccination coverage estimates are for pregnant persons who are fully vaccinated before and during pregnancy based on data  from the Vaccine Safety Datalink*.\n\nDATA NOTE: Draft data related to booster doses that are still under review were inadvertently made available on this page and in the dataset between 12:22 PM, 2/28/2022 to 4:30 PM, 3/1/2022. If you downloaded these data, please note that the data may be inaccurate.",
+            "description": "These weekly COVID-19 vaccination coverage estimates are for pregnant persons who are fully vaccinated before and during pregnancy based on data  from the Vaccine Safety Datalink*.",
             "title": "Weekly Data: COVID-19 vaccination among pregnant people ages 18-49 years before and during pregnancy overall, by race/ethnicity, and week ending date - Vaccine Safety Datalink,* United States",
             "programCode": [
                 "009:026"
@@ -58878,59 +58722,6 @@
             ],
             "spatial": "50 states and District of Columbia, all counties with a population of 100,000 or greater",
             "describedBy": "All registered infant deaths linked with corresponding birth certificates occurring to residents of the United States",
-            "theme": [
-                "NCHS"
-            ]
-        },
-        {
-            "accessLevel": "restricted public",
-            "landingPage": "https://www.cdc.gov/nchs/nhis/index.htm",
-            "bureauCode": [
-                "009:20"
-            ],
-            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-            "issued": "2022-06-08",
-            "@type": "dcat:Dataset",
-            "temporal": "2019/2021",
-            "modified": "2023-06-15",
-            "references": [
-                "https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf"
-            ],
-            "keyword": [
-                "dhis",
-                "health statistics",
-                "nchs",
-                "nhis",
-                "research-data-center",
-                "summary health statistics"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "National Center for Health Statistics",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "National Center for Health Statistics"
-            },
-            "identifier": "https://data.cdc.gov/api/views/wjhs-qcdp",
-            "description": "The restricted use Sample Adult file for the National Health Interview Survey (NHIS) includes variables that have been edited or suppressed in the public-use NHIS Sample Adult file. Restricted variables are available through Research Data Center. For more information, see the National Health Interview Survey entry or visit https://www.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm",
-            "title": "Restricted Use NHIS Sample Adult Interview",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "mediaType": "text/html",
-                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
-                    "description": "The NHIS questionnaire contains annual core and rotating core content. The annual core questions focus on demographic characteristics, health insurance, chronic conditions, health care access and use, health-related behaviors, and functioning and disability. The rotating core consists of questions that will be included in the interview periodically and include expanded content on mental health, service utilization, preventive services, health-related behaviors, injuries, and chronic pain. The periodicity of questions in the rotating core varies by question and may be every-other year, once-every-three years, or two-out-of-three years. The sample adult dataset contains data from the randomly sampled adult.",
-                    "@type": "dcat:Distribution",
-                    "title": "Restricted Use NHIS Sample Adult Interview"
-                }
-            ],
-            "spatial": "United States",
-            "describedBy": "https://www.cdc.gov/nchs/nhis/index.htm",
-            "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
             ]
@@ -59956,7 +59747,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-15",
+            "modified": "2023-06-22",
             "keyword": [
                 "2022",
                 "2023",
@@ -60386,7 +60177,7 @@
             ],
             "issued": "2021-10-07",
             "@type": "dcat:Dataset",
-            "modified": "2022-02-11",
+            "modified": "2023-06-20",
             "keyword": [
                 "flu vaccination",
                 "immunization",
@@ -60451,7 +60242,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -60596,7 +60387,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -62054,7 +61845,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-14",
+            "modified": "2023-06-21",
             "keyword": [
                 "age",
                 "age group",
@@ -62906,7 +62697,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-15",
+            "modified": "2023-06-22",
             "keyword": [
                 "age",
                 "age group",
@@ -63196,7 +62987,7 @@
             "issued": "2023-06-06",
             "temporal": "2020-01-22/2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-08",
+            "modified": "2023-06-22",
             "keyword": [
                 "covid",
                 "covid-19",
