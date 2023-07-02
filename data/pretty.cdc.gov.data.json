@@ -194,7 +194,7 @@
             "issued": "2021-11-17",
             "temporal": "2019/2020",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-27",
+            "modified": "2023-06-29",
             "keyword": [
                 "nhis",
                 "summary health statistics"
@@ -209,7 +209,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/25m4-6qqq",
-            "description": "Interactive Summary Health Statistics for Adults \u2014 2019-2020 provide annual estimates of selected health topics for adults aged 18 years and over based on final data from the National Health Interview Survey.",
+            "description": "Interactive Summary Health Statistics for Adults provide annual estimates of selected health topics for adults aged 18 years and over based on final data from the National Health Interview Survey.",
             "title": "NHIS Adult Summary Health Statistics",
             "programCode": [
                 "009:020"
@@ -732,7 +732,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-22",
+            "modified": "2023-06-29",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -1071,7 +1071,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-25",
+            "modified": "2023-07-02",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2343,7 +2343,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "age",
                 "all causes",
@@ -2368,7 +2368,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/3apk-4u4f",
-            "description": "Cumulative deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by sex and age in years, in the United States.",
+            "description": "Effective June 28, 2023, this dataset will no longer be updated. Similar data are accessible from CDC WONDER.\n\nCumulative deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by sex and age in years, in the United States.",
             "title": "Provisional COVID-19 Death Counts by Age in Years, 2020-2023",
             "programCode": [
                 "009:020"
@@ -2403,7 +2403,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -5457,7 +5457,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "age",
                 "age group",
@@ -7254,7 +7254,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-24",
+            "modified": "2023-07-01",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -11997,7 +11997,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 -",
-            "modified": "2023-06-15",
+            "modified": "2023-06-26",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -13349,8 +13349,8 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "temporal": "2020-08-19/2023-05-08",
-            "modified": "2023-05-17",
+            "temporal": "2020-08-19/2023-06-19",
+            "modified": "2023-06-28",
             "keyword": [
                 "anxiety",
                 "covid-19",
@@ -14016,6 +14016,84 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/nhis/index.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "The NHIS website features downloadable annual data and documentation, information about any modifications or updates to the data or documentation, and published reports (https://www.cdc.gov/nchs/nhis/index.htm). NHIS is protected by Federal confidentiality laws that state the data collected by NCHS may be used only for statistical reporting and analysis. Some NHIS survey measures have been suppressed or edited in the downloadable public use files to protect confidentiality. Analysts interested in working with data that were suppressed or edited may apply to access selected unmodified data through the NCHS Research Data Center at https://www.cdc.gov/rdc/. For information about variables that are available in the public use files, see the annual Codebook. For information about restricted variables available through the RDC, see the Codebook for Restricted-use variables. In addition, the appendix of the annual Survey Description Document (SDD) includes a list of questionnaire variables that were recoded, suppressed, or are not available.",
+            "issued": "2023-06-28",
+            "@type": "dcat:Dataset",
+            "temporal": "2019\u20132022",
+            "modified": "2023-06-28",
+            "references": [
+                "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2019/srvydesc-508.pdf",
+                "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/srvydesc-508.pdf",
+                "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2021/srvydesc-508.pdf",
+                "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/srvydesc-508.pdf"
+            ],
+            "keyword": [
+                "access-to-health-care",
+                "civic-participation",
+                "crime-violence",
+                "discrimination",
+                "early-childhood",
+                "employment",
+                "environmental",
+                "food-insecurity",
+                "health-related behaviors",
+                "health status and conditions",
+                "higher-education",
+                "high-school",
+                "housing-stability",
+                "incarceration",
+                "language.",
+                "mental health",
+                "paradata",
+                "poverty-income",
+                "racism",
+                "research-data-center",
+                "social determinants of health (sdoh)",
+                "social-emotional",
+                "source-of-health-care",
+                "transportation",
+                "use-of-health-care",
+                "workplace"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:nhislist@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/8zhx-mf8r",
+            "description": "2019\u2013present. The National Health Interview Survey (NHIS) is a nationally representative household health survey of the U.S. civilian noninstitutionalized population. The NHIS data are used to monitor trends in illness and disability, track progress toward achieving national health objectives, for epidemiologic and policy analysis of various health problems, determining barriers to accessing and using appropriate health care, and evaluating Federal health programs. NHIS is conducted continuously throughout the year by the National Center for Health Statistics (NCHS). Public-use data files on adults and children with corresponding imputed income data files, and survey paradata are released annually. The NHIS data website (https://www.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm) features the most up-to-date public-use data files and documentation for downloading including questionnaire, codebooks, CSV and ASCII data files, programs and sample code, and in-depth survey description. Most of the NHIS data are included in the public use files. NHIS is protected by Federal confidentiality laws that state the data collected by NCHS may be used only for statistical reporting and analysis. Some NHIS variables have been suppressed or edited in the public use files to protect confidentiality. Analysts interested in using data that has been suppressed or edited may apply for access through the NCHS Research Data Center at https://www.cdc.gov/rdc/. In 2019, NHIS launched a redesigned content and structure that differs from its previous questionnaire designs. NHIS has been conducted continuously since 1957.",
+            "title": "National Health Interview Survey",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm",
+                    "mediaType": "text/html",
+                    "title": "National Health Interview Survey"
+                }
+            ],
+            "spatial": "United States",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1Y",
+            "theme": [
+                "NCHS"
+            ],
+            "language": [
+                "English"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/93k9-hy54",
             "bureauCode": [
                 "009:00"
@@ -14557,13 +14635,85 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/9b5z-wnve",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-26",
+            "@type": "dcat:Dataset",
+            "temporal": "2020-12-13/2023-06-26",
+            "modified": "2023-06-26",
+            "references": [
+                "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
+            ],
+            "keyword": [
+                "administration",
+                "age",
+                "coronavirus",
+                "covid-19",
+                "immunization",
+                "izdl",
+                "vaccination"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCIRD",
+                "hasEmail": "mailto:iisinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/9b5z-wnve",
+            "description": "This site provides historical data beginning June 14, 2023, for the visualization presented on <a href=\"https://covid.cdc.gov/covid-data-tracker/#vaccinations\">COVID-19 Data Tracker\u2019s \u201cVaccinations in the United States</a>\u201d site titled \u201cPercent of Total Population Who Are Up to Date with COVID-19 Vaccines\u201d\n\n<b>Definition for Up to Date:\nFor surveillance purposes people are \u2018Upto Date\u2019 with COVID-19 vaccines based on the following criteria:</b>\n\nPeople ages 6 years and older: Are up to date\u202fif they received 1 updated Pfizer-BioNTech or Moderna COVID-19 vaccine. \n\nChildren\u202fages 6 months to 5 years who received the\u202fPfizer-BioNTech\u202fCOVID-19 vaccine: Are up to date if: At ages 6 months to 4 years, they received 3 COVID-19 vaccine doses, including at least 1 updated COVID-19 dose; at age 5 years, they received at least 1 updated COVID-19 vaccine dose. \n\nChildren ages 6 months to 5 years who received the Moderna COVID-19 vaccine:\u202fAre up to date if they received 2 Moderna COVID-19 vaccine doses, including at least 1 updated COVID-19 vaccine dose. \n\nPeople who are unable or choose not to get a recommended mRNA vaccine: Are up to date if they receive the Novavax COVID-19 vaccine doses approved for their age group.\n\nCDC uses US Census estimates for the total populations within each specified demographic group regardless of prior vaccination status as denominators. \n\nData represents all vaccine partners including jurisdictional partner clinics, retail pharmacies, long-term care facilities, dialysis centers, Federal Emergency Management Agency and Health Resources and Services Administration partner sites, and federal entity facilities.",
+            "title": "COVID-19 Vaccines Up to Date Status",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/9b5z-wnve/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9b5z-wnve/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9b5z-wnve/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/9b5z-wnve/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9b5z-wnve/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9b5z-wnve/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9b5z-wnve/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1D",
+            "theme": [
+                "Vaccinations"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "age",
                 "age group",
@@ -14774,7 +14924,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -14815,7 +14965,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/9dzk-mvmi",
-            "description": "Provisional counts of deaths by the month the death occurred and by select causes of death for 2020-2023.",
+            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nProvisional counts of deaths by the month the death occurred and by select causes of death for 2020-2023.",
             "title": "Monthly Provisional Counts of Deaths by Select Causes, 2020-2023",
             "programCode": [
                 "009:020"
@@ -14849,6 +14999,7 @@
                 }
             ],
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1M",
             "theme": [
                 "NCHS"
             ]
@@ -15073,7 +15224,7 @@
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-03-12",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -17141,7 +17292,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-20",
+            "modified": "2023-06-27",
             "keyword": [
                 "immunization",
                 "pneumococcal",
@@ -17407,7 +17558,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-09",
+            "modified": "2023-06-29",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17552,7 +17703,7 @@
             "issued": "2023-05-25",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 \u2013",
-            "modified": "2023-06-15",
+            "modified": "2023-06-26",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -18974,6 +19125,38 @@
         },
         {
             "accessLevel": "public",
+            "bureauCode": [
+                "009:20"
+            ],
+            "landingPage": "https://data.cdc.gov/d/bc4h-zh8r",
+            "issued": "2023-06-29",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-29",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "v-safe inquiries team",
+                "hasEmail": "mailto:vsafe@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/bc4h-zh8r",
+            "description": "Users of the v-safe mpox data are required to adhere to the following standards for the analysis and reporting of research data. All research results must be presented and/or published in a manner that protects the confidentiality of participants. v-safe mpox data will not be presented and/or published in any way in which an individual can be identified. \n<br>\n<br>Therefore, users will:\n<br>\n<br>1. Not attempt to link or permit others to link the data with individually identified records in another database.\n<br>2. Not attempt to learn the identity of any participant in the data and will not deliberately combine these data with other CDC or non-CDC data for the purpose of matching records to identify individuals. If you should inadvertently discover the identity of any participant, you will ensure the identity of any participant is kept confidential, and will not be used in any publications and/or presentations.\n<br>3. Not imply or state, either in written or oral form, that interpretations based on analysis of the data reflect official CDC policies or positions.\n<br>4. Understand that sub-national analyses are not appropriate for this national sample and will not be conducted. \n<br>5. Understand that v-safe mpox is a voluntary self-enrollment program requiring smartphone access; therefore, information from v-safe mpox might not be representative or generalizable to the US population.\n\n<br>By clicking on the weblink below to download and use these v-safe data, you signify your agreement to comply with the above-stated terms.\n<br>\n<br>v-safe mpox is an active surveillance program to monitor the safety of mpox vaccines during the period when the vaccines are authorized for use under Food and Drug Administration (FDA) Emergency Use Authorization (EUA) and after vaccine licensure.\n<br>\n<br>These data include registrant information (deidentified), health check-in, and vaccination data collected through the mpox response.",
+            "title": "v-safe mpox",
+            "programCode": [
+                "009:028"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/download/bc4h-zh8r/application/x-zip-compressed",
+                    "mediaType": "application/x-zip-compressed"
+                }
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/bdsk-unrd",
             "bureauCode": [
                 "009:20"
@@ -19817,7 +20000,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-25",
+            "modified": "2023-07-02",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -22912,7 +23095,7 @@
             ],
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -28342,7 +28525,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-25",
+            "modified": "2023-07-02",
             "keyword": [
                 "wastewater"
             ],
@@ -29179,8 +29362,8 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "temporal": "2022-06-01/2023-05-08",
-            "modified": "2023-05-17",
+            "temporal": "2022-06-01/2023-06-19",
+            "modified": "2023-06-28",
             "keyword": [
                 "covid-19",
                 "post-covid"
@@ -29314,7 +29497,7 @@
             "issued": "2023-06-06",
             "temporal": "Data from 2020-03-14 to present (posted starting 2023-06-06)",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-22",
+            "modified": "2023-06-29",
             "references": [
                 "https://covid.cdc.gov/covid-data-tracker/"
             ],
@@ -30906,7 +31089,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -30956,7 +31139,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/hk9y-quqm",
-            "description": "This dataset shows health conditions and contributing causes mentioned in conjunction with deaths involving coronavirus disease 2019 (COVID-19) by age group and jurisdiction of occurrence.\n\n2022 and 2023 data are provisional. Estimates for 2020 and 2021 are based on final data.",
+            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nThis dataset shows health conditions and contributing causes mentioned in conjunction with deaths involving coronavirus disease 2019 (COVID-19) by age group and jurisdiction of occurrence.\n\n2022 and 2023 data are provisional. Estimates for 2020 and 2021 are based on final data.",
             "title": "Conditions Contributing to COVID-19 Deaths, by State and Age, Provisional 2020-2023",
             "programCode": [
                 "009:020"
@@ -30991,7 +31174,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "R/P1M",
             "theme": [
                 "NCHS"
             ]
@@ -31004,7 +31187,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31610,7 +31793,7 @@
             "landingPage": "https://data.cdc.gov/d/hv7b-3sw8",
             "issued": "2023-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-23",
+            "modified": "2023-06-26",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Surveillance and Epidemiology Branch, Immunization Services Division, NCIRD, CDC",
@@ -31656,6 +31839,78 @@
             ],
             "theme": [
                 "Pregnancy & Vaccination"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/hwk8-wu83",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-26",
+            "@type": "dcat:Dataset",
+            "temporal": "2020-12-13/2023-06-26",
+            "modified": "2023-06-26",
+            "references": [
+                "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
+            ],
+            "keyword": [
+                "administration",
+                "coronavirus",
+                "covid-19",
+                "immunization",
+                "izdl",
+                "report date",
+                "vaccination"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "NCIRD",
+                "hasEmail": "mailto:iisinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/hwk8-wu83",
+            "description": "This site provides historical data beginning June 14, 2023, for the visualization presented on <a href=\"https://covid.cdc.gov/covid-data-tracker/#vaccinations\">COVID-19 Data Tracker\u2019s \u201cVaccinations in the United States\" </a> site titled \u201cUS COVID-19 Vaccine Doses Delivered by Vaccine Type\u201d\n\n<b>Definition for Distributed: </b>\nCumulative number of COVID-19 updated vaccine doses distributed in the United States.\nCDC is no longer reporting metrics for Johnson & Johnson, and the original Pfizer and Moderna vaccines.\n\nData represents all vaccine partners including jurisdictional partner clinics, retail pharmacies, long-term care facilities, dialysis centers, Federal Emergency Management Agency and Health Resources and Services Administration partner sites, and federal entity facilities.",
+            "title": "COVID-19 Updated Vaccines Distributed",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/hwk8-wu83/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/hwk8-wu83/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hwk8-wu83/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/hwk8-wu83/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hwk8-wu83/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/hwk8-wu83/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hwk8-wu83/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1D",
+            "theme": [
+                "Vaccinations"
             ]
         },
         {
@@ -33727,7 +33982,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-09",
+            "modified": "2023-06-29",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -34302,8 +34557,8 @@
             ],
             "issued": "2020-05-20",
             "@type": "dcat:Dataset",
-            "temporal": "2020-08-19/2023-05-08",
-            "modified": "2023-05-17",
+            "temporal": "2020-08-19/2023-06-19",
+            "modified": "2023-06-29",
             "keyword": [
                 "covid-19",
                 "private coverage",
@@ -35232,7 +35487,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-23",
+            "modified": "2023-06-27",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -35244,7 +35499,7 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Clinton Paden",
-                "hasEmail": "mailto:eocevent506@cdc.gov"
+                "hasEmail": "mailto:respvirus@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -35254,7 +35509,7 @@
             "description": "To identify and track SARS-CoV-2 variants, CDC uses genomic surveillance. CDC's national genomic surveillance system collects SARS-CoV-2 specimens for sequencing through the National SARS-CoV-2 Strain Surveillance (NS3) program, as well as SARS-CoV-2 sequences generated by commercial or academic laboratories contracted by CDC and state or local public health laboratories. Viral genomic sequences are analyzed and classified as a particular variant. The proportions of variants in a population are estimated nationally, by HHS region, and by jurisdiction. The thousands of sequences analyzed every week through CDC\u2019s national genomic sequencing and bioinformatics efforts fuel this comprehensive and population-based U.S. surveillance system established to identify and monitor the spread of variants.\n\nThese data appear on the CDC COVID Data Tracker at the following URL: <a href=\"https://covid.cdc.gov/covid-data-tracker/#variant-proportions\">https://covid.cdc.gov/covid-data-tracker/#variant-proportions</a>\n\n\nFor more information on how these data are generated and used to provide estimates of variant proportions, please see the following references:\n\n<ul>\n<li>Paul P, France AM, Aoki Y, et al. Genomic Surveillance for SARS-CoV-2 Variants Circulating in the United States, December 2020\u2013May 2021. MMWR Morb Mortal Wkly Rep 2021;70:846\u2013850. DOI: <a href=\"http://dx.doi.org/10.15585/mmwr.mm7023a3\">http://dx.doi.org/10.15585/mmwr.mm7023a3</a></li>\n<li>Lambrou AS, Shirk P, Steele MK, et al. Genomic Surveillance for SARS-CoV-2 Variants: Predominance of the Delta (B.1.617.2) and Omicron (B.1.1.529) Variants \u2014 United States, June 2021\u2013January 2022. MMWR Morb Mortal Wkly Rep 2022;71:206\u2013211. DOI: <a href=\"http://dx.doi.org/10.15585/mmwr.mm7106a4\">http://dx.doi.org/10.15585/mmwr.mm7106a4</a></li></ul>",
             "title": "SARS-CoV-2 Variant Proportions",
             "programCode": [
-                "009:038"
+                "009:026"
             ],
             "distribution": [
                 {
@@ -35286,7 +35541,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "Weekly",
+            "accrualPeriodicity": "Two Weeks",
             "theme": [
                 "Laboratory Surveillance"
             ]
@@ -35437,7 +35692,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "age",
                 "age group",
@@ -35464,7 +35719,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/jwta-jxbg",
-            "description": "This visualization provides data that can be used to illustrate potential differences in the burden of deaths due to COVID-19 by race and ethnicity.",
+            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nThis visualization provides data that can be used to illustrate potential differences in the burden of deaths due to COVID-19 by race and ethnicity.",
             "title": "Distribution of COVID-19 Deaths and Populations, by Jurisdiction, Age, and Race and Hispanic Origin",
             "programCode": [
                 "009:020"
@@ -35499,7 +35754,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "R/P1M",
             "theme": [
                 "NCHS"
             ]
@@ -36389,7 +36644,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -36415,7 +36670,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/k8wy-p9cg",
-            "description": "County data on race and Hispanic origin is available for counties with more than 100 COVID-19 deaths.\u00a0Deaths are cumulative from the week ending January 4, 2020 to the most recent reporting week, and based on county of occurrence. Data is provisional. \n\nUrban-rural classification is based on the 2013 National Center for Health Statistics Urban-Rural Classification Scheme for Counties (https://www.cdc.gov/nchs/data_access/urban_rural.htm).",
+            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nCounty data on race and Hispanic origin is available for counties with more than 100 COVID-19 deaths.\u00a0Deaths are cumulative from the week ending January 4, 2020 to the most recent reporting week, and based on county of occurrence. Data is provisional. \n\nUrban-rural classification is based on the 2013 National Center for Health Statistics Urban-Rural Classification Scheme for Counties (https://www.cdc.gov/nchs/data_access/urban_rural.htm).",
             "title": "Provisional COVID-19 Deaths by County, and Race and Hispanic Origin",
             "programCode": [
                 "009:020"
@@ -36450,7 +36705,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "R/P1M",
             "theme": [
                 "NCHS"
             ]
@@ -36793,7 +37048,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-29",
             "keyword": [
                 "cares act",
                 "health system",
@@ -37601,7 +37856,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-06-21",
+            "modified": "2023-06-29",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -37625,7 +37880,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/kn79-hsxy",
-            "description": "Provisional count of deaths involving coronavirus disease 2019 (COVID-19) by county of occurrence, in the United States, 2020-2023.",
+            "description": "Effective June 28, 2023, this dataset will no longer be updated. Similar data are accessible from  CDC WONDER (wonder.cdc.gov)\n\nProvisional count of deaths involving COVID-19 by county of occurrence, in the United States, 2020-2023.",
             "title": "Provisional COVID-19 Death Counts in the United States by County",
             "programCode": [
                 "009:020"
@@ -37660,7 +37915,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -38008,7 +38263,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "age",
                 "age group",
@@ -38239,7 +38494,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-23",
+            "modified": "2023-06-30",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -40316,7 +40571,7 @@
             ],
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -40918,7 +41173,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -42730,7 +42985,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "age",
                 "age group",
@@ -42757,7 +43012,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/nr4s-juj3",
-            "description": "Deaths involving coronavirus disease 2019 (COVID-19) with a focus on ages 0-18 years in the United States.",
+            "description": "Effective June 28, 2023, this dataset will no longer be updated. Similar data are accessible from CDC WONDER.\n\nDeaths involving coronavirus disease 2019 (COVID-19) with a focus on ages 0-18 years in the United States.",
             "title": "Provisional COVID-19 Deaths: Focus on Ages 0-18 Years",
             "programCode": [
                 "009:020"
@@ -42792,7 +43047,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -43678,7 +43933,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-22",
+            "modified": "2023-06-29",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -43989,7 +44244,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -44013,7 +44268,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/pj7m-y5uh",
-            "description": "This data file contains the following indicators that can be used to illustrate potential differences in the burden of deaths due to COVID-19 according to race and ethnicity:\ncount of COVID-19 deaths, distribution of COVID-19 deaths, unweighted distribution of population, and weighted distribution of population.",
+            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nThis data file contains the following indicators that can be used to illustrate potential differences in the burden of deaths due to COVID-19 according to race and ethnicity:\ncount of COVID-19 deaths, distribution of COVID-19 deaths, unweighted distribution of population, and weighted distribution of population.",
             "title": "Provisional COVID-19 Deaths: Distribution of Deaths by Race and Hispanic Origin",
             "programCode": [
                 "009:020"
@@ -44048,7 +44303,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "R/P1M",
             "theme": [
                 "NCHS"
             ]
@@ -46304,7 +46559,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47384,7 +47639,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-09",
+            "modified": "2023-06-29",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -47915,7 +48170,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-06-01",
-            "modified": "2023-06-23",
+            "modified": "2023-06-30",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -49179,7 +49434,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-20",
+            "modified": "2023-06-27",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -52308,7 +52563,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "age",
                 "age group",
@@ -53214,7 +53469,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -53918,7 +54173,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-09",
+            "modified": "2023-06-30",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -53984,7 +54239,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -54012,7 +54267,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/uggs-hy5q",
-            "description": "Deaths involving coronavirus disease 2019 (COVID-19), pneumonia and influenza reported to NCHS by place of death and state, United States.",
+            "description": "Effective June 28, 2023, this dataset will no longer be updated. Data deaths by place of death are available in this dataset https://data.cdc.gov/NCHS/d/4va6-ph5s.\n\nDeaths involving  COVID-19, pneumonia and influenza reported to NCHS by place of death and state, United States.",
             "title": "Provisional COVID-19 Deaths by Place of Death and State",
             "programCode": [
                 "009:020"
@@ -54047,7 +54302,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -54257,7 +54512,7 @@
             ],
             "issued": "2022-06-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-19",
+            "modified": "2023-06-29",
             "keyword": [
                 "covid-19",
                 "covid-19 vaccination",
@@ -55902,7 +56157,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-20",
+            "modified": "2023-06-27",
             "keyword": [
                 "flu vaccination",
                 "immunization",
@@ -56505,7 +56760,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "age",
                 "age group",
@@ -56531,7 +56786,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/vsak-wrfu",
-            "description": "Deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by sex and age group and week ending date.",
+            "description": "Effective June 28, 2023, this dataset will no longer be updated. Similar data are accessible from CDC WONDER.\n\nDeaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by sex and age group and week ending date.",
             "title": "Provisional COVID-19 Deaths by Week, Sex, and Age",
             "programCode": [
                 "009:020"
@@ -56566,7 +56821,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -59083,7 +59338,7 @@
             "issued": "2021-11-18",
             "temporal": "2019/2020",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-27",
+            "modified": "2023-06-29",
             "keyword": [
                 "nhis",
                 "summary health statistics"
@@ -59098,7 +59353,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/wxz7-ekz9",
-            "description": "Interactive Summary Health Statistics for Children \u2014 2019-2020 provide annual estimates of selected health topics for children under age 18 years based on final data from the National Health Interview Survey.",
+            "description": "Interactive Summary Health Statistics for Children provide annual estimates of selected health topics for children under age 18 years based on final data from the National Health Interview Survey.",
             "title": "NHIS Child Summary Health Statistics",
             "programCode": [
                 "009:020"
@@ -59747,7 +60002,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-22",
+            "modified": "2023-06-29",
             "keyword": [
                 "2022",
                 "2023",
@@ -60242,7 +60497,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-06-21",
+            "modified": "2023-06-29",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -60387,7 +60642,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -61845,7 +62100,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-21",
+            "modified": "2023-06-28",
             "keyword": [
                 "age",
                 "age group",
@@ -62697,7 +62952,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-22",
+            "modified": "2023-06-29",
             "keyword": [
                 "age",
                 "age group",
