@@ -7,53 +7,6 @@
     "dataset": [
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/22bd-uszz",
-            "issued": "2023-04-25",
-            "@type": "dcat:Dataset",
-            "modified": "2023-04-25",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Ethan A. Broadfoot",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/22bd-uszz",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
-            "title": "SVI2020_US_county - Theme 1",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/22bd-uszz/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/22bd-uszz/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/22bd-uszz/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/22bd-uszz/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/22bd-uszz/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/22bd-uszz/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/22bd-uszz/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/23gt-ssfe",
             "bureauCode": [
                 "009:00"
@@ -249,53 +202,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/262c-hfiz",
-            "issued": "2023-04-25",
-            "@type": "dcat:Dataset",
-            "modified": "2023-04-25",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Ethan A. Broadfoot",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/262c-hfiz",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
-            "title": "SVI2020_US_county",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/262c-hfiz/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/262c-hfiz/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/262c-hfiz/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/262c-hfiz/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/262c-hfiz/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/262c-hfiz/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/262c-hfiz/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/26a7-nc4u",
             "bureauCode": [
                 "009:00"
@@ -352,53 +258,6 @@
             ],
             "theme": [
                 "Motor Vehicle"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/26vq-m8vg",
-            "issued": "2023-04-25",
-            "@type": "dcat:Dataset",
-            "modified": "2023-04-25",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Ethan A. Broadfoot",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/26vq-m8vg",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
-            "title": "SVI2020_US_tract - Theme 2",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/26vq-m8vg/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/26vq-m8vg/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/26vq-m8vg/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/26vq-m8vg/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/26vq-m8vg/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/26vq-m8vg/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/26vq-m8vg/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
             ]
         },
         {
@@ -732,7 +591,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-29",
+            "modified": "2023-07-06",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -1003,7 +862,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-03",
+            "modified": "2023-07-03",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -1071,7 +930,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-02",
+            "modified": "2023-07-09",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1516,7 +1375,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-03",
+            "modified": "2023-07-03",
             "keyword": [
                 "legislation",
                 "osh",
@@ -1847,7 +1706,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-03",
+            "modified": "2023-07-03",
             "keyword": [
                 "legislation",
                 "osh",
@@ -3749,49 +3608,68 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/3uz5-558c",
-            "issued": "2023-04-25",
+            "landingPage": "https://data.cdc.gov/d/3x54-3thk",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-25",
+            "modified": "2023-07-06",
+            "keyword": [
+                "art",
+                "assisted reproductive technology",
+                "clinic",
+                "fertility",
+                "infertility",
+                "services",
+                "success rates"
+            ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "Ethan A. Broadfoot",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
+                "fn": "ARTINFO",
+                "hasEmail": "mailto:ARTINFO@cdc.gov"
             },
-            "identifier": "https://data.cdc.gov/api/views/3uz5-558c",
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
-            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
-            "title": "SVI2020_US_tract - Theme 1",
+            "identifier": "https://data.cdc.gov/api/views/3x54-3thk",
+            "description": "ART data are made available as part of the National ART Surveillance System (NASS) that collects success rates, services, profiles and annual summary data from fertility clinics across the U.S. There are four datasets available: ART Services and Profiles, ART Patient and Cycle Characteristics, ART Success Rates, and ART Summary. All four datasets may be linked by \u201cClinicID.\u201d ClinicID is a unique identifier for each clinic that reported cycles. The Success Rates dataset contains success rates for ART cycles started during the year indicated. Since ART success depends on whether patients are using their own eggs or donor eggs, success rates are included separately for these two groups. Success rates for patients using their own eggs are shown per intended retrieval, per actual retrieval, and per transfer. These success rates are reported as cumulative success rates, which take into account transfers that occur within 1 year after an egg retrieval. Since ART success depends on whether patients are using ART for the first time or had prior ART cycles, users can examine success rates for all \u201cPatients using their own eggs\u201d or for \u201cPatients with no prior ART using their own eggs.\u201d For new patients using ART for the first time, the success rates are also shown after 1, 2, or all intended egg retrievals during the reporting year. In addition, the average number of transfers per intended retrieval and the average number of intended retrievals per live-birth delivery are shown. Success rates for ART cycles that involve the transfer of embryos created from donor eggs or donated embryos are shown and are not cumulative. They are based on donor cycles started in the year indicated that had embryo transfers, regardless of when the donor eggs were retrieved. Success rates in this section are not presented by patient age group because previous data show that an intended parent\u2019s age does not substantially affect success when using donor eggs or donated embryos. The success rates are presented by types of embryos and eggs used in the transfer. This dataset excludes cycles that were considered research\u2014that is, cycles performed to evaluate new procedures.",
+            "title": "2020 Final Assisted Reproductive Technology (ART) Success Rates",
+            "programCode": [
+                "009:020"
+            ],
             "distribution": [
                 {
                     "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/3uz5-558c/rows.csv?accessType=DOWNLOAD",
+                    "downloadURL": "https://data.cdc.gov/api/views/3x54-3thk/rows.csv?accessType=DOWNLOAD",
                     "mediaType": "text/csv"
                 },
                 {
                     "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/3uz5-558c/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/3uz5-558c/columns.rdf",
+                    "downloadURL": "https://data.cdc.gov/api/views/3x54-3thk/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3x54-3thk/columns.rdf",
                     "describedByType": "application/rdf+xml",
                     "@type": "dcat:Distribution"
                 },
                 {
                     "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/3uz5-558c/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/3uz5-558c/columns.json",
+                    "downloadURL": "https://data.cdc.gov/api/views/3x54-3thk/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3x54-3thk/columns.json",
                     "describedByType": "application/json",
                     "@type": "dcat:Distribution"
                 },
                 {
                     "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/3uz5-558c/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/3uz5-558c/columns.xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/3x54-3thk/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/3x54-3thk/columns.xml",
                     "describedByType": "application/xml",
                     "@type": "dcat:Distribution"
                 }
+            ],
+            "describedBy": "https://chronicdata.cdc.gov/dataset/2020-Final-Assisted-Reproductive-Technology-ART-Su/3x54-3thk",
+            "theme": [
+                "Assisted Reproductive Technology (ART)"
             ]
         },
         {
@@ -5457,7 +5335,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-06",
             "keyword": [
                 "age",
                 "age group",
@@ -5907,6 +5785,72 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/4yy2-qa9v",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-23",
+            "@type": "dcat:Dataset",
+            "modified": "2023-07-06",
+            "keyword": [
+                "art",
+                "assisted reproductive technology",
+                "clinic",
+                "fertility",
+                "infertility",
+                "services",
+                "success rates"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "ARTINFO",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/4yy2-qa9v",
+            "description": "ART data are made available as part of the National ART Surveillance System (NASS) that collects success rates, services, profiles and annual summary data from fertility clinics across the U.S. There are four datasets available: ART Services and Profiles, ART Patient and Cycle Characteristics, ART Success Rates, and ART Summary. All four datasets may be linked by \u201cClinicID.\u201d ClinicID is a unique identifier for each clinic that reported cycles. The Summary dataset provides a full snapshot of clinic services and profile, patient characteristics, and ART success rates. It is worth noting that patient medical characteristics, such as age, diagnosis, and ovarian reserve, affect ART treatment\u2019s success. Comparison of success rates across clinics may not be meaningful because of differences in patient populations and ART treatment methods. The success rates displayed in this dataset do not reflect any one patient\u2019s chance of success. Patients should consult with a doctor to understand their chance of success based on their own characteristics.",
+            "title": "2020 Final Assisted Reproductive Technology (ART) Summary",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/4yy2-qa9v/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/4yy2-qa9v/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4yy2-qa9v/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/4yy2-qa9v/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4yy2-qa9v/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/4yy2-qa9v/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4yy2-qa9v/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "describedBy": "https://chronicdata.cdc.gov/dataset/2020-Final-Assisted-Reproductive-Technology-ART-Su/4yy2-qa9v",
+            "theme": [
+                "Assisted Reproductive Technology (ART)"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/4yyu-3s69",
             "bureauCode": [
                 "009:20"
@@ -6339,6 +6283,63 @@
             ],
             "language": [
                 "English"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/nsrcf/index.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information. Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement. If approved, data access would occur at a NCHS or Federal Statistical Research Data Center. For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm.",
+            "issued": "2023-07-03",
+            "@type": "dcat:Dataset",
+            "temporal": "2010-03/2010-10",
+            "modified": "2023-07-03",
+            "references": [
+                "https://www.cdc.gov/nchs/data/nsrcf/2010NSRCF_SurveyMethodologyandDocumentation.pdf"
+            ],
+            "keyword": [
+                "assisted living facilities",
+                "long-term care",
+                "research-data-center",
+                "residential care facilities",
+                "residential care facility residents",
+                "residential care facility staff",
+                "sdoh-access-to-health-care",
+                "sdoh-use-of-health-care"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/5586-cehn",
+            "description": "The 2010 National Survey of Residential Care Facilities (NSRCF) is a first-ever national probability sample survey that collects data on U.S. residential care providers, their staffs and services, and the people they serve. It is designed to provide national estimates of the number of residential care facilities operating in the United States, the number of residents receiving care, and the characteristics of both the facilities and their residents. NSRCF was conducted between March and November 2010. All residential care facilities that participated in the survey were places that were licensed, registered, listed, certified, or otherwise regulated by the state and that had 4 or more licensed, certified, or registered beds, provided room and board with at least two meals a day, around-the-clock on-site supervision, and help with personal care such as bathing and dressing or health related services such as medication management. These facilities served a predominantly adult population and had at least one current resident. Facilities licensed to serve the mentally ill or the developmentally disabled populations exclusively were excluded from the survey.",
+            "title": "National Survey of Residential Care Facilities - Restricted Resident-Level Dataset",
+            "isPartOf": "https://www.cdc.gov/nchs/nsrcf/nsrcf_questionnaires.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "mediaType": "text/html",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "description": "The 2010 NSRCF data were collected through in-person interviews with facility directors and their \ndesignated staffs; no interviews were conducted directly with residents. Facility data included\nquestions on facility characteristics such as ownership, size, types of living arrangements and \namenities, policies, staffing, services, and general resident characteristics. Data collected on \nresidents included questions on the sampled residents\u2019 demographics, living arrangements, \nactivities, health conditions, cognitive and physical functioning, and services received. The total \nnumber of facilities that participated in the 2010 NSRCF is 2,302, and data are available on 8,094\nresidents from these facilities.",
+                    "@type": "dcat:Distribution",
+                    "title": "National Survey of Residential Care Facilities - Restricted Resident-Level Dataset"
+                }
+            ],
+            "spatial": "United States",
+            "theme": [
+                "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -7254,7 +7255,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-01",
+            "modified": "2023-07-08",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7669,53 +7670,6 @@
             ],
             "theme": [
                 "Legislation"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/5rgh-quze",
-            "issued": "2023-04-25",
-            "@type": "dcat:Dataset",
-            "modified": "2023-04-25",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Ethan A. Broadfoot",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/5rgh-quze",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
-            "title": "SVI2020_US_tract - Theme 3",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/5rgh-quze/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/5rgh-quze/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/5rgh-quze/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/5rgh-quze/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/5rgh-quze/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/5rgh-quze/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/5rgh-quze/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
             ]
         },
         {
@@ -8968,6 +8922,65 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/nsrcf/index.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm.",
+            "issued": "2023-07-03",
+            "@type": "dcat:Dataset",
+            "temporal": "2010-03/2010-10",
+            "modified": "2023-07-03",
+            "references": [
+                "https://www.cdc.gov/nchs/data/nsrcf/2010NSRCF_SurveyMethodologyandDocumentation.pdf"
+            ],
+            "keyword": [
+                "assisted living facilities",
+                "long-term care",
+                "research-data-center",
+                "residential care facilities",
+                "residential care facility residents",
+                "residential care facility staff",
+                "sdoh-access-to-health-care",
+                "sdoh-source-of-health-care",
+                "sdoh-transportation",
+                "sdoh-use-of-health-care"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/6k6h-dzju",
+            "description": "The 2010 National Survey of Residential Care Facilities (NSRCF) is a first-ever national probability sample survey that collects data on U.S. residential care providers, their staffs and \nservices, and the people they serve. It is designed to provide national estimates of the number of residential care facilities operating in the United States, the number of residents receiving care, and the characteristics of both the facilities and their residents. NSRCF was conducted between March and November 2010. All residential care facilities that participated in the survey were places that were licensed, registered, listed, certified, or otherwise regulated by the state and that had 4 or more licensed, certified, or registered beds, provided room and board with at least two meals a day, around-the-clock on-site supervision, and help with personal care such as bathing and dressing or health related services such as medication management. These facilities served a predominantly adult population and had at least one current resident. Facilities licensed to serve the mentally ill or the developmentally disabled populations exclusively were excluded from the survey.",
+            "title": "National Survey of Residential Care Facilities - Restricted Facility-Level Dataset",
+            "isPartOf": "https://www.cdc.gov/nchs/nsrcf/nsrcf_questionnaires.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "mediaType": "text/html",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "description": "The 2010 NSRCF data were collected through in-person interviews with facility directors and their \ndesignated staffs; no interviews were conducted directly with residents. Facility data included\nquestions on facility characteristics such as ownership, size, types of living arrangements and \namenities, policies, staffing, services, and general resident characteristics. Data collected on \nresidents included questions on the sampled residents\u2019 demographics, living arrangements, \nactivities, health conditions, cognitive and physical functioning, and services received. The total \nnumber of facilities that participated in the 2010 NSRCF is 2,302, and data are available on 8,094\nresidents from these facilities.",
+                    "@type": "dcat:Distribution",
+                    "title": "National Survey of Residential Care Facilities - Restricted Facility-Level Dataset"
+                }
+            ],
+            "spatial": "United States",
+            "theme": [
+                "NCHS"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -11432,53 +11445,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/7s96-5wg7",
-            "issued": "2023-04-25",
-            "@type": "dcat:Dataset",
-            "modified": "2023-04-25",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Ethan A. Broadfoot",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/7s96-5wg7",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
-            "title": "SVI2020_US_tract",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/7s96-5wg7/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/7s96-5wg7/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/7s96-5wg7/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/7s96-5wg7/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/7s96-5wg7/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/7s96-5wg7/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/7s96-5wg7/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/7vdq-ztk9",
             "bureauCode": [
                 "009:20"
@@ -12341,7 +12307,7 @@
             ],
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-01",
+            "modified": "2023-07-03",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -12479,53 +12445,6 @@
             ],
             "language": [
                 "English"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/8b72-amia",
-            "issued": "2023-04-25",
-            "@type": "dcat:Dataset",
-            "modified": "2023-04-25",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Ethan A. Broadfoot",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/8b72-amia",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
-            "title": "SVI2020_US_county - Theme 2",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/8b72-amia/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/8b72-amia/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/8b72-amia/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/8b72-amia/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/8b72-amia/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/8b72-amia/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/8b72-amia/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
             ]
         },
         {
@@ -13954,7 +13873,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-01",
+            "modified": "2023-07-03",
             "references": [
                 "https://chronicdata.cdc.gov/d/sfei-pddr"
             ],
@@ -14090,6 +14009,72 @@
             ],
             "language": [
                 "English"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/92ri-yjps",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-23",
+            "@type": "dcat:Dataset",
+            "modified": "2023-07-06",
+            "keyword": [
+                "art",
+                "assisted reproductive technology",
+                "clinic",
+                "fertility",
+                "infertility",
+                "services",
+                "success rates"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "ARTINFO",
+                "hasEmail": "mailto:ARTINFO@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/92ri-yjps",
+            "description": "ART data are made available as part of the National ART Surveillance System (NASS) that collects success rates, services, profiles and annual summary data from fertility clinics across the U.S. There are four datasets available: ART Services and Profiles, ART Patient and Cycle Characteristics, ART Success Rates, and ART Summary. All four datasets may be linked by \u201cClinicID.\u201d ClinicID is a unique identifier for each clinic that reported cycles. The Services and Profiles dataset provides an overview of clinic services, the clinic\u2019s contact information, location, the medical director\u2019s name, and summary statistics.",
+            "title": "2020 Final Assisted Reproductive Technology (ART) Services and Profiles",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/92ri-yjps/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/92ri-yjps/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/92ri-yjps/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/92ri-yjps/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/92ri-yjps/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/92ri-yjps/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/92ri-yjps/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "describedBy": "https://chronicdata.cdc.gov/dataset/2020-Final-Assisted-Reproductive-Technology-ART-Se/92ri-yjps",
+            "theme": [
+                "Assisted Reproductive Technology (ART)"
             ]
         },
         {
@@ -14641,8 +14626,8 @@
             ],
             "issued": "2023-06-26",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-06-26",
-            "modified": "2023-06-26",
+            "temporal": "2020-12-13/2023-07-07",
+            "modified": "2023-07-07",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -14713,7 +14698,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-06",
             "keyword": [
                 "age",
                 "age group",
@@ -15224,7 +15209,7 @@
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-03-12",
-            "modified": "2023-06-28",
+            "modified": "2023-07-06",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -15496,53 +15481,6 @@
             "accrualPeriodicity": "R/P1Y",
             "theme": [
                 "NCHS"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/9j94-5nq4",
-            "issued": "2023-04-25",
-            "@type": "dcat:Dataset",
-            "modified": "2023-04-25",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Ethan A. Broadfoot",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/9j94-5nq4",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
-            "title": "SVI2020_US_tract - Theme 4",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/9j94-5nq4/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/9j94-5nq4/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/9j94-5nq4/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/9j94-5nq4/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/9j94-5nq4/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/9j94-5nq4/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/9j94-5nq4/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
             ]
         },
         {
@@ -15954,7 +15892,7 @@
             ],
             "issued": "2022-08-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-13",
+            "modified": "2023-07-06",
             "keyword": [
                 "art",
                 "assisted reproductive technology",
@@ -15975,7 +15913,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/9tjt-seye",
             "description": "ART data are made available as part of the National ART Surveillance System (NASS) that collects success rates, services, profiles and annual summary data from fertility clinics across the U.S. There are four datasets available: ART Services and Profiles, ART Patient and Cycle Characteristics, ART Success Rates, and ART Summary. All four datasets may be linked by \u201cClinicID.\u201d ClinicID is a unique identifier for each clinic that reported cycles. The Summary dataset provides a full snapshot of clinic services and profile, patient characteristics, and ART success rates. It is worth noting that patient medical characteristics, such as age, diagnosis, and ovarian reserve, affect ART treatment\u2019s success. Comparison of success rates across clinics may not be meaningful because of differences in patient populations and ART treatment methods. The success rates displayed in this dataset do not reflect any one patient\u2019s chance of success. Patients should consult with a doctor to understand their chance of success based on their own characteristics.",
-            "title": "2020 Final Assisted Reproductive Technology (ART) Summary",
+            "title": "2021 Preliminary Assisted Reproductive Technology (ART) Summary",
             "programCode": [
                 "009:020"
             ],
@@ -17558,7 +17496,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-29",
+            "modified": "2023-07-07",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -17703,7 +17641,7 @@
             "issued": "2023-05-25",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 \u2013",
-            "modified": "2023-06-26",
+            "modified": "2023-07-03",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -17903,7 +17841,7 @@
             "issued": "2022-11-04",
             "@type": "dcat:Dataset",
             "temporal": "2022-01-01/2022-03-31",
-            "modified": "2023-04-28",
+            "modified": "2023-07-05",
             "keyword": [
                 "coronavirus",
                 "covid",
@@ -20000,7 +19938,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-02",
+            "modified": "2023-07-09",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -20548,7 +20486,7 @@
             ],
             "issued": "2022-10-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-13",
+            "modified": "2023-07-06",
             "keyword": [
                 "art",
                 "assisted reproductive technology",
@@ -20569,7 +20507,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/cchw-gdwa",
             "description": "ART data are made available as part of the National ART Surveillance System (NASS) that collects success rates, services, profiles and annual summary data from fertility clinics across the U.S. There are four datasets available: ART Services and Profiles, ART Patient and Cycle Characteristics, ART Success Rates, and ART Summary. All four datasets may be linked by \u201cClinicID.\u201d ClinicID is a unique identifier for each clinic that reported cycles. The Success Rates dataset contains success rates for ART cycles started during the year indicated. Since ART success depends on whether patients  are using their own eggs or donor eggs, success rates are included separately for these two groups. Success rates for patients using their own eggs are shown per intended retrieval, per actual retrieval, and per transfer. These success rates are reported as cumulative success rates, which take into account transfers that occur within 1 year after an egg retrieval. Since ART success depends on whether patients are using ART for the first time or had prior ART cycles, users can examine success rates for all \u201cPatients using their own eggs\u201d or for \u201cPatients with no prior ART using their own eggs.\u201d For new patients using ART for the first time, the success rates are also shown after 1, 2, or all intended egg retrievals during the reporting year. In addition, the average number of transfers per intended retrieval and the average number of intended retrievals per live-birth delivery are shown. Success rates for ART cycles that involve the transfer of embryos created from donor eggs or donated embryos are shown and are not cumulative. They are based on donor cycles started in the year indicated that had embryo transfers, regardless of when the donor eggs were retrieved. Success rates in this section are not presented by patient age group because previous data show that an intended parent\u2019s age does not substantially affect success when using donor eggs or donated embryos. The success rates are presented by types of embryos and eggs used in the transfer. This dataset excludes cycles that were considered research\u2014that is, cycles performed to evaluate  new procedures.",
-            "title": "2020 Final Assisted Reproductive Technology (ART) Success Rates",
+            "title": "2021 Preliminary Assisted Reproductive Technology (ART) Success Rates",
             "programCode": [
                 "009:020"
             ],
@@ -20875,53 +20813,6 @@
             ],
             "theme": [
                 "NNDSS"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/chxq-atqp",
-            "issued": "2023-04-25",
-            "@type": "dcat:Dataset",
-            "modified": "2023-04-25",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Ethan A. Broadfoot",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/chxq-atqp",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
-            "title": "SVI2020_US_county - Theme 3",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/chxq-atqp/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/chxq-atqp/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/chxq-atqp/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/chxq-atqp/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/chxq-atqp/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/chxq-atqp/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/chxq-atqp/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
             ]
         },
         {
@@ -23095,7 +22986,7 @@
             ],
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-06",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -24907,7 +24798,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-01",
+            "modified": "2023-07-03",
             "keyword": [
                 "legislation",
                 "licensure",
@@ -28525,7 +28416,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-02",
+            "modified": "2023-07-09",
             "keyword": [
                 "wastewater"
             ],
@@ -29301,7 +29192,7 @@
             ],
             "issued": "2022-06-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-19",
+            "modified": "2023-07-07",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -29497,7 +29388,7 @@
             "issued": "2023-06-06",
             "temporal": "Data from 2020-03-14 to present (posted starting 2023-06-06)",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-29",
+            "modified": "2023-07-06",
             "references": [
                 "https://covid.cdc.gov/covid-data-tracker/"
             ],
@@ -30827,7 +30718,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-01",
+            "modified": "2023-07-03",
             "keyword": [
                 "legislation",
                 "osh",
@@ -30957,7 +30848,7 @@
             ],
             "issued": "2020-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-03",
+            "modified": "2023-07-03",
             "keyword": [
                 "legislation",
                 "osh",
@@ -31187,7 +31078,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-06",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31793,7 +31684,7 @@
             "landingPage": "https://data.cdc.gov/d/hv7b-3sw8",
             "issued": "2023-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-26",
+            "modified": "2023-07-07",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Surveillance and Epidemiology Branch, Immunization Services Division, NCIRD, CDC",
@@ -31849,8 +31740,8 @@
             ],
             "issued": "2023-06-26",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-06-26",
-            "modified": "2023-06-26",
+            "temporal": "2020-12-13/2023-07-07",
+            "modified": "2023-07-07",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -32760,7 +32651,7 @@
             ],
             "issued": "2020-10-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-01",
+            "modified": "2023-07-03",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -33575,7 +33466,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-01",
+            "modified": "2023-07-03",
             "keyword": [
                 "fire safety",
                 "legislation",
@@ -33714,7 +33605,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-03",
+            "modified": "2023-07-03",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -33982,7 +33873,7 @@
             ],
             "issued": "2022-06-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-29",
+            "modified": "2023-07-07",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -34043,7 +33934,7 @@
             ],
             "issued": "2022-10-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-13",
+            "modified": "2023-07-06",
             "keyword": [
                 "art",
                 "assisted reproductive technology",
@@ -34064,7 +33955,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/ix4g-rt8v",
             "description": "ART data are made available as part of the National ART Surveillance System (NASS) that collects success rates, services, profiles and annual summary data from fertility clinics across the U.S. There are four datasets available: ART Services and Profiles, ART Patient and Cycle Characteristics, ART Success Rates, and ART Summary. All four datasets may be linked by \u201cClinicID.\u201d ClinicID is a unique identifier for each clinic that reported cycles. The Services and Profiles dataset provides an overview of clinic services, the clinic\u2019s contact information, location, the medical director\u2019s name, and  summary statistics.",
-            "title": "2020 Final Assisted Reproductive Technology (ART) Services and Profiles",
+            "title": "2021 Preliminary Assisted Reproductive Technology (ART) Services and Profiles",
             "programCode": [
                 "009:020"
             ],
@@ -35487,7 +35378,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-27",
+            "modified": "2023-07-07",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -37048,7 +36939,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-29",
+            "modified": "2023-07-06",
             "keyword": [
                 "cares act",
                 "health system",
@@ -37922,6 +37813,72 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/knu9-e7pg",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-23",
+            "@type": "dcat:Dataset",
+            "modified": "2023-07-06",
+            "keyword": [
+                "art",
+                "assisted reproductive technology",
+                "clinic",
+                "fertility",
+                "infertility",
+                "services",
+                "success rates"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "ARTINFO",
+                "hasEmail": "mailto:ARTINFO@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/knu9-e7pg",
+            "description": "ART data are made available as part of the National ART Surveillance System (NASS) that collects success rates, services, profiles and annual summary data from fertility clinics across the U.S. There are four datasets available: ART Services and Profiles, ART Patient and Cycle Characteristics, ART Success Rates, and ART Summary. All four datasets may be linked by \u201cClinicID.\u201d ClinicID is a unique identifier for each clinic that reported cycles. The Patient and Cycle Characteristics dataset summarizes the types of ART services performed and the kinds of patients who received ART procedures in a specific clinic. Please note patient characteristics are presented per cycle rather than per patient. As a result, patients who had more than one ART cycle within the reporting year are represented more than once.",
+            "title": "2020 Final Assisted Reproductive Technology (ART) Patient and Cycle Characteristics",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/knu9-e7pg/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/knu9-e7pg/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/knu9-e7pg/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/knu9-e7pg/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/knu9-e7pg/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/knu9-e7pg/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/knu9-e7pg/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "describedBy": "https://chronicdata.cdc.gov/dataset/2020-Final-Assisted-Reproductive-Technology-ART-Pa/knu9-e7pg",
+            "theme": [
+                "Assisted Reproductive Technology (ART)"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/kp49-9dp8",
             "bureauCode": [
                 "009:20"
@@ -38263,7 +38220,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-06",
             "keyword": [
                 "age",
                 "age group",
@@ -38494,7 +38451,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-30",
+            "modified": "2023-07-07",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -38627,7 +38584,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-03",
+            "modified": "2023-07-03",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -39672,10 +39629,10 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2023-06-01",
-            "modified": "2023-06-07",
+            "temporal": "2020-01-01/2023-07-06",
+            "modified": "2023-07-08",
             "references": [
-                "https://data.cdc.gov/api/views/mbd7-r32t/files/9350649a-30a0-4bd5-aedc-07bb2eac329f?download=true&filename=public%2033%20utility%20summary.pdf"
+                "https://data.cdc.gov/api/views/mbd7-r32t/files/6bc6f10b-a100-4ae6-ae63-303ed8fe23d2?download=true&filename=public%2033%20utility%20summary.pdf"
             ],
             "keyword": [
                 "cases",
@@ -40571,7 +40528,7 @@
             ],
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-06",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -41173,7 +41130,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-06-28",
+            "modified": "2023-07-06",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -42096,8 +42053,8 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2023-06-02",
-            "modified": "2023-06-05",
+            "temporal": "2020-01-01/2023-07-06",
+            "modified": "2023-07-08",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2019%20utility%20summary.pdf"
             ],
@@ -42404,7 +42361,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-01",
+            "modified": "2023-07-03",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -43933,7 +43890,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-29",
+            "modified": "2023-07-07",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -44179,7 +44136,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-03",
+            "modified": "2023-07-03",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -47639,7 +47596,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-29",
+            "modified": "2023-07-07",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -48169,8 +48126,8 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "temporal": "2019-12-29/2023-06-01",
-            "modified": "2023-06-30",
+            "temporal": "2019-12-29/2023-07-01",
+            "modified": "2023-07-07",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -49434,7 +49391,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-27",
+            "modified": "2023-07-04",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -52563,7 +52520,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-06",
             "keyword": [
                 "age",
                 "age group",
@@ -54173,7 +54130,7 @@
             ],
             "issued": "2022-07-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-30",
+            "modified": "2023-07-07",
             "keyword": [
                 "covid19",
                 "covid-19 vaccination",
@@ -55748,8 +55705,8 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2023-06-02",
-            "modified": "2023-06-05",
+            "temporal": "2020-01-01/2023-07-06",
+            "modified": "2023-07-08",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2012%20utility%20summary.pdf"
             ],
@@ -58348,7 +58305,7 @@
             ],
             "issued": "2019-02-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-03",
+            "modified": "2023-07-03",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -59111,7 +59068,7 @@
             ],
             "issued": "2022-10-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-13",
+            "modified": "2023-07-06",
             "keyword": [
                 "art",
                 "assisted reproductive technology",
@@ -59132,7 +59089,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/wrev-kwxu",
             "description": "ART data are made available as part of the National ART Surveillance System (NASS) that collects success rates, services, profiles and annual summary data from fertility clinics across the U.S. There are four datasets available: ART Services and Profiles, ART Patient and Cycle Characteristics, ART Success Rates, and ART Summary. All four datasets may be linked by \u201cClinicID.\u201d ClinicID is a unique identifier for each clinic that reported cycles. The Patient and Cycle Characteristics dataset summarizes the types of ART services performed and the kinds of patients who received ART procedures in a specific clinic. Please note patient characteristics are presented per cycle rather than per patient. As a result, patients who had more than one ART cycle within the reporting year are represented more than once.",
-            "title": "2020 Final Assisted Reproductive Technology (ART) Patient and Cycle Characteristics",
+            "title": "2021 Preliminary Assisted Reproductive Technology (ART) Patient and Cycle Characteristics",
             "programCode": [
                 "009:020"
             ],
@@ -60002,7 +59959,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-29",
+            "modified": "2023-07-06",
             "keyword": [
                 "2022",
                 "2023",
@@ -60497,7 +60454,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-06-29",
+            "modified": "2023-07-06",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -61104,7 +61061,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-03",
+            "modified": "2023-07-03",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -62167,53 +62124,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/y6af-c7uj",
-            "issued": "2023-04-25",
-            "@type": "dcat:Dataset",
-            "modified": "2023-04-25",
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Ethan A. Broadfoot",
-                "hasEmail": "mailto:no-reply@data.cdc.gov"
-            },
-            "identifier": "https://data.cdc.gov/api/views/y6af-c7uj",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "data.cdc.gov"
-            },
-            "description": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>See complete documentation here: </SPAN><A href=\"https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html\" STYLE=\"text-decoration:underline;\"><SPAN STYLE=\"text-decoration:underline;\"><SPAN>https://www.atsdr.cdc.gov/placeandhealth/svi/data_documentation_download.html</SPAN></SPAN></A><SPAN>. For additional questions, contact the SVI Lead at svi_coordinator@cdc.gov.</SPAN></P></DIV></DIV></DIV>",
-            "title": "SVI2020_US_county - Theme 4",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/y6af-c7uj/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/y6af-c7uj/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/y6af-c7uj/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/y6af-c7uj/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/y6af-c7uj/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/y6af-c7uj/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/y6af-c7uj/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/y6uv-t34t",
             "bureauCode": [
                 "009:00"
@@ -62744,7 +62654,7 @@
             ],
             "issued": "2017-02-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-04-03",
+            "modified": "2023-07-03",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -62952,7 +62862,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-29",
+            "modified": "2023-07-06",
             "keyword": [
                 "age",
                 "age group",
