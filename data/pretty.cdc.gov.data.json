@@ -268,8 +268,8 @@
             ],
             "issued": "2023-02-08",
             "@type": "dcat:Dataset",
-            "temporal": "2021-10-01/2023-06-10",
-            "modified": "2023-06-12",
+            "temporal": "2021-10-01/2023-07-10",
+            "modified": "2023-07-10",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -591,7 +591,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-06",
+            "modified": "2023-07-13",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -860,9 +860,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2017-02-16",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-03",
+            "modified": "2023-07-14",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -930,7 +930,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-09",
+            "modified": "2023-07-16",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1894,9 +1894,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2018-07-31",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-14",
             "references": [
                 "https://chronicdata.cdc.gov/d/i54f-wv8z"
             ],
@@ -2125,13 +2125,87 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/39z2-9zu6",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "N/A",
+            "issued": "2023-07-06",
+            "@type": "dcat:Dataset",
+            "temporal": "2020-08-01/-",
+            "modified": "2023-07-10",
+            "references": [
+                "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
+            ],
+            "keyword": [
+                "admissions",
+                "coronavirus",
+                "covid-19",
+                "hospital capacity",
+                "hospitalizations",
+                "hospital occupancy",
+                "icu beds",
+                "inpatient beds"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "DHQP",
+                "hasEmail": "mailto:nhsn@cdc.gov (subject line: timeseries aggregate COVID-19 hospital)"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/39z2-9zu6",
+            "description": "This dataset represents daily COVID-19 hospitalization data and metrics aggregated to national, state/territory, and regional levels. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS).</li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.</li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files.</li><li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n\n<b>Metric details:</b><ul><li><b>Time Period:</b> timeseries data will update weekly on Mondays as soon as they are reviewed and verified, usually before 8 pm ET. Updates will occur the following day when reporting coincides with a federal holiday. Note: Weekly updates might be delayed due to delays in reporting. All data are provisional. Because these provisional counts are subject to change, including updates to data reported previously, adjustments can occur. Data may be updated since original publication due to delays in reporting (to account for data received after a given Thursday publication) or data quality corrections.</li><li><b>New COVID-19 Hospital Admissions (count):</b> Number of new admissions of patients with laboratory-confirmed COVID-19 in the previous week (including both adult and pediatric admissions) in the entire jurisdiction.</li><li><b>New COVID-19 Hospital Admissions (7-Day Average):</b> 7-day average of new admissions of patients with laboratory-confirmed COVID-19 in the previous week (including both adult and pediatric admissions) in the entire jurisdiction.</li><li><b>Cumulative COVID-19 Hospital Admissions:</b> Cumulative total number of admissions of patients with laboratory-confirmed COVID-19 (including both adult and pediatric admissions) in the entire jurisdiction since August 1, 2020.</li><li><b>Cumulative COVID-19 Hospital Admissions Rate:</b> Cumulative total number of admissions of patients with laboratory-confirmed COVID-19 (including both adult and pediatric admissions) in the entire jurisdiction",
+            "title": "United States COVID-19 Hospitalization Metrics by Jurisdiction, Timeseries",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/39z2-9zu6/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/39z2-9zu6/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/39z2-9zu6/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/39z2-9zu6/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/39z2-9zu6/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/39z2-9zu6/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/39z2-9zu6/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/3ahs-wye3",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2017-08-23",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "adult",
                 "age",
@@ -2202,7 +2276,7 @@
             "issued": "2020-08-07",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-03-28",
-            "modified": "2023-06-28",
+            "modified": "2023-07-12",
             "keyword": [
                 "age",
                 "all causes",
@@ -2227,7 +2301,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/3apk-4u4f",
-            "description": "Effective June 28, 2023, this dataset will no longer be updated. Similar data are accessible from CDC WONDER.\n\nCumulative deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by sex and age in years, in the United States.",
+            "description": "Effective June 28, 2023, this dataset will no longer be updated. Similar data are accessible from CDC WONDER (https://wonder.cdc.gov/mcd-icd10-provisional.html).\n\nCumulative deaths involving COVID-19 reported to NCHS by sex and age in years, in the United States.",
             "title": "Provisional COVID-19 Death Counts by Age in Years, 2020-2023",
             "programCode": [
                 "009:020"
@@ -2684,7 +2758,7 @@
             ],
             "issued": "2015-06-17",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology",
@@ -5217,7 +5291,7 @@
             ],
             "issued": "2015-01-28",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -5335,7 +5409,7 @@
             ],
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-06",
+            "modified": "2023-07-12",
             "keyword": [
                 "age",
                 "age group",
@@ -5366,7 +5440,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/4va6-ph5s",
-            "description": "Deaths involving coronavirus disease 2019 (COVID-19) and pneumonia reported to NCHS by jurisdiction of occurrence, place of death, and age group.",
+            "description": "Deaths involving COVID-19, influenza, and pneumonia reported to NCHS by jurisdiction of occurrence, place of death, and age group.",
             "title": "Provisional COVID-19 Deaths by Place of Death and Age",
             "programCode": [
                 "009:020"
@@ -6480,7 +6554,7 @@
             ],
             "issued": "2015-02-05",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -7255,7 +7329,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-08",
+            "modified": "2023-07-15",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7319,7 +7393,7 @@
             ],
             "issued": "2017-11-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-04",
+            "modified": "2023-07-13",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -7641,7 +7715,7 @@
             ],
             "issued": "2015-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2022-08-15",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -8635,7 +8709,7 @@
             ],
             "issued": "2015-02-04",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methods"
@@ -9873,7 +9947,7 @@
             ],
             "issued": "2015-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-17",
+            "modified": "2023-07-13",
             "keyword": [
                 "cigarette excise tax",
                 "slides"
@@ -10581,6 +10655,80 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/7dk4-g6vg",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "N/A",
+            "issued": "2023-07-06",
+            "@type": "dcat:Dataset",
+            "temporal": "2020-08-01/-",
+            "modified": "2023-07-10",
+            "references": [
+                "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
+            ],
+            "keyword": [
+                "admissions",
+                "coronavirus",
+                "covid-19",
+                "hospital capacity",
+                "hospitalizations",
+                "hospital occupancy",
+                "icu beds",
+                "inpatient beds"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Healthcare Safety Network (NHSN)",
+                "hasEmail": "mailto:nhsn@cdc.gov (subject line: weekly aggregate COVID-19 hospital)"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/7dk4-g6vg",
+            "description": "This dataset represents weekly COVID-19 hospitalization data and metrics aggregated to national, state/territory, and regional levels. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS).</li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.</li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files.</li><li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n\n<b>Metric details:</b><ul><li><b>Time Period:</b> timeseries data will update weekly on Mondays as soon as they are reviewed and verified, usually before 8 pm ET. Updates will occur the following day when reporting coincides with a federal holiday. Note: Weekly updates might be delayed due to delays in reporting. All data are provisional. Because these provisional counts are subject to change, including updates to data reported previously, adjustments can occur. Data may be updated since original publication due to delays in reporting (to account for data received after a given Thursday publication) or data quality corrections.</li><li><b>New COVID-19 Hospital Admissions (count):</b> Number of new admissions of patients with laboratory-confirmed COVID-19 in the previous week (including both adult and pediatric admissions) in the entire jurisdiction.</li><li><b>New COVID-19 Hospital Admissions (7-Day Average):</b> 7-day average of new admissions of patients with laboratory-confirmed COVID-19 in the previous week (including both adult and pediatric admissions) in the entire jurisdiction.</li><li><b>Cumulative COVID-19 Hospital Admissions:</b> Cumulative total number of admissions of patients with laboratory-confirmed COVID-19 (including both adult and pediatric admissions) in the entire jurisdiction since August 1, 2020.</li><li><b>Cumulative COVID-19 Hospital Admissions Rate:</b> Cumulative total number of admissions of patients with laboratory-confirmed COVID-19 (including both adult and pediatric admissions) in the entire jurisdictio",
+            "title": "Weekly United States COVID-19 Hospitalization Metrics by Jurisdiction",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/7dk4-g6vg/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/7dk4-g6vg/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/7dk4-g6vg/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/7dk4-g6vg/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/7dk4-g6vg/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/7dk4-g6vg/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/7dk4-g6vg/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/7dvv-y64a",
             "bureauCode": [
                 "009:20"
@@ -11112,9 +11260,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2018-10-18",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-03-22",
+            "modified": "2023-07-14",
             "references": [
                 "https://chronicdata.cdc.gov/d/fip8-rcng"
             ],
@@ -11891,9 +12039,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2016-10-18",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2020-10-13",
+            "modified": "2023-07-14",
             "references": [
                 "https://www.cdc.gov/oralhealthdata/"
             ],
@@ -11963,7 +12111,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 -",
-            "modified": "2023-06-26",
+            "modified": "2023-07-10",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -11987,7 +12135,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/82ci-krud",
-            "description": "<b>Note:</b>\n<b>June 15, 2023:</b> Due to incomplete or missing hospital data received for the June 4, 2023, through June 10, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on June 15, 2023.\n\n<b>June 15, 2023:</b> Due to incomplete or missing hospital data received for the June 4, 2023, through June 10, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on June 15, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States as of the initial date of reporting for each weekly metric. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>\u2022\tAs of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital i",
+            "description": "<b>Note:</b>\n<b>July 10, 2023:</b> Due to incomplete or missing hospital data received for the June 25, 2023, through July 1, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on July 10, 2023.\n\n<b>July 10, 2023:</b> Due to incomplete or missing hospital data received for the June 25, 2023, through July 1, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on July 10, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States as of the initial date of reporting for each weekly metric. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>\u2022\tAs of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital i",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County (Historical)",
             "programCode": [
                 "009:020"
@@ -12307,7 +12455,7 @@
             ],
             "issued": "2020-09-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-03",
+            "modified": "2023-07-12",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -12515,7 +12663,7 @@
             ],
             "issued": "2015-06-19",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-14",
             "keyword": [
                 "fact sheet",
                 "faq",
@@ -12545,7 +12693,7 @@
                 }
             ],
             "theme": [
-                "Tobacco Use"
+                "Smoking & Tobacco Use"
             ]
         },
         {
@@ -14626,8 +14774,8 @@
             ],
             "issued": "2023-06-26",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-07-07",
-            "modified": "2023-07-07",
+            "temporal": "2023-06-14/2023-07-12",
+            "modified": "2023-07-14",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -14685,7 +14833,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1D",
+            "accrualPeriodicity": "R/P1M",
             "theme": [
                 "Vaccinations"
             ]
@@ -14698,7 +14846,7 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-06",
+            "modified": "2023-07-12",
             "keyword": [
                 "age",
                 "age group",
@@ -14728,7 +14876,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/9bhg-hcku",
-            "description": "Deaths involving coronavirus disease 2019 (COVID-19), pneumonia, and influenza reported to NCHS by sex, age group, and jurisdiction of occurrence.",
+            "description": "Deaths involving COVID-19, pneumonia, and influenza reported to NCHS by sex, age group, and jurisdiction of occurrence.",
             "title": "Provisional COVID-19 Deaths by Sex and Age",
             "programCode": [
                 "009:020"
@@ -15209,7 +15357,7 @@
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-03-12",
-            "modified": "2023-07-06",
+            "modified": "2023-07-12",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -15234,7 +15382,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/9hdi-ekmb",
-            "description": "Deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by week and county Social Vulnerability Index (SVI) in the United States. SVI scores are from CDC/ASTDR's Geospatial Research, Analysis & Service Program 2018 database. These scores range from 0 to 1, and categorized as low (0-0.333), moderate (0.334-0.666) or high (0.667-1).\n\nMore information on SVI can be found here: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html",
+            "description": "Deaths involving COVID-19 reported to NCHS by week and county Social Vulnerability Index (SVI) in the United States. SVI scores are from CDC/ASTDR's Geospatial Research, Analysis & Service Program 2018 database. These scores range from 0 to 1, and categorized as low (0-0.333), moderate (0.334-0.666) or high (0.667-1).\n\nMore information on SVI can be found here: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html",
             "title": "Provisional COVID-19 Deaths by Week and County Social Vulnerability Index",
             "programCode": [
                 "009:020"
@@ -16429,7 +16577,7 @@
             ],
             "issued": "2018-10-11",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-04",
+            "modified": "2023-07-13",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -17641,7 +17789,7 @@
             "issued": "2023-05-25",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 \u2013",
-            "modified": "2023-07-03",
+            "modified": "2023-07-10",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -17665,7 +17813,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/akn2-qxic",
-            "description": "<b>Note:</b>\n<b>June 15, 2023:</b> Due to incomplete or missing hospital data received for the June 4, 2023, through June 10, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on June 15, 2023.\n\n<b>June 15, 2023:</b> Due to incomplete or missing hospital data received for the June 4, 2023, through June 10, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on June 15, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy among hospitals w",
+            "description": "<b>Note:</b>\n<b>July 10, 2023:</b> Due to incomplete or missing hospital data received for the June 25, 2023, through July 1, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on July 10, 2023.\n\n<b>July 10, 2023:</b> Due to incomplete or missing hospital data received for the June 25, 2023, through July 1, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on July 10, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy among hospitals w",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County",
             "programCode": [
                 "009:020"
@@ -18428,7 +18576,7 @@
             ],
             "issued": "2019-07-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-07",
+            "modified": "2023-07-10",
             "references": [
                 "https://chronicdata.cdc.gov/d/mhj9-4wi2"
             ],
@@ -18477,7 +18625,7 @@
             ],
             "describedBy": "https://chronicdata.cdc.gov/Tobacco-Use/U-S-Census-Annual-Estimates-of-the-Resident-Popula/b2jx-uyck",
             "theme": [
-                "Tobacco Use"
+                "Funding"
             ]
         },
         {
@@ -19938,7 +20086,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-09",
+            "modified": "2023-07-16",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -20353,6 +20501,79 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/c76y-7pzg",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-15",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-15",
+            "references": [
+                "https://www.cdc.gov/places/measure-definitions/index.html"
+            ],
+            "keyword": [
+                "behaviors",
+                "gis",
+                "health",
+                "outcomes",
+                "places",
+                "prevalence",
+                "prevention",
+                "risk",
+                "status",
+                "zcta",
+                "zip code"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "PLACES Public Inquiries",
+                "hasEmail": "mailto:places@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/c76y-7pzg",
+            "description": "This dataset contains model-based ZIP Code Tabulation Area (ZCTA) level estimates for the PLACES 2022 release in GIS-friendly format. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2010 population estimates, and American Community Survey (ACS) 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. These data can be joined with the census 2010 ZCTA boundary file in a GIS system to produce maps for 29 measures at the ZCTA level. An ArcGIS Online feature service is also available for users to make maps online or to add data to desktop GIS software.\nhttps://cdcarcgis.maps.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7",
+            "title": "PLACES: ZCTA Data (GIS Friendly Format), 2022 release",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/c76y-7pzg/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/c76y-7pzg/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/c76y-7pzg/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/c76y-7pzg/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/c76y-7pzg/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/c76y-7pzg/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/c76y-7pzg/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-ZCTA-Data-GIS-Friendly-Format-2020-release/kee5-23sr",
+            "theme": [
+                "500 Cities & Places"
             ]
         },
         {
@@ -21731,78 +21952,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/cwsq-ngmh",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2020-12-07",
-            "@type": "dcat:Dataset",
-            "modified": "2022-12-06",
-            "references": [
-                "https://www.cdc.gov/places/measure-definitions/index.html"
-            ],
-            "keyword": [
-                "behaviors",
-                "brfss",
-                "census tract",
-                "health",
-                "outcomes",
-                "places",
-                "prevalence",
-                "prevention",
-                "risk",
-                "status"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "PLACES Public Inquiries",
-                "hasEmail": "mailto:places@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/cwsq-ngmh",
-            "description": "This dataset contains model-based census tract-level estimates for the PLACES 2022 release. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. The dataset includes estimates for 29 measures: 13 for health outcomes, 9 for preventive services use, 4 for chronic disease-related health risk behaviors, and 3 for health status. These estimates can be used to identify emerging health problems and to help develop and carry out effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2010 population data, and American Community Survey 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. More information about the methodology can be found at www.cdc.gov/places.",
-            "title": "PLACES: Local Data for Better Health, Census Tract Data 2022 release",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/cwsq-ngmh/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/cwsq-ngmh/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/cwsq-ngmh/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/cwsq-ngmh/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/cwsq-ngmh/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/cwsq-ngmh/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/cwsq-ngmh/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Local-Data-for-Better-Health-Census-Tract-D/cwsq-ngmh",
-            "theme": [
-                "500 Cities & Places"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/cz39-ahbn",
             "bureauCode": [
                 "009:00"
@@ -22408,7 +22557,7 @@
             ],
             "issued": "2015-06-19",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-14",
             "keyword": [
                 "fact sheet",
                 "faq",
@@ -22438,7 +22587,7 @@
                 }
             ],
             "theme": [
-                "Tobacco Use"
+                "Smoking & Tobacco Use"
             ]
         },
         {
@@ -22515,7 +22664,7 @@
             ],
             "issued": "2016-05-03",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "fact sheet",
                 "infographic",
@@ -22820,7 +22969,7 @@
             ],
             "issued": "2018-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-04",
+            "modified": "2023-07-13",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -22986,7 +23135,7 @@
             ],
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-06",
+            "modified": "2023-07-12",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -23668,6 +23817,78 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/duw2-7jbt",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-15",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-15",
+            "references": [
+                "https://www.cdc.gov/places/measure-definitions/index.html"
+            ],
+            "keyword": [
+                "behaviors",
+                "brfss",
+                "county",
+                "health",
+                "outcomes",
+                "places",
+                "prevalence",
+                "prevention",
+                "risk",
+                "status"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "PLACES Public Inquiries",
+                "hasEmail": "mailto:places@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/duw2-7jbt",
+            "description": "This dataset contains model-based county-level estimates for the PLACES 2022 release. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. This dataset includes estimates for 29 measures: 13 for health outcomes, 9 for preventive services use, 4 for chronic disease-related health risk behaviors, and 3 for health status. These estimates can be used to identify emerging health problems and to help develop and carry out effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2020 or 2019 county population estimate data, and American Community Survey 2016\u20132020 or 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. More information about the methodology can be found at www.cdc.gov/places.",
+            "title": "PLACES: Local Data for Better Health, County Data 2022 release",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/duw2-7jbt/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/duw2-7jbt/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/duw2-7jbt/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/duw2-7jbt/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/duw2-7jbt/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/duw2-7jbt/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/duw2-7jbt/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Local-Data-for-Better-Health-County-Data-20/swc5-untb",
+            "theme": [
+                "500 Cities & Places"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/dv4u-3x3q",
             "bureauCode": [
                 "009:20"
@@ -24201,8 +24422,8 @@
             ],
             "issued": "2023-03-10",
             "@type": "dcat:Dataset",
-            "temporal": "2019-01-01/2022-12-31",
-            "modified": "2023-04-12",
+            "temporal": "2019-01-01/2023-03-31",
+            "modified": "2023-07-12",
             "keyword": [
                 "age",
                 "age group",
@@ -24560,7 +24781,7 @@
             ],
             "issued": "2016-03-01",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "bars",
                 "fact sheet",
@@ -24715,79 +24936,6 @@
             ],
             "theme": [
                 "Motor Vehicle"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/eav7-hnsx",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2020-12-07",
-            "@type": "dcat:Dataset",
-            "modified": "2022-12-06",
-            "references": [
-                "https://www.cdc.gov/places/measure-definitions/index.html"
-            ],
-            "keyword": [
-                "behaviors",
-                "brfss",
-                "city",
-                "health",
-                "outcomes",
-                "place",
-                "places",
-                "prevalence",
-                "prevention",
-                "risk",
-                "status"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "PLACES Public Inquiries",
-                "hasEmail": "mailto:places@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/eav7-hnsx",
-            "description": "This dataset contains model-based place (incorporated and census-designated places) level estimates for the PLACES 2022 release. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. The dataset includes estimates for 29 measures: 13 for health outcomes, 9 for preventive services use, 4 for chronic disease-related health risk behaviors, and 3 for health status. These estimates can be used to identify emerging health problems and to help develop and carry out effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2010 population data, and American Community Survey 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. More information about the methodology can be found at   www.cdc.gov/places.",
-            "title": "PLACES: Local Data for Better Health, Place Data 2022 release",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/eav7-hnsx/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/eav7-hnsx/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/eav7-hnsx/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/eav7-hnsx/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/eav7-hnsx/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/eav7-hnsx/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/eav7-hnsx/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Local-Data-for-Better-Health-Place-Data-202/eav7-hnsx",
-            "theme": [
-                "500 Cities & Places"
             ]
         },
         {
@@ -25715,6 +25863,79 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/epbn-9bv3",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-15",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-15",
+            "references": [
+                "https://www.cdc.gov/places/measure-definitions/index.html"
+            ],
+            "keyword": [
+                "behaviors",
+                "brfss",
+                "city",
+                "health",
+                "outcomes",
+                "place",
+                "places",
+                "prevalence",
+                "prevention",
+                "risk",
+                "status"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "PLACES Public Inquiries",
+                "hasEmail": "mailto:places@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/epbn-9bv3",
+            "description": "This dataset contains model-based place (incorporated and census-designated places) level estimates for the PLACES 2022 release. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. The dataset includes estimates for 29 measures: 13 for health outcomes, 9 for preventive services use, 4 for chronic disease-related health risk behaviors, and 3 for health status. These estimates can be used to identify emerging health problems and to help develop and carry out effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2010 population data, and American Community Survey 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. More information about the methodology can be found at   www.cdc.gov/places.",
+            "title": "PLACES: Local Data for Better Health, Place Data 2022 release",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/epbn-9bv3/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/epbn-9bv3/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/epbn-9bv3/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/epbn-9bv3/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/epbn-9bv3/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/epbn-9bv3/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/epbn-9bv3/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Local-Data-for-Better-Health-Place-Data-202/eav7-hnsx",
+            "theme": [
+                "500 Cities & Places"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/data-visualization/mortality-trends/",
             "bureauCode": [
                 "009:20"
@@ -25785,9 +26006,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2021-01-20",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-13",
+            "modified": "2023-07-14",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -25859,9 +26080,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2019-02-14",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-14",
             "references": [
                 "https://chronicdata.cdc.gov/d/p8tr-pquj"
             ],
@@ -26432,7 +26653,7 @@
             ],
             "issued": "2015-01-28",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -26798,9 +27019,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2018-12-11",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-30",
+            "modified": "2023-07-14",
             "references": [
                 "https://chronicdata.cdc.gov/d/sgg4-hiwe"
             ],
@@ -27009,7 +27230,7 @@
             ],
             "issued": "2015-02-02",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -28416,7 +28637,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-09",
+            "modified": "2023-07-16",
             "keyword": [
                 "wastewater"
             ],
@@ -28755,7 +28976,7 @@
             ],
             "issued": "2016-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "cessation",
                 "cigarette",
@@ -28814,8 +29035,8 @@
             ],
             "issued": "2021-10-05",
             "@type": "dcat:Dataset",
-            "temporal": "2015-01-01/2022-9-30",
-            "modified": "2023-04-12",
+            "temporal": "2015-01-01/2022-12-31",
+            "modified": "2023-07-12",
             "keyword": [
                 "county",
                 "deaths",
@@ -28877,6 +29098,79 @@
             "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/gd4x-jyhw",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-15",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-15",
+            "references": [
+                "https://www.cdc.gov/places/measure-definitions/index.html"
+            ],
+            "keyword": [
+                "behaviors",
+                "brfss",
+                "health",
+                "outcomes",
+                "places",
+                "prevalence",
+                "prevention",
+                "risk",
+                "status",
+                "zcta",
+                "zip code"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "PLACES Public Inquiries",
+                "hasEmail": "mailto:places@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/gd4x-jyhw",
+            "description": "This dataset contains model-based ZIP Code Tabulation Area (ZCTA) level estimates for the PLACES 2022 release. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. The dataset includes estimates for 29 measures: 13 for health outcomes, 9 for preventive services use, 4 for chronic disease-related health risk behaviors, and 3 for health status. These estimates can be used to identify emerging health problems and to help develop and carry out effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2010 population data, and American Community Survey 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. More information about the methodology can be found at www.cdc.gov/places.",
+            "title": "PLACES: Local Data for Better Health, ZCTA Data 2022 release",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/gd4x-jyhw/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/gd4x-jyhw/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/gd4x-jyhw/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/gd4x-jyhw/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/gd4x-jyhw/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/gd4x-jyhw/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/gd4x-jyhw/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Local-Data-for-Better-Health-ZCTA-Data-2020/qnzd-25i4",
+            "theme": [
+                "500 Cities & Places"
             ]
         },
         {
@@ -28953,7 +29247,7 @@
             ],
             "issued": "2015-06-19",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-14",
             "keyword": [
                 "fact sheet",
                 "faq",
@@ -28984,7 +29278,7 @@
                 }
             ],
             "theme": [
-                "Tobacco Use"
+                "Smoking & Tobacco Use"
             ]
         },
         {
@@ -29192,7 +29486,7 @@
             ],
             "issued": "2022-06-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-07",
+            "modified": "2023-07-12",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -29388,7 +29682,7 @@
             "issued": "2023-06-06",
             "temporal": "Data from 2020-03-14 to present (posted starting 2023-06-06)",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-06",
+            "modified": "2023-07-13",
             "references": [
                 "https://covid.cdc.gov/covid-data-tracker/"
             ],
@@ -29531,7 +29825,7 @@
             "issued": "2022-09-01",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2022-12-31",
-            "modified": "2023-05-08",
+            "modified": "2023-07-12",
             "keyword": [
                 "amphetamine",
                 "bed size",
@@ -29572,7 +29866,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/gypc-kpgn",
-            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). From this collection, the NHCS contributes data that may inform emerging national health threats such as the current opioid public health emergency. The 2020, 2021, and 2022 NHCS are not yet fully operational so it is important to note that the data presented here are preliminary and not nationally representative.\n\nThe data are from 31 hospitals submitting inpatient and 32 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from January 1, 2020\u2013December 31, 2022. Even though the data are not nationally representative, they can provide insight into the use of opioids and other overdose drugs. The NHCS data is submitted from various types of hospitals (e.g., general/acute, children\u2019s, etc.) and can show results from a variety of indicators related to drug use, such as overall drug use, comorbidities, and drug and polydrug overdose. NHCS data can also be used to report on patient conditions within the hospital over time.",
+            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). From this collection, the NHCS contributes data that may inform emerging national health threats such as the current opioid public health emergency. The 2020, 2021, and 2022 NHCS are not yet fully operational so it is important to note that the data presented here are preliminary and not nationally representative.\n\nThe data are from 40 hospitals submitting inpatient and 40 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from January 1, 2020\u2013December 31, 2022. Even though the data are not nationally representative, they can provide insight into the use of opioids and other overdose drugs. The NHCS data is submitted from various types of hospitals (e.g., general/acute, children\u2019s, etc.) and can show results from a variety of indicators related to drug use, such as overall drug use, comorbidities, and drug and polydrug overdose. NHCS data can also be used to report on patient conditions within the hospital over time.",
             "title": "Drug Use Data from Selected Hospitals",
             "programCode": [
                 "009:020"
@@ -29955,7 +30249,7 @@
             ],
             "issued": "2015-02-20",
             "@type": "dcat:Dataset",
-            "modified": "2022-12-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -30583,9 +30877,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-05-24",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-01",
+            "modified": "2023-07-14",
             "references": [
                 "https://www.cdc.gov/aging/index.html"
             ],
@@ -31078,7 +31372,7 @@
             ],
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-06",
+            "modified": "2023-07-12",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31740,8 +32034,8 @@
             ],
             "issued": "2023-06-26",
             "@type": "dcat:Dataset",
-            "temporal": "2020-12-13/2023-07-07",
-            "modified": "2023-07-07",
+            "temporal": "2023-06-14/2023-07-12",
+            "modified": "2023-07-14",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -31799,7 +32093,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1D",
+            "accrualPeriodicity": "R/P1M",
             "theme": [
                 "Vaccinations"
             ]
@@ -32281,77 +32575,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/i46a-9kgh",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2021-12-01",
-            "@type": "dcat:Dataset",
-            "modified": "2022-12-06",
-            "references": [
-                "https://www.cdc.gov/places/measure-definitions/index.html"
-            ],
-            "keyword": [
-                "behaviors",
-                "county",
-                "gis",
-                "health",
-                "outcomes",
-                "places",
-                "prevalence",
-                "prevention",
-                "risk",
-                "status"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "PLACES Public Inquiries",
-                "hasEmail": "mailto:places@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/i46a-9kgh",
-            "description": "This dataset contains model-based county-level estimates for the PLACES 2022 release in GIS-friendly format. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. Project was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2020 or 2019 county population estimates, and American Community Survey (ACS) 2016\u20132020 or 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. These data can be joined with the census 2020 county boundary file in a GIS system to produce maps for 29 measures at the county level. An ArcGIS Online feature service is also available for users to make maps online or to add data to desktop GIS software. https://cdcarcgis.maps.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7",
-            "title": "PLACES: County Data (GIS Friendly Format), 2022 release",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/i46a-9kgh/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/i46a-9kgh/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/i46a-9kgh/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/i46a-9kgh/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/i46a-9kgh/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/i46a-9kgh/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/i46a-9kgh/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "theme": [
-                "500 Cities & Places"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/i4eq-dgfc",
             "bureauCode": [
                 "009:00"
@@ -32423,7 +32646,7 @@
             ],
             "issued": "2015-02-05",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -32612,7 +32835,7 @@
             ],
             "issued": "2015-02-20",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -32651,7 +32874,7 @@
             ],
             "issued": "2020-10-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-03",
+            "modified": "2023-07-12",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -32916,7 +33139,7 @@
             ],
             "issued": "2015-02-05",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -34787,7 +35010,7 @@
             ],
             "issued": "2015-01-13",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-14",
             "keyword": [
                 "fact sheet",
                 "faq",
@@ -34817,7 +35040,7 @@
                 }
             ],
             "theme": [
-                "Tobacco Use"
+                "Smoking & Tobacco Use"
             ]
         },
         {
@@ -35870,7 +36093,7 @@
             ],
             "issued": "2019-12-05",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-04",
+            "modified": "2023-07-13",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -36006,7 +36229,7 @@
             ],
             "issued": "2016-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "fact sheet",
                 "housing",
@@ -36048,7 +36271,7 @@
             ],
             "issued": "2017-11-22",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-04",
+            "modified": "2023-07-13",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -36730,79 +36953,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/kee5-23sr",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2021-12-01",
-            "@type": "dcat:Dataset",
-            "modified": "2022-12-06",
-            "references": [
-                "https://www.cdc.gov/places/measure-definitions/index.html"
-            ],
-            "keyword": [
-                "behaviors",
-                "gis",
-                "health",
-                "outcomes",
-                "places",
-                "prevalence",
-                "prevention",
-                "risk",
-                "status",
-                "zcta",
-                "zip code"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "PLACES Public Inquiries",
-                "hasEmail": "mailto:places@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/kee5-23sr",
-            "description": "This dataset contains model-based ZIP Code Tabulation Area (ZCTA) level estimates for the PLACES 2022 release in GIS-friendly format. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2010 population estimates, and American Community Survey (ACS) 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. These data can be joined with the census 2010 ZCTA boundary file in a GIS system to produce maps for 29 measures at the ZCTA level. An ArcGIS Online feature service is also available for users to make maps online or to add data to desktop GIS software.\nhttps://cdcarcgis.maps.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7",
-            "title": "PLACES: ZCTA Data (GIS Friendly Format), 2022 release",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/kee5-23sr/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/kee5-23sr/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/kee5-23sr/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/kee5-23sr/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/kee5-23sr/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/kee5-23sr/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/kee5-23sr/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-ZCTA-Data-GIS-Friendly-Format-2020-release/kee5-23sr",
-            "theme": [
-                "500 Cities & Places"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/keia-pvvn",
             "bureauCode": [
                 "009:00"
@@ -36939,7 +37089,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-06",
+            "modified": "2023-07-12",
             "keyword": [
                 "cares act",
                 "health system",
@@ -37747,7 +37897,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-06-29",
+            "modified": "2023-07-12",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -37771,7 +37921,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/kn79-hsxy",
-            "description": "Effective June 28, 2023, this dataset will no longer be updated. Similar data are accessible from  CDC WONDER (wonder.cdc.gov)\n\nProvisional count of deaths involving COVID-19 by county of occurrence, in the United States, 2020-2023.",
+            "description": "Effective June 28, 2023, this dataset will no longer be updated. Similar data are accessible from  CDC WONDER (https://wonder.cdc.gov/mcd-icd10-provisional.html)\n\nProvisional count of deaths involving COVID-19 by county of occurrence, in the United States, 2020-2023.",
             "title": "Provisional COVID-19 Death Counts in the United States by County",
             "programCode": [
                 "009:020"
@@ -38220,7 +38370,7 @@
             ],
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-06",
+            "modified": "2023-07-12",
             "keyword": [
                 "age",
                 "age group",
@@ -38250,7 +38400,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/ks3g-spdg",
-            "description": "Deaths involving coronavirus disease 2019 (COVID-19), pneumonia, and influenza reported to NCHS by race, age, and jurisdiction of occurrence.",
+            "description": "Deaths involving COVID-19, pneumonia, and influenza reported to NCHS by race, age, and jurisdiction of occurrence.",
             "title": "Provisional COVID-19 Deaths by Race and Hispanic Origin, and Age",
             "programCode": [
                 "009:020"
@@ -38377,7 +38527,7 @@
             ],
             "issued": "2018-10-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-04",
+            "modified": "2023-07-13",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -38451,7 +38601,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-07",
+            "modified": "2023-07-14",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -38780,7 +38930,7 @@
             ],
             "issued": "2016-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "adult",
                 "age",
@@ -38976,9 +39126,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-11-17",
+            "issued": "2023-07-11",
             "@type": "dcat:Dataset",
-            "modified": "2022-11-17",
+            "modified": "2023-07-11",
             "keyword": [
                 "500 cities",
                 "places"
@@ -39310,7 +39460,7 @@
             ],
             "issued": "2015-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-03-17",
+            "modified": "2023-07-13",
             "keyword": [
                 "comprehensive smokefree indoor air",
                 "slides"
@@ -39874,9 +40024,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2019-07-26",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2019-09-20",
+            "modified": "2023-07-14",
             "keyword": [
                 "cardiovascular disease",
                 "county",
@@ -39938,7 +40088,7 @@
             "landingPage": "https://data.cdc.gov/d/mhj9-4wi2",
             "issued": "2016-11-30",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-07",
+            "modified": "2023-07-13",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "OSHData Support",
@@ -39962,7 +40112,7 @@
                 }
             ],
             "theme": [
-                "Tobacco Use"
+                "Funding"
             ]
         },
         {
@@ -40305,7 +40455,7 @@
             ],
             "issued": "2015-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "slides",
                 "youth cigarette use"
@@ -40528,7 +40678,7 @@
             ],
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-06",
+            "modified": "2023-07-12",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -41130,7 +41280,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-07-06",
+            "modified": "2023-07-12",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -41414,7 +41564,7 @@
             ],
             "issued": "2015-06-19",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-14",
             "keyword": [
                 "fact sheet",
                 "faq",
@@ -41444,7 +41594,7 @@
                 }
             ],
             "theme": [
-                "Tobacco Use"
+                "Smoking & Tobacco Use"
             ]
         },
         {
@@ -42128,7 +42278,7 @@
             ],
             "issued": "2015-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2021-10-22",
+            "modified": "2023-07-13",
             "keyword": [
                 "adult cigarette use",
                 "slides"
@@ -42942,7 +43092,7 @@
             ],
             "issued": "2020-08-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-12",
             "keyword": [
                 "age",
                 "age group",
@@ -42969,7 +43119,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/nr4s-juj3",
-            "description": "Effective June 28, 2023, this dataset will no longer be updated. Similar data are accessible from CDC WONDER.\n\nDeaths involving coronavirus disease 2019 (COVID-19) with a focus on ages 0-18 years in the United States.",
+            "description": "Effective June 28, 2023, this dataset will no longer be updated. Similar data are accessible from CDC WONDER (https://wonder.cdc.gov/mcd-icd10-provisional.html).\n\nDeaths involving coronavirus disease 2019 (COVID-19) with a focus on ages 0-18 years in the United States.",
             "title": "Provisional COVID-19 Deaths: Focus on Ages 0-18 Years",
             "programCode": [
                 "009:020"
@@ -43279,6 +43429,78 @@
             "describedBy": "https://chronicdata.cdc.gov/Heart-Disease-Stroke-Prevention/Healthcare-Cost-and-Utilization-Project-HCUP-Natio/ntny-77fx",
             "theme": [
                 "Heart Disease & Stroke Prevention"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/nw2y-v4gm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-15",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-15",
+            "references": [
+                "https://www.cdc.gov/places/measure-definitions/index.html"
+            ],
+            "keyword": [
+                "behaviors",
+                "brfss",
+                "census tract",
+                "health",
+                "outcomes",
+                "places",
+                "prevalence",
+                "prevention",
+                "risk",
+                "status"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "PLACES Public Inquiries",
+                "hasEmail": "mailto:places@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/nw2y-v4gm",
+            "description": "This dataset contains model-based census tract-level estimates for the PLACES 2022 release. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. The dataset includes estimates for 29 measures: 13 for health outcomes, 9 for preventive services use, 4 for chronic disease-related health risk behaviors, and 3 for health status. These estimates can be used to identify emerging health problems and to help develop and carry out effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2010 population data, and American Community Survey 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. More information about the methodology can be found at www.cdc.gov/places.",
+            "title": "PLACES: Local Data for Better Health, Census Tract Data 2022 release",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/nw2y-v4gm/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/nw2y-v4gm/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/nw2y-v4gm/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/nw2y-v4gm/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/nw2y-v4gm/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/nw2y-v4gm/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/nw2y-v4gm/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Local-Data-for-Better-Health-Census-Tract-D/cwsq-ngmh",
+            "theme": [
+                "500 Cities & Places"
             ]
         },
         {
@@ -43601,7 +43823,7 @@
             ],
             "issued": "2015-01-23",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -43890,7 +44112,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-07",
+            "modified": "2023-07-13",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -43954,7 +44176,7 @@
             ],
             "issued": "2019-12-05",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-04",
+            "modified": "2023-07-13",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -44028,7 +44250,7 @@
             ],
             "issued": "2017-08-18",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-14",
             "keyword": [
                 "fact sheet",
                 "faq",
@@ -44059,7 +44281,7 @@
                 }
             ],
             "theme": [
-                "Tobacco Use"
+                "Smoking & Tobacco Use"
             ]
         },
         {
@@ -44756,9 +44978,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2017-10-18",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-17",
+            "modified": "2023-07-14",
             "keyword": [
                 "diabetes",
                 "eye diseases",
@@ -45462,7 +45684,7 @@
             "issued": "2020-12-15",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-18/2022-12-27",
-            "modified": "2023-05-05",
+            "modified": "2023-07-12",
             "keyword": [
                 "covid-19",
                 "emergency department",
@@ -45484,7 +45706,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/q3t8-zr7t",
-            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020, 2021 and 2022 NHCS are not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 31 hospitals submitting inpatient and 32 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020-December 27, 2022.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
+            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020, 2021 and 2022 NHCS are not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 40 hospitals submitting inpatient and 40 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020-December 27, 2022.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
             "title": "COVID-19 Hospital Data from the National Hospital Care Survey",
             "programCode": [
                 "009:020"
@@ -45533,9 +45755,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2018-06-15",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2019-03-29",
+            "modified": "2023-07-14",
             "keyword": [
                 "high school",
                 "risk behavior",
@@ -46516,7 +46738,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-12",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -46543,7 +46765,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/qfhf-uhaa",
-            "description": "This visualization provides weekly data on the number of deaths from all causes by jurisdiction of occurrence and race and Hispanic origin. Numbers of deaths are also shown for all causes excluding COVID-19, and for COVID-19. Counts of deaths in more recent weeks can be compared with counts from earlier years to determine if the number is higher than expected.",
+            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nThis visualization provides weekly data on the number of deaths from all causes by jurisdiction of occurrence and race and Hispanic origin. Numbers of deaths are also shown for all causes excluding COVID-19, and for COVID-19. Counts of deaths in more recent weeks can be compared with counts from earlier years to determine if the number is higher than expected.",
             "title": "Weekly Counts of Deaths by Jurisdiction, and Race and Hispanic Origin",
             "programCode": [
                 "009:020"
@@ -46898,79 +47120,6 @@
             ],
             "theme": [
                 "Environmental Health & Toxicology"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/qnzd-25i4",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2020-12-07",
-            "@type": "dcat:Dataset",
-            "modified": "2022-12-06",
-            "references": [
-                "https://www.cdc.gov/places/measure-definitions/index.html"
-            ],
-            "keyword": [
-                "behaviors",
-                "brfss",
-                "health",
-                "outcomes",
-                "places",
-                "prevalence",
-                "prevention",
-                "risk",
-                "status",
-                "zcta",
-                "zip code"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "PLACES Public Inquiries",
-                "hasEmail": "mailto:places@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/qnzd-25i4",
-            "description": "This dataset contains model-based ZIP Code Tabulation Area (ZCTA) level estimates for the PLACES 2022 release. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. The dataset includes estimates for 29 measures: 13 for health outcomes, 9 for preventive services use, 4 for chronic disease-related health risk behaviors, and 3 for health status. These estimates can be used to identify emerging health problems and to help develop and carry out effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2010 population data, and American Community Survey 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. More information about the methodology can be found at www.cdc.gov/places.",
-            "title": "PLACES: Local Data for Better Health, ZCTA Data 2022 release",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/qnzd-25i4/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/qnzd-25i4/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/qnzd-25i4/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/qnzd-25i4/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/qnzd-25i4/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/qnzd-25i4/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/qnzd-25i4/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Local-Data-for-Better-Health-ZCTA-Data-2020/qnzd-25i4",
-            "theme": [
-                "500 Cities & Places"
             ]
         },
         {
@@ -48127,7 +48276,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-01",
-            "modified": "2023-07-07",
+            "modified": "2023-07-14",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -48156,7 +48305,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/r8kw-7aab",
-            "description": "Deaths involving coronavirus disease 2019 (COVID-19), pneumonia, and influenza reported to NCHS by week ending date and by state",
+            "description": "Deaths involving COVID-19, pneumonia, and influenza reported to NCHS by week ending date and by state",
             "title": "Provisional COVID-19 Death Counts by Week Ending Date and State",
             "programCode": [
                 "009:020"
@@ -48991,7 +49140,7 @@
             ],
             "issued": "2019-12-05",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-04",
+            "modified": "2023-07-13",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -49391,7 +49540,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-04",
+            "modified": "2023-07-11",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -50707,7 +50856,7 @@
             ],
             "issued": "2015-10-15",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -50746,7 +50895,7 @@
             ],
             "issued": "2015-01-23",
             "@type": "dcat:Dataset",
-            "modified": "2021-05-21",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -50779,13 +50928,85 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/shc3-fzig",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-15",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-15",
+            "references": [
+                "https://www.cdc.gov/places/measure-definitions/index.html"
+            ],
+            "keyword": [
+                "behaviors",
+                "census tract",
+                "gis",
+                "health",
+                "outcomes",
+                "places",
+                "prevalence",
+                "prevention",
+                "risk",
+                "status"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "PLACES Public Inquiries",
+                "hasEmail": "mailto:places@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/shc3-fzig",
+            "description": "This dataset contains model-based census tract level estimates for the PLACES 2022 release in GIS-friendly format. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2010 population estimates, and American Community Survey (ACS) 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. These data can be joined with the census tract 2015 boundary file in a GIS system to produce maps for 29 measures at the census tract level. An ArcGIS Online feature service is also available for users to make maps online or to add data to desktop GIS software.\nhttps://cdcarcgis.maps.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7",
+            "title": "PLACES: Census Tract Data (GIS Friendly Format), 2022 release",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/shc3-fzig/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/shc3-fzig/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/shc3-fzig/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/shc3-fzig/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/shc3-fzig/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/shc3-fzig/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/shc3-fzig/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Census-Tract-Data-GIS-Friendly-Format-2020-/yjkw-uj5s",
+            "theme": [
+                "500 Cities & Places"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-10-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-10",
+            "modified": "2023-07-12",
             "keyword": [
                 "age",
                 "age group",
@@ -50813,7 +51034,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/siwp-yg6m",
-            "description": "Provisional deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by MMWR week, race and Hispanic origin, and age group. Deaths occurred in the United States.\n\nAge groups: 0-4, 5-11, 12-17, 18-29, 30-39, 40-49, 50-64, 65-74, and 75+ years",
+            "description": "Provisional deaths involving COVID-19 reported to NCHS by MMWR week, race and Hispanic origin, and age group. Deaths occurred in the United States.\n\nAge groups: 0-4, 5-11, 12-17, 18-29, 30-39, 40-49, 50-64, 65-74, and 75+ years",
             "title": "AH Provisional COVID-19 Death Counts by Week, Race, and Age, United States 2020-2023",
             "programCode": [
                 "009:020"
@@ -51477,78 +51698,6 @@
             "describedBy": "https://chronicdata.cdc.gov/Youth-Risk-Behaviors/DASH-Youth-Risk-Behavior-Surveillance-System-YRBSS/svam-8dhg",
             "theme": [
                 "Youth Risk Behaviors"
-            ]
-        },
-        {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/swc5-untb",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2021-03-17",
-            "@type": "dcat:Dataset",
-            "modified": "2022-12-06",
-            "references": [
-                "https://www.cdc.gov/places/measure-definitions/index.html"
-            ],
-            "keyword": [
-                "behaviors",
-                "brfss",
-                "county",
-                "health",
-                "outcomes",
-                "places",
-                "prevalence",
-                "prevention",
-                "risk",
-                "status"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "PLACES Public Inquiries",
-                "hasEmail": "mailto:places@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/swc5-untb",
-            "description": "This dataset contains model-based county-level estimates for the PLACES 2022 release. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. This dataset includes estimates for 29 measures: 13 for health outcomes, 9 for preventive services use, 4 for chronic disease-related health risk behaviors, and 3 for health status. These estimates can be used to identify emerging health problems and to help develop and carry out effective, targeted public health prevention activities. Because the small area model cannot detect effects due to local interventions, users are cautioned against using these estimates for program or policy evaluations. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2020 or 2019 county population estimate data, and American Community Survey 2016\u20132020 or 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. More information about the methodology can be found at www.cdc.gov/places.",
-            "title": "PLACES: Local Data for Better Health, County Data 2022 release",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/swc5-untb/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/swc5-untb/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/swc5-untb/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/swc5-untb/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/swc5-untb/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/swc5-untb/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/swc5-untb/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Local-Data-for-Better-Health-County-Data-20/swc5-untb",
-            "theme": [
-                "500 Cities & Places"
             ]
         },
         {
@@ -52520,7 +52669,7 @@
             ],
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-06",
+            "modified": "2023-07-12",
             "keyword": [
                 "age",
                 "age group",
@@ -52550,7 +52699,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/tpcp-uiv5",
-            "description": "Deaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by time-period, HHS region, race and Hispanic origin, and age group.\n\nUnited States death counts include the 50 states, plus the District of Columbia and New York City. The ten (10) United States Department of Health and Human Services (HHS) regions include the following jurisdictions. Region 1: Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont; Region 2: New Jersey, New York, New York City, Puerto Rico; Region 3: Delaware, District of Columbia, Maryland, Pennsylvania, Virginia, West Virginia; Region 4: Alabama, Florida, Georgia, Kentucky, Mississippi, North Carolina, South Carolina, Tennessee; Region 5: Illinois, Indiana, Michigan, Minnesota, Ohio, Wisconsin; Region 6: Arkansas, Louisiana, New Mexico, Oklahoma, Texas; Region 7: Iowa, Kansas, Missouri, Nebraska; Region 8: Colorado, Montana, North Dakota, South Dakota, Utah, Wyoming; Region 9: Arizona, California, Hawaii, Nevada; Region 10: Alaska, Idaho, Oregon, Washington.",
+            "description": "Deaths involving COVID-19 reported to NCHS by time-period, HHS region, race and Hispanic origin, and age group.\n\nUnited States death counts include the 50 states, plus the District of Columbia and New York City. The ten (10) United States Department of Health and Human Services (HHS) regions include the following jurisdictions. Region 1: Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont; Region 2: New Jersey, New York, New York City, Puerto Rico; Region 3: Delaware, District of Columbia, Maryland, Pennsylvania, Virginia, West Virginia; Region 4: Alabama, Florida, Georgia, Kentucky, Mississippi, North Carolina, South Carolina, Tennessee; Region 5: Illinois, Indiana, Michigan, Minnesota, Ohio, Wisconsin; Region 6: Arkansas, Louisiana, New Mexico, Oklahoma, Texas; Region 7: Iowa, Kansas, Missouri, Nebraska; Region 8: Colorado, Montana, North Dakota, South Dakota, Utah, Wyoming; Region 9: Arizona, California, Hawaii, Nevada; Region 10: Alaska, Idaho, Oregon, Washington.",
             "title": "Provisional COVID-19 Deaths by HHS Region, Race, and Age",
             "programCode": [
                 "009:020"
@@ -53426,7 +53575,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-12",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -53464,7 +53613,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/u6jv-9ijr",
-            "description": "This visualization provides weekly data on the number of deaths by jurisdiction of occurrence and cause of death. Counts of deaths in more recent weeks can be compared with counts from earlier years to determine if the number is higher than expected. Selected causes of death are shown, based on analyses of the most prevalent comorbid conditions reported on death certificates where COVID-19 was listed as a cause of death (see https://www.cdc.gov/nchs/nvss/vsrr/covid_weekly/index.htm#Comorbidities). Cause of death counts are based on the underlying cause of death, and presented for Respiratory diseases, Circulatory diseases, Malignant neoplasms, and Alzheimer disease and dementia. Estimated numbers of deaths due to these other causes of death could represent misclassified COVID-19 deaths, or potentially could be indirectly related to COVID-19 (e.g., deaths from other causes occurring in the context of health care shortages or overburdened health care systems). Deaths with an underlying cause of death of COVID-19 are not included in these estimates of deaths due to other causes. Deaths due to external causes (i.e. injuries) or unknown causes are excluded. For more detail, see the Technical Notes.",
+            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nThis visualization provides weekly data on the number of deaths by jurisdiction of occurrence and cause of death. Counts of deaths in more recent weeks can be compared with counts from earlier years to determine if the number is higher than expected. Selected causes of death are shown, based on analyses of the most prevalent comorbid conditions reported on death certificates where COVID-19 was listed as a cause of death (see https://www.cdc.gov/nchs/nvss/vsrr/covid_weekly/index.htm#Comorbidities). Cause of death counts are based on the underlying cause of death, and presented for Respiratory diseases, Circulatory diseases, Malignant neoplasms, and Alzheimer disease and dementia. Estimated numbers of deaths due to these other causes of death could represent misclassified COVID-19 deaths, or potentially could be indirectly related to COVID-19 (e.g., deaths from other causes occurring in the context of health care shortages or overburdened health care systems). Deaths with an underlying cause of death of COVID-19 are not included in these estimates of deaths due to other causes. Deaths due to external causes (i.e. injuries) or unknown causes are excluded. For more detail, see the Technical Notes.",
             "title": "Weekly Counts of Death by Jurisdiction and Select Causes of Death",
             "programCode": [
                 "009:020"
@@ -54661,6 +54810,78 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/uuui-fh3m",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-15",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-15",
+            "references": [
+                "https://www.cdc.gov/places/measure-definitions/index.html"
+            ],
+            "keyword": [
+                "behaviors",
+                "city",
+                "gis",
+                "health",
+                "outcomes",
+                "place",
+                "places",
+                "prevalence",
+                "prevention",
+                "risk",
+                "status"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "PLACES Public Inquiries",
+                "hasEmail": "mailto:places@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/uuui-fh3m",
+            "description": "This dataset contains model-based place (incorporated and census designated places) level estimates for the PLACES 2022 release in GIS-friendly format. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2010 population estimates, and American Community Survey (ACS) 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. These data can be joined with the 2019 Census TIGER/Line place boundary file in a GIS system to produce maps for 29 measures at the place level. An ArcGIS Online feature service is also available for users to make maps online or to add data to desktop GIS software. https://cdcarcgis.maps.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7",
+            "title": "PLACES: Place Data (GIS Friendly Format), 2022 release",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/uuui-fh3m/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/uuui-fh3m/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/uuui-fh3m/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/uuui-fh3m/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/uuui-fh3m/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/uuui-fh3m/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/uuui-fh3m/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "500 Cities & Places"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/uw7a-a5t8",
             "bureauCode": [
                 "009:20"
@@ -54930,14 +55151,14 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2019-07-26",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2019-09-20",
+            "modified": "2023-07-14",
             "keyword": [
-                "cardiovascular disease",
+                "stroke",
                 "cerebrovascular disease",
-                "county",
-                "stroke"
+                "cardiovascular disease",
+                "county"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -56036,78 +56257,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/vgc8-iyc4",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2021-12-01",
-            "@type": "dcat:Dataset",
-            "modified": "2022-12-06",
-            "references": [
-                "https://www.cdc.gov/places/measure-definitions/index.html"
-            ],
-            "keyword": [
-                "behaviors",
-                "city",
-                "gis",
-                "health",
-                "outcomes",
-                "place",
-                "places",
-                "prevalence",
-                "prevention",
-                "risk",
-                "status"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "PLACES Public Inquiries",
-                "hasEmail": "mailto:places@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/vgc8-iyc4",
-            "description": "This dataset contains model-based place (incorporated and census designated places) level estimates for the PLACES 2022 release in GIS-friendly format. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2010 population estimates, and American Community Survey (ACS) 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. These data can be joined with the 2019 Census TIGER/Line place boundary file in a GIS system to produce maps for 29 measures at the place level. An ArcGIS Online feature service is also available for users to make maps online or to add data to desktop GIS software. https://cdcarcgis.maps.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7",
-            "title": "PLACES: Place Data (GIS Friendly Format), 2022 release",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/vgc8-iyc4/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/vgc8-iyc4/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/vgc8-iyc4/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/vgc8-iyc4/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/vgc8-iyc4/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/vgc8-iyc4/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/vgc8-iyc4/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "theme": [
-                "500 Cities & Places"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/flu/fluvaxview/index.htm",
             "bureauCode": [
                 "009:20"
@@ -56244,9 +56393,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2019-02-14",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-14",
             "keyword": [
                 "administration and management",
                 "best practices",
@@ -56717,7 +56866,7 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-12",
             "keyword": [
                 "age",
                 "age group",
@@ -56743,7 +56892,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/vsak-wrfu",
-            "description": "Effective June 28, 2023, this dataset will no longer be updated. Similar data are accessible from CDC WONDER.\n\nDeaths involving coronavirus disease 2019 (COVID-19) reported to NCHS by sex and age group and week ending date.",
+            "description": "Effective June 28, 2023, this dataset will no longer be updated. Similar data are accessible from CDC WONDER (https://wonder.cdc.gov/mcd-icd10-provisional.html).\n\nDeaths involving COVID-19 reported to NCHS by sex and age group and week ending date.",
             "title": "Provisional COVID-19 Deaths by Week, Sex, and Age",
             "programCode": [
                 "009:020"
@@ -56928,7 +57077,7 @@
             ],
             "issued": "2017-04-21",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "cigar",
                 "cigarette",
@@ -57041,7 +57190,7 @@
             ],
             "issued": "2018-12-04",
             "@type": "dcat:Dataset",
-            "modified": "2021-01-04",
+            "modified": "2023-07-13",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -57112,9 +57261,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2018-10-03",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-14",
             "keyword": [
                 "administration and management",
                 "allocation",
@@ -57598,7 +57747,7 @@
             ],
             "issued": "2015-09-14",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology",
@@ -59198,9 +59347,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2018-07-31",
+            "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2021-08-16",
+            "modified": "2023-07-14",
             "references": [
                 "https://chronicdata.cdc.gov/d/5amh-5sx3"
             ],
@@ -59746,7 +59895,7 @@
             ],
             "issued": "2015-01-21",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "glossary",
                 "methodology"
@@ -59959,7 +60108,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-06",
+            "modified": "2023-07-13",
             "keyword": [
                 "2022",
                 "2023",
@@ -60346,7 +60495,7 @@
             ],
             "issued": "2016-01-20",
             "@type": "dcat:Dataset",
-            "modified": "2020-08-13",
+            "modified": "2023-07-13",
             "keyword": [
                 "casinos",
                 "fact sheet",
@@ -60454,7 +60603,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-07-06",
+            "modified": "2023-07-12",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -60520,8 +60669,8 @@
             ],
             "issued": "2018-03-06",
             "@type": "dcat:Dataset",
-            "temporal": "2015-01-01/2022-11-30",
-            "modified": "2023-06-14",
+            "temporal": "2015-01-01/2023-02-28",
+            "modified": "2023-07-12",
             "keyword": [
                 "cocaine",
                 "deaths",
@@ -60599,7 +60748,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-12",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -60625,7 +60774,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/xkkf-xrst",
-            "description": "Estimates of excess deaths can provide information about the burden of mortality potentially related to COVID-19, beyond the number of deaths that are directly attributed to COVID-19. Excess deaths are typically defined as the difference between observed numbers of deaths and expected numbers. This visualization provides weekly data on excess deaths by jurisdiction of occurrence. Counts of deaths in more recent weeks are compared with historical trends to determine whether the number of deaths is significantly higher than expected.\n\nEstimates of excess deaths can be calculated in a variety of ways, and will vary depending on the methodology and assumptions about how many deaths are expected to occur. Estimates of excess deaths presented in this webpage were calculated using Farrington surveillance algorithms (1). For each jurisdiction, a model is used to generate a set of expected counts, and the upper bound of the 95% Confidence Intervals (95% CI) of these expected counts is used as a threshold to estimate excess deaths. Observed counts are compared to these upper bound estimates to determine whether a significant increase in deaths has occurred. Provisional counts are weighted to account for potential underreporting in the most recent weeks. However, data for the most recent week(s) are still likely to be incomplete. Only about 60% of deaths are reported within 10 days of the date of death, and there is considerable variation by jurisdiction. More detail about the methods, weighting, data, and limitations can be found in the Technical Notes.",
+            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nEstimates of excess deaths can provide information about the burden of mortality potentially related to COVID-19, beyond the number of deaths that are directly attributed to COVID-19. Excess deaths are typically defined as the difference between observed numbers of deaths and expected numbers. This visualization provides weekly data on excess deaths by jurisdiction of occurrence. Counts of deaths in more recent weeks are compared with historical trends to determine whether the number of deaths is significantly higher than expected.\n\nEstimates of excess deaths can be calculated in a variety of ways, and will vary depending on the methodology and assumptions about how many deaths are expected to occur. Estimates of excess deaths presented in this webpage were calculated using Farrington surveillance algorithms (1). For each jurisdiction, a model is used to generate a set of expected counts, and the upper bound of the 95% Confidence Intervals (95% CI) of these expected counts is used as a threshold to estimate excess deaths. Observed counts are compared to these upper bound estimates to determine whether a significant increase in deaths has occurred. Provisional counts are weighted to account for potential underreporting in the most recent weeks. However, data for the most recent week(s) are still likely to be incomplete. Only about 60% of deaths are reported within 10 days of the date of death, and there is considerable variation by jurisdiction. More detail about the methods, weighting, data, and limitations can be found in the Technical Notes.",
             "title": "Excess Deaths Associated with COVID-19",
             "programCode": [
                 "009:020"
@@ -61539,6 +61688,25 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/xxzc-cs4a",
+            "issued": "2023-06-20",
+            "@type": "dcat:Dataset",
+            "modified": "2023-07-10",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Jimmy Yun",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/xxzc-cs4a",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "We Are Moving"
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm",
             "bureauCode": [
                 "009:20"
@@ -61611,6 +61779,77 @@
             "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/xyst-f73f",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-06-15",
+            "@type": "dcat:Dataset",
+            "modified": "2023-06-15",
+            "references": [
+                "https://www.cdc.gov/places/measure-definitions/index.html"
+            ],
+            "keyword": [
+                "behaviors",
+                "county",
+                "gis",
+                "health",
+                "outcomes",
+                "places",
+                "prevalence",
+                "prevention",
+                "risk",
+                "status"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "PLACES Public Inquiries",
+                "hasEmail": "mailto:places@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Centers for Disease Control and Prevention"
+            },
+            "identifier": "https://data.cdc.gov/api/views/xyst-f73f",
+            "description": "This dataset contains model-based county-level estimates for the PLACES 2022 release in GIS-friendly format. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. Project was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2020 or 2019 county population estimates, and American Community Survey (ACS) 2016\u20132020 or 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. These data can be joined with the census 2020 county boundary file in a GIS system to produce maps for 29 measures at the county level. An ArcGIS Online feature service is also available for users to make maps online or to add data to desktop GIS software. https://cdcarcgis.maps.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7",
+            "title": "PLACES: County Data (GIS Friendly Format), 2022 release",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/xyst-f73f/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/xyst-f73f/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/xyst-f73f/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/xyst-f73f/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/xyst-f73f/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/xyst-f73f/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/xyst-f73f/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "theme": [
+                "500 Cities & Places"
             ]
         },
         {
@@ -62057,7 +62296,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-28",
+            "modified": "2023-07-12",
             "keyword": [
                 "age",
                 "age group",
@@ -62082,7 +62321,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/y5bj-9g5w",
-            "description": "This visualization provides weekly data on the number of deaths from all causes by jurisdiction of occurrence and age group. Counts of deaths in more recent weeks can be compared with counts from earlier years to determine if the number is higher than expected.",
+            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nThis visualization provides weekly data on the number of deaths from all causes by jurisdiction of occurrence and age group. Counts of deaths in more recent weeks can be compared with counts from earlier years to determine if the number is higher than expected.",
             "title": "Weekly Counts of Deaths by Jurisdiction and Age",
             "programCode": [
                 "009:020"
@@ -62451,9 +62690,9 @@
                 "009:20"
             ],
             "issued": "2022-06-01",
-            "temporal": "2016/2020",
+            "temporal": "2016/2021",
             "@type": "dcat:Dataset",
-            "modified": "2023-02-14",
+            "modified": "2023-07-10",
             "keyword": [
                 "emergency department",
                 "national hospital ambulatory medical care survey",
@@ -62470,8 +62709,8 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/ycxr-emue",
-            "description": "The National Hospital Ambulatory Medical Care Survey (NHAMCS), conducted by the National Center for Health Statistics (NCHS), collects annual data on visits to emergency departments to describe patterns of utilization and provision of ambulatory care delivery in the United States. Data are collected from nonfederal, general, and short-stay hospitals from all 50 U.S. states and the District of Columbia, and are used to develop nationally representative estimates. \n\nThe data include counts and rates of emergency department visits from 2016-2020 for the 10 leading primary diagnoses and reasons for visit, stratified by selected patient and hospital characteristics. Rankings for the 10 leading categories were identified using weighted data from 2020 and were then assessed in prior years.",
-            "title": "Estimates of Emergency Department Visits in the United States from 2016-2020",
+            "description": "The National Hospital Ambulatory Medical Care Survey (NHAMCS), conducted by the National Center for Health Statistics (NCHS), collects annual data on visits to emergency departments to describe patterns of utilization and provision of ambulatory care delivery in the United States. Data are collected from nonfederal, general, and short-stay hospitals from all 50 U.S. states and the District of Columbia, and are used to develop nationally representative estimates. \n\nThe data include counts and rates of emergency department visits from 2016-2021 for the 10 leading primary diagnoses and reasons for visit, stratified by selected patient and hospital characteristics. Rankings for the 10 leading categories were identified using weighted data from 2021 and were then assessed in prior years.",
+            "title": "Estimates of Emergency Department Visits in the United States from 2016-2021",
             "programCode": [
                 "009:020"
             ],
@@ -62716,78 +62955,6 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/yjkw-uj5s",
-            "bureauCode": [
-                "009:20"
-            ],
-            "issued": "2021-12-01",
-            "@type": "dcat:Dataset",
-            "modified": "2022-12-06",
-            "references": [
-                "https://www.cdc.gov/places/measure-definitions/index.html"
-            ],
-            "keyword": [
-                "behaviors",
-                "census tract",
-                "gis",
-                "health",
-                "outcomes",
-                "places",
-                "prevalence",
-                "prevention",
-                "risk",
-                "status"
-            ],
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "PLACES Public Inquiries",
-                "hasEmail": "mailto:places@cdc.gov"
-            },
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "Centers for Disease Control and Prevention"
-            },
-            "identifier": "https://data.cdc.gov/api/views/yjkw-uj5s",
-            "description": "This dataset contains model-based census tract level estimates for the PLACES 2022 release in GIS-friendly format. PLACES covers the entire United States\u201450 states and the District of Columbia (DC)\u2014at county, place, census tract, and ZIP Code Tabulation Area levels. It provides information uniformly on this large scale for local areas at 4 geographic levels. Estimates were provided by the Centers for Disease Control and Prevention (CDC), Division of Population Health, Epidemiology and Surveillance Branch. PLACES was funded by the Robert Wood Johnson Foundation in conjunction with the CDC Foundation. Data sources used to generate these model-based estimates include Behavioral Risk Factor Surveillance System (BRFSS) 2020 or 2019 data, Census Bureau 2010 population estimates, and American Community Survey (ACS) 2015\u20132019 estimates. The 2022 release uses 2020 BRFSS data for 25 measures and 2019 BRFSS data for 4 measures (high blood pressure, taking high blood pressure medication, high cholesterol, and cholesterol screening) that the survey collects data on every other year. These data can be joined with the census tract 2015 boundary file in a GIS system to produce maps for 29 measures at the census tract level. An ArcGIS Online feature service is also available for users to make maps online or to add data to desktop GIS software.\nhttps://cdcarcgis.maps.arcgis.com/home/item.html?id=3b7221d4e47740cab9235b839fa55cd7",
-            "title": "PLACES: Census Tract Data (GIS Friendly Format), 2022 release",
-            "programCode": [
-                "009:020"
-            ],
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "downloadURL": "https://data.cdc.gov/api/views/yjkw-uj5s/rows.csv?accessType=DOWNLOAD",
-                    "mediaType": "text/csv"
-                },
-                {
-                    "mediaType": "application/rdf+xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/yjkw-uj5s/rows.rdf?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/yjkw-uj5s/columns.rdf",
-                    "describedByType": "application/rdf+xml",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/json",
-                    "downloadURL": "https://data.cdc.gov/api/views/yjkw-uj5s/rows.json?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/yjkw-uj5s/columns.json",
-                    "describedByType": "application/json",
-                    "@type": "dcat:Distribution"
-                },
-                {
-                    "mediaType": "application/xml",
-                    "downloadURL": "https://data.cdc.gov/api/views/yjkw-uj5s/rows.xml?accessType=DOWNLOAD",
-                    "describedBy": "https://data.cdc.gov/api/views/yjkw-uj5s/columns.xml",
-                    "describedByType": "application/xml",
-                    "@type": "dcat:Distribution"
-                }
-            ],
-            "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Census-Tract-Data-GIS-Friendly-Format-2020-/yjkw-uj5s",
-            "theme": [
-                "500 Cities & Places"
-            ]
-        },
-        {
-            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/nchs/covid19/pulse/mental-health-care.htm",
             "bureauCode": [
                 "009:20"
@@ -62862,7 +63029,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-06",
+            "modified": "2023-07-13",
             "keyword": [
                 "age",
                 "age group",
@@ -62891,7 +63058,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/ynw2-4viq",
-            "description": "Deaths counts for influenza, pneumonia, and coronavirus disease 2019 (COVID-19) reported to NCHS by week ending date, by state and HHS region, and age group.",
+            "description": "Deaths counts for influenza, pneumonia, and COVID-19 reported to NCHS by week ending date, by state and HHS region, and age group.",
             "title": "Provisional Death Counts for Influenza, Pneumonia, and COVID-19",
             "programCode": [
                 "009:020"
@@ -63152,7 +63319,7 @@
             "issued": "2023-06-06",
             "temporal": "2020-01-22/2023-05-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-22",
+            "modified": "2023-07-10",
             "keyword": [
                 "covid",
                 "covid-19",
