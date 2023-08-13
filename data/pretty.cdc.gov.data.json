@@ -268,8 +268,8 @@
             ],
             "issued": "2023-02-08",
             "@type": "dcat:Dataset",
-            "temporal": "2021-10-01/2023-07-10",
-            "modified": "2023-07-10",
+            "temporal": "2021-10-01/2023-08-10",
+            "modified": "2023-08-10",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -591,7 +591,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-03",
+            "modified": "2023-08-10",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -930,7 +930,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-06",
+            "modified": "2023-08-13",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2133,7 +2133,7 @@
             "issued": "2023-07-06",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-01/-",
-            "modified": "2023-07-31",
+            "modified": "2023-08-07",
             "references": [
                 "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -5411,7 +5411,7 @@
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-07-29",
-            "modified": "2023-08-02",
+            "modified": "2023-08-09",
             "keyword": [
                 "age",
                 "age group",
@@ -7366,7 +7366,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-05",
+            "modified": "2023-08-12",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7791,7 +7791,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-11",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -10493,7 +10493,8 @@
             ],
             "issued": "2016-08-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-01",
+            "temporal": "2021-01-01/2023-03-31",
+            "modified": "2023-08-07",
             "keyword": [
                 "birth rate",
                 "cesarean delivery",
@@ -10700,7 +10701,7 @@
             "issued": "2023-07-06",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-01/-",
-            "modified": "2023-07-31",
+            "modified": "2023-08-07",
             "references": [
                 "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -12148,7 +12149,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 -",
-            "modified": "2023-07-31",
+            "modified": "2023-08-07",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -12172,7 +12173,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/82ci-krud",
-            "description": "<b>Note:</b>\n<b>July 31, 2023:</b> Due to incomplete or missing hospital data received for the July 16, 2023, through July 22, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on July 31, 2023.\n\n<b>July 31, 2023:</b> Due to incomplete or missing hospital data received for the July 16, 2023, through July 22, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on July 31, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States as of the initial date of reporting for each weekly metric. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>\u2022\tAs of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital",
+            "description": "<b>Note:</b>\n<b>August 7, 2023:</b> Due to incomplete or missing hospital data received for the July 23, 2023, through July 29, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on August 7, 2023 . \n\n<b>August 7, 2023:</b> Due to incomplete or missing hospital data received for the July 23, 2023, through July 29, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on August 7, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States as of the initial date of reporting for each weekly metric. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>\u2022\tAs of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, ho",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County (Historical)",
             "programCode": [
                 "009:020"
@@ -14811,8 +14812,8 @@
             ],
             "issued": "2023-06-26",
             "@type": "dcat:Dataset",
-            "temporal": "2023-06-14/2023-07-12",
-            "modified": "2023-07-14",
+            "temporal": "2020-12-13/2023-08-10",
+            "modified": "2023-08-10",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -14870,7 +14871,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1M",
+            "accrualPeriodicity": "R/P1D",
             "theme": [
                 "Vaccinations"
             ]
@@ -14884,7 +14885,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-07-29",
-            "modified": "2023-08-02",
+            "modified": "2023-08-09",
             "keyword": [
                 "age",
                 "age group",
@@ -15395,7 +15396,7 @@
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-08-02",
+            "modified": "2023-08-09",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -17827,7 +17828,7 @@
             "issued": "2023-05-25",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 \u2013",
-            "modified": "2023-07-31",
+            "modified": "2023-08-07",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -17851,7 +17852,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/akn2-qxic",
-            "description": "<b>Note:</b>\n<b>July 31, 2023:</b> Due to incomplete or missing hospital data received for the July 16, 2023, through July 22, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on July 31, 2023.\n\n<b>July 31, 2023:</b> Due to incomplete or missing hospital data received for the July 16, 2023, through July 22, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on July 31, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy among hospitals",
+            "description": "<b>Note:</b>\n<b>August 7, 2023:</b> Due to incomplete or missing hospital data received for the July 23, 2023, through July 29, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on August 7, 2023 . \n\n<b>August 7, 2023:</b> Due to incomplete or missing hospital data received for the July 23, 2023, through July 29, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on August 7, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy among hos",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County",
             "programCode": [
                 "009:020"
@@ -20189,7 +20190,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-06",
+            "modified": "2023-08-13",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -23312,7 +23313,7 @@
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-08-02",
+            "modified": "2023-08-09",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -28063,7 +28064,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-11",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -28888,7 +28889,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-06",
+            "modified": "2023-08-13",
             "keyword": [
                 "wastewater"
             ],
@@ -29933,7 +29934,7 @@
             "issued": "2023-06-06",
             "temporal": "Data from 2020-03-14 to present (posted starting 2023-06-06)",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-03",
+            "modified": "2023-08-09",
             "references": [
                 "https://covid.cdc.gov/covid-data-tracker/"
             ],
@@ -31624,7 +31625,7 @@
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-08-02",
+            "modified": "2023-08-09",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32286,8 +32287,8 @@
             ],
             "issued": "2023-06-26",
             "@type": "dcat:Dataset",
-            "temporal": "2023-06-14/2023-07-12",
-            "modified": "2023-07-14",
+            "temporal": "2020-12-13/2023-08-10",
+            "modified": "2023-08-10",
             "references": [
                 "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/distributing/about-vaccine-data.html"
             ],
@@ -32345,7 +32346,7 @@
             ],
             "spatial": "US",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1M",
+            "accrualPeriodicity": "R/P1D",
             "theme": [
                 "Vaccinations"
             ]
@@ -32624,6 +32625,76 @@
             ],
             "language": [
                 "English"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/i2a4-xk9k",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-08-10",
+            "@type": "dcat:Dataset",
+            "temporal": "2022-05-01/2023-08-10",
+            "modified": "2023-08-10",
+            "keyword": [
+                "coronavirus",
+                "covid-19",
+                "mmtc",
+                "otc",
+                "self-tests"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Jasmine Chaitram",
+                "hasEmail": "mailto:zoa6@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Laboratory Data Section"
+            },
+            "identifier": "https://data.cdc.gov/api/views/i2a4-xk9k",
+            "description": "This dataset includes COVID-19 self-test result data voluntarily reported by users of tests through the MakeMyTestCount website (makemytestcount.org). All fields are self-reported by the user with the exception of  fields derived from the self-reported zip code. This dataset will be updated monthly. If there are any questions, please direct them to the data steward, Jasmine Chaitram <zoa6@cdc.gov>. \n\nThis dataset includes the following self-reported data:  \n- Date (by week)\u2013 date of test shown by week starting date  \n- Age group (years) \u2013 age of individual taking the test, categorized into the following: 2-4, 5-11, 12-15, 16-17, 18-29, 30-39, 40-49, 50-64, 65-74, 75+  \n- Race \u2013 race of individual taking the test: American Indian or Alaska Native, Asian, Black, Native Hawaiian or Other Pacific Islander, White, Multiple or Other, missing \n- Ethnicity \u2013 ethnicity of individual taking the test: Hispanic, Non-Hispanic, missing \n- Sex \u2013 sex of individual taking the test: male, female, missing \n- Test result \u2013 positive, negative, inconclusive \n\nThe dataset also includes the following columns to support analyses. These columns are based on the self-reported zip code:  \n- State abbreviation  \n- State name  \n- State FIPS code \n- FEMA region  \n\nPlease note that there are limitations with these data, including: \n\n1. Data are not comprehensive of all self-tests performed. Data represent results voluntarily reported by an individual via the MakeMyTestCount website. These data do not include self-test results that were reported to state and local health departments if they were not also reported through the MakeMyTestCount website. The true denominator (known number of tests completed in the US) cannot be ascertained and reflects a small fraction of the number of self-tests used.    \n\n2. Data are not verified. The quality of specimen, appropriate execution of self-test, result produced, and person tested are unverified; therefore, reported interpretation of results cannot be confirmed. All results and accompanying demographic information are also self-reported and cannot be verified.  \n\n3. Data reports are not complete. Individual submissions vary widely in terms of the data elements collected. Not all data elements are required (only date, age, and zip code), and some results are missing demographic information.  \n\n4. Data are not representative. Based on the limited number of self-reported test results, this dataset is not representative of the use of self-testing by demographic, nor is the dataset inclusive of all self-testing completed within each jurisdiction. This dataset represents a small proportion of overall COVID-19 testing conducted and reported volumes are much lower than testing conducted in point of care and laboratory settings.   \n\n5. Data represent individual test results, not persons tested. Data in this dataset are not linkable and do not allow for analyses around serial testing. Data also cannot be disaggregated to identify multiple reports by the same individual.  \n\nAll analyses should be completed with these limitations in mind.  \n\nFor more information about the challenges and opportunities around self-test data, please refer to the following article: Ritchey MD, Rosenblum HG, Del Guercio K, et al. COVID-19 Self-Test Data: Challenges and Opportunities \u2014 United States, October 31, 2021\u2013June 11, 2022. MMWR Morb Mortal Wkly Rep 2022;71:1005\u20131010. DOI: http://dx.doi.org/10.15585/mmwr.mm7132a1",
+            "title": "U.S. COVID-19 MakeMyTestCount Self-Test Data",
+            "programCode": [
+                "009:038"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/i2a4-xk9k/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/i2a4-xk9k/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/i2a4-xk9k/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/i2a4-xk9k/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/i2a4-xk9k/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/i2a4-xk9k/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/i2a4-xk9k/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1M",
+            "theme": [
+                "Public Health Surveillance"
+            ],
+            "language": [
+                "en-US"
             ]
         },
         {
@@ -33795,9 +33866,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2023-07-18",
+            "issued": "2023-08-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-11",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -34350,9 +34421,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2023-07-19",
+            "issued": "2023-08-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-11",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -35788,7 +35859,8 @@
             ],
             "issued": "2016-11-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-01",
+            "temporal": "2021-01-01/2023-03-31",
+            "modified": "2023-08-07",
             "keyword": [
                 "causes of death",
                 "deaths",
@@ -38769,7 +38841,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-07-29",
-            "modified": "2023-08-02",
+            "modified": "2023-08-09",
             "keyword": [
                 "age",
                 "age group",
@@ -39000,7 +39072,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-04",
+            "modified": "2023-08-11",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -39458,7 +39530,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-11",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -41078,7 +41150,7 @@
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-08-02",
+            "modified": "2023-08-09",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -41680,7 +41752,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-04/2023-07-22",
-            "modified": "2023-08-02",
+            "modified": "2023-08-09",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -43770,7 +43842,7 @@
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-11",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -44512,7 +44584,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-03",
+            "modified": "2023-08-10",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -48750,7 +48822,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-08-01",
-            "modified": "2023-08-04",
+            "modified": "2023-08-11",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -50014,7 +50086,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-01",
+            "modified": "2023-08-11",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -51621,7 +51693,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-24",
+            "modified": "2023-08-10",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -53217,7 +53289,7 @@
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-08-02",
+            "modified": "2023-08-09",
             "keyword": [
                 "age",
                 "age group",
@@ -55963,7 +56035,7 @@
             ],
             "issued": "2020-05-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-17",
+            "modified": "2023-08-08",
             "references": [
                 "https://www.cms.gov/files/document/Accelerated-and-Advanced-Payments-Fact-Sheet.pdf"
             ],
@@ -60792,7 +60864,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-03",
+            "modified": "2023-08-10",
             "keyword": [
                 "2022",
                 "2023",
@@ -63786,7 +63858,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-03",
+            "modified": "2023-08-10",
             "keyword": [
                 "age",
                 "age group",
