@@ -147,7 +147,7 @@
             "issued": "2021-11-17",
             "temporal": "2019/2020",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-17",
+            "modified": "2023-08-21",
             "keyword": [
                 "nhis",
                 "summary health statistics"
@@ -591,7 +591,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-17",
+            "modified": "2023-08-24",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -856,13 +856,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/2dwv-vfam",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -918,6 +918,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-Tobacco-Legislation-Tax/2dwv-vfam",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -930,7 +931,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-20",
+            "modified": "2023-08-27",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1369,13 +1370,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/2snk-eav4",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "legislation",
                 "osh",
@@ -1428,6 +1429,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-Tobacco-Legislation-Smokefree-Ind/2snk-eav4",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -1493,13 +1495,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/2t2r-sf6s",
+            "landingPage": "https://www.cdc.gov/visionhealth/vehss/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "http://www.cdc.gov/nchs/nhis/about_nhis.htm",
                 "https://www.cdc.gov/visionhealth/vehss/data/national-surveys/national-health-interview-survey.html"
@@ -1556,6 +1558,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Vision-Eye-Health/National-Health-Interview-Survey-NHIS-Vision-and-E/2t2r-sf6s",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Vision & Eye Health"
             ]
@@ -1700,13 +1703,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/32fd-hyzc",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "legislation",
                 "osh",
@@ -1759,6 +1762,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-Tobacco-Legislation-Smokefree-Ind/32fd-hyzc",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -1890,13 +1894,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/3596-ayf6",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/i54f-wv8z"
             ],
@@ -1966,6 +1970,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Survey-Data/Youth-Risk-Behavioral-Surveillance-System-YRBSS-Da/3596-ayf6",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Survey Data"
             ]
@@ -2034,13 +2039,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/373s-ayzu",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-10-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -2133,7 +2138,7 @@
             "issued": "2023-07-06",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-01/-",
-            "modified": "2023-08-17",
+            "modified": "2023-08-21",
             "references": [
                 "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -3214,9 +3219,33 @@
             "issued": "2021-09-14",
             "@type": "dcat:Dataset",
             "temporal": "2002-01-01/2018-12-31",
-            "modified": "2022-05-04",
+            "modified": "2023-08-23",
             "keyword": [
-                "healthy people 2020"
+                "healthy people 2020",
+                "sdoh-access-to-health-care",
+                "sdoh-civic-participation",
+                "sdoh-crime-violence",
+                "sdoh-discrimination",
+                "sdoh-early-childhood",
+                "sdoh-employment",
+                "sdoh-environmental",
+                "sdoh-food-access",
+                "sdoh-food-insecurity",
+                "sdoh-health-literacy",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-housing-quality",
+                "sdoh-housing-stability",
+                "sdoh-incarceration",
+                "sdoh-language",
+                "sdoh-literacy",
+                "sdoh-poverty-income",
+                "sdoh-racism",
+                "sdoh-social-emotional",
+                "sdoh-source-of-health-care",
+                "sdoh-transportation",
+                "sdoh-use-of-health-care",
+                "sdoh-workplace"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -4394,13 +4423,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/48mw-5apu",
+            "landingPage": "https://www.cdc.gov/dhdsp/maps/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-24",
             "keyword": [
                 "cardiovascular disease",
                 "county",
@@ -4408,12 +4437,12 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
+                "fn": "DHDSP Requests",
                 "hasEmail": "mailto:cdcinfo@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/48mw-5apu",
             "description": "2014 to 2016, 3-year average. Rates are age-standardized. County rates are spatially smoothed. The data can be viewed by gender and race/ethnicity. Data source: National Vital Statistics System. Additional data, maps, and methodology can be viewed on the Interactive Atlas of Heart Disease and Stroke http://www.cdc.gov/dhdsp/maps/atlas",
@@ -4449,6 +4478,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/odbl/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
@@ -4523,13 +4553,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/4ai3-zynv",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-09-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -4942,13 +4972,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/4juz-x2tp",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/i6st-vu2f"
             ],
@@ -5020,6 +5050,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Survey-Data/Youth-Tobacco-Survey-YTS-Data/4juz-x2tp",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Survey Data"
             ]
@@ -5093,13 +5124,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/4r3g-hv9c",
+            "landingPage": "https://www.cdc.gov/visionhealth/vehss/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.vsp.com",
                 "https://www.cdc.gov/visionhealth/vehss/data/claims/vsp.html"
@@ -5153,6 +5184,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Vision-Eye-Health/Vision-Service-Plan-VSP-Vision-and-Eye-Health-Surv/4r3g-hv9c",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Vision & Eye Health"
             ]
@@ -5411,7 +5443,7 @@
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-07-29",
-            "modified": "2023-08-16",
+            "modified": "2023-08-23",
             "keyword": [
                 "age",
                 "age group",
@@ -5483,14 +5515,14 @@
             ]
         },
         {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/4xf6-nrwk",
+            "accessLevel": "non-public",
+            "landingPage": "http://www.cdc.gov/STATESystem",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "adult",
                 "gats",
@@ -5614,13 +5646,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/4y6p-yphk",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/idgn-d2g2"
             ],
@@ -5707,6 +5739,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Survey-Data/Tobacco-Use-Supplement-to-the-Current-Population-S/4y6p-yphk",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Survey Data"
             ]
@@ -5927,13 +5960,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/4yyu-3s69",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "osh",
                 "sam",
@@ -5983,6 +6016,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Health Consequences and Costs"
             ]
@@ -6484,14 +6518,14 @@
             ]
         },
         {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/57qw-ifet",
+            "accessLevel": "non-public",
+            "landingPage": "http://www.cdc.gov/STATESystem",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "global",
                 "gtss",
@@ -7086,14 +7120,14 @@
             ]
         },
         {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/5hns-mwci",
+            "accessLevel": "non-public",
+            "landingPage": "http://www.cdc.gov/STATESystem",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "gsps",
                 "gtss",
@@ -7366,7 +7400,7 @@
             ],
             "issued": "2022-04-20",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-19",
+            "modified": "2023-08-26",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -7424,13 +7458,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/5mtz-k78d",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -7785,13 +7819,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/5svk-8bnq",
+            "landingPage": "https://www.cdc.gov/dhdsp/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-11",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -8416,13 +8450,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/66cx-b9a4",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -8484,6 +8518,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Quitline/Quitline-Services-Available-Counseling-2010-To-Pre/66cx-b9a4",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Quitline"
             ]
@@ -9830,13 +9865,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/6vp6-wxuq",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -10017,13 +10052,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/6x7h-usvx",
+            "landingPage": "https://www.cdc.gov/dhdsp/maps/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2020-04-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-24",
             "keyword": [
                 "cardiovascular",
                 "cardiovascular disease",
@@ -10034,12 +10069,12 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "DHDSP Requests",
+                "hasEmail": "mailto:dhdsprequests@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/6x7h-usvx",
             "description": "2016 to 2018, 3-year average. Rates are age-standardized. County rates are spatially smoothed. The data can be viewed by gender and race/ethnicity. Data source: National Vital Statistics System. Additional data, maps, and methodology can be viewed on the Interactive Atlas of Heart Disease and Stroke http://www.cdc.gov/dhdsp/maps/atlas",
@@ -10075,6 +10110,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
@@ -10212,13 +10248,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/735e-byxc",
+            "landingPage": "http://www.cdc.gov/nccdphp/DNPAO/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/nccdphp/dnpao/index.html"
             ],
@@ -10628,13 +10664,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/7b9s-s8ck",
+            "landingPage": "https://www.cdc.gov/dhdsp/maps/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-02-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-24",
             "keyword": [
                 "cardiovascular",
                 "cardiovascular disease",
@@ -10646,8 +10682,8 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "DHDSP Requests",
+                "hasEmail": "mailto:dhdsprequests@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -10687,6 +10723,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
@@ -10701,7 +10738,7 @@
             "issued": "2023-07-06",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-01/-",
-            "modified": "2023-08-17",
+            "modified": "2023-08-21",
             "references": [
                 "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -10767,13 +10804,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/7dvv-y64a",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -10835,6 +10872,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Quitline/Quitline-7-Month-Follow-Up-Not-Comparable-Across-S/7dvv-y64a",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Quitline"
             ]
@@ -11294,13 +11332,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/7nwe-3aj9",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/fip8-rcng"
             ],
@@ -11356,6 +11394,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Policy/The-Tax-Burden-on-Tobacco-1970-2018/7nwe-3aj9",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Policy"
             ]
@@ -12073,13 +12112,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/8235-5d73",
+            "landingPage": "http://www.cdc.gov/oralhealth/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/oralhealthdata/"
             ],
@@ -12135,6 +12174,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Oral-Health/Water-Fluoridation-Statistics-Percent-of-PWS-popul/8235-5d73",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Oral Health"
             ]
@@ -12149,7 +12189,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 -",
-            "modified": "2023-08-15",
+            "modified": "2023-08-21",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -12173,7 +12213,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/82ci-krud",
-            "description": "<b>Note:</b>\n<b>August 14, 2023:</b> Due to incomplete or missing hospital data received for the July 30, 2023 through August 5, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on August 14, 2023.\n\n<b>August 14, 2023:</b> Due to incomplete or missing hospital data received for the July 30, 2023 through August 5, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on August 14, 2023.\n\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States as of the initial date of reporting for each weekly metric. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>\u2022\tAs of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions,",
+            "description": "<b>Note:</b>\n<b>August 21, 2023:</b> Due to incomplete or missing hospital data received for the August 6, 2023, through August 12, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on August 21, 2023.\n\n<b>August 21, 2023:</b> Due to incomplete or missing hospital data received for the August 6, 2023, through August 12, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on August 21, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States as of the initial date of reporting for each weekly metric. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>\u2022\tAs of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admiss",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County (Historical)",
             "programCode": [
                 "009:020"
@@ -12487,13 +12527,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/88eg-qzed",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -12546,6 +12586,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -12941,13 +12982,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/8hus-y5nc",
+            "landingPage": "http://www.cdc.gov/nccdphp/DNPAO/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-06-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-17",
+            "modified": "2023-08-25",
             "keyword": [
                 "breastfeeding",
                 "nutrition physical activity and weight status",
@@ -12960,7 +13001,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/8hus-y5nc",
             "description": "Community-Based Survey of Supports for Healthy Eating and Active Living (CBS HEAL) is a CDC survey of a nationally representative sample of U.S. municipalities to better understand existing community-level policies and practices that support healthy eating and active living. The survey collects information about policies such as nutrition standards, incentives for healthy food retail, bike/pedestrian-friendly design, and Complete Streets. About 2,000 municipalities respond to the survey. Participating municipalities receive a report that allows them to compare their policies and practices with other municipalities of similar geography, population size, and urban status.\n\nThe CBS HEAL survey was first administered in 2014 and was administered again in 2021. Data is provided in multiple formats for download including as a SAS file. A methods report and a SAS program for formatting the data are also provided.",
@@ -13003,13 +13044,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/8hxn-cvik",
+            "landingPage": "http://www.cdc.gov/nccdphp/DNPAO/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/breastfeeding/data/nis_data/index.htm"
             ],
@@ -13248,13 +13289,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/8mrp-rmkw",
+            "landingPage": "http://www.cdc.gov/nccdphp/DNPAO/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/nccdphp/dnpao/index.html"
             ],
@@ -14115,13 +14156,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/8zea-kwnt",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/sfei-pddr"
             ],
@@ -14177,6 +14218,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-E-Cigarette-Legislation-Youth-Acc/8zea-kwnt",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -14947,7 +14989,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-07-29",
-            "modified": "2023-08-16",
+            "modified": "2023-08-23",
             "keyword": [
                 "age",
                 "age group",
@@ -15019,13 +15061,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/9cr5-2tt7",
+            "landingPage": "https://www.cdc.gov/dhdsp/maps/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-03-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-24",
             "keyword": [
                 "cardiovascular",
                 "cardiovascular disease",
@@ -15038,12 +15080,12 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "DHDSP Requests",
+                "hasEmail": "mailto:dhdsprequests@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/9cr5-2tt7",
             "description": "This dataset documents rates and trends in local coronary heart disease (CHD) and stroke death rates. Specifically, this report presents county (or county equivalent) estimates of stroke and CHD death rates in 1999-2018 and trends during three intervals (1999-2005, 2005-2011, 2011-2018) by age group (ages 35\u201364 and 65 and older). The rates and trends were estimated using a Bayesian spatiotempotal model and a smoothed over space, time, and age group. Rates are age-standardized. Data source: National Vital Statistics System.",
@@ -15079,6 +15121,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
@@ -15158,7 +15201,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-26",
+            "modified": "2023-08-23",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -15458,7 +15501,7 @@
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-08-16",
+            "modified": "2023-08-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -16396,13 +16439,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/9xb7-9z99",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-10-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -16816,13 +16859,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/a35h-9yn4",
+            "landingPage": "https://www.cdc.gov/visionhealth/vehss/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://wwwdev.cdc.gov/visionhealth/vehss/data/claims/marketscan.html",
                 "https://marketscan.truvenhealth.com/marketscanportal/"
@@ -16880,6 +16923,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Vision-Eye-Health/Shell-Commercial-Medical-Insurance-MSCANCC-Vision-/a35h-9yn4",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Vision & Eye Health"
             ]
@@ -17341,13 +17385,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/acme-vg9e",
+            "landingPage": "https://www.cdc.gov/brfss/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "...",
                 "behavioral",
@@ -17364,7 +17408,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/acme-vg9e",
             "description": "2002-2010. BRFSS SMART County Prevalence land line only data. The Selected Metropolitan Area Risk Trends (SMART) project uses the Behavioral Risk Factor Surveillance System (BRFSS) to analyze the data of selected counties with 500 or more respondents. BRFSS data can be used to identify emerging health problems, establish and track health objectives, and develop and evaluate public health policies and programs. BRFSS is a continuous, state-based surveillance system that collects information about modifiable risk factors for chronic diseases and other leading causes of death. Data will be updated annually as it becomes available. Detailed information on sampling methodology and quality assurance can be found on the BRFSS website (http://www.cdc.gov/brfss). Methodology: http://www.cdc.gov/brfss/factsheets/pdf/DBS_BRFSS_survey.pdf Glossary: https://chronicdata.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-H/iuq5-y9ct/data",
@@ -17400,19 +17444,20 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "https://www.usa.gov/government-works",
             "theme": [
                 "Behavioral Risk Factors"
             ]
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/aemk-wcbf",
+            "landingPage": "http://www.cdc.gov/oralhealth/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/oralhealthdata/"
             ],
@@ -17890,7 +17935,7 @@
             "issued": "2023-05-25",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 \u2013",
-            "modified": "2023-08-15",
+            "modified": "2023-08-21",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -17914,7 +17959,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/akn2-qxic",
-            "description": "<b>Note:</b>\n<b>August 14, 2023:</b> Due to incomplete or missing hospital data received for the July 30, 2023 through August 5, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on August 14, 2023 .\n\n<b>August 14, 2023:</b> Due to incomplete or missing hospital data received for the July 30, 2023 through August 5, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on August 14, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy among",
+            "description": "<b>Note:</b>\n<b>August 21, 2023:</b> Due to incomplete or missing hospital data received for the August 6, 2023, through August 12, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on August 21, 2023.\n\n<b>August 21, 2023:</b> Due to incomplete or missing hospital data received for the August 6, 2023, through August 12, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on August 21, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy a",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County",
             "programCode": [
                 "009:020"
@@ -18671,15 +18716,20 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/b2jx-uyck",
+            "landingPage": "http://www.cdc.gov/STATESystem",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-22",
             "references": [
                 "https://chronicdata.cdc.gov/d/mhj9-4wi2"
+            ],
+            "keyword": [
+                "age by sex",
+                "census estimates",
+                "osh"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -19409,13 +19459,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/bdsk-unrd",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -20252,7 +20302,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-20",
+            "modified": "2023-08-27",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -20446,13 +20496,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/bwx3-gx66",
+            "landingPage": "https://www.cdc.gov/visionhealth/vehss/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2019-11-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://wwwdev.cdc.gov/visionhealth/vehss/data/claims/medicaid.html",
                 "https://www.medicaid.gov/medicaid/index.html"
@@ -20511,6 +20561,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Vision-Eye-Health/Private-Medicaid-Claims-MAX-Vision-and-Eye-Health-/bwx3-gx66",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Vision & Eye Health"
             ]
@@ -20671,13 +20722,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/c76y-7pzg",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -21334,13 +21385,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/cj8b-94cj",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-10-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -21652,14 +21703,14 @@
             ]
         },
         {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/cpem-dkkm",
+            "accessLevel": "non-public",
+            "landingPage": "https://www.cdc.gov/brfss/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/brfss/"
             ],
@@ -22118,13 +22169,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/cwsq-ngmh",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -23004,13 +23055,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/de4p-4g3k",
+            "landingPage": "https://www.cdc.gov/visionhealth/vehss/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "http://childhealthdata.org/learn/NSCH",
                 "https://www.cdc.gov/visionhealth/vehss/data/national-surveys/national-survey-of-childrens-health.html"
@@ -23066,19 +23117,20 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/d/de4p-4g3k",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Vision & Eye Health"
             ]
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/dhsy-4sea",
+            "landingPage": "https://www.cdc.gov/dhdsp/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -23202,13 +23254,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/djk3-k3zs",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2018-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -23375,7 +23427,7 @@
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-08-16",
+            "modified": "2023-08-23",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -23988,18 +24040,17 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/dttw-5yxu",
+            "landingPage": "https://www.cdc.gov/brfss/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-23",
             "references": [
                 "http://www.cdc.gov/brfss"
             ],
             "keyword": [
-                "...",
                 "behavioral",
                 "brfss",
                 "factor",
@@ -24057,13 +24108,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/duw2-7jbt",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -24129,13 +24180,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/dv4u-3x3q",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-09-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -24384,13 +24435,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/dxic-z9nz",
+            "landingPage": "https://www.cdc.gov/alcohol/ardi/methods.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-03-10",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-22",
             "keyword": [
                 "aad",
                 "aaf",
@@ -24405,7 +24456,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "CDC Info"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/dxic-z9nz",
             "description": "ARDI is an online application that provides national and state estimates of alcohol-related health impacts, including deaths and years of potential life lost (YPLL). These estimates are calculated for 58 acute and chronic causes using alcohol-attributable fractions, and are reported by age and sex for 2015-2019. This dataset provides estimates of the proportion of deaths from various causes that are attributable to alcohol.",
@@ -24447,13 +24498,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/dxpw-cm5u",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2017-12-04",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -24587,13 +24638,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/e28h-tx85",
+            "landingPage": "https://www.cdc.gov/visionhealth/vehss/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.resdac.org",
                 "https://www.cdc.gov/visionhealth/vehss/data/claims/medicare.html"
@@ -24650,6 +24701,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/d/e28h-tx85",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Vision & Eye Health"
             ]
@@ -25180,13 +25232,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/eav7-hnsx",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2020-12-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -25254,13 +25306,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/eb4y-d4ic",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "legislation",
                 "licensure",
@@ -25313,6 +25365,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-Tobacco-Legislation-Licensure/eb4y-d4ic",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -25454,7 +25507,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-20",
+            "modified": "2023-08-24",
             "keyword": [
                 "adolescent vaccination",
                 "hepb",
@@ -26177,13 +26230,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/epbn-9bv3",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -26316,13 +26369,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/equ4-92qe",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -26384,19 +26437,20 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Quitline/Quitline-Service-Utilization-2010-To-Present/equ4-92qe",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Quitline"
             ]
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/escb-scz6",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/p8tr-pquj"
             ],
@@ -26451,6 +26505,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Policy/SAMHSA-Synar-Reports-Youth-Tobacco-Sales/escb-scz6",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Policy"
             ]
@@ -26745,13 +26800,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ezab-8sq5",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "osh",
                 "sae",
@@ -26802,6 +26857,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Health-Consequences-and-Costs/Smoking-Attributable-Mortality-Morbidity-and-Econo/ezab-8sq5",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Health Consequences and Costs"
             ]
@@ -26902,9 +26958,10 @@
             "issued": "2022-01-14",
             "@type": "dcat:Dataset",
             "temporal": "2010-01-01/2018-12-31",
-            "modified": "2022-04-01",
+            "modified": "2023-08-23",
             "keyword": [
-                "healthy people 2020"
+                "healthy people 2020",
+                "sdoh-access-to-health-care"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -27000,13 +27057,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/fbbf-hgkc",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-09-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -27207,10 +27264,34 @@
             "issued": "2022-03-09",
             "@type": "dcat:Dataset",
             "temporal": "1997-01-01/2018-12-31",
-            "modified": "2022-04-20",
+            "modified": "2023-08-23",
             "keyword": [
                 "health disparities",
-                "healthy people 2020"
+                "healthy people 2020",
+                "sdoh-access-to-health-care",
+                "sdoh-civic-participation",
+                "sdoh-crime-violence",
+                "sdoh-discrimination",
+                "sdoh-early-childhood",
+                "sdoh-employment",
+                "sdoh-environmental",
+                "sdoh-food-access",
+                "sdoh-food-insecurity",
+                "sdoh-health-literacy",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-housing-quality",
+                "sdoh-housing-stability",
+                "sdoh-incarceration",
+                "sdoh-language",
+                "sdoh-literacy",
+                "sdoh-poverty-income",
+                "sdoh-racism",
+                "sdoh-social-emotional",
+                "sdoh-source-of-health-care",
+                "sdoh-transportation",
+                "sdoh-use-of-health-care",
+                "sdoh-workplace"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -27329,13 +27410,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ffbi-is3j",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/sgg4-hiwe"
             ],
@@ -27391,6 +27472,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Policy/NAAG-Tobacco-Settlement-Payments/ffbi-is3j",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Policy"
             ]
@@ -27765,13 +27847,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/fpp2-pp25",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/5amh-5sx3"
             ],
@@ -27852,6 +27934,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Survey-Data/Behavioral-Risk-Factor-Data-Tobacco-Use-2010-And-P/fpp2-pp25",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Survey Data"
             ]
@@ -28120,13 +28203,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/fwns-azgu",
+            "landingPage": "https://www.cdc.gov/dhdsp/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-11",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -28651,13 +28734,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/g4ie-h725",
+            "landingPage": "https://www.cdc.gov/cdi/overview.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/mmwr/pdf/rr/rr6401.pdf"
             ],
@@ -28881,13 +28964,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/g5fg-bgtw",
+            "landingPage": "https://www.cdc.gov/dhdsp/maps/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-11-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-24",
             "keyword": [
                 "cardiovascular",
                 "cardiovascular disease",
@@ -28898,8 +28981,8 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "DHDSP Requests",
+                "hasEmail": "mailto:dhdsprequests@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -28939,6 +29022,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
@@ -28951,7 +29035,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-20",
+            "modified": "2023-08-27",
             "keyword": [
                 "wastewater"
             ],
@@ -29416,13 +29500,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/gd4x-jyhw",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -29996,7 +30080,7 @@
             "issued": "2023-06-06",
             "temporal": "Data from 2020-03-14 to present (posted starting 2023-06-06)",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-18",
+            "modified": "2023-08-24",
             "references": [
                 "https://covid.cdc.gov/covid-data-tracker/"
             ],
@@ -31320,13 +31404,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/hgv5-3wrn",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "legislation",
                 "osh",
@@ -31379,19 +31463,20 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-Tobacco-Legislation-Youth-Access/hgv5-3wrn",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/hhew-mxbt",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2017-08-23",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "centers for disease control and prevention",
                 "department of health and human services",
@@ -31444,19 +31529,20 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Healthy-People-2020/Healthy-People-2020-Tobacco-Use-Objectives/hhew-mxbt",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Healthy People 2020"
             ]
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/hj2x-85ya",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "legislation",
                 "osh",
@@ -31509,6 +31595,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-Tobacco-Legislation-Preemption-Su/hj2x-85ya",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -31588,7 +31675,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-07-26",
+            "modified": "2023-08-23",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -31687,7 +31774,7 @@
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-08-16",
+            "modified": "2023-08-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31960,13 +32047,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/hn4x-zwk7",
+            "landingPage": "http://www.cdc.gov/nccdphp/DNPAO/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/nccdphp/dnpao/index.html"
             ],
@@ -32095,7 +32182,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-06-15",
+            "modified": "2023-08-24",
             "keyword": [
                 "case",
                 "community transmission",
@@ -32761,13 +32848,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/i2vk-mgdh",
+            "landingPage": "https://www.cdc.gov/dhdsp/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -32960,13 +33047,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/i46a-9kgh",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -33325,13 +33412,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/i8t6-whzd",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -33343,7 +33430,7 @@
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "OSHData Support",
-                "hasEmail": "mailto:OSHData@cdc.gov"
+                "hasEmail": "mailto:nccdoshinquiries@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -33384,6 +33471,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-Tobacco-Legislation-Smokefree-Ind/2snk-eav4",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -33450,13 +33538,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ib3w-k9rq",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-09-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -33924,13 +34012,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ikwk-8git",
+            "landingPage": "https://www.cdc.gov/dhdsp/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-08-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-11",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -34140,13 +34228,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/isz8-idbx",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "fire safety",
                 "legislation",
@@ -34199,6 +34287,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-Tobacco-Legislation-Fire-Safety/isz8-idbx",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -34279,13 +34368,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/itia-u6fu",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -34338,6 +34427,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-E-Cigarette-Legislation-Smokefree/itia-u6fu",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -34479,13 +34569,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/iw6q-r3ja",
+            "landingPage": "https://www.cdc.gov/dhdsp/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-08-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-11",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -34795,13 +34885,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/iz9a-43bv",
+            "landingPage": "https://www.cdc.gov/alcohol/ardi/methods.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-02-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-22",
             "keyword": [
                 "aad",
                 "aaf",
@@ -34816,7 +34906,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/iz9a-43bv",
             "description": "ARDI is an online application that provides national and state estimates of alcohol-related health impacts, including deaths and years of potential life lost (YPLL). These estimates are calculated for 58 acute and chronic causes using alcohol-attributable fractions, and are reported by age and sex for 2015-2019. This estimates the total number of deaths attributable to alcohol.",
@@ -35330,10 +35420,34 @@
             "issued": "2022-03-09",
             "@type": "dcat:Dataset",
             "temporal": "1997-01-01/2018-12-31",
-            "modified": "2022-04-01",
+            "modified": "2023-08-23",
             "keyword": [
                 "health disparities",
-                "healthy people 2020"
+                "healthy people 2020",
+                "sdoh-access-to-health-care",
+                "sdoh-civic-participation",
+                "sdoh-crime-violence",
+                "sdoh-discrimination",
+                "sdoh-early-childhood",
+                "sdoh-employment",
+                "sdoh-environmental",
+                "sdoh-food-access",
+                "sdoh-food-insecurity",
+                "sdoh-health-literacy",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-housing-quality",
+                "sdoh-housing-stability",
+                "sdoh-incarceration",
+                "sdoh-language",
+                "sdoh-literacy",
+                "sdoh-poverty-income",
+                "sdoh-racism",
+                "sdoh-social-emotional",
+                "sdoh-source-of-health-care",
+                "sdoh-transportation",
+                "sdoh-use-of-health-care",
+                "sdoh-workplace"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -35502,13 +35616,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/jiwm-ppbh",
+            "landingPage": "https://www.cdc.gov/dhdsp/maps/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-11-01",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-24",
             "keyword": [
                 "cardiovascular",
                 "cardiovascular disease",
@@ -35519,8 +35633,8 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "DHDSP Requests",
+                "hasEmail": "mailto:dhdsprequests@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -35560,6 +35674,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
@@ -35642,13 +35757,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/jkcv-z5vp",
+            "landingPage": "https://www.cdc.gov/alcohol/ardi/methods.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-02-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-22",
             "keyword": [
                 "aad",
                 "aaf",
@@ -35658,12 +35773,12 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "cdcinfo@cdc.gov",
+                "fn": "CDC Info",
                 "hasEmail": "mailto:cdcinfo@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/jkcv-z5vp",
             "description": "ARDI is an online application that provides national and state estimates of alcohol-related health impacts, including deaths and years of potential life lost (YPLL). These estimates are calculated for 58 acute and chronic causes using alcohol-attributable fractions, and are reported by age and sex for 2015-2019. This dataset provides estimates of the proportion of deaths from various causes that are attributable to alcohol.",
@@ -36264,7 +36379,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-26",
+            "modified": "2023-08-23",
             "keyword": [
                 "age",
                 "age group",
@@ -36403,13 +36518,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/jz6n-v26y",
+            "landingPage": "http://www.cdc.gov/oralhealth/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-28",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/oralhealthdata/"
             ],
@@ -36545,13 +36660,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/k25u-mg9b",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -36723,13 +36838,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/k56w-7tny",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -36792,13 +36907,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/k5bc-k3g8",
+            "landingPage": "https://www.cdc.gov/healthyyouth/about/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "middle school",
                 "risk behavior",
@@ -36850,6 +36965,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Youth-Risk-Behaviors/DASH-Youth-Risk-Behavior-Surveillance-System-YRBSS/k5bc-k3g8",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Youth Risk Behaviors"
             ]
@@ -36996,13 +37112,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/k86t-wghb",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2017-12-04",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -37142,13 +37258,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/k8w5-7ju6",
+            "landingPage": "http://www.cdc.gov/nccdphp/DNPAO/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/nccdphp/dnpao/index.html"
             ],
@@ -37216,7 +37332,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-26",
+            "modified": "2023-08-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -37411,13 +37527,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/kee5-23sr",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -37553,13 +37669,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/kgsi-35re",
+            "landingPage": "https://www.cdc.gov/dhdsp/maps/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-24",
             "keyword": [
                 "cardiovascular disease",
                 "cerebrovascular disease",
@@ -37568,12 +37684,12 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "DHDSP Requests",
+                "hasEmail": "mailto:dhdsprequests@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/kgsi-35re",
             "description": "2014 to 2016, 3-year average. Rates are age-standardized. County rates are spatially smoothed. The data can be viewed by gender and race/ethnicity. Data source: National Vital Statistics System. Additional data, maps, and methodology can be viewed on the Interactive Atlas of Heart Disease and Stroke http://www.cdc.gov/dhdsp/maps/atlas",
@@ -37609,6 +37725,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/odbl/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
@@ -37621,7 +37738,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-20",
+            "modified": "2023-08-23",
             "keyword": [
                 "cares act",
                 "health system",
@@ -38298,13 +38415,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/kmvs-jkvx",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-10-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -38696,13 +38813,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/kpwh-eddm",
+            "landingPage": "https://www.cdc.gov/dhdsp/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -38903,7 +39020,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-07-29",
-            "modified": "2023-08-16",
+            "modified": "2023-08-23",
             "keyword": [
                 "age",
                 "age group",
@@ -39054,13 +39171,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/kucs-wizg",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2018-10-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -39134,7 +39251,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-18",
+            "modified": "2023-08-25",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -39261,13 +39378,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/kwbr-syv2",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -39320,6 +39437,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-E-Cigarette-Legislation-Tax/kwbr-syv2",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -39586,13 +39704,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/kztq-p2jf",
+            "landingPage": "https://www.cdc.gov/dhdsp/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-11",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -39655,13 +39773,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/m35w-spkz",
+            "landingPage": "https://www.cdc.gov/places/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-22",
             "keyword": [
                 "500 cities",
                 "places"
@@ -40234,13 +40352,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/mb5y-ytti",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-10-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -40553,13 +40671,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/mfvi-hkb9",
+            "landingPage": "https://www.cdc.gov/dhdsp/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "cardiovascular disease",
                 "county",
@@ -40568,12 +40686,12 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "DHDSP Requests",
+                "hasEmail": "mailto:dhdsprequests@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/mfvi-hkb9",
             "description": "2015 to 2017, 3-year average. Rates are age-standardized. County rates are spatially smoothed. The data can be viewed by gender and race/ethnicity. Data source: National Vital Statistics System. Additional data, maps, and methodology can be viewed on the Interactive Atlas of Heart Disease and Stroke http://www.cdc.gov/dhdsp/maps/atlas",
@@ -40609,6 +40727,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
@@ -41212,7 +41331,7 @@
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-08-16",
+            "modified": "2023-08-23",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -41605,13 +41724,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/mssc-ksj7",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-09-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -41814,7 +41933,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-04/2023-07-22",
-            "modified": "2023-08-16",
+            "modified": "2023-08-23",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -42529,13 +42648,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/n4v6-56e8",
+            "landingPage": "http://www.cdc.gov/tobacco/stateandcommunity/best_practices/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/f8gx-sdye"
             ],
@@ -42594,6 +42713,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Funding/CDC-Best-Practices-for-Comprehensive-Tobacco-Contr/n4v6-56e8",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Funding"
             ]
@@ -42969,13 +43089,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ndzg-9nmv",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-09-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -43039,13 +43159,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ne52-uraz",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -43098,6 +43218,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-E-Cigarette-Legislation-Licensure/ne52-uraz",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -43898,13 +44019,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ntny-77fx",
+            "landingPage": "https://www.cdc.gov/dhdsp/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-11",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -43967,13 +44088,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/nw2y-v4gm",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -44039,13 +44160,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/nxst-x9p4",
+            "landingPage": "http://www.cdc.gov/nccdphp/DNPAO/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "http://www.cdc.gov/nccdphp/DNPAO"
             ],
@@ -44646,7 +44767,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-17",
+            "modified": "2023-08-24",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -44704,13 +44825,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/pf7q-w24q",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2019-12-05",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -44886,13 +45007,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/piju-vf3p",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -44945,6 +45066,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-E-Cigarette-Legislation-Preemptio/piju-vf3p",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -44957,7 +45079,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-26",
+            "modified": "2023-08-23",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -45436,13 +45558,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/pqpp-u99h",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-10-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -45508,13 +45630,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/pttf-ck53",
+            "landingPage": "https://www.cdc.gov/visionhealth/vehss/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "diabetes",
                 "eye diseases",
@@ -46081,13 +46203,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/pxpe-pgrg",
+            "landingPage": "https://www.cdc.gov/healthyyouth/about/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "global",
                 "gshs",
@@ -46140,6 +46262,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Youth-Risk-Behaviors/DASH-Global-School-based-Student-Health-Survey-GSH/pxpe-pgrg",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Youth Risk Behaviors"
             ]
@@ -46285,13 +46408,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/q6p7-56au",
+            "landingPage": "https://www.cdc.gov/healthyyouth/about/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "high school",
                 "risk behavior",
@@ -46490,13 +46613,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/q8ig-wwk9",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-10-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -46629,13 +46752,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/q8xq-ygsk",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-09-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -46987,13 +47110,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/qcai-zfj9",
+            "landingPage": "http://www.cdc.gov/oralhealth",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/oralhealthdata/"
             ],
@@ -47057,6 +47180,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Oral-Health/NOHSS-Child-Indicators/qcai-zfj9",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Oral Health"
             ]
@@ -47199,13 +47323,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/qeru-k2y2",
+            "landingPage": "https://www.cdc.gov/visionhealth/vehss/estimates/amd-prevalence.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-22",
             "references": [
                 "JAMA-Opthalmology forthcoming",
                 "https://jamanetwork.com/journals/jamaophthalmology"
@@ -47272,7 +47396,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-26",
+            "modified": "2023-08-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47658,13 +47782,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/qnzd-25i4",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -48461,13 +48585,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/r35g-znws",
+            "landingPage": "https://www.cdc.gov/dhdsp/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/dhdsp/index.htm",
                 "https://www.cdc.gov/dhdsp/maps/dtm/data_sources.htm",
@@ -48884,7 +49008,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-08-01",
-            "modified": "2023-08-18",
+            "modified": "2023-08-25",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -49742,13 +49866,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/rja3-32tc",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -50009,13 +50133,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/rnvb-cpxx",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2018-10-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/vtwh-8kxg"
             ],
@@ -50075,6 +50199,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Policy/Adult-Tobacco-Consumption-In-The-U-S-2000-Present/rnvb-cpxx",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Policy"
             ]
@@ -50148,7 +50273,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-15",
+            "modified": "2023-08-22",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -50864,13 +50989,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/s6p7-fvbw",
+            "landingPage": "https://www.cdc.gov/dhdsp/maps/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-05-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-24",
             "keyword": [
                 "cardiovascular",
                 "cardiovascular disease",
@@ -50881,12 +51006,12 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "DHDSP Requests",
+                "hasEmail": "mailto:dhdsprequests@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/s6p7-fvbw",
             "description": "2017 to 2019, 3-year average. Rates are age-standardized. County rates are spatially smoothed. The data can be viewed by gender and race/ethnicity. Data source: National Vital Statistics System. Additional data, maps, and methodology can be viewed on the Interactive Atlas of Heart Disease and Stroke http://www.cdc.gov/dhdsp/maps/atlas",
@@ -50922,19 +51047,20 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/s85h-9xpy",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-10-11",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -51536,13 +51662,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/shc3-fzig",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -52253,13 +52379,20 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/svam-8dhg",
+            "landingPage": "https://www.cdc.gov/healthyyouth/data/yrbs/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-22",
+            "keyword": [
+                "behaviors",
+                "dash",
+                "youth risk",
+                "youth risk behavior surveillance system",
+                "yrbss"
+            ],
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "DASH Public Inquiries",
@@ -52310,13 +52443,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/swc5-untb",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -52511,13 +52644,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/tbfm-vbpp",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/3ahs-wye3"
             ],
@@ -52598,19 +52731,20 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Survey-Data/National-Adult-Tobacco-Survey-NATS-/tbfm-vbpp",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Survey Data"
             ]
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/tbyb-bvjd",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -52672,19 +52806,20 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Quitline/Quitline-Services-Available-Medications-2010-To-Pr/tbyb-bvjd",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Quitline"
             ]
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/tdbk-8ubw",
+            "landingPage": "https://www.cdc.gov/visionhealth/vehss/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/nchs/nhanes/index.htm",
                 "https://www.cdc.gov/visionhealth/vehss/data/national-surveys/national-health-and-nutrition-examination-survey.html"
@@ -52744,6 +52879,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Vision-Eye-Health/National-Health-and-Nutrition-Examination-Survey-N/tdbk-8ubw",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Vision & Eye Health"
             ]
@@ -53107,13 +53243,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/thir-stei",
+            "landingPage": "https://www.cdc.gov/visionhealth/vehss/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.census.gov/content/dam/Census/programs-surveys/acs/about/ACS_Information_Guide.pdf",
                 "https://www.cdc.gov/visionhealth/vehss/data/national-surveys/american-community-survey.html"
@@ -53168,19 +53304,20 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/d/thir-stei",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Vision & Eye Health"
             ]
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/tid6-xphm",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -53242,6 +53379,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Quitline/Quitline-Quitline-Names-and-Phone-Numbers/tid6-xphm",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Quitline"
             ]
@@ -53351,7 +53489,7 @@
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-08-16",
+            "modified": "2023-08-23",
             "keyword": [
                 "age",
                 "age group",
@@ -53423,13 +53561,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/tqwu-4a7k",
+            "landingPage": "https://www.cdc.gov/dhdsp/maps/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2020-04-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-24",
             "keyword": [
                 "cardiovascular",
                 "cardiovascular disease",
@@ -53440,12 +53578,12 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "DHDSP Requests",
+                "hasEmail": "mailto:dhdsprequests@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/tqwu-4a7k",
             "description": "2016 to 2018, 3-year average. Rates are age-standardized. County rates are spatially smoothed. The data can be viewed by gender and race/ethnicity. Data source: National Vital Statistics System. Additional data, maps, and methodology can be viewed on the Interactive Atlas of Heart Disease and Stroke http://www.cdc.gov/dhdsp/maps/atlas",
@@ -53481,6 +53619,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
@@ -54257,7 +54396,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-26",
+            "modified": "2023-08-23",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -54767,13 +54906,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/ua33-yiiu",
+            "landingPage": "https://www.cdc.gov/dhdsp/maps/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2021-05-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-24",
             "keyword": [
                 "cardiovascular",
                 "cardiovascular disease",
@@ -54784,12 +54923,12 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "DHDSP Requests",
+                "hasEmail": "mailto:dhdsprequests@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/ua33-yiiu",
             "description": "2017 to 2019, 3-year average. Rates are age-standardized. County rates are spatially smoothed. The data can be viewed by gender and race/ethnicity. Data source: National Vital Statistics System. Additional data, maps, and methodology can be viewed on the Interactive Atlas of Heart Disease and Stroke http://www.cdc.gov/dhdsp/maps/atlas",
@@ -54825,6 +54964,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
@@ -54891,13 +55031,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/uc9k-vc2j",
+            "landingPage": "https://www.cdc.gov/dhdsp/maps/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-02-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-24",
             "keyword": [
                 "cardiovascular",
                 "cardiovascular disease",
@@ -54908,8 +55048,8 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "DHDSP Requests",
+                "hasEmail": "mailto:dhdsprequests@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -54949,6 +55089,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
@@ -55492,13 +55633,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/uuui-fh3m",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -55829,13 +55970,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/v246-z5tb",
+            "landingPage": "https://www.cdc.gov/dhdsp/index.htm",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "cardiovascular disease",
                 "cerebrovascular disease",
@@ -55844,12 +55985,12 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "CDC INFO",
-                "hasEmail": "mailto:cdcinfo@cdc.gov"
+                "fn": "DHDSP Requests",
+                "hasEmail": "mailto:dhdsprequests@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/v246-z5tb",
             "description": "2015 to 2017, 3-year average. Rates are age-standardized. County rates are spatially smoothed. The data can be viewed by gender and race/ethnicity. Data source: National Vital Statistics System. Additional data, maps, and methodology can be viewed on the Interactive Atlas of Heart Disease and Stroke. \nhttp://www.cdc.gov/dhdsp/maps/atlas",
@@ -55885,6 +56026,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Heart Disease & Stroke Prevention"
             ]
@@ -56593,13 +56735,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/vba9-s8jp",
+            "landingPage": "http://www.cdc.gov/nccdphp/DNPAO/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/nccdphp/dnpao/index.html"
             ],
@@ -56803,13 +56945,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/vdgb-f9s3",
+            "landingPage": "http://www.cdc.gov/STATESystem",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2019-02-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-22",
             "keyword": [
                 "office on smoking and health",
                 "osh",
@@ -56824,7 +56966,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/vdgb-f9s3",
             "description": "1965, 1966, 1970, 1974-2015, 2017. Centers for Disease Control and Prevention (CDC). Office on Smoking and Health (OSH). Survey Questions (Tobacco Use). The QIT is a compilation of more than 7,000 historical tobacco-related survey questions from various state, national and international surveys.",
@@ -57002,13 +57144,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/vgc8-iyc4",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -57140,13 +57282,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/vkwg-yswv",
+            "landingPage": "https://www.cdc.gov/visionhealth/vehss/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/brfss",
                 "https://www.cdc.gov/visionhealth/vehss/data/national-surveys/behavioral-risk-factors-surveillance-system.html"
@@ -57201,19 +57343,20 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/d/vkwg-yswv",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Vision & Eye Health"
             ]
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/vm4m-idi8",
+            "landingPage": "http://www.cdc.gov/tobacco/stateandcommunity/best_practices/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "administration and management",
                 "best practices",
@@ -57270,6 +57413,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Funding"
             ]
@@ -57815,13 +57959,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/vtt8-av2v",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/h6kq-aiu7"
             ],
@@ -57883,6 +58027,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Quitline/Quitline-Services-Available-Hours-Of-Operation-And/vtt8-av2v",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Quitline"
             ]
@@ -58002,13 +58147,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/vurf-k5wr",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2018-12-04",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://academic.oup.com/aje/article/179/8/1025/109078",
                 "https://academic.oup.com/aje/article/182/2/127/93984",
@@ -58075,13 +58220,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/vw7y-v3uk",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "administration and management",
                 "allocation",
@@ -58151,19 +58296,20 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Funding"
             ]
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/vwmz-4ja3",
+            "landingPage": "http://www.cdc.gov/oralhealth/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/oralhealthdata/"
             ],
@@ -59266,13 +59412,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/wan8-w4er",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -59325,19 +59471,20 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-E-Cigarette-Legislation-Smokefree/wan8-w4er",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
         },
         {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/waxm-p5qv",
+            "accessLevel": "non-public",
+            "landingPage": "https://www.cdc.gov/brfss/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "...",
                 "behavioral",
@@ -59354,7 +59501,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/waxm-p5qv",
             "description": "2002-2010. BRFSS SMART MMSA Prevalence land line only data. The Selected Metropolitan Area Risk Trends (SMART) project uses the Behavioral Risk Factor Surveillance System (BRFSS) to analyze the data of selected metropolitan statistical areas (MMSAs) with 500 or more respondents. BRFSS data can be used to identify emerging health problems, establish and track health objectives, and develop and evaluate public health policies and programs. BRFSS is a continuous, state-based surveillance system that collects information about modifiable risk factors for chronic diseases and other leading causes of death. Data will be updated annually as it becomes available. Detailed information on sampling methodology and quality assurance can be found on the BRFSS website (http://www.cdc.gov/brfss). Methodology: http://www.cdc.gov/brfss/factsheets/pdf/DBS_BRFSS_survey.pdf Glossary: https://chronicdata.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-H/iuq5-y9ct/data",
@@ -59390,6 +59537,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Behavioral Risk Factors"
             ]
@@ -60161,13 +60309,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/wsas-xwh5",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/5amh-5sx3"
             ],
@@ -60249,6 +60397,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Survey-Data/Behavioral-Risk-Factor-Data-Tobacco-Use-2011-to-pr/wsas-xwh5",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Survey Data"
             ]
@@ -60576,14 +60725,14 @@
             ]
         },
         {
-            "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/x6ag-8y7r",
+            "accessLevel": "non-public",
+            "landingPage": "http://www.cdc.gov/STATESystem",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "keyword": [
                 "ghpss",
                 "gtss",
@@ -60648,9 +60797,33 @@
             "issued": "2022-01-22",
             "@type": "dcat:Dataset",
             "temporal": "1988-01-01/2019-12-31",
-            "modified": "2022-04-01",
+            "modified": "2023-08-23",
             "keyword": [
-                "healthy people 2020"
+                "healthy people 2020",
+                "sdoh-access-to-health-care",
+                "sdoh-civic-participation",
+                "sdoh-crime-violence",
+                "sdoh-discrimination",
+                "sdoh-early-childhood",
+                "sdoh-employment",
+                "sdoh-environmental",
+                "sdoh-food-access",
+                "sdoh-food-insecurity",
+                "sdoh-health-literacy",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-housing-quality",
+                "sdoh-housing-stability",
+                "sdoh-incarceration",
+                "sdoh-language",
+                "sdoh-literacy",
+                "sdoh-poverty-income",
+                "sdoh-racism",
+                "sdoh-social-emotional",
+                "sdoh-source-of-health-care",
+                "sdoh-transportation",
+                "sdoh-use-of-health-care",
+                "sdoh-workplace"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -60926,7 +61099,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-17",
+            "modified": "2023-08-25",
             "keyword": [
                 "2022",
                 "2023",
@@ -61421,7 +61594,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-08-20",
+            "modified": "2023-08-23",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -61566,7 +61739,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-26",
+            "modified": "2023-08-23",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -62022,13 +62195,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/xsta-sbh5",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -62084,6 +62257,7 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-Tobacco-Legislation-Preemption/xsta-sbh5",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
@@ -62601,13 +62775,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/xyst-f73f",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -62908,15 +63082,14 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/y4ft-s73h",
+            "landingPage": "https://www.cdc.gov/brfss/index.html3",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-22",
             "keyword": [
-                "...",
                 "behavioral",
                 "brfss",
                 "factor",
@@ -62930,7 +63103,7 @@
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/y4ft-s73h",
             "description": "1995-2010. BRFSS land line only prevalence data. BRFSS is a continuous, state-based surveillance system that collects information about modifiable risk factors for chronic diseases and other leading causes of death. Data will be updated annually as it becomes available. Detailed information on sampling methodology and quality assurance can be found on the BRFSS website (http://www.cdc.gov/brfss). Methodology: http://www.cdc.gov/brfss/factsheets/pdf/DBS_BRFSS_survey.pdf Glossary: https://chronicdata.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-H/iuq5-y9ct/data",
@@ -62966,6 +63139,7 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Behavioral Risk Factors"
             ]
@@ -63114,7 +63288,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-26",
+            "modified": "2023-08-23",
             "keyword": [
                 "age",
                 "age group",
@@ -63705,13 +63879,13 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/yhkp-cczf",
+            "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -63767,19 +63941,20 @@
                 }
             ],
             "describedBy": "https://chronicdata.cdc.gov/Legislation/CDC-STATE-System-Tobacco-Legislation-Smokefree-Cam/yhkp-cczf",
+            "license": "http://opendatacommons.org/licenses/by/1.0/",
             "theme": [
                 "Legislation"
             ]
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/yjkw-uj5s",
+            "landingPage": "http://www.cdc.gov/nccdphp/dph/",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-27",
+            "modified": "2023-08-25",
             "references": [
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
@@ -63920,7 +64095,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-17",
+            "modified": "2023-08-24",
             "keyword": [
                 "age",
                 "age group",
