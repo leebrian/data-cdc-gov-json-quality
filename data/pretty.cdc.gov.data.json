@@ -588,7 +588,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-14",
+            "modified": "2023-09-21",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -859,7 +859,7 @@
             ],
             "issued": "2023-07-14",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -928,7 +928,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-17",
+            "modified": "2023-09-24",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -1498,9 +1498,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2023-07-18",
+            "issued": "2023-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-21",
             "references": [
                 "http://www.cdc.gov/nchs/nhis/about_nhis.htm",
                 "https://www.cdc.gov/visionhealth/vehss/data/national-surveys/national-health-interview-survey.html"
@@ -1708,7 +1708,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "keyword": [
                 "legislation",
                 "osh",
@@ -2201,7 +2201,7 @@
             "issued": "2023-07-06",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-01/-",
-            "modified": "2023-09-11",
+            "modified": "2023-09-18",
             "references": [
                 "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -5192,9 +5192,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2023-07-18",
+            "issued": "2023-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-21",
             "references": [
                 "https://www.vsp.com",
                 "https://www.cdc.gov/visionhealth/vehss/data/claims/vsp.html"
@@ -5507,7 +5507,7 @@
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-07-29",
-            "modified": "2023-09-13",
+            "modified": "2023-09-20",
             "keyword": [
                 "age",
                 "age group",
@@ -5538,7 +5538,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/4va6-ph5s",
-            "description": "Deaths involving COVID-19, influenza, and pneumonia reported to NCHS by jurisdiction of occurrence, place of death, and age group.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nDeaths involving COVID-19, influenza, and pneumonia reported to NCHS by jurisdiction of occurrence, place of death, and age group.",
             "title": "Provisional COVID-19 Deaths by Place of Death and Age",
             "programCode": [
                 "009:020"
@@ -5573,7 +5573,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -6127,6 +6127,71 @@
                     "downloadURL": "https://data.cdc.gov/download/4zc2-9ujh/application/pdf",
                     "mediaType": "application/pdf"
                 }
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/4zxn-f9dq",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-08-15",
+            "temporal": "2020-03-01/Present",
+            "@type": "dcat:Dataset",
+            "modified": "2023-09-20",
+            "keyword": [
+                "cases",
+                "coronavirus",
+                "covid-19",
+                "healthcare personnel",
+                "healthcare workers"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Coronavirus and Other Respiratory Viruses Division (CORVD)",
+                "hasEmail": "mailto:eocevent333@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/4zxn-f9dq",
+            "description": "Weekly cases among healthcare personnel, by week\n\n<b>Note:</b> Rows marked by \"missing date fields\" represent healthcare worker cases that were not associated with a date.",
+            "title": "COVID-19 Cases Among Healthcare Personnel, by week",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/4zxn-f9dq/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/4zxn-f9dq/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4zxn-f9dq/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/4zxn-f9dq/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4zxn-f9dq/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/4zxn-f9dq/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4zxn-f9dq/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "theme": [
+                "Case Surveillance"
             ]
         },
         {
@@ -10802,7 +10867,7 @@
             "issued": "2023-07-06",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-01/-",
-            "modified": "2023-09-11",
+            "modified": "2023-09-18",
             "references": [
                 "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -12253,7 +12318,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 -",
-            "modified": "2023-09-12",
+            "modified": "2023-09-18",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -12277,7 +12342,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/82ci-krud",
-            "description": "<b>Note:</b>\n<b>September 11, 2023:</b> Due to incomplete or missing hospital data received for the August 27, 2023, through September 2, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 11, 2023.\n\n<b>September 11, 2023:</b> Due to incomplete or missing hospital data received for the August 27, 2023, through September 2, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 11, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States as of the initial date of reporting for each weekly metric. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>\u2022\tAs of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-leve",
+            "description": "<b>Note:</b>\n<b>September 18, 2023:</b> Due to incomplete or missing hospital data received for the September 3, 2023, through September 9, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 18, 2023.\n\n<b>September 18, 2023:</b> Due to incomplete or missing hospital data received for the September 3, 2023, through September 9, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 18, 2023.\n\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States as of the initial date of reporting for each weekly metric. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>\u2022\tAs of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County (Historical)",
             "programCode": [
                 "009:020"
@@ -12597,7 +12662,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -12746,7 +12811,7 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-18",
+            "modified": "2023-09-22",
             "keyword": [
                 "abcs",
                 "bactfacts"
@@ -14226,7 +14291,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "references": [
                 "https://chronicdata.cdc.gov/d/sfei-pddr"
             ],
@@ -14588,7 +14653,7 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-18",
+            "modified": "2023-09-22",
             "keyword": [
                 "abcs",
                 "bactfacts"
@@ -14638,6 +14703,77 @@
             ],
             "theme": [
                 "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://ephtracking.cdc.gov/DataExplorer/#/",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-09-19",
+            "temporal": "2016-2019",
+            "@type": "dcat:Dataset",
+            "modified": "2023-09-19",
+            "keyword": [
+                "air pollution",
+                "air quality",
+                "asthma",
+                "environmental health",
+                "national ambient air quality standards",
+                "national environmental health tracking network",
+                "particulate matter",
+                "pm2.5"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Craig Kassinger",
+                "hasEmail": "mailto:nephtrackingsupport@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/96sd-hxdt",
+            "description": "This dataset provides modeled predictions of PM2.5 levels from the EPA's Downscaler model. Data are at the census tract level for 2016-2019. These data are used by the CDC's National Environmental Public Health Tracking Network to generate air quality measures. Census tract-level datasets contain estimates of the mean predicted concentration and associated standard error. Please refer to the metadata attachment for more information. Learn more about outdoor air quality on the Tracking Network's website: https://ephtracking.cdc.gov/showAirLanding.action. By using these data, you signify your agreement to comply with the following requirements: 1. Use the data for statistical reporting and analysis only. 2. Do not attempt to learn the identity of any person included in the data and do not combine these data with other data for the purpose of matching records to identify individuals. 3. Do not disclose of or make use of the identity of any person or establishment discovered inadvertently and report the discovery to: trackingsupport@cdc.gov. 4. Do not imply or state, either in written or oral form, that interpretations based on the data are those of the original data sources and CDC unless the data user and data source are formally collaborating. 5. Acknowledge, in all reports or presentations based on these data, the original source of the data and CDC. 6. Suggested citation: Centers for Disease Control and Prevention. National Environmental Public Health Tracking Network. Web. Accessed: insert date. www.cdc.gov/ephtracking.",
+            "title": "Daily Census Tract-Level PM2.5 Concentrations, 2016 - 2019",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/96sd-hxdt/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/96sd-hxdt/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/96sd-hxdt/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/96sd-hxdt/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/96sd-hxdt/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/96sd-hxdt/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/96sd-hxdt/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "U.S. states",
+            "theme": [
+                "Environmental Health & Toxicology"
+            ],
+            "language": [
+                "English"
             ]
         },
         {
@@ -15053,7 +15189,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-07-29",
-            "modified": "2023-09-13",
+            "modified": "2023-09-20",
             "keyword": [
                 "age",
                 "age group",
@@ -15083,7 +15219,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/9bhg-hcku",
-            "description": "Deaths involving COVID-19, pneumonia, and influenza reported to NCHS by sex, age group, and jurisdiction of occurrence.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nDeaths involving COVID-19, pneumonia, and influenza reported to NCHS by sex, age group, and jurisdiction of occurrence.",
             "title": "Provisional COVID-19 Deaths by Sex and Age",
             "programCode": [
                 "009:020"
@@ -15118,7 +15254,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -15265,7 +15401,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-23",
+            "modified": "2023-09-21",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -15306,7 +15442,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/9dzk-mvmi",
-            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nProvisional counts of deaths by the month the death occurred and by select causes of death for 2020-2023.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nProvisional counts of deaths by the month the death occurred and by select causes of death for 2020-2023.",
             "title": "Monthly Provisional Counts of Deaths by Select Causes, 2020-2023",
             "programCode": [
                 "009:020"
@@ -15340,7 +15476,7 @@
                 }
             ],
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1M",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -15566,7 +15702,7 @@
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-09-13",
+            "modified": "2023-09-20",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -15591,7 +15727,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/9hdi-ekmb",
-            "description": "Deaths involving COVID-19 reported to NCHS by week and county Social Vulnerability Index (SVI) in the United States. SVI scores are from CDC/ASTDR's Geospatial Research, Analysis & Service Program 2018 database. These scores range from 0 to 1, and categorized as low (0-0.333), moderate (0.334-0.666) or high (0.667-1).\n\nMore information on SVI can be found here: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nDeaths involving COVID-19 reported to NCHS by week and county Social Vulnerability Index (SVI) in the United States. SVI scores are from CDC/ASTDR's Geospatial Research, Analysis & Service Program 2018 database. These scores range from 0 to 1, and categorized as low (0-0.333), moderate (0.334-0.666) or high (0.667-1).\n\nMore information on SVI can be found here: https://www.atsdr.cdc.gov/placeandhealth/svi/index.html",
             "title": "Provisional COVID-19 Deaths by Week and County Social Vulnerability Index",
             "programCode": [
                 "009:020"
@@ -15626,7 +15762,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -16660,7 +16796,7 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-18",
+            "modified": "2023-09-22",
             "keyword": [
                 "abcs",
                 "bactfacts"
@@ -16928,9 +17064,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2023-07-18",
+            "issued": "2023-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-21",
             "references": [
                 "https://wwwdev.cdc.gov/visionhealth/vehss/data/claims/marketscan.html",
                 "https://marketscan.truvenhealth.com/marketscanportal/"
@@ -18000,7 +18136,7 @@
             "issued": "2023-05-25",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 \u2013",
-            "modified": "2023-09-12",
+            "modified": "2023-09-18",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -18024,7 +18160,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/akn2-qxic",
-            "description": "<b>Note:</b>\n<b>September 11, 2023:</b> Due to incomplete or missing hospital data received for the August 27, 2023, through September 2, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 11, 2023.\n\n<b>September 11, 2023:</b> Due to incomplete or missing hospital data received for the August 27, 2023, through September 2, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 11, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capaci",
+            "description": "<b>Note:</b>\n<b>September 18, 2023:</b> Due to incomplete or missing hospital data received for the September 3, 2023, through September 9, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 18, 2023.\n\n<b>September 18, 2023:</b> Due to incomplete or missing hospital data received for the September 3, 2023, through September 9, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 18, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed ca",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County",
             "programCode": [
                 "009:020"
@@ -19858,6 +19994,84 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-09-22",
+            "@type": "dcat:Dataset",
+            "modified": "2023-09-22",
+            "keyword": [
+                "covid",
+                "covid19",
+                "covid-19",
+                "covidnet",
+                "covid-net",
+                "epi curve",
+                "hospitalizations",
+                "icu",
+                "in-hospital death",
+                "percent icu",
+                "percent in-hospital death",
+                "percent mechanically ventilated",
+                "respiratory illness",
+                "respiratory virus response",
+                "respnet",
+                "resp-net",
+                "surveillance"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Michael Whitaker",
+                "hasEmail": "mailto:pgn6@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/bigw-pgk2",
+            "description": "The Coronavirus Disease 2019 (COVID-19) Hospitalization Surveillance Network (COVID-NET) is designed to conduct population-based surveillance for laboratory-confirmed COVID-19-associated hospitalizations among children and adults.\n\nCOVID-NET, along with the Respiratory Syncytial Virus Hospitalization Surveillance Network (RSV-NET) and the Influenza Hospitalization Surveillance Network (FluSurv-NET), comprise the Respiratory Virus Hospitalization Surveillance Network (RESP-NET). The RESP-NET platforms have overlapping surveillance areas and use similar methods to collect data.\n\nCOVID-NET is CDC\u2019s source for important data on rates of hospitalizations associated with COVID-19. Hospitalization rates show how many people in the surveillance area are hospitalized with COVID-19, compared to the total number of people residing in that area.",
+            "title": "Clinical Characteristics of Laboratory-Confirmed COVID-19 Hospitalizations from the COVID-NET Surveillance System",
+            "programCode": [
+                "009:038"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/bigw-pgk2/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/bigw-pgk2/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/bigw-pgk2/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/bigw-pgk2/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/bigw-pgk2/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/bigw-pgk2/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/bigw-pgk2/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "COVID-NET Sites",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "bureauCode": [
                 "009:20"
             ],
@@ -20565,9 +20779,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2019-11-14",
+            "issued": "2023-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-21",
             "references": [
                 "https://wwwdev.cdc.gov/visionhealth/vehss/data/claims/medicaid.html",
                 "https://www.medicaid.gov/medicaid/index.html"
@@ -22381,7 +22595,7 @@
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-06",
+            "modified": "2023-09-20",
             "references": [
                 "http://www.cdc.gov/BRFSS/"
             ],
@@ -23124,9 +23338,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2023-07-19",
+            "issued": "2023-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-21",
             "references": [
                 "http://childhealthdata.org/learn/NSCH",
                 "https://www.cdc.gov/visionhealth/vehss/data/national-surveys/national-survey-of-childrens-health.html"
@@ -23492,7 +23706,7 @@
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-09-14",
+            "modified": "2023-09-21",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -23898,6 +24112,74 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://ephtracking.cdc.gov/DataExplorer/#/",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-09-19",
+            "temporal": "2001-2019",
+            "@type": "dcat:Dataset",
+            "modified": "2023-09-19",
+            "keyword": [
+                "air pollution",
+                "air quality",
+                "asthma",
+                "environmental health",
+                "national ambient air quality standards",
+                "national environmental health tracking network",
+                "particulate matter",
+                "pm2.5"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Craig Kassinger",
+                "hasEmail": "mailto:nephtrackingsupport@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/dqwm-pbi7",
+            "description": "This dataset provides modeled predictions of PM2.5 levels from the EPA's Downscaler model. Data are at the county level for 2001-2019. These data are used by the CDC's National Environmental Public Health Tracking Network to generate air quality measures. Census tract-level datasets contain estimates of the mean predicted concentration and associated standard error. Please refer to the metadata attachment for more information.\n\nLearn more about outdoor air quality on the Tracking Network's website: https://ephtracking.cdc.gov/showAirLanding.action.\n\nBy using these data, you signify your agreement to comply with the following requirements:\n1. Use the data for statistical reporting and analysis only.\n2. Do not attempt to learn the identity of any person included in the data and do not combine these data with other data for the purpose of matching records to identify individuals.\n3. Do not disclose of or make use of the identity of any person or establishment discovered inadvertently and report the discovery to: trackingsupport@cdc.gov.\n4. Do not imply or state, either in written or oral form, that interpretations based on the data are those of the original data sources and CDC unless the data user and data source are formally collaborating.\n5. Acknowledge, in all reports or presentations based on these data, the original source of the data and CDC.\n6. Suggested citation: Centers for Disease Control and Prevention. National Environmental Public Health Tracking Network. Web. Accessed: insert date. www.cdc.gov/ephtracking.",
+            "title": "Daily County-Level PM2.5 Concentrations, 2001-2019",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/dqwm-pbi7/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/dqwm-pbi7/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/dqwm-pbi7/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/dqwm-pbi7/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/dqwm-pbi7/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/dqwm-pbi7/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/dqwm-pbi7/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "U.S. states",
+            "theme": [
+                "Environmental Health & Toxicology"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/drfe-vxdh",
             "bureauCode": [
                 "009:00"
@@ -24115,7 +24397,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-23",
+            "modified": "2023-09-20",
             "references": [
                 "http://www.cdc.gov/brfss"
             ],
@@ -24713,7 +24995,7 @@
             ],
             "issued": "2021-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-21",
             "references": [
                 "https://www.resdac.org",
                 "https://www.cdc.gov/visionhealth/vehss/data/claims/medicare.html"
@@ -25381,7 +25663,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "keyword": [
                 "legislation",
                 "licensure",
@@ -26185,7 +26467,7 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-18",
+            "modified": "2023-09-22",
             "keyword": [
                 "abcs",
                 "bactfacts"
@@ -29104,7 +29386,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-17",
+            "modified": "2023-09-24",
             "keyword": [
                 "wastewater"
             ],
@@ -30199,7 +30481,7 @@
             "issued": "2023-06-06",
             "temporal": "Data from 2020-03-14 to present (posted starting 2023-06-06)",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-14",
+            "modified": "2023-09-21",
             "references": [
                 "https://covid.cdc.gov/covid-data-tracker/"
             ],
@@ -31390,6 +31672,77 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "nephtrackingsupport@cdc.gov",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-09-19",
+            "@type": "dcat:Dataset",
+            "temporal": "2016,2017,2018,2019",
+            "modified": "2023-09-19",
+            "keyword": [
+                "air pollution",
+                "air quality",
+                "asthma",
+                "environmental health",
+                "national ambient air quality standards",
+                "national environmental health tracking network",
+                "ozone"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Craig Kassinger",
+                "hasEmail": "mailto:nephtrackingsupport@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/hf2a-3ebq",
+            "description": "This dataset provides modeled predictions of ozone levels from the EPA's Downscaler model. Data are at the census tract level for 2016-2019. These data are used by the CDC's National Environmental Public Health Tracking Network to generate air quality measures. Census tract-level datasets contain estimates of the mean predicted concentration and associated standard error. Please refer to the metadata attachment for more information. Learn more about outdoor air quality on the Tracking Network's website: https://ephtracking.cdc.gov/showAirLanding.action. By using these data, you signify your agreement to comply with the following requirements: 1. Use the data for statistical reporting and analysis only. 2. Do not attempt to learn the identity of any person included in the data and do not combine these data with other data for the purpose of matching records to identify individuals. 3. Do not disclose of or make use of the identity of any person or establishment discovered inadvertently and report the discovery to: trackingsupport@cdc.gov. 4. Do not imply or state, either in written or oral form, that interpretations based on the data are those of the original data sources and CDC unless the data user and data source are formally collaborating. 5. Acknowledge, in all reports or presentations based on these data, the original source of the data and CDC. 6. Suggested citation: Centers for Disease Control and Prevention. National Environmental Public Health Tracking Network.Web. Accessed: insert date. www.cdc.gov/ephtracking.",
+            "title": "Daily Census Tract-Level Ozone Concentrations, 2016 - 2019",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/hf2a-3ebq/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/hf2a-3ebq/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hf2a-3ebq/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/hf2a-3ebq/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hf2a-3ebq/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/hf2a-3ebq/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/hf2a-3ebq/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "National",
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "Environmental Health & Toxicology"
+            ],
+            "language": [
+                "English"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/aging/index.html",
             "bureauCode": [
                 "009:20"
@@ -31529,7 +31882,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "keyword": [
                 "legislation",
                 "osh",
@@ -31661,7 +32014,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "keyword": [
                 "legislation",
                 "osh",
@@ -31794,7 +32147,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-08-23",
+            "modified": "2023-09-21",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -31844,7 +32197,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/hk9y-quqm",
-            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nThis dataset shows health conditions and contributing causes mentioned in conjunction with deaths involving coronavirus disease 2019 (COVID-19) by age group and jurisdiction of occurrence.\n\n2022 and 2023 data are provisional. Estimates for 2020 and 2021 are based on final data.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nThis dataset shows health conditions and contributing causes mentioned in conjunction with deaths involving coronavirus disease 2019 (COVID-19) by age group and jurisdiction of occurrence.\n\n2022 and 2023 data are provisional. Estimates for 2020 and 2021 are based on final data.",
             "title": "Conditions Contributing to COVID-19 Deaths, by State and Age, Provisional 2020-2023",
             "programCode": [
                 "009:020"
@@ -31879,7 +32232,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1M",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -31893,7 +32246,7 @@
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-09-13",
+            "modified": "2023-09-20",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -31917,7 +32270,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/hkhc-f7hg",
-            "description": "Provisional COVID-19 deaths by urbanicity and week. Deaths are based on the county of occurrence in the United States. Urbanicity is defined as metropolitan and non-metropolitan, based on the 2013 National Center for Health Statistics (NCHS) Urban-Rural Classification Scheme for Counties. Counties are classified as \u201cmetropolitan\u201d if they are large central metro, large fringe metro, medium metro or small metro; and \u201cnon-metropolitan\u201d if micropolitan or non-core.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nProvisional COVID-19 deaths by urbanicity and week. Deaths are based on the county of occurrence in the United States. Urbanicity is defined as metropolitan and non-metropolitan, based on the 2013 National Center for Health Statistics (NCHS) Urban-Rural Classification Scheme for Counties. Counties are classified as \u201cmetropolitan\u201d if they are large central metro, large fringe metro, medium metro or small metro; and \u201cnon-metropolitan\u201d if micropolitan or non-core.",
             "title": "Provisional COVID-19 Deaths by Week and Urbanicity",
             "programCode": [
                 "009:020"
@@ -31952,7 +32305,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -32301,7 +32654,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-09-14",
+            "modified": "2023-09-21",
             "keyword": [
                 "case",
                 "community transmission",
@@ -32320,7 +32673,7 @@
                 "name": "data.cdc.gov"
             },
             "identifier": "https://data.cdc.gov/api/views/hrdz-jaxc",
-            "description": "<b>Note:</b>\nAuthorizations to collect certain public health data expired at the end of the U.S. public health emergency declaration on May 11, 2023. The following jurisdictions discontinued COVID-19 case notifications to the CDC: Iowa (4/28/22), Kansas (5/12/23), New Hampshire (5/23/23), and Oklahoma (5/2/23). Please note that these jurisdictions will not routinely send new case data after the dates indicated.\n\n\nThis table summarizes COVID-19 case and death data submitted to CDC as case reports for the line-level dataset. Case and death counts are stratified according to sex, age, and race and ethnicity at regional and national levels. Data for US territories are included in case and death counts, but not population counts. Weekly cumulative counts with five or fewer cases or deaths are not reported to protect confidentiality of patients. Records with unknown or missing sex, age, or race and ethnicity and of multiple, non-Hispanic race and ethnicity are included in case and death totals. COVID-19 case and death data are provisional and are subject to change. Visualization of COVID-19 case and death rate trends by demographic variables may be viewed on COVID Data Tracker (<a href=\"https://covid.cdc.gov/covid-data-tracker/#demographicsovertime\">https://covid.cdc.gov/covid-data-tracker/#demographicsovertime</a>).",
+            "description": "<b>Note:</b>\nAuthorizations to collect certain public health data expired at the end of the U.S. public health emergency declaration on May 11, 2023. The following jurisdictions discontinued COVID-19 case notifications to the CDC: Iowa (4/28/22), Kansas (5/12/23), New Hampshire (5/23/23), and Oklahoma (5/2/23). Please note that these jurisdictions will not routinely send new case data after the dates indicated. As of 7/13/23, case notifications from Oregon will only include cases resulting in death.\n\n\nThis table summarizes COVID-19 case and death data submitted to CDC as case reports for the line-level dataset. Case and death counts are stratified according to sex, age, and race and ethnicity at regional and national levels. Data for US territories are included in case and death counts, but not population counts. Weekly cumulative counts with five or fewer cases or deaths are not reported to protect confidentiality of patients. Records with unknown or missing sex, age, or race and ethnicity and of multiple, non-Hispanic race and ethnicity are included in case and death totals. COVID-19 case and death data are provisional and are subject to change. Visualization of COVID-19 case and death rate trends by demographic variables may be viewed on COVID Data Tracker (<a href=\"https://covid.cdc.gov/covid-data-tracker/#demographicsovertime\">https://covid.cdc.gov/covid-data-tracker/#demographicsovertime</a>).",
             "title": "COVID-19 Weekly Cases and Deaths by Age, Race/Ethnicity, and Sex",
             "programCode": [
                 "009:020"
@@ -33534,7 +33887,7 @@
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "keyword": [
                 "ecigarette",
                 "legislation",
@@ -34350,7 +34703,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "keyword": [
                 "fire safety",
                 "legislation",
@@ -36495,7 +36848,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-23",
+            "modified": "2023-09-21",
             "keyword": [
                 "age",
                 "age group",
@@ -36522,7 +36875,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/jwta-jxbg",
-            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nThis visualization provides data that can be used to illustrate potential differences in the burden of deaths due to COVID-19 by race and ethnicity.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nThis visualization provides data that can be used to illustrate potential differences in the burden of deaths due to COVID-19 by race and ethnicity.",
             "title": "Distribution of COVID-19 Deaths and Populations, by Jurisdiction, Age, and Race and Hispanic Origin",
             "programCode": [
                 "009:020"
@@ -36557,7 +36910,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1M",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -37448,7 +37801,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-23",
+            "modified": "2023-09-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -37474,7 +37827,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/k8wy-p9cg",
-            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nCounty data on race and Hispanic origin is available for counties with more than 100 COVID-19 deaths.\u00a0Deaths are cumulative from the week ending January 4, 2020 to the most recent reporting week, and based on county of occurrence. Data is provisional. \n\nUrban-rural classification is based on the 2013 National Center for Health Statistics Urban-Rural Classification Scheme for Counties (https://www.cdc.gov/nchs/data_access/urban_rural.htm).",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nCounty data on race and Hispanic origin is available for counties with more than 100 COVID-19 deaths.\u00a0Deaths are cumulative from the week ending January 4, 2020 to the most recent reporting week, and based on county of occurrence. Data is provisional. \n\nUrban-rural classification is based on the 2013 National Center for Health Statistics Urban-Rural Classification Scheme for Counties (https://www.cdc.gov/nchs/data_access/urban_rural.htm).",
             "title": "Provisional COVID-19 Deaths by County, and Race and Hispanic Origin",
             "programCode": [
                 "009:020"
@@ -37509,7 +37862,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1M",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -37854,7 +38207,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-17",
+            "modified": "2023-09-21",
             "keyword": [
                 "cares act",
                 "health system",
@@ -39138,7 +39491,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-07-29",
-            "modified": "2023-09-13",
+            "modified": "2023-09-20",
             "keyword": [
                 "age",
                 "age group",
@@ -39168,7 +39521,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/ks3g-spdg",
-            "description": "Deaths involving COVID-19, pneumonia, and influenza reported to NCHS by race, age, and jurisdiction of occurrence.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nDeaths involving COVID-19, pneumonia, and influenza reported to NCHS by race, age, and jurisdiction of occurrence.",
             "title": "Provisional COVID-19 Deaths by Race and Hispanic Origin, and Age",
             "programCode": [
                 "009:020"
@@ -39203,7 +39556,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -39369,7 +39722,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-15",
+            "modified": "2023-09-22",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Michael Whitaker",
@@ -39502,7 +39855,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -40549,7 +40902,7 @@
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-09-07",
-            "modified": "2023-09-08",
+            "modified": "2023-09-21",
             "references": [
                 "https://data.cdc.gov/api/views/mbd7-r32t/files/180e9691-a5f0-47f0-aa28-1c16ab10d135?download=true&filename=public%2033%20utility%20summary.pdf"
             ],
@@ -40572,7 +40925,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/mbd7-r32t",
-            "description": "<b>Note:</b>\nAuthorizations to collect certain public health data expired at the end of the U.S. public health emergency declaration on May 11, 2023. The following jurisdictions discontinued COVID-19 case notifications to the CDC: Iowa (4/28/22), Kansas (5/12/23), New Hampshire (5/23/23), and Oklahoma (5/2/23). Please note that these jurisdictions will not routinely send new case data after the dates indicated.\n\n\nThis case surveillance publicly available dataset has 33 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors. This dataset requires a registration process and a data use agreement.\n<br>\n<h4><b>CDC has three COVID-19 case surveillance datasets:</b></h4>\n\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">COVID-19 Case Surveillance Public Use Data with Geography</a>: Public use, patient-level dataset with clinical data (including symptoms), demographics, and county and state of residence. (19 data elements) <br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">COVID-19 Case Surveillance Public Use Data</a>: Public use, patient-level dataset with clinical and symptom data and demographics, with no geographic data. (12 data elements)<br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">COVID-19 Case Surveillance Restricted Access Data</a>: Restricted access, patient-level dataset with clinical (including symptoms), demographics, and county and state of residence. Access requires a registration process and a data use agreement. (33 data elements)<br>\n\n<b>Requesting Access to the COVID-19 Case Surveillance Restricted Access Detailed Data</b>\n\nPlease review the following documents to determine your interest in accessing the COVID-19 Case Surveillance Restricted Access Detailed Data file:\n\n1) <a href=\"https://data.cdc.gov/api/views/mbd7-r32t/files/9aad836e-5aa5-4047-aa5c-15996becc87c?download=true&filename=summary_guidance_and_limitations_information_and_restricted_access_data_use_agreement_information_updated.pdf\">CDC COVID-19 Case Surveillance Restricted Access Detailed Data: Summary, Guidance, Limitations Information, and Restricted Access Data Use Agreement Information</a>\n\n2) <a href=\"https://data.cdc.gov/api/views/mbd7-r32t/files/4697b7f1-c0ea-403a-9583-6a02fd33a21c?download=true&filename=data_dictionary_covid_cases_restricted_detailed_updated.xlsx\">Data Dictionary for the COVID-19 Case Surveillance Restricted Access Detailed Data</a>\n\nThe next step is to complete the Registration Information and Data Use Restrictions Agreement (<a href=\"https://app.smartsheetgov.com/b/form/20e9cf9b42d04a92a67585043cf34fbe\">RIDURA</a>). Once complete, CDC will review your agreement. After access is granted, Ask SRRG (<a href=\"mailto:eocevent394@cdc.gov\">eocevent394@cdc.gov</a>) will email you information about how to access the data through GitHub. If you have questions about obtaining access, email <a href=\"mailto:eocevent394@cdc.gov\">eocevent394@cdc.gov</a>. \n\n\n<h4><b>Overview</b></h4>\n\nThe COVID-19 case surveillance database includes patient-level data reported by U.S. states and autonomous reporting entities, including New York City, the District of Columbia, as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://ndc.services.cdc.gov/search-results-year/\"> Nationally Notifiable Condition List </a> and classified as \u201cimmediately notifiable, urgent (within 24 hours)\u201d by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (<a href=\"https://cdn.ymaws.com/www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-01_COVID-19_NO.pdf\">Interim-20-ID-01</a>). CSTE updated the posi",
+            "description": "<b>Note:</b>\nAuthorizations to collect certain public health data expired at the end of the U.S. public health emergency declaration on May 11, 2023. The following jurisdictions discontinued COVID-19 case notifications to the CDC: Iowa (4/28/22), Kansas (5/12/23), New Hampshire (5/23/23), and Oklahoma (5/2/23). Please note that these jurisdictions will not routinely send new case data after the dates indicated. As of 7/13/23, case notifications from Oregon will only include cases resulting in death.\n\n\nThis case surveillance publicly available dataset has 33 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors. This dataset requires a registration process and a data use agreement.\n<br>\n<h4><b>CDC has three COVID-19 case surveillance datasets:</b></h4>\n\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">COVID-19 Case Surveillance Public Use Data with Geography</a>: Public use, patient-level dataset with clinical data (including symptoms), demographics, and county and state of residence. (19 data elements) <br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">COVID-19 Case Surveillance Public Use Data</a>: Public use, patient-level dataset with clinical and symptom data and demographics, with no geographic data. (12 data elements)<br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">COVID-19 Case Surveillance Restricted Access Data</a>: Restricted access, patient-level dataset with clinical (including symptoms), demographics, and county and state of residence. Access requires a registration process and a data use agreement. (33 data elements)<br>\n\n<b>Requesting Access to the COVID-19 Case Surveillance Restricted Access Detailed Data</b>\n\nPlease review the following documents to determine your interest in accessing the COVID-19 Case Surveillance Restricted Access Detailed Data file:\n\n1) <a href=\"https://data.cdc.gov/api/views/mbd7-r32t/files/9aad836e-5aa5-4047-aa5c-15996becc87c?download=true&filename=summary_guidance_and_limitations_information_and_restricted_access_data_use_agreement_information_updated.pdf\">CDC COVID-19 Case Surveillance Restricted Access Detailed Data: Summary, Guidance, Limitations Information, and Restricted Access Data Use Agreement Information</a>\n\n2) <a href=\"https://data.cdc.gov/api/views/mbd7-r32t/files/4697b7f1-c0ea-403a-9583-6a02fd33a21c?download=true&filename=data_dictionary_covid_cases_restricted_detailed_updated.xlsx\">Data Dictionary for the COVID-19 Case Surveillance Restricted Access Detailed Data</a>\n\nThe next step is to complete the Registration Information and Data Use Restrictions Agreement (<a href=\"https://app.smartsheetgov.com/b/form/20e9cf9b42d04a92a67585043cf34fbe\">RIDURA</a>). Once complete, CDC will review your agreement. After access is granted, Ask SRRG (<a href=\"mailto:eocevent394@cdc.gov\">eocevent394@cdc.gov</a>) will email you information about how to access the data through GitHub. If you have questions about obtaining access, email <a href=\"mailto:eocevent394@cdc.gov\">eocevent394@cdc.gov</a>. \n\n\n<h4><b>Overview</b></h4>\n\nThe COVID-19 case surveillance database includes patient-level data reported by U.S. states and autonomous reporting entities, including New York City, the District of Columbia, as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://ndc.services.cdc.gov/search-results-year/\"> Nationally Notifiable Condition List </a> and classified as \u201cimmediately notifiable, urgent (within 24 hours)\u201d by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (<a href=\"https://cdn.ymaws.com/www.cste.org/resource/resmgr/ps/positionst",
             "title": "COVID-19 Case Surveillance Restricted Access Detailed Data",
             "describedByType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             "programCode": [
@@ -41449,7 +41802,7 @@
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-09-14",
+            "modified": "2023-09-21",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -42051,7 +42404,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-04/2023-07-22",
-            "modified": "2023-09-13",
+            "modified": "2023-09-20",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -42089,7 +42442,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/muzy-jte6",
-            "description": "Provisional counts of deaths by the week the deaths occurred, by state of occurrence, and by select underlying causes of death for 2020-2023.  The dataset also includes weekly provisional counts of death for COVID-19, coded to ICD-10 code U07.1 as an underlying or multiple cause of death.\n\nNOTE: death counts are presented with a one week lag.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nProvisional counts of deaths by the week the deaths occurred, by state of occurrence, and by select underlying causes of death for 2020-2023.  The dataset also includes weekly provisional counts of death for COVID-19, coded to ICD-10 code U07.1 as an underlying or multiple cause of death.\n\nNOTE: death counts are presented with a one week lag.",
             "title": "Weekly Provisional Counts of Deaths by State and Select Causes, 2020-2023",
             "programCode": [
                 "009:020"
@@ -42124,7 +42477,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -42976,7 +43329,7 @@
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-09-07",
-            "modified": "2023-09-08",
+            "modified": "2023-09-21",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2019%20utility%20summary.pdf"
             ],
@@ -43000,7 +43353,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/n8mc-b4w4",
-            "description": "<b>Note:</b>\nAuthorizations to collect certain public health data expired at the end of the U.S. public health emergency declaration on May 11, 2023. The following jurisdictions discontinued COVID-19 case notifications to the CDC: Iowa (4/28/22), Kansas (5/12/23), New Hampshire (5/23/23), and Oklahoma (5/2/23). Please note that these jurisdictions will not routinely send new case data after the dates indicated.\n\n\nThis case surveillance public use dataset has 19 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors.\n\nCurrently, CDC provides the public with three versions of COVID-19 case surveillance line-listed data: this <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">19 data element dataset with geography</a>, a <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">12 data element public use dataset</a>, and a <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">33 data element restricted access dataset</a>.\n\nThe following apply to the public use datasets and the restricted access dataset:\n- Data elements can be found on the COVID-19 case report form located at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf\">www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf</a>.\n- Data are considered provisional by CDC and are subject to change until the data are reconciled and verified with the state and territorial data providers.\n- Some data are suppressed to protect individual privacy.\n- Datasets will include all cases with the earliest date available in each record (date received by CDC or date related to illness/specimen collection) at least 14 days prior to the creation of the current datasets. This 14-day lag allows case reporting to be stabilized and ensure that time-dependent outcome data are accurately captured.\n- Datasets are updated monthly. <br>\n- Datasets are created using CDC\u2019s <a href=\"https://www.cdc.gov/maso/policy/policy385.pdf\">Policy on Public Health Research and Nonresearch Data Management and Access</a> and include protections designed to protect individual privacy. \n<br>\n- For more information about data collection and reporting, please see\u202f<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/about-us-cases-deaths.html\">https://www.cdc.gov/coronavirus/2019-ncov/covid-data/about-us-cases-deaths.html.</a><br>\n- For more information about the COVID-19 case surveillance data, please see <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\"> https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html</a><br>\n\n\n<b>Overview</b>\n\nThe COVID-19 case surveillance database includes patient-level data reported by U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://ndc.services.cdc.gov/search-results-year/\"> Nationally Notifiable Condition List </a> and classified as \"immediately notifiable, urgent (within 24 hours)\" by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (<a href=\"https://www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-01_COVID-19_NO.pdf\">Interim-20-ID-01</a>). CSTE updated the position statement on August 5, 2020 to clarify the interpretation of antigen detection tests and serologic test results within the case classification (<a href=\"https://www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-02_COVID-19.pdf\">Interim-20-ID-02</a>). The statement also recommended that all states and territories enact laws to make COVID-19 reportable in their",
+            "description": "<b>Note:</b>\nAuthorizations to collect certain public health data expired at the end of the U.S. public health emergency declaration on May 11, 2023. The following jurisdictions discontinued COVID-19 case notifications to the CDC: Iowa (4/28/22), Kansas (5/12/23), New Hampshire (5/23/23), and Oklahoma (5/2/23). Please note that these jurisdictions will not routinely send new case data after the dates indicated. As of 7/13/23, case notifications from Oregon will only include cases resulting in death.\n\n\nThis case surveillance public use dataset has 19 elements for all COVID-19 cases shared with CDC and includes demographics, geography (county and state of residence), any exposure history, disease severity indicators and outcomes, and presence of any underlying medical conditions and risk behaviors.\n\nCurrently, CDC provides the public with three versions of COVID-19 case surveillance line-listed data: this <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">19 data element dataset with geography</a>, a <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">12 data element public use dataset</a>, and a <a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">33 data element restricted access dataset</a>.\n\nThe following apply to the public use datasets and the restricted access dataset:\n- Data elements can be found on the COVID-19 case report form located at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf\">www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf</a>.\n- Data are considered provisional by CDC and are subject to change until the data are reconciled and verified with the state and territorial data providers.\n- Some data are suppressed to protect individual privacy.\n- Datasets will include all cases with the earliest date available in each record (date received by CDC or date related to illness/specimen collection) at least 14 days prior to the creation of the current datasets. This 14-day lag allows case reporting to be stabilized and ensure that time-dependent outcome data are accurately captured.\n- Datasets are updated monthly. <br>\n- Datasets are created using CDC\u2019s <a href=\"https://www.cdc.gov/maso/policy/policy385.pdf\">Policy on Public Health Research and Nonresearch Data Management and Access</a> and include protections designed to protect individual privacy. \n<br>\n- For more information about data collection and reporting, please see\u202f<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/about-us-cases-deaths.html\">https://www.cdc.gov/coronavirus/2019-ncov/covid-data/about-us-cases-deaths.html.</a><br>\n- For more information about the COVID-19 case surveillance data, please see <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\"> https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html</a><br>\n\n\n<b>Overview</b>\n\nThe COVID-19 case surveillance database includes patient-level data reported by U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://ndc.services.cdc.gov/search-results-year/\"> Nationally Notifiable Condition List </a> and classified as \"immediately notifiable, urgent (within 24 hours)\" by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (<a href=\"https://www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-01_COVID-19_NO.pdf\">Interim-20-ID-01</a>). CSTE updated the position statement on August 5, 2020 to clarify the interpretation of antigen detection tests and serologic test results within the case classification (<a href=\"https://www.cste.org/resource/resmgr/ps/positionstatement2020/Interim-20-ID-02_COVID-19.pdf\">Interim-20-ID-02</a>). The statement also re",
             "title": "COVID-19 Case Surveillance Public Use Data with Geography",
             "describedByType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             "programCode": [
@@ -44885,7 +45238,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-14",
+            "modified": "2023-09-21",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -45131,7 +45484,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -45197,7 +45550,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-23",
+            "modified": "2023-09-21",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -45221,7 +45574,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/pj7m-y5uh",
-            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nThis data file contains the following indicators that can be used to illustrate potential differences in the burden of deaths due to COVID-19 according to race and ethnicity:\ncount of COVID-19 deaths, distribution of COVID-19 deaths, unweighted distribution of population, and weighted distribution of population.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nThis data file contains the following indicators that can be used to illustrate potential differences in the burden of deaths due to COVID-19 according to race and ethnicity:\ncount of COVID-19 deaths, distribution of COVID-19 deaths, unweighted distribution of population, and weighted distribution of population.",
             "title": "Provisional COVID-19 Deaths: Distribution of Deaths by Race and Hispanic Origin",
             "programCode": [
                 "009:020"
@@ -45256,7 +45609,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1M",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -45752,9 +46105,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2023-07-14",
+            "issued": "2023-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-21",
             "keyword": [
                 "diabetes",
                 "eye diseases",
@@ -46458,8 +46811,8 @@
             ],
             "issued": "2020-12-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-03-18/2022-12-27",
-            "modified": "2023-07-12",
+            "temporal": "2020-03-18/2023-05-23",
+            "modified": "2023-09-18",
             "keyword": [
                 "covid-19",
                 "emergency department",
@@ -46481,7 +46834,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/q3t8-zr7t",
-            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020, 2021 and 2022 NHCS are not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 40 hospitals submitting inpatient and 40 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020-December 27, 2022.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
+            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). Additionally, the NHCS contributes data that may inform public health emergencies as the survey is designed to capture emerging diseases and viruses that require hospitalizations, including COVID-19 encounters. The 2020 - 2023 NHCS are not yet fully operational so it is important to note that these data are not nationally representative.\n\nThe data are from 25 hospitals submitting inpatient and 25 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from March 18, 2020-May 23, 2023.  Even though the data are not nationally representative, they can provide insight on the impact of COVID-19 on various types of hospitals throughout the country. This information is not available in other hospital reporting systems. The NHCS data from these hospitals can show results by a combination of indicators related to COVID-19, such as length of inpatient stay, in-hospital mortality, comorbidities, and intubation or ventilator use. NHCS data allow for reporting on patient conditions and treatments within the hospital over time.",
             "title": "COVID-19 Hospital Data from the National Hospital Care Survey",
             "programCode": [
                 "009:020"
@@ -47447,7 +47800,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-22",
+            "modified": "2023-09-21",
             "references": [
                 "JAMA-Opthalmology forthcoming",
                 "https://jamanetwork.com/journals/jamaophthalmology"
@@ -47514,7 +47867,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-23",
+            "modified": "2023-09-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -47541,7 +47894,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/qfhf-uhaa",
-            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nThis visualization provides weekly data on the number of deaths from all causes by jurisdiction of occurrence and race and Hispanic origin. Numbers of deaths are also shown for all causes excluding COVID-19, and for COVID-19. Counts of deaths in more recent weeks can be compared with counts from earlier years to determine if the number is higher than expected.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nThis visualization provides weekly data on the number of deaths from all causes by jurisdiction of occurrence and race and Hispanic origin. Numbers of deaths are also shown for all causes excluding COVID-19, and for COVID-19. Counts of deaths in more recent weeks can be compared with counts from earlier years to determine if the number is higher than expected.",
             "title": "Weekly Counts of Deaths by Jurisdiction, and Race and Hispanic Origin",
             "programCode": [
                 "009:020"
@@ -47576,7 +47929,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -49125,8 +49478,8 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "temporal": "2019-12-29/2023-08-01",
-            "modified": "2023-09-15",
+            "temporal": "2019-12-29/2023-09-22",
+            "modified": "2023-09-22",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -49155,7 +49508,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/r8kw-7aab",
-            "description": "Deaths involving COVID-19, pneumonia, and influenza reported to NCHS by week ending date and by state",
+            "description": "Effective September 27, 2023, this dataset will be updated weekly on Thursdays.\n\nDeaths involving COVID-19, pneumonia, and influenza reported to NCHS by week ending date and by state",
             "title": "Provisional COVID-19 Death Counts by Week Ending Date and State",
             "programCode": [
                 "009:020"
@@ -49190,7 +49543,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1D",
+            "accrualPeriodicity": "R/P1W",
             "theme": [
                 "NCHS"
             ]
@@ -50391,7 +50744,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-12",
+            "modified": "2023-09-19",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -52935,9 +53288,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2023-07-19",
+            "issued": "2023-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-21",
             "references": [
                 "https://www.cdc.gov/nchs/nhanes/index.htm",
                 "https://www.cdc.gov/visionhealth/vehss/data/national-surveys/national-health-and-nutrition-examination-survey.html"
@@ -53367,7 +53720,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-21",
             "references": [
                 "https://www.census.gov/content/dam/Census/programs-surveys/acs/about/ACS_Information_Guide.pdf",
                 "https://www.cdc.gov/visionhealth/vehss/data/national-surveys/american-community-survey.html"
@@ -53607,7 +53960,7 @@
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-09-13",
+            "modified": "2023-09-20",
             "keyword": [
                 "age",
                 "age group",
@@ -53637,7 +53990,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/tpcp-uiv5",
-            "description": "Deaths involving COVID-19 reported to NCHS by time-period, HHS region, race and Hispanic origin, and age group.\n\nUnited States death counts include the 50 states, plus the District of Columbia and New York City. The ten (10) United States Department of Health and Human Services (HHS) regions include the following jurisdictions. Region 1: Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont; Region 2: New Jersey, New York, New York City, Puerto Rico; Region 3: Delaware, District of Columbia, Maryland, Pennsylvania, Virginia, West Virginia; Region 4: Alabama, Florida, Georgia, Kentucky, Mississippi, North Carolina, South Carolina, Tennessee; Region 5: Illinois, Indiana, Michigan, Minnesota, Ohio, Wisconsin; Region 6: Arkansas, Louisiana, New Mexico, Oklahoma, Texas; Region 7: Iowa, Kansas, Missouri, Nebraska; Region 8: Colorado, Montana, North Dakota, South Dakota, Utah, Wyoming; Region 9: Arizona, California, Hawaii, Nevada; Region 10: Alaska, Idaho, Oregon, Washington.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nDeaths involving COVID-19 reported to NCHS by time-period, HHS region, race and Hispanic origin, and age group.\n\nUnited States death counts include the 50 states, plus the District of Columbia and New York City. The ten (10) United States Department of Health and Human Services (HHS) regions include the following jurisdictions. Region 1: Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, Vermont; Region 2: New Jersey, New York, New York City, Puerto Rico; Region 3: Delaware, District of Columbia, Maryland, Pennsylvania, Virginia, West Virginia; Region 4: Alabama, Florida, Georgia, Kentucky, Mississippi, North Carolina, South Carolina, Tennessee; Region 5: Illinois, Indiana, Michigan, Minnesota, Ohio, Wisconsin; Region 6: Arkansas, Louisiana, New Mexico, Oklahoma, Texas; Region 7: Iowa, Kansas, Missouri, Nebraska; Region 8: Colorado, Montana, North Dakota, South Dakota, Utah, Wyoming; Region 9: Arizona, California, Hawaii, Nevada; Region 10: Alaska, Idaho, Oregon, Washington.",
             "title": "Provisional COVID-19 Deaths by HHS Region, Race, and Age",
             "programCode": [
                 "009:020"
@@ -53672,7 +54025,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -54114,6 +54467,80 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-09-22",
+            "@type": "dcat:Dataset",
+            "modified": "2023-09-22",
+            "keyword": [
+                "covid",
+                "covid19",
+                "covid-19",
+                "covidnet",
+                "covid-net",
+                "hospitalization rate",
+                "hospitalizations",
+                "rate",
+                "respiratory illness",
+                "respiratory virus response",
+                "respnet",
+                "resp-net",
+                "surveillance"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Michael Whitaker",
+                "hasEmail": "mailto:pgn6@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "CDC"
+            },
+            "identifier": "https://data.cdc.gov/api/views/twtx-bfcw",
+            "description": "The Coronavirus Disease 2019 (COVID-19) Hospitalization Surveillance Network (COVID-NET) is designed to conduct population-based surveillance for laboratory-confirmed COVID-19-associated hospitalizations among children and adults.\n\nCOVID-NET, along with the Respiratory Syncytial Virus Hospitalization Surveillance Network (RSV-NET) and the Influenza Hospitalization Surveillance Network (FluSurv-NET), comprise the Respiratory Virus Hospitalization Surveillance Network (RESP-NET). The RESP-NET platforms have overlapping surveillance areas and use similar methods to collect data.\n\nCOVID-NET is CDC\u2019s source for important data on rates of hospitalizations associated with COVID-19. Hospitalization rates show how many people in the surveillance area are hospitalized with COVID-19, compared to the total number of people residing in that area.",
+            "title": "Weekly Rates of Laboratory-Confirmed COVID-19 Hospitalizations from the COVID-NET Surveillance System",
+            "programCode": [
+                "009:038"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/twtx-bfcw/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/twtx-bfcw/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/twtx-bfcw/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/twtx-bfcw/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/twtx-bfcw/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/twtx-bfcw/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/twtx-bfcw/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "COVID-NET Sites",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/vaccines/imz-managers/nis/",
             "bureauCode": [
                 "009:20"
@@ -54514,7 +54941,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-23",
+            "modified": "2023-09-21",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -54552,7 +54979,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/u6jv-9ijr",
-            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nThis visualization provides weekly data on the number of deaths by jurisdiction of occurrence and cause of death. Counts of deaths in more recent weeks can be compared with counts from earlier years to determine if the number is higher than expected. Selected causes of death are shown, based on analyses of the most prevalent comorbid conditions reported on death certificates where COVID-19 was listed as a cause of death (see https://www.cdc.gov/nchs/nvss/vsrr/covid_weekly/index.htm#Comorbidities). Cause of death counts are based on the underlying cause of death, and presented for Respiratory diseases, Circulatory diseases, Malignant neoplasms, and Alzheimer disease and dementia. Estimated numbers of deaths due to these other causes of death could represent misclassified COVID-19 deaths, or potentially could be indirectly related to COVID-19 (e.g., deaths from other causes occurring in the context of health care shortages or overburdened health care systems). Deaths with an underlying cause of death of COVID-19 are not included in these estimates of deaths due to other causes. Deaths due to external causes (i.e. injuries) or unknown causes are excluded. For more detail, see the Technical Notes.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nThis visualization provides weekly data on the number of deaths by jurisdiction of occurrence and cause of death. Counts of deaths in more recent weeks can be compared with counts from earlier years to determine if the number is higher than expected. Selected causes of death are shown, based on analyses of the most prevalent comorbid conditions reported on death certificates where COVID-19 was listed as a cause of death (see https://www.cdc.gov/nchs/nvss/vsrr/covid_weekly/index.htm#Comorbidities). Cause of death counts are based on the underlying cause of death, and presented for Respiratory diseases, Circulatory diseases, Malignant neoplasms, and Alzheimer disease and dementia. Estimated numbers of deaths due to these other causes of death could represent misclassified COVID-19 deaths, or potentially could be indirectly related to COVID-19 (e.g., deaths from other causes occurring in the context of health care shortages or overburdened health care systems). Deaths with an underlying cause of death of COVID-19 are not included in these estimates of deaths due to other causes. Deaths due to external causes (i.e. injuries) or unknown causes are excluded. For more detail, see the Technical Notes.",
             "title": "Weekly Counts of Death by Jurisdiction and Select Causes of Death",
             "programCode": [
                 "009:020"
@@ -54587,7 +55014,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -55962,7 +56389,7 @@
             ],
             "issued": "2021-06-23",
             "@type": "dcat:Dataset",
-            "modified": "2022-10-18",
+            "modified": "2023-09-22",
             "keyword": [
                 "abcs",
                 "bactfacts"
@@ -56932,7 +57359,7 @@
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-09-07",
-            "modified": "2023-09-08",
+            "modified": "2023-09-21",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2012%20utility%20summary.pdf"
             ],
@@ -56954,7 +57381,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/vbim-akqf",
-            "description": "<b>Note:</b>\nAuthorizations to collect certain public health data expired at the end of the U.S. public health emergency declaration on May 11, 2023. The following jurisdictions discontinued COVID-19 case notifications to the CDC: Iowa (4/28/22), Kansas (5/12/23), New Hampshire (5/23/23), and Oklahoma (5/2/23). Please note that these jurisdictions will not routinely send new case data after the dates indicated.\n\n\nThis case surveillance public use dataset has 12 elements for all COVID-19 cases shared with CDC and includes demographics, any exposure history, disease severity indicators and outcomes, presence of any underlying medical conditions and risk behaviors, and no geographic data.\n<br>\n<h4><b>CDC has three COVID-19 case surveillance datasets:</b></h4>\n\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">COVID-19 Case Surveillance Public Use Data with Geography</a>: Public use, patient-level dataset with clinical data (including symptoms), demographics, and county and state of residence. (19 data elements) <br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">COVID-19 Case Surveillance Public Use Data</a>: Public use, patient-level dataset with clinical and symptom data and demographics, with no geographic data. (12 data elements)<br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">COVID-19 Case Surveillance Restricted Access Detailed Data</a>: Restricted access, patient-level dataset with clinical and symptom data, demographics, and state and county of residence. Access requires a registration process and a data use agreement. (33 data elements)\n\nThe following apply to all three datasets:\n\n- Data elements can be found on the COVID-19 case report form located at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf\">www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf</a>.<br>\n- Data are considered provisional by CDC and are subject to change until the data are reconciled and verified with the state and territorial data providers.\n- Some data cells are suppressed to protect individual privacy.<br>\n- The datasets will include all cases with the earliest date available in each record (date received by CDC or date related to illness/specimen collection) at least 14 days prior to the creation of the current datasets. This 14-day lag allows case reporting to be stabilized and ensures that time-dependent outcome data are accurately captured.<br>\n- Datasets are updated monthly. <br>\n- Datasets are created using CDC\u2019s <a href=\"https://www.cdc.gov/maso/policy/policy385.pdf\">Policy on Public Health Research and Nonresearch Data Management and Access</a> and include protections designed to protect individual privacy. \n<br>\n- For more information about data collection and reporting, please see\u202f<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/about-us-cases-deaths.html\">https://www.cdc.gov/coronavirus/2019-ncov/covid-data/about-us-cases-deaths.html.</a><br>\n- For more information about the COVID-19 case surveillance data, please see <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\"> https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html</a><br>\n\n<h4><b>Overview</b></h4>\n\nThe COVID-19 case surveillance database includes individual-level data reported to U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://ndc.services.cdc.gov/search-results-year/\"> Nationally Notifiable Condition List </a> and classified as \u201cimmediately notifiable, urgent (within 24 hours)\u201d by a Council of State and Territorial Epidemiologists (CSTE) Interim Position Statement (<a href=\"https://cdn.ymaws.com/www.cste.org/resource/resmgr/ps/positio",
+            "description": "<b>Note:</b>\nAuthorizations to collect certain public health data expired at the end of the U.S. public health emergency declaration on May 11, 2023. The following jurisdictions discontinued COVID-19 case notifications to the CDC: Iowa (4/28/22), Kansas (5/12/23), New Hampshire (5/23/23), and Oklahoma (5/2/23). Please note that these jurisdictions will not routinely send new case data after the dates indicated. As of 7/13/23, case notifications from Oregon will only include cases resulting in death.\n\n\nThis case surveillance public use dataset has 12 elements for all COVID-19 cases shared with CDC and includes demographics, any exposure history, disease severity indicators and outcomes, presence of any underlying medical conditions and risk behaviors, and no geographic data.\n<br>\n<h4><b>CDC has three COVID-19 case surveillance datasets:</b></h4>\n\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4\">COVID-19 Case Surveillance Public Use Data with Geography</a>: Public use, patient-level dataset with clinical data (including symptoms), demographics, and county and state of residence. (19 data elements) <br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf\">COVID-19 Case Surveillance Public Use Data</a>: Public use, patient-level dataset with clinical and symptom data and demographics, with no geographic data. (12 data elements)<br>\n-\t<a href=\"https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t\">COVID-19 Case Surveillance Restricted Access Detailed Data</a>: Restricted access, patient-level dataset with clinical and symptom data, demographics, and state and county of residence. Access requires a registration process and a data use agreement. (33 data elements)\n\nThe following apply to all three datasets:\n\n- Data elements can be found on the COVID-19 case report form located at <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf\">www.cdc.gov/coronavirus/2019-ncov/downloads/pui-form.pdf</a>.<br>\n- Data are considered provisional by CDC and are subject to change until the data are reconciled and verified with the state and territorial data providers.\n- Some data cells are suppressed to protect individual privacy.<br>\n- The datasets will include all cases with the earliest date available in each record (date received by CDC or date related to illness/specimen collection) at least 14 days prior to the creation of the current datasets. This 14-day lag allows case reporting to be stabilized and ensures that time-dependent outcome data are accurately captured.<br>\n- Datasets are updated monthly. <br>\n- Datasets are created using CDC\u2019s <a href=\"https://www.cdc.gov/maso/policy/policy385.pdf\">Policy on Public Health Research and Nonresearch Data Management and Access</a> and include protections designed to protect individual privacy. \n<br>\n- For more information about data collection and reporting, please see\u202f<a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/about-us-cases-deaths.html\">https://www.cdc.gov/coronavirus/2019-ncov/covid-data/about-us-cases-deaths.html.</a><br>\n- For more information about the COVID-19 case surveillance data, please see <a href=\"https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html\"> https://www.cdc.gov/coronavirus/2019-ncov/covid-data/faq-surveillance.html</a><br>\n\n<h4><b>Overview</b></h4>\n\nThe COVID-19 case surveillance database includes individual-level data reported to U.S. states and autonomous reporting entities, including New York City and the District of Columbia (D.C.), as well as U.S. territories and affiliates. On April 5, 2020, COVID-19 was added to the <a href=\"https://ndc.services.cdc.gov/search-results-year/\"> Nationally Notifiable Condition List </a> and classified as \u201cimmediately notifiable, urgent (within 24 hours)\u201d by a Council of State and Territorial Epidemiologists (CSTE) Interim",
             "title": "COVID-19 Case Surveillance Public Use Data",
             "describedByType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
             "programCode": [
@@ -57404,9 +57831,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2023-07-18",
+            "issued": "2023-09-21",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-21",
             "references": [
                 "https://www.cdc.gov/brfss",
                 "https://www.cdc.gov/visionhealth/vehss/data/national-surveys/behavioral-risk-factors-surveillance-system.html"
@@ -58344,8 +58771,8 @@
             ],
             "issued": "2023-09-05",
             "@type": "dcat:Dataset",
-            "temporal": "2022-09-10/2023-09-09",
-            "modified": "2023-09-13",
+            "temporal": "2022-09-24/2023-09-16",
+            "modified": "2023-09-20",
             "references": [
                 "https://www.cdc.gov/ncird/surveillance/respiratory-illnesses/index.html#companion-guide"
             ],
@@ -59616,7 +60043,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "keyword": [
                 "e-cigarette",
                 "legislation",
@@ -61297,7 +61724,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-14",
+            "modified": "2023-09-21",
             "keyword": [
                 "2022",
                 "2023",
@@ -61792,7 +62219,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-09-17",
+            "modified": "2023-09-21",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -61937,7 +62364,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-23",
+            "modified": "2023-09-21",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -61963,7 +62390,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/xkkf-xrst",
-            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nEstimates of excess deaths can provide information about the burden of mortality potentially related to COVID-19, beyond the number of deaths that are directly attributed to COVID-19. Excess deaths are typically defined as the difference between observed numbers of deaths and expected numbers. This visualization provides weekly data on excess deaths by jurisdiction of occurrence. Counts of deaths in more recent weeks are compared with historical trends to determine whether the number of deaths is significantly higher than expected.\n\nEstimates of excess deaths can be calculated in a variety of ways, and will vary depending on the methodology and assumptions about how many deaths are expected to occur. Estimates of excess deaths presented in this webpage were calculated using Farrington surveillance algorithms (1). For each jurisdiction, a model is used to generate a set of expected counts, and the upper bound of the 95% Confidence Intervals (95% CI) of these expected counts is used as a threshold to estimate excess deaths. Observed counts are compared to these upper bound estimates to determine whether a significant increase in deaths has occurred. Provisional counts are weighted to account for potential underreporting in the most recent weeks. However, data for the most recent week(s) are still likely to be incomplete. Only about 60% of deaths are reported within 10 days of the date of death, and there is considerable variation by jurisdiction. More detail about the methods, weighting, data, and limitations can be found in the Technical Notes.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nEstimates of excess deaths can provide information about the burden of mortality potentially related to COVID-19, beyond the number of deaths that are directly attributed to COVID-19. Excess deaths are typically defined as the difference between observed numbers of deaths and expected numbers. This visualization provides weekly data on excess deaths by jurisdiction of occurrence. Counts of deaths in more recent weeks are compared with historical trends to determine whether the number of deaths is significantly higher than expected.\n\nEstimates of excess deaths can be calculated in a variety of ways, and will vary depending on the methodology and assumptions about how many deaths are expected to occur. Estimates of excess deaths presented in this webpage were calculated using Farrington surveillance algorithms (1). For each jurisdiction, a model is used to generate a set of expected counts, and the upper bound of the 95% Confidence Intervals (95% CI) of these expected counts is used as a threshold to estimate excess deaths. Observed counts are compared to these upper bound estimates to determine whether a significant increase in deaths has occurred. Provisional counts are weighted to account for potential underreporting in the most recent weeks. However, data for the most recent week(s) are still likely to be incomplete. Only about 60% of deaths are reported within 10 days of the date of death, and there is considerable variation by jurisdiction. More detail about the methods, weighting, data, and limitations can be found in the Technical Notes.",
             "title": "Excess Deaths Associated with COVID-19",
             "programCode": [
                 "009:020"
@@ -61998,7 +62425,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -62399,7 +62826,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-20",
             "references": [
                 "https://chronicdata.cdc.gov/d/5qag-uzp2"
             ],
@@ -62875,6 +63302,70 @@
             "describedBy": "https://chronicdata.cdc.gov/Maternal-Child-Health/CDC-PRAMStat-Data-for-2010/xvu4-xjdb",
             "theme": [
                 "Maternal & Child Health"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/xwa7-cukt",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-09-18",
+            "@type": "dcat:Dataset",
+            "modified": "2023-09-18",
+            "keyword": [
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "healthcare personnel",
+                "healthcare worker"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Coronavirus and Other Respiratory Viruses Division (CORVD)",
+                "hasEmail": "mailto:eocevent333@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/xwa7-cukt",
+            "description": "COVID-19 Deaths Among Healthcare Personnel, by week",
+            "title": "COVID-19 Deaths Among Healthcare Personnel, by week",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/xwa7-cukt/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/xwa7-cukt/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/xwa7-cukt/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/xwa7-cukt/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/xwa7-cukt/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/xwa7-cukt/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/xwa7-cukt/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "theme": [
+                "Case Surveillance"
             ]
         },
         {
@@ -63487,7 +63978,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-23",
+            "modified": "2023-09-21",
             "keyword": [
                 "age",
                 "age group",
@@ -63512,7 +64003,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/y5bj-9g5w",
-            "description": "Effective June 28, 2023, this dataset will be updated monthly on the 4th Wednesday of the month.\n\nThis visualization provides weekly data on the number of deaths from all causes by jurisdiction of occurrence and age group. Counts of deaths in more recent weeks can be compared with counts from earlier years to determine if the number is higher than expected.",
+            "description": "Effective September 27, 2023, this dataset will no longer be updated. Similar data are accessible from wonder.cdc.gov.\n\nThis visualization provides weekly data on the number of deaths from all causes by jurisdiction of occurrence and age group. Counts of deaths in more recent weeks can be compared with counts from earlier years to determine if the number is higher than expected.",
             "title": "Weekly Counts of Deaths by Jurisdiction and Age",
             "programCode": [
                 "009:020"
@@ -63547,7 +64038,7 @@
             ],
             "spatial": "United States, Puerto Rico",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -64294,7 +64785,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-14",
+            "modified": "2023-09-21",
             "keyword": [
                 "age",
                 "age group",
