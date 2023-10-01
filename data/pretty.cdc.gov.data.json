@@ -582,34 +582,47 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/29hc-w46k",
+            "landingPage": "https://www.cdc.gov/rsv/research/rsv-net.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-28",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
             "keyword": [
+                "age-adjusted rates",
+                "age-adjusted rates by race and ethnicity",
+                "hospitalization",
+                "hospitalization rate",
+                "hospitalizations",
+                "rate",
+                "rates by race and ethnicity",
+                "respiratory disease",
+                "respiratory illness",
+                "respiratory syncytial virus",
+                "respiratory virus response",
                 "rsv",
+                "rsvnet",
+                "rsv-net",
                 "surveillance"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "NCIRD DVD",
-                "hasEmail": "mailto:@cdc.gov"
+                "fn": "RESP-NET",
+                "hasEmail": "mailto:pgn6@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
-                "name": "data.cdc.gov"
+                "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/29hc-w46k",
             "description": "The Respiratory Syncytial Virus Hospitalization Surveillance Network (RSV-NET) is a network that conducts active, population-based surveillance for laboratory-confirmed RSV-associated hospitalizations in children younger than 18 years of age and adults. The network currently includes 58 counties in 12 states, and data are collected and reported during the October 1-April 30 season each year.  In some years, additional months of data are collected.  In adults, RSV hospitalization tracking began in the 2016\u20132017 season. In children less than 18 years of age, surveillance began in the 2018\u201319 season. Because the surveillance areas and age groups included in surveillance have changed over time, trends should be interpreted with caution. Hospitalization data are preliminary and subject to change as more data become available.  In particular, case counts and rates for recent hospitalizations are subject to lag.  Lag for RSV-NET case identification and reporting might increase around holidays or during periods of increased hospitalization utilization.  As data are received each week, prior case counts and rates are updated accordingly.\nFor more information about RSV-NET, please see https://www.cdc.gov/rsv/research/rsv-net.html.",
             "title": "Weekly Rates of Laboratory-Confirmed RSV Hospitalizations from the RSV-NET Surveillance System",
             "programCode": [
-                "009:020"
+                "009:038"
             ],
             "distribution": [
                 {
@@ -639,9 +652,11 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "RSV-NET Sites",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
             "theme": [
-                "Case Surveillance"
+                "Public Health Surveillance"
             ]
         },
         {
@@ -928,7 +943,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-24",
+            "modified": "2023-10-01",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2201,7 +2216,7 @@
             "issued": "2023-07-06",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-01/-",
-            "modified": "2023-09-18",
+            "modified": "2023-09-29",
             "references": [
                 "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -5507,7 +5522,7 @@
             "issued": "2020-09-02",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-07-29",
-            "modified": "2023-09-20",
+            "modified": "2023-09-27",
             "keyword": [
                 "age",
                 "age group",
@@ -6136,9 +6151,8 @@
                 "009:20"
             ],
             "issued": "2023-08-15",
-            "temporal": "2020-03-01/Present",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-20",
+            "modified": "2023-09-27",
             "keyword": [
                 "cases",
                 "coronavirus",
@@ -6157,7 +6171,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/4zxn-f9dq",
             "description": "Weekly cases among healthcare personnel, by week\n\n<b>Note:</b> Rows marked by \"missing date fields\" represent healthcare worker cases that were not associated with a date.",
-            "title": "COVID-19 Cases Among Healthcare Personnel, by week",
+            "title": "COVID-19 Cases Among Healthcare Personnel, by week - ARCHIVED",
             "programCode": [
                 "009:020"
             ],
@@ -6190,6 +6204,7 @@
                 }
             ],
             "spatial": "US",
+            "accrualPeriodicity": "No longer updated (dataset archived)",
             "theme": [
                 "Case Surveillance"
             ]
@@ -6450,6 +6465,52 @@
             ],
             "spatial": "50 states and District of Columbia",
             "describedBy": "https://www.cdc.gov/nchs/rands/files/RANDS3_technical_documentation.pdf",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/nehrs/about.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm\u201d",
+            "issued": "2023-09-27",
+            "@type": "dcat:Dataset",
+            "temporal": "2008-2011",
+            "modified": "2023-09-27",
+            "keyword": [
+                "electronic health records",
+                "health us",
+                "nchs",
+                "nehrs",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:nhcs@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/53z7-6asy",
+            "description": "The National Electronic Health Records Survey (NEHRS) is an annual survey of non-federally employed, office-based physicians practicing in the United States (excluding those in the specialties of anesthesiology, radiology, and pathology). NEHRS began in 2008 and was originally designed as an annual mail supplement to the National Ambulatory Medical Care Survey (NAMCS). Prior to 2012, NEHRS was a supplement to the NAMCS, referred to as the NAMCS Electronic Medical Records Supplement. The annual data collected was similar to NEHRS and may be analyzed as a distinct dataset.\nData from the supplement can be used to produce state and national estimates of EHR adoption and capabilities, burden associated with EHRs, and progress physicians have made towards meeting the policy goals of the HITECH Act. \nPlease refer to the following link for the 2008\u20142011 NAMCS Electronic Medical Records Supplemental questionnaire and data dictionary: https://www.cdc.gov/nchs/nehrs/questionnaires.htm.",
+            "title": "National Ambulatory Medical Care Survey: Electronic Medical Records Supplement, 2008-2011, Restricted",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/userestricdt.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "The sampling frame was composed of Master files for all American physicians who met the following criteria: Office-based; Principally engaged in patient care activities; Non-federally employed; Not in specialties of anesthesiology, pathology, or radiology; and Younger than 85 years of age at the time of the survey.",
             "theme": [
                 "NCHS"
             ]
@@ -7905,6 +7966,68 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/nhis/index.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-09-06",
+            "temporal": "2021-2022",
+            "@type": "dcat:Dataset",
+            "modified": "2023-09-24",
+            "keyword": [
+                "nhis",
+                "summary health statistics"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/5pqj-rvh4",
+            "description": "Interactive Summary Health Statistics for Teens provide estimates of selected health topics for youth aged 12-17 years based on final data from the National Health Interview Survey\u2014 Teen.",
+            "title": "NHIS Teen",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/5pqj-rvh4/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/5pqj-rvh4/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/5pqj-rvh4/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/5pqj-rvh4/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/5pqj-rvh4/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/5pqj-rvh4/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/5pqj-rvh4/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -9456,6 +9579,62 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/nhds/index.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2023-09-27",
+            "@type": "dcat:Dataset",
+            "temporal": "1965\u20142010",
+            "modified": "2023-09-27",
+            "references": [
+                "https://www.cdc.gov/nchs/nhds/nhds_collection.htm",
+                "https://www.cdc.gov/nchs/nhds/nhds_sample_design.htm",
+                "https://www.cdc.gov/nchs/data/series/sr_01/sr01_039.pdf"
+            ],
+            "keyword": [
+                "discharge",
+                "hospital",
+                "hospitals",
+                "icd-9-cm",
+                "inpatient",
+                "research-data-center",
+                "sdoh-use-of-health-care",
+                "short-stay-hospitals"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:nhcs@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/6nqh-vaj5",
+            "description": "The National Hospital Discharge Survey (NHDS), conducted from 1965 to 2010, was a national probability survey designed to meet the need for information on characteristics of inpatients discharged from non-Federal short-stay hospitals in the United States. From 1988-2007 the NHDS collected data from a sample of approximately 270,000 inpatient records acquired from a national sample of about 500 hospitals. From 2008 to 2010 the sample size was reduced to 239. Only hospitals with an average length of stay of fewer than 30 days for all patients, general hospitals, or children\u2019s general hospitals are included in the survey. Federal, military, and Department of Veterans Affairs hospitals, as well as hospital units of institutions (such as prison hospitals), and hospitals with fewer than six beds staffed for patient use, are excluded.\n\nBeginning in 1988, two data collection procedures have been used in the survey. The medical abstract form and the automated data tapes contain items that relate to the personal characteristics of the patient. These items include age, sex, race, ethnicity, marital status, and expected sources of payment. Administrative items such as admission and discharge dates (which allow calculation of length of stay), as well as discharge status are also included. Medical information about patients includes diagnoses and procedures coded to the International Classification of Diseases, 9th Revision, Clinical Modification (ICD-9-CM).",
+            "title": "National Hospital Discharge Survey (NHDS) Restricted Data, 1965-2010",
+            "isPartOf": "https://www.cdc.gov/nchs/nhds/nhds_questionnaires.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/userestricdt.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "Only hospitals having six or more beds for in-patient use are included in the survey and before 1988 those in which the average length of stay for all patients was less than 30 days. In 1988 the scope was altered slightly to include all general and children\u2019s general hospitals regardless of the length of stay.",
+            "accrualPeriodicity": "Database will not be updated again.",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/6p3a-6xr9",
             "bureauCode": [
@@ -10867,7 +11046,7 @@
             "issued": "2023-07-06",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-01/-",
-            "modified": "2023-09-18",
+            "modified": "2023-09-29",
             "references": [
                 "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -12318,7 +12497,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 -",
-            "modified": "2023-09-18",
+            "modified": "2023-09-29",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -12342,7 +12521,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/82ci-krud",
-            "description": "<b>Note:</b>\n<b>September 18, 2023:</b> Due to incomplete or missing hospital data received for the September 3, 2023, through September 9, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 18, 2023.\n\n<b>September 18, 2023:</b> Due to incomplete or missing hospital data received for the September 3, 2023, through September 9, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 18, 2023.\n\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States as of the initial date of reporting for each weekly metric. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>\u2022\tAs of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county",
+            "description": "<b>Note:</b>\n<b>September 29, 2023:</b> Due to incomplete or missing hospital data received for the September 17th, 2023, through September 23, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 29, 2023.\n\n<b>September 29, 2023:</b> Due to incomplete or missing hospital data received for the September 17, 2023, through September 23, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 29th, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States as of the initial date of reporting for each weekly metric. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>\u2022\tAs of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County (Historical)",
             "programCode": [
                 "009:020"
@@ -12527,7 +12706,7 @@
             "issued": "2021-11-03",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-04-28",
+            "modified": "2023-09-28",
             "references": [
                 "IQVIA Pharmacy and Physician Medical Office Claims"
             ],
@@ -13881,6 +14060,60 @@
             ]
         },
         {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/ahcd/about_ahcd.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality training, and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+            "issued": "2003-04-07",
+            "@type": "dcat:Dataset",
+            "temporal": "1992-2021",
+            "modified": "2023-09-27",
+            "keyword": [
+                "cause of injury",
+                "diagnosis",
+                "ed",
+                "emergency department",
+                "injury",
+                "medication therapy",
+                "patient care",
+                "patient characteristics",
+                "prescription drugs",
+                "reason for visit",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/8ucz-ra9b",
+            "description": "The National Hospital Ambulatory Medical Care Survey (NHAMCS) has been fielded annually since 1992 to collect data on the utilization and provision of ambulatory care services in hospital emergency and outpatient departments. Data collection from hospital-based ambulatory surgery centers began in 2009. And between 2010 and 2012 NHAMCS gathered data on visits to freestanding ambulatory surgery centers. In 2018, the survey began focusing on just the ambulatory visits made to emergency departments.\nEach emergency department is randomly assigned to a 4-week reporting period. During this period, data for a systematic random sample of visits are recorded by Census interviewers using a computerized Patient Record Form. Data are obtained on patient characteristics such as age, sex, race, and ethnicity, and visit characteristics such as patient\u2019s reason for visit, provider\u2019s diagnosis, services ordered or provided, and treatments, including medication therapy. In addition, data about the facility are collected as part of a survey induction interview.",
+            "title": "National Hospital Ambulatory Medical Care Survey, 1992-2021, Restricted",
+            "isPartOf": "https://www.cdc.gov/nchs/ahcd/datasets_documentation_related.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "For the survey, findings are based on a national sample of visits to emergency departments (EDs) in noninstitutional general and short-stay hospitals, exclusive of Federal, military, and Veterans Administration hospitals, located in the 50 States and the District of Columbia. The sampling frame for the 2021 NHAMCS was constructed from IQVIA\u2019s database. A three-stage probability sampling design is used. The first stage consists of a sample of geographically defined areas also known as Primary Sampling Units (PSU). In the second stage, is of hospitals within those PSU and all emergency service areas within the emergency department are selected. Emergency service areas (ESAs) are not sampled at this stage. In the third stage ESAs are sampled.",
+            "accrualPeriodicity": "Survey has ended. 2022 data will be released Summer 2024.",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
             "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/8v6a-z6zq",
             "bureauCode": [
@@ -15189,7 +15422,7 @@
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-07-29",
-            "modified": "2023-09-20",
+            "modified": "2023-09-27",
             "keyword": [
                 "age",
                 "age group",
@@ -15401,7 +15634,7 @@
             "issued": "2021-02-03",
             "temporal": "2020/2023",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-27",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -15702,7 +15935,7 @@
             "issued": "2021-05-25",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-09-20",
+            "modified": "2023-09-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -18136,7 +18369,7 @@
             "issued": "2023-05-25",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 \u2013",
-            "modified": "2023-09-18",
+            "modified": "2023-09-29",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -18160,7 +18393,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/akn2-qxic",
-            "description": "<b>Note:</b>\n<b>September 18, 2023:</b> Due to incomplete or missing hospital data received for the September 3, 2023, through September 9, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 18, 2023.\n\n<b>September 18, 2023:</b> Due to incomplete or missing hospital data received for the September 3, 2023, through September 9, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 18, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed ca",
+            "description": "<b>Note:</b>\n<b>September 29, 2023:</b> Due to incomplete or missing hospital data received for the September 17th, 2023, through September 23, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 29, 2023.\n\n<b>September 29, 2023:</b> Due to incomplete or missing hospital data received for the September 17, 2023, through September 23, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for AS and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on September 29th, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and IC",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County",
             "programCode": [
                 "009:020"
@@ -20000,7 +20233,7 @@
             ],
             "issued": "2023-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-22",
+            "modified": "2023-09-28",
             "keyword": [
                 "covid",
                 "covid19",
@@ -20022,7 +20255,7 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "Michael Whitaker",
+                "fn": "RESP-NET",
                 "hasEmail": "mailto:pgn6@cdc.gov"
             },
             "publisher": {
@@ -22595,7 +22828,7 @@
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-20",
+            "modified": "2023-09-25",
             "references": [
                 "http://www.cdc.gov/BRFSS/"
             ],
@@ -23706,7 +23939,7 @@
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-09-21",
+            "modified": "2023-09-28",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -24397,7 +24630,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-20",
+            "modified": "2023-09-25",
             "references": [
                 "http://www.cdc.gov/brfss"
             ],
@@ -28699,7 +28932,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-04-28",
+            "modified": "2023-09-28",
             "references": [
                 "Vaccine Safety Datalink"
             ],
@@ -29386,7 +29619,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-24",
+            "modified": "2023-10-01",
             "keyword": [
                 "wastewater"
             ],
@@ -30481,7 +30714,7 @@
             "issued": "2023-06-06",
             "temporal": "Data from 2020-03-14 to present (posted starting 2023-06-06)",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-28",
             "references": [
                 "https://covid.cdc.gov/covid-data-tracker/"
             ],
@@ -32147,7 +32380,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020/2023",
-            "modified": "2023-09-21",
+            "modified": "2023-09-27",
             "keyword": [
                 "adult respiratory distress syndrome",
                 "age",
@@ -32246,7 +32479,7 @@
             "issued": "2021-03-24",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-09-20",
+            "modified": "2023-09-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -32654,7 +32887,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-09-21",
+            "modified": "2023-09-28",
             "keyword": [
                 "case",
                 "community transmission",
@@ -36643,7 +36876,7 @@
             ],
             "issued": "2022-04-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-15",
+            "modified": "2023-09-29",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -36848,7 +37081,7 @@
             ],
             "issued": "2020-07-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-27",
             "keyword": [
                 "age",
                 "age group",
@@ -36981,6 +37214,59 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
+            "theme": [
+                "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NAMCS/doc2016_clas.pdf",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NAMCS/",
+            "issued": "2018-11-20",
+            "@type": "dcat:Dataset",
+            "temporal": "2016",
+            "modified": "2023-09-27",
+            "references": [
+                "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NAMCS/readme2016_clas.txt"
+            ],
+            "keyword": [
+                "cultural-health-beliefs",
+                "health-practices",
+                "namcs",
+                "office-based physicians",
+                "physicians",
+                "preferred-languages"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov "
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/jy4b-8v6u",
+            "description": "The purpose of the National CLAS Physician Survey was to understand the provision of culturally and linguistically appropriate services among office-based physicians. The National CLAS Physician Survey was a supplement to the National Ambulatory Medical Care Survey (NAMCS), which is a national probability sample survey of visits to office-based physicians. NAMCS is a component of the National Health Care Surveys that measured health care utilization across a variety of health care providers\u2019 settings. NAMCS and the National CLAS Physician Survey were conducted by the National Center for Health Statistics (NCHS). The National CLAS Physician Survey public use file includes data from office-based physicians. No patient level data were collected. This documentation describes the public use micro-data file produced from data collected in the National CLAS Physician Survey.",
+            "title": "National Ambulatory Medical Care Survey: Culturally and Linguistically Appropriate Services Supplement, 2016",
+            "describedByType": "application/pdf",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/download/jy4b-8v6u/text/plain",
+                    "mediaType": "text/plain"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "https://www.cdc.gov/nchs/data/ahcd/2016_NAMCS_CLAS_Sample_Card.pdf",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Survey will not be updated.",
             "theme": [
                 "NCHS"
             ]
@@ -37663,7 +37949,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2018-2023",
-            "modified": "2023-03-31",
+            "modified": "2023-09-28",
             "references": [
                 "CDC"
             ],
@@ -37801,7 +38087,7 @@
             ],
             "issued": "2020-06-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -38207,7 +38493,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-28",
             "keyword": [
                 "cares act",
                 "health system",
@@ -39491,7 +39777,7 @@
             "issued": "2020-05-08",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-01/2023-07-29",
-            "modified": "2023-09-20",
+            "modified": "2023-09-27",
             "keyword": [
                 "age",
                 "age group",
@@ -39716,16 +40002,42 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/kvib-3txy",
+            "landingPage": "https://www.cdc.gov/rsv/research/rsv-net/overview-methods.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-22",
+            "modified": "2023-09-28",
+            "keyword": [
+                "covid",
+                "covid19",
+                "covid-19",
+                "covidnet",
+                "covid-net",
+                "flu",
+                "flunet",
+                "flu-net",
+                "flusurvnet",
+                "flusurv-net",
+                "hospitalization",
+                "hospitalization rate",
+                "hospitalizations",
+                "influenza",
+                "rate",
+                "rates by age group",
+                "rates by race and ethnicity",
+                "respiratory illness",
+                "respiratory syncytial virus",
+                "respiratory virus response",
+                "respnet",
+                "resp-net",
+                "rsv",
+                "surveillance"
+            ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "Michael Whitaker",
+                "fn": "RESP-NET",
                 "hasEmail": "mailto:pgn6@cdc.gov"
             },
             "publisher": {
@@ -39733,10 +40045,10 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/kvib-3txy",
-            "description": "COVID-NET, RSV-NET, and FluSurv-NET are  population-based surveillance systems that collect data on laboratory-confirmed hospitalizations among children and adults through a network of over 250 acute-care hospitals in 14 states. \n\nData are preliminary and subject to change as more data become available. Data will be updated weekly.",
+            "description": "COVID-NET, RSV-NET, and FluSurv-NET (RESP-NET) are  population-based surveillance systems that collect data on laboratory-confirmed hospitalizations among children and adults through a network of over 250 acute-care hospitals in 14 states. \n\nData are preliminary and subject to change as more data become available. Data will be updated weekly.",
             "title": "Rates of Laboratory-Confirmed RSV, COVID-19, and Flu Hospitalizations from the RESP-NET Surveillance Systems",
             "programCode": [
-                "009:020"
+                "009:038"
             ],
             "distribution": [
                 {
@@ -39768,6 +40080,7 @@
             ],
             "spatial": "RESP-NET Sites",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
             "theme": [
                 "Public Health Surveillance"
             ]
@@ -41802,7 +42115,7 @@
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-09-21",
+            "modified": "2023-09-28",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -42404,7 +42717,7 @@
             "issued": "2020-04-21",
             "@type": "dcat:Dataset",
             "temporal": "2020-01-04/2023-07-22",
-            "modified": "2023-09-20",
+            "modified": "2023-09-27",
             "keyword": [
                 "all causes",
                 "alzheimer disease",
@@ -42875,6 +43188,53 @@
             ],
             "theme": [
                 "NNDSS"
+            ]
+        },
+        {
+            "accessLevel": "restricted public",
+            "landingPage": "https://www.cdc.gov/nchs/nehrs/about.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "This dataset is restricted to authorized researchers due to indirect identifying sensitive information.  Researchers must apply for data access through a proposal process, take confidentiality and sign a data use agreement.  If approved, data access would occur at a NCHS or Federal Statistical Research Data Center.  For more information about submitting a proposal for data access, please see: https://www.cdc.gov/rdc/leftbrch/presubmit.htm\u201d",
+            "issued": "2023-09-27",
+            "@type": "dcat:Dataset",
+            "temporal": "2012-2015, 2017-2019, 2021",
+            "modified": "2023-09-27",
+            "keyword": [
+                "electronic health records",
+                "nchs",
+                "nehrs",
+                "research-data-center"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/myzw-mrfh",
+            "description": "The National Electronic Health Records Survey (NEHRS) is an annual survey of non-federally employed, office-based physicians practicing in the United States (excluding those in the specialties of anesthesiology, radiology, and pathology). NEHRS began in 2008 and was originally designed as an annual mail supplement to the National Ambulatory Medical Care Survey (NAMCS). Since 2012, NEHRS has been administered as a survey independent of NAMCS.\nData from NEHRS can be used to produce state and national estimates of EHR adoption and capabilities, burden associated with EHRs, and progress physicians have made towards meeting the policy goals of the HITECH Act. In more recent years, survey questions have also asked about Promoting Interoperability programs, sponsored by the Centers for Medicare and Medicaid Services (CMS).\n\nRestricted file data dictionaries are available.",
+            "title": "National Electronic Health Records Survey, Restricted data: 2012-2015, 2017-2019, 2021",
+            "isPartOf": "https://www.cdc.gov/nchs/nehrs/questionnaires.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://www.cdc.gov/rdc/leftbrch/presubmit.htm",
+                    "mediaType": "text/html"
+                }
+            ],
+            "spatial": "United States",
+            "describedBy": "The sampling frame was composed of Master files for all American physicians who met the following criteria: Office-based; Principally engaged in patient care activities; Non-federally employed; Not in specialties of anesthesiology, pathology, or radiology; and Younger than 85 years of age at the time of the survey.",
+            "accrualPeriodicity": "Future funding patterns past 2024 are uncertain however, we expect yearly or biannually is reasonable R/P1Y or R/P2Y",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -45232,24 +45592,37 @@
         },
         {
             "accessLevel": "public",
-            "landingPage": "https://data.cdc.gov/d/pbq2-7wr2",
+            "landingPage": "https://www.cdc.gov/rsv/research/rsv-net.html",
             "bureauCode": [
                 "009:20"
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-28",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
             "keyword": [
+                "age-adjusted rates",
+                "age-adjusted rates by race and ethnicity",
+                "hospitalization rate",
+                "hospitalizations",
+                "rate",
+                "rates by age group",
+                "rates by race and ethnicity",
+                "respiratory disease",
+                "respiratory illness",
+                "respiratory syncytial virus",
+                "respiratory virus response",
                 "rsv",
+                "rsvnet",
+                "rsv-net",
                 "surveillance"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "NCIRD DVD",
-                "hasEmail": "mailto:@cdc.gov"
+                "fn": "RESP-NET",
+                "hasEmail": "mailto:pgn6@cdc.gov"
             },
             "publisher": {
                 "@type": "org:Organization",
@@ -45259,7 +45632,7 @@
             "description": "The Respiratory Syncytial Virus Hospitalization Surveillance Network (RSV-NET) is a network that conducts active, population-based surveillance for laboratory-confirmed RSV-associated hospitalizations in children younger than 18 years of age and adults. The network currently includes 58 counties in 12 states, and data are collected and reported during the October 1-April 30 season each year.  In some years, additional months of data are collected.  In adults, RSV hospitalization tracking began in the 2016\u20132017 season. In children less than 18 years of age, surveillance began in the 2018\u201319 season. Because the surveillance areas and age groups included in surveillance have changed over time, trends should be interpreted with caution. Hospitalization data are preliminary and subject to change as more data become available.  In particular, case counts and rates for recent hospitalizations are subject to lag.  Lag for RSV-NET case identification and reporting might increase around holidays or during periods of increased hospitalization utilization.  As data are received each week, prior case counts and rates are updated accordingly.\nFor more information about RSV-NET, please see https://www.cdc.gov/rsv/research/rsv-net.html.",
             "title": "Monthly Rates of Laboratory-Confirmed RSV Hospitalizations from the RSV-NET Surveillance System",
             "programCode": [
-                "009:020"
+                "009:038"
             ],
             "distribution": [
                 {
@@ -45289,9 +45662,11 @@
                     "@type": "dcat:Distribution"
                 }
             ],
+            "spatial": "RSV-NET Sites",
             "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Weekly",
             "theme": [
-                "Case Surveillance"
+                "Public Health Surveillance"
             ]
         },
         {
@@ -45550,7 +45925,7 @@
             ],
             "issued": "2020-04-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-27",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -47587,7 +47962,7 @@
             ],
             "issued": "2023-07-19",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-26",
             "references": [
                 "https://www.cdc.gov/oralhealthdata/"
             ],
@@ -47617,7 +47992,7 @@
                 "name": "Centers for Disease Control and Prevention"
             },
             "identifier": "https://data.cdc.gov/api/views/qcai-zfj9",
-            "description": "Data for School year-end 1994 through year-end 2019.  State oral health surveys are the data sources for these indicators. States periodically conduct independent screening surveys of a probability sample designed to be representative of all third grade students in the state. Some states also conduct surveys of students in other grades in school, or of Head Start program enrollees. This surveillance activity is voluntary. States submit their data to the Association of State and Territorial Dental Directors (ASTDD), where the survey design and data collected are reviewed for quality and against the criteria for inclusion in NOHSS, before being sent to CDC for inclusion in Oral Health Data. For more information, see: http://www.cdc.gov/oralhealthdata/overview/childIndicators/",
+            "description": "Data for School year-end 1994 through year-end 2020.  State oral health surveys are the data sources for these indicators. States periodically conduct independent screening surveys of a probability sample designed to be representative of all third-grade students in the state. Some states also conduct surveys of students in other grades in school, or of Head Start program enrollees. This surveillance activity is voluntary. States submit their data to the Association of State and Territorial Dental Directors (ASTDD), where the survey design and data collected are reviewed for quality and against the criteria for inclusion in NOHSS, before being sent to CDC for inclusion in Oral Health Data. For more information, see: http://www.cdc.gov/oralhealthdata/overview/childIndicators/",
             "title": "NOHSS Child Indicators",
             "programCode": [
                 "009:020"
@@ -47867,7 +48242,7 @@
             ],
             "issued": "2020-07-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -48532,7 +48907,7 @@
             ],
             "issued": "2023-05-30",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-30",
+            "modified": "2023-09-29",
             "keyword": [
                 "abcs",
                 "active bacterial core surveillance",
@@ -48553,8 +48928,8 @@
                 "name": "Active Bacterial Core Surveillance"
             },
             "identifier": "https://data.cdc.gov/api/views/qvzb-qs6p",
-            "description": "CDC monitors invasive bacterial infections that cause bloodstream infections, sepsis, and meningitis in persons living in the community through Active Bacterial Core surveillance (ABCs). ABCs conducts laboratory- and population-based surveillance for invasive pneumococcal disease (IPD). ABCs serotype data are used to measure the impact of vaccine use in the United States on vaccine-type IPD. \n\nThis table reports IPD case counts in the ABCs catchment area by serotype for years 2016 through 2020. Cases are grouped into the following mutually exclusive age groups: age <2 years old, age 2\u20134 years old, age 5\u201317 years old, age 18\u201349 years old, age 50\u201364 years old, and age \u226565 years old.\n\nABCs methods and surveillance areas reporting IPD cases has changed over time. Given these changes, trends in serotype distribution by year and age group should be interpreted with caution. Additional information on ABCs methods and surveillance population is available at <a href=\"url\">https://www.cdc.gov/abcs/methodology/index.html</a>.\n\nAnalyze and visualize data using the ABCs Bact Facts Interactive Data Dashboard at <a href=\"url\">https://www.cdc.gov/abcs/bact-facts-interactive-dashboard.html</a>.",
-            "title": "2016-2020 Serotype Data for Invasive Pneumococcal Disease Cases by Age Group from Active Bacterial Core surveillance",
+            "description": "CDC monitors invasive bacterial infections that cause bloodstream infections, sepsis, and meningitis in persons living in the community through Active Bacterial Core surveillance (ABCs). ABCs conducts laboratory- and population-based surveillance for invasive pneumococcal disease (IPD). ABCs serotype data are used to measure the impact of vaccine use in the United States on vaccine-type IPD. \n\nThis table reports IPD case counts in the ABCs catchment area by serotype for years 2016 through 2021. Cases are grouped into the following mutually exclusive age groups: age <2 years old, age 2\u20134 years old, age 5\u201317 years old, age 18\u201349 years old, age 50\u201364 years old, and age \u226565 years old.\n\nABCs methods and surveillance areas reporting IPD cases has changed over time. Given these changes, trends in serotype distribution by year and age group should be interpreted with caution. Additional information on ABCs methods and surveillance population is available at <a href=\"url\">https://www.cdc.gov/abcs/methodology/index.html</a>.\n\nAnalyze and visualize data using the ABCs Bact Facts Interactive Data Dashboard at <a href=\"url\">https://www.cdc.gov/abcs/bact-facts-interactive-dashboard.html</a>.",
+            "title": "2016-2021 Serotype Data for Invasive Pneumococcal Disease Cases by Age Group from Active Bacterial Core surveillance",
             "programCode": [
                 "009:020"
             ],
@@ -49478,8 +49853,8 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "temporal": "2019-12-29/2023-09-22",
-            "modified": "2023-09-22",
+            "temporal": "2019-12-29/2023-09-28",
+            "modified": "2023-09-28",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -50610,7 +50985,7 @@
             ],
             "issued": "2018-10-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-25",
+            "modified": "2023-09-27",
             "references": [
                 "https://chronicdata.cdc.gov/d/vtwh-8kxg"
             ],
@@ -50744,7 +51119,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-19",
+            "modified": "2023-09-26",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -52352,7 +52727,7 @@
             "landingPage": "https://data.cdc.gov/d/sks5-7yq7",
             "issued": "2018-06-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-14",
+            "modified": "2023-09-27",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Jarvis Sims",
@@ -53960,7 +54335,7 @@
             "issued": "2021-02-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-09-20",
+            "modified": "2023-09-27",
             "keyword": [
                 "age",
                 "age group",
@@ -54473,7 +54848,7 @@
             ],
             "issued": "2023-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-22",
+            "modified": "2023-09-28",
             "keyword": [
                 "covid",
                 "covid19",
@@ -54483,6 +54858,8 @@
                 "hospitalization rate",
                 "hospitalizations",
                 "rate",
+                "rates by age group",
+                "rates by race and ethnicity",
                 "respiratory illness",
                 "respiratory virus response",
                 "respnet",
@@ -54491,7 +54868,7 @@
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "Michael Whitaker",
+                "fn": "RESP-NET",
                 "hasEmail": "mailto:pgn6@cdc.gov"
             },
             "publisher": {
@@ -54819,7 +55196,7 @@
             ],
             "issued": "2023-04-04",
             "@type": "dcat:Dataset",
-            "modified": "2023-05-23",
+            "modified": "2023-09-27",
             "keyword": [
                 "covid-19 vaccination",
                 "covid tracker",
@@ -54941,7 +55318,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-27",
             "keyword": [
                 "alzheimer disease",
                 "cancer",
@@ -57768,7 +58145,7 @@
             ],
             "issued": "2021-07-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-27",
+            "modified": "2023-09-28",
             "keyword": [
                 "flu vaccination",
                 "immunization",
@@ -58769,10 +59146,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2023-09-05",
+            "issued": "2023-09-27",
             "@type": "dcat:Dataset",
             "temporal": "2022-09-24/2023-09-16",
-            "modified": "2023-09-20",
+            "modified": "2023-09-27",
             "references": [
                 "https://www.cdc.gov/ncird/surveillance/respiratory-illnesses/index.html#companion-guide"
             ],
@@ -60557,7 +60934,7 @@
             "issued": "2023-05-11",
             "@type": "dcat:Dataset",
             "temporal": "2020-11-01/2021-07-31",
-            "modified": "2023-09-15",
+            "modified": "2023-09-26",
             "keyword": [
                 "activities of daily living",
                 "adult day services centers",
@@ -60581,7 +60958,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/wibz-pb5q",
-            "description": "The NCHS National Post-acute and Long-term Care Study (NPALS) collects data on post-acute and long-term care providers every two years. The goal is to monitor post-acute and long-term care settings with reliable, accurate, relevant, and timely statistical information to support and inform post-acute and long-term care services policy, research, and practice. These data tables provide an overview of the geographic, organizational, staffing, service provision, and user characteristics of paid, regulated long-term and post-acute care providers in the adult day services centers (ADSCs) and residential care communities (RCCs) in the United States.",
+            "description": "The NCHS National Post-acute and Long-term Care Study (NPALS) collects data on post-acute and long-term care providers every two years. The goal is to monitor post-acute and long-term care settings with reliable, accurate, relevant, and timely statistical information to support and inform policy, research, and practice. These data tables provide an overview of the geographic, organizational, staffing, service provision, and user characteristics of paid, regulated long-term and post-acute care providers in the United States. The settings include adult day services centers, home health agencies, hospices, inpatient rehabilitation facilities, long-term care hospitals, and nursing homes.",
             "title": "Biennial Overview of Post-acute and Long-term Care in the United States: Data from the 2020 National Post-acute and Long-term Care Study",
             "programCode": [
                 "009:020"
@@ -61724,7 +62101,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-28",
             "keyword": [
                 "2022",
                 "2023",
@@ -62219,7 +62596,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-09-21",
+            "modified": "2023-09-28",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -62364,7 +62741,7 @@
             ],
             "issued": "2020-04-29",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-27",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -63312,7 +63689,7 @@
             ],
             "issued": "2023-09-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-18",
+            "modified": "2023-09-27",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -63331,7 +63708,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/xwa7-cukt",
             "description": "COVID-19 Deaths Among Healthcare Personnel, by week",
-            "title": "COVID-19 Deaths Among Healthcare Personnel, by week",
+            "title": "COVID-19 Deaths Among Healthcare Personnel, by week - ARCHIVED",
             "programCode": [
                 "009:020"
             ],
@@ -63364,6 +63741,7 @@
                 }
             ],
             "spatial": "US",
+            "accrualPeriodicity": "No longer updated (dataset archived)",
             "theme": [
                 "Case Surveillance"
             ]
@@ -63978,7 +64356,7 @@
             ],
             "issued": "2020-05-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-27",
             "keyword": [
                 "age",
                 "age group",
@@ -64785,7 +65163,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-21",
+            "modified": "2023-09-28",
             "keyword": [
                 "age",
                 "age group",
