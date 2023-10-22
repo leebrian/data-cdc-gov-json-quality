@@ -588,7 +588,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-05",
+            "modified": "2023-10-19",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -943,7 +943,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-15",
+            "modified": "2023-10-22",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2216,7 +2216,7 @@
             "issued": "2023-07-06",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-01/-",
-            "modified": "2023-10-13",
+            "modified": "2023-10-20",
             "references": [
                 "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -2560,7 +2560,7 @@
             "issued": "2023-09-24",
             "temporal": "Data from 2020-04-11 to present",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-12",
+            "modified": "2023-10-19",
             "keyword": [
                 "chronic lower respiratory disease",
                 "respiratory disease",
@@ -4475,8 +4475,8 @@
             ],
             "issued": "2016-08-04",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2022-12-31",
-            "modified": "2023-07-27",
+            "temporal": "2020-01-01/2023-03-31",
+            "modified": "2023-10-17",
             "keyword": [
                 "age",
                 "age group",
@@ -4766,6 +4766,79 @@
             "describedBy": "https://chronicdata.cdc.gov/dataset/PLACES-Local-Data-for-Better-Health-Census-Tract-D/cwsq-ngmh",
             "theme": [
                 "500 Cities & Places"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/4bc2-bbpq",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-09-27",
+            "@type": "dcat:Dataset",
+            "temporal": "2018-01-06/2023-10-07",
+            "modified": "2023-10-20",
+            "keyword": [
+                "coronavirus",
+                "covid19",
+                "deaths",
+                "influenza",
+                "mortality",
+                "nchs",
+                "nvss",
+                "respiratory-virus-response",
+                "rsv",
+                "united states",
+                "weekly"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/4bc2-bbpq",
+            "description": "This file contains the provisional percent of total deaths by week for COVID-19, Influenza, and Respiratory Syncytial Virus for deaths occurring among residents in the United States. Provisional data are based on non-final counts of deaths based on the flow of mortality data in National Vital Statistics System.",
+            "title": "Provisional Percent of Deaths for COVID-19, Influenza, and RSV",
+            "programCode": [
+                "009:026"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/4bc2-bbpq/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/4bc2-bbpq/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4bc2-bbpq/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/4bc2-bbpq/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4bc2-bbpq/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/4bc2-bbpq/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/4bc2-bbpq/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1W",
+            "theme": [
+                "Health Statistics"
             ]
         },
         {
@@ -6486,6 +6559,77 @@
             ]
         },
         {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/53g5-jf7x",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-09-27",
+            "temporal": "2020-11-21/2023-10-07",
+            "@type": "dcat:Dataset",
+            "modified": "2023-10-20",
+            "keyword": [
+                "coronavirus",
+                "covid-19",
+                "deaths",
+                "influenza",
+                "mortality",
+                "nchs",
+                "respiratory-virus-response",
+                "rsv",
+                "united-states",
+                "weekly"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:cdcinfo@cdc.gov "
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/53g5-jf7x",
+            "description": "This file contains the provisional percent of total deaths by week for COVID-19, Influenza, and Respiratory Syncytial Virus for deaths occurring among residents in the United States, by sex, age group, and race and Hispanic origin. Provisional data are based on non-final counts of deaths based on the flow of mortality data in National Vital Statistics System.",
+            "title": "Provisional Percent of Deaths for COVID-19, Influenza, and RSV by Select Characteristics",
+            "programCode": [
+                "009:026"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/53g5-jf7x/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/53g5-jf7x/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/53g5-jf7x/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/53g5-jf7x/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/53g5-jf7x/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/53g5-jf7x/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/53g5-jf7x/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1W",
+            "theme": [
+                "Health Statistics"
+            ]
+        },
+        {
             "accessLevel": "restricted public",
             "landingPage": "https://data.cdc.gov/d/53mp-bpbv",
             "bureauCode": [
@@ -7656,9 +7800,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2022-04-20",
+            "issued": "2023-10-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-09",
+            "modified": "2023-10-21",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -9970,6 +10114,70 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/6svj-q4zv",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-09-26",
+            "@type": "dcat:Dataset",
+            "temporal": "2022-10-08/2023-10-14",
+            "modified": "2023-10-20",
+            "keyword": [
+                "ncird",
+                "respiratory-virus-response"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Alicia Budd, Krista Kniss, and Arielle Colon",
+                "hasEmail": "mailto:acp4@cdc.gov, krk9@cdc.gov, nnp8@cdc.gov  "
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/6svj-q4zv",
+            "description": "Information on outpatient visits to health care providers for respiratory illness referred to as influenza-like illness (ILI) is collected through the U.S. Outpatient Influenza-like Illness Surveillance Network (ILINet). ILINet consists of outpatient healthcare providers in all 50 states, Puerto Rico, the District of Columbia, and the U.S. Virgin Islands. More than 100 million patient visits were reported during the 2022-23 season. Each week, more than 3,000 outpatient health care providers around the country report to CDC the number of patient visits for ILI by age group (0-4 years, 5-24 years, 25-49 years, 50-64 years, and \u226565 years) and the total number of visits for any reason. A subset of providers also reports total visits by age group. For this system, ILI is defined as fever (temperature of 100\u00b0F [37.8\u00b0C] or greater) and a cough and/or a sore throat.   Activity levels are based on the percent of outpatient visits due to ILI in a jurisdiction compared to the average percent of ILI visits that occur during weeks with little or no influenza virus circulation (non-influenza weeks) in that jurisdiction. The number of sites reporting each week is variable; therefore, baselines are adjusted each week based on which sites within each jurisdiction provide data. To perform this adjustment, provider level baseline ILI ratios are calculated for those that have a sufficient reporting history. Providers that do not have the required reporting history to calculate a provider-specific baseline are assigned the baseline ratio for their practice type. The jurisdiction level baseline is then calculated using a weighted sum of the baseline ratios for each contributing provider. \n\nThe activity levels compare the mean reported percent of visits due to ILI during the current week to the mean reported percent of visits due to ILI during non-influenza weeks. The 13 activity levels correspond to the number of standard deviations below, at, or above the mean for the current week compared with the mean during non-influenza weeks. Activity levels are classified as minimal (levels 1-3), low (levels 4-5), moderate (levels 6-7), high (levels 8-10), and very high (levels 11-13). An activity level of 1 corresponds to an ILI percentage below the mean, level 2 corresponds to an ILI percentage less than 1 standard deviation above the mean, level 3 corresponds to an ILI percentage more than 1 but less than 2 standard deviations above the mean, and so on, with an activity level of 10 corresponding to an ILI percentage 8 to 11 standard deviations above the mean. The very high levels correspond to an ILI percentage 12 to 15 standard deviations above the mean for level 11, 16 to 19 standard deviations above the mean for level 12, and 20 or more standard deviations above the mean for level 13. \n\nDisclaimers: \n\nThe ILI Activity Indicator map reflects the intensity of ILI activity, not the extent of geographic spread of ILI, within a jurisdiction. Therefore, outbreaks occurring in a single area could cause the entire jurisdiction to display high or very high activity levels. In addition, data collected in ILINet may disproportionally represent certain populations within a jurisdiction, and therefore, may not accurately depict the full picture of respiratory illness activity for the entire jurisdiction. Differences in the data presented here by CDC and independently by some health departments likely represent differing levels of data completeness with data presented by the health department likely being more complete. \n\nMore information is available on <a href=\"https://gis.cdc.gov/grasp/fluview/main.html\">FluView Interactive</a>.",
+            "title": "Outpatient Respiratory Illness Activity Map",
+            "programCode": [
+                "009:026"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/6svj-q4zv/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/6svj-q4zv/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/6svj-q4zv/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/6svj-q4zv/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/6svj-q4zv/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/6svj-q4zv/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/6svj-q4zv/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1W",
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/6tk5-h85s",
             "bureauCode": [
                 "009:00"
@@ -11114,7 +11322,7 @@
             "issued": "2023-07-06",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-01/-",
-            "modified": "2023-10-13",
+            "modified": "2023-10-20",
             "references": [
                 "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -12235,6 +12443,84 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/7xva-uux8",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-09-27",
+            "@type": "dcat:Dataset",
+            "temporal": "2022-10-22/2023-10-14",
+            "modified": "2023-10-20",
+            "keyword": [
+                "coronavirus",
+                "covid19",
+                "ed",
+                "emergency department",
+                "flu",
+                "influenza",
+                "national syndromic surveillance program",
+                "ncird",
+                "nssp",
+                "ophdst",
+                "respiratory syncytial",
+                "respiratory syncytial virus",
+                "respiratory-virus-response",
+                "rsv",
+                "rvr",
+                "virus"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Syndromic Surveillance Program",
+                "hasEmail": "mailto:nssp@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/7xva-uux8",
+            "description": "2023 Respiratory Virus Response - NSSP Emergency Department Visits - COVID-19, Flu, RSV, Combined \u2013 by Demographic Category \n\nUpdated once per week on Fridays.",
+            "title": "2023 Respiratory Virus Response - NSSP Emergency Department Visits - COVID-19, Flu, RSV, Combined \u2013 by Demographic Category",
+            "programCode": [
+                "009:026"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/7xva-uux8/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/7xva-uux8/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/7xva-uux8/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/7xva-uux8/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/7xva-uux8/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/7xva-uux8/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/7xva-uux8/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "U.S.",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1W",
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://data.cdc.gov/d/7xvh-y5vh",
             "bureauCode": [
                 "009:20"
@@ -12439,7 +12725,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 -",
-            "modified": "2023-10-13",
+            "modified": "2023-10-20",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -12648,7 +12934,7 @@
             "issued": "2021-11-03",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-10-13",
+            "modified": "2023-10-20",
             "references": [
                 "IQVIA Pharmacy and Physician Medical Office Claims"
             ],
@@ -16554,6 +16840,77 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/9t9r-e5a3",
+            "bureauCode": [
+                "009:20"
+            ],
+            "issued": "2023-09-27",
+            "@type": "dcat:Dataset",
+            "temporal": "2020-08-01/2023-10-14",
+            "modified": "2023-10-20",
+            "keyword": [
+                "admissions",
+                "coronavirus",
+                "covid-19",
+                "hospital capacity",
+                "hospitalizations",
+                "icu beds",
+                "inpatient beds",
+                "ncezid",
+                "respiratory-virus-response"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "DHQP",
+                "hasEmail": "mailto:nhsn@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/9t9r-e5a3",
+            "description": "This dataset represents hospitalization data and metrics aggregated to country, HHS region, and state/territory. Hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to hospital admissions, and inpatient and ICU bed capacity occupancy.\n\nUpdated weekly each Friday at noon, ET.",
+            "title": "Respiratory Virus Response (RVR) United States Hospitalization Metrics by Jurisdiction, Timeseries",
+            "programCode": [
+                "009:026"
+            ],
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/9t9r-e5a3/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9t9r-e5a3/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9t9r-e5a3/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/9t9r-e5a3/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9t9r-e5a3/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/9t9r-e5a3/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/9t9r-e5a3/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ],
+            "spatial": "US, State/Territory, HHS Region",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "R/P1W",
+            "theme": [
+                "Public Health Surveillance"
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/art/index.html",
             "bureauCode": [
                 "009:20"
@@ -18311,7 +18668,7 @@
             "issued": "2023-05-25",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 \u2013",
-            "modified": "2023-10-13",
+            "modified": "2023-10-20",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -20175,7 +20532,7 @@
             ],
             "issued": "2023-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-05",
+            "modified": "2023-10-19",
             "keyword": [
                 "covid",
                 "covid19",
@@ -20756,7 +21113,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-15",
+            "modified": "2023-10-22",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -21510,7 +21867,7 @@
             ],
             "issued": "2022-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-16",
+            "modified": "2023-10-16",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -23819,7 +24176,7 @@
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-10-12",
+            "modified": "2023-10-19",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -25178,8 +25535,8 @@
             ],
             "issued": "2023-03-10",
             "@type": "dcat:Dataset",
-            "temporal": "2019-01-01/2023-03-31",
-            "modified": "2023-07-12",
+            "temporal": "2019-01-01/2023-06-30",
+            "modified": "2023-10-17",
             "keyword": [
                 "age",
                 "age group",
@@ -28812,7 +29169,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-10-13",
+            "modified": "2023-10-20",
             "references": [
                 "Vaccine Safety Datalink"
             ],
@@ -29499,7 +29856,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-15",
+            "modified": "2023-10-22",
             "keyword": [
                 "wastewater"
             ],
@@ -29897,8 +30254,8 @@
             ],
             "issued": "2021-10-05",
             "@type": "dcat:Dataset",
-            "temporal": "2015-01-01/2022-12-31",
-            "modified": "2023-07-12",
+            "temporal": "2015-01-01/2023-10-08",
+            "modified": "2023-10-17",
             "keyword": [
                 "county",
                 "deaths",
@@ -29960,6 +30317,53 @@
             "license": "https://www.usa.gov/government-works",
             "theme": [
                 "NCHS"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/gb67-x49c",
+            "issued": "2023-10-18",
+            "@type": "dcat:Dataset",
+            "modified": "2023-10-18",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "SOZ9@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/gb67-x49c",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "edav-demo-dataset-api",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/gb67-x49c/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/gb67-x49c/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/gb67-x49c/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/gb67-x49c/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/gb67-x49c/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/gb67-x49c/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/gb67-x49c/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
             ]
         },
         {
@@ -30594,7 +30998,7 @@
             "issued": "2023-06-06",
             "temporal": "Data from 2020-03-14 to present (posted starting 2023-06-06)",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-12",
+            "modified": "2023-10-19",
             "references": [
                 "https://covid.cdc.gov/covid-data-tracker/"
             ],
@@ -32565,8 +32969,8 @@
             ],
             "issued": "2017-07-20",
             "@type": "dcat:Dataset",
-            "temporal": "2022-01-01/2023-03-31",
-            "modified": "2023-07-27",
+            "temporal": "2022-01-01/2023-06-30",
+            "modified": "2023-10-17",
             "keyword": [
                 "birth",
                 "deaths",
@@ -32767,7 +33171,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-10-12",
+            "modified": "2023-10-19",
             "keyword": [
                 "case",
                 "community transmission",
@@ -33994,6 +34398,53 @@
         },
         {
             "accessLevel": "public",
+            "landingPage": "https://data.cdc.gov/d/i7uf-k8j7",
+            "issued": "2023-10-20",
+            "@type": "dcat:Dataset",
+            "modified": "2023-10-20",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "SEQ5@cdc.gov",
+                "hasEmail": "mailto:no-reply@data.cdc.gov"
+            },
+            "identifier": "https://data.cdc.gov/api/views/i7uf-k8j7",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "data.cdc.gov"
+            },
+            "description": "",
+            "title": "API update/Refresh",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "downloadURL": "https://data.cdc.gov/api/views/i7uf-k8j7/rows.csv?accessType=DOWNLOAD",
+                    "mediaType": "text/csv"
+                },
+                {
+                    "mediaType": "application/rdf+xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/i7uf-k8j7/rows.rdf?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/i7uf-k8j7/columns.rdf",
+                    "describedByType": "application/rdf+xml",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/json",
+                    "downloadURL": "https://data.cdc.gov/api/views/i7uf-k8j7/rows.json?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/i7uf-k8j7/columns.json",
+                    "describedByType": "application/json",
+                    "@type": "dcat:Distribution"
+                },
+                {
+                    "mediaType": "application/xml",
+                    "downloadURL": "https://data.cdc.gov/api/views/i7uf-k8j7/rows.xml?accessType=DOWNLOAD",
+                    "describedBy": "https://data.cdc.gov/api/views/i7uf-k8j7/columns.xml",
+                    "describedByType": "application/xml",
+                    "@type": "dcat:Distribution"
+                }
+            ]
+        },
+        {
+            "accessLevel": "public",
             "landingPage": "https://www.cdc.gov/statesystem/index.html",
             "bureauCode": [
                 "009:20"
@@ -34452,7 +34903,7 @@
             ],
             "issued": "2021-05-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-20",
+            "modified": "2023-10-16",
             "keyword": [
                 "any exemption",
                 "dt",
@@ -35870,7 +36321,7 @@
             ],
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-16",
+            "modified": "2023-10-16",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -37900,7 +38351,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2018-2023",
-            "modified": "2023-10-13",
+            "modified": "2023-10-20",
             "references": [
                 "CDC"
             ],
@@ -38444,7 +38895,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-14",
+            "modified": "2023-10-18",
             "keyword": [
                 "cares act",
                 "health system",
@@ -38508,7 +38959,7 @@
             ],
             "issued": "2022-11-28",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-16",
+            "modified": "2023-10-16",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -39897,7 +40348,7 @@
             ],
             "issued": "2023-01-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-12",
+            "modified": "2023-10-19",
             "keyword": [
                 "covid",
                 "covid19",
@@ -42004,7 +42455,7 @@
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-10-12",
+            "modified": "2023-10-19",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -44745,7 +45196,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-07-28",
+            "modified": "2023-10-16",
             "references": [
                 "https://chronicdata.cdc.gov/d/x7ys-5vpn"
             ],
@@ -45555,7 +46006,7 @@
             ],
             "issued": "2022-12-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-05",
+            "modified": "2023-10-19",
             "references": [
                 "https://www.cdc.gov/rsv/research/rsv-net.html"
             ],
@@ -49810,8 +50261,8 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "temporal": "2019-12-29/2023-10-07",
-            "modified": "2023-10-12",
+            "temporal": "2019-12-29/2023-10-14",
+            "modified": "2023-10-19",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -51076,7 +51527,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-10",
+            "modified": "2023-10-17",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -54805,7 +55256,7 @@
             ],
             "issued": "2023-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-05",
+            "modified": "2023-10-19",
             "keyword": [
                 "covid",
                 "covid19",
@@ -59105,8 +59556,8 @@
             ],
             "issued": "2023-09-27",
             "@type": "dcat:Dataset",
-            "temporal": "2022-09-24/2023-09-16",
-            "modified": "2023-09-27",
+            "temporal": "2022-10-22/2023-10-14",
+            "modified": "2023-10-20",
             "references": [
                 "https://www.cdc.gov/ncird/surveillance/respiratory-illnesses/index.html#companion-guide"
             ],
@@ -62058,7 +62509,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-12",
+            "modified": "2023-10-19",
             "keyword": [
                 "2022",
                 "2023",
@@ -62553,7 +63004,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-10-14",
+            "modified": "2023-10-18",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -65120,7 +65571,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-12",
+            "modified": "2023-10-19",
             "keyword": [
                 "age",
                 "age group",
