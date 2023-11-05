@@ -801,7 +801,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-10-27",
+            "modified": "2023-11-03",
             "references": [
                 "Centers for Medicare & Medicaid Services Chronic Conditions Warehouse"
             ],
@@ -943,7 +943,7 @@
             ],
             "issued": "2022-04-07",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-29",
+            "modified": "2023-11-05",
             "keyword": [
                 "covid19",
                 "sars-cov-2",
@@ -2216,7 +2216,7 @@
             "issued": "2023-07-06",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-01/-",
-            "modified": "2023-10-27",
+            "modified": "2023-11-03",
             "references": [
                 "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -2560,7 +2560,7 @@
             "issued": "2023-09-24",
             "temporal": "Data from 2020-04-11 to present",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-26",
+            "modified": "2023-11-02",
             "keyword": [
                 "chronic lower respiratory disease",
                 "respiratory disease",
@@ -2629,12 +2629,32 @@
             "issued": "2020-10-20",
             "@type": "dcat:Dataset",
             "temporal": "1973/2019",
-            "modified": "2023-01-23",
+            "modified": "2023-10-31",
             "references": [
                 "https://www.cdc.gov/nchs/data/nsfg/NSFG-2017-2019-UG-MainText-508.pdf; https://www.cdc.gov/nchs/data/nsfg/NSFG-2017-2019-UG-App7a-RestrictedUseRDCvars-FemResp-Preg-508.pdf; https://www.cdc.gov/nchs/data/nsfg/NSFG-2017-2019-UG-App7b-RestrictedUseRDCvars-Male-508.pdf;  https://www.cdc.gov/nchs/nsfg/nsfg_special_supplementary_data.htm"
             ],
             "keyword": [
-                "pregnancy; births; infertility; marriage; contraception; health; cohabitation; survey; research-data-center"
+                "births",
+                "cohabitation",
+                "contraception",
+                "health",
+                "infertility",
+                "marriage",
+                "pregnancy",
+                "research-data-center",
+                "sdoh-access-to-health-care",
+                "sdoh-employment",
+                "sdoh-food-access",
+                "sdoh-food-insecurity",
+                "sdoh-health-literacy",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-housing-stability",
+                "sdoh-incarceration",
+                "sdoh-language",
+                "sdoh-poverty-income",
+                "sdoh-use-of-health-care",
+                "survey"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -3145,7 +3165,7 @@
             "issued": "2022-08-11",
             "@type": "dcat:Dataset",
             "temporal": "2022-02-24 - 2023-05-10",
-            "modified": "2023-06-01",
+            "modified": "2023-11-02",
             "keyword": [
                 "cases",
                 "community levels",
@@ -4776,8 +4796,8 @@
             ],
             "issued": "2023-09-27",
             "@type": "dcat:Dataset",
-            "temporal": "2018-01-06/2023-10-14",
-            "modified": "2023-10-27",
+            "temporal": "2018-01-06/2023-10-21",
+            "modified": "2023-11-03",
             "keyword": [
                 "coronavirus",
                 "covid19",
@@ -6565,9 +6585,9 @@
                 "009:20"
             ],
             "issued": "2023-09-27",
-            "temporal": "2020-11-21/2023-10-07",
+            "temporal": "2020-11-29/2023-10-15",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-27",
+            "modified": "2023-11-03",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -7802,7 +7822,7 @@
             ],
             "issued": "2023-10-17",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-28",
+            "modified": "2023-11-04",
             "keyword": [
                 "covid-19",
                 "providers",
@@ -10120,8 +10140,8 @@
             ],
             "issued": "2023-09-26",
             "@type": "dcat:Dataset",
-            "temporal": "2022-10-08/2023-10-21",
-            "modified": "2023-10-27",
+            "temporal": "2022-10-08/2023-10-28",
+            "modified": "2023-11-03",
             "keyword": [
                 "ncird",
                 "respiratory-virus-response"
@@ -11322,7 +11342,7 @@
             "issued": "2023-07-06",
             "@type": "dcat:Dataset",
             "temporal": "2020-08-01/-",
-            "modified": "2023-10-27",
+            "modified": "2023-11-03",
             "references": [
                 "CDT aggregate hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-state CDT Hospitalizations Landing Page: https://covid.cdc.gov/covid-data-tracker/#hospitalizations-landing NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -12449,8 +12469,8 @@
             ],
             "issued": "2023-09-27",
             "@type": "dcat:Dataset",
-            "temporal": "2022-10-29/2023-10-21",
-            "modified": "2023-10-27",
+            "temporal": "2022-11-05/2023-10-28",
+            "modified": "2023-11-03",
             "keyword": [
                 "coronavirus",
                 "covid19",
@@ -12725,7 +12745,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 -",
-            "modified": "2023-10-27",
+            "modified": "2023-11-03",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -12749,7 +12769,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/82ci-krud",
-            "description": "<b>Note:</b>\n<b>October 27, 2023:</b> Due to incomplete or missing hospital data received for the October 15, 2023, through October 21, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on October 27, 2023.\n\n<b>October 27, 2023:</b> Due to incomplete or missing hospital data received for the October 15, 2023, through October 21, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for GU and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on October 27, 2023.\n\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States as of the initial date of reporting for each weekly metric. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>\u2022\tAs of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level repre",
+            "description": "<b>Note:</b>\n<b>November 3, 2023:</b> Due to incomplete or missing hospital data received for the October 22, 2023, through October 28, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on November 3, 2023.\n\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States as of the initial date of reporting for each weekly metric. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>\u2022\tAs of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy among hospitals within the selected HSA. Therefore, admissions, capacity, and occupancy are not limited to residents of the selected HSA. </li><li>For all county-level hospital metrics listed below the values are calculated first for the entire HSA, and then the HSA-level",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County (Historical)",
             "programCode": [
                 "009:020"
@@ -12934,7 +12954,7 @@
             "issued": "2021-11-03",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-10-27",
+            "modified": "2023-11-03",
             "references": [
                 "IQVIA Pharmacy and Physician Medical Office Claims"
             ],
@@ -14031,7 +14051,7 @@
             ],
             "issued": "2021-12-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-27",
+            "modified": "2023-11-03",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "NCIRD",
@@ -16844,10 +16864,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2023-09-27",
+            "issued": "2023-11-03",
             "@type": "dcat:Dataset",
-            "temporal": "2020-08-01/2023-10-21",
-            "modified": "2023-10-27",
+            "temporal": "2020-08-01/2023-10-28",
+            "modified": "2023-11-03",
             "keyword": [
                 "admissions",
                 "coronavirus",
@@ -16869,7 +16889,7 @@
                 "name": "data.cdc.gov"
             },
             "identifier": "https://data.cdc.gov/api/views/9t9r-e5a3",
-            "description": "This dataset represents hospitalization data and metrics aggregated to country, HHS region, and state/territory. Hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to hospital admissions, and inpatient and ICU bed capacity occupancy.\n\nUpdated weekly each Friday at noon, ET.",
+            "description": "This dataset represents hospitalization data and metrics aggregated to country, HHS region, and state/territory. Hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to hospital admissions, and inpatient and ICU bed capacity occupancy.\n\nData fields for new admissions of pediatric patients with confirmed COVID-19 for ages 0-4 years, 5-11 years, and 12-17 years were not required for reporting until February 2022; therefore, data for the following fields in this dataset begin on March 1, 2022 to account for delays in initial reporting of these fields:\n \nadm_00_04_covid_confirmed\navg_adm_00_04_covid_confirmed\navg_adm_00_04_covid_confirmed_per_100k\nadm_05_11_covid_confirmed\navg_adm_05_11_covid_confirmed\navg_adm_05_11_covid_confirmed_per_100k\nadm_12_17_covid_confirmed\navg_adm_12_17_covid_confirmed\navg_adm_12_17_covid_confirmed_per_100k\n\nUpdated weekly each Friday at noon, ET.",
             "title": "Respiratory Virus Response (RVR) United States Hospitalization Metrics by Jurisdiction, Timeseries",
             "programCode": [
                 "009:026"
@@ -16917,7 +16937,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-30",
+            "modified": "2023-10-30",
             "keyword": [
                 "art",
                 "assisted reproductive technology",
@@ -16938,7 +16958,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/9tjt-seye",
             "description": "ART data are made available as part of the National ART Surveillance System (NASS) that collects success rates, services, profiles and annual summary data from fertility clinics across the U.S. There are four datasets available: ART Services and Profiles, ART Patient and Cycle Characteristics, ART Success Rates, and ART Summary. All four datasets may be linked by \u201cClinicID.\u201d ClinicID is a unique identifier for each clinic that reported cycles. The Summary dataset provides a full snapshot of clinic services and profile, patient characteristics, and ART success rates. It is worth noting that patient medical characteristics, such as age, diagnosis, and ovarian reserve, affect ART treatment\u2019s success. Comparison of success rates across clinics may not be meaningful because of differences in patient populations and ART treatment methods. The success rates displayed in this dataset do not reflect any one patient\u2019s chance of success. Patients should consult with a doctor to understand their chance of success based on their own characteristics.",
-            "title": "2021 Preliminary Assisted Reproductive Technology (ART) Summary",
+            "title": "2021 Final Assisted Reproductive Technology (ART) Summary",
             "programCode": [
                 "009:020"
             ],
@@ -18668,7 +18688,7 @@
             "issued": "2023-05-25",
             "@type": "dcat:Dataset",
             "temporal": "5/11/2023 \u2013",
-            "modified": "2023-10-27",
+            "modified": "2023-11-03",
             "references": [
                 "CDT county-level hospital data displays: https://covid.cdc.gov/covid-data-tracker/#cases_new-admissions-rate-county  NHSN Hospital Data Reporting: https://www.cdc.gov/nhsn/covid19/hospital-reporting.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fnhsn%2Fcovid19%2Ftransition.html  Full reporting guidance: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf"
             ],
@@ -18692,7 +18712,7 @@
                 "name": "CDC"
             },
             "identifier": "https://data.cdc.gov/api/views/akn2-qxic",
-            "description": "<b>Note:</b>\n<b>October 27, 2023:</b> Due to incomplete or missing hospital data received for the October 15, 2023, through October 21, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on October 27, 2023.\n\n<b>October 27, 2023:</b> Due to incomplete or missing hospital data received for the October 15, 2023, through October 21, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for GU and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on October 27, 2023.\n\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and",
+            "description": "<b>Note:</b>\n<b>November 3, 2023:</b> Due to incomplete or missing hospital data received for the October 22, 2023, through October 28, 2023, reporting period, the COVID-19 Hospital Admissions Level could not be calculated for CNMI and will be reported as \u201cNA\u201d or \u201cNot Available\u201d in the COVID-19 Hospital Admissions Level data released on November 3, 2023.\n\nThis dataset represents COVID-19 hospitalization data and metrics aggregated to county or county-equivalent, for all counties or county-equivalents (including territories) in the United States. COVID-19 hospitalization data are reported to CDC\u2019s National Healthcare Safety Network, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN and included in this dataset represent aggregated counts and include metrics capturing information specific to COVID-19 hospital admissions, and inpatient and ICU bed capacity occupancy.\n\n<b>Reporting information:</b><ul><li>As of December 15, 2022, COVID-19 hospital data are required to be reported to  NHSN, which monitors national and local trends in healthcare system stress, capacity, and community disease levels for approximately 6,000 hospitals in the United States. Data reported by hospitals to NHSN represent aggregated counts and include metrics capturing information specific to hospital capacity, occupancy, hospitalizations, and admissions. Prior to December 15, 2022, hospitals reported data directly to the U.S. Department of Health and Human Services (HHS) or via a state submission for collection in the HHS Unified Hospital Data Surveillance System (UHDSS). </li><li>While CDC reviews these data for errors and corrects those found, some reporting errors might still exist within the data. To minimize errors and inconsistencies in data reported, CDC removes outliers before calculating the metrics. CDC and partners work with reporters to correct these errors and update the data in subsequent weeks.</li><li>Many hospital subtypes, including acute care and critical access hospitals, as well as Veterans Administration, Defense Health Agency, and Indian Health Service hospitals, are included in the metric calculations provided in this report. Psychiatric, rehabilitation, and religious non-medical hospital types are excluded from calculations.  </li><li>Data are aggregated and displayed for hospitals with the same Centers for Medicare and Medicaid Services (CMS) Certification Number (CCN), which are assigned by CMS to counties based on the CMS Provider of Services files. </li> <li>Full details on COVID-19 hospital data reporting guidance can be found here: https://www.hhs.gov/sites/default/files/covid-19-faqs-hospitals-hospital-laboratory-acute-care-facility-data-reporting.pdf</li></ul>\n<b>Calculation of county-level hospital metrics:</b><ul><li>County-level hospital data are derived using calculations performed at the Health Service Area (HSA) level. An HSA is defined by CDC\u2019s National Center for Health Statistics as a geographic area containing at least one county which is self-contained with respect to the population\u2019s provision of routine hospital care. Every county in the United States is assigned to an HSA, and each HSA must contain at least one hospital. Therefore, use of HSAs in the calculation of local hospital metrics allows for more accurate characterization of the relationship between health care utilization and health status at the local level. </li><li>Data presented at the county-level represent admissions, hospital inpatient and ICU bed capacity and occupancy among hospitals within the selected HSA. Therefore, admissions, capacity, and occupancy are not limited to residents of the selected HSA. </li><li>For all county-level hospital metrics listed below the values are calculated first for the entire HSA, and then the HSA-level value is then applied to each county within the HSA. </li><li",
             "title": "Weekly United States COVID-19 Hospitalization Metrics by County",
             "programCode": [
                 "009:020"
@@ -20532,7 +20552,7 @@
             ],
             "issued": "2023-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-26",
+            "modified": "2023-11-03",
             "keyword": [
                 "covid",
                 "covid19",
@@ -21113,7 +21133,7 @@
             ],
             "issued": "2021-10-27",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-29",
+            "modified": "2023-11-05",
             "keyword": [
                 "flu",
                 "flu shot",
@@ -21735,7 +21755,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-30",
+            "modified": "2023-10-30",
             "keyword": [
                 "art",
                 "assisted reproductive technology",
@@ -21756,7 +21776,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/cchw-gdwa",
             "description": "ART data are made available as part of the National ART Surveillance System (NASS) that collects success rates, services, profiles and annual summary data from fertility clinics across the U.S. There are four datasets available: ART Services and Profiles, ART Patient and Cycle Characteristics, ART Success Rates, and ART Summary. All four datasets may be linked by \u201cClinicID.\u201d ClinicID is a unique identifier for each clinic that reported cycles. The Success Rates dataset contains success rates for ART cycles started during the year indicated. Since ART success depends on whether patients  are using their own eggs or donor eggs, success rates are included separately for these two groups. Success rates for patients using their own eggs are shown per intended retrieval, per actual retrieval, and per transfer. These success rates are reported as cumulative success rates, which take into account transfers that occur within 1 year after an egg retrieval. Since ART success depends on whether patients are using ART for the first time or had prior ART cycles, users can examine success rates for all \u201cPatients using their own eggs\u201d or for \u201cPatients with no prior ART using their own eggs.\u201d For new patients using ART for the first time, the success rates are also shown after 1, 2, or all intended egg retrievals during the reporting year. In addition, the average number of transfers per intended retrieval and the average number of intended retrievals per live-birth delivery are shown. Success rates for ART cycles that involve the transfer of embryos created from donor eggs or donated embryos are shown and are not cumulative. They are based on donor cycles started in the year indicated that had embryo transfers, regardless of when the donor eggs were retrieved. Success rates in this section are not presented by patient age group because previous data show that an intended parent\u2019s age does not substantially affect success when using donor eggs or donated embryos. The success rates are presented by types of embryos and eggs used in the transfer. This dataset excludes cycles that were considered research\u2014that is, cycles performed to evaluate  new procedures.",
-            "title": "2021 Preliminary Assisted Reproductive Technology (ART) Success Rates",
+            "title": "2021 Final Assisted Reproductive Technology (ART) Success Rates",
             "programCode": [
                 "009:020"
             ],
@@ -24176,7 +24196,7 @@
             "issued": "2023-05-10",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-10-26",
+            "modified": "2023-11-02",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -24234,7 +24254,7 @@
             ],
             "spatial": "United States",
             "license": "https://www.usa.gov/government-works",
-            "accrualPeriodicity": "R/P1W",
+            "accrualPeriodicity": "irregular",
             "theme": [
                 "NCHS"
             ]
@@ -27487,7 +27507,7 @@
             "issued": "2022-12-15",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-10-27",
+            "modified": "2023-11-03",
             "references": [
                 "NIS-Flu"
             ],
@@ -28371,7 +28391,7 @@
             ],
             "issued": "2021-05-13",
             "@type": "dcat:Dataset",
-            "modified": "2023-06-20",
+            "modified": "2023-11-03",
             "keyword": [
                 "child vaccination",
                 "combined 7 series",
@@ -29169,7 +29189,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2019-2020, 2020-2021, 2021-2022, 2022-2023",
-            "modified": "2023-10-27",
+            "modified": "2023-11-03",
             "references": [
                 "Vaccine Safety Datalink"
             ],
@@ -29856,7 +29876,7 @@
             ],
             "issued": "2022-04-08",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-29",
+            "modified": "2023-11-05",
             "keyword": [
                 "wastewater"
             ],
@@ -30998,7 +31018,7 @@
             "issued": "2023-06-06",
             "temporal": "Data from 2020-03-14 to present (posted starting 2023-06-06)",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-26",
+            "modified": "2023-11-02",
             "references": [
                 "https://covid.cdc.gov/covid-data-tracker/"
             ],
@@ -33171,7 +33191,7 @@
             "issued": "2023-06-15",
             "@type": "dcat:Dataset",
             "temporal": "2020-03-01/-",
-            "modified": "2023-10-26",
+            "modified": "2023-11-02",
             "keyword": [
                 "case",
                 "community transmission",
@@ -34401,7 +34421,7 @@
             "landingPage": "https://data.cdc.gov/d/i7uf-k8j7",
             "issued": "2023-10-26",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-26",
+            "modified": "2023-11-01",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "SEQ5@cdc.gov",
@@ -34893,6 +34913,75 @@
             ],
             "theme": [
                 "Global Health"
+            ]
+        },
+        {
+            "accessLevel": "public",
+            "landingPage": "https://www.cdc.gov/nchs/nsfg/index.htm",
+            "bureauCode": [
+                "009:20"
+            ],
+            "rights": "https://www.cdc.gov/nchs/nsfg/nsfg_2017_2019_puf.htm",
+            "issued": "2020-10-20",
+            "@type": "dcat:Dataset",
+            "temporal": "2017/2019",
+            "modified": "2023-10-31",
+            "references": [
+                "https://www.cdc.gov/nchs/data/nsfg/NSFG-2017-2019-UG-MainText-508.pdf"
+            ],
+            "keyword": [
+                "births",
+                "cohabitation",
+                "contraception",
+                "health",
+                "infertility",
+                "marriage",
+                "pregnancy",
+                "sdoh-access-to-health-care",
+                "sdoh-employment",
+                "sdoh-food-access",
+                "sdoh-food-insecurity",
+                "sdoh-health-literacy",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-housing-stability",
+                "sdoh-incarceration",
+                "sdoh-language",
+                "sdoh-poverty-income",
+                "sdoh-use-of-health-care",
+                "survey"
+            ],
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "National Center for Health Statistics",
+                "hasEmail": "mailto:nsfg@cdc.gov"
+            },
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "National Center for Health Statistics"
+            },
+            "identifier": "https://data.cdc.gov/api/views/ihtq-qs57",
+            "description": "The National Survey of Family Growth (NSFG) gathers information on pregnancies and births, marriage and cohabitation, infertility, use of contraception, family life, and general and reproductive health.\u00a0Public-use files include a female respondent, male respondent, and female pregnancy file.",
+            "title": "National Survey of Family Growth 2017-2019 Public-Use Files",
+            "isPartOf": "https://www.cdc.gov/nchs/nsfg/nsfg_2017_2019_puf.htm",
+            "programCode": [
+                "009:020"
+            ],
+            "distribution": [
+                {
+                    "mediaType": "text/html",
+                    "downloadURL": "https://www.cdc.gov/nchs/nsfg/nsfg_2017_2019_puf.htm",
+                    "description": "The National Survey of Family Growth (NSFG) gathers information on pregnancies and births, marriage and cohabitation, infertility, use of contraception, family life, and general and reproductive health.\u00a0Public-use files include a female respondent, male respondent, and female pregnancy file.",
+                    "@type": "dcat:Distribution",
+                    "title": "National Survey of Family Growth 2017-2019 Public-Use Files"
+                }
+            ],
+            "spatial": "US",
+            "describedBy": "Nationally representative sample of women and men in the household population ages 15-49",
+            "license": "https://www.usa.gov/government-works",
+            "accrualPeriodicity": "Irregular",
+            "theme": [
+                "NCHS"
             ]
         },
         {
@@ -35737,7 +35826,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-30",
+            "modified": "2023-10-30",
             "keyword": [
                 "art",
                 "assisted reproductive technology",
@@ -35758,7 +35847,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/ix4g-rt8v",
             "description": "ART data are made available as part of the National ART Surveillance System (NASS) that collects success rates, services, profiles and annual summary data from fertility clinics across the U.S. There are four datasets available: ART Services and Profiles, ART Patient and Cycle Characteristics, ART Success Rates, and ART Summary. All four datasets may be linked by \u201cClinicID.\u201d ClinicID is a unique identifier for each clinic that reported cycles. The Services and Profiles dataset provides an overview of clinic services, the clinic\u2019s contact information, location, the medical director\u2019s name, and  summary statistics.",
-            "title": "2021 Preliminary Assisted Reproductive Technology (ART) Services and Profiles",
+            "title": "2021 Final Assisted Reproductive Technology (ART) Services and Profiles",
             "programCode": [
                 "009:020"
             ],
@@ -38351,7 +38440,7 @@
             "issued": "2022-09-30",
             "@type": "dcat:Dataset",
             "temporal": "2018-2023",
-            "modified": "2023-10-27",
+            "modified": "2023-11-03",
             "references": [
                 "CDC"
             ],
@@ -38895,7 +38984,7 @@
             ],
             "issued": "2020-05-06",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-25",
+            "modified": "2023-11-01",
             "keyword": [
                 "cares act",
                 "health system",
@@ -40346,9 +40435,9 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2023-01-17",
+            "issued": "2023-11-03",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-27",
+            "modified": "2023-11-03",
             "keyword": [
                 "covid",
                 "covid19",
@@ -41554,10 +41643,10 @@
             ],
             "issued": "2020-05-17",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2023-10-05",
-            "modified": "2023-10-06",
+            "temporal": "2020-01-01/2023-11-03",
+            "modified": "2023-11-04",
             "references": [
-                "https://data.cdc.gov/api/views/mbd7-r32t/files/68d92d30-b914-4d11-a4a7-0507845658bf?download=true&filename=public%2033%20utility%20summary.pdf"
+                "https://data.cdc.gov/api/views/mbd7-r32t/files/a9bd2118-6f7a-4f26-ad99-02eca30a557c?download=true&filename=public%2033%20utility%20summary.pdf"
             ],
             "keyword": [
                 "cases",
@@ -42455,7 +42544,7 @@
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2023-10-26",
+            "modified": "2023-11-02",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -44096,8 +44185,8 @@
             ],
             "issued": "2021-03-22",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2023-10-05",
-            "modified": "2023-10-06",
+            "temporal": "2020-01-01/2023-11-03",
+            "modified": "2023-11-04",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2019%20utility%20summary.pdf"
             ],
@@ -50261,8 +50350,8 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "temporal": "2019-12-29/2023-10-21",
-            "modified": "2023-10-26",
+            "temporal": "2019-12-29/2023-10-28",
+            "modified": "2023-11-02",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -51527,7 +51616,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-24",
+            "modified": "2023-10-31",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -54887,7 +54976,7 @@
             "issued": "2021-07-07",
             "temporal": "2019/2021",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-06",
+            "modified": "2023-11-02",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -55256,7 +55345,7 @@
             ],
             "issued": "2023-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-26",
+            "modified": "2023-11-03",
             "keyword": [
                 "covid",
                 "covid19",
@@ -58143,8 +58232,8 @@
             ],
             "issued": "2020-05-15",
             "@type": "dcat:Dataset",
-            "temporal": "2020-01-01/2023-10-05",
-            "modified": "2023-10-06",
+            "temporal": "2020-01-01/2023-11-03",
+            "modified": "2023-11-04",
             "references": [
                 "https://github.com/CDCgov/covid_case_privacy_review/blob/master/analysis/public%2012%20utility%20summary.pdf"
             ],
@@ -59556,8 +59645,8 @@
             ],
             "issued": "2023-09-27",
             "@type": "dcat:Dataset",
-            "temporal": "2022-10-29/2023-10-21",
-            "modified": "2023-10-27",
+            "temporal": "2022-11-05/2023-10-28",
+            "modified": "2023-11-03",
             "references": [
                 "https://www.cdc.gov/ncird/surveillance/respiratory-illnesses/index.html#companion-guide"
             ],
@@ -61530,7 +61619,7 @@
             "issued": "2021-06-03",
             "temporal": "2019-2022",
             "@type": "dcat:Dataset",
-            "modified": "2023-09-06",
+            "modified": "2023-11-02",
             "keyword": [
                 "early release",
                 "key health indicators",
@@ -61593,7 +61682,7 @@
             ],
             "issued": "2023-07-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-08-30",
+            "modified": "2023-10-30",
             "keyword": [
                 "art",
                 "assisted reproductive technology",
@@ -61614,7 +61703,7 @@
             },
             "identifier": "https://data.cdc.gov/api/views/wrev-kwxu",
             "description": "ART data are made available as part of the National ART Surveillance System (NASS) that collects success rates, services, profiles and annual summary data from fertility clinics across the U.S. There are four datasets available: ART Services and Profiles, ART Patient and Cycle Characteristics, ART Success Rates, and ART Summary. All four datasets may be linked by \u201cClinicID.\u201d ClinicID is a unique identifier for each clinic that reported cycles. The Patient and Cycle Characteristics dataset summarizes the types of ART services performed and the kinds of patients who received ART procedures in a specific clinic. Please note patient characteristics are presented per cycle rather than per patient. As a result, patients who had more than one ART cycle within the reporting year are represented more than once.",
-            "title": "2021 Preliminary Assisted Reproductive Technology (ART) Patient and Cycle Characteristics",
+            "title": "2021 Final Assisted Reproductive Technology (ART) Patient and Cycle Characteristics",
             "programCode": [
                 "009:020"
             ],
@@ -62509,7 +62598,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-26",
+            "modified": "2023-11-02",
             "keyword": [
                 "2022",
                 "2023",
@@ -63004,7 +63093,7 @@
             "issued": "2021-10-28",
             "@type": "dcat:Dataset",
             "temporal": "Weekly",
-            "modified": "2023-10-25",
+            "modified": "2023-11-01",
             "keyword": [
                 "and economic security act",
                 "coronavirus aid",
@@ -65571,7 +65660,7 @@
             ],
             "issued": "2020-09-24",
             "@type": "dcat:Dataset",
-            "modified": "2023-10-26",
+            "modified": "2023-11-02",
             "keyword": [
                 "age",
                 "age group",
