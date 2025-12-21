@@ -116,15 +116,15 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
-                "nndss",
-                "netss",
-                "nedss",
                 "2020",
-                "wonder",
-                "poliomyelitis",
-                "plague",
+                "nedss",
+                "netss",
+                "nndss",
+                "paralytic",
                 "pertussis",
-                "paralytic"
+                "plague",
+                "poliomyelitis",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -404,8 +404,8 @@
             "@type": "dcat:Dataset",
             "modified": "2016-09-14",
             "keyword": [
-                "centers for disease control and prevention",
-                "cdc"
+                "cdc",
+                "centers for disease control and prevention"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -590,13 +590,13 @@
             "modified": "2019-05-30",
             "keyword": [
                 "2019",
-                "wonder",
                 "nedss",
                 "netss",
-                "trichinellosis",
                 "nndss",
+                "tetanus",
                 "toxic shock syndrome (other than streptococcal)",
-                "tetanus"
+                "trichinellosis",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -713,7 +713,7 @@
             ],
             "issued": "2024-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-11",
+            "modified": "2025-12-18",
             "keyword": [
                 "age-adjusted rates",
                 "age-adjusted rates by race and ethnicity",
@@ -1151,15 +1151,15 @@
             "@type": "dcat:Dataset",
             "modified": "2020-01-02",
             "keyword": [
-                "netss",
-                "wonder",
-                "viral hemorrhagic fevers",
-                "nndss",
                 "2019",
-                "nedss",
-                "guanarito virus",
+                "crimean-congo hemorrhagic fever virus",
                 "ebola virus",
-                "crimean-congo hemorrhagic fever virus"
+                "guanarito virus",
+                "nedss",
+                "netss",
+                "nndss",
+                "viral hemorrhagic fevers",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -2104,14 +2104,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "2021",
                 "nedss",
-                "netss",
-                "nndss",
-                "salmonella paratyphi infection",
-                "salmonella typhi infection",
+                "2021",
+                "wonder",
                 "salmonellosis (excluding salmonella typhi infection and salmonella paratyphi infection)",
-                "wonder"
+                "salmonella typhi infection",
+                "salmonella paratyphi infection",
+                "nndss",
+                "netss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -2441,21 +2441,21 @@
             ],
             "keyword": [
                 "sdoh-higher-education",
-                "summary health statistics",
-                "sdoh-workplace",
-                "sdoh-use-of-health-care",
-                "sdoh-source-of-health-care",
-                "sdoh-poverty-income",
-                "sdoh-housing-stability",
-                "sdoh-high-school",
-                "sdoh-food-insecurity",
-                "sdoh-food-access",
-                "sdoh-employment",
-                "sdoh-access-to-health-care",
-                "nhis",
-                "health status and determinants",
+                "healthcare access and utilization",
                 "healthcare expenditures and payers",
-                "healthcare access and utilization"
+                "health status and determinants",
+                "nhis",
+                "sdoh-access-to-health-care",
+                "sdoh-employment",
+                "sdoh-food-access",
+                "sdoh-food-insecurity",
+                "sdoh-high-school",
+                "sdoh-housing-stability",
+                "sdoh-poverty-income",
+                "sdoh-source-of-health-care",
+                "sdoh-use-of-health-care",
+                "sdoh-workplace",
+                "summary health statistics"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -2655,12 +2655,12 @@
             "temporal": "2018-07/2023-03",
             "modified": "2025-04-21",
             "keyword": [
-                "adult day services centers",
+                "adult day participant health status",
                 "research-data-center",
                 "long-term care",
-                "activities of daily living",
-                "adult day participant health status",
-                "adult day participant services use"
+                "adult day services centers",
+                "adult day participant services use",
+                "activities of daily living"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -3031,28 +3031,13 @@
             "@type": "dcat:Dataset",
             "modified": "2025-01-31",
             "keyword": [
-                "adult",
-                "age",
                 "any tobacco",
+                "race",
                 "cigar",
                 "cigarette",
                 "current",
                 "demographics",
                 "ecigarette",
-                "e-cigarette",
-                "education",
-                "ethnicity",
-                "glossary",
-                "hookah",
-                "methodology",
-                "national",
-                "office on smoking and health",
-                "osh",
-                "oshdata",
-                "pipe",
-                "prevalence",
-                "products",
-                "race",
                 "smokeless",
                 "smoker",
                 "state system",
@@ -3062,7 +3047,22 @@
                 "tobacco",
                 "tobacco products",
                 "tobacco use",
-                "user"
+                "products",
+                "e-cigarette",
+                "education",
+                "ethnicity",
+                "glossary",
+                "hookah",
+                "methodology",
+                "national",
+                "pipe",
+                "office on smoking and health",
+                "osh",
+                "oshdata",
+                "user",
+                "prevalence",
+                "adult",
+                "age"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -3465,7 +3465,7 @@
             "issued": "2023-09-24",
             "temporal": "Data from 2020-04-11 to present",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-11",
+            "modified": "2025-12-18",
             "keyword": [
                 "chronic lower respiratory disease",
                 "respiratory disease",
@@ -3539,27 +3539,27 @@
                 "https://www.cdc.gov/nchs/data/nsfg/guidefaqs/NSFG-2022-2023-UsersGuide-508.pdf ; https://www.cdc.gov/nchs/data/nsfg/restrictedvarlist/2022-2023-NSFG-RestrictedUseAnalyticVars-FemaleRespondentFile.pdf ; https://www.cdc.gov/nchs/data/nsfg/restrictedvarlist/2022-2023-NSFG-RestrictedUseAnalyticVars-FemalePregnancyFile.pdf ; https://www.cdc.gov/nchs/data/nsfg/restrictedvarlist/2022-2023-NSFG-RestrictedUseAnalyticVariables-MaleRespondentFile.pdf ; https://www.cdc.gov/nchs/data/nsfg/restrictedvarlist/2022-2023-NSFG-RestrictedUseContextualVariables.pdf"
             ],
             "keyword": [
+                "sdoh-food-access",
                 "survey",
-                "sdoh-housing-stability",
-                "sdoh-incarceration",
-                "sdoh-language",
-                "sdoh-poverty-income",
                 "sdoh-use-of-health-care",
+                "sdoh-poverty-income",
+                "sdoh-language",
+                "sdoh-incarceration",
+                "sdoh-housing-stability",
+                "sdoh-high-school",
+                "research-data-center",
+                "infertility",
+                "marriage",
+                "sdoh-higher-education",
+                "pregnancy",
+                "sdoh-health-literacy",
+                "sdoh-food-insecurity",
                 "births",
                 "cohabitation",
                 "contraception",
                 "health",
-                "infertility",
-                "marriage",
-                "pregnancy",
-                "research-data-center",
-                "sdoh-access-to-health-care",
                 "sdoh-employment",
-                "sdoh-food-access",
-                "sdoh-food-insecurity",
-                "sdoh-health-literacy",
-                "sdoh-higher-education",
-                "sdoh-high-school"
+                "sdoh-access-to-health-care"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -3672,7 +3672,7 @@
             "landingPage": "https://data.cdc.gov/d/3geb-p7nc",
             "issued": "2025-03-27",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "EMMA BAUBLY",
@@ -4621,15 +4621,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-09-30",
             "keyword": [
+                "covid-19",
+                "executive order",
                 "gathering bans",
                 "government order",
                 "legal epidemiology",
-                "proclamation",
+                "mitigation",
                 "public health order",
                 "social distancing",
-                "covid-19",
-                "mitigation",
-                "executive order"
+                "proclamation"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -5292,12 +5292,12 @@
                 "https://www.cdc.gov/nchs/data-linkage/cms/nchs-cms_medicare14_18_linked_data-list_of_variables.pdf"
             ],
             "keyword": [
-                "nhcs",
-                "sdoh-source-of-health-care",
-                "sdoh-access-to-health-care",
+                "research-data-center",
                 "sdoh-use-of-health-care",
+                "sdoh-source-of-health-care",
                 "linked medicare data",
-                "research-data-center"
+                "sdoh-access-to-health-care",
+                "nhcs"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -5550,7 +5550,7 @@
             ],
             "issued": "2025-12-01",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "ncezid",
                 "nwss",
@@ -6021,7 +6021,7 @@
             "issued": "2024-11-08",
             "@type": "dcat:Dataset",
             "temporal": "2018-01-06/2024-02-17",
-            "modified": "2025-09-26",
+            "modified": "2025-12-19",
             "keyword": [
                 "coronavirus",
                 "covid19",
@@ -6354,14 +6354,14 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "2019",
-                "western equine encephalitis virus disease",
                 "wonder",
+                "st. louis encephalitis virus disease",
+                "western equine encephalitis virus disease",
+                "nndss",
                 "netss",
                 "nedss",
-                "nndss",
-                "st. louis encephalitis virus disease",
-                "arboviral diseases"
+                "arboviral diseases",
+                "2019"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -6419,7 +6419,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "Seasons: 2023-2024, 2024-2025, 2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "cms",
                 "doses distributed",
@@ -6531,15 +6531,15 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
-                "2020",
-                "all serogroups",
-                "meningococcal disease",
                 "nedss",
-                "netss",
-                "nndss",
-                "serogroup b",
+                "wonder",
                 "serogroups acwy",
-                "wonder"
+                "serogroup b",
+                "nndss",
+                "netss",
+                "meningococcal disease",
+                "all serogroups",
+                "2020"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -7070,7 +7070,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "cms",
                 "iis",
@@ -8026,7 +8026,7 @@
             "issued": "2025-11-19",
             "@type": "dcat:Dataset",
             "temporal": "2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "iis",
                 "iqvia",
@@ -8171,14 +8171,14 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
-                "psittacosis",
-                "poliovirus infection",
+                "2020",
                 "nedss",
-                "wonder",
-                "nonparalytic",
                 "netss",
                 "nndss",
-                "2020"
+                "nonparalytic",
+                "poliovirus infection",
+                "psittacosis",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -8289,7 +8289,7 @@
             "issued": "2024-11-08",
             "temporal": "2020-12-06/2024-02-04",
             "@type": "dcat:Dataset",
-            "modified": "2025-09-26",
+            "modified": "2025-12-19",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -8363,16 +8363,16 @@
             "temporal": "2019",
             "modified": "2025-04-21",
             "keyword": [
-                "chronic conditions",
-                "disability",
-                "e-cigarette use",
+                "sdoh-high-school",
+                "sdoh-poverty-income",
                 "opioid use",
+                "disability",
+                "chronic conditions",
+                "e-cigarette use",
                 "physical activity",
                 "research-data-center",
                 "sdoh-employment",
-                "sdoh-higher-education",
-                "sdoh-high-school",
-                "sdoh-poverty-income"
+                "sdoh-higher-education"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -8573,14 +8573,14 @@
                 "https://www.cdc.gov/nchs/data/nsrcf/2010NSRCF_SurveyMethodologyandDocumentation.pdf"
             ],
             "keyword": [
-                "assisted living facilities",
-                "long-term care",
-                "research-data-center",
-                "residential care facilities",
-                "residential care facility residents",
                 "residential care facility staff",
-                "sdoh-access-to-health-care",
-                "sdoh-use-of-health-care"
+                "residential care facility residents",
+                "residential care facilities",
+                "research-data-center",
+                "sdoh-use-of-health-care",
+                "long-term care",
+                "assisted living facilities",
+                "sdoh-access-to-health-care"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -8629,10 +8629,10 @@
             "temporal": "January 2022-June 2023",
             "modified": "2025-04-21",
             "keyword": [
-                "health center encounter",
                 "ambulatory-care",
                 "health center",
                 "health center component",
+                "health center encounter",
                 "namcs",
                 "reproductive health"
             ],
@@ -8809,13 +8809,13 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
+                "smallpox",
+                "wonder",
+                "streptococcal toxic shock syndrome",
                 "2020",
                 "nedss",
                 "netss",
-                "nndss",
-                "smallpox",
-                "streptococcal toxic shock syndrome",
-                "wonder"
+                "nndss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -9138,7 +9138,7 @@
             "issued": "2023-11-09",
             "@type": "dcat:Dataset",
             "temporal": "2023-2024 respiratory virus season",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "coronavirus",
                 "covid19",
@@ -9216,30 +9216,30 @@
                 "https://www.cdc.gov/nchs/data/datalinkage/NCHS-CMS-TMSIS-linked-data-list-of-variables.pdf"
             ],
             "keyword": [
-                "sdoh-higher-education",
-                "t-msis",
-                "sdoh-workplace",
-                "sdoh-use-of-health-care",
-                "sdoh-transportation",
-                "sdoh-source-of-health-care",
-                "sdoh-social-emotional",
-                "sdoh-poverty-income",
-                "sdoh-language",
-                "sdoh-housing-stability",
-                "sdoh-housing-quality",
-                "sdoh-high-school",
-                "sdoh-health-literacy",
-                "sdoh-food-insecurity",
-                "sdoh-food-access",
-                "sdoh-environmental",
-                "sdoh-employment",
-                "sdoh-early-childhood",
-                "sdoh-crime-violence",
-                "sdoh-civic-participation",
                 "sdoh-access-to-health-care",
-                "research-data-center",
+                "linked medicaid files",
                 "nchs surveys",
-                "linked medicaid files"
+                "research-data-center",
+                "sdoh-civic-participation",
+                "sdoh-crime-violence",
+                "sdoh-early-childhood",
+                "sdoh-employment",
+                "sdoh-environmental",
+                "sdoh-food-access",
+                "sdoh-food-insecurity",
+                "sdoh-health-literacy",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-housing-quality",
+                "sdoh-housing-stability",
+                "sdoh-language",
+                "sdoh-poverty-income",
+                "sdoh-social-emotional",
+                "sdoh-source-of-health-care",
+                "sdoh-transportation",
+                "sdoh-use-of-health-care",
+                "sdoh-workplace",
+                "t-msis"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -9280,7 +9280,7 @@
             "issued": "2024-12-06",
             "temporal": "2024-10-04/present",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "cfa",
                 "coronavirus",
@@ -9351,13 +9351,13 @@
             "@type": "dcat:Dataset",
             "modified": "2019-01-03",
             "keyword": [
-                "2018",
-                "chlamydia trachomatis infection",
-                "coccidioidomycosis",
-                "nedss",
                 "netss",
-                "nndss",
-                "wonder"
+                "coccidioidomycosis",
+                "chlamydia trachomatis infection",
+                "2018",
+                "nedss",
+                "wonder",
+                "nndss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -9908,12 +9908,12 @@
                 "age<5 years",
                 "confirmed",
                 "invasive pneumococcal disease",
+                "legionellosis",
                 "nedss",
                 "netss",
                 "nndss",
                 "probable",
-                "wonder",
-                "legionellosis"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -10246,15 +10246,15 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "sabia virus",
-                "nndss",
-                "netss",
-                "nedss",
                 "2019",
                 "machupo virus",
-                "wonder",
                 "marburg virus",
-                "viral hemorrhagic fevers"
+                "nedss",
+                "netss",
+                "nndss",
+                "sabia virus",
+                "viral hemorrhagic fevers",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -10622,11 +10622,11 @@
             "keyword": [
                 "linked hud data",
                 "linked hud files",
-                "sdoh-use-of-health-care",
                 "namcs",
-                "sdoh-source-of-health-care",
+                "research-data-center",
                 "sdoh-access-to-health-care",
-                "research-data-center"
+                "sdoh-source-of-health-care",
+                "sdoh-use-of-health-care"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -10981,10 +10981,10 @@
                 "nedss",
                 "netss",
                 "nndss",
-                "shigellosis",
+                "severe acute respiratory syndrome-associated coronavirus disease",
                 "shiga toxin-producing escherichia coli",
-                "wonder",
-                "severe acute respiratory syndrome-associated coronavirus disease"
+                "shigellosis",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -11391,14 +11391,14 @@
             "modified": "2022-09-20",
             "keyword": [
                 "business closure",
+                "business reopening",
                 "covid-19",
                 "executive order",
                 "government order",
-                "business reopening",
+                "legal epidemiology",
+                "mitigation",
                 "proclamation",
                 "public health order",
-                "mitigation",
-                "legal epidemiology",
                 "social distancing"
             ],
             "contactPoint": {
@@ -11718,13 +11718,9 @@
             "temporal": "2021",
             "modified": "2025-04-21",
             "keyword": [
-                "depression",
-                "research-data-center",
-                "sdoh-access-to-health-care",
                 "life satisfaction",
                 "vaccination",
                 "telemedicine",
-                "missed healthcare",
                 "sdoh-workplace",
                 "sdoh-use-of-health-care",
                 "sdoh-transportation",
@@ -11734,8 +11730,12 @@
                 "sdoh-high-school",
                 "sdoh-higher-education",
                 "sdoh-employment",
-                "anxiety",
-                "covid-19"
+                "sdoh-access-to-health-care",
+                "research-data-center",
+                "missed healthcare",
+                "depression",
+                "covid-19",
+                "anxiety"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -11940,14 +11940,14 @@
             "@type": "dcat:Dataset",
             "modified": "2020-01-02",
             "keyword": [
-                "nedss",
                 "2019",
-                "ehrlichia chaffeensis infection",
                 "anaplasma phagocytophilum infection",
-                "wonder",
-                "nndss",
+                "ehrlichia chaffeensis infection",
+                "ehrlichiosis and anaplasmosis",
+                "nedss",
                 "netss",
-                "ehrlichiosis and anaplasmosis"
+                "nndss",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -12129,7 +12129,7 @@
             ],
             "issued": "2024-06-26",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-11",
+            "modified": "2025-12-18",
             "keyword": [
                 "covid",
                 "covid19",
@@ -12476,16 +12476,16 @@
             "@type": "dcat:Dataset",
             "modified": "2025-04-21",
             "keyword": [
-                "mortality",
-                "covid-19",
-                "coronavirus",
-                "all causes",
-                "weekly",
-                "united states",
-                "provisional",
                 "nvss",
+                "weekly",
                 "nchs",
-                "deaths"
+                "provisional",
+                "mortality",
+                "deaths",
+                "covid-19",
+                "united states",
+                "coronavirus",
+                "all causes"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -12613,14 +12613,14 @@
                 "https://www.cdc.gov/nchs/data/series/sr_01/sr01_039.pdf"
             ],
             "keyword": [
-                "discharge",
-                "hospital",
-                "hospitals",
-                "icd-9-cm",
-                "inpatient",
-                "research-data-center",
+                "short-stay-hospitals",
                 "sdoh-use-of-health-care",
-                "short-stay-hospitals"
+                "research-data-center",
+                "inpatient",
+                "icd-9-cm",
+                "hospitals",
+                "hospital",
+                "discharge"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -12990,14 +12990,14 @@
             "@type": "dcat:Dataset",
             "modified": "2019-01-03",
             "keyword": [
-                "2018",
-                "nedss",
-                "netss",
-                "nndss",
                 "salmonellosis (excluding typhoid fever and paratyphoid fever)",
                 "shiga toxin-producing escherichia coli",
+                "wonder",
+                "netss",
+                "nedss",
                 "shigellosis",
-                "wonder"
+                "nndss",
+                "2018"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -13257,15 +13257,15 @@
             "@type": "dcat:Dataset",
             "modified": "2019-01-03",
             "keyword": [
-                "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
-                "klebsiella spp.",
-                "escherichia coli",
-                "enterobacter spp.",
                 "2018",
-                "netss",
+                "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
+                "enterobacter spp.",
+                "escherichia coli",
+                "klebsiella spp.",
                 "nedss",
-                "wonder",
-                "nndss"
+                "netss",
+                "nndss",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -14597,17 +14597,17 @@
             "@type": "dcat:Dataset",
             "modified": "2025-04-21",
             "keyword": [
+                "yearly",
+                "all causes",
+                "coronavirus",
                 "covid-19",
+                "deaths",
                 "health service area",
                 "mortality",
                 "nchs",
-                "provisional",
                 "nvss",
-                "yearly",
-                "united states",
-                "all causes",
-                "coronavirus",
-                "deaths"
+                "provisional",
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -15306,15 +15306,15 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
-                "dengue",
-                "dengue virus infections",
-                "nedss",
-                "netss",
-                "nndss",
-                "severe dengue",
-                "wonder",
+                "dengue-like illness",
                 "2020",
-                "dengue-like illness"
+                "dengue",
+                "wonder",
+                "severe dengue",
+                "nndss",
+                "netss",
+                "dengue virus infections",
+                "nedss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -15380,10 +15380,10 @@
                 "https://www.cdc.gov/nchs/data/nehrs/NEHRS2020-Questionnaire-508.pdf"
             ],
             "keyword": [
-                "nehrs",
-                "nchs",
                 "electronic health records",
-                "telemedicine"
+                "nehrs",
+                "telemedicine",
+                "nchs"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -15429,14 +15429,14 @@
             "@type": "dcat:Dataset",
             "modified": "2020-01-02",
             "keyword": [
-                "western equine encephalitis virus disease",
+                "2019",
                 "arboviral diseases",
-                "st. louis encephalitis virus disease",
-                "netss",
                 "nedss",
+                "netss",
                 "nndss",
-                "wonder",
-                "2019"
+                "st. louis encephalitis virus disease",
+                "western equine encephalitis virus disease",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -15636,7 +15636,7 @@
             "issued": "2025-12-02",
             "@type": "dcat:Dataset",
             "temporal": "2025-2026",
-            "modified": "2025-12-02",
+            "modified": "2025-12-17",
             "keyword": [
                 "cms",
                 "iis",
@@ -16041,8 +16041,8 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "nedss",
                 "2021",
+                "nedss",
                 "netss",
                 "nndss",
                 "smallpox",
@@ -16194,22 +16194,22 @@
             "@type": "dcat:Dataset",
             "modified": "2025-09-02",
             "keyword": [
-                "mean hourly wages",
-                "hourly wages",
-                "us department of labor",
-                "sdoh-wages",
+                "bureau of labor statistics",
+                "health care employment",
+                "health care practitioners",
+                "health care practitioners and technical occupations",
+                "healthcare resources",
+                "health care support occupations",
+                "health care wages",
                 "health us",
+                "hourly wages",
+                "industry",
+                "mean hourly wages",
                 "occupational employment and wage statistics",
                 "sdoh-occupation-type",
-                "health care wages",
-                "health care support occupations",
                 "sdoh-source-of-health-care",
-                "industry",
-                "healthcare resources",
-                "health care practitioners and technical occupations",
-                "health care practitioners",
-                "health care employment",
-                "bureau of labor statistics"
+                "sdoh-wages",
+                "us department of labor"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -16272,9 +16272,9 @@
             "temporal": "2004-08-01/2004-12-31",
             "modified": "2025-04-21",
             "keyword": [
-                "nursing home staff",
                 "national nursing home survey",
                 "nursing home residents",
+                "nursing home staff",
                 "long-term care",
                 "research-data-center"
             ],
@@ -16511,7 +16511,7 @@
             "issued": "2023-09-27",
             "@type": "dcat:Dataset",
             "temporal": "2022-11-05/2024-02-17",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "coronavirus",
                 "covid19",
@@ -17286,8 +17286,8 @@
                 "https://ndc.services.cdc.gov/conditions/lyme-disease/"
             ],
             "keyword": [
-                "lyme disease",
-                "surveillance"
+                "surveillance",
+                "lyme disease"
             ],
             "conformsTo": "NNDSS",
             "contactPoint": {
@@ -17784,7 +17784,6 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "2021",
                 "ehrlichia ewingii infection",
                 "ehrlichiosis and anaplasmosis",
                 "giardiasis",
@@ -17792,7 +17791,8 @@
                 "netss",
                 "nndss",
                 "undetermined ehrlichiosis/anaplasmosis",
-                "wonder"
+                "wonder",
+                "2021"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -18524,8 +18524,8 @@
             "@type": "dcat:Dataset",
             "modified": "2025-04-28",
             "keyword": [
-                "centers for disease control and prevention",
-                "cdc"
+                "cdc",
+                "centers for disease control and prevention"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -18705,15 +18705,15 @@
             "temporal": "2020-2021",
             "modified": "2025-04-21",
             "keyword": [
-                "covid",
-                "covid-19",
-                "covid-19-experiences",
-                "namcs",
-                "office-based physicians",
-                "physicians",
-                "physicians' offices",
                 "ppe-shortage",
+                "physicians' offices",
+                "physicians",
+                "office-based physicians",
                 "research-data-center",
+                "namcs",
+                "covid-19-experiences",
+                "covid-19",
+                "covid",
                 "telemedicine"
             ],
             "contactPoint": {
@@ -19326,17 +19326,17 @@
             "temporal": "1992-2021",
             "modified": "2025-04-21",
             "keyword": [
+                "medication therapy",
+                "patient characteristics",
+                "prescription drugs",
+                "research-data-center",
+                "reason for visit",
                 "cause of injury",
                 "diagnosis",
                 "ed",
-                "emergency department",
-                "injury",
-                "medication therapy",
                 "patient care",
-                "patient characteristics",
-                "prescription drugs",
-                "reason for visit",
-                "research-data-center"
+                "emergency department",
+                "injury"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -19869,7 +19869,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "Seasons: 2023-2024, 2024-2025, 2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "cms",
                 "covid-19 vaccination",
@@ -20331,10 +20331,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2024-11-01",
+            "issued": "2025-12-19",
             "@type": "dcat:Dataset",
             "temporal": "2024-2025",
-            "modified": "2025-05-16",
+            "modified": "2025-12-19",
             "keyword": [
                 "covid-19 vaccination",
                 "flu vaccination",
@@ -20614,16 +20614,16 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "2022",
-                "age <5 years serotype b",
-                "all ages all serotypes",
-                "gonorrhea",
                 "haemophilus influenzae",
-                "invasive disease",
-                "nedss",
-                "netss",
+                "wonder",
                 "nndss",
-                "wonder"
+                "netss",
+                "nedss",
+                "invasive disease",
+                "gonorrhea",
+                "all ages all serotypes",
+                "age <5 years serotype b",
+                "2022"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -20879,15 +20879,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "2021",
                 "dengue",
-                "dengue-like illness",
-                "dengue virus infections",
+                "2021",
                 "nedss",
                 "netss",
                 "nndss",
                 "severe dengue",
-                "wonder"
+                "dengue virus infections",
+                "wonder",
+                "dengue-like illness"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -21108,13 +21108,13 @@
             "keyword": [
                 "sdoh-source-of-health-care",
                 "sdoh-use-of-health-care",
-                "research-data-center",
-                "sdoh-access-to-health-care",
-                "sdoh-social-emotional",
                 "services",
-                "children",
+                "sdoh-social-emotional",
+                "sdoh-access-to-health-care",
+                "research-data-center",
                 "disability",
-                "diagnoses"
+                "diagnoses",
+                "children"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -21438,7 +21438,7 @@
             "issued": "2023-12-08",
             "@type": "dcat:Dataset",
             "temporal": "1999/2013",
-            "modified": "2025-08-13",
+            "modified": "2025-12-15",
             "references": [
                 "https://www.cdc.gov/nchs/data-linkage/cms/nchs-cms_medicare_linked_data-list_of_variables.pdf"
             ],
@@ -21491,13 +21491,13 @@
             "modified": "2018-01-26",
             "keyword": [
                 "2017",
-                "mmwr",
-                "nedss",
-                "netss",
-                "nndss",
-                "tb",
+                "wonder",
                 "tuberculosis",
-                "wonder"
+                "tb",
+                "nndss",
+                "netss",
+                "nedss",
+                "mmwr"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -21635,15 +21635,15 @@
             "@type": "dcat:Dataset",
             "modified": "2020-01-02",
             "keyword": [
+                "2019",
+                "arboviral diseases",
+                "jamestown canyon virus disease",
                 "la crosse virus disease",
                 "nedss",
                 "netss",
                 "nndss",
-                "2019",
                 "powassan virus disease",
-                "arboviral diseases",
-                "wonder",
-                "jamestown canyon virus disease"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -21774,7 +21774,7 @@
             "landingPage": "https://data.cdc.gov/d/9ikp-t8tw",
             "issued": "2024-11-21",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "Emma Baubly",
@@ -22038,15 +22038,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "measles",
-                "indigenous",
-                "imported",
                 "2021",
-                "nndss",
-                "wonder",
-                "nedss",
+                "imported",
+                "indigenous",
                 "malaria",
-                "netss"
+                "measles",
+                "nedss",
+                "netss",
+                "nndss",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -22863,14 +22863,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "netss",
-                "wonder",
-                "trichinellosis",
-                "toxic shock syndrome (other than streptococcal)",
-                "tetanus",
-                "nndss",
+                "2021",
                 "nedss",
-                "2021"
+                "netss",
+                "nndss",
+                "tetanus",
+                "toxic shock syndrome (other than streptococcal)",
+                "trichinellosis",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -23329,18 +23329,18 @@
             "modified": "2025-04-21",
             "keyword": [
                 "all causes",
-                "coronavirus",
-                "covid-19",
-                "deaths",
-                "hispanic origin",
-                "mortality",
-                "nchs",
                 "nvss",
                 "provisional",
                 "race",
                 "sex",
+                "deaths",
+                "hispanic origin",
+                "mortality",
+                "coronavirus",
+                "covid-19",
+                "weekly",
                 "united states",
-                "weekly"
+                "nchs"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -23643,8 +23643,8 @@
             "temporal": "2023-2024",
             "modified": "2024-09-11",
             "keyword": [
-                "iqvia",
                 "adults",
+                "iqvia",
                 "rsv vaccination"
             ],
             "contactPoint": {
@@ -24110,13 +24110,13 @@
             "@type": "dcat:Dataset",
             "modified": "2019-01-03",
             "keyword": [
-                "netss",
+                "legionellosis",
+                "2018",
                 "malaria",
                 "nedss",
                 "nndss",
-                "wonder",
-                "legionellosis",
-                "2018"
+                "netss",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -24973,18 +24973,18 @@
             "temporal": "2022",
             "modified": "2025-04-21",
             "keyword": [
-                "sdoh-poverty-income",
-                "sexual identity",
-                "sdoh-social-emotional",
-                "sexual violence",
-                "stalking",
-                "sdoh-high-school",
-                "sdoh-higher-education",
-                "research-data-center",
-                "physical violence",
                 "intimate partner violence",
+                "physical violence",
+                "research-data-center",
+                "sdoh-crime-violence",
                 "sdoh-employment",
-                "sdoh-crime-violence"
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-poverty-income",
+                "sdoh-social-emotional",
+                "sexual identity",
+                "sexual violence",
+                "stalking"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -25241,7 +25241,7 @@
             ],
             "issued": "2025-12-01",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "measles",
                 "measles virus",
@@ -25351,7 +25351,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "2023-2024, 2024-2025, 2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "flu vaccination",
                 "nis-ccm",
@@ -25480,15 +25480,15 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "2019",
                 "congenital",
-                "nedss",
-                "netss",
-                "nndss",
-                "primary and secondary",
-                "streptococcal toxic shock syndrome",
+                "wonder",
                 "syphilis",
-                "wonder"
+                "streptococcal toxic shock syndrome",
+                "primary and secondary",
+                "nndss",
+                "netss",
+                "nedss",
+                "2019"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -25619,15 +25619,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "leptospirosis",
-                "probable",
-                "nndss",
-                "netss",
-                "nedss",
-                "wonder",
                 "2022",
                 "confirmed",
-                "listeriosis"
+                "leptospirosis",
+                "listeriosis",
+                "nedss",
+                "netss",
+                "nndss",
+                "probable",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -25821,15 +25821,15 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
-                "lassa virus",
-                "wonder",
                 "viral hemorrhagic fevers",
                 "2020",
-                "nndss",
-                "netss",
-                "nedss",
+                "junin virus",
+                "lassa virus",
                 "lujo virus",
-                "junin virus"
+                "nedss",
+                "netss",
+                "wonder",
+                "nndss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -25893,14 +25893,14 @@
                 "https://www.cdc.gov/nchs/data/datalinkage/NCHS-TMSIS-MATCH-STATUS.pdf"
             ],
             "keyword": [
-                "t-msis",
-                "sdoh-use-of-health-care",
-                "sdoh-source-of-health-care",
-                "sdoh-poverty-income",
-                "sdoh-access-to-health-care",
-                "research-data-center",
+                "linked medicaid data",
                 "nhcs",
-                "linked medicaid data"
+                "research-data-center",
+                "sdoh-access-to-health-care",
+                "sdoh-poverty-income",
+                "sdoh-source-of-health-care",
+                "sdoh-use-of-health-care",
+                "t-msis"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -26204,22 +26204,22 @@
             "temporal": "2022",
             "modified": "2025-04-21",
             "keyword": [
-                "vaccination",
+                "sdoh-poverty-income",
+                "sdoh-higher-education",
                 "sdoh-civic-participation",
-                "long covid",
+                "sdoh-access-to-health-care",
                 "research-data-center",
+                "sdoh-employment",
+                "social participation",
+                "traumatic brain injury",
+                "vaccination",
                 "chronic health conditions",
                 "disability",
                 "firearms safety",
-                "sdoh-employment",
-                "sdoh-source-of-health-care",
-                "sdoh-access-to-health-care",
-                "social participation",
+                "long covid",
                 "sdoh-use-of-health-care",
-                "sdoh-higher-education",
-                "sdoh-high-school",
-                "sdoh-poverty-income",
-                "traumatic brain injury"
+                "sdoh-source-of-health-care",
+                "sdoh-high-school"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -26484,7 +26484,7 @@
             "landingPage": "https://data.cdc.gov/d/b5wa-ze9s",
             "issued": "2025-07-03",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "EMMA BAUBLY",
@@ -26606,15 +26606,15 @@
             "@type": "dcat:Dataset",
             "modified": "2020-01-02",
             "keyword": [
-                "netss",
-                "wonder",
-                "syphilis",
-                "streptococcal toxic shock syndrome",
-                "primary and secondary",
-                "nndss",
-                "congenital",
                 "2019",
-                "nedss"
+                "congenital",
+                "nedss",
+                "netss",
+                "nndss",
+                "primary and secondary",
+                "streptococcal toxic shock syndrome",
+                "syphilis",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -26669,10 +26669,10 @@
             "bureauCode": [
                 "009:20"
             ],
-            "issued": "2025-12-04",
+            "issued": "2025-12-17",
             "@type": "dcat:Dataset",
-            "temporal": "2022-23, 2023-2024,  2024-25",
-            "modified": "2025-12-04",
+            "temporal": "2022-23, 2023-2024,  2024-25, 2025-26",
+            "modified": "2025-12-17",
             "keyword": [
                 "flu vaccination",
                 "iis",
@@ -26690,8 +26690,8 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/b6ny-6cd5",
-            "description": "\u2022 Monthly Cumulative Percent of Persons Who Received 1+ Influenza Vaccination Doses and Comparison Between 2024\u201325 and Two Previous Seasons, by Jurisdiction, United States.\n\n\u2022 Influenza (flu) vaccination coverage for children and adults is assessed through U.S. jurisdictions\u2019 Immunization Information Systems Resources (IIS) data, submitted from jurisdictions to CDC monthly, in aggregate, by age group (https://www.cdc.gov/iis/about/).\n\n\u2022 Monthly estimates shown are cumulative, reflecting all persons vaccinated from July 1 through a given month of that flu season.*,\u2020 Cumulative estimates include any historical data reported since the previous submission. National estimates are not presented since not all U.S. jurisdictions are currently reporting their IIS data to CDC. Jurisdictions reporting data to CDC include U.S. states, some localities, and territories.",
-            "title": "Monthly Cumulative Number and Percent of Children 6 Months-17 Years and Adults 18 Years and Older Who Received 1+ Influenza Vaccination Doses and Comparison Between 2024\u201325 and Two Previous Seasons, by Jurisdiction, United States",
+            "description": "\u2022Monthly Cumulative Percent of Persons Who Received 1+ Influenza Vaccination Doses and Comparison Between 2025\u201326 and Three Previous Seasons, by Jurisdiction, United States. \n\n\u2022 Influenza (flu) vaccination coverage for children and adults is assessed through U.S. jurisdictions\u2019 Immunization Information Systems Resources (IIS) data, submitted from jurisdictions to CDC monthly, in aggregate, by age group (https://www.cdc.gov/iis/about/).\n\n\u2022 Monthly estimates shown are cumulative, reflecting all persons vaccinated from July 1 through a given month of that flu season.*,\u2020 Cumulative estimates include any historical data reported since the previous submission. National estimates are not presented since not all U.S. jurisdictions are currently reporting their IIS data to CDC. Jurisdictions reporting data to CDC include U.S. states, some localities, and territories.",
+            "title": "Monthly Cumulative Number and Percent of Children 6 Months-17 Years and Adults 18 Years and Older Who Received 1+ Influenza Vaccination Doses and Comparison Between 2025\u201326 and Three Previous Seasons, by Jurisdiction, United States",
             "programCode": [
                 "009:020"
             ],
@@ -26743,15 +26743,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "2022",
-                "botulism",
-                "foodborne",
                 "infant",
-                "nedss",
-                "netss",
+                "foodborne",
                 "nndss",
-                "other (wound & unspecified)",
-                "wonder"
+                "netss",
+                "nedss",
+                "botulism",
+                "wonder",
+                "2022",
+                "other (wound & unspecified)"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -27505,15 +27505,15 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "2019",
-                "hansen's disease",
-                "hantavirus infection",
-                "hantavirus pulmonary syndrome",
-                "nedss",
                 "netss",
-                "nndss",
+                "nedss",
+                "hansen's disease",
+                "2019",
+                "hantavirus infection",
+                "wonder",
+                "hantavirus pulmonary syndrome",
                 "non-hantavirus pulmonary syndrome",
-                "wonder"
+                "nndss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -27636,7 +27636,7 @@
             ],
             "issued": "2023-09-22",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-11",
+            "modified": "2025-12-18",
             "keyword": [
                 "covid",
                 "covid19",
@@ -27961,12 +27961,12 @@
                 "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/namcs_public_use_files/"
             ],
             "keyword": [
+                "ambulatory-care",
                 "namcs",
-                "visit characteristics",
-                "physicians",
-                "physician office visits",
                 "office-based physicians",
-                "ambulatory-care"
+                "physician office visits",
+                "physicians",
+                "visit characteristics"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -28257,12 +28257,12 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "anaplasma phagocytophilum infection",
                 "2019",
-                "netss",
-                "nedss",
-                "ehrlichiosis and anaplasmosis",
+                "anaplasma phagocytophilum infection",
                 "ehrlichia chaffeensis infection",
+                "ehrlichiosis and anaplasmosis",
+                "nedss",
+                "netss",
                 "nndss",
                 "wonder"
             ],
@@ -28753,15 +28753,15 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "paralytic",
-                "pertussis",
                 "plague",
-                "poliomyelitis",
-                "wonder",
+                "nndss",
+                "netss",
                 "nedss",
                 "2019",
-                "netss",
-                "nndss"
+                "wonder",
+                "poliomyelitis",
+                "pertussis",
+                "paralytic"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -29128,14 +29128,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "nedss",
-                "lassa virus",
+                "2022",
+                "guanarito virus",
                 "junin virus",
+                "lassa virus",
+                "nedss",
                 "netss",
                 "nndss",
                 "viral hemorrhagic fevers",
-                "guanarito virus",
-                "2022",
                 "wonder"
             ],
             "contactPoint": {
@@ -29585,12 +29585,12 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "netss",
                 "2022",
                 "lujo virus",
                 "machupo virus",
                 "marburg virus",
                 "nedss",
+                "netss",
                 "nndss",
                 "viral hemorrhagic fevers",
                 "wonder"
@@ -29821,7 +29821,7 @@
             ],
             "issued": "2024-06-26",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-11",
+            "modified": "2025-12-18",
             "keyword": [
                 "covid",
                 "covid19",
@@ -30049,7 +30049,7 @@
             ],
             "issued": "2022-12-15",
             "@type": "dcat:Dataset",
-            "modified": "2025-11-21",
+            "modified": "2025-12-17",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -30189,15 +30189,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "2021",
+                "nedss",
                 "hansen's disease",
                 "hantavirus infection",
-                "hantavirus pulmonary syndrome",
-                "nedss",
-                "netss",
-                "nndss",
+                "wonder",
                 "non-hantavirus pulmonary syndrome",
-                "wonder"
+                "nndss",
+                "2021",
+                "hantavirus pulmonary syndrome",
+                "netss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30523,12 +30523,12 @@
             "modified": "2020-01-02",
             "keyword": [
                 "2019",
-                "novel influenza a virus infections",
-                "nndss",
-                "netss",
+                "mumps",
                 "nedss",
-                "wonder",
-                "mumps"
+                "netss",
+                "nndss",
+                "novel influenza a virus infections",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30589,21 +30589,21 @@
             "temporal": "2020",
             "modified": "2025-04-21",
             "keyword": [
+                "opioid use",
+                "sdoh-civic-participation",
+                "sdoh-early-childhood",
                 "sdoh-employment",
+                "sdoh-higher-education",
                 "sdoh-high-school",
                 "sdoh-poverty-income",
                 "sdoh-social-emotional",
                 "sdoh-workplace",
-                "activities of daily living",
-                "anxiety",
-                "cognitive impairment",
                 "depression",
+                "cognitive impairment",
+                "anxiety",
+                "activities of daily living",
                 "disability",
-                "opioid use",
-                "research-data-center",
-                "sdoh-civic-participation",
-                "sdoh-early-childhood",
-                "sdoh-higher-education"
+                "research-data-center"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30678,11 +30678,11 @@
             "@type": "dcat:Dataset",
             "modified": "2025-03-21",
             "keyword": [
-                "care cascade",
-                "tuberculosis (tb)",
                 "latent tuberculosis infection (ltbi)",
+                "patient perspective",
+                "tuberculosis (tb)",
                 "cascade of care",
-                "patient perspective"
+                "care cascade"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30857,14 +30857,14 @@
             "modified": "2020-01-02",
             "keyword": [
                 "2019",
+                "nedss",
+                "netss",
+                "nndss",
+                "paralytic",
                 "pertussis",
                 "plague",
                 "poliomyelitis",
-                "wonder",
-                "netss",
-                "nedss",
-                "paralytic",
-                "nndss"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -30992,9 +30992,9 @@
             "@type": "dcat:Dataset",
             "modified": "2015-08-27",
             "keyword": [
+                "adults",
                 "diabetes",
-                "hus",
-                "adults"
+                "hus"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31053,14 +31053,14 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
+                "2020",
+                "hepatitis c",
+                "influenza-associated pediatric mortality",
                 "nedss",
                 "netss",
                 "nndss",
-                "wonder",
-                "hepatitis c",
-                "2020",
-                "influenza-associated pediatric mortality",
-                "perinatal infection"
+                "perinatal infection",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31119,13 +31119,13 @@
             "@type": "dcat:Dataset",
             "modified": "2019-01-03",
             "keyword": [
-                "nndss",
+                "2018",
+                "ehrlichia ewingii infection",
                 "ehrlichiosis and anaplasmosis",
                 "nedss",
                 "netss",
+                "nndss",
                 "undetermined",
-                "2018",
-                "ehrlichia ewingii infection",
                 "wonder"
             ],
             "contactPoint": {
@@ -31220,17 +31220,17 @@
             "@type": "dcat:Dataset",
             "modified": "2020-01-02",
             "keyword": [
-                "nontypeable",
+                "2019",
                 "(age <5 years)",
                 "haemophilus influenzae",
                 "invasive disease",
-                "non-b serotype",
-                "nndss",
+                "nedss",
                 "netss",
+                "nndss",
+                "non-b serotype",
+                "nontypeable",
                 "unknown serotype",
-                "wonder",
-                "2019",
-                "nedss"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31289,14 +31289,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "nndss",
                 "2021",
-                "netss",
-                "shigellosis",
                 "nedss",
+                "netss",
+                "nndss",
+                "severe acute respiratory syndrome-associated coronavirus disease",
                 "shiga toxin-producing escherichia coli (stec)",
-                "wonder",
-                "severe acute respiratory syndrome-associated coronavirus disease"
+                "shigellosis",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -31949,13 +31949,13 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "nedss",
-                "cyclosporiasis",
-                "wonder",
-                "nndss",
-                "netss",
+                "2022",
                 "cryptosporidiosis",
-                "2022"
+                "cyclosporiasis",
+                "nedss",
+                "netss",
+                "nndss",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -32743,14 +32743,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "severe acute respiratory syndrome-associated coronavirus disease",
                 "2022",
                 "nedss",
                 "netss",
                 "nndss",
-                "wonder",
+                "severe acute respiratory syndrome-associated coronavirus disease",
+                "shiga toxin-producing escherichia coli (stec)",
                 "shigellosis",
-                "shiga toxin-producing escherichia coli (stec)"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -33290,15 +33290,15 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "netss",
-                "wonder",
-                "probable",
-                "nndss",
-                "nedss",
-                "invasive pneumococcal disease",
-                "confirmed",
+                "2019",
                 "all ages",
-                "2019"
+                "confirmed",
+                "invasive pneumococcal disease",
+                "nedss",
+                "netss",
+                "nndss",
+                "probable",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -34007,13 +34007,13 @@
             "@type": "dcat:Dataset",
             "modified": "2020-01-02",
             "keyword": [
-                "wonder",
+                "2019",
                 "nedss",
                 "netss",
                 "nndss",
                 "vancomycin-resistant staphylococcus aureus",
                 "varicella morbidity",
-                "2019"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -34713,13 +34713,13 @@
             "@type": "dcat:Dataset",
             "modified": "2023-07-27",
             "keyword": [
+                "bars",
                 "fact sheet",
                 "infographic",
                 "restaurants",
                 "secondhand smoke",
                 "smokefree",
-                "state system",
-                "bars"
+                "state system"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -34877,7 +34877,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "Seasons: 2023-2024, 2024-2025, 2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "cms",
                 "covid-19 vaccination",
@@ -35254,17 +35254,17 @@
             "@type": "dcat:Dataset",
             "modified": "2015-08-27",
             "keyword": [
+                "2014",
+                "anaplasma phagocytophilum",
+                "ehrlichia chaffeensis",
                 "ehrlichiosis/anaplasmosis",
                 "mmwr",
                 "nedss",
                 "netss",
                 "nndss",
-                "2014",
+                "undetermined",
                 "week",
-                "wonder",
-                "anaplasma phagocytophilum",
-                "ehrlichia chaffeensis",
-                "undetermined"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -35394,15 +35394,15 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "powassan virus disease",
-                "wonder",
-                "jamestown canyon virus disease",
                 "2019",
                 "arboviral diseases",
-                "nndss",
-                "netss",
+                "jamestown canyon virus disease",
+                "la crosse virus disease",
                 "nedss",
-                "la crosse virus disease"
+                "netss",
+                "nndss",
+                "powassan virus disease",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -35803,14 +35803,14 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "2019",
-                "legionellosis",
-                "leptospirosis",
-                "listeriosis",
-                "nedss",
                 "netss",
+                "listeriosis",
+                "leptospirosis",
+                "wonder",
                 "nndss",
-                "wonder"
+                "legionellosis",
+                "2019",
+                "nedss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -36144,8 +36144,8 @@
             "@type": "dcat:Dataset",
             "modified": "2025-08-26",
             "keyword": [
-                "bactfacts",
-                "abcs"
+                "abcs",
+                "bactfacts"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -36890,7 +36890,7 @@
             "issued": "2025-12-03",
             "@type": "dcat:Dataset",
             "temporal": "Seasons: 2023-24, 2024-25, 2025-26",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "covid-19 vaccination",
                 "iis",
@@ -36961,14 +36961,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
+                "nedss",
+                "wonder",
                 "2022",
                 "hemolytic uremic syndrome post-diarrheal",
-                "hepatitis (viral acute) type a",
-                "hepatitis (viral acute) type b",
-                "nedss",
-                "netss",
                 "nndss",
-                "wonder"
+                "netss",
+                "hepatitis (viral acute) type a",
+                "hepatitis (viral acute) type b"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -37025,7 +37025,7 @@
             ],
             "issued": "2024-01-25",
             "@type": "dcat:Dataset",
-            "modified": "2025-09-15",
+            "modified": "2025-12-15",
             "keyword": [
                 "age-adjusted",
                 "age group",
@@ -37443,7 +37443,7 @@
             "issued": "2024-11-08",
             "temporal": "9/1/2023 - Present",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "contactPoint": {
                 "@type": "vcard:Contact",
                 "fn": "National Syndromic Surveillance Program",
@@ -37972,13 +37972,13 @@
             "temporal": "2016",
             "modified": "2025-04-21",
             "keyword": [
-                "health-practices",
                 "namcs",
-                "office-based physicians",
                 "research-data-center",
-                "cultural-health-beliefs",
+                "preferred-languages",
                 "physicians",
-                "preferred-languages"
+                "office-based physicians",
+                "health-practices",
+                "cultural-health-beliefs"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -38150,13 +38150,13 @@
             "@type": "dcat:Dataset",
             "modified": "2019-01-03",
             "keyword": [
-                "cryptosporidiosis",
-                "nndss",
-                "wonder",
-                "2018",
                 "dengue virus infection",
-                "nedss",
-                "netss"
+                "nndss",
+                "netss",
+                "2018",
+                "wonder",
+                "cryptosporidiosis",
+                "nedss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -38824,14 +38824,14 @@
             "@type": "dcat:Dataset",
             "modified": "2020-01-02",
             "keyword": [
-                "salmonella typhi infection",
+                "2019",
+                "nedss",
                 "netss",
                 "nndss",
                 "salmonella paratyphi infection",
-                "wonder",
-                "2019",
+                "salmonella typhi infection",
                 "salmonellosis (excluding salmonella typhi infection and salmonella paratyphi infection)",
-                "nedss"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -39061,12 +39061,12 @@
             "modified": "2022-02-11",
             "keyword": [
                 "nedss",
-                "netss",
                 "nndss",
                 "wonder",
-                "cholera",
                 "2022",
-                "coccidioidomycosis"
+                "cholera",
+                "coccidioidomycosis",
+                "netss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -39517,21 +39517,21 @@
             "temporal": "2020-02-01/2020-07-18",
             "modified": "2025-04-21",
             "keyword": [
+                "age",
+                "age group",
+                "all causes",
+                "coronavirus",
+                "covid-19",
+                "deaths",
                 "mortality",
                 "nchs",
                 "nvss",
                 "place of death",
-                "all causes",
-                "puerto rico",
-                "provisional",
-                "coronavirus",
-                "age group",
-                "age",
                 "pneumonia",
-                "united states",
+                "provisional",
+                "puerto rico",
                 "state",
-                "covid-19",
-                "deaths"
+                "united states"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -39975,14 +39975,6 @@
             "temporal": "2020",
             "modified": "2025-04-21",
             "keyword": [
-                "anxiety",
-                "covid-19",
-                "depression",
-                "missed healthcare",
-                "research-data-center",
-                "sdoh-access-to-health-care",
-                "sdoh-employment",
-                "sdoh-higher-education",
                 "sdoh-high-school",
                 "sdoh-poverty-income",
                 "sdoh-social-emotional",
@@ -39990,7 +39982,15 @@
                 "sdoh-transportation",
                 "sdoh-use-of-health-care",
                 "sdoh-workplace",
-                "telemedicine"
+                "telemedicine",
+                "anxiety",
+                "covid-19",
+                "depression",
+                "missed healthcare",
+                "research-data-center",
+                "sdoh-access-to-health-care",
+                "sdoh-employment",
+                "sdoh-higher-education"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -40948,13 +40948,13 @@
             "modified": "2019-05-30",
             "keyword": [
                 "2019",
-                "netss",
                 "nedss",
+                "netss",
                 "nndss",
-                "yellow fever",
-                "zika virus disease",
                 "non-congenital",
-                "wonder"
+                "wonder",
+                "yellow fever",
+                "zika virus disease"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -41501,7 +41501,7 @@
             "issued": "2023-06-06",
             "temporal": "Data from 2020-03-14 to present (posted starting 2023-06-06)",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-11",
+            "modified": "2025-12-18",
             "references": [
                 "https://covid.cdc.gov/covid-data-tracker/"
             ],
@@ -41643,8 +41643,8 @@
             ],
             "issued": "2022-09-01",
             "@type": "dcat:Dataset",
-            "temporal": "2023-04-01/2025-03-31",
-            "modified": "2025-09-11",
+            "temporal": "2023-08-01/2025-07-31",
+            "modified": "2025-12-15",
             "keyword": [
                 "amphetamine",
                 "bed size",
@@ -41685,7 +41685,7 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/gypc-kpgn",
-            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). From this collection, the NHCS contributes data that may inform emerging national health threats such as the current opioid public health emergency. The 2023 - 2025 NHCS are not yet fully operational so it is important to note that the data presented here are preliminary and not nationally representative.\n\nThe data are from 46 hospitals submitting inpatient and 39 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from April 1, 2023\u2013March 31, 2025. Even though the data are not nationally representative, they can provide insight into the use of opioids and other overdose drugs. The NHCS data is submitted from various types of hospitals (e.g., general/acute, children\u2019s, etc.) and can show results from a variety of indicators related to drug use, such as overall drug use, comorbidities, and drug and polydrug overdose. NHCS data can also be used to report on patient conditions within the hospital over time.",
+            "description": "The National Hospital Care Survey (NHCS) collects data on patient care in hospital-based settings to describe patterns of health care delivery and utilization in the United States. Settings currently include inpatient and emergency departments (ED). From this collection, the NHCS contributes data that may inform emerging national health threats such as the current opioid public health emergency. The 2023 - 2025 NHCS are not yet fully operational, so it is important to note that the data presented here are preliminary and not nationally representative.\n\nThe data are from 33 hospitals submitting inpatient and 25 hospitals submitting ED Uniform Bill (UB)-04 administrative claims from August 1, 2023\u2013July 31, 2025. Even though the data are not nationally representative, they can provide insight into the use of opioids and other overdose drugs. The NHCS data is submitted from various types of hospitals (e.g., general/acute, children\u2019s, etc.) and can show results from a variety of indicators related to drug use, such as overall drug use, comorbidities, and drug and polydrug overdose. NHCS data can also be used to report on patient conditions within the hospital over time.",
             "title": "Drug Use Data from Selected Hospitals",
             "programCode": [
                 "009:020"
@@ -42016,14 +42016,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "2022",
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
-                "chancroid",
-                "chlamydia trachomatis infection",
-                "nedss",
                 "netss",
                 "nndss",
-                "wonder"
+                "wonder",
+                "nedss",
+                "chlamydia trachomatis infection",
+                "chancroid",
+                "2022"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42198,15 +42198,15 @@
                 "2019",
                 "age <5 years",
                 "all ages",
-                "gonorrhea",
                 "all serotypes",
+                "gonorrhea",
                 "haemophilus influenzae",
-                "nndss",
-                "netss",
+                "invasive disease",
                 "nedss",
-                "wonder",
+                "netss",
+                "nndss",
                 "serotype b",
-                "invasive disease"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42270,12 +42270,12 @@
                 "https://www.cdc.gov/nchs/data/datalinkage/NAMCS-HC-Codebook-Mortality-Variables.pdf"
             ],
             "keyword": [
-                "sdoh-use-of-health-care",
-                "sdoh-source-of-health-care",
+                "linked ndi data",
                 "sdoh-access-to-health-care",
-                "research-data-center",
+                "sdoh-source-of-health-care",
+                "sdoh-use-of-health-care",
                 "namcs",
-                "linked ndi data"
+                "research-data-center"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42319,9 +42319,9 @@
             "temporal": "2023",
             "modified": "2025-04-21",
             "keyword": [
-                "research-data-center",
+                "dhis",
                 "nchs",
-                "dhis"
+                "research-data-center"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -42757,15 +42757,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "2021",
-                "all serogroups",
-                "meningococcal disease",
-                "nedss",
-                "netss",
-                "nndss",
                 "serogroup b",
+                "netss",
+                "wonder",
+                "all serogroups",
                 "serogroups acwy",
-                "wonder"
+                "nndss",
+                "2021",
+                "meningococcal disease",
+                "nedss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -43148,9 +43148,9 @@
             "modified": "2025-04-21",
             "keyword": [
                 "hispanic women",
-                "nchs",
                 "pregnancy rate",
-                "united states"
+                "united states",
+                "nchs"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -45159,14 +45159,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "netss",
-                "trichinellosis",
-                "toxic shock syndrome (other than streptococcal)",
-                "tetanus",
-                "nndss",
-                "wonder",
                 "2022",
-                "nedss"
+                "nedss",
+                "netss",
+                "nndss",
+                "tetanus",
+                "toxic shock syndrome (other than streptococcal)",
+                "trichinellosis",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -45506,13 +45506,13 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "2019",
-                "nedss",
                 "netss",
-                "nndss",
                 "vibriosis confirmed",
+                "nndss",
                 "vibriosis probable",
-                "wonder"
+                "nedss",
+                "wonder",
+                "2019"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46025,6 +46025,9 @@
                 "https://www.cdc.gov/nchs/nhanes/index.htm"
             ],
             "keyword": [
+                "nutrition",
+                "survey",
+                "surveillance",
                 "sdoh-workplace",
                 "sdoh-use-of-health-care",
                 "sdoh-transportation",
@@ -46043,12 +46046,9 @@
                 "sdoh-civic-participation",
                 "sdoh-access-to-health-care",
                 "research-data-center",
-                "nutrition",
                 "nhanes",
                 "nchs",
-                "health statistics",
-                "surveillance",
-                "survey"
+                "health statistics"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46242,26 +46242,26 @@
                 "https://www.cdc.gov/nchs/data/nsfg/NSFG-2017-2019-UG-MainText-508.pdf"
             ],
             "keyword": [
-                "contraception",
-                "survey",
-                "sdoh-use-of-health-care",
-                "sdoh-poverty-income",
-                "sdoh-language",
-                "sdoh-incarceration",
-                "sdoh-housing-stability",
-                "sdoh-high-school",
-                "sdoh-higher-education",
-                "sdoh-health-literacy",
-                "sdoh-food-insecurity",
-                "sdoh-food-access",
-                "sdoh-employment",
-                "sdoh-access-to-health-care",
-                "pregnancy",
-                "marriage",
-                "infertility",
-                "health",
+                "births",
                 "cohabitation",
-                "births"
+                "contraception",
+                "health",
+                "infertility",
+                "marriage",
+                "pregnancy",
+                "sdoh-access-to-health-care",
+                "sdoh-employment",
+                "sdoh-food-access",
+                "sdoh-food-insecurity",
+                "sdoh-health-literacy",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-housing-stability",
+                "sdoh-incarceration",
+                "sdoh-language",
+                "sdoh-poverty-income",
+                "sdoh-use-of-health-care",
+                "survey"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46388,16 +46388,16 @@
                 "https://www.cdc.gov/rdc/data/b1/NHCS-RDC-Data-Dictionary.pdf"
             ],
             "keyword": [
-                "inpatient department",
-                "research-data-center",
-                "outpatient departments",
-                "national hospital care survey",
-                "linked ndi data",
-                "hospital-based settings",
-                "hospital",
-                "healthcare delivery",
+                "emergency departments",
                 "healthcare",
-                "emergency departments"
+                "healthcare delivery",
+                "hospital",
+                "hospital-based settings",
+                "inpatient department",
+                "linked ndi data",
+                "national hospital care survey",
+                "outpatient departments",
+                "research-data-center"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46440,19 +46440,19 @@
             "@type": "dcat:Dataset",
             "modified": "2025-04-21",
             "keyword": [
-                "age",
-                "age group",
-                "all causes",
-                "coronavirus",
-                "covid-19",
-                "deaths",
-                "mortality",
                 "nchs",
                 "nvss",
-                "provisional",
-                "state",
+                "weekly",
                 "united states",
-                "weekly"
+                "state",
+                "provisional",
+                "mortality",
+                "deaths",
+                "covid-19",
+                "coronavirus",
+                "all causes",
+                "age group",
+                "age"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -46655,9 +46655,9 @@
                 "https://www.cdc.gov/nchs/data/nvsr/nvsr68/nvsr68_13.pdf"
             ],
             "keyword": [
-                "nchs",
-                "maternal age",
                 "births",
+                "maternal age",
+                "nchs",
                 "united states"
             ],
             "contactPoint": {
@@ -46795,9 +46795,9 @@
             "temporal": "2020-01-01/2022-10-15",
             "modified": "2025-04-21",
             "keyword": [
+                "county",
                 "all causes",
                 "coronavirus",
-                "county",
                 "covid-19",
                 "deaths",
                 "mortality",
@@ -47169,8 +47169,8 @@
             ],
             "issued": "2024-10-16",
             "@type": "dcat:Dataset",
-            "temporal": "2022-23, 2023-2024, & 2024-25",
-            "modified": "2025-05-16",
+            "temporal": "2022-23, 2023-2024, 2024-25, 2025-26",
+            "modified": "2025-12-17",
             "keyword": [
                 "flu vaccination",
                 "iis",
@@ -47188,8 +47188,8 @@
                 "name": "National Center for Immunization and Respiratory Diseases (NCIRD)"
             },
             "identifier": "https://data.cdc.gov/api/views/ivdz-qhnr",
-            "description": "\u2022\tMonthly Cumulative Percent of Persons Who Received \u22651 Influenza Vaccination Doses, by Influenza Season, Age Group and Jurisdiction.\n\n\u2022\tInfluenza (flu) vaccination coverage for children and adults is assessed through U.S. jurisdictions\u2019 Immunization Information Systems Resources (IIS) data, submitted from jurisdictions to CDC monthly, in aggregate, by age group (https://www.cdc.gov/iis/about/).",
-            "title": "Monthly Cumulative Number and Percent of Persons Children 6 Months\u201317 Years Who Received \u22651 Influenza Vaccination Doses, by Influenza Season, Age Group, and Jurisdiction, United States",
+            "description": "\u2022 Monthly Cumulative Percent of Persons Who Received \u22651 Influenza Vaccination Doses, by Influenza Season, Age Group and Jurisdiction.\n\n\u2022 Influenza (flu) vaccination coverage for children and adults is assessed through U.S. jurisdictions\u2019 Immunization Information Systems Resources (IIS) data, submitted from jurisdictions to CDC monthly, in aggregate, by age group (https://www.cdc.gov/iis/about/).\n\n\u2022 Monthly estimates shown are cumulative, reflecting all persons vaccinated from July 1 through a given month of that flu season.*,\u2020 Cumulative estimates include any historical data reported since the previous submission. National estimates are not presented since not all U.S. jurisdictions are currently reporting their IIS data to CDC. Jurisdictions reporting data to CDC include U.S. states, some localities, and territories.",
+            "title": "Monthly Cumulative Number and Percent of Persons Children 6 Months\u201317 Years and Adults 18 Years and Older Who Received 1+ Influenza Vaccination Doses, by Season, Age Group, and Jurisdiction, United States",
             "programCode": [
                 "009:020"
             ],
@@ -47593,14 +47593,14 @@
             "modified": "2021-01-07",
             "keyword": [
                 "2020",
-                "total",
-                "wonder",
-                "q fever",
-                "nndss",
-                "netss",
-                "nedss",
+                "acute",
                 "chronic",
-                "acute"
+                "nedss",
+                "netss",
+                "nndss",
+                "q fever",
+                "total",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -47806,7 +47806,7 @@
             ],
             "issued": "2025-12-01",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -48054,7 +48054,7 @@
             ],
             "issued": "2025-04-15",
             "@type": "dcat:Dataset",
-            "modified": "2025-11-21",
+            "modified": "2025-12-17",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -48296,8 +48296,8 @@
                 "hospital",
                 "inpatient",
                 "inpatient department",
-                "nhcs",
-                "united states"
+                "united states",
+                "nhcs"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -48852,9 +48852,9 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "community mitigation",
                 "covid-19",
-                "school closure"
+                "school closure",
+                "community mitigation"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -48920,28 +48920,28 @@
             ],
             "keyword": [
                 "linked usrds esrd files",
-                "nchs surveys",
-                "research-data-center",
-                "sdoh-access-to-health-care",
-                "sdoh-civic-participation",
-                "sdoh-crime-violence",
-                "sdoh-early-childhood",
-                "sdoh-employment",
-                "sdoh-environmental",
-                "sdoh-food-access",
-                "sdoh-food-insecurity",
-                "sdoh-health-literacy",
-                "sdoh-higher-education",
-                "sdoh-high-school",
-                "sdoh-housing-quality",
-                "sdoh-housing-stability",
-                "sdoh-language",
-                "sdoh-poverty-income",
-                "sdoh-social-emotional",
-                "sdoh-source-of-health-care",
-                "sdoh-transportation",
+                "sdoh-workplace",
                 "sdoh-use-of-health-care",
-                "sdoh-workplace"
+                "sdoh-early-childhood",
+                "sdoh-crime-violence",
+                "sdoh-civic-participation",
+                "sdoh-access-to-health-care",
+                "research-data-center",
+                "nchs surveys",
+                "sdoh-transportation",
+                "sdoh-source-of-health-care",
+                "sdoh-social-emotional",
+                "sdoh-poverty-income",
+                "sdoh-language",
+                "sdoh-housing-stability",
+                "sdoh-housing-quality",
+                "sdoh-high-school",
+                "sdoh-higher-education",
+                "sdoh-health-literacy",
+                "sdoh-food-insecurity",
+                "sdoh-food-access",
+                "sdoh-environmental",
+                "sdoh-employment"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -49211,14 +49211,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "meningococcal disease",
                 "2021",
-                "wonder",
-                "unknown serogroup",
-                "other serogroups",
-                "nndss",
+                "meningococcal disease",
+                "nedss",
                 "netss",
-                "nedss"
+                "nndss",
+                "other serogroups",
+                "unknown serogroup",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -49275,7 +49275,7 @@
             ],
             "issued": "2024-09-30",
             "@type": "dcat:Dataset",
-            "modified": "2025-11-21",
+            "modified": "2025-12-19",
             "keyword": [
                 "covid-19",
                 "nowcasting",
@@ -49344,15 +49344,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-28",
             "keyword": [
+                "netss",
+                "nedss",
                 "2021",
                 "anthrax",
                 "arboviral diseases",
                 "chikungunya virus disease",
                 "eastern equine encephalitis virus disease",
-                "nedss",
-                "netss",
-                "nndss",
-                "wonder"
+                "wonder",
+                "nndss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -49410,7 +49410,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "2023-2024, 2024-2025, 2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "flu vaccination",
                 "nis-ccm",
@@ -50777,8 +50777,8 @@
             "@type": "dcat:Dataset",
             "modified": "2025-04-28",
             "keyword": [
-                "centers for disease control and prevention",
-                "cdc"
+                "cdc",
+                "centers for disease control and prevention"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -51119,7 +51119,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "Seasons: 2023-2024, 2024-2025, 2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "covid-19 vaccination",
                 "nis-ccm"
@@ -51347,7 +51347,7 @@
             ],
             "issued": "2022-11-28",
             "@type": "dcat:Dataset",
-            "modified": "2025-11-21",
+            "modified": "2025-12-17",
             "keyword": [
                 "beam",
                 "beam dashboard",
@@ -51545,7 +51545,7 @@
             "issued": "2024-01-30",
             "@type": "dcat:Dataset",
             "temporal": "2017-Present",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "adenovirus",
                 "covid-19",
@@ -51691,14 +51691,14 @@
             "modified": "2022-02-11",
             "keyword": [
                 "2022",
-                "q fever",
-                "total",
-                "wonder",
-                "nndss",
                 "acute",
                 "chronic",
                 "nedss",
-                "netss"
+                "netss",
+                "nndss",
+                "q fever",
+                "total",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -52090,7 +52090,7 @@
             "issued": "2023-11-16",
             "@type": "dcat:Dataset",
             "temporal": "Most recent month",
-            "modified": "2025-09-15",
+            "modified": "2025-12-15",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -52350,16 +52350,16 @@
             "@type": "dcat:Dataset",
             "modified": "2024-01-30",
             "keyword": [
-                "business closure",
-                "business reopening",
                 "covid-19",
-                "executive order",
                 "government order",
                 "legal epidemiology",
                 "mitigation",
                 "proclamation",
-                "public health order",
-                "social distancing"
+                "business closure",
+                "business reopening",
+                "executive order",
+                "social distancing",
+                "public health order"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -52418,15 +52418,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "indigenous",
-                "wonder",
-                "nndss",
-                "netss",
-                "nedss",
-                "measles",
-                "malaria",
+                "2022",
                 "imported",
-                "2022"
+                "indigenous",
+                "malaria",
+                "measles",
+                "nedss",
+                "netss",
+                "nndss",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -52868,7 +52868,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "Seasons: 2023-2024, 2024-2025, 2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "cms",
                 "covid-19 vaccination",
@@ -53138,7 +53138,7 @@
             "issued": "2025-03-06",
             "temporal": "1988/2020",
             "@type": "dcat:Dataset",
-            "modified": "2025-09-02",
+            "modified": "2025-12-19",
             "keyword": [
                 "female",
                 "healthcare access and utilization",
@@ -53164,8 +53164,8 @@
                 "name": "National Center for Health Statistics"
             },
             "identifier": "https://data.cdc.gov/api/views/kusj-ex57",
-            "description": "Data on prescription drug use in the past 30 days in the United States, by sex, race and Hispanic origin, and age group. Data are from Health, United States. SOURCE: National Center for Health Statistics, National Health and Nutrition Examination Survey.\nSearch, visualize, and download these and other estimates from a wide range of health topics with the NCHS Data Query System (DQS), available from: https://www.cdc.gov/nchs/dataquery/index.htm.",
-            "title": "DQS Prescription drug use in the past 30 days, by sex, race and Hispanic origin, and age group: United States",
+            "description": "Data on prescription medication use in the past 30 days in the United States, by sex, race and Hispanic origin, and age group. Data are from Health, United States. SOURCE: National Center for Health Statistics, National Health and Nutrition Examination Survey.\nSearch, visualize, and download these and other estimates from a wide range of health topics with the NCHS Data Query System (DQS), available from: https://www.cdc.gov/nchs/dataquery/index.htm.",
+            "title": "DQS prescription medication use in the past 30 days, by sex, race and Hispanic origin, and age group: United States",
             "programCode": [
                 "009:020"
             ],
@@ -53211,7 +53211,7 @@
             ],
             "issued": "2024-05-03",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "covid",
                 "covid19",
@@ -53699,8 +53699,8 @@
             "@type": "dcat:Dataset",
             "modified": "2015-08-27",
             "keyword": [
-                "hus",
-                "low birthweight"
+                "low birthweight",
+                "hus"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -53824,16 +53824,16 @@
             "@type": "dcat:Dataset",
             "modified": "2019-01-03",
             "keyword": [
-                "netss",
-                "invasive disease (all ages",
                 "2018",
                 "all serotypes)",
                 "giardiasis",
                 "gonorrhea",
                 "haemophilus influenza",
+                "invasive disease (all ages",
                 "nedss",
-                "wonder",
-                "nndss"
+                "netss",
+                "nndss",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -53969,14 +53969,14 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
-                "meningococcal disease",
                 "2020",
+                "meningococcal disease",
                 "nedss",
-                "unknown serogroup",
-                "wonder",
-                "nndss",
                 "netss",
-                "other serogroups"
+                "nndss",
+                "other serogroups",
+                "unknown serogroup",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -54040,29 +54040,29 @@
                 "https://www.cdc.gov/nchs/data/datalinkage/LMF2019-DataDictionary-MortVars.pdf"
             ],
             "keyword": [
-                "linked mortality files",
-                "nchs surveys",
-                "research-data-center",
-                "sdoh-access-to-health-care",
-                "sdoh-civic-participation",
-                "sdoh-crime-violence",
-                "sdoh-early-childhood",
-                "sdoh-employment",
                 "sdoh-environmental",
-                "sdoh-food-access",
-                "sdoh-food-insecurity",
-                "sdoh-health-literacy",
-                "sdoh-higher-education",
-                "sdoh-high-school",
-                "sdoh-housing-quality",
-                "sdoh-housing-stability",
-                "sdoh-language",
-                "sdoh-poverty-income",
-                "sdoh-social-emotional",
+                "sdoh-employment",
+                "sdoh-early-childhood",
                 "sdoh-source-of-health-care",
                 "sdoh-transportation",
                 "sdoh-use-of-health-care",
-                "sdoh-workplace"
+                "sdoh-workplace",
+                "sdoh-crime-violence",
+                "sdoh-housing-quality",
+                "sdoh-civic-participation",
+                "sdoh-access-to-health-care",
+                "research-data-center",
+                "nchs surveys",
+                "linked mortality files",
+                "sdoh-high-school",
+                "sdoh-higher-education",
+                "sdoh-health-literacy",
+                "sdoh-food-insecurity",
+                "sdoh-food-access",
+                "sdoh-social-emotional",
+                "sdoh-poverty-income",
+                "sdoh-language",
+                "sdoh-housing-stability"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -54296,14 +54296,14 @@
             "@type": "dcat:Dataset",
             "modified": "2018-01-04",
             "keyword": [
-                "2017",
                 "all ages",
-                "invasive pneumococcal diseases",
-                "mmwr",
-                "nedss",
-                "netss",
+                "2017",
+                "wonder",
                 "nndss",
-                "wonder"
+                "netss",
+                "nedss",
+                "mmwr",
+                "invasive pneumococcal diseases"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -54706,13 +54706,13 @@
             "modified": "2019-05-30",
             "keyword": [
                 "2019",
-                "animal",
                 "human",
                 "nedss",
                 "netss",
                 "nndss",
                 "rabies",
-                "wonder"
+                "wonder",
+                "animal"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -55041,10 +55041,10 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "nndss",
                 "2019",
                 "nedss",
                 "netss",
+                "nndss",
                 "q fever",
                 "q fever acute",
                 "q fever chronic",
@@ -55309,17 +55309,17 @@
             "temporal": "1982/2022",
             "modified": "2025-04-21",
             "keyword": [
-                "sdoh-high-school",
                 "sdoh-use-of-health-care",
-                "nchs",
+                "united states",
+                "date of delivery",
+                "sdoh-high-school",
+                "sdoh-source-of-health-care",
                 "county",
+                "nchs",
                 "research-data-center",
                 "sdoh-access-to-health-care",
                 "sdoh-higher-education",
-                "united states",
-                "date of delivery",
-                "fetal death",
-                "sdoh-source-of-health-care"
+                "fetal death"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -55464,7 +55464,7 @@
             "issued": "2025-09-04",
             "temporal": "N/A",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "references": [
                 "NHSN Hospital Respiratory Data (HRD) Reporting: https://www.cdc.gov/nhsn/psc/hospital-respiratory-reporting.html  NHSN Hospital Respiratory Data (HRD) Dashboard: https://wwwdev.cdc.gov/nhsn/psc/hospital-respiratory-dashboard.html#anchor_83745   Centers for Medicare and Medicaid Services (CMS) requirements: Updates to the Condition of Participation (CoP) Requirements for Hospitals and Critical Access Hospitals (CAHs) To Report Acute Respiratory Illnesses."
             ],
@@ -55549,7 +55549,7 @@
             "issued": "2023-03-31",
             "@type": "dcat:Dataset",
             "temporal": "2019-12-29/2023-07-29",
-            "modified": "2025-12-11",
+            "modified": "2025-12-18",
             "keyword": [
                 "coronavirus",
                 "covid-19",
@@ -55823,15 +55823,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "2021",
-                "all ages",
-                "confirmed",
-                "invasive pneumococcal disease",
-                "nedss",
-                "netss",
-                "nndss",
+                "wonder",
                 "probable",
-                "wonder"
+                "nndss",
+                "netss",
+                "nedss",
+                "invasive pneumococcal disease",
+                "confirmed",
+                "all ages",
+                "2021"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -55925,8 +55925,8 @@
             "@type": "dcat:Dataset",
             "modified": "2016-09-14",
             "keyword": [
-                "cdc",
-                "centers for disease control and prevention"
+                "centers for disease control and prevention",
+                "cdc"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -56284,7 +56284,7 @@
             ],
             "issued": "2025-12-01",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "avian influenza a (h5)",
                 "flu",
@@ -56307,7 +56307,7 @@
                 "name": "data.cdc.gov"
             },
             "identifier": "https://data.cdc.gov/api/views/mtpu-urpp",
-            "description": "This dataset provides a complete time history of Avian Influenza A (H5) wastewater sample data and calculated metrics from US sampling locations.\n\nCDC\u2019s National Wastewater Surveillance System (NWSS) includes data collected and reported by:\n\u2022 All data with a source designation of \u201cstate_territory\u201d were generated by state and local health departments are reported to CDC and supported with funding through the Epidemiology and Laboratory Capacity for the Prevention and Control of Emerging Infectious Diseases (ELC) Cooperative Agreement (https://www.cdc.gov/epidemiology-laboratory-capacity/php/our-work/index.html).\n\u2022 All data with a source designation of \u201ccdc_verily\u201d were generated by CDC\u2019s national wastewater testing contract (currently with Verily Life Sciences, LLC).\n\u2022 All data with a source designation of \u201cwws\u201d were generated by WastewaterSCAN, a partnership between Stanford University, Emory University, and Verily. All results are understood to be based on inputs that are experimental in nature and are not intended to diagnose or treat any disease. The results are provided \u201cas is\u201d and without warranty of any kind. Stanford does not accept liability for any claim arising out of or in connection with the disclosure of these results. WastewaterSCAN indicates that by accessing or copying any part of the database, the user accepts the terms of Stanford\u2019s license (CC BY-NC 4.0). These data are being made available to inform public health decision making. Anyone seeking to use the database for other purposes or for research is required to contact the WastewaterSCAN / SCAN team (email: wwscan_stanford_emory@lists.stanford.edu) and any use of the data should be cited appropriately (https://data.wastewaterscan.org/about/#18).\n\nLearn more at: https://www.cdc.gov/nwss/index.html.\n\nThis dataset is updated weekly on Fridays.",
+            "description": "This dataset provides a complete time history of Avian Influenza A (H5) wastewater sample data and calculated metrics from US sampling locations.\n\nCDC\u2019s National Wastewater Surveillance System (NWSS) includes data collected and reported by:\n\u2022 All data with a source designation of \u201cstate_territory\u201d were generated by state and local health departments are reported to CDC and supported with funding through the Epidemiology and Laboratory Capacity for the Prevention and Control of Emerging Infectious Diseases (ELC) Cooperative Agreement (https://www.cdc.gov/epidemiology-laboratory-capacity/php/our-work/index.html).\n\u2022 All data with a source designation of \u201ccdc_verily\u201d were generated by CDC\u2019s national wastewater testing contract (currently with Verily Life Sciences, LLC).\n\u2022 All data with a source designation of \u201cwws\u201d were generated by WastewaterSCAN, a partnership between Stanford University, Emory University, and Verily. All results are understood to be based on inputs that are experimental in nature and are not intended to diagnose or treat any disease. The results are provided \u201cas is\u201d and without warranty of any kind. Stanford does not accept liability for any claim arising out of or in connection with the disclosure of these results. WastewaterSCAN indicates that by accessing or copying any part of the database, the user accepts the terms of Stanford\u2019s license (CC BY-NC 4.0). These data are being made available to inform public health decision making. Anyone seeking to use the database for other purposes or for research is required to contact the WastewaterSCAN / SCAN team (email: wwscan_stanford_emory@lists.stanford.edu) and any use of the data should be cited appropriately (https://data.wastewaterscan.org/about/#18).\n\nLearn more at: https://www.cdc.gov/nwss/index.html.\n\nThis dataset is updated weekly on Fridays.\n\nNOTE (12/19/2025):  The \"lod_sewage\" field for sewershed ID 2030 in Virginia is currently the result of a data error leading to a false detection. This error will be corrected in the next update.",
             "title": "CDC Wastewater Data for Avian Influenza A (H5)",
             "programCode": [
                 "009:028"
@@ -56508,14 +56508,14 @@
             "@type": "dcat:Dataset",
             "modified": "2020-01-02",
             "keyword": [
-                "wonder",
-                "spotted fever rickettsiosis probable",
                 "2019",
-                "spotted fever rickettsiosis confirmed",
                 "nedss",
-                "nndss",
                 "netss",
-                "smallpox"
+                "nndss",
+                "smallpox",
+                "spotted fever rickettsiosis confirmed",
+                "spotted fever rickettsiosis probable",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -56574,14 +56574,14 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
+                "2020",
+                "nedss",
+                "netss",
                 "nndss",
                 "salmonella paratyphi infection",
                 "salmonella typhi infection",
                 "salmonellosis (excluding salmonella typhi infection and salmonella paratyphi infection)",
-                "netss",
-                "wonder",
-                "nedss",
-                "2020"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -56864,10 +56864,10 @@
             "temporal": "2012-2015, 2017-2019, 2021",
             "modified": "2025-04-21",
             "keyword": [
-                "research-data-center",
-                "nchs",
                 "nehrs",
-                "electronic health records"
+                "nchs",
+                "electronic health records",
+                "research-data-center"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -57793,7 +57793,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "Seasons: 2023-2024, 2024-2025, 2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "covid-19 vaccination",
                 "nis-ccm"
@@ -57863,13 +57863,13 @@
             "temporal": "2012-09/2023-03",
             "modified": "2025-04-21",
             "keyword": [
+                "covid-19",
+                "long-term care",
+                "research-data-center",
+                "residential care communities",
                 "sdoh-source-of-health-care",
                 "sdoh-access-to-health-care",
-                "residential care communities",
-                "research-data-center",
-                "long-term care",
-                "sdoh-transportation",
-                "covid-19"
+                "sdoh-transportation"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -57916,14 +57916,14 @@
             "temporal": "2019-01-01/2019-12-31",
             "modified": "2025-04-21",
             "keyword": [
-                "deaths",
+                "nvss",
+                "nchs",
+                "united states",
                 "life expectancy",
                 "mortality",
-                "nchs",
-                "nvss",
-                "sex",
                 "state",
-                "united states"
+                "sex",
+                "deaths"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -58894,15 +58894,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "nndss",
-                "netss",
-                "nedss",
-                "dengue virus infections",
-                "dengue-like illness",
-                "dengue",
                 "2022",
-                "wonder",
-                "severe dengue"
+                "dengue",
+                "dengue-like illness",
+                "dengue virus infections",
+                "nedss",
+                "netss",
+                "nndss",
+                "severe dengue",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -59449,6 +59449,7 @@
                 "https://www.cdc.gov/nchs/data/datalinkage/va-match-status-all.pdf"
             ],
             "keyword": [
+                "veterans",
                 "linked va files",
                 "nchs surveys",
                 "research-data-center",
@@ -59471,8 +59472,7 @@
                 "sdoh-source-of-health-care",
                 "sdoh-transportation",
                 "sdoh-use-of-health-care",
-                "sdoh-workplace",
-                "veterans"
+                "sdoh-workplace"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -60139,7 +60139,7 @@
             ],
             "issued": "2024-07-23",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-11",
+            "modified": "2025-12-18",
             "keyword": [
                 "age-adjusted rates",
                 "age-adjusted rates by race and ethnicity",
@@ -60270,16 +60270,16 @@
                 "https://www.cdc.gov/pcd/issues/2018/18_0313.htm"
             ],
             "keyword": [
-                "prevalence",
-                "outcomes",
-                "gis",
-                "cities",
-                "behaviors",
                 "500cities",
+                "behaviors",
                 "census",
-                "unhealthy",
+                "cities",
+                "gis",
+                "outcomes",
+                "prevalence",
+                "prevention",
                 "tract",
-                "prevention"
+                "unhealthy"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -60479,13 +60479,13 @@
             "modified": "2019-05-30",
             "keyword": [
                 "carbapenemase-producing carbapenem-resistant enterobacteriaceae",
-                "wonder",
+                "chancroid",
                 "nndss",
-                "netss",
-                "nedss",
-                "2019",
+                "wonder",
                 "chlamydia trachomatis infection",
-                "chancroid"
+                "nedss",
+                "netss",
+                "2019"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -60765,16 +60765,16 @@
             "@type": "dcat:Dataset",
             "modified": "2025-04-21",
             "keyword": [
-                "american indian or alaska native",
-                "asian or pacific islander",
-                "black or african american",
-                "child and adolescent",
-                "deaths",
                 "health us",
                 "hispanic or latino",
                 "infant mortality",
                 "state",
-                "white"
+                "white",
+                "american indian or alaska native",
+                "asian or pacific islander",
+                "black or african american",
+                "child and adolescent",
+                "deaths"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -60835,15 +60835,15 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
-                "jamestown canyon virus disease",
                 "wonder",
-                "powassan virus disease",
-                "nndss",
-                "netss",
-                "nedss",
-                "la crosse virus disease",
+                "2020",
                 "arboviral diseases",
-                "2020"
+                "jamestown canyon virus disease",
+                "la crosse virus disease",
+                "nedss",
+                "netss",
+                "nndss",
+                "powassan virus disease"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -61028,15 +61028,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
+                "nndss",
                 "viral hemorrhagic fevers",
                 "wonder",
-                "nndss",
-                "netss",
                 "2021",
-                "nedss",
-                "guanarito virus",
+                "crimean-congo hemorrhagic fever virus",
                 "ebola virus",
-                "crimean-congo hemorrhagic fever virus"
+                "guanarito virus",
+                "nedss",
+                "netss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -62225,21 +62225,21 @@
             "modified": "2025-04-21",
             "keyword": [
                 "sdoh-transportation",
-                "sdoh-access-to-health-care",
-                "sdoh-employment",
+                "sdoh-poverty-income",
                 "sdoh-higher-education",
+                "sdoh-high-school",
+                "missed healthcare",
+                "covid-19",
                 "research-data-center",
                 "depression",
-                "covid-19",
-                "sdoh-social-emotional",
-                "sdoh-source-of-health-care",
-                "sdoh-high-school",
+                "sdoh-employment",
+                "sdoh-access-to-health-care",
                 "anxiety",
-                "sdoh-use-of-health-care",
-                "sdoh-workplace",
                 "telemedicine",
-                "missed healthcare",
-                "sdoh-poverty-income"
+                "sdoh-workplace",
+                "sdoh-use-of-health-care",
+                "sdoh-source-of-health-care",
+                "sdoh-social-emotional"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -62503,12 +62503,12 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "st. louis virus disease",
                 "2022",
                 "arboviral diseases",
                 "nedss",
                 "netss",
                 "nndss",
+                "st. louis virus disease",
                 "west nile virus disease",
                 "wonder"
             ],
@@ -62896,12 +62896,12 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
-                "nndss",
-                "toxic shock syndrome (other than streptococcal)",
-                "tetanus",
-                "netss",
-                "nedss",
                 "2020",
+                "nedss",
+                "netss",
+                "nndss",
+                "tetanus",
+                "toxic shock syndrome (other than streptococcal)",
                 "trichinellosis",
                 "wonder"
             ],
@@ -63174,7 +63174,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "cms",
                 "iis",
@@ -63694,15 +63694,15 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
+                "nedss",
                 "2019",
                 "ehrlichia ewingii infection",
-                "ehrlichiosis and anaplasmosis",
-                "giardiasis",
-                "nedss",
-                "netss",
-                "nndss",
+                "wonder",
                 "undetermined",
-                "wonder"
+                "nndss",
+                "netss",
+                "ehrlichiosis and anaplasmosis",
+                "giardiasis"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -64169,7 +64169,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "2023-2024, 2024-2025, 2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "flu vaccination",
                 "nis-ccm",
@@ -64409,9 +64409,9 @@
             "temporal": "2023-2024",
             "modified": "2024-08-28",
             "keyword": [
-                "rsv",
-                "older adults",
                 "vaccination",
+                "older adults",
+                "rsv",
                 "nis-acm"
             ],
             "contactPoint": {
@@ -64477,15 +64477,15 @@
             "@type": "dcat:Dataset",
             "modified": "2019-01-03",
             "keyword": [
+                "2018",
                 "animal",
-                "wonder",
-                "rubella",
-                "rabies",
-                "nndss",
-                "netss",
-                "nedss",
                 "congenital syndrome",
-                "2018"
+                "nedss",
+                "netss",
+                "nndss",
+                "rabies",
+                "rubella",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -65020,7 +65020,7 @@
             "issued": "2024-02-28",
             "@type": "dcat:Dataset",
             "temporal": "12 month rolling period",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "adenovirus",
                 "covid-19",
@@ -65284,14 +65284,14 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "2019",
-                "arboviral diseases",
                 "babesiosis",
-                "nedss",
-                "netss",
+                "arboviral diseases",
+                "2019",
                 "nndss",
                 "west nile virus disease",
-                "wonder"
+                "wonder",
+                "netss",
+                "nedss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -65462,15 +65462,15 @@
             "@type": "dcat:Dataset",
             "modified": "2020-01-02",
             "keyword": [
-                "lujo virus",
-                "nedss",
-                "viral hemorrhagic fevers",
-                "netss",
+                "wonder",
                 "lassa virus",
                 "junin virus",
-                "nndss",
                 "2019",
-                "wonder"
+                "netss",
+                "lujo virus",
+                "nedss",
+                "nndss",
+                "viral hemorrhagic fevers"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -65527,8 +65527,8 @@
             ],
             "issued": "2020-05-01",
             "@type": "dcat:Dataset",
-            "temporal": "2019-12-29/2025-12-11",
-            "modified": "2025-12-11",
+            "temporal": "2019-12-29/2025-12-18",
+            "modified": "2025-12-18",
             "keyword": [
                 "all causes",
                 "coronavirus",
@@ -65778,8 +65778,8 @@
             "@type": "dcat:Dataset",
             "modified": "2025-04-28",
             "keyword": [
-                "centers for disease control and prevention",
-                "cdc"
+                "cdc",
+                "centers for disease control and prevention"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -65977,14 +65977,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "nndss",
-                "wonder",
-                "salmonellosis (excluding salmonella typhi infection and salmonella paratyphi infection)",
-                "salmonella typhi infection",
-                "salmonella paratyphi infection",
-                "netss",
+                "2022",
                 "nedss",
-                "2022"
+                "netss",
+                "nndss",
+                "salmonella paratyphi infection",
+                "salmonella typhi infection",
+                "salmonellosis (excluding salmonella typhi infection and salmonella paratyphi infection)",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -66045,21 +66045,21 @@
             "temporal": "2016",
             "modified": "2025-04-21",
             "keyword": [
-                "sdoh-access-to-health-care",
-                "sdoh-workplace",
-                "sdoh-poverty-income",
-                "sdoh-high-school",
-                "sdoh-higher-education",
-                "sdoh-food-insecurity",
-                "sdoh-food-access",
-                "sdoh-employment",
-                "research-data-center",
-                "physical activity",
-                "health insurance",
-                "health behaviors",
-                "food security",
+                "anxiety",
                 "chronic conditions",
-                "anxiety"
+                "food security",
+                "health behaviors",
+                "health insurance",
+                "physical activity",
+                "research-data-center",
+                "sdoh-access-to-health-care",
+                "sdoh-employment",
+                "sdoh-food-access",
+                "sdoh-food-insecurity",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-poverty-income",
+                "sdoh-workplace"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -66208,7 +66208,7 @@
             "issued": "2023-12-18",
             "@type": "dcat:Dataset",
             "temporal": "2022-10-01/2023-01-27",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "coronavirus",
                 "covid19",
@@ -66283,7 +66283,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "Season: 2023-2024, 2024-2025, 2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "cms",
                 "dose distributed",
@@ -66392,14 +66392,14 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
-                "netss",
+                "2020",
+                "arboviral diseases",
                 "babesiosis",
+                "nedss",
+                "netss",
                 "nndss",
                 "western equine encephalitis virus disease",
-                "wonder",
-                "2020",
-                "nedss",
-                "arboviral diseases"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -66599,7 +66599,7 @@
             "issued": "2025-12-01",
             "temporal": "Data from 2019-07-06 to present",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-20",
             "keyword": [
                 "adenovirus",
                 "chronic lower respiratory disease",
@@ -66744,7 +66744,7 @@
             "issued": "2025-09-04",
             "@type": "dcat:Dataset",
             "temporal": "N/A",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "references": [
                 "NHSN Hospital Respiratory Data (HRD) Reporting: https://www.cdc.gov/nhsn/psc/hospital-respiratory-reporting.html  NHSN Hospital Respiratory Data (HRD) Dashboard: https://wwwdev.cdc.gov/nhsn/psc/hospital-respiratory-dashboard.html#anchor_83745  Centers for Medicare and Medicaid Services (CMS) requirements: Updates to the Condition of Participation (CoP) Requirements for Hospitals and Critical Access Hospitals (CAHs) To Report Acute Respiratory Illnesses."
             ],
@@ -67349,7 +67349,7 @@
             ],
             "issued": "2014-10-16",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-09",
+            "modified": "2025-12-16",
             "keyword": [
                 "cdc.gov",
                 "page views",
@@ -67601,8 +67601,8 @@
             "modified": "2024-11-01",
             "keyword": [
                 "cardiovascular",
-                "cardiovascular disease",
                 "counties",
+                "cardiovascular disease",
                 "county",
                 "heart"
             ],
@@ -67663,14 +67663,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "2021",
-                "nedss",
-                "netss",
-                "nndss",
                 "non-congenital",
                 "wonder",
+                "nndss",
+                "zika virus disease",
                 "yellow fever",
-                "zika virus disease"
+                "2021",
+                "nedss",
+                "netss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -67877,15 +67877,15 @@
             "@type": "dcat:Dataset",
             "modified": "2020-01-02",
             "keyword": [
-                "confirmed",
-                "all ages",
                 "2019",
+                "all ages",
+                "confirmed",
+                "invasive pneumococcal disease",
+                "nedss",
+                "netss",
                 "nndss",
                 "probable",
-                "wonder",
-                "netss",
-                "nedss",
-                "invasive pneumococcal disease"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -68361,10 +68361,10 @@
             "@type": "dcat:Dataset",
             "modified": "2018-11-27",
             "keyword": [
+                "particulate matter",
+                "environmental health",
                 "air pollution",
                 "asthma",
-                "environmental health",
-                "particulate matter",
                 "pm2.5"
             ],
             "contactPoint": {
@@ -69104,7 +69104,7 @@
             ],
             "issued": "2023-11-08",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "coronavirus",
                 "covid19",
@@ -69595,14 +69595,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "2022",
-                "nedss",
-                "ehrlichiosis and anaplasmosis",
                 "ehrlichia chaffeensis infection",
+                "2022",
                 "anaplasma phagocytophilum infection",
+                "nedss",
                 "wonder",
-                "netss",
-                "nndss"
+                "nndss",
+                "ehrlichiosis and anaplasmosis",
+                "netss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -69662,8 +69662,8 @@
             "temporal": "2023-2024",
             "modified": "2024-08-28",
             "keyword": [
-                "nis-acm",
                 "covid-19 vaccination",
+                "nis-acm",
                 "adults"
             ],
             "contactPoint": {
@@ -69728,7 +69728,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "Seasons: 2023-2024, 2024-2025, 2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "covid-19 vaccination",
                 "nis-ccm"
@@ -69849,13 +69849,13 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
-                "2020",
                 "congenital syndrome",
-                "nedss",
-                "netss",
                 "nndss",
+                "wonder",
                 "rubella",
-                "wonder"
+                "2020",
+                "nedss",
+                "netss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -69983,15 +69983,15 @@
             "temporal": "2004-08-01/2004-12-31",
             "modified": "2025-04-21",
             "keyword": [
-                "sdoh-access-to-health-care",
-                "nursing home staff",
-                "nursing homes",
-                "nursing assistants",
                 "turnover",
-                "sdoh-work-place",
-                "research-data-center",
                 "job satisfaction",
-                "sdoh-source-of-health-care"
+                "nursing assistants",
+                "nursing homes",
+                "nursing home staff",
+                "research-data-center",
+                "sdoh-access-to-health-care",
+                "sdoh-source-of-health-care",
+                "sdoh-work-place"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -70433,7 +70433,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "Seasons: 2024-2025 and 2025\u2013 2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "cms",
                 "dose distributed",
@@ -71534,8 +71534,8 @@
             "@type": "dcat:Dataset",
             "modified": "2015-08-18",
             "keyword": [
-                "cdc",
-                "centers for disease control and prevention"
+                "centers for disease control and prevention",
+                "cdc"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -72142,10 +72142,10 @@
                 "https://www.cdc.gov/nchs/linked-data/nhcs/restricted-ndi.html"
             ],
             "keyword": [
-                "research-data-center",
                 "linked ndi data",
+                "national hospital care survey",
                 "nhcs",
-                "national hospital care survey"
+                "research-data-center"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -72320,12 +72320,12 @@
             "temporal": "Monthly",
             "modified": "2023-04-28",
             "keyword": [
-                "vaccine coverage",
-                "coverage",
-                "vaccination",
-                "influenza",
                 "flu vaccination",
-                "adults"
+                "coverage",
+                "influenza",
+                "adults",
+                "vaccination",
+                "vaccine coverage"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -72608,13 +72608,13 @@
             "@type": "dcat:Dataset",
             "modified": "2019-01-18",
             "keyword": [
-                "wonder",
-                "nndss",
-                "tuberculosis",
-                "netss",
                 "2018",
                 "nedss",
-                "tb"
+                "netss",
+                "nndss",
+                "tb",
+                "tuberculosis",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -72963,16 +72963,16 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
+                "2020",
+                "age <5 years serotype b",
+                "all ages all serotypes",
                 "gonorrhea",
+                "haemophilus influenzae",
+                "invasive disease",
+                "nedss",
                 "netss",
                 "nndss",
-                "2020",
-                "wonder",
-                "invasive disease",
-                "all ages all serotypes",
-                "haemophilus influenzae",
-                "age <5 years serotype b",
-                "nedss"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -73031,17 +73031,17 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "unknown serotype",
-                "wonder",
-                "nontypeable",
-                "non-b serotype",
-                "nndss",
-                "netss",
-                "nedss",
-                "invasive disease",
-                "haemophilus influenzae",
+                "2019",
                 "(age <5 years)",
-                "2019"
+                "haemophilus influenzae",
+                "invasive disease",
+                "nedss",
+                "netss",
+                "nndss",
+                "non-b serotype",
+                "nontypeable",
+                "unknown serotype",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -73331,7 +73331,7 @@
             "issued": "2025-09-04",
             "@type": "dcat:Dataset",
             "temporal": "N/A",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "references": [
                 "NHSN Hospital Respiratory Data (HRD) Reporting: https://www.cdc.gov/nhsn/psc/hospital-respiratory-reporting.html  NHSN Hospital Respiratory Data (HRD) Dashboard: https://wwwdev.cdc.gov/nhsn/psc/hospital-respiratory-dashboard.html#anchor_83745  Centers for Medicare and Medicaid Services (CMS) requirements: Updates to the Condition of Participation (CoP) Requirements for Hospitals and Critical Access Hospitals (CAHs) To Report Acute Respiratory Illnesses."
             ],
@@ -74468,12 +74468,12 @@
             "keyword": [
                 "2020",
                 "hemolytic uremic syndrome post-diarrheal",
-                "hepatitis (viral acute) type a",
-                "hepatitis (viral acute) type b",
-                "nedss",
-                "netss",
+                "wonder",
                 "nndss",
-                "wonder"
+                "netss",
+                "nedss",
+                "hepatitis (viral acute) type b",
+                "hepatitis (viral acute) type a"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -74535,17 +74535,17 @@
                 "https://www.cdc.gov/places/measure-definitions/index.html"
             ],
             "keyword": [
+                "behaviors",
                 "city",
                 "gis",
-                "outcomes",
                 "health",
-                "risk",
-                "status",
-                "prevention",
+                "outcomes",
                 "place",
-                "behaviors",
                 "places",
-                "prevalence"
+                "prevalence",
+                "prevention",
+                "risk",
+                "status"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -74604,13 +74604,13 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "wonder",
                 "2022",
                 "nedss",
                 "netss",
                 "nndss",
                 "smallpox",
-                "streptococcal toxic shock syndrome"
+                "streptococcal toxic shock syndrome",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -74798,20 +74798,20 @@
             "@type": "dcat:Dataset",
             "modified": "2025-09-02",
             "keyword": [
+                "health status and determinants",
                 "black or african american",
                 "body mass index",
                 "body weight",
+                "white",
+                "poverty",
+                "overweight",
+                "obesity",
+                "mexican",
+                "hispanic or latino",
+                "health us",
                 "children and adolescents",
                 "chronic conditions",
-                "health risk factors",
-                "health status and determinants",
-                "health us",
-                "hispanic or latino",
-                "mexican",
-                "obesity",
-                "overweight",
-                "poverty",
-                "white"
+                "health risk factors"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -74873,13 +74873,13 @@
             "temporal": "Monthly",
             "modified": "2024-05-24",
             "keyword": [
-                "adults",
+                "vaccine coverage",
                 "ethnicity",
                 "flu",
-                "flu vaccination",
+                "adults",
                 "race",
                 "vaccination",
-                "vaccine coverage"
+                "flu vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -74944,10 +74944,10 @@
             "@type": "dcat:Dataset",
             "modified": "2025-02-11",
             "keyword": [
-                "cardiovascular disease",
-                "cerebrovascular disease",
+                "stroke",
                 "county",
-                "stroke"
+                "cardiovascular disease",
+                "cerebrovascular disease"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -75277,9 +75277,9 @@
             "@type": "dcat:Dataset",
             "modified": "2023-08-02",
             "keyword": [
-                "covid-19 breakthrough",
+                "covid-19 vaccination",
                 "covid-19 cases",
-                "covid-19 vaccination"
+                "covid-19 breakthrough"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -75404,7 +75404,7 @@
             ],
             "issued": "2025-08-08",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "ari other",
                 "bacteria",
@@ -75829,8 +75829,8 @@
             ],
             "keyword": [
                 "dqs",
-                "health status and determinants",
-                "nhanes"
+                "nhanes",
+                "health status and determinants"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -75895,24 +75895,24 @@
             "temporal": "1988/2020",
             "modified": "2025-09-02",
             "keyword": [
+                "national health and nutrition examination survey",
+                "sdoh-use-of-health-care",
+                "sdoh-poverty-income",
+                "sdoh-access-to-health-care",
+                "poverty level",
+                "non-hispanic white",
+                "non-hispanic black",
+                "non-hispanic asian",
+                "nhanes",
+                "high blood pressure",
+                "mexican",
+                "male",
+                "hypertension",
+                "hispanic",
                 "chronic conditions",
                 "female",
                 "health status and determinants",
-                "health us",
-                "high blood pressure",
-                "hispanic",
-                "hypertension",
-                "male",
-                "mexican",
-                "national health and nutrition examination survey",
-                "nhanes",
-                "non-hispanic asian",
-                "non-hispanic black",
-                "non-hispanic white",
-                "poverty level",
-                "sdoh-access-to-health-care",
-                "sdoh-poverty-income",
-                "sdoh-use-of-health-care"
+                "health us"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -75978,13 +75978,13 @@
                 "https://www.cdc.gov/nchs/data/datalinkage/NHCS-Linked-VA-Match-File.pdf"
             ],
             "keyword": [
-                "sdoh-use-of-health-care",
-                "veterans",
-                "sdoh-source-of-health-care",
-                "sdoh-access-to-health-care",
-                "research-data-center",
+                "linked va files",
                 "nhcs",
-                "linked va files"
+                "research-data-center",
+                "sdoh-access-to-health-care",
+                "sdoh-source-of-health-care",
+                "sdoh-use-of-health-care",
+                "veterans"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -76726,7 +76726,7 @@
             ],
             "issued": "2025-08-04",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-13",
+            "modified": "2025-12-20",
             "keyword": [
                 "nssp",
                 "respiratory"
@@ -76926,15 +76926,15 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "serogroup b",
-                "wonder",
-                "serogroups acwy",
-                "2022",
-                "all serogroups",
                 "meningococcal disease",
-                "nedss",
                 "netss",
-                "nndss"
+                "nndss",
+                "serogroup b",
+                "serogroups acwy",
+                "wonder",
+                "2022",
+                "nedss",
+                "all serogroups"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -76992,7 +76992,7 @@
             "issued": "2025-12-10",
             "@type": "dcat:Dataset",
             "temporal": "2023-2024, 2024-2025, 2025-2026",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "flu vaccination",
                 "nis-ccm",
@@ -77351,6 +77351,7 @@
             "temporal": "2023",
             "modified": "2025-04-21",
             "keyword": [
+                "sdoh-access-to-health-care",
                 "anxiety",
                 "covid-19",
                 "depression",
@@ -77358,7 +77359,6 @@
                 "discrimination",
                 "emotional wellbeing",
                 "research-data-center",
-                "sdoh-access-to-health-care",
                 "sdoh-discrimination",
                 "sdoh-higher-education",
                 "sdoh-high-school",
@@ -77567,25 +77567,25 @@
             "temporal": "2022",
             "modified": "2025-04-21",
             "keyword": [
-                "sdoh-employment",
+                "birth control",
+                "sdoh-health-literacy",
+                "sdoh-higher-education",
+                "sdoh-high-school",
+                "sdoh-poverty-income",
+                "sdoh-racism",
+                "sdoh-social-emotional",
+                "sdoh-source-of-health-care",
+                "sdoh-use-of-health-care",
+                "sex education",
+                "sdoh-civic-participation",
+                "sdoh-access-to-health-care",
                 "research-data-center",
                 "religion",
-                "birth control",
-                "cervical cancer screening",
-                "discrimination",
                 "male use of health services",
-                "sex education",
-                "sdoh-use-of-health-care",
-                "sdoh-source-of-health-care",
-                "sdoh-social-emotional",
-                "sdoh-racism",
-                "sdoh-poverty-income",
-                "sdoh-high-school",
-                "sdoh-higher-education",
-                "sdoh-health-literacy",
+                "discrimination",
+                "cervical cancer screening",
                 "sdoh-discrimination",
-                "sdoh-civic-participation",
-                "sdoh-access-to-health-care"
+                "sdoh-employment"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -77694,14 +77694,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "nndss",
-                "nedss",
                 "2022",
+                "nedss",
+                "netss",
+                "nndss",
+                "nonparalytic",
                 "poliovirus infection",
                 "psittacosis",
-                "wonder",
-                "nonparalytic",
-                "netss"
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -77832,7 +77832,7 @@
             "issued": "2024-11-08",
             "@type": "dcat:Dataset",
             "temporal": "2022-12-31/2024-02-17",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "references": [
                 "https://www.cdc.gov/ncird/surveillance/respiratory-illnesses/index.html#companion-guide"
             ],
@@ -78131,18 +78131,18 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "2019",
-                "age <5 years",
-                "all ages",
-                "all serotypes",
-                "gonorrhea",
-                "haemophilus influenzae",
-                "invasive disease",
-                "nedss",
                 "netss",
+                "nedss",
+                "invasive disease",
+                "haemophilus influenzae",
+                "gonorrhea",
+                "all serotypes",
                 "nndss",
                 "serotype b",
-                "wonder"
+                "wonder",
+                "2019",
+                "age <5 years",
+                "all ages"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -78203,22 +78203,22 @@
             "temporal": "2020",
             "modified": "2025-04-21",
             "keyword": [
+                "telemedicine",
+                "sdoh-workplace",
+                "sdoh-use-of-health-care",
+                "sdoh-transportation",
+                "sdoh-source-of-health-care",
+                "sdoh-social-emotional",
+                "sdoh-poverty-income",
+                "sdoh-high-school",
+                "sdoh-higher-education",
+                "sdoh-employment",
+                "sdoh-access-to-health-care",
+                "research-data-center",
                 "anxiety",
                 "covid-19",
-                "depression",
                 "missed healthcare",
-                "research-data-center",
-                "sdoh-access-to-health-care",
-                "sdoh-employment",
-                "sdoh-higher-education",
-                "sdoh-high-school",
-                "sdoh-poverty-income",
-                "sdoh-social-emotional",
-                "sdoh-source-of-health-care",
-                "sdoh-transportation",
-                "sdoh-use-of-health-care",
-                "sdoh-workplace",
-                "telemedicine"
+                "depression"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -78381,15 +78381,15 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
-                "2020",
                 "ehrlichia ewingii infection",
-                "ehrlichiosis and anaplasmosis",
-                "giardiasis",
-                "nedss",
-                "netss",
-                "nndss",
+                "wonder",
                 "undetermined ehrlichiosis/anaplasmosis",
-                "wonder"
+                "nndss",
+                "netss",
+                "nedss",
+                "giardiasis",
+                "2020",
+                "ehrlichiosis and anaplasmosis"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -79681,27 +79681,27 @@
             "@type": "dcat:Dataset",
             "modified": "2025-09-02",
             "keyword": [
-                "american indian or alaska native",
-                "asian",
-                "asian or pacific islander",
-                "black",
-                "bridged race",
-                "fetal death data set",
                 "fetal deaths",
-                "fetal mortality",
-                "health status and determinants",
-                "health us",
-                "late fetal deaths",
-                "late fetal mortality",
-                "national vital statistics system",
-                "native hawaiian or other pacific islander",
-                "non-hispanic",
-                "nvss",
-                "perinatal deaths",
-                "perinatal mortality",
-                "race and hispanic origin of mother",
+                "white",
                 "single race",
-                "white"
+                "race and hispanic origin of mother",
+                "perinatal mortality",
+                "perinatal deaths",
+                "nvss",
+                "non-hispanic",
+                "native hawaiian or other pacific islander",
+                "national vital statistics system",
+                "late fetal mortality",
+                "late fetal deaths",
+                "health us",
+                "health status and determinants",
+                "fetal mortality",
+                "fetal death data set",
+                "bridged race",
+                "black",
+                "asian or pacific islander",
+                "asian",
+                "american indian or alaska native"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -79797,16 +79797,16 @@
             "@type": "dcat:Dataset",
             "modified": "2022-01-12",
             "keyword": [
-                "2021",
-                "age<5 years",
-                "confirmed",
-                "invasive pneumococcal disease",
-                "legionellosis",
-                "nedss",
                 "netss",
-                "nndss",
+                "nedss",
+                "wonder",
+                "2021",
                 "probable",
-                "wonder"
+                "legionellosis",
+                "nndss",
+                "invasive pneumococcal disease",
+                "confirmed",
+                "age<5 years"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -79928,6 +79928,8 @@
             "@type": "dcat:Dataset",
             "modified": "2020-01-02",
             "keyword": [
+                "netss",
+                "nndss",
                 "2019",
                 "acute",
                 "by type) a",
@@ -79935,8 +79937,6 @@
                 "hemolytic uremic syndrome post-diarrheal",
                 "hepatitis (viral",
                 "nedss",
-                "netss",
-                "nndss",
                 "wonder"
             ],
             "contactPoint": {
@@ -80200,11 +80200,11 @@
             "temporal": "2022",
             "modified": "2025-04-21",
             "keyword": [
-                "ambulatory-care",
-                "health center",
-                "health center component",
+                "namcs",
                 "health center encounter",
-                "namcs"
+                "health center component",
+                "health center",
+                "ambulatory-care"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -80475,14 +80475,14 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "other serogroups",
                 "2022",
                 "meningococcal disease",
-                "wonder",
                 "nedss",
                 "netss",
                 "nndss",
-                "unknown serogroup"
+                "other serogroups",
+                "unknown serogroup",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -80577,9 +80577,9 @@
             "temporal": "2023-2024",
             "modified": "2024-08-05",
             "keyword": [
-                "iis",
+                "immunization information system",
                 "covid-19 vaccination",
-                "immunization information system"
+                "iis"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -80646,14 +80646,14 @@
             "temporal": "1973, 1975-1981, 1985, 1989-2016, 2018-2019",
             "modified": "2025-04-21",
             "keyword": [
-                "ambulatory-care",
-                "visit characteristics",
-                "restricted",
-                "research-data-center",
+                "namcs",
+                "office-based physicians",
                 "physicians",
                 "physician office visits",
-                "office-based physicians",
-                "namcs"
+                "restricted",
+                "visit characteristics",
+                "research-data-center",
+                "ambulatory-care"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -81054,13 +81054,13 @@
             ],
             "keyword": [
                 "cms",
-                "healthcare",
                 "housing",
-                "hud",
+                "healthcare",
                 "linked hud data",
                 "linked hud files",
+                "nhis",
                 "linked medicare data",
-                "nhis"
+                "hud"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -81504,14 +81504,14 @@
             "@type": "dcat:Dataset",
             "modified": "2021-01-07",
             "keyword": [
-                "netss",
-                "wonder",
-                "shigellosis",
-                "nedss",
-                "shiga toxin-producing escherichia coli (stec)",
                 "2020",
+                "nedss",
+                "netss",
+                "nndss",
                 "severe acute respiratory syndrome-associated coronavirus disease",
-                "nndss"
+                "shiga toxin-producing escherichia coli (stec)",
+                "shigellosis",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -81635,7 +81635,7 @@
             ],
             "issued": "2022-01-18",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "2022",
                 "2023",
@@ -82096,12 +82096,12 @@
             "@type": "dcat:Dataset",
             "modified": "2023-07-27",
             "keyword": [
-                "fact sheet",
-                "casinos",
                 "infographic",
-                "secondhand smoke",
                 "smokefree",
-                "gaming"
+                "casinos",
+                "fact sheet",
+                "gaming",
+                "secondhand smoke"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -82712,20 +82712,20 @@
             "temporal": "2020-01-01/2020-12-31",
             "modified": "2025-04-21",
             "keyword": [
-                "age",
-                "age group",
-                "all causes",
                 "coronavirus",
-                "county",
                 "covid-19",
-                "deaths",
-                "mortality",
-                "nchs",
-                "nvss",
-                "provisional",
-                "sdoh-environmental",
+                "county",
+                "all causes",
+                "age group",
+                "age",
+                "yearly",
                 "united states",
-                "yearly"
+                "sdoh-environmental",
+                "provisional",
+                "nvss",
+                "nchs",
+                "mortality",
+                "deaths"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -82787,14 +82787,14 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "2019",
-                "hepatitis c",
-                "influenza-associated pediatric mortality",
-                "nedss",
                 "netss",
-                "nndss",
+                "wonder",
                 "perinatal infection",
-                "wonder"
+                "nndss",
+                "nedss",
+                "influenza-associated pediatric mortality",
+                "hepatitis c",
+                "2019"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -82917,7 +82917,7 @@
             ],
             "issued": "2025-09-26",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "monkeypox virus",
                 "mpxv",
@@ -82991,13 +82991,13 @@
             "temporal": "2012-09/2023-03",
             "modified": "2025-04-21",
             "keyword": [
-                "research-data-center",
-                "sdoh-access-to-health-care",
-                "sdoh-transportation",
-                "adult day services centers",
-                "long-term care",
                 "sdoh-use-of-health-care",
-                "covid-19"
+                "sdoh-transportation",
+                "sdoh-access-to-health-care",
+                "covid-19",
+                "long-term care",
+                "adult day services centers",
+                "research-data-center"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -83143,13 +83143,13 @@
             "@type": "dcat:Dataset",
             "modified": "2022-02-11",
             "keyword": [
-                "rubella",
-                "rubella congenital syndrome",
-                "wonder",
                 "2022",
                 "nedss",
                 "netss",
-                "nndss"
+                "nndss",
+                "rubella",
+                "rubella congenital syndrome",
+                "wonder"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -83729,12 +83729,12 @@
             "@type": "dcat:Dataset",
             "modified": "2025-02-23",
             "keyword": [
+                "healthcare worker",
+                "ncird-corvd",
                 "coronavirus",
                 "covid-19",
                 "deaths",
-                "healthcare personnel",
-                "healthcare worker",
-                "ncird-corvd"
+                "healthcare personnel"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -83923,21 +83923,21 @@
             "@type": "dcat:Dataset",
             "modified": "2025-04-21",
             "keyword": [
-                "age",
+                "coronavirus",
                 "age group",
                 "all causes",
-                "coronavirus",
+                "nvss",
+                "nchs",
+                "mortality",
+                "hispanic origin",
                 "covid-19",
                 "deaths",
                 "hhs region",
-                "hispanic origin",
-                "mortality",
-                "nchs",
-                "nvss",
-                "provisional",
-                "race",
+                "weekly",
                 "united states",
-                "weekly"
+                "race",
+                "provisional",
+                "age"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -84475,16 +84475,16 @@
             "@type": "dcat:Dataset",
             "modified": "2019-05-30",
             "keyword": [
-                "nedss",
                 "hepatitis (viral",
-                "hemolytic uremic syndrome post-diarrheal",
-                "by type) b",
-                "by type) a",
-                "acute",
-                "2019",
                 "netss",
+                "wonder",
                 "nndss",
-                "wonder"
+                "2019",
+                "acute",
+                "by type) a",
+                "by type) b",
+                "hemolytic uremic syndrome post-diarrheal",
+                "nedss"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -85056,8 +85056,8 @@
             "temporal": "2023-2024",
             "modified": "2025-02-04",
             "keyword": [
-                "covid-19 vaccination",
-                "nis"
+                "nis",
+                "covid-19 vaccination"
             ],
             "contactPoint": {
                 "@type": "vcard:Contact",
@@ -85529,7 +85529,7 @@
             ],
             "issued": "2025-12-01",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-12",
+            "modified": "2025-12-19",
             "keyword": [
                 "flu",
                 "influenza",
@@ -86037,7 +86037,7 @@
             ],
             "issued": "2023-12-14",
             "@type": "dcat:Dataset",
-            "modified": "2025-12-11",
+            "modified": "2025-12-18",
             "keyword": [
                 "age",
                 "age group",
@@ -86114,7 +86114,7 @@
             "issued": "2025-12-09",
             "@type": "dcat:Dataset",
             "temporal": "2024-2025",
-            "modified": "2025-12-10",
+            "modified": "2025-12-17",
             "keyword": [
                 "cms",
                 "doses distributed",
